@@ -5,14 +5,6 @@
         {
             "packageDownloadUrl": "https://repo1.maven.org/maven2",
             "packageGroupId": "com.azure",
-            "packageArtifactId": "azure-identity",
-            "packageVersion": "1.0.0",
-            "inputPath": [],
-            "excludePath": []
-        },
-        {
-            "packageDownloadUrl": "https://repo1.maven.org/maven2",
-            "packageGroupId": "com.azure",
             "packageArtifactId": "azure-keyvault-secrets",
             "packageVersion": "4.0.0-preview.4",
             "inputPath": [],
