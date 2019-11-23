@@ -18,14 +18,6 @@
                 "packageVersion": "4.0.0",
                 "inputPath": [],
                 "excludePath": []
-            },
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.azure",
-                "packageArtifactId": "azure-security-keyvault-certificates",
-                "packageVersion": "4.0.0",
-                "inputPath": [],
-                "excludePath": []
             }
         ]
     },
@@ -168,7 +160,7 @@
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
-                "packageArtifactId": "azure-keyvault-certificates",
+                "packageArtifactId": "azure-security-keyvault-certificates",
                 "packageVersion": "4.0.0-preview.5",
                 "inputPath": [],
                 "excludePath": []
