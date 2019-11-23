@@ -196,7 +196,7 @@
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
-                "packageArtifactId": "tracing-azure-core-tracing-opencensus",
+                "packageArtifactId": "azure-core-tracing-opencensus",
                 "packageVersion": "1.0.0-preview.4",
                 "inputPath": [],
                 "excludePath": []
