@@ -1,0 +1,99 @@
+### YamlMime:TableOfContent
+- uid: com.azure.messaging.eventhubs
+  name: com.azure.messaging.eventhubs
+  items:
+  - uid: com.azure.messaging.eventhubs.CloseReason
+    name: CloseReason
+  - uid: com.azure.messaging.eventhubs.EventData
+    name: EventData
+  - uid: com.azure.messaging.eventhubs.EventData.SystemProperties
+    name: EventData.SystemProperties
+  - uid: com.azure.messaging.eventhubs.EventDataBatch
+    name: EventDataBatch
+  - uid: com.azure.messaging.eventhubs.EventHubAsyncClient
+    name: EventHubAsyncClient
+  - uid: com.azure.messaging.eventhubs.EventHubAsyncConsumer
+    name: EventHubAsyncConsumer
+  - uid: com.azure.messaging.eventhubs.EventHubAsyncProducer
+    name: EventHubAsyncProducer
+  - uid: com.azure.messaging.eventhubs.EventHubAsyncProducer.EventDataCollector
+    name: EventHubAsyncProducer.EventDataCollector
+  - uid: com.azure.messaging.eventhubs.EventHubClient
+    name: EventHubClient
+  - uid: com.azure.messaging.eventhubs.EventHubClientBuilder
+    name: EventHubClientBuilder
+  - uid: com.azure.messaging.eventhubs.EventHubConsumer
+    name: EventHubConsumer
+  - uid: com.azure.messaging.eventhubs.EventHubMessageSerializer
+    name: EventHubMessageSerializer
+  - uid: com.azure.messaging.eventhubs.EventHubProducer
+    name: EventHubProducer
+  - uid: com.azure.messaging.eventhubs.EventHubProperties
+    name: EventHubProperties
+  - uid: com.azure.messaging.eventhubs.EventHubSharedAccessKeyCredential
+    name: EventHubSharedAccessKeyCredential
+  - uid: com.azure.messaging.eventhubs.EventProcessor
+    name: EventProcessor
+  - uid: com.azure.messaging.eventhubs.EventProcessorBuilder
+    name: EventProcessorBuilder
+  - uid: com.azure.messaging.eventhubs.InMemoryPartitionManager
+    name: InMemoryPartitionManager
+  - uid: com.azure.messaging.eventhubs.PartitionManager
+    name: PartitionManager
+  - uid: com.azure.messaging.eventhubs.PartitionProcessor
+    name: PartitionProcessor
+  - uid: com.azure.messaging.eventhubs.PartitionProperties
+    name: PartitionProperties
+- uid: com.azure.messaging.eventhubs.implementation
+  name: com.azure.messaging.eventhubs.implementation
+  items:
+  - uid: com.azure.messaging.eventhubs.implementation.ClientConstants
+    name: ClientConstants
+  - uid: com.azure.messaging.eventhubs.implementation.EventHubConnection
+    name: EventHubConnection
+  - uid: com.azure.messaging.eventhubs.implementation.EventHubManagementNode
+    name: EventHubManagementNode
+  - uid: com.azure.messaging.eventhubs.implementation.EventHubReactorConnection
+    name: EventHubReactorConnection
+  - uid: com.azure.messaging.eventhubs.implementation.EventHubReactorSession
+    name: EventHubReactorSession
+  - uid: com.azure.messaging.eventhubs.implementation.EventHubSession
+    name: EventHubSession
+  - uid: com.azure.messaging.eventhubs.implementation.ManagementChannel
+    name: ManagementChannel
+  - uid: com.azure.messaging.eventhubs.implementation.PartitionBasedLoadBalancer
+    name: PartitionBasedLoadBalancer
+  - uid: com.azure.messaging.eventhubs.implementation.PartitionPumpManager
+    name: PartitionPumpManager
+  - uid: com.azure.messaging.eventhubs.implementation.SynchronousEventSubscriber
+    name: SynchronousEventSubscriber
+  - uid: com.azure.messaging.eventhubs.implementation.SynchronousEventSubscriber.ReceiveTimeoutTask
+    name: SynchronousEventSubscriber.ReceiveTimeoutTask
+  - uid: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork
+    name: SynchronousReceiveWork
+- uid: com.azure.messaging.eventhubs.models
+  name: com.azure.messaging.eventhubs.models
+  items:
+  - uid: com.azure.messaging.eventhubs.models.BatchOptions
+    name: BatchOptions
+  - uid: com.azure.messaging.eventhubs.models.Checkpoint
+    name: Checkpoint
+  - uid: com.azure.messaging.eventhubs.models.EventHubConsumerOptions
+    name: EventHubConsumerOptions
+  - uid: com.azure.messaging.eventhubs.models.EventHubProducerOptions
+    name: EventHubProducerOptions
+  - uid: com.azure.messaging.eventhubs.models.EventPosition
+    name: EventPosition
+  - uid: com.azure.messaging.eventhubs.models.LastEnqueuedEventProperties
+    name: LastEnqueuedEventProperties
+  - uid: com.azure.messaging.eventhubs.models.PartitionContext
+    name: PartitionContext
+  - uid: com.azure.messaging.eventhubs.models.PartitionOwnership
+    name: PartitionOwnership
+  - uid: com.azure.messaging.eventhubs.models.SendOptions
+    name: SendOptions
+- uid: com.azure.messaging.eventhubs.checkpointstore.blob
+  name: com.azure.messaging.eventhubs.checkpointstore.blob
+  items:
+  - uid: com.azure.messaging.eventhubs.checkpointstore.blob.BlobEventProcessorStore
+    name: BlobEventProcessorStore
