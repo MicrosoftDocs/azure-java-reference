@@ -7,7 +7,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-secrets",
-                "packageVersion": "4.0.0",
+                "packageVersion": "4.0.1",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -15,7 +15,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-keys",
-                "packageVersion": "4.0.0",
+                "packageVersion": "4.0.1",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -29,7 +29,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-storage-blob",
-                "packageVersion": "12.0.0",
+                "packageVersion": "12.1.0",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -37,6 +37,14 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-storage-queue",
+                "packageVersion": "12.1.0",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.azure",
+                "packageArtifactId": "azure-storage-file-share",
                 "packageVersion": "12.0.0",
                 "inputPath": [],
                 "excludePath": []
@@ -53,7 +61,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-storage-blob-batch",
-                "packageVersion": "12.0.0",
+                "packageVersion": "12.1.0",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -61,7 +69,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-storage-blob-cryptography",
-                "packageVersion": "12.0.0",
+                "packageVersion": "12.1.0",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -83,7 +91,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-core",
-                "packageVersion": "1.0.0",
+                "packageVersion": "1.1.0",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -97,7 +105,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-identity",
-                "packageVersion": "1.0.0",
+                "packageVersion": "1.0.1",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -119,7 +127,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-core-tracing-opencensus",
-                "packageVersion": "1.0.0-preview.4",
+                "packageVersion": "1.0.0-beta.5",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -133,7 +141,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-messaging-eventhubs",
-                "packageVersion": "5.0.0-preview.4",
+                "packageVersion": "5.0.0-preview.6",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -141,7 +149,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-messaging-eventhubs-checkpointstore-blob",
-                "packageVersion": "1.0.0-preview.3",
+                "packageVersion": "1.0.0-preview.4",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -149,13 +157,13 @@
     },
     {
         "language": "java",
-        "output_path": "docs-ref-autogen/data/stable",
+        "output_path": "docs-ref-autogen/data/preview",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-data-appconfiguration",
-                "packageVersion": "1.0.0-preview.6",
+                "packageVersion": "1.0.0-preview.7",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -169,7 +177,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-certificates",
-                "packageVersion": "4.0.0-preview.5",
+                "packageVersion": "4.0.0-preview.6",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -177,16 +185,22 @@
     },
     {
         "language": "java",
-        "output_path": "docs-ref-autogen/storage/preview",
+        "output_path": "docs-ref-autogen/cosmos/preview",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
-                "packageArtifactId": "azure-storage-file-share",
-                "packageVersion": "12.0.0-preview.5",
+                "packageArtifactId": "azure-cosmos",
+                "packageVersion": "4.0.0-preview.1",
                 "inputPath": [],
                 "excludePath": []
-            },
+            }
+        ]
+    }
+    {
+        "language": "java",
+        "output_path": "docs-ref-autogen/storage/preview",
+        "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
