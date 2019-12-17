@@ -196,7 +196,7 @@
                 "excludePath": []
             }
         ]
-    }
+    },
     {
         "language": "java",
         "output_path": "docs-ref-autogen/storage/preview",
