@@ -163,7 +163,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-data-appconfiguration",
-                "packageVersion": "1.0.0-preview.7",
+                "packageVersion": "1.0.0-beta.7",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -177,7 +177,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-certificates",
-                "packageVersion": "4.0.0-preview.6",
+                "packageVersion": "4.0.0-beta.6",
                 "inputPath": [],
                 "excludePath": []
             }
