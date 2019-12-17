@@ -149,7 +149,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-messaging-eventhubs-checkpointstore-blob",
-                "packageVersion": "1.0.0-preview.4",
+                "packageVersion": "1.0.0-beta.4",
                 "inputPath": [],
                 "excludePath": []
             }
