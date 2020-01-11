@@ -7,7 +7,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-secrets",
-                "packageVersion": "4.0.1",
+                "packageVersion": "4.1.0",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -15,7 +15,15 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-keys",
-                "packageVersion": "4.0.1",
+                "packageVersion": "4.1.0",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.azure",
+                "packageArtifactId": "azure-security-keyvault-certificates",
+                "packageVersion": "4.0.0",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -91,7 +99,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-core",
-                "packageVersion": "1.1.0",
+                "packageVersion": "1.2.0",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -157,27 +165,13 @@
     },
     {
         "language": "java",
-        "output_path": "docs-ref-autogen/data/preview",
+        "output_path": "docs-ref-autogen/data/stable",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-data-appconfiguration",
-                "packageVersion": "1.0.0-beta.7",
-                "inputPath": [],
-                "excludePath": []
-            }
-        ]
-    },
-    {
-        "language": "java",
-        "output_path": "docs-ref-autogen/keyvault/preview",
-        "packages": [
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.azure",
-                "packageArtifactId": "azure-security-keyvault-certificates",
-                "packageVersion": "4.0.0-beta.6",
+                "packageVersion": "1.0.1",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -206,6 +200,20 @@
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-storage-file-datalake",
                 "packageVersion": "12.0.0-preview.6",
+                "inputPath": [],
+                "excludePath": []
+            }
+        ]
+    },
+    {
+        "language": "java",
+        "output_path": "docs-ref-autogen/textanalytics/preview",
+        "packages": [
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.azure",
+                "packageArtifactId": "azure-ai-textanalytics",
+                "packageVersion": "1.0.0-beta.1",
                 "inputPath": [],
                 "excludePath": []
             }
