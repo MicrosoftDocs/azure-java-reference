@@ -7,7 +7,7 @@
           "**/*.yml"
         ],
         "src": "docs-ref-autogen",
-        "dest": "api",
+        "dest": "api/overview/azure",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -61,5 +61,15 @@
     "fileMetadata": {},
     "template": [],
     "dest": "_site"
-  }
+  },
+  "groups": {
+    "preview": {
+      "dest": "unified-latest",
+      "moniker_range": "unified-latest"
+    },
+    "stable": {
+      "dest": "unified-preview",
+      "moniker_range": "unified-preview"
+    },
+  },
 }
