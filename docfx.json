@@ -6,8 +6,10 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "docs-ref-autogen",
+        "src": "unified-latest",
         "dest": "api/overview/azure",
+        "group": "stable",
+        "version": "unified-latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -19,6 +21,8 @@
         ],
         "src": "breadcrumb",
         "dest": "breadcrumb",
+        "group": "stable",
+        "version": "unified-latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -28,6 +32,8 @@
         "files": [
           "**/*.md"
         ],
+        "group": "stable",
+        "version": "unified-latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -46,6 +52,10 @@
           "**/*.jpg",
           "**/*.gif"
         ],
+        "version": "azure-java",
+        "src": "unified-latest",
+        "group": "stable",
+        "version": "unified-latest",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -63,13 +73,21 @@
     "dest": "_site"
   },
   "groups": {
-    "preview": {
+    "stable": {
       "dest": "unified-latest",
       "moniker_range": "unified-latest"
     },
-    "stable": {
+    "preview": {
       "dest": "unified-preview",
       "moniker_range": "unified-preview"
     },
+  },
+  "langs": {
+    "unified-latest/**.yml": [
+      "java"
+    ],
+    "unified-preview/**.yml": [
+      "java"
+    ]
   },
 }
