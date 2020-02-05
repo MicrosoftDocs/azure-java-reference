@@ -52,7 +52,6 @@
           "**/*.jpg",
           "**/*.gif"
         ],
-        "version": "azure-java",
         "src": "unified-latest",
         "group": "stable",
         "version": "unified-latest",
