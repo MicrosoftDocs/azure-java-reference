@@ -143,13 +143,13 @@
     },
     {
         "language": "java",
-        "output_path": "unified-preview/eventhubs",
+        "output_path": "unified-latest/eventhubs",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-messaging-eventhubs",
-                "packageVersion": "5.0.0-preview.5",
+                "packageVersion": "5.0.1",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -157,7 +157,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-messaging-eventhubs-checkpointstore-blob",
-                "packageVersion": "1.0.0-beta.4",
+                "packageVersion": "1.0.1",
                 "inputPath": [],
                 "excludePath": []
             }
