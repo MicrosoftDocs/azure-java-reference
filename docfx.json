@@ -8,11 +8,13 @@
         ],
         "src": "unified-latest",
         "dest": "api/overview/azure",
+        "dest": "api",
         "group": "stable",
         "version": "unified-latest",
         "exclude": [
           "**/obj/**",
-          "**/includes/**"
+          "**/includes/**",
+          "overview/**"
         ]
       },
       {
@@ -32,6 +34,7 @@
         "files": [
           "**/*.md"
         ],
+        "src": "unified-latest",
         "group": "stable",
         "version": "unified-latest",
         "exclude": [

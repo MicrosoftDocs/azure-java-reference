@@ -23,10 +23,13 @@
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1"
+          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1",
+          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
         ]
       },
       "SplitTOC": [
-        "unified-latest/core/toc.yml"
+        "unified-latest/core/toc.yml",
+        // "unified-preview/toc.yml"
       ]
     }
   ],
@@ -60,6 +63,38 @@
       "path_to_root": "_dependentPackages/memberpage.plugins",
       "target_framework": "net45",
       "version": "latest-prerelease"
+    }
+  ],
+  "JoinTOCPlugin": [
+    {
+      "TopLevelTOC": "docs-ref-mapping/reference-latest.yml",
+      "ReferenceTOC": "unified-latest/toc.yml",
+      // "ConceptualTOC": "docs-ref-conceptual/toc.yml",
+      // "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=azure-java-stable",
+      "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
+      "OutputFolder": "unified-latest/overview",
+      "HideEmptyNode": false,
+      "ContainerPageMetadata": {
+        "langs": [
+          "java"
+        ],
+        "open_to_public_contributors": false
+      }
+    },
+    {
+      "TopLevelTOC": "docs-ref-mapping/referenc-preview.yml",
+      "ReferenceTOC": "unified-preview/toc.yml",
+      // "ConceptualTOC": "docs-ref-conceptual/toc.yml",
+      // "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=azure-java-preview",
+      "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-preview",
+      "OutputFolder": "unified-preview/overview",
+      "HideEmptyNode": false,
+      "ContainerPageMetadata": {
+        "langs": [
+          "java"
+        ],
+        "open_to_public_contributors": false
+      }
     }
   ]
 }
