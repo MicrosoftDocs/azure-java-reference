@@ -6,7 +6,10 @@
       "build_output_subfolder": "azure/sdk/java",
       "locale": "en-us",
       "monikers": [],
-      "moniker_ranges": ["unified-latest", "unified-preview"],
+      "moniker_ranges": [
+        "unified-latest",
+        "unified-preview"
+      ],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -28,8 +31,7 @@
         ]
       },
       "SplitTOC": [
-        "unified-latest/core/toc.yml",
-        // "unified-preview/toc.yml"
+        "unified-latest/core/toc.yml"
       ]
     }
   ],
@@ -69,8 +71,6 @@
     {
       "TopLevelTOC": "docs-ref-mapping/reference-latest.yml",
       "ReferenceTOC": "unified-latest/toc.yml",
-      // "ConceptualTOC": "docs-ref-conceptual/toc.yml",
-      // "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=azure-java-stable",
       "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
       "OutputFolder": "unified-latest/overview",
       "HideEmptyNode": false,
@@ -84,8 +84,6 @@
     {
       "TopLevelTOC": "docs-ref-mapping/referenc-preview.yml",
       "ReferenceTOC": "unified-preview/toc.yml",
-      // "ConceptualTOC": "docs-ref-conceptual/toc.yml",
-      // "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=azure-java-preview",
       "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-preview",
       "OutputFolder": "unified-preview/overview",
       "HideEmptyNode": false,
