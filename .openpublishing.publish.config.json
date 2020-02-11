@@ -1,7 +1,7 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "AzureJava",
+      "docset_name": "AzureMavenRef",
       "build_source_folder": ".",
       "build_output_subfolder": "azure/sdk/java",
       "locale": "en-us",
