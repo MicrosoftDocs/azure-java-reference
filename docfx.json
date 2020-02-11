@@ -21,6 +21,21 @@
         "files": [
           "**/*.yml"
         ],
+        "src": "unified-latest/overview",
+        "dest": "api/overview/azure",
+        "dest": "api",
+        "group": "stable",
+        "version": "unified-latest",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "overview/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.yml"
+        ],
         "src": "breadcrumb",
         "dest": "breadcrumb",
         "group": "stable",

@@ -5,7 +5,6 @@
       "build_source_folder": ".",
       "build_output_subfolder": "azure/sdk/java",
       "locale": "en-us",
-      "monikers": [],
       "moniker_ranges": [
         "unified-latest",
         "unified-preview"
@@ -30,6 +29,9 @@
           "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
         ]
       },
+      "DiffFolder": [ 
+        "api" 
+      ],
       "SplitTOC": [
         "unified-latest/core/toc.yml"
       ]
