@@ -9,7 +9,6 @@
         "src": "unified-latest",
         "dest": "api/overview/azure",
         "dest": "api",
-        "group": "stable",
         "version": "unified-latest",
         "exclude": [
           "**/obj/**",
@@ -24,7 +23,6 @@
         "src": "unified-latest/overview",
         "dest": "api/overview/azure",
         "dest": "api",
-        "group": "stable",
         "version": "unified-latest",
         "exclude": [
           "**/obj/**",
@@ -38,7 +36,6 @@
         ],
         "src": "breadcrumb",
         "dest": "breadcrumb",
-        "group": "stable",
         "version": "unified-latest",
         "exclude": [
           "**/obj/**",
@@ -50,7 +47,6 @@
           "**/*.md"
         ],
         "src": "unified-latest",
-        "group": "stable",
         "version": "unified-latest",
         "exclude": [
           "**/obj/**",
@@ -71,7 +67,6 @@
           "**/*.gif"
         ],
         "src": "unified-latest",
-        "group": "stable",
         "version": "unified-latest",
         "exclude": [
           "**/obj/**",
@@ -88,16 +83,6 @@
     "fileMetadata": {},
     "template": [],
     "dest": "_site"
-  },
-  "groups": {
-    "stable": {
-      "dest": "unified-latest",
-      "moniker_range": "unified-latest"
-    },
-    "preview": {
-      "dest": "unified-preview",
-      "moniker_range": "unified-preview"
-    }
   },
   "langs": {
     "unified-latest/**.yml": [
