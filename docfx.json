@@ -97,7 +97,7 @@
     "preview": {
       "dest": "unified-preview",
       "moniker_range": "unified-preview"
-    },
+    }
   },
   "langs": {
     "unified-latest/**.yml": [
@@ -106,5 +106,5 @@
     "unified-preview/**.yml": [
       "java"
     ]
-  },
+  }
 }
