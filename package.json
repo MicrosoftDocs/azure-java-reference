@@ -1,7 +1,7 @@
 [
     {
         "language": "java",
-        "output_path": "unified-latest/keyvault",
+        "output_path": "unified-latest",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -31,7 +31,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-latest/storage",
+        "output_path": "unified-latest",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -93,7 +93,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-latest/core",
+        "output_path": "unified-latest",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -107,7 +107,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-latest/identity",
+        "output_path": "unified-latest",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -121,7 +121,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-preview/tracing",
+        "output_path": "unified-preview",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -143,7 +143,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-latest/eventhubs",
+        "output_path": "unified-latest",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -165,7 +165,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-latest/data",
+        "output_path": "unified-latest",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -179,7 +179,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-preview/cosmos",
+        "output_path": "unified-preview",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -193,7 +193,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-preview/storage",
+        "output_path": "unified-preview",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -207,7 +207,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-preview/textanalytics",
+        "output_path": "unified-preview",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
