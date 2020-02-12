@@ -54,13 +54,18 @@ if __name__ == "__main__":
         # Read YAML file
         with open(member_file, 'r') as stream:
           data_loaded = yaml.safe_load(stream)
-
-        print(data_loaded)
       except:
-        print("Can't find {}".format(member_file)) 
-      #print(full_namespace)
+        print("Can't find {}".format(member_file))
+
+      print(full_namespace)
       namespace_members = [os.path.basename(file) for file in glob.glob(full_namespace + '*')]
-      #print(namespace_members)
+
+      if namespace == "unified-latest\\core\\com.azure.data.appconfiguration"
+      
+  
+
+
+
 
 
       
