@@ -4,7 +4,12 @@
   expanded: false
   items:
     - name: Core
-      uid: azure.java.sdk.landingpage.services.runtime
+      uid: azure.java.sdk.landingpage.services.core
       landingPageType: Service
       children:
       - com.azure.core*
+    - name: App Configuration
+      uid: azure.java.sdk.landingpage.services.appconfig
+      landingPageType: Service
+      children:
+      - com.azure.data.appconfiguration*
