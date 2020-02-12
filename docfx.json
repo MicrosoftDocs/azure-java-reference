@@ -10,6 +10,7 @@
         "dest": "api/overview/azure",
         "dest": "api",
         "version": "unified-latest",
+        "group": "stable",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -24,6 +25,7 @@
         "dest": "api/overview/azure",
         "dest": "api",
         "version": "unified-latest",
+        "group": "stable",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -37,6 +39,7 @@
         "src": "breadcrumb",
         "dest": "breadcrumb",
         "version": "unified-latest",
+        "group": "stable",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -48,6 +51,7 @@
         ],
         "src": "unified-latest",
         "version": "unified-latest",
+        "group": "stable",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
@@ -67,6 +71,7 @@
           "**/*.gif"
         ],
         "src": "unified-latest",
+        "group": "stable",
         "version": "unified-latest",
         "exclude": [
           "**/obj/**",
@@ -74,6 +79,16 @@
         ]
       }
     ],
+    "groups": {
+      "preview": {
+        "dest": "preview",
+        "moniker_range": "unified-preview"
+      },
+      "stable": {
+        "dest": "stable",
+        "moniker_range": "unified-latest"
+      }
+    },
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
