@@ -12,11 +12,32 @@ import json
 import os
 import glob
 import yaml
+import pdb
+
+NAMESPACE_OUTPUT_TEMPLATE = """- uid: "{namespace}"
+  name: "{namespace}"
+  items:
+{member_classes}
+"""
+
+MEMBER_OUTPUT_TEMPLATE = """  - uid: \"{member_uid}\"
+    name: \"{member_name}\""""
 
 def output_namespace_yml(namespace_key, namespace_results):
-  print(namespace_key)
-  print(namespace_results)
+  top_level_members = sorted([member for member in namespace_results if not member.split('.')[-1][0].isupper()], key=lambda namespace: len(namespace.split(".")))
+  output = ""
+  for top_level_member in top_level_members:
+    top_level_member_array = top_level_member.split(".")
+    
+    members = [member for member in namespace_results if member.split(".")[0:-1] == top_level_member_array and member.split('.')[-1][0].isupper()]
+    sorted_members = sorted(members, key=lambda x: x.split(".")[-1])
 
+
+    output += NAMESPACE_OUTPUT_TEMPLATE.format(
+      namespace=top_level_member,
+      member_classes="\n".join([MEMBER_OUTPUT_TEMPLATE.format(member_uid=member,member_name=member.split(".")[-1]) for member in sorted_members])
+    )
+  return output
 
 def read_yaml_file(member_file):
   try:
@@ -53,12 +74,13 @@ if __name__ == "__main__":
     chosen_service_folder = [results for results in os.listdir('./{path}/'.format(path=moniker_path))][0]
 
     member_discovery_folder = os.path.join(moniker_path, chosen_service_folder)
-    toc_output_path = os.path.join(member_discovery_folder, 'toc.yml')
+    toc_output_path = os.path.join(member_discovery_folder, 'toc_new.yml')
 
     print(member_discovery_folder)
     print(toc_output_path)    
 
     namespace_members = {}
+    yaml_output = ""
 
     for namespace in moniker_maps[moniker_path]:
       full_namespace = namespace[0] + '.' + namespace[1].replace('-','.')
@@ -67,14 +89,16 @@ if __name__ == "__main__":
       if full_namespace not in namespace_members:
         namespace_members[full_namespace] = []
 
-      namespace_members[full_namespace].extend([os.path.basename(file) for file in glob.glob(full_namespace_path + '*')])
+      namespace_members[full_namespace].extend([os.path.splitext(os.path.basename(file))[0] for file in glob.glob(full_namespace_path + '*')])
 
     for i in namespace_members:
-      output_namespace_yml(i, namespace_members[i])
-
-    exit(0)
+      yaml_output += output_namespace_yml(i, namespace_members[i])
 
 
+    print(yaml_output)
+    with open(toc_output_path, "w") as f:
+      f.write("### YamlMime:TableOfContent\n")
+      f.write(yaml_output)
 
 
 
