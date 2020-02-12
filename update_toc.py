@@ -4,14 +4,28 @@
 #   PyYaml is installed `python -m pip install pyyaml`
 
 # This script is designed as a stopgap way to repair the global ToC necessary to power docs.microsoft.com. 
-# Currently the ToC from a CI run only includes the first package of whichever set
-# For the unified-latest moniker, need to update the ToC under core/toc.yml to include all the packages within 
+# Currently the ToC from a CI run only includes the first package of whichever set is being run.
+# For the unified-latest moniker, this script will update the ToC under core/toc.yml to include all the packages within 
 # package.json
 
 import json
 import os
 import glob
 import yaml
+
+def output_namespace_yml(namespace_key, namespace_results):
+  print(namespace_key)
+  print(namespace_results)
+
+
+def read_yaml_file(member_file):
+  try:
+    # Read YAML file
+    with open(member_file, 'r') as stream:
+      data_loaded = yaml.safe_load(stream)
+  except:
+    print("Can't find {}".format(member_file))
+
 
 if __name__ == "__main__":
   # parse packages.json
@@ -44,31 +58,23 @@ if __name__ == "__main__":
     print(member_discovery_folder)
     print(toc_output_path)    
 
+    namespace_members = {}
+
     for namespace in moniker_maps[moniker_path]:
-      full_namespace = os.path.join(member_discovery_folder, namespace[0] + '.' + namespace[1].replace('-','.'))
+      full_namespace = namespace[0] + '.' + namespace[1].replace('-','.')
+      full_namespace_path = os.path.join(member_discovery_folder, full_namespace)
+      member_file = full_namespace_path +".yml"
+      if full_namespace not in namespace_members:
+        namespace_members[full_namespace] = []
 
-      member_file = full_namespace +".yml"
+      namespace_members[full_namespace].extend([os.path.basename(file) for file in glob.glob(full_namespace_path + '*')])
 
+    for i in namespace_members:
+      output_namespace_yml(i, namespace_members[i])
 
-      try:
-        # Read YAML file
-        with open(member_file, 'r') as stream:
-          data_loaded = yaml.safe_load(stream)
-      except:
-        print("Can't find {}".format(member_file))
-
-      print(full_namespace)
-      namespace_members = [os.path.basename(file) for file in glob.glob(full_namespace + '*')]
-
-      if namespace == "unified-latest\\core\\com.azure.data.appconfiguration"
-      
-  
+    exit(0)
 
 
-
-
-
-      
 
 
 
