@@ -24,7 +24,7 @@
         "src": "unified-latest/overview",
         "dest": "api/overview/azure",
         "group": "stable",
-        "version": "azure-java-stable"
+        "version": "unified-latest"
       },
       {
         "files": [
