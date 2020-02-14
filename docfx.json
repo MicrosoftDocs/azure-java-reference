@@ -12,8 +12,19 @@
         "group": "stable",
         "exclude": [
           "**/obj/**",
+          "overview/**",
           "**/includes/**"
         ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "unified-latest/overview",
+        "dest": "api/overview/azure",
+        "group": "stable",
+        "version": "azure-java-stable"
       },
       {
         "files": [
