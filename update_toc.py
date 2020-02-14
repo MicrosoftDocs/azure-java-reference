@@ -89,7 +89,7 @@ if __name__ == "__main__":
       if full_namespace not in namespace_members:
         namespace_members[full_namespace] = []
 
-      namespace_members[full_namespace].extend([os.path.splitext(os.path.basename(file))[0] for file in glob.glob(full_namespace_path + '*')])
+      namespace_members[full_namespace].extend([os.path.splitext(os.path.basename(file))[0] for file in glob.glob(full_namespace_path + '*') if ".implementation" not in os.path.splitext(os.path.basename(file))[0]])
 
     for i in namespace_members:
       yaml_output += output_namespace_yml(i, namespace_members[i])
