@@ -90,19 +90,6 @@
         ],
         "open_to_public_contributors": false
       }
-    },
-    {
-      "TopLevelTOC": "docs-ref-mapping/reference-preview.yml",
-      "ReferenceTOC": "unified-preview/toc.yml",
-      "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-preview",
-      "OutputFolder": "unified-preview/overview",
-      "HideEmptyNode": false,
-      "ContainerPageMetadata": {
-        "langs": [
-          "java"
-        ],
-        "open_to_public_contributors": false
-      }
     }
   ]
 }
