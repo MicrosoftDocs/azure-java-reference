@@ -18,7 +18,6 @@
       },
       {
         "files": [
-          "**/*.md",
           "**/*.yml"
         ],
         "src": "unified-latest/overview",
