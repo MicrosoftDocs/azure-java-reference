@@ -34,7 +34,7 @@
         "api" 
       ],
       "SplitTOC": [
-        "unified-latest/core/toc.yml"
+        "unified-latest/toc.yml"
       ]
     }
   ],
@@ -80,7 +80,7 @@
   "JoinTOCPlugin": [
     {
       "TopLevelTOC": "docs-ref-mapping/reference-latest.yml",
-      "ReferenceTOC": "unified-latest/core/toc.yml",
+      "ReferenceTOC": "unified-latest/toc.yml",
       "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
       "OutputFolder": "unified-latest/overview",
       "HideEmptyNode": false,

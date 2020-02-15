@@ -13,7 +13,7 @@
       landingPageType: Service
       children:
       - com.azure.core*
-    - name: EventHubs
+    - name: Event Hubs
       uid: azure.java.sdk.landingpage.services.eventhubs
       landingPageType: Service
       children:
