@@ -27,16 +27,6 @@
       },
       {
         "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "src": "unified-latest/core/overview",
-        "dest": "api/overview/azure",
-        "group": "stable",
-        "version": "unified-latest"
-      },
-      {
-        "files": [
           "**/*.yml"
         ],
         "src": "breadcrumb",
