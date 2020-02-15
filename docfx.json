@@ -3,6 +3,15 @@
     "content": [
       {
         "files": [
+          "**/*.yml"
+        ],
+        "src": "unified-latest/overview",
+        "dest": "api/overview/azure",
+        "group": "stable",
+        "version": "unified-latest"
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
@@ -12,18 +21,23 @@
         "group": "stable",
         "exclude": [
           "**/obj/**",
+          "**/toc.yml",
           "overview/**",
           "**/includes/**"
         ]
       },
       {
         "files": [
-          "**/*.yml"
+          "**/toc.yml"
         ],
-        "src": "unified-latest/overview",
-        "dest": "api/overview/azure",
+        "src": "unified-latest",
+        "dest": "api/azure-java-sdk",
         "group": "stable",
-        "version": "unified-latest"
+        "version": "azure-java-stable",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
       },
       {
         "files": [
