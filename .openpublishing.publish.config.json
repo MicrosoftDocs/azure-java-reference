@@ -82,7 +82,7 @@
       "TopLevelTOC": "docs-ref-mapping/reference-latest.yml",
       "ReferenceTOC": "unified-latest/toc.yml",
       "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
-      "OutputFolder": "unified-latest/overview",
+      "OutputFolder": "unified-latest",
       "HideEmptyNode": false,
       "ContainerPageMetadata": {
         "langs": [
