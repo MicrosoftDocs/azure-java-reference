@@ -7,7 +7,7 @@
           "**/*.yml"
         ],
         "src": "unified-latest",
-        "dest": "api",
+        "dest": "api/overview/azure",
         "version": "unified-latest",
         "group": "stable",
         "exclude": [
