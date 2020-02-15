@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: "com.azure.cosmos.internal.query.orderbyquery"
+  id: "orderbyquery"
+  children:
+  - "com.azure.cosmos.internal.query.orderbyquery.OrderByRowResult"
+  - "com.azure.cosmos.internal.query.orderbyquery.OrderbyRowComparer"
+  langs:
+  - "java"
+  name: "com.azure.cosmos.internal.query.orderbyquery"
+  nameWithType: "com.azure.cosmos.internal.query.orderbyquery"
+  fullName: "com.azure.cosmos.internal.query.orderbyquery"
+  type: "Namespace"
+  syntax:
+    content: "package com.azure.cosmos.internal.query.orderbyquery"
+references:
+- uid: "com.azure.cosmos.internal.query.orderbyquery.OrderByRowResult"
+  name: "OrderByRowResult<T>"
+  nameWithType: "OrderByRowResult<T>"
+  fullName: "com.azure.cosmos.internal.query.orderbyquery.OrderByRowResult<T>"
+- uid: "com.azure.cosmos.internal.query.orderbyquery.OrderbyRowComparer"
+  name: "OrderbyRowComparer<T>"
+  nameWithType: "OrderbyRowComparer<T>"
+  fullName: "com.azure.cosmos.internal.query.orderbyquery.OrderbyRowComparer<T>"
