@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: "com.microsoft.azure.storage.table.StoreAs"
+  id: "StoreAs"
+  parent: "com.microsoft.azure.storage.table"
+  children:
+  - "com.microsoft.azure.storage.table.StoreAs.name()"
+  langs:
+  - "java"
+  name: "StoreAs"
+  nameWithType: "StoreAs"
+  fullName: "com.microsoft.azure.storage.table.StoreAs"
+  type: "Interface"
+  package: "com.microsoft.azure.storage.table"
+  summary: "An annotation used to override the name a property is serialized and deserialized with using reflection. Use this annotation to specify the property name to associate with the data stored by a setter method or retrieved by a getter method in a class implementing <xref uid=\"com.microsoft.azure.storage.table.TableEntity\" data-throw-if-not-resolved=\"false\">TableEntity</xref> that uses reflection-based serialization and deserialization. Note that the names \"PartitionKey\", \"RowKey\", \"Timestamp\", and \"Etag\" are reserved and will be ignored if set with the `@StoreAs` annotation.\n\nExample:\n\n`@StoreAs(name = \"EntityPropertyName\") public String getObjectPropertyName() { ... }`\n\n`@StoreAs(name = \"EntityPropertyName\") public void setObjectPropertyName(String name) { ... }`\n\nThis example shows how the methods that would get and set an entity property named *ObjectPropertyName* in the default case can be annotated to get and set an entity property named *EntityPropertyName*. See the documentation for <xref uid=\"com.microsoft.azure.storage.table.TableServiceEntity\" data-throw-if-not-resolved=\"false\">TableServiceEntity</xref> for more information on using reflection-based serialization and deserialization."
+  syntax:
+    content: "public interface StoreAs implements Annotation"
+  implements:
+  - "java.lang.annotation.Annotation"
+- uid: "com.microsoft.azure.storage.table.StoreAs.name()"
+  id: "name()"
+  parent: "com.microsoft.azure.storage.table.StoreAs"
+  langs:
+  - "java"
+  name: "name()"
+  nameWithType: "StoreAs.name()"
+  fullName: "com.microsoft.azure.storage.table.StoreAs.name()"
+  overload: "com.microsoft.azure.storage.table.StoreAs.name*"
+  type: "Method"
+  package: "com.microsoft.azure.storage.table"
+  syntax:
+    content: "public abstract String name()"
+    return:
+      type: "java.lang.String"
+references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "com.microsoft.azure.storage.table.StoreAs.name*"
+  name: "name"
+  nameWithType: "StoreAs.name"
+  fullName: "com.microsoft.azure.storage.table.StoreAs.name"
+  package: "com.microsoft.azure.storage.table"
+- uid: "java.lang.annotation.Annotation"
+  name: "Annotation"
+  nameWithType: "Annotation"
+  fullName: "java.lang.annotation.Annotation"
