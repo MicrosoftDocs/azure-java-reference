@@ -1,43 +1,30 @@
 {
   "build": {
     "content": [
-      {
-        "files": [
-          "**/*.yml"
-        ],
-        "src": "unified-latest/overview",
-        "dest": "api/overview/azure",
-        "group": "stable",
-        "version": "unified-latest"
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "src": "unified-latest",
-        "dest": "api/overview/azure",
-        "version": "unified-latest",
-        "group": "stable",
-        "exclude": [
-          "**/obj/**",
-          "**/toc.yml",
-          "overview/**",
-          "**/includes/**"
-        ]
-      },
-      {
-        "files": [
-          "**/toc.yml"
-        ],
-        "src": "unified-latest",
-        "dest": "api/azure-java-sdk",
-        "group": "stable",
-        "version": "azure-java-stable",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
+      { 
+        "files": [  
+          "**/*.md",  
+          "**/*.yml"  
+        ],  
+        "src": "unified-latest",  
+        "dest": "api/overview/azure", 
+        "version": "unified-latest",  
+        "group": "stable",  
+        "exclude": [  
+          "**/obj/**",  
+          "**/includes/**",
+          "overview/**"
+        ] 
+      },  
+      { 
+        "files": [  
+          "**/*.md",  
+          "**/*.yml"  
+        ],  
+        "src": "unified-latest/overview",  
+        "dest": "api/overview/azure", 
+        "group": "stable",  
+        "version": "unified-latest" 
       },
       {
         "files": [
