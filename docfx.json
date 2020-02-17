@@ -28,6 +28,19 @@
       },
       {
         "files": [
+          "**/toc.yml"
+        ],
+        "src": "unified-latest",
+        "dest": "api/azure-java-sdk",
+        "group": "stable",
+        "version": "azure-java-stable",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
           "**/*.yml"
         ],
         "src": "breadcrumb",
