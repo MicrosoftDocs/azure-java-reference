@@ -71,7 +71,7 @@ if __name__ == "__main__":
   # choose the first service folder (should be core)
   for moniker_path in moniker_maps.keys():
     print('STARTING {}'.format(moniker_path))
-    chosen_service_folder = [results for results in os.listdir('./{path}/'.format(path=moniker_path))][0]
+    chosen_service_folder = [results for results in os.listdir('./{path}/'.format(path=moniker_path))][0] or ''
 
     member_discovery_folder = os.path.join(moniker_path, chosen_service_folder)
     toc_output_path = os.path.join(member_discovery_folder, 'toc_new.yml')
