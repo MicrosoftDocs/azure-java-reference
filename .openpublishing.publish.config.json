@@ -80,8 +80,9 @@
   "JoinTOCPlugin": [
     {
       "TopLevelTOC": "docs-ref-mapping/reference-latest.yml",
-      "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=unified-latest",
+      "ReferenceTOC": "unified-latest/toc.yml", 
       "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
+      "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=unified-latest",
       "OutputFolder": "unified-latest/overview",
       "HideEmptyNode": false,
       "ContainerPageMetadata": {
