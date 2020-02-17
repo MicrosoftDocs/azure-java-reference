@@ -12,7 +12,6 @@
         "group": "stable",
         "exclude": [
           "**/obj/**",
-          "overview/**",
           "**/includes/**"
         ]
       },
