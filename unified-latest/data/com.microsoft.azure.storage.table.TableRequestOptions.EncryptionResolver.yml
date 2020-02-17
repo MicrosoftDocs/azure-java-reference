@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver"
+  id: "EncryptionResolver"
+  parent: "com.microsoft.azure.storage.table"
+  children:
+  - "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver.encryptionResolver(java.lang.String,java.lang.String,java.lang.String)"
+  langs:
+  - "java"
+  name: "TableRequestOptions.EncryptionResolver"
+  nameWithType: "TableRequestOptions.EncryptionResolver"
+  fullName: "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver"
+  type: "Interface"
+  package: "com.microsoft.azure.storage.table"
+  summary: "The interface whose function is used to get the value indicating whether a property should be encrypted or not given the partition key, row key, and the property name."
+  syntax:
+    content: "public static interface TableRequestOptions.EncryptionResolver"
+- uid: "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver.encryptionResolver(java.lang.String,java.lang.String,java.lang.String)"
+  id: "encryptionResolver(java.lang.String,java.lang.String,java.lang.String)"
+  parent: "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver"
+  langs:
+  - "java"
+  name: "encryptionResolver(String pk, String rk, String key)"
+  nameWithType: "TableRequestOptions.EncryptionResolver.encryptionResolver(String pk, String rk, String key)"
+  fullName: "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver.encryptionResolver(String pk, String rk, String key)"
+  overload: "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver.encryptionResolver*"
+  type: "Method"
+  package: "com.microsoft.azure.storage.table"
+  summary: "Given the partition key, row, key, and the property name, produces a boolean indicating whether to encrypt the property."
+  syntax:
+    content: "public abstract boolean encryptionResolver(String pk, String rk, String key)"
+    parameters:
+    - id: "pk"
+      type: "java.lang.String"
+      description: "A <code>String</code> which represents the partition key."
+    - id: "rk"
+      type: "java.lang.String"
+      description: "A <code>String</code> which represents the row key."
+    - id: "key"
+      type: "java.lang.String"
+      description: "A <code>String</code> which represents the property name."
+    return:
+      type: "boolean"
+      description: "A <code>boolean</code> indicating whether the property should be encrypted."
+references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
+- uid: "boolean"
+  spec.java:
+  - uid: "boolean"
+    name: "boolean"
+    fullName: "boolean"
+- uid: "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver.encryptionResolver*"
+  name: "encryptionResolver"
+  nameWithType: "TableRequestOptions.EncryptionResolver.encryptionResolver"
+  fullName: "com.microsoft.azure.storage.table.TableRequestOptions.EncryptionResolver.encryptionResolver"
+  package: "com.microsoft.azure.storage.table"
