@@ -1952,16 +1952,6 @@
   - uid: com.azure.messaging.eventhubs.checkpointstore.blob.Messages
     name: Messages
     href: com.azure.messaging.eventhubs.checkpointstore.blob.Messages.yml
-- uid: com.azure.messaging.eventhubs.checkpointstore.blob
-  name: com.azure.messaging.eventhubs.checkpointstore.blob
-  href: com.azure.messaging.eventhubs.checkpointstore.blob.yml
-  items:
-  - uid: com.azure.messaging.eventhubs.checkpointstore.blob.BlobCheckpointStore
-    name: BlobCheckpointStore
-    href: com.azure.messaging.eventhubs.checkpointstore.blob.BlobCheckpointStore.yml
-  - uid: com.azure.messaging.eventhubs.checkpointstore.blob.Messages
-    name: Messages
-    href: com.azure.messaging.eventhubs.checkpointstore.blob.Messages.yml
 - uid: com.azure.data.appconfiguration
   name: com.azure.data.appconfiguration
   href: com.azure.data.appconfiguration.yml
