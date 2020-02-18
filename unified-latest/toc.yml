@@ -1,1338 +1,2024 @@
 ### YamlMime:TableOfContent
-- uid: "com.azure.security.keyvault.secrets"
-  name: "com.azure.security.keyvault.secrets"
+- uid: com.azure.security.keyvault.secrets
+  name: com.azure.security.keyvault.secrets
+  href: com.azure.security.keyvault.secrets.yml
   items:
-  - uid: "com.azure.security.keyvault.secrets.KeyVaultErrorCodeStrings"
-    name: "KeyVaultErrorCodeStrings"
-  - uid: "com.azure.security.keyvault.secrets.SecretAsyncClient"
-    name: "SecretAsyncClient"
-  - uid: "com.azure.security.keyvault.secrets.SecretBackup"
-    name: "SecretBackup"
-  - uid: "com.azure.security.keyvault.secrets.SecretClient"
-    name: "SecretClient"
-  - uid: "com.azure.security.keyvault.secrets.SecretClientBuilder"
-    name: "SecretClientBuilder"
-  - uid: "com.azure.security.keyvault.secrets.SecretRequestAttributes"
-    name: "SecretRequestAttributes"
-  - uid: "com.azure.security.keyvault.secrets.SecretRequestParameters"
-    name: "SecretRequestParameters"
-  - uid: "com.azure.security.keyvault.secrets.SecretRestoreRequestParameters"
-    name: "SecretRestoreRequestParameters"
-  - uid: "com.azure.security.keyvault.secrets.SecretService"
-    name: "SecretService"
-  - uid: "com.azure.security.keyvault.secrets.SecretServiceVersion"
-    name: "SecretServiceVersion"
-- uid: "com.azure.security.keyvault.secrets.models"
-  name: "com.azure.security.keyvault.secrets.models"
+  - uid: com.azure.security.keyvault.secrets.KeyVaultErrorCodeStrings
+    name: KeyVaultErrorCodeStrings
+    href: com.azure.security.keyvault.secrets.KeyVaultErrorCodeStrings.yml
+  - uid: com.azure.security.keyvault.secrets.SecretAsyncClient
+    name: SecretAsyncClient
+    href: com.azure.security.keyvault.secrets.SecretAsyncClient.yml
+  - uid: com.azure.security.keyvault.secrets.SecretBackup
+    name: SecretBackup
+    href: com.azure.security.keyvault.secrets.SecretBackup.yml
+  - uid: com.azure.security.keyvault.secrets.SecretClient
+    name: SecretClient
+    href: com.azure.security.keyvault.secrets.SecretClient.yml
+  - uid: com.azure.security.keyvault.secrets.SecretClientBuilder
+    name: SecretClientBuilder
+    href: com.azure.security.keyvault.secrets.SecretClientBuilder.yml
+  - uid: com.azure.security.keyvault.secrets.SecretRequestAttributes
+    name: SecretRequestAttributes
+    href: com.azure.security.keyvault.secrets.SecretRequestAttributes.yml
+  - uid: com.azure.security.keyvault.secrets.SecretRequestParameters
+    name: SecretRequestParameters
+    href: com.azure.security.keyvault.secrets.SecretRequestParameters.yml
+  - uid: com.azure.security.keyvault.secrets.SecretRestoreRequestParameters
+    name: SecretRestoreRequestParameters
+    href: com.azure.security.keyvault.secrets.SecretRestoreRequestParameters.yml
+  - uid: com.azure.security.keyvault.secrets.SecretService
+    name: SecretService
+    href: com.azure.security.keyvault.secrets.SecretService.yml
+  - uid: com.azure.security.keyvault.secrets.SecretServiceVersion
+    name: SecretServiceVersion
+    href: com.azure.security.keyvault.secrets.SecretServiceVersion.yml
+- uid: com.azure.security.keyvault.secrets.models
+  name: com.azure.security.keyvault.secrets.models
+  href: com.azure.security.keyvault.secrets.models.yml
   items:
-  - uid: "com.azure.security.keyvault.secrets.models.DeletedSecret"
-    name: "DeletedSecret"
-  - uid: "com.azure.security.keyvault.secrets.models.KeyVaultSecret"
-    name: "KeyVaultSecret"
-  - uid: "com.azure.security.keyvault.secrets.models.SecretProperties"
-    name: "SecretProperties"
-- uid: "com.azure.security.keyvault.keys"
-  name: "com.azure.security.keyvault.keys"
+  - uid: com.azure.security.keyvault.secrets.models.DeletedSecret
+    name: DeletedSecret
+    href: com.azure.security.keyvault.secrets.models.DeletedSecret.yml
+  - uid: com.azure.security.keyvault.secrets.models.KeyVaultSecret
+    name: KeyVaultSecret
+    href: com.azure.security.keyvault.secrets.models.KeyVaultSecret.yml
+  - uid: com.azure.security.keyvault.secrets.models.SecretProperties
+    name: SecretProperties
+    href: com.azure.security.keyvault.secrets.models.SecretProperties.yml
+- uid: com.azure.security.keyvault.keys
+  name: com.azure.security.keyvault.keys
+  href: com.azure.security.keyvault.keys.yml
   items:
-  - uid: "com.azure.security.keyvault.keys.KeyAsyncClient"
-    name: "KeyAsyncClient"
-  - uid: "com.azure.security.keyvault.keys.KeyBackup"
-    name: "KeyBackup"
-  - uid: "com.azure.security.keyvault.keys.KeyClient"
-    name: "KeyClient"
-  - uid: "com.azure.security.keyvault.keys.KeyClientBuilder"
-    name: "KeyClientBuilder"
-  - uid: "com.azure.security.keyvault.keys.KeyImportRequestParameters"
-    name: "KeyImportRequestParameters"
-  - uid: "com.azure.security.keyvault.keys.KeyRequestAttributes"
-    name: "KeyRequestAttributes"
-  - uid: "com.azure.security.keyvault.keys.KeyRequestParameters"
-    name: "KeyRequestParameters"
-  - uid: "com.azure.security.keyvault.keys.KeyRestoreRequestParameters"
-    name: "KeyRestoreRequestParameters"
-  - uid: "com.azure.security.keyvault.keys.KeyService"
-    name: "KeyService"
-  - uid: "com.azure.security.keyvault.keys.KeyServiceVersion"
-    name: "KeyServiceVersion"
-  - uid: "com.azure.security.keyvault.keys.KeyVaultErrorCodeStrings"
-    name: "KeyVaultErrorCodeStrings"
-- uid: "com.azure.security.keyvault.keys.cryptography"
-  name: "com.azure.security.keyvault.keys.cryptography"
+  - uid: com.azure.security.keyvault.keys.KeyAsyncClient
+    name: KeyAsyncClient
+    href: com.azure.security.keyvault.keys.KeyAsyncClient.yml
+  - uid: com.azure.security.keyvault.keys.KeyBackup
+    name: KeyBackup
+    href: com.azure.security.keyvault.keys.KeyBackup.yml
+  - uid: com.azure.security.keyvault.keys.KeyClient
+    name: KeyClient
+    href: com.azure.security.keyvault.keys.KeyClient.yml
+  - uid: com.azure.security.keyvault.keys.KeyClientBuilder
+    name: KeyClientBuilder
+    href: com.azure.security.keyvault.keys.KeyClientBuilder.yml
+  - uid: com.azure.security.keyvault.keys.KeyImportRequestParameters
+    name: KeyImportRequestParameters
+    href: com.azure.security.keyvault.keys.KeyImportRequestParameters.yml
+  - uid: com.azure.security.keyvault.keys.KeyRequestAttributes
+    name: KeyRequestAttributes
+    href: com.azure.security.keyvault.keys.KeyRequestAttributes.yml
+  - uid: com.azure.security.keyvault.keys.KeyRequestParameters
+    name: KeyRequestParameters
+    href: com.azure.security.keyvault.keys.KeyRequestParameters.yml
+  - uid: com.azure.security.keyvault.keys.KeyRestoreRequestParameters
+    name: KeyRestoreRequestParameters
+    href: com.azure.security.keyvault.keys.KeyRestoreRequestParameters.yml
+  - uid: com.azure.security.keyvault.keys.KeyService
+    name: KeyService
+    href: com.azure.security.keyvault.keys.KeyService.yml
+  - uid: com.azure.security.keyvault.keys.KeyServiceVersion
+    name: KeyServiceVersion
+    href: com.azure.security.keyvault.keys.KeyServiceVersion.yml
+  - uid: com.azure.security.keyvault.keys.KeyVaultErrorCodeStrings
+    name: KeyVaultErrorCodeStrings
+    href: com.azure.security.keyvault.keys.KeyVaultErrorCodeStrings.yml
+- uid: com.azure.security.keyvault.keys.cryptography
+  name: com.azure.security.keyvault.keys.cryptography
+  href: com.azure.security.keyvault.keys.cryptography.yml
   items:
-  - uid: "com.azure.security.keyvault.keys.cryptography.Aes128Cbc"
-    name: "Aes128Cbc"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Aes128CbcHmacSha256"
-    name: "Aes128CbcHmacSha256"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Aes192Cbc"
-    name: "Aes192Cbc"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Aes192CbcHmacSha384"
-    name: "Aes192CbcHmacSha384"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Aes256Cbc"
-    name: "Aes256Cbc"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Aes256CbcHmacSha512"
-    name: "Aes256CbcHmacSha512"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AesCbc"
-    name: "AesCbc"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2"
-    name: "AesCbcHmacSha2"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AesKw"
-    name: "AesKw"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AesKw128"
-    name: "AesKw128"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AesKw192"
-    name: "AesKw192"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AesKw256"
-    name: "AesKw256"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Algorithm"
-    name: "Algorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AlgorithmResolver"
-    name: "AlgorithmResolver"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Asn1DerSignatureEncoding"
-    name: "Asn1DerSignatureEncoding"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AsymmetricEncryptionAlgorithm"
-    name: "AsymmetricEncryptionAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.AsymmetricSignatureAlgorithm"
-    name: "AsymmetricSignatureAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.ByteExtensions"
-    name: "ByteExtensions"
-  - uid: "com.azure.security.keyvault.keys.cryptography.CryptoUtil"
-    name: "CryptoUtil"
-  - uid: "com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient"
-    name: "CryptographyAsyncClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.CryptographyClient"
-    name: "CryptographyClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder"
-    name: "CryptographyClientBuilder"
-  - uid: "com.azure.security.keyvault.keys.cryptography.CryptographyService"
-    name: "CryptographyService"
-  - uid: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceClient"
-    name: "CryptographyServiceClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion"
-    name: "CryptographyServiceVersion"
-  - uid: "com.azure.security.keyvault.keys.cryptography.EcKeyCryptographyClient"
-    name: "EcKeyCryptographyClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Ecdsa"
-    name: "Ecdsa"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Es256"
-    name: "Es256"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Es256k"
-    name: "Es256k"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Es384"
-    name: "Es384"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Es512"
-    name: "Es512"
-  - uid: "com.azure.security.keyvault.keys.cryptography.HashAlgorithm"
-    name: "HashAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.IAuthenticatedCryptoTransform"
-    name: "IAuthenticatedCryptoTransform"
-  - uid: "com.azure.security.keyvault.keys.cryptography.ICryptoTransform"
-    name: "ICryptoTransform"
-  - uid: "com.azure.security.keyvault.keys.cryptography.ISignatureTransform"
-    name: "ISignatureTransform"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyEncryptionAlgorithm"
-    name: "KeyEncryptionAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyAsyncClient"
-    name: "KeyEncryptionKeyAsyncClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClient"
-    name: "KeyEncryptionKeyClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClientBuilder"
-    name: "KeyEncryptionKeyClientBuilder"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyOperationParameters"
-    name: "KeyOperationParameters"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyOperationResult"
-    name: "KeyOperationResult"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeySignRequest"
-    name: "KeySignRequest"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyVerifyRequest"
-    name: "KeyVerifyRequest"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyVerifyResponse"
-    name: "KeyVerifyResponse"
-  - uid: "com.azure.security.keyvault.keys.cryptography.KeyWrapUnwrapRequest"
-    name: "KeyWrapUnwrapRequest"
-  - uid: "com.azure.security.keyvault.keys.cryptography.LocalEncryptionAlgorithm"
-    name: "LocalEncryptionAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.LocalKeyCryptographyClient"
-    name: "LocalKeyCryptographyClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.LocalKeyWrapAlgorithm"
-    name: "LocalKeyWrapAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.LocalSignatureAlgorithm"
-    name: "LocalSignatureAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Rsa15"
-    name: "Rsa15"
-  - uid: "com.azure.security.keyvault.keys.cryptography.RsaEncryption"
-    name: "RsaEncryption"
-  - uid: "com.azure.security.keyvault.keys.cryptography.RsaKeyCryptographyClient"
-    name: "RsaKeyCryptographyClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.RsaOaep"
-    name: "RsaOaep"
-  - uid: "com.azure.security.keyvault.keys.cryptography.SecretKey"
-    name: "SecretKey"
-  - uid: "com.azure.security.keyvault.keys.cryptography.SecretProperties"
-    name: "SecretProperties"
-  - uid: "com.azure.security.keyvault.keys.cryptography.SecretRequestAttributes"
-    name: "SecretRequestAttributes"
-  - uid: "com.azure.security.keyvault.keys.cryptography.SecretRequestParameters"
-    name: "SecretRequestParameters"
-  - uid: "com.azure.security.keyvault.keys.cryptography.SignatureEncoding"
-    name: "SignatureEncoding"
-  - uid: "com.azure.security.keyvault.keys.cryptography.SignatureHashResolver"
-    name: "SignatureHashResolver"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Strings"
-    name: "Strings"
-  - uid: "com.azure.security.keyvault.keys.cryptography.SymmetricEncryptionAlgorithm"
-    name: "SymmetricEncryptionAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.SymmetricKeyCryptographyClient"
-    name: "SymmetricKeyCryptographyClient"
-  - uid: "com.azure.security.keyvault.keys.cryptography.Triplet"
-    name: "Triplet"
-- uid: "com.azure.security.keyvault.keys.models"
-  name: "com.azure.security.keyvault.keys.models"
+  - uid: com.azure.security.keyvault.keys.cryptography.Aes128Cbc
+    name: Aes128Cbc
+    href: com.azure.security.keyvault.keys.cryptography.Aes128Cbc.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Aes128CbcHmacSha256
+    name: Aes128CbcHmacSha256
+    href: com.azure.security.keyvault.keys.cryptography.Aes128CbcHmacSha256.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Aes192Cbc
+    name: Aes192Cbc
+    href: com.azure.security.keyvault.keys.cryptography.Aes192Cbc.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Aes192CbcHmacSha384
+    name: Aes192CbcHmacSha384
+    href: com.azure.security.keyvault.keys.cryptography.Aes192CbcHmacSha384.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Aes256Cbc
+    name: Aes256Cbc
+    href: com.azure.security.keyvault.keys.cryptography.Aes256Cbc.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Aes256CbcHmacSha512
+    name: Aes256CbcHmacSha512
+    href: com.azure.security.keyvault.keys.cryptography.Aes256CbcHmacSha512.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AesCbc
+    name: AesCbc
+    href: com.azure.security.keyvault.keys.cryptography.AesCbc.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2
+    name: AesCbcHmacSha2
+    href: com.azure.security.keyvault.keys.cryptography.AesCbcHmacSha2.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AesKw
+    name: AesKw
+    href: com.azure.security.keyvault.keys.cryptography.AesKw.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AesKw128
+    name: AesKw128
+    href: com.azure.security.keyvault.keys.cryptography.AesKw128.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AesKw192
+    name: AesKw192
+    href: com.azure.security.keyvault.keys.cryptography.AesKw192.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AesKw256
+    name: AesKw256
+    href: com.azure.security.keyvault.keys.cryptography.AesKw256.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Algorithm
+    name: Algorithm
+    href: com.azure.security.keyvault.keys.cryptography.Algorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AlgorithmResolver
+    name: AlgorithmResolver
+    href: com.azure.security.keyvault.keys.cryptography.AlgorithmResolver.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Asn1DerSignatureEncoding
+    name: Asn1DerSignatureEncoding
+    href: com.azure.security.keyvault.keys.cryptography.Asn1DerSignatureEncoding.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AsymmetricEncryptionAlgorithm
+    name: AsymmetricEncryptionAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.AsymmetricEncryptionAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.AsymmetricSignatureAlgorithm
+    name: AsymmetricSignatureAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.AsymmetricSignatureAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.ByteExtensions
+    name: ByteExtensions
+    href: com.azure.security.keyvault.keys.cryptography.ByteExtensions.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.CryptoUtil
+    name: CryptoUtil
+    href: com.azure.security.keyvault.keys.cryptography.CryptoUtil.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient
+    name: CryptographyAsyncClient
+    href: com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.CryptographyClient
+    name: CryptographyClient
+    href: com.azure.security.keyvault.keys.cryptography.CryptographyClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder
+    name: CryptographyClientBuilder
+    href: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.CryptographyService
+    name: CryptographyService
+    href: com.azure.security.keyvault.keys.cryptography.CryptographyService.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.CryptographyServiceClient
+    name: CryptographyServiceClient
+    href: com.azure.security.keyvault.keys.cryptography.CryptographyServiceClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion
+    name: CryptographyServiceVersion
+    href: com.azure.security.keyvault.keys.cryptography.CryptographyServiceVersion.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.EcKeyCryptographyClient
+    name: EcKeyCryptographyClient
+    href: com.azure.security.keyvault.keys.cryptography.EcKeyCryptographyClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Ecdsa
+    name: Ecdsa
+    href: com.azure.security.keyvault.keys.cryptography.Ecdsa.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Es256
+    name: Es256
+    href: com.azure.security.keyvault.keys.cryptography.Es256.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Es256k
+    name: Es256k
+    href: com.azure.security.keyvault.keys.cryptography.Es256k.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Es384
+    name: Es384
+    href: com.azure.security.keyvault.keys.cryptography.Es384.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Es512
+    name: Es512
+    href: com.azure.security.keyvault.keys.cryptography.Es512.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.HashAlgorithm
+    name: HashAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.HashAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.IAuthenticatedCryptoTransform
+    name: IAuthenticatedCryptoTransform
+    href: com.azure.security.keyvault.keys.cryptography.IAuthenticatedCryptoTransform.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.ICryptoTransform
+    name: ICryptoTransform
+    href: com.azure.security.keyvault.keys.cryptography.ICryptoTransform.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.ISignatureTransform
+    name: ISignatureTransform
+    href: com.azure.security.keyvault.keys.cryptography.ISignatureTransform.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyEncryptionAlgorithm
+    name: KeyEncryptionAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.KeyEncryptionAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyAsyncClient
+    name: KeyEncryptionKeyAsyncClient
+    href: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyAsyncClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClient
+    name: KeyEncryptionKeyClient
+    href: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClientBuilder
+    name: KeyEncryptionKeyClientBuilder
+    href: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClientBuilder.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyOperationParameters
+    name: KeyOperationParameters
+    href: com.azure.security.keyvault.keys.cryptography.KeyOperationParameters.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyOperationResult
+    name: KeyOperationResult
+    href: com.azure.security.keyvault.keys.cryptography.KeyOperationResult.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeySignRequest
+    name: KeySignRequest
+    href: com.azure.security.keyvault.keys.cryptography.KeySignRequest.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyVerifyRequest
+    name: KeyVerifyRequest
+    href: com.azure.security.keyvault.keys.cryptography.KeyVerifyRequest.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyVerifyResponse
+    name: KeyVerifyResponse
+    href: com.azure.security.keyvault.keys.cryptography.KeyVerifyResponse.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.KeyWrapUnwrapRequest
+    name: KeyWrapUnwrapRequest
+    href: com.azure.security.keyvault.keys.cryptography.KeyWrapUnwrapRequest.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.LocalEncryptionAlgorithm
+    name: LocalEncryptionAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.LocalEncryptionAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.LocalKeyCryptographyClient
+    name: LocalKeyCryptographyClient
+    href: com.azure.security.keyvault.keys.cryptography.LocalKeyCryptographyClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.LocalKeyWrapAlgorithm
+    name: LocalKeyWrapAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.LocalKeyWrapAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.LocalSignatureAlgorithm
+    name: LocalSignatureAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.LocalSignatureAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Rsa15
+    name: Rsa15
+    href: com.azure.security.keyvault.keys.cryptography.Rsa15.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.RsaEncryption
+    name: RsaEncryption
+    href: com.azure.security.keyvault.keys.cryptography.RsaEncryption.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.RsaKeyCryptographyClient
+    name: RsaKeyCryptographyClient
+    href: com.azure.security.keyvault.keys.cryptography.RsaKeyCryptographyClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.RsaOaep
+    name: RsaOaep
+    href: com.azure.security.keyvault.keys.cryptography.RsaOaep.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.SecretKey
+    name: SecretKey
+    href: com.azure.security.keyvault.keys.cryptography.SecretKey.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.SecretProperties
+    name: SecretProperties
+    href: com.azure.security.keyvault.keys.cryptography.SecretProperties.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.SecretRequestAttributes
+    name: SecretRequestAttributes
+    href: com.azure.security.keyvault.keys.cryptography.SecretRequestAttributes.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.SecretRequestParameters
+    name: SecretRequestParameters
+    href: com.azure.security.keyvault.keys.cryptography.SecretRequestParameters.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.SignatureEncoding
+    name: SignatureEncoding
+    href: com.azure.security.keyvault.keys.cryptography.SignatureEncoding.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.SignatureHashResolver
+    name: SignatureHashResolver
+    href: com.azure.security.keyvault.keys.cryptography.SignatureHashResolver.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Strings
+    name: Strings
+    href: com.azure.security.keyvault.keys.cryptography.Strings.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.SymmetricEncryptionAlgorithm
+    name: SymmetricEncryptionAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.SymmetricEncryptionAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.SymmetricKeyCryptographyClient
+    name: SymmetricKeyCryptographyClient
+    href: com.azure.security.keyvault.keys.cryptography.SymmetricKeyCryptographyClient.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.Triplet
+    name: Triplet
+    href: com.azure.security.keyvault.keys.cryptography.Triplet.yml
+- uid: com.azure.security.keyvault.keys.models
+  name: com.azure.security.keyvault.keys.models
+  href: com.azure.security.keyvault.keys.models.yml
   items:
-  - uid: "com.azure.security.keyvault.keys.models.Base64UrlJsonDeserializer"
-    name: "Base64UrlJsonDeserializer"
-  - uid: "com.azure.security.keyvault.keys.models.Base64UrlJsonSerializer"
-    name: "Base64UrlJsonSerializer"
-  - uid: "com.azure.security.keyvault.keys.models.ByteExtensions"
-    name: "ByteExtensions"
-  - uid: "com.azure.security.keyvault.keys.models.CreateEcKeyOptions"
-    name: "CreateEcKeyOptions"
-  - uid: "com.azure.security.keyvault.keys.models.CreateKeyOptions"
-    name: "CreateKeyOptions"
-  - uid: "com.azure.security.keyvault.keys.models.CreateRsaKeyOptions"
-    name: "CreateRsaKeyOptions"
-  - uid: "com.azure.security.keyvault.keys.models.DeletedKey"
-    name: "DeletedKey"
-  - uid: "com.azure.security.keyvault.keys.models.ImportKeyOptions"
-    name: "ImportKeyOptions"
-  - uid: "com.azure.security.keyvault.keys.models.JsonWebKey"
-    name: "JsonWebKey"
-  - uid: "com.azure.security.keyvault.keys.models.KeyCurveName"
-    name: "KeyCurveName"
-  - uid: "com.azure.security.keyvault.keys.models.KeyOperation"
-    name: "KeyOperation"
-  - uid: "com.azure.security.keyvault.keys.models.KeyProperties"
-    name: "KeyProperties"
-  - uid: "com.azure.security.keyvault.keys.models.KeyType"
-    name: "KeyType"
-  - uid: "com.azure.security.keyvault.keys.models.KeyVaultKey"
-    name: "KeyVaultKey"
-- uid: "com.azure.security.keyvault.keys.cryptography.models"
-  name: "com.azure.security.keyvault.keys.cryptography.models"
+  - uid: com.azure.security.keyvault.keys.models.Base64UrlJsonDeserializer
+    name: Base64UrlJsonDeserializer
+    href: com.azure.security.keyvault.keys.models.Base64UrlJsonDeserializer.yml
+  - uid: com.azure.security.keyvault.keys.models.Base64UrlJsonSerializer
+    name: Base64UrlJsonSerializer
+    href: com.azure.security.keyvault.keys.models.Base64UrlJsonSerializer.yml
+  - uid: com.azure.security.keyvault.keys.models.ByteExtensions
+    name: ByteExtensions
+    href: com.azure.security.keyvault.keys.models.ByteExtensions.yml
+  - uid: com.azure.security.keyvault.keys.models.CreateEcKeyOptions
+    name: CreateEcKeyOptions
+    href: com.azure.security.keyvault.keys.models.CreateEcKeyOptions.yml
+  - uid: com.azure.security.keyvault.keys.models.CreateKeyOptions
+    name: CreateKeyOptions
+    href: com.azure.security.keyvault.keys.models.CreateKeyOptions.yml
+  - uid: com.azure.security.keyvault.keys.models.CreateRsaKeyOptions
+    name: CreateRsaKeyOptions
+    href: com.azure.security.keyvault.keys.models.CreateRsaKeyOptions.yml
+  - uid: com.azure.security.keyvault.keys.models.DeletedKey
+    name: DeletedKey
+    href: com.azure.security.keyvault.keys.models.DeletedKey.yml
+  - uid: com.azure.security.keyvault.keys.models.ImportKeyOptions
+    name: ImportKeyOptions
+    href: com.azure.security.keyvault.keys.models.ImportKeyOptions.yml
+  - uid: com.azure.security.keyvault.keys.models.JsonWebKey
+    name: JsonWebKey
+    href: com.azure.security.keyvault.keys.models.JsonWebKey.yml
+  - uid: com.azure.security.keyvault.keys.models.KeyCurveName
+    name: KeyCurveName
+    href: com.azure.security.keyvault.keys.models.KeyCurveName.yml
+  - uid: com.azure.security.keyvault.keys.models.KeyOperation
+    name: KeyOperation
+    href: com.azure.security.keyvault.keys.models.KeyOperation.yml
+  - uid: com.azure.security.keyvault.keys.models.KeyProperties
+    name: KeyProperties
+    href: com.azure.security.keyvault.keys.models.KeyProperties.yml
+  - uid: com.azure.security.keyvault.keys.models.KeyType
+    name: KeyType
+    href: com.azure.security.keyvault.keys.models.KeyType.yml
+  - uid: com.azure.security.keyvault.keys.models.KeyVaultKey
+    name: KeyVaultKey
+    href: com.azure.security.keyvault.keys.models.KeyVaultKey.yml
+- uid: com.azure.security.keyvault.keys.cryptography.models
+  name: com.azure.security.keyvault.keys.cryptography.models
+  href: com.azure.security.keyvault.keys.cryptography.models.yml
   items:
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.DecryptResult"
-    name: "DecryptResult"
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.EncryptResult"
-    name: "EncryptResult"
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm"
-    name: "EncryptionAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm"
-    name: "KeyWrapAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.SignResult"
-    name: "SignResult"
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.SignatureAlgorithm"
-    name: "SignatureAlgorithm"
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.UnwrapResult"
-    name: "UnwrapResult"
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.VerifyResult"
-    name: "VerifyResult"
-  - uid: "com.azure.security.keyvault.keys.cryptography.models.WrapResult"
-    name: "WrapResult"
-- uid: "com.azure.security.keyvault.certificates"
-  name: "com.azure.security.keyvault.certificates"
+  - uid: com.azure.security.keyvault.keys.cryptography.models.DecryptResult
+    name: DecryptResult
+    href: com.azure.security.keyvault.keys.cryptography.models.DecryptResult.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.models.EncryptResult
+    name: EncryptResult
+    href: com.azure.security.keyvault.keys.cryptography.models.EncryptResult.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm
+    name: EncryptionAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.models.EncryptionAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm
+    name: KeyWrapAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.models.KeyWrapAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.models.SignResult
+    name: SignResult
+    href: com.azure.security.keyvault.keys.cryptography.models.SignResult.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.models.SignatureAlgorithm
+    name: SignatureAlgorithm
+    href: com.azure.security.keyvault.keys.cryptography.models.SignatureAlgorithm.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.models.UnwrapResult
+    name: UnwrapResult
+    href: com.azure.security.keyvault.keys.cryptography.models.UnwrapResult.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.models.VerifyResult
+    name: VerifyResult
+    href: com.azure.security.keyvault.keys.cryptography.models.VerifyResult.yml
+  - uid: com.azure.security.keyvault.keys.cryptography.models.WrapResult
+    name: WrapResult
+    href: com.azure.security.keyvault.keys.cryptography.models.WrapResult.yml
+- uid: com.azure.security.keyvault.certificates
+  name: com.azure.security.keyvault.certificates
+  href: com.azure.security.keyvault.certificates.yml
   items:
-  - uid: "com.azure.security.keyvault.certificates.Action"
-    name: "Action"
-  - uid: "com.azure.security.keyvault.certificates.CertificateAsyncClient"
-    name: "CertificateAsyncClient"
-  - uid: "com.azure.security.keyvault.certificates.CertificateBackup"
-    name: "CertificateBackup"
-  - uid: "com.azure.security.keyvault.certificates.CertificateClient"
-    name: "CertificateClient"
-  - uid: "com.azure.security.keyvault.certificates.CertificateClientBuilder"
-    name: "CertificateClientBuilder"
-  - uid: "com.azure.security.keyvault.certificates.CertificateImportParameters"
-    name: "CertificateImportParameters"
-  - uid: "com.azure.security.keyvault.certificates.CertificateIssuerSetParameters"
-    name: "CertificateIssuerSetParameters"
-  - uid: "com.azure.security.keyvault.certificates.CertificateIssuerUpdateParameters"
-    name: "CertificateIssuerUpdateParameters"
-  - uid: "com.azure.security.keyvault.certificates.CertificateMergeParameters"
-    name: "CertificateMergeParameters"
-  - uid: "com.azure.security.keyvault.certificates.CertificateOperationUpdateParameter"
-    name: "CertificateOperationUpdateParameter"
-  - uid: "com.azure.security.keyvault.certificates.CertificatePolicyRequest"
-    name: "CertificatePolicyRequest"
-  - uid: "com.azure.security.keyvault.certificates.CertificateRequestAttributes"
-    name: "CertificateRequestAttributes"
-  - uid: "com.azure.security.keyvault.certificates.CertificateRequestParameters"
-    name: "CertificateRequestParameters"
-  - uid: "com.azure.security.keyvault.certificates.CertificateRestoreParameters"
-    name: "CertificateRestoreParameters"
-  - uid: "com.azure.security.keyvault.certificates.CertificateService"
-    name: "CertificateService"
-  - uid: "com.azure.security.keyvault.certificates.CertificateServiceVersion"
-    name: "CertificateServiceVersion"
-  - uid: "com.azure.security.keyvault.certificates.CertificateUpdateParameters"
-    name: "CertificateUpdateParameters"
-  - uid: "com.azure.security.keyvault.certificates.Contacts"
-    name: "Contacts"
-  - uid: "com.azure.security.keyvault.certificates.IssuerAttributes"
-    name: "IssuerAttributes"
-  - uid: "com.azure.security.keyvault.certificates.IssuerCredentials"
-    name: "IssuerCredentials"
-  - uid: "com.azure.security.keyvault.certificates.IssuerParameters"
-    name: "IssuerParameters"
-  - uid: "com.azure.security.keyvault.certificates.KeyProperties"
-    name: "KeyProperties"
-  - uid: "com.azure.security.keyvault.certificates.KeyVaultErrorCodeStrings"
-    name: "KeyVaultErrorCodeStrings"
-  - uid: "com.azure.security.keyvault.certificates.LifetimeActionRequest"
-    name: "LifetimeActionRequest"
-  - uid: "com.azure.security.keyvault.certificates.OrganizationDetails"
-    name: "OrganizationDetails"
-  - uid: "com.azure.security.keyvault.certificates.SecretProperties"
-    name: "SecretProperties"
-  - uid: "com.azure.security.keyvault.certificates.SubjectAlternativeNamesRequest"
-    name: "SubjectAlternativeNamesRequest"
-  - uid: "com.azure.security.keyvault.certificates.Trigger"
-    name: "Trigger"
-  - uid: "com.azure.security.keyvault.certificates.X509CertificateProperties"
-    name: "X509CertificateProperties"
-- uid: "com.azure.security.keyvault.certificates.models"
-  name: "com.azure.security.keyvault.certificates.models"
+  - uid: com.azure.security.keyvault.certificates.Action
+    name: Action
+    href: com.azure.security.keyvault.certificates.Action.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateAsyncClient
+    name: CertificateAsyncClient
+    href: com.azure.security.keyvault.certificates.CertificateAsyncClient.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateBackup
+    name: CertificateBackup
+    href: com.azure.security.keyvault.certificates.CertificateBackup.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateClient
+    name: CertificateClient
+    href: com.azure.security.keyvault.certificates.CertificateClient.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateClientBuilder
+    name: CertificateClientBuilder
+    href: com.azure.security.keyvault.certificates.CertificateClientBuilder.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateImportParameters
+    name: CertificateImportParameters
+    href: com.azure.security.keyvault.certificates.CertificateImportParameters.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateIssuerSetParameters
+    name: CertificateIssuerSetParameters
+    href: com.azure.security.keyvault.certificates.CertificateIssuerSetParameters.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateIssuerUpdateParameters
+    name: CertificateIssuerUpdateParameters
+    href: com.azure.security.keyvault.certificates.CertificateIssuerUpdateParameters.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateMergeParameters
+    name: CertificateMergeParameters
+    href: com.azure.security.keyvault.certificates.CertificateMergeParameters.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateOperationUpdateParameter
+    name: CertificateOperationUpdateParameter
+    href: com.azure.security.keyvault.certificates.CertificateOperationUpdateParameter.yml
+  - uid: com.azure.security.keyvault.certificates.CertificatePolicyRequest
+    name: CertificatePolicyRequest
+    href: com.azure.security.keyvault.certificates.CertificatePolicyRequest.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateRequestAttributes
+    name: CertificateRequestAttributes
+    href: com.azure.security.keyvault.certificates.CertificateRequestAttributes.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateRequestParameters
+    name: CertificateRequestParameters
+    href: com.azure.security.keyvault.certificates.CertificateRequestParameters.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateRestoreParameters
+    name: CertificateRestoreParameters
+    href: com.azure.security.keyvault.certificates.CertificateRestoreParameters.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateService
+    name: CertificateService
+    href: com.azure.security.keyvault.certificates.CertificateService.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateServiceVersion
+    name: CertificateServiceVersion
+    href: com.azure.security.keyvault.certificates.CertificateServiceVersion.yml
+  - uid: com.azure.security.keyvault.certificates.CertificateUpdateParameters
+    name: CertificateUpdateParameters
+    href: com.azure.security.keyvault.certificates.CertificateUpdateParameters.yml
+  - uid: com.azure.security.keyvault.certificates.Contacts
+    name: Contacts
+    href: com.azure.security.keyvault.certificates.Contacts.yml
+  - uid: com.azure.security.keyvault.certificates.IssuerAttributes
+    name: IssuerAttributes
+    href: com.azure.security.keyvault.certificates.IssuerAttributes.yml
+  - uid: com.azure.security.keyvault.certificates.IssuerCredentials
+    name: IssuerCredentials
+    href: com.azure.security.keyvault.certificates.IssuerCredentials.yml
+  - uid: com.azure.security.keyvault.certificates.IssuerParameters
+    name: IssuerParameters
+    href: com.azure.security.keyvault.certificates.IssuerParameters.yml
+  - uid: com.azure.security.keyvault.certificates.KeyProperties
+    name: KeyProperties
+    href: com.azure.security.keyvault.certificates.KeyProperties.yml
+  - uid: com.azure.security.keyvault.certificates.KeyVaultErrorCodeStrings
+    name: KeyVaultErrorCodeStrings
+    href: com.azure.security.keyvault.certificates.KeyVaultErrorCodeStrings.yml
+  - uid: com.azure.security.keyvault.certificates.LifetimeActionRequest
+    name: LifetimeActionRequest
+    href: com.azure.security.keyvault.certificates.LifetimeActionRequest.yml
+  - uid: com.azure.security.keyvault.certificates.OrganizationDetails
+    name: OrganizationDetails
+    href: com.azure.security.keyvault.certificates.OrganizationDetails.yml
+  - uid: com.azure.security.keyvault.certificates.SecretProperties
+    name: SecretProperties
+    href: com.azure.security.keyvault.certificates.SecretProperties.yml
+  - uid: com.azure.security.keyvault.certificates.SubjectAlternativeNamesRequest
+    name: SubjectAlternativeNamesRequest
+    href: com.azure.security.keyvault.certificates.SubjectAlternativeNamesRequest.yml
+  - uid: com.azure.security.keyvault.certificates.Trigger
+    name: Trigger
+    href: com.azure.security.keyvault.certificates.Trigger.yml
+  - uid: com.azure.security.keyvault.certificates.X509CertificateProperties
+    name: X509CertificateProperties
+    href: com.azure.security.keyvault.certificates.X509CertificateProperties.yml
+- uid: com.azure.security.keyvault.certificates.models
+  name: com.azure.security.keyvault.certificates.models
+  href: com.azure.security.keyvault.certificates.models.yml
   items:
-  - uid: "com.azure.security.keyvault.certificates.models.AdministratorContact"
-    name: "AdministratorContact"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateContact"
-    name: "CertificateContact"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateContentType"
-    name: "CertificateContentType"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateIssuer"
-    name: "CertificateIssuer"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateKeyCurveName"
-    name: "CertificateKeyCurveName"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateKeyType"
-    name: "CertificateKeyType"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateKeyUsage"
-    name: "CertificateKeyUsage"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateOperation"
-    name: "CertificateOperation"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateOperationError"
-    name: "CertificateOperationError"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificatePolicy"
-    name: "CertificatePolicy"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificatePolicyAction"
-    name: "CertificatePolicyAction"
-  - uid: "com.azure.security.keyvault.certificates.models.CertificateProperties"
-    name: "CertificateProperties"
-  - uid: "com.azure.security.keyvault.certificates.models.DeletedCertificate"
-    name: "DeletedCertificate"
-  - uid: "com.azure.security.keyvault.certificates.models.ImportCertificateOptions"
-    name: "ImportCertificateOptions"
-  - uid: "com.azure.security.keyvault.certificates.models.IssuerProperties"
-    name: "IssuerProperties"
-  - uid: "com.azure.security.keyvault.certificates.models.KeyVaultCertificate"
-    name: "KeyVaultCertificate"
-  - uid: "com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy"
-    name: "KeyVaultCertificateWithPolicy"
-  - uid: "com.azure.security.keyvault.certificates.models.LifetimeAction"
-    name: "LifetimeAction"
-  - uid: "com.azure.security.keyvault.certificates.models.MergeCertificateOptions"
-    name: "MergeCertificateOptions"
-  - uid: "com.azure.security.keyvault.certificates.models.SubjectAlternativeNames"
-    name: "SubjectAlternativeNames"
-  - uid: "com.azure.security.keyvault.certificates.models.WellKnownIssuerNames"
-    name: "WellKnownIssuerNames"
-- uid: "com.azure.storage.blob"
-  name: "com.azure.storage.blob"
+  - uid: com.azure.security.keyvault.certificates.models.AdministratorContact
+    name: AdministratorContact
+    href: com.azure.security.keyvault.certificates.models.AdministratorContact.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateContact
+    name: CertificateContact
+    href: com.azure.security.keyvault.certificates.models.CertificateContact.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateContentType
+    name: CertificateContentType
+    href: com.azure.security.keyvault.certificates.models.CertificateContentType.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateIssuer
+    name: CertificateIssuer
+    href: com.azure.security.keyvault.certificates.models.CertificateIssuer.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateKeyCurveName
+    name: CertificateKeyCurveName
+    href: com.azure.security.keyvault.certificates.models.CertificateKeyCurveName.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateKeyType
+    name: CertificateKeyType
+    href: com.azure.security.keyvault.certificates.models.CertificateKeyType.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateKeyUsage
+    name: CertificateKeyUsage
+    href: com.azure.security.keyvault.certificates.models.CertificateKeyUsage.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateOperation
+    name: CertificateOperation
+    href: com.azure.security.keyvault.certificates.models.CertificateOperation.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateOperationError
+    name: CertificateOperationError
+    href: com.azure.security.keyvault.certificates.models.CertificateOperationError.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificatePolicy
+    name: CertificatePolicy
+    href: com.azure.security.keyvault.certificates.models.CertificatePolicy.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificatePolicyAction
+    name: CertificatePolicyAction
+    href: com.azure.security.keyvault.certificates.models.CertificatePolicyAction.yml
+  - uid: com.azure.security.keyvault.certificates.models.CertificateProperties
+    name: CertificateProperties
+    href: com.azure.security.keyvault.certificates.models.CertificateProperties.yml
+  - uid: com.azure.security.keyvault.certificates.models.DeletedCertificate
+    name: DeletedCertificate
+    href: com.azure.security.keyvault.certificates.models.DeletedCertificate.yml
+  - uid: com.azure.security.keyvault.certificates.models.ImportCertificateOptions
+    name: ImportCertificateOptions
+    href: com.azure.security.keyvault.certificates.models.ImportCertificateOptions.yml
+  - uid: com.azure.security.keyvault.certificates.models.IssuerProperties
+    name: IssuerProperties
+    href: com.azure.security.keyvault.certificates.models.IssuerProperties.yml
+  - uid: com.azure.security.keyvault.certificates.models.KeyVaultCertificate
+    name: KeyVaultCertificate
+    href: com.azure.security.keyvault.certificates.models.KeyVaultCertificate.yml
+  - uid: com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy
+    name: KeyVaultCertificateWithPolicy
+    href: com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy.yml
+  - uid: com.azure.security.keyvault.certificates.models.LifetimeAction
+    name: LifetimeAction
+    href: com.azure.security.keyvault.certificates.models.LifetimeAction.yml
+  - uid: com.azure.security.keyvault.certificates.models.MergeCertificateOptions
+    name: MergeCertificateOptions
+    href: com.azure.security.keyvault.certificates.models.MergeCertificateOptions.yml
+  - uid: com.azure.security.keyvault.certificates.models.SubjectAlternativeNames
+    name: SubjectAlternativeNames
+    href: com.azure.security.keyvault.certificates.models.SubjectAlternativeNames.yml
+  - uid: com.azure.security.keyvault.certificates.models.WellKnownIssuerNames
+    name: WellKnownIssuerNames
+    href: com.azure.security.keyvault.certificates.models.WellKnownIssuerNames.yml
+- uid: com.azure.storage.blob
+  name: com.azure.storage.blob
+  href: com.azure.storage.blob.yml
   items:
-  - uid: "com.azure.storage.blob.BlobAsyncClient"
-    name: "BlobAsyncClient"
-  - uid: "com.azure.storage.blob.BlobClient"
-    name: "BlobClient"
-  - uid: "com.azure.storage.blob.BlobClientBuilder"
-    name: "BlobClientBuilder"
-  - uid: "com.azure.storage.blob.BlobContainerAsyncClient"
-    name: "BlobContainerAsyncClient"
-  - uid: "com.azure.storage.blob.BlobContainerClient"
-    name: "BlobContainerClient"
-  - uid: "com.azure.storage.blob.BlobContainerClientBuilder"
-    name: "BlobContainerClientBuilder"
-  - uid: "com.azure.storage.blob.BlobServiceAsyncClient"
-    name: "BlobServiceAsyncClient"
-  - uid: "com.azure.storage.blob.BlobServiceClient"
-    name: "BlobServiceClient"
-  - uid: "com.azure.storage.blob.BlobServiceClientBuilder"
-    name: "BlobServiceClientBuilder"
-  - uid: "com.azure.storage.blob.BlobServiceVersion"
-    name: "BlobServiceVersion"
-  - uid: "com.azure.storage.blob.BlobUrlParts"
-    name: "BlobUrlParts"
-  - uid: "com.azure.storage.blob.HttpGetterInfo"
-    name: "HttpGetterInfo"
-  - uid: "com.azure.storage.blob.ProgressReceiver"
-    name: "ProgressReceiver"
-  - uid: "com.azure.storage.blob.ProgressReporter"
-    name: "ProgressReporter"
-  - uid: "com.azure.storage.blob.UploadBufferPool"
-    name: "UploadBufferPool"
-- uid: "com.azure.storage.blob.batch"
-  name: "com.azure.storage.blob.batch"
+  - uid: com.azure.storage.blob.BlobAsyncClient
+    name: BlobAsyncClient
+    href: com.azure.storage.blob.BlobAsyncClient.yml
+  - uid: com.azure.storage.blob.BlobClient
+    name: BlobClient
+    href: com.azure.storage.blob.BlobClient.yml
+  - uid: com.azure.storage.blob.BlobClientBuilder
+    name: BlobClientBuilder
+    href: com.azure.storage.blob.BlobClientBuilder.yml
+  - uid: com.azure.storage.blob.BlobContainerAsyncClient
+    name: BlobContainerAsyncClient
+    href: com.azure.storage.blob.BlobContainerAsyncClient.yml
+  - uid: com.azure.storage.blob.BlobContainerClient
+    name: BlobContainerClient
+    href: com.azure.storage.blob.BlobContainerClient.yml
+  - uid: com.azure.storage.blob.BlobContainerClientBuilder
+    name: BlobContainerClientBuilder
+    href: com.azure.storage.blob.BlobContainerClientBuilder.yml
+  - uid: com.azure.storage.blob.BlobServiceAsyncClient
+    name: BlobServiceAsyncClient
+    href: com.azure.storage.blob.BlobServiceAsyncClient.yml
+  - uid: com.azure.storage.blob.BlobServiceClient
+    name: BlobServiceClient
+    href: com.azure.storage.blob.BlobServiceClient.yml
+  - uid: com.azure.storage.blob.BlobServiceClientBuilder
+    name: BlobServiceClientBuilder
+    href: com.azure.storage.blob.BlobServiceClientBuilder.yml
+  - uid: com.azure.storage.blob.BlobServiceVersion
+    name: BlobServiceVersion
+    href: com.azure.storage.blob.BlobServiceVersion.yml
+  - uid: com.azure.storage.blob.BlobUrlParts
+    name: BlobUrlParts
+    href: com.azure.storage.blob.BlobUrlParts.yml
+  - uid: com.azure.storage.blob.HttpGetterInfo
+    name: HttpGetterInfo
+    href: com.azure.storage.blob.HttpGetterInfo.yml
+  - uid: com.azure.storage.blob.ProgressReceiver
+    name: ProgressReceiver
+    href: com.azure.storage.blob.ProgressReceiver.yml
+  - uid: com.azure.storage.blob.ProgressReporter
+    name: ProgressReporter
+    href: com.azure.storage.blob.ProgressReporter.yml
+  - uid: com.azure.storage.blob.UploadBufferPool
+    name: UploadBufferPool
+    href: com.azure.storage.blob.UploadBufferPool.yml
+- uid: com.azure.storage.blob.batch
+  name: com.azure.storage.blob.batch
+  href: com.azure.storage.blob.batch.yml
   items:
-  - uid: "com.azure.storage.blob.batch.BlobBatch"
-    name: "BlobBatch"
-  - uid: "com.azure.storage.blob.batch.BlobBatchAsyncClient"
-    name: "BlobBatchAsyncClient"
-  - uid: "com.azure.storage.blob.batch.BlobBatchClient"
-    name: "BlobBatchClient"
-  - uid: "com.azure.storage.blob.batch.BlobBatchClientBuilder"
-    name: "BlobBatchClientBuilder"
-  - uid: "com.azure.storage.blob.batch.BlobBatchHelper"
-    name: "BlobBatchHelper"
-  - uid: "com.azure.storage.blob.batch.BlobBatchOperationResponse"
-    name: "BlobBatchOperationResponse"
-  - uid: "com.azure.storage.blob.batch.BlobBatchStorageException"
-    name: "BlobBatchStorageException"
-  - uid: "com.azure.storage.blob.batch.BlobBatchType"
-    name: "BlobBatchType"
-- uid: "com.azure.storage.blob.models"
-  name: "com.azure.storage.blob.models"
+  - uid: com.azure.storage.blob.batch.BlobBatch
+    name: BlobBatch
+    href: com.azure.storage.blob.batch.BlobBatch.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchAsyncClient
+    name: BlobBatchAsyncClient
+    href: com.azure.storage.blob.batch.BlobBatchAsyncClient.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchClient
+    name: BlobBatchClient
+    href: com.azure.storage.blob.batch.BlobBatchClient.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchClientBuilder
+    name: BlobBatchClientBuilder
+    href: com.azure.storage.blob.batch.BlobBatchClientBuilder.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchHelper
+    name: BlobBatchHelper
+    href: com.azure.storage.blob.batch.BlobBatchHelper.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchOperationResponse
+    name: BlobBatchOperationResponse
+    href: com.azure.storage.blob.batch.BlobBatchOperationResponse.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchStorageException
+    name: BlobBatchStorageException
+    href: com.azure.storage.blob.batch.BlobBatchStorageException.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchType
+    name: BlobBatchType
+    href: com.azure.storage.blob.batch.BlobBatchType.yml
+- uid: com.azure.storage.blob.models
+  name: com.azure.storage.blob.models
+  href: com.azure.storage.blob.models.yml
   items:
-  - uid: "com.azure.storage.blob.models.AccessTier"
-    name: "AccessTier"
-  - uid: "com.azure.storage.blob.models.AccountKind"
-    name: "AccountKind"
-  - uid: "com.azure.storage.blob.models.AppendBlobItem"
-    name: "AppendBlobItem"
-  - uid: "com.azure.storage.blob.models.AppendBlobRequestConditions"
-    name: "AppendBlobRequestConditions"
-  - uid: "com.azure.storage.blob.models.ArchiveStatus"
-    name: "ArchiveStatus"
-  - uid: "com.azure.storage.blob.models.BlobAccessPolicy"
-    name: "BlobAccessPolicy"
-  - uid: "com.azure.storage.blob.models.BlobAnalyticsLogging"
-    name: "BlobAnalyticsLogging"
-  - uid: "com.azure.storage.blob.models.BlobContainerAccessPolicies"
-    name: "BlobContainerAccessPolicies"
-  - uid: "com.azure.storage.blob.models.BlobContainerItem"
-    name: "BlobContainerItem"
-  - uid: "com.azure.storage.blob.models.BlobContainerItemProperties"
-    name: "BlobContainerItemProperties"
-  - uid: "com.azure.storage.blob.models.BlobContainerListDetails"
-    name: "BlobContainerListDetails"
-  - uid: "com.azure.storage.blob.models.BlobContainerProperties"
-    name: "BlobContainerProperties"
-  - uid: "com.azure.storage.blob.models.BlobCopyInfo"
-    name: "BlobCopyInfo"
-  - uid: "com.azure.storage.blob.models.BlobCorsRule"
-    name: "BlobCorsRule"
-  - uid: "com.azure.storage.blob.models.BlobDownloadAsyncResponse"
-    name: "BlobDownloadAsyncResponse"
-  - uid: "com.azure.storage.blob.models.BlobDownloadHeaders"
-    name: "BlobDownloadHeaders"
-  - uid: "com.azure.storage.blob.models.BlobDownloadResponse"
-    name: "BlobDownloadResponse"
-  - uid: "com.azure.storage.blob.models.BlobErrorCode"
-    name: "BlobErrorCode"
-  - uid: "com.azure.storage.blob.models.BlobHttpHeaders"
-    name: "BlobHttpHeaders"
-  - uid: "com.azure.storage.blob.models.BlobItem"
-    name: "BlobItem"
-  - uid: "com.azure.storage.blob.models.BlobItemProperties"
-    name: "BlobItemProperties"
-  - uid: "com.azure.storage.blob.models.BlobListDetails"
-    name: "BlobListDetails"
-  - uid: "com.azure.storage.blob.models.BlobMetrics"
-    name: "BlobMetrics"
-  - uid: "com.azure.storage.blob.models.BlobPrefix"
-    name: "BlobPrefix"
-  - uid: "com.azure.storage.blob.models.BlobProperties"
-    name: "BlobProperties"
-  - uid: "com.azure.storage.blob.models.BlobRange"
-    name: "BlobRange"
-  - uid: "com.azure.storage.blob.models.BlobRequestConditions"
-    name: "BlobRequestConditions"
-  - uid: "com.azure.storage.blob.models.BlobRetentionPolicy"
-    name: "BlobRetentionPolicy"
-  - uid: "com.azure.storage.blob.models.BlobServiceProperties"
-    name: "BlobServiceProperties"
-  - uid: "com.azure.storage.blob.models.BlobServiceStatistics"
-    name: "BlobServiceStatistics"
-  - uid: "com.azure.storage.blob.models.BlobSignedIdentifier"
-    name: "BlobSignedIdentifier"
-  - uid: "com.azure.storage.blob.models.BlobStorageException"
-    name: "BlobStorageException"
-  - uid: "com.azure.storage.blob.models.BlobType"
-    name: "BlobType"
-  - uid: "com.azure.storage.blob.models.Block"
-    name: "Block"
-  - uid: "com.azure.storage.blob.models.BlockBlobItem"
-    name: "BlockBlobItem"
-  - uid: "com.azure.storage.blob.models.BlockList"
-    name: "BlockList"
-  - uid: "com.azure.storage.blob.models.BlockListType"
-    name: "BlockListType"
-  - uid: "com.azure.storage.blob.models.BlockLookupList"
-    name: "BlockLookupList"
-  - uid: "com.azure.storage.blob.models.ClearRange"
-    name: "ClearRange"
-  - uid: "com.azure.storage.blob.models.CopyStatusType"
-    name: "CopyStatusType"
-  - uid: "com.azure.storage.blob.models.CpkInfo"
-    name: "CpkInfo"
-  - uid: "com.azure.storage.blob.models.CustomerProvidedKey"
-    name: "CustomerProvidedKey"
-  - uid: "com.azure.storage.blob.models.DeleteSnapshotsOptionType"
-    name: "DeleteSnapshotsOptionType"
-  - uid: "com.azure.storage.blob.models.DownloadRetryOptions"
-    name: "DownloadRetryOptions"
-  - uid: "com.azure.storage.blob.models.EncryptionAlgorithmType"
-    name: "EncryptionAlgorithmType"
-  - uid: "com.azure.storage.blob.models.GeoReplication"
-    name: "GeoReplication"
-  - uid: "com.azure.storage.blob.models.GeoReplicationStatus"
-    name: "GeoReplicationStatus"
-  - uid: "com.azure.storage.blob.models.KeyInfo"
-    name: "KeyInfo"
-  - uid: "com.azure.storage.blob.models.LeaseDurationType"
-    name: "LeaseDurationType"
-  - uid: "com.azure.storage.blob.models.LeaseStateType"
-    name: "LeaseStateType"
-  - uid: "com.azure.storage.blob.models.LeaseStatusType"
-    name: "LeaseStatusType"
-  - uid: "com.azure.storage.blob.models.ListBlobContainersIncludeType"
-    name: "ListBlobContainersIncludeType"
-  - uid: "com.azure.storage.blob.models.ListBlobContainersOptions"
-    name: "ListBlobContainersOptions"
-  - uid: "com.azure.storage.blob.models.ListBlobsIncludeItem"
-    name: "ListBlobsIncludeItem"
-  - uid: "com.azure.storage.blob.models.ListBlobsOptions"
-    name: "ListBlobsOptions"
-  - uid: "com.azure.storage.blob.models.PageBlobItem"
-    name: "PageBlobItem"
-  - uid: "com.azure.storage.blob.models.PageBlobRequestConditions"
-    name: "PageBlobRequestConditions"
-  - uid: "com.azure.storage.blob.models.PageList"
-    name: "PageList"
-  - uid: "com.azure.storage.blob.models.PageRange"
-    name: "PageRange"
-  - uid: "com.azure.storage.blob.models.ParallelTransferOptions"
-    name: "ParallelTransferOptions"
-  - uid: "com.azure.storage.blob.models.PathRenameMode"
-    name: "PathRenameMode"
-  - uid: "com.azure.storage.blob.models.PublicAccessType"
-    name: "PublicAccessType"
-  - uid: "com.azure.storage.blob.models.RehydratePriority"
-    name: "RehydratePriority"
-  - uid: "com.azure.storage.blob.models.SequenceNumberActionType"
-    name: "SequenceNumberActionType"
-  - uid: "com.azure.storage.blob.models.SkuName"
-    name: "SkuName"
-  - uid: "com.azure.storage.blob.models.StaticWebsite"
-    name: "StaticWebsite"
-  - uid: "com.azure.storage.blob.models.StorageAccountInfo"
-    name: "StorageAccountInfo"
-  - uid: "com.azure.storage.blob.models.SyncCopyStatusType"
-    name: "SyncCopyStatusType"
-  - uid: "com.azure.storage.blob.models.UserDelegationKey"
-    name: "UserDelegationKey"
-- uid: "com.azure.storage.blob.sas"
-  name: "com.azure.storage.blob.sas"
+  - uid: com.azure.storage.blob.models.AccessTier
+    name: AccessTier
+    href: com.azure.storage.blob.models.AccessTier.yml
+  - uid: com.azure.storage.blob.models.AccountKind
+    name: AccountKind
+    href: com.azure.storage.blob.models.AccountKind.yml
+  - uid: com.azure.storage.blob.models.AppendBlobItem
+    name: AppendBlobItem
+    href: com.azure.storage.blob.models.AppendBlobItem.yml
+  - uid: com.azure.storage.blob.models.AppendBlobRequestConditions
+    name: AppendBlobRequestConditions
+    href: com.azure.storage.blob.models.AppendBlobRequestConditions.yml
+  - uid: com.azure.storage.blob.models.ArchiveStatus
+    name: ArchiveStatus
+    href: com.azure.storage.blob.models.ArchiveStatus.yml
+  - uid: com.azure.storage.blob.models.BlobAccessPolicy
+    name: BlobAccessPolicy
+    href: com.azure.storage.blob.models.BlobAccessPolicy.yml
+  - uid: com.azure.storage.blob.models.BlobAnalyticsLogging
+    name: BlobAnalyticsLogging
+    href: com.azure.storage.blob.models.BlobAnalyticsLogging.yml
+  - uid: com.azure.storage.blob.models.BlobContainerAccessPolicies
+    name: BlobContainerAccessPolicies
+    href: com.azure.storage.blob.models.BlobContainerAccessPolicies.yml
+  - uid: com.azure.storage.blob.models.BlobContainerItem
+    name: BlobContainerItem
+    href: com.azure.storage.blob.models.BlobContainerItem.yml
+  - uid: com.azure.storage.blob.models.BlobContainerItemProperties
+    name: BlobContainerItemProperties
+    href: com.azure.storage.blob.models.BlobContainerItemProperties.yml
+  - uid: com.azure.storage.blob.models.BlobContainerListDetails
+    name: BlobContainerListDetails
+    href: com.azure.storage.blob.models.BlobContainerListDetails.yml
+  - uid: com.azure.storage.blob.models.BlobContainerProperties
+    name: BlobContainerProperties
+    href: com.azure.storage.blob.models.BlobContainerProperties.yml
+  - uid: com.azure.storage.blob.models.BlobCopyInfo
+    name: BlobCopyInfo
+    href: com.azure.storage.blob.models.BlobCopyInfo.yml
+  - uid: com.azure.storage.blob.models.BlobCorsRule
+    name: BlobCorsRule
+    href: com.azure.storage.blob.models.BlobCorsRule.yml
+  - uid: com.azure.storage.blob.models.BlobDownloadAsyncResponse
+    name: BlobDownloadAsyncResponse
+    href: com.azure.storage.blob.models.BlobDownloadAsyncResponse.yml
+  - uid: com.azure.storage.blob.models.BlobDownloadHeaders
+    name: BlobDownloadHeaders
+    href: com.azure.storage.blob.models.BlobDownloadHeaders.yml
+  - uid: com.azure.storage.blob.models.BlobDownloadResponse
+    name: BlobDownloadResponse
+    href: com.azure.storage.blob.models.BlobDownloadResponse.yml
+  - uid: com.azure.storage.blob.models.BlobErrorCode
+    name: BlobErrorCode
+    href: com.azure.storage.blob.models.BlobErrorCode.yml
+  - uid: com.azure.storage.blob.models.BlobHttpHeaders
+    name: BlobHttpHeaders
+    href: com.azure.storage.blob.models.BlobHttpHeaders.yml
+  - uid: com.azure.storage.blob.models.BlobItem
+    name: BlobItem
+    href: com.azure.storage.blob.models.BlobItem.yml
+  - uid: com.azure.storage.blob.models.BlobItemProperties
+    name: BlobItemProperties
+    href: com.azure.storage.blob.models.BlobItemProperties.yml
+  - uid: com.azure.storage.blob.models.BlobListDetails
+    name: BlobListDetails
+    href: com.azure.storage.blob.models.BlobListDetails.yml
+  - uid: com.azure.storage.blob.models.BlobMetrics
+    name: BlobMetrics
+    href: com.azure.storage.blob.models.BlobMetrics.yml
+  - uid: com.azure.storage.blob.models.BlobPrefix
+    name: BlobPrefix
+    href: com.azure.storage.blob.models.BlobPrefix.yml
+  - uid: com.azure.storage.blob.models.BlobProperties
+    name: BlobProperties
+    href: com.azure.storage.blob.models.BlobProperties.yml
+  - uid: com.azure.storage.blob.models.BlobRange
+    name: BlobRange
+    href: com.azure.storage.blob.models.BlobRange.yml
+  - uid: com.azure.storage.blob.models.BlobRequestConditions
+    name: BlobRequestConditions
+    href: com.azure.storage.blob.models.BlobRequestConditions.yml
+  - uid: com.azure.storage.blob.models.BlobRetentionPolicy
+    name: BlobRetentionPolicy
+    href: com.azure.storage.blob.models.BlobRetentionPolicy.yml
+  - uid: com.azure.storage.blob.models.BlobServiceProperties
+    name: BlobServiceProperties
+    href: com.azure.storage.blob.models.BlobServiceProperties.yml
+  - uid: com.azure.storage.blob.models.BlobServiceStatistics
+    name: BlobServiceStatistics
+    href: com.azure.storage.blob.models.BlobServiceStatistics.yml
+  - uid: com.azure.storage.blob.models.BlobSignedIdentifier
+    name: BlobSignedIdentifier
+    href: com.azure.storage.blob.models.BlobSignedIdentifier.yml
+  - uid: com.azure.storage.blob.models.BlobStorageException
+    name: BlobStorageException
+    href: com.azure.storage.blob.models.BlobStorageException.yml
+  - uid: com.azure.storage.blob.models.BlobType
+    name: BlobType
+    href: com.azure.storage.blob.models.BlobType.yml
+  - uid: com.azure.storage.blob.models.Block
+    name: Block
+    href: com.azure.storage.blob.models.Block.yml
+  - uid: com.azure.storage.blob.models.BlockBlobItem
+    name: BlockBlobItem
+    href: com.azure.storage.blob.models.BlockBlobItem.yml
+  - uid: com.azure.storage.blob.models.BlockList
+    name: BlockList
+    href: com.azure.storage.blob.models.BlockList.yml
+  - uid: com.azure.storage.blob.models.BlockListType
+    name: BlockListType
+    href: com.azure.storage.blob.models.BlockListType.yml
+  - uid: com.azure.storage.blob.models.BlockLookupList
+    name: BlockLookupList
+    href: com.azure.storage.blob.models.BlockLookupList.yml
+  - uid: com.azure.storage.blob.models.ClearRange
+    name: ClearRange
+    href: com.azure.storage.blob.models.ClearRange.yml
+  - uid: com.azure.storage.blob.models.CopyStatusType
+    name: CopyStatusType
+    href: com.azure.storage.blob.models.CopyStatusType.yml
+  - uid: com.azure.storage.blob.models.CpkInfo
+    name: CpkInfo
+    href: com.azure.storage.blob.models.CpkInfo.yml
+  - uid: com.azure.storage.blob.models.CustomerProvidedKey
+    name: CustomerProvidedKey
+    href: com.azure.storage.blob.models.CustomerProvidedKey.yml
+  - uid: com.azure.storage.blob.models.DeleteSnapshotsOptionType
+    name: DeleteSnapshotsOptionType
+    href: com.azure.storage.blob.models.DeleteSnapshotsOptionType.yml
+  - uid: com.azure.storage.blob.models.DownloadRetryOptions
+    name: DownloadRetryOptions
+    href: com.azure.storage.blob.models.DownloadRetryOptions.yml
+  - uid: com.azure.storage.blob.models.EncryptionAlgorithmType
+    name: EncryptionAlgorithmType
+    href: com.azure.storage.blob.models.EncryptionAlgorithmType.yml
+  - uid: com.azure.storage.blob.models.GeoReplication
+    name: GeoReplication
+    href: com.azure.storage.blob.models.GeoReplication.yml
+  - uid: com.azure.storage.blob.models.GeoReplicationStatus
+    name: GeoReplicationStatus
+    href: com.azure.storage.blob.models.GeoReplicationStatus.yml
+  - uid: com.azure.storage.blob.models.KeyInfo
+    name: KeyInfo
+    href: com.azure.storage.blob.models.KeyInfo.yml
+  - uid: com.azure.storage.blob.models.LeaseDurationType
+    name: LeaseDurationType
+    href: com.azure.storage.blob.models.LeaseDurationType.yml
+  - uid: com.azure.storage.blob.models.LeaseStateType
+    name: LeaseStateType
+    href: com.azure.storage.blob.models.LeaseStateType.yml
+  - uid: com.azure.storage.blob.models.LeaseStatusType
+    name: LeaseStatusType
+    href: com.azure.storage.blob.models.LeaseStatusType.yml
+  - uid: com.azure.storage.blob.models.ListBlobContainersIncludeType
+    name: ListBlobContainersIncludeType
+    href: com.azure.storage.blob.models.ListBlobContainersIncludeType.yml
+  - uid: com.azure.storage.blob.models.ListBlobContainersOptions
+    name: ListBlobContainersOptions
+    href: com.azure.storage.blob.models.ListBlobContainersOptions.yml
+  - uid: com.azure.storage.blob.models.ListBlobsIncludeItem
+    name: ListBlobsIncludeItem
+    href: com.azure.storage.blob.models.ListBlobsIncludeItem.yml
+  - uid: com.azure.storage.blob.models.ListBlobsOptions
+    name: ListBlobsOptions
+    href: com.azure.storage.blob.models.ListBlobsOptions.yml
+  - uid: com.azure.storage.blob.models.PageBlobItem
+    name: PageBlobItem
+    href: com.azure.storage.blob.models.PageBlobItem.yml
+  - uid: com.azure.storage.blob.models.PageBlobRequestConditions
+    name: PageBlobRequestConditions
+    href: com.azure.storage.blob.models.PageBlobRequestConditions.yml
+  - uid: com.azure.storage.blob.models.PageList
+    name: PageList
+    href: com.azure.storage.blob.models.PageList.yml
+  - uid: com.azure.storage.blob.models.PageRange
+    name: PageRange
+    href: com.azure.storage.blob.models.PageRange.yml
+  - uid: com.azure.storage.blob.models.ParallelTransferOptions
+    name: ParallelTransferOptions
+    href: com.azure.storage.blob.models.ParallelTransferOptions.yml
+  - uid: com.azure.storage.blob.models.PathRenameMode
+    name: PathRenameMode
+    href: com.azure.storage.blob.models.PathRenameMode.yml
+  - uid: com.azure.storage.blob.models.PublicAccessType
+    name: PublicAccessType
+    href: com.azure.storage.blob.models.PublicAccessType.yml
+  - uid: com.azure.storage.blob.models.RehydratePriority
+    name: RehydratePriority
+    href: com.azure.storage.blob.models.RehydratePriority.yml
+  - uid: com.azure.storage.blob.models.SequenceNumberActionType
+    name: SequenceNumberActionType
+    href: com.azure.storage.blob.models.SequenceNumberActionType.yml
+  - uid: com.azure.storage.blob.models.SkuName
+    name: SkuName
+    href: com.azure.storage.blob.models.SkuName.yml
+  - uid: com.azure.storage.blob.models.StaticWebsite
+    name: StaticWebsite
+    href: com.azure.storage.blob.models.StaticWebsite.yml
+  - uid: com.azure.storage.blob.models.StorageAccountInfo
+    name: StorageAccountInfo
+    href: com.azure.storage.blob.models.StorageAccountInfo.yml
+  - uid: com.azure.storage.blob.models.SyncCopyStatusType
+    name: SyncCopyStatusType
+    href: com.azure.storage.blob.models.SyncCopyStatusType.yml
+  - uid: com.azure.storage.blob.models.UserDelegationKey
+    name: UserDelegationKey
+    href: com.azure.storage.blob.models.UserDelegationKey.yml
+- uid: com.azure.storage.blob.sas
+  name: com.azure.storage.blob.sas
+  href: com.azure.storage.blob.sas.yml
   items:
-  - uid: "com.azure.storage.blob.sas.BlobContainerSasPermission"
-    name: "BlobContainerSasPermission"
-  - uid: "com.azure.storage.blob.sas.BlobSasPermission"
-    name: "BlobSasPermission"
-  - uid: "com.azure.storage.blob.sas.BlobServiceSasQueryParameters"
-    name: "BlobServiceSasQueryParameters"
-  - uid: "com.azure.storage.blob.sas.BlobServiceSasSignatureValues"
-    name: "BlobServiceSasSignatureValues"
-- uid: "com.azure.storage.blob.specialized"
-  name: "com.azure.storage.blob.specialized"
+  - uid: com.azure.storage.blob.sas.BlobContainerSasPermission
+    name: BlobContainerSasPermission
+    href: com.azure.storage.blob.sas.BlobContainerSasPermission.yml
+  - uid: com.azure.storage.blob.sas.BlobSasPermission
+    name: BlobSasPermission
+    href: com.azure.storage.blob.sas.BlobSasPermission.yml
+  - uid: com.azure.storage.blob.sas.BlobServiceSasQueryParameters
+    name: BlobServiceSasQueryParameters
+    href: com.azure.storage.blob.sas.BlobServiceSasQueryParameters.yml
+  - uid: com.azure.storage.blob.sas.BlobServiceSasSignatureValues
+    name: BlobServiceSasSignatureValues
+    href: com.azure.storage.blob.sas.BlobServiceSasSignatureValues.yml
+- uid: com.azure.storage.blob.specialized
+  name: com.azure.storage.blob.specialized
+  href: com.azure.storage.blob.specialized.yml
   items:
-  - uid: "com.azure.storage.blob.specialized.AppendBlobAsyncClient"
-    name: "AppendBlobAsyncClient"
-  - uid: "com.azure.storage.blob.specialized.AppendBlobClient"
-    name: "AppendBlobClient"
-  - uid: "com.azure.storage.blob.specialized.BlobAsyncClientBase"
-    name: "BlobAsyncClientBase"
-  - uid: "com.azure.storage.blob.specialized.BlobClientBase"
-    name: "BlobClientBase"
-  - uid: "com.azure.storage.blob.specialized.BlobInputStream"
-    name: "BlobInputStream"
-  - uid: "com.azure.storage.blob.specialized.BlobLeaseAsyncClient"
-    name: "BlobLeaseAsyncClient"
-  - uid: "com.azure.storage.blob.specialized.BlobLeaseClient"
-    name: "BlobLeaseClient"
-  - uid: "com.azure.storage.blob.specialized.BlobLeaseClientBuilder"
-    name: "BlobLeaseClientBuilder"
-  - uid: "com.azure.storage.blob.specialized.BlobOutputStream"
-    name: "BlobOutputStream"
-  - uid: "com.azure.storage.blob.specialized.BlockBlobAsyncClient"
-    name: "BlockBlobAsyncClient"
-  - uid: "com.azure.storage.blob.specialized.BlockBlobClient"
-    name: "BlockBlobClient"
-  - uid: "com.azure.storage.blob.specialized.PageBlobAsyncClient"
-    name: "PageBlobAsyncClient"
-  - uid: "com.azure.storage.blob.specialized.PageBlobClient"
-    name: "PageBlobClient"
-  - uid: "com.azure.storage.blob.specialized.ReliableDownload"
-    name: "ReliableDownload"
-  - uid: "com.azure.storage.blob.specialized.SpecializedBlobClientBuilder"
-    name: "SpecializedBlobClientBuilder"
-- uid: "com.azure.storage.blob.specialized.cryptography"
-  name: "com.azure.storage.blob.specialized.cryptography"
+  - uid: com.azure.storage.blob.specialized.AppendBlobAsyncClient
+    name: AppendBlobAsyncClient
+    href: com.azure.storage.blob.specialized.AppendBlobAsyncClient.yml
+  - uid: com.azure.storage.blob.specialized.AppendBlobClient
+    name: AppendBlobClient
+    href: com.azure.storage.blob.specialized.AppendBlobClient.yml
+  - uid: com.azure.storage.blob.specialized.BlobAsyncClientBase
+    name: BlobAsyncClientBase
+    href: com.azure.storage.blob.specialized.BlobAsyncClientBase.yml
+  - uid: com.azure.storage.blob.specialized.BlobClientBase
+    name: BlobClientBase
+    href: com.azure.storage.blob.specialized.BlobClientBase.yml
+  - uid: com.azure.storage.blob.specialized.BlobInputStream
+    name: BlobInputStream
+    href: com.azure.storage.blob.specialized.BlobInputStream.yml
+  - uid: com.azure.storage.blob.specialized.BlobLeaseAsyncClient
+    name: BlobLeaseAsyncClient
+    href: com.azure.storage.blob.specialized.BlobLeaseAsyncClient.yml
+  - uid: com.azure.storage.blob.specialized.BlobLeaseClient
+    name: BlobLeaseClient
+    href: com.azure.storage.blob.specialized.BlobLeaseClient.yml
+  - uid: com.azure.storage.blob.specialized.BlobLeaseClientBuilder
+    name: BlobLeaseClientBuilder
+    href: com.azure.storage.blob.specialized.BlobLeaseClientBuilder.yml
+  - uid: com.azure.storage.blob.specialized.BlobOutputStream
+    name: BlobOutputStream
+    href: com.azure.storage.blob.specialized.BlobOutputStream.yml
+  - uid: com.azure.storage.blob.specialized.BlockBlobAsyncClient
+    name: BlockBlobAsyncClient
+    href: com.azure.storage.blob.specialized.BlockBlobAsyncClient.yml
+  - uid: com.azure.storage.blob.specialized.BlockBlobClient
+    name: BlockBlobClient
+    href: com.azure.storage.blob.specialized.BlockBlobClient.yml
+  - uid: com.azure.storage.blob.specialized.PageBlobAsyncClient
+    name: PageBlobAsyncClient
+    href: com.azure.storage.blob.specialized.PageBlobAsyncClient.yml
+  - uid: com.azure.storage.blob.specialized.PageBlobClient
+    name: PageBlobClient
+    href: com.azure.storage.blob.specialized.PageBlobClient.yml
+  - uid: com.azure.storage.blob.specialized.ReliableDownload
+    name: ReliableDownload
+    href: com.azure.storage.blob.specialized.ReliableDownload.yml
+  - uid: com.azure.storage.blob.specialized.SpecializedBlobClientBuilder
+    name: SpecializedBlobClientBuilder
+    href: com.azure.storage.blob.specialized.SpecializedBlobClientBuilder.yml
+- uid: com.azure.storage.blob.specialized.cryptography
+  name: com.azure.storage.blob.specialized.cryptography
+  href: com.azure.storage.blob.specialized.cryptography.yml
   items:
-  - uid: "com.azure.storage.blob.specialized.cryptography.BlobCryptographyConfiguration"
-    name: "BlobCryptographyConfiguration"
-  - uid: "com.azure.storage.blob.specialized.cryptography.BlobDecryptionPolicy"
-    name: "BlobDecryptionPolicy"
-  - uid: "com.azure.storage.blob.specialized.cryptography.CryptographyConstants"
-    name: "CryptographyConstants"
-  - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlob"
-    name: "EncryptedBlob"
-  - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobAsyncClient"
-    name: "EncryptedBlobAsyncClient"
-  - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient"
-    name: "EncryptedBlobClient"
-  - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
-    name: "EncryptedBlobClientBuilder"
-  - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobRange"
-    name: "EncryptedBlobRange"
-  - uid: "com.azure.storage.blob.specialized.cryptography.EncryptionAgent"
-    name: "EncryptionAgent"
-  - uid: "com.azure.storage.blob.specialized.cryptography.EncryptionAlgorithm"
-    name: "EncryptionAlgorithm"
-  - uid: "com.azure.storage.blob.specialized.cryptography.EncryptionData"
-    name: "EncryptionData"
-  - uid: "com.azure.storage.blob.specialized.cryptography.WrappedKey"
-    name: "WrappedKey"
-- uid: "com.azure.storage.queue"
-  name: "com.azure.storage.queue"
+  - uid: com.azure.storage.blob.specialized.cryptography.BlobCryptographyConfiguration
+    name: BlobCryptographyConfiguration
+    href: com.azure.storage.blob.specialized.cryptography.BlobCryptographyConfiguration.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.BlobDecryptionPolicy
+    name: BlobDecryptionPolicy
+    href: com.azure.storage.blob.specialized.cryptography.BlobDecryptionPolicy.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.CryptographyConstants
+    name: CryptographyConstants
+    href: com.azure.storage.blob.specialized.cryptography.CryptographyConstants.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.EncryptedBlob
+    name: EncryptedBlob
+    href: com.azure.storage.blob.specialized.cryptography.EncryptedBlob.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.EncryptedBlobAsyncClient
+    name: EncryptedBlobAsyncClient
+    href: com.azure.storage.blob.specialized.cryptography.EncryptedBlobAsyncClient.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient
+    name: EncryptedBlobClient
+    href: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder
+    name: EncryptedBlobClientBuilder
+    href: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.EncryptedBlobRange
+    name: EncryptedBlobRange
+    href: com.azure.storage.blob.specialized.cryptography.EncryptedBlobRange.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.EncryptionAgent
+    name: EncryptionAgent
+    href: com.azure.storage.blob.specialized.cryptography.EncryptionAgent.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.EncryptionAlgorithm
+    name: EncryptionAlgorithm
+    href: com.azure.storage.blob.specialized.cryptography.EncryptionAlgorithm.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.EncryptionData
+    name: EncryptionData
+    href: com.azure.storage.blob.specialized.cryptography.EncryptionData.yml
+  - uid: com.azure.storage.blob.specialized.cryptography.WrappedKey
+    name: WrappedKey
+    href: com.azure.storage.blob.specialized.cryptography.WrappedKey.yml
+- uid: com.azure.storage.queue
+  name: com.azure.storage.queue
+  href: com.azure.storage.queue.yml
   items:
-  - uid: "com.azure.storage.queue.QueueAsyncClient"
-    name: "QueueAsyncClient"
-  - uid: "com.azure.storage.queue.QueueClient"
-    name: "QueueClient"
-  - uid: "com.azure.storage.queue.QueueClientBuilder"
-    name: "QueueClientBuilder"
-  - uid: "com.azure.storage.queue.QueueConfiguration"
-    name: "QueueConfiguration"
-  - uid: "com.azure.storage.queue.QueueServiceAsyncClient"
-    name: "QueueServiceAsyncClient"
-  - uid: "com.azure.storage.queue.QueueServiceClient"
-    name: "QueueServiceClient"
-  - uid: "com.azure.storage.queue.QueueServiceClientBuilder"
-    name: "QueueServiceClientBuilder"
-  - uid: "com.azure.storage.queue.QueueServiceVersion"
-    name: "QueueServiceVersion"
-- uid: "com.azure.storage.queue.models"
-  name: "com.azure.storage.queue.models"
+  - uid: com.azure.storage.queue.QueueAsyncClient
+    name: QueueAsyncClient
+    href: com.azure.storage.queue.QueueAsyncClient.yml
+  - uid: com.azure.storage.queue.QueueClient
+    name: QueueClient
+    href: com.azure.storage.queue.QueueClient.yml
+  - uid: com.azure.storage.queue.QueueClientBuilder
+    name: QueueClientBuilder
+    href: com.azure.storage.queue.QueueClientBuilder.yml
+  - uid: com.azure.storage.queue.QueueConfiguration
+    name: QueueConfiguration
+    href: com.azure.storage.queue.QueueConfiguration.yml
+  - uid: com.azure.storage.queue.QueueServiceAsyncClient
+    name: QueueServiceAsyncClient
+    href: com.azure.storage.queue.QueueServiceAsyncClient.yml
+  - uid: com.azure.storage.queue.QueueServiceClient
+    name: QueueServiceClient
+    href: com.azure.storage.queue.QueueServiceClient.yml
+  - uid: com.azure.storage.queue.QueueServiceClientBuilder
+    name: QueueServiceClientBuilder
+    href: com.azure.storage.queue.QueueServiceClientBuilder.yml
+  - uid: com.azure.storage.queue.QueueServiceVersion
+    name: QueueServiceVersion
+    href: com.azure.storage.queue.QueueServiceVersion.yml
+- uid: com.azure.storage.queue.models
+  name: com.azure.storage.queue.models
+  href: com.azure.storage.queue.models.yml
   items:
-  - uid: "com.azure.storage.queue.models.GeoReplication"
-    name: "GeoReplication"
-  - uid: "com.azure.storage.queue.models.GeoReplicationStatus"
-    name: "GeoReplicationStatus"
-  - uid: "com.azure.storage.queue.models.PeekedMessageItem"
-    name: "PeekedMessageItem"
-  - uid: "com.azure.storage.queue.models.QueueAccessPolicy"
-    name: "QueueAccessPolicy"
-  - uid: "com.azure.storage.queue.models.QueueAnalyticsLogging"
-    name: "QueueAnalyticsLogging"
-  - uid: "com.azure.storage.queue.models.QueueCorsRule"
-    name: "QueueCorsRule"
-  - uid: "com.azure.storage.queue.models.QueueErrorCode"
-    name: "QueueErrorCode"
-  - uid: "com.azure.storage.queue.models.QueueItem"
-    name: "QueueItem"
-  - uid: "com.azure.storage.queue.models.QueueMessageItem"
-    name: "QueueMessageItem"
-  - uid: "com.azure.storage.queue.models.QueueMetrics"
-    name: "QueueMetrics"
-  - uid: "com.azure.storage.queue.models.QueueProperties"
-    name: "QueueProperties"
-  - uid: "com.azure.storage.queue.models.QueueRetentionPolicy"
-    name: "QueueRetentionPolicy"
-  - uid: "com.azure.storage.queue.models.QueueServiceProperties"
-    name: "QueueServiceProperties"
-  - uid: "com.azure.storage.queue.models.QueueServiceStatistics"
-    name: "QueueServiceStatistics"
-  - uid: "com.azure.storage.queue.models.QueueSignedIdentifier"
-    name: "QueueSignedIdentifier"
-  - uid: "com.azure.storage.queue.models.QueueStorageException"
-    name: "QueueStorageException"
-  - uid: "com.azure.storage.queue.models.QueuesSegmentOptions"
-    name: "QueuesSegmentOptions"
-  - uid: "com.azure.storage.queue.models.SendMessageResult"
-    name: "SendMessageResult"
-  - uid: "com.azure.storage.queue.models.UpdateMessageResult"
-    name: "UpdateMessageResult"
-- uid: "com.azure.storage.queue.sas"
-  name: "com.azure.storage.queue.sas"
+  - uid: com.azure.storage.queue.models.GeoReplication
+    name: GeoReplication
+    href: com.azure.storage.queue.models.GeoReplication.yml
+  - uid: com.azure.storage.queue.models.GeoReplicationStatus
+    name: GeoReplicationStatus
+    href: com.azure.storage.queue.models.GeoReplicationStatus.yml
+  - uid: com.azure.storage.queue.models.PeekedMessageItem
+    name: PeekedMessageItem
+    href: com.azure.storage.queue.models.PeekedMessageItem.yml
+  - uid: com.azure.storage.queue.models.QueueAccessPolicy
+    name: QueueAccessPolicy
+    href: com.azure.storage.queue.models.QueueAccessPolicy.yml
+  - uid: com.azure.storage.queue.models.QueueAnalyticsLogging
+    name: QueueAnalyticsLogging
+    href: com.azure.storage.queue.models.QueueAnalyticsLogging.yml
+  - uid: com.azure.storage.queue.models.QueueCorsRule
+    name: QueueCorsRule
+    href: com.azure.storage.queue.models.QueueCorsRule.yml
+  - uid: com.azure.storage.queue.models.QueueErrorCode
+    name: QueueErrorCode
+    href: com.azure.storage.queue.models.QueueErrorCode.yml
+  - uid: com.azure.storage.queue.models.QueueItem
+    name: QueueItem
+    href: com.azure.storage.queue.models.QueueItem.yml
+  - uid: com.azure.storage.queue.models.QueueMessageItem
+    name: QueueMessageItem
+    href: com.azure.storage.queue.models.QueueMessageItem.yml
+  - uid: com.azure.storage.queue.models.QueueMetrics
+    name: QueueMetrics
+    href: com.azure.storage.queue.models.QueueMetrics.yml
+  - uid: com.azure.storage.queue.models.QueueProperties
+    name: QueueProperties
+    href: com.azure.storage.queue.models.QueueProperties.yml
+  - uid: com.azure.storage.queue.models.QueueRetentionPolicy
+    name: QueueRetentionPolicy
+    href: com.azure.storage.queue.models.QueueRetentionPolicy.yml
+  - uid: com.azure.storage.queue.models.QueueServiceProperties
+    name: QueueServiceProperties
+    href: com.azure.storage.queue.models.QueueServiceProperties.yml
+  - uid: com.azure.storage.queue.models.QueueServiceStatistics
+    name: QueueServiceStatistics
+    href: com.azure.storage.queue.models.QueueServiceStatistics.yml
+  - uid: com.azure.storage.queue.models.QueueSignedIdentifier
+    name: QueueSignedIdentifier
+    href: com.azure.storage.queue.models.QueueSignedIdentifier.yml
+  - uid: com.azure.storage.queue.models.QueueStorageException
+    name: QueueStorageException
+    href: com.azure.storage.queue.models.QueueStorageException.yml
+  - uid: com.azure.storage.queue.models.QueuesSegmentOptions
+    name: QueuesSegmentOptions
+    href: com.azure.storage.queue.models.QueuesSegmentOptions.yml
+  - uid: com.azure.storage.queue.models.SendMessageResult
+    name: SendMessageResult
+    href: com.azure.storage.queue.models.SendMessageResult.yml
+  - uid: com.azure.storage.queue.models.UpdateMessageResult
+    name: UpdateMessageResult
+    href: com.azure.storage.queue.models.UpdateMessageResult.yml
+- uid: com.azure.storage.queue.sas
+  name: com.azure.storage.queue.sas
+  href: com.azure.storage.queue.sas.yml
   items:
-  - uid: "com.azure.storage.queue.sas.QueueSasPermission"
-    name: "QueueSasPermission"
-  - uid: "com.azure.storage.queue.sas.QueueServiceSasQueryParameters"
-    name: "QueueServiceSasQueryParameters"
-  - uid: "com.azure.storage.queue.sas.QueueServiceSasSignatureValues"
-    name: "QueueServiceSasSignatureValues"
-- uid: "com.azure.storage.file.share"
-  name: "com.azure.storage.file.share"
+  - uid: com.azure.storage.queue.sas.QueueSasPermission
+    name: QueueSasPermission
+    href: com.azure.storage.queue.sas.QueueSasPermission.yml
+  - uid: com.azure.storage.queue.sas.QueueServiceSasQueryParameters
+    name: QueueServiceSasQueryParameters
+    href: com.azure.storage.queue.sas.QueueServiceSasQueryParameters.yml
+  - uid: com.azure.storage.queue.sas.QueueServiceSasSignatureValues
+    name: QueueServiceSasSignatureValues
+    href: com.azure.storage.queue.sas.QueueServiceSasSignatureValues.yml
+- uid: com.azure.storage.file.share
+  name: com.azure.storage.file.share
+  href: com.azure.storage.file.share.yml
   items:
-  - uid: "com.azure.storage.file.share.FileConfiguration"
-    name: "FileConfiguration"
-  - uid: "com.azure.storage.file.share.FileConstants"
-    name: "FileConstants"
-  - uid: "com.azure.storage.file.share.FileSmbProperties"
-    name: "FileSmbProperties"
-  - uid: "com.azure.storage.file.share.ShareAsyncClient"
-    name: "ShareAsyncClient"
-  - uid: "com.azure.storage.file.share.ShareClient"
-    name: "ShareClient"
-  - uid: "com.azure.storage.file.share.ShareClientBuilder"
-    name: "ShareClientBuilder"
-  - uid: "com.azure.storage.file.share.ShareDirectoryAsyncClient"
-    name: "ShareDirectoryAsyncClient"
-  - uid: "com.azure.storage.file.share.ShareDirectoryClient"
-    name: "ShareDirectoryClient"
-  - uid: "com.azure.storage.file.share.ShareFileAsyncClient"
-    name: "ShareFileAsyncClient"
-  - uid: "com.azure.storage.file.share.ShareFileClient"
-    name: "ShareFileClient"
-  - uid: "com.azure.storage.file.share.ShareFileClientBuilder"
-    name: "ShareFileClientBuilder"
-  - uid: "com.azure.storage.file.share.ShareServiceAsyncClient"
-    name: "ShareServiceAsyncClient"
-  - uid: "com.azure.storage.file.share.ShareServiceClient"
-    name: "ShareServiceClient"
-  - uid: "com.azure.storage.file.share.ShareServiceClientBuilder"
-    name: "ShareServiceClientBuilder"
-  - uid: "com.azure.storage.file.share.ShareServiceVersion"
-    name: "ShareServiceVersion"
-  - uid: "com.azure.storage.file.share.StorageFileInputStream"
-    name: "StorageFileInputStream"
-  - uid: "com.azure.storage.file.share.StorageFileOutputStream"
-    name: "StorageFileOutputStream"
-- uid: "com.azure.storage.file.share.models"
-  name: "com.azure.storage.file.share.models"
+  - uid: com.azure.storage.file.share.FileConfiguration
+    name: FileConfiguration
+    href: com.azure.storage.file.share.FileConfiguration.yml
+  - uid: com.azure.storage.file.share.FileConstants
+    name: FileConstants
+    href: com.azure.storage.file.share.FileConstants.yml
+  - uid: com.azure.storage.file.share.FileSmbProperties
+    name: FileSmbProperties
+    href: com.azure.storage.file.share.FileSmbProperties.yml
+  - uid: com.azure.storage.file.share.ShareAsyncClient
+    name: ShareAsyncClient
+    href: com.azure.storage.file.share.ShareAsyncClient.yml
+  - uid: com.azure.storage.file.share.ShareClient
+    name: ShareClient
+    href: com.azure.storage.file.share.ShareClient.yml
+  - uid: com.azure.storage.file.share.ShareClientBuilder
+    name: ShareClientBuilder
+    href: com.azure.storage.file.share.ShareClientBuilder.yml
+  - uid: com.azure.storage.file.share.ShareDirectoryAsyncClient
+    name: ShareDirectoryAsyncClient
+    href: com.azure.storage.file.share.ShareDirectoryAsyncClient.yml
+  - uid: com.azure.storage.file.share.ShareDirectoryClient
+    name: ShareDirectoryClient
+    href: com.azure.storage.file.share.ShareDirectoryClient.yml
+  - uid: com.azure.storage.file.share.ShareFileAsyncClient
+    name: ShareFileAsyncClient
+    href: com.azure.storage.file.share.ShareFileAsyncClient.yml
+  - uid: com.azure.storage.file.share.ShareFileClient
+    name: ShareFileClient
+    href: com.azure.storage.file.share.ShareFileClient.yml
+  - uid: com.azure.storage.file.share.ShareFileClientBuilder
+    name: ShareFileClientBuilder
+    href: com.azure.storage.file.share.ShareFileClientBuilder.yml
+  - uid: com.azure.storage.file.share.ShareServiceAsyncClient
+    name: ShareServiceAsyncClient
+    href: com.azure.storage.file.share.ShareServiceAsyncClient.yml
+  - uid: com.azure.storage.file.share.ShareServiceClient
+    name: ShareServiceClient
+    href: com.azure.storage.file.share.ShareServiceClient.yml
+  - uid: com.azure.storage.file.share.ShareServiceClientBuilder
+    name: ShareServiceClientBuilder
+    href: com.azure.storage.file.share.ShareServiceClientBuilder.yml
+  - uid: com.azure.storage.file.share.ShareServiceVersion
+    name: ShareServiceVersion
+    href: com.azure.storage.file.share.ShareServiceVersion.yml
+  - uid: com.azure.storage.file.share.StorageFileInputStream
+    name: StorageFileInputStream
+    href: com.azure.storage.file.share.StorageFileInputStream.yml
+  - uid: com.azure.storage.file.share.StorageFileOutputStream
+    name: StorageFileOutputStream
+    href: com.azure.storage.file.share.StorageFileOutputStream.yml
+- uid: com.azure.storage.file.share.models
+  name: com.azure.storage.file.share.models
+  href: com.azure.storage.file.share.models.yml
   items:
-  - uid: "com.azure.storage.file.share.models.CloseHandlesInfo"
-    name: "CloseHandlesInfo"
-  - uid: "com.azure.storage.file.share.models.CopyStatusType"
-    name: "CopyStatusType"
-  - uid: "com.azure.storage.file.share.models.HandleItem"
-    name: "HandleItem"
-  - uid: "com.azure.storage.file.share.models.ListSharesOptions"
-    name: "ListSharesOptions"
-  - uid: "com.azure.storage.file.share.models.NtfsFileAttributes"
-    name: "NtfsFileAttributes"
-  - uid: "com.azure.storage.file.share.models.Range"
-    name: "Range"
-  - uid: "com.azure.storage.file.share.models.ShareAccessPolicy"
-    name: "ShareAccessPolicy"
-  - uid: "com.azure.storage.file.share.models.ShareCorsRule"
-    name: "ShareCorsRule"
-  - uid: "com.azure.storage.file.share.models.ShareDirectoryInfo"
-    name: "ShareDirectoryInfo"
-  - uid: "com.azure.storage.file.share.models.ShareDirectoryProperties"
-    name: "ShareDirectoryProperties"
-  - uid: "com.azure.storage.file.share.models.ShareDirectorySetMetadataInfo"
-    name: "ShareDirectorySetMetadataInfo"
-  - uid: "com.azure.storage.file.share.models.ShareErrorCode"
-    name: "ShareErrorCode"
-  - uid: "com.azure.storage.file.share.models.ShareFileCopyInfo"
-    name: "ShareFileCopyInfo"
-  - uid: "com.azure.storage.file.share.models.ShareFileDownloadAsyncResponse"
-    name: "ShareFileDownloadAsyncResponse"
-  - uid: "com.azure.storage.file.share.models.ShareFileDownloadHeaders"
-    name: "ShareFileDownloadHeaders"
-  - uid: "com.azure.storage.file.share.models.ShareFileDownloadResponse"
-    name: "ShareFileDownloadResponse"
-  - uid: "com.azure.storage.file.share.models.ShareFileHttpHeaders"
-    name: "ShareFileHttpHeaders"
-  - uid: "com.azure.storage.file.share.models.ShareFileInfo"
-    name: "ShareFileInfo"
-  - uid: "com.azure.storage.file.share.models.ShareFileItem"
-    name: "ShareFileItem"
-  - uid: "com.azure.storage.file.share.models.ShareFileMetadataInfo"
-    name: "ShareFileMetadataInfo"
-  - uid: "com.azure.storage.file.share.models.ShareFileProperties"
-    name: "ShareFileProperties"
-  - uid: "com.azure.storage.file.share.models.ShareFileRange"
-    name: "ShareFileRange"
-  - uid: "com.azure.storage.file.share.models.ShareFileUploadInfo"
-    name: "ShareFileUploadInfo"
-  - uid: "com.azure.storage.file.share.models.ShareFileUploadRangeFromUrlInfo"
-    name: "ShareFileUploadRangeFromUrlInfo"
-  - uid: "com.azure.storage.file.share.models.ShareInfo"
-    name: "ShareInfo"
-  - uid: "com.azure.storage.file.share.models.ShareItem"
-    name: "ShareItem"
-  - uid: "com.azure.storage.file.share.models.ShareMetrics"
-    name: "ShareMetrics"
-  - uid: "com.azure.storage.file.share.models.ShareProperties"
-    name: "ShareProperties"
-  - uid: "com.azure.storage.file.share.models.ShareRetentionPolicy"
-    name: "ShareRetentionPolicy"
-  - uid: "com.azure.storage.file.share.models.ShareServiceProperties"
-    name: "ShareServiceProperties"
-  - uid: "com.azure.storage.file.share.models.ShareSignedIdentifier"
-    name: "ShareSignedIdentifier"
-  - uid: "com.azure.storage.file.share.models.ShareSnapshotInfo"
-    name: "ShareSnapshotInfo"
-  - uid: "com.azure.storage.file.share.models.ShareStatistics"
-    name: "ShareStatistics"
-  - uid: "com.azure.storage.file.share.models.ShareStorageException"
-    name: "ShareStorageException"
-  - uid: "com.azure.storage.file.share.models.SourceModifiedAccessConditions"
-    name: "SourceModifiedAccessConditions"
-- uid: "com.azure.storage.file.share.sas"
-  name: "com.azure.storage.file.share.sas"
+  - uid: com.azure.storage.file.share.models.CloseHandlesInfo
+    name: CloseHandlesInfo
+    href: com.azure.storage.file.share.models.CloseHandlesInfo.yml
+  - uid: com.azure.storage.file.share.models.CopyStatusType
+    name: CopyStatusType
+    href: com.azure.storage.file.share.models.CopyStatusType.yml
+  - uid: com.azure.storage.file.share.models.HandleItem
+    name: HandleItem
+    href: com.azure.storage.file.share.models.HandleItem.yml
+  - uid: com.azure.storage.file.share.models.ListSharesOptions
+    name: ListSharesOptions
+    href: com.azure.storage.file.share.models.ListSharesOptions.yml
+  - uid: com.azure.storage.file.share.models.NtfsFileAttributes
+    name: NtfsFileAttributes
+    href: com.azure.storage.file.share.models.NtfsFileAttributes.yml
+  - uid: com.azure.storage.file.share.models.Range
+    name: Range
+    href: com.azure.storage.file.share.models.Range.yml
+  - uid: com.azure.storage.file.share.models.ShareAccessPolicy
+    name: ShareAccessPolicy
+    href: com.azure.storage.file.share.models.ShareAccessPolicy.yml
+  - uid: com.azure.storage.file.share.models.ShareCorsRule
+    name: ShareCorsRule
+    href: com.azure.storage.file.share.models.ShareCorsRule.yml
+  - uid: com.azure.storage.file.share.models.ShareDirectoryInfo
+    name: ShareDirectoryInfo
+    href: com.azure.storage.file.share.models.ShareDirectoryInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareDirectoryProperties
+    name: ShareDirectoryProperties
+    href: com.azure.storage.file.share.models.ShareDirectoryProperties.yml
+  - uid: com.azure.storage.file.share.models.ShareDirectorySetMetadataInfo
+    name: ShareDirectorySetMetadataInfo
+    href: com.azure.storage.file.share.models.ShareDirectorySetMetadataInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareErrorCode
+    name: ShareErrorCode
+    href: com.azure.storage.file.share.models.ShareErrorCode.yml
+  - uid: com.azure.storage.file.share.models.ShareFileCopyInfo
+    name: ShareFileCopyInfo
+    href: com.azure.storage.file.share.models.ShareFileCopyInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareFileDownloadAsyncResponse
+    name: ShareFileDownloadAsyncResponse
+    href: com.azure.storage.file.share.models.ShareFileDownloadAsyncResponse.yml
+  - uid: com.azure.storage.file.share.models.ShareFileDownloadHeaders
+    name: ShareFileDownloadHeaders
+    href: com.azure.storage.file.share.models.ShareFileDownloadHeaders.yml
+  - uid: com.azure.storage.file.share.models.ShareFileDownloadResponse
+    name: ShareFileDownloadResponse
+    href: com.azure.storage.file.share.models.ShareFileDownloadResponse.yml
+  - uid: com.azure.storage.file.share.models.ShareFileHttpHeaders
+    name: ShareFileHttpHeaders
+    href: com.azure.storage.file.share.models.ShareFileHttpHeaders.yml
+  - uid: com.azure.storage.file.share.models.ShareFileInfo
+    name: ShareFileInfo
+    href: com.azure.storage.file.share.models.ShareFileInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareFileItem
+    name: ShareFileItem
+    href: com.azure.storage.file.share.models.ShareFileItem.yml
+  - uid: com.azure.storage.file.share.models.ShareFileMetadataInfo
+    name: ShareFileMetadataInfo
+    href: com.azure.storage.file.share.models.ShareFileMetadataInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareFileProperties
+    name: ShareFileProperties
+    href: com.azure.storage.file.share.models.ShareFileProperties.yml
+  - uid: com.azure.storage.file.share.models.ShareFileRange
+    name: ShareFileRange
+    href: com.azure.storage.file.share.models.ShareFileRange.yml
+  - uid: com.azure.storage.file.share.models.ShareFileUploadInfo
+    name: ShareFileUploadInfo
+    href: com.azure.storage.file.share.models.ShareFileUploadInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareFileUploadRangeFromUrlInfo
+    name: ShareFileUploadRangeFromUrlInfo
+    href: com.azure.storage.file.share.models.ShareFileUploadRangeFromUrlInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareInfo
+    name: ShareInfo
+    href: com.azure.storage.file.share.models.ShareInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareItem
+    name: ShareItem
+    href: com.azure.storage.file.share.models.ShareItem.yml
+  - uid: com.azure.storage.file.share.models.ShareMetrics
+    name: ShareMetrics
+    href: com.azure.storage.file.share.models.ShareMetrics.yml
+  - uid: com.azure.storage.file.share.models.ShareProperties
+    name: ShareProperties
+    href: com.azure.storage.file.share.models.ShareProperties.yml
+  - uid: com.azure.storage.file.share.models.ShareRetentionPolicy
+    name: ShareRetentionPolicy
+    href: com.azure.storage.file.share.models.ShareRetentionPolicy.yml
+  - uid: com.azure.storage.file.share.models.ShareServiceProperties
+    name: ShareServiceProperties
+    href: com.azure.storage.file.share.models.ShareServiceProperties.yml
+  - uid: com.azure.storage.file.share.models.ShareSignedIdentifier
+    name: ShareSignedIdentifier
+    href: com.azure.storage.file.share.models.ShareSignedIdentifier.yml
+  - uid: com.azure.storage.file.share.models.ShareSnapshotInfo
+    name: ShareSnapshotInfo
+    href: com.azure.storage.file.share.models.ShareSnapshotInfo.yml
+  - uid: com.azure.storage.file.share.models.ShareStatistics
+    name: ShareStatistics
+    href: com.azure.storage.file.share.models.ShareStatistics.yml
+  - uid: com.azure.storage.file.share.models.ShareStorageException
+    name: ShareStorageException
+    href: com.azure.storage.file.share.models.ShareStorageException.yml
+  - uid: com.azure.storage.file.share.models.SourceModifiedAccessConditions
+    name: SourceModifiedAccessConditions
+    href: com.azure.storage.file.share.models.SourceModifiedAccessConditions.yml
+- uid: com.azure.storage.file.share.sas
+  name: com.azure.storage.file.share.sas
+  href: com.azure.storage.file.share.sas.yml
   items:
-  - uid: "com.azure.storage.file.share.sas.ShareFileSasPermission"
-    name: "ShareFileSasPermission"
-  - uid: "com.azure.storage.file.share.sas.ShareSasPermission"
-    name: "ShareSasPermission"
-  - uid: "com.azure.storage.file.share.sas.ShareServiceSasQueryParameters"
-    name: "ShareServiceSasQueryParameters"
-  - uid: "com.azure.storage.file.share.sas.ShareServiceSasSignatureValues"
-    name: "ShareServiceSasSignatureValues"
-- uid: "com.azure.storage.common"
-  name: "com.azure.storage.common"
+  - uid: com.azure.storage.file.share.sas.ShareFileSasPermission
+    name: ShareFileSasPermission
+    href: com.azure.storage.file.share.sas.ShareFileSasPermission.yml
+  - uid: com.azure.storage.file.share.sas.ShareSasPermission
+    name: ShareSasPermission
+    href: com.azure.storage.file.share.sas.ShareSasPermission.yml
+  - uid: com.azure.storage.file.share.sas.ShareServiceSasQueryParameters
+    name: ShareServiceSasQueryParameters
+    href: com.azure.storage.file.share.sas.ShareServiceSasQueryParameters.yml
+  - uid: com.azure.storage.file.share.sas.ShareServiceSasSignatureValues
+    name: ShareServiceSasSignatureValues
+    href: com.azure.storage.file.share.sas.ShareServiceSasSignatureValues.yml
+- uid: com.azure.storage.blob.batch
+  name: com.azure.storage.blob.batch
+  href: com.azure.storage.blob.batch.yml
   items:
-  - uid: "com.azure.storage.common.StorageInputStream"
-    name: "StorageInputStream"
-  - uid: "com.azure.storage.common.StorageOutputStream"
-    name: "StorageOutputStream"
-  - uid: "com.azure.storage.common.StorageSharedKeyCredential"
-    name: "StorageSharedKeyCredential"
-  - uid: "com.azure.storage.common.Utility"
-    name: "Utility"
-- uid: "com.azure.storage.common.policy"
-  name: "com.azure.storage.common.policy"
+  - uid: com.azure.storage.blob.batch.BlobBatch
+    name: BlobBatch
+    href: com.azure.storage.blob.batch.BlobBatch.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchAsyncClient
+    name: BlobBatchAsyncClient
+    href: com.azure.storage.blob.batch.BlobBatchAsyncClient.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchClient
+    name: BlobBatchClient
+    href: com.azure.storage.blob.batch.BlobBatchClient.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchClientBuilder
+    name: BlobBatchClientBuilder
+    href: com.azure.storage.blob.batch.BlobBatchClientBuilder.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchHelper
+    name: BlobBatchHelper
+    href: com.azure.storage.blob.batch.BlobBatchHelper.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchOperationResponse
+    name: BlobBatchOperationResponse
+    href: com.azure.storage.blob.batch.BlobBatchOperationResponse.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchStorageException
+    name: BlobBatchStorageException
+    href: com.azure.storage.blob.batch.BlobBatchStorageException.yml
+  - uid: com.azure.storage.blob.batch.BlobBatchType
+    name: BlobBatchType
+    href: com.azure.storage.blob.batch.BlobBatchType.yml
+- uid: com.azure.storage.common
+  name: com.azure.storage.common
+  href: com.azure.storage.common.yml
   items:
-  - uid: "com.azure.storage.common.policy.RequestRetryOptions"
-    name: "RequestRetryOptions"
-  - uid: "com.azure.storage.common.policy.RequestRetryPolicy"
-    name: "RequestRetryPolicy"
-  - uid: "com.azure.storage.common.policy.ResponseValidationPolicyBuilder"
-    name: "ResponseValidationPolicyBuilder"
-  - uid: "com.azure.storage.common.policy.RetryPolicyType"
-    name: "RetryPolicyType"
-  - uid: "com.azure.storage.common.policy.ScrubEtagPolicy"
-    name: "ScrubEtagPolicy"
-  - uid: "com.azure.storage.common.policy.StorageSharedKeyCredentialPolicy"
-    name: "StorageSharedKeyCredentialPolicy"
-- uid: "com.azure.storage.common.sas"
-  name: "com.azure.storage.common.sas"
+  - uid: com.azure.storage.common.StorageInputStream
+    name: StorageInputStream
+    href: com.azure.storage.common.StorageInputStream.yml
+  - uid: com.azure.storage.common.StorageOutputStream
+    name: StorageOutputStream
+    href: com.azure.storage.common.StorageOutputStream.yml
+  - uid: com.azure.storage.common.StorageSharedKeyCredential
+    name: StorageSharedKeyCredential
+    href: com.azure.storage.common.StorageSharedKeyCredential.yml
+  - uid: com.azure.storage.common.Utility
+    name: Utility
+    href: com.azure.storage.common.Utility.yml
+- uid: com.azure.storage.common.policy
+  name: com.azure.storage.common.policy
+  href: com.azure.storage.common.policy.yml
   items:
-  - uid: "com.azure.storage.common.sas.AccountSasPermission"
-    name: "AccountSasPermission"
-  - uid: "com.azure.storage.common.sas.AccountSasQueryParameters"
-    name: "AccountSasQueryParameters"
-  - uid: "com.azure.storage.common.sas.AccountSasResourceType"
-    name: "AccountSasResourceType"
-  - uid: "com.azure.storage.common.sas.AccountSasService"
-    name: "AccountSasService"
-  - uid: "com.azure.storage.common.sas.AccountSasSignatureValues"
-    name: "AccountSasSignatureValues"
-  - uid: "com.azure.storage.common.sas.BaseSasQueryParameters"
-    name: "BaseSasQueryParameters"
-  - uid: "com.azure.storage.common.sas.SasIpRange"
-    name: "SasIpRange"
-  - uid: "com.azure.storage.common.sas.SasProtocol"
-    name: "SasProtocol"
-- uid: "com.azure.core.annotation"
-  name: "com.azure.core.annotation"
+  - uid: com.azure.storage.common.policy.RequestRetryOptions
+    name: RequestRetryOptions
+    href: com.azure.storage.common.policy.RequestRetryOptions.yml
+  - uid: com.azure.storage.common.policy.RequestRetryPolicy
+    name: RequestRetryPolicy
+    href: com.azure.storage.common.policy.RequestRetryPolicy.yml
+  - uid: com.azure.storage.common.policy.ResponseValidationPolicyBuilder
+    name: ResponseValidationPolicyBuilder
+    href: com.azure.storage.common.policy.ResponseValidationPolicyBuilder.yml
+  - uid: com.azure.storage.common.policy.RetryPolicyType
+    name: RetryPolicyType
+    href: com.azure.storage.common.policy.RetryPolicyType.yml
+  - uid: com.azure.storage.common.policy.ScrubEtagPolicy
+    name: ScrubEtagPolicy
+    href: com.azure.storage.common.policy.ScrubEtagPolicy.yml
+  - uid: com.azure.storage.common.policy.StorageSharedKeyCredentialPolicy
+    name: StorageSharedKeyCredentialPolicy
+    href: com.azure.storage.common.policy.StorageSharedKeyCredentialPolicy.yml
+- uid: com.azure.storage.common.sas
+  name: com.azure.storage.common.sas
+  href: com.azure.storage.common.sas.yml
   items:
-  - uid: "com.azure.core.annotation.BodyParam"
-    name: "BodyParam"
-  - uid: "com.azure.core.annotation.Delete"
-    name: "Delete"
-  - uid: "com.azure.core.annotation.ExpectedResponses"
-    name: "ExpectedResponses"
-  - uid: "com.azure.core.annotation.Fluent"
-    name: "Fluent"
-  - uid: "com.azure.core.annotation.FormParam"
-    name: "FormParam"
-  - uid: "com.azure.core.annotation.Get"
-    name: "Get"
-  - uid: "com.azure.core.annotation.Head"
-    name: "Head"
-  - uid: "com.azure.core.annotation.HeaderCollection"
-    name: "HeaderCollection"
-  - uid: "com.azure.core.annotation.HeaderParam"
-    name: "HeaderParam"
-  - uid: "com.azure.core.annotation.Headers"
-    name: "Headers"
-  - uid: "com.azure.core.annotation.Host"
-    name: "Host"
-  - uid: "com.azure.core.annotation.HostParam"
-    name: "HostParam"
-  - uid: "com.azure.core.annotation.Immutable"
-    name: "Immutable"
-  - uid: "com.azure.core.annotation.JsonFlatten"
-    name: "JsonFlatten"
-  - uid: "com.azure.core.annotation.Patch"
-    name: "Patch"
-  - uid: "com.azure.core.annotation.PathParam"
-    name: "PathParam"
-  - uid: "com.azure.core.annotation.Post"
-    name: "Post"
-  - uid: "com.azure.core.annotation.Put"
-    name: "Put"
-  - uid: "com.azure.core.annotation.QueryParam"
-    name: "QueryParam"
-  - uid: "com.azure.core.annotation.ResumeOperation"
-    name: "ResumeOperation"
-  - uid: "com.azure.core.annotation.ReturnType"
-    name: "ReturnType"
-  - uid: "com.azure.core.annotation.ReturnValueWireType"
-    name: "ReturnValueWireType"
-  - uid: "com.azure.core.annotation.ServiceClient"
-    name: "ServiceClient"
-  - uid: "com.azure.core.annotation.ServiceClientBuilder"
-    name: "ServiceClientBuilder"
-  - uid: "com.azure.core.annotation.ServiceInterface"
-    name: "ServiceInterface"
-  - uid: "com.azure.core.annotation.ServiceMethod"
-    name: "ServiceMethod"
-  - uid: "com.azure.core.annotation.UnexpectedResponseExceptionType"
-    name: "UnexpectedResponseExceptionType"
-  - uid: "com.azure.core.annotation.UnexpectedResponseExceptionTypes"
-    name: "UnexpectedResponseExceptionTypes"
-- uid: "com.azure.core.credential"
-  name: "com.azure.core.credential"
+  - uid: com.azure.storage.common.sas.AccountSasPermission
+    name: AccountSasPermission
+    href: com.azure.storage.common.sas.AccountSasPermission.yml
+  - uid: com.azure.storage.common.sas.AccountSasQueryParameters
+    name: AccountSasQueryParameters
+    href: com.azure.storage.common.sas.AccountSasQueryParameters.yml
+  - uid: com.azure.storage.common.sas.AccountSasResourceType
+    name: AccountSasResourceType
+    href: com.azure.storage.common.sas.AccountSasResourceType.yml
+  - uid: com.azure.storage.common.sas.AccountSasService
+    name: AccountSasService
+    href: com.azure.storage.common.sas.AccountSasService.yml
+  - uid: com.azure.storage.common.sas.AccountSasSignatureValues
+    name: AccountSasSignatureValues
+    href: com.azure.storage.common.sas.AccountSasSignatureValues.yml
+  - uid: com.azure.storage.common.sas.BaseSasQueryParameters
+    name: BaseSasQueryParameters
+    href: com.azure.storage.common.sas.BaseSasQueryParameters.yml
+  - uid: com.azure.storage.common.sas.SasIpRange
+    name: SasIpRange
+    href: com.azure.storage.common.sas.SasIpRange.yml
+  - uid: com.azure.storage.common.sas.SasProtocol
+    name: SasProtocol
+    href: com.azure.storage.common.sas.SasProtocol.yml
+- uid: com.azure.core.annotation
+  name: com.azure.core.annotation
+  href: com.azure.core.annotation.yml
   items:
-  - uid: "com.azure.core.credential.AccessToken"
-    name: "AccessToken"
-  - uid: "com.azure.core.credential.BasicAuthenticationCredential"
-    name: "BasicAuthenticationCredential"
-  - uid: "com.azure.core.credential.SimpleTokenCache"
-    name: "SimpleTokenCache"
-  - uid: "com.azure.core.credential.TokenCredential"
-    name: "TokenCredential"
-  - uid: "com.azure.core.credential.TokenRequestContext"
-    name: "TokenRequestContext"
-- uid: "com.azure.core.cryptography"
-  name: "com.azure.core.cryptography"
+  - uid: com.azure.core.annotation.BodyParam
+    name: BodyParam
+    href: com.azure.core.annotation.BodyParam.yml
+  - uid: com.azure.core.annotation.Delete
+    name: Delete
+    href: com.azure.core.annotation.Delete.yml
+  - uid: com.azure.core.annotation.ExpectedResponses
+    name: ExpectedResponses
+    href: com.azure.core.annotation.ExpectedResponses.yml
+  - uid: com.azure.core.annotation.Fluent
+    name: Fluent
+    href: com.azure.core.annotation.Fluent.yml
+  - uid: com.azure.core.annotation.FormParam
+    name: FormParam
+    href: com.azure.core.annotation.FormParam.yml
+  - uid: com.azure.core.annotation.Get
+    name: Get
+    href: com.azure.core.annotation.Get.yml
+  - uid: com.azure.core.annotation.Head
+    name: Head
+    href: com.azure.core.annotation.Head.yml
+  - uid: com.azure.core.annotation.HeaderCollection
+    name: HeaderCollection
+    href: com.azure.core.annotation.HeaderCollection.yml
+  - uid: com.azure.core.annotation.HeaderParam
+    name: HeaderParam
+    href: com.azure.core.annotation.HeaderParam.yml
+  - uid: com.azure.core.annotation.Headers
+    name: Headers
+    href: com.azure.core.annotation.Headers.yml
+  - uid: com.azure.core.annotation.Host
+    name: Host
+    href: com.azure.core.annotation.Host.yml
+  - uid: com.azure.core.annotation.HostParam
+    name: HostParam
+    href: com.azure.core.annotation.HostParam.yml
+  - uid: com.azure.core.annotation.Immutable
+    name: Immutable
+    href: com.azure.core.annotation.Immutable.yml
+  - uid: com.azure.core.annotation.JsonFlatten
+    name: JsonFlatten
+    href: com.azure.core.annotation.JsonFlatten.yml
+  - uid: com.azure.core.annotation.Patch
+    name: Patch
+    href: com.azure.core.annotation.Patch.yml
+  - uid: com.azure.core.annotation.PathParam
+    name: PathParam
+    href: com.azure.core.annotation.PathParam.yml
+  - uid: com.azure.core.annotation.Post
+    name: Post
+    href: com.azure.core.annotation.Post.yml
+  - uid: com.azure.core.annotation.Put
+    name: Put
+    href: com.azure.core.annotation.Put.yml
+  - uid: com.azure.core.annotation.QueryParam
+    name: QueryParam
+    href: com.azure.core.annotation.QueryParam.yml
+  - uid: com.azure.core.annotation.ResumeOperation
+    name: ResumeOperation
+    href: com.azure.core.annotation.ResumeOperation.yml
+  - uid: com.azure.core.annotation.ReturnType
+    name: ReturnType
+    href: com.azure.core.annotation.ReturnType.yml
+  - uid: com.azure.core.annotation.ReturnValueWireType
+    name: ReturnValueWireType
+    href: com.azure.core.annotation.ReturnValueWireType.yml
+  - uid: com.azure.core.annotation.ServiceClient
+    name: ServiceClient
+    href: com.azure.core.annotation.ServiceClient.yml
+  - uid: com.azure.core.annotation.ServiceClientBuilder
+    name: ServiceClientBuilder
+    href: com.azure.core.annotation.ServiceClientBuilder.yml
+  - uid: com.azure.core.annotation.ServiceInterface
+    name: ServiceInterface
+    href: com.azure.core.annotation.ServiceInterface.yml
+  - uid: com.azure.core.annotation.ServiceMethod
+    name: ServiceMethod
+    href: com.azure.core.annotation.ServiceMethod.yml
+  - uid: com.azure.core.annotation.UnexpectedResponseExceptionType
+    name: UnexpectedResponseExceptionType
+    href: com.azure.core.annotation.UnexpectedResponseExceptionType.yml
+  - uid: com.azure.core.annotation.UnexpectedResponseExceptionTypes
+    name: UnexpectedResponseExceptionTypes
+    href: com.azure.core.annotation.UnexpectedResponseExceptionTypes.yml
+- uid: com.azure.core.credential
+  name: com.azure.core.credential
+  href: com.azure.core.credential.yml
   items:
-  - uid: "com.azure.core.cryptography.AsyncKeyEncryptionKey"
-    name: "AsyncKeyEncryptionKey"
-  - uid: "com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver"
-    name: "AsyncKeyEncryptionKeyResolver"
-  - uid: "com.azure.core.cryptography.KeyEncryptionKey"
-    name: "KeyEncryptionKey"
-  - uid: "com.azure.core.cryptography.KeyEncryptionKeyResolver"
-    name: "KeyEncryptionKeyResolver"
-- uid: "com.azure.core.exception"
-  name: "com.azure.core.exception"
+  - uid: com.azure.core.credential.AccessToken
+    name: AccessToken
+    href: com.azure.core.credential.AccessToken.yml
+  - uid: com.azure.core.credential.BasicAuthenticationCredential
+    name: BasicAuthenticationCredential
+    href: com.azure.core.credential.BasicAuthenticationCredential.yml
+  - uid: com.azure.core.credential.SimpleTokenCache
+    name: SimpleTokenCache
+    href: com.azure.core.credential.SimpleTokenCache.yml
+  - uid: com.azure.core.credential.TokenCredential
+    name: TokenCredential
+    href: com.azure.core.credential.TokenCredential.yml
+  - uid: com.azure.core.credential.TokenRequestContext
+    name: TokenRequestContext
+    href: com.azure.core.credential.TokenRequestContext.yml
+- uid: com.azure.core.cryptography
+  name: com.azure.core.cryptography
+  href: com.azure.core.cryptography.yml
   items:
-  - uid: "com.azure.core.exception.AzureException"
-    name: "AzureException"
-  - uid: "com.azure.core.exception.ClientAuthenticationException"
-    name: "ClientAuthenticationException"
-  - uid: "com.azure.core.exception.DecodeException"
-    name: "DecodeException"
-  - uid: "com.azure.core.exception.HttpRequestException"
-    name: "HttpRequestException"
-  - uid: "com.azure.core.exception.HttpResponseException"
-    name: "HttpResponseException"
-  - uid: "com.azure.core.exception.ResourceExistsException"
-    name: "ResourceExistsException"
-  - uid: "com.azure.core.exception.ResourceModifiedException"
-    name: "ResourceModifiedException"
-  - uid: "com.azure.core.exception.ResourceNotFoundException"
-    name: "ResourceNotFoundException"
-  - uid: "com.azure.core.exception.ServiceResponseException"
-    name: "ServiceResponseException"
-  - uid: "com.azure.core.exception.TooManyRedirectsException"
-    name: "TooManyRedirectsException"
-  - uid: "com.azure.core.exception.UnexpectedLengthException"
-    name: "UnexpectedLengthException"
-- uid: "com.azure.core.http"
-  name: "com.azure.core.http"
+  - uid: com.azure.core.cryptography.AsyncKeyEncryptionKey
+    name: AsyncKeyEncryptionKey
+    href: com.azure.core.cryptography.AsyncKeyEncryptionKey.yml
+  - uid: com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver
+    name: AsyncKeyEncryptionKeyResolver
+    href: com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver.yml
+  - uid: com.azure.core.cryptography.KeyEncryptionKey
+    name: KeyEncryptionKey
+    href: com.azure.core.cryptography.KeyEncryptionKey.yml
+  - uid: com.azure.core.cryptography.KeyEncryptionKeyResolver
+    name: KeyEncryptionKeyResolver
+    href: com.azure.core.cryptography.KeyEncryptionKeyResolver.yml
+- uid: com.azure.core.exception
+  name: com.azure.core.exception
+  href: com.azure.core.exception.yml
   items:
-  - uid: "com.azure.core.http.ContentType"
-    name: "ContentType"
-  - uid: "com.azure.core.http.HttpClient"
-    name: "HttpClient"
-  - uid: "com.azure.core.http.HttpClientProvider"
-    name: "HttpClientProvider"
-  - uid: "com.azure.core.http.HttpHeader"
-    name: "HttpHeader"
-  - uid: "com.azure.core.http.HttpHeaders"
-    name: "HttpHeaders"
-  - uid: "com.azure.core.http.HttpMethod"
-    name: "HttpMethod"
-  - uid: "com.azure.core.http.HttpPipeline"
-    name: "HttpPipeline"
-  - uid: "com.azure.core.http.HttpPipelineBuilder"
-    name: "HttpPipelineBuilder"
-  - uid: "com.azure.core.http.HttpPipelineCallContext"
-    name: "HttpPipelineCallContext"
-  - uid: "com.azure.core.http.HttpPipelineNextPolicy"
-    name: "HttpPipelineNextPolicy"
-  - uid: "com.azure.core.http.HttpRequest"
-    name: "HttpRequest"
-  - uid: "com.azure.core.http.HttpResponse"
-    name: "HttpResponse"
-  - uid: "com.azure.core.http.MatchConditions"
-    name: "MatchConditions"
-  - uid: "com.azure.core.http.ProxyOptions"
-    name: "ProxyOptions"
-  - uid: "com.azure.core.http.RequestConditions"
-    name: "RequestConditions"
-- uid: "com.azure.core.util"
-  name: "com.azure.core.util"
+  - uid: com.azure.core.exception.AzureException
+    name: AzureException
+    href: com.azure.core.exception.AzureException.yml
+  - uid: com.azure.core.exception.ClientAuthenticationException
+    name: ClientAuthenticationException
+    href: com.azure.core.exception.ClientAuthenticationException.yml
+  - uid: com.azure.core.exception.DecodeException
+    name: DecodeException
+    href: com.azure.core.exception.DecodeException.yml
+  - uid: com.azure.core.exception.HttpRequestException
+    name: HttpRequestException
+    href: com.azure.core.exception.HttpRequestException.yml
+  - uid: com.azure.core.exception.HttpResponseException
+    name: HttpResponseException
+    href: com.azure.core.exception.HttpResponseException.yml
+  - uid: com.azure.core.exception.ResourceExistsException
+    name: ResourceExistsException
+    href: com.azure.core.exception.ResourceExistsException.yml
+  - uid: com.azure.core.exception.ResourceModifiedException
+    name: ResourceModifiedException
+    href: com.azure.core.exception.ResourceModifiedException.yml
+  - uid: com.azure.core.exception.ResourceNotFoundException
+    name: ResourceNotFoundException
+    href: com.azure.core.exception.ResourceNotFoundException.yml
+  - uid: com.azure.core.exception.ServiceResponseException
+    name: ServiceResponseException
+    href: com.azure.core.exception.ServiceResponseException.yml
+  - uid: com.azure.core.exception.TooManyRedirectsException
+    name: TooManyRedirectsException
+    href: com.azure.core.exception.TooManyRedirectsException.yml
+  - uid: com.azure.core.exception.UnexpectedLengthException
+    name: UnexpectedLengthException
+    href: com.azure.core.exception.UnexpectedLengthException.yml
+- uid: com.azure.core.http
+  name: com.azure.core.http
+  href: com.azure.core.http.yml
   items:
-  - uid: "com.azure.core.util.Base64Url"
-    name: "Base64Url"
-  - uid: "com.azure.core.util.Base64Util"
-    name: "Base64Util"
-  - uid: "com.azure.core.util.Configuration"
-    name: "Configuration"
-  - uid: "com.azure.core.util.Context"
-    name: "Context"
-  - uid: "com.azure.core.util.CoreUtils"
-    name: "CoreUtils"
-  - uid: "com.azure.core.util.DateTimeRfc1123"
-    name: "DateTimeRfc1123"
-  - uid: "com.azure.core.util.ExpandableStringEnum"
-    name: "ExpandableStringEnum"
-  - uid: "com.azure.core.util.FluxUtil"
-    name: "FluxUtil"
-  - uid: "com.azure.core.util.IterableStream"
-    name: "IterableStream"
-  - uid: "com.azure.core.util.NoopConfiguration"
-    name: "NoopConfiguration"
-  - uid: "com.azure.core.util.ServiceVersion"
-    name: "ServiceVersion"
-  - uid: "com.azure.core.util.UrlBuilder"
-    name: "UrlBuilder"
-  - uid: "com.azure.core.util.UrlToken"
-    name: "UrlToken"
-  - uid: "com.azure.core.util.UrlTokenType"
-    name: "UrlTokenType"
-  - uid: "com.azure.core.util.UrlTokenizer"
-    name: "UrlTokenizer"
-  - uid: "com.azure.core.util.UrlTokenizerState"
-    name: "UrlTokenizerState"
-  - uid: "com.azure.core.util.UserAgentProperties"
-    name: "UserAgentProperties"
-- uid: "com.azure.core.http.policy"
-  name: "com.azure.core.http.policy"
+  - uid: com.azure.core.http.ContentType
+    name: ContentType
+    href: com.azure.core.http.ContentType.yml
+  - uid: com.azure.core.http.HttpClient
+    name: HttpClient
+    href: com.azure.core.http.HttpClient.yml
+  - uid: com.azure.core.http.HttpClientProvider
+    name: HttpClientProvider
+    href: com.azure.core.http.HttpClientProvider.yml
+  - uid: com.azure.core.http.HttpHeader
+    name: HttpHeader
+    href: com.azure.core.http.HttpHeader.yml
+  - uid: com.azure.core.http.HttpHeaders
+    name: HttpHeaders
+    href: com.azure.core.http.HttpHeaders.yml
+  - uid: com.azure.core.http.HttpMethod
+    name: HttpMethod
+    href: com.azure.core.http.HttpMethod.yml
+  - uid: com.azure.core.http.HttpPipeline
+    name: HttpPipeline
+    href: com.azure.core.http.HttpPipeline.yml
+  - uid: com.azure.core.http.HttpPipelineBuilder
+    name: HttpPipelineBuilder
+    href: com.azure.core.http.HttpPipelineBuilder.yml
+  - uid: com.azure.core.http.HttpPipelineCallContext
+    name: HttpPipelineCallContext
+    href: com.azure.core.http.HttpPipelineCallContext.yml
+  - uid: com.azure.core.http.HttpPipelineNextPolicy
+    name: HttpPipelineNextPolicy
+    href: com.azure.core.http.HttpPipelineNextPolicy.yml
+  - uid: com.azure.core.http.HttpRequest
+    name: HttpRequest
+    href: com.azure.core.http.HttpRequest.yml
+  - uid: com.azure.core.http.HttpResponse
+    name: HttpResponse
+    href: com.azure.core.http.HttpResponse.yml
+  - uid: com.azure.core.http.MatchConditions
+    name: MatchConditions
+    href: com.azure.core.http.MatchConditions.yml
+  - uid: com.azure.core.http.ProxyOptions
+    name: ProxyOptions
+    href: com.azure.core.http.ProxyOptions.yml
+  - uid: com.azure.core.http.RequestConditions
+    name: RequestConditions
+    href: com.azure.core.http.RequestConditions.yml
+- uid: com.azure.core.util
+  name: com.azure.core.util
+  href: com.azure.core.util.yml
   items:
-  - uid: "com.azure.core.http.policy.AddDatePolicy"
-    name: "AddDatePolicy"
-  - uid: "com.azure.core.http.policy.AddHeadersFromContextPolicy"
-    name: "AddHeadersFromContextPolicy"
-  - uid: "com.azure.core.http.policy.AddHeadersPolicy"
-    name: "AddHeadersPolicy"
-  - uid: "com.azure.core.http.policy.AfterRetryPolicyProvider"
-    name: "AfterRetryPolicyProvider"
-  - uid: "com.azure.core.http.policy.BearerTokenAuthenticationPolicy"
-    name: "BearerTokenAuthenticationPolicy"
-  - uid: "com.azure.core.http.policy.BeforeRetryPolicyProvider"
-    name: "BeforeRetryPolicyProvider"
-  - uid: "com.azure.core.http.policy.CookiePolicy"
-    name: "CookiePolicy"
-  - uid: "com.azure.core.http.policy.ExponentialBackoff"
-    name: "ExponentialBackoff"
-  - uid: "com.azure.core.http.policy.FixedDelay"
-    name: "FixedDelay"
-  - uid: "com.azure.core.http.policy.HostPolicy"
-    name: "HostPolicy"
-  - uid: "com.azure.core.http.policy.HttpLogDetailLevel"
-    name: "HttpLogDetailLevel"
-  - uid: "com.azure.core.http.policy.HttpLogOptions"
-    name: "HttpLogOptions"
-  - uid: "com.azure.core.http.policy.HttpLoggingPolicy"
-    name: "HttpLoggingPolicy"
-  - uid: "com.azure.core.http.policy.HttpPipelinePolicy"
-    name: "HttpPipelinePolicy"
-  - uid: "com.azure.core.http.policy.HttpPolicyProvider"
-    name: "HttpPolicyProvider"
-  - uid: "com.azure.core.http.policy.HttpPolicyProviders"
-    name: "HttpPolicyProviders"
-  - uid: "com.azure.core.http.policy.PortPolicy"
-    name: "PortPolicy"
-  - uid: "com.azure.core.http.policy.ProtocolPolicy"
-    name: "ProtocolPolicy"
-  - uid: "com.azure.core.http.policy.RequestIdPolicy"
-    name: "RequestIdPolicy"
-  - uid: "com.azure.core.http.policy.RetryPolicy"
-    name: "RetryPolicy"
-  - uid: "com.azure.core.http.policy.RetryStrategy"
-    name: "RetryStrategy"
-  - uid: "com.azure.core.http.policy.TimeoutPolicy"
-    name: "TimeoutPolicy"
-  - uid: "com.azure.core.http.policy.UserAgentPolicy"
-    name: "UserAgentPolicy"
-- uid: "com.azure.core.http.rest"
-  name: "com.azure.core.http.rest"
+  - uid: com.azure.core.util.Base64Url
+    name: Base64Url
+    href: com.azure.core.util.Base64Url.yml
+  - uid: com.azure.core.util.Base64Util
+    name: Base64Util
+    href: com.azure.core.util.Base64Util.yml
+  - uid: com.azure.core.util.Configuration
+    name: Configuration
+    href: com.azure.core.util.Configuration.yml
+  - uid: com.azure.core.util.Context
+    name: Context
+    href: com.azure.core.util.Context.yml
+  - uid: com.azure.core.util.CoreUtils
+    name: CoreUtils
+    href: com.azure.core.util.CoreUtils.yml
+  - uid: com.azure.core.util.DateTimeRfc1123
+    name: DateTimeRfc1123
+    href: com.azure.core.util.DateTimeRfc1123.yml
+  - uid: com.azure.core.util.ExpandableStringEnum
+    name: ExpandableStringEnum
+    href: com.azure.core.util.ExpandableStringEnum.yml
+  - uid: com.azure.core.util.FluxUtil
+    name: FluxUtil
+    href: com.azure.core.util.FluxUtil.yml
+  - uid: com.azure.core.util.IterableStream
+    name: IterableStream
+    href: com.azure.core.util.IterableStream.yml
+  - uid: com.azure.core.util.NoopConfiguration
+    name: NoopConfiguration
+    href: com.azure.core.util.NoopConfiguration.yml
+  - uid: com.azure.core.util.ServiceVersion
+    name: ServiceVersion
+    href: com.azure.core.util.ServiceVersion.yml
+  - uid: com.azure.core.util.UrlBuilder
+    name: UrlBuilder
+    href: com.azure.core.util.UrlBuilder.yml
+  - uid: com.azure.core.util.UrlToken
+    name: UrlToken
+    href: com.azure.core.util.UrlToken.yml
+  - uid: com.azure.core.util.UrlTokenType
+    name: UrlTokenType
+    href: com.azure.core.util.UrlTokenType.yml
+  - uid: com.azure.core.util.UrlTokenizer
+    name: UrlTokenizer
+    href: com.azure.core.util.UrlTokenizer.yml
+  - uid: com.azure.core.util.UrlTokenizerState
+    name: UrlTokenizerState
+    href: com.azure.core.util.UrlTokenizerState.yml
+  - uid: com.azure.core.util.UserAgentProperties
+    name: UserAgentProperties
+    href: com.azure.core.util.UserAgentProperties.yml
+- uid: com.azure.core.http.policy
+  name: com.azure.core.http.policy
+  href: com.azure.core.http.policy.yml
   items:
-  - uid: "com.azure.core.http.rest.EncodedParameter"
-    name: "EncodedParameter"
-  - uid: "com.azure.core.http.rest.MissingRequiredAnnotationException"
-    name: "MissingRequiredAnnotationException"
-  - uid: "com.azure.core.http.rest.OperationDescription"
-    name: "OperationDescription"
-  - uid: "com.azure.core.http.rest.Page"
-    name: "Page"
-  - uid: "com.azure.core.http.rest.PagedFlux"
-    name: "PagedFlux"
-  - uid: "com.azure.core.http.rest.PagedFluxBase"
-    name: "PagedFluxBase"
-  - uid: "com.azure.core.http.rest.PagedIterable"
-    name: "PagedIterable"
-  - uid: "com.azure.core.http.rest.PagedIterableBase"
-    name: "PagedIterableBase"
-  - uid: "com.azure.core.http.rest.PagedResponse"
-    name: "PagedResponse"
-  - uid: "com.azure.core.http.rest.PagedResponseBase"
-    name: "PagedResponseBase"
-  - uid: "com.azure.core.http.rest.PercentEscaper"
-    name: "PercentEscaper"
-  - uid: "com.azure.core.http.rest.Response"
-    name: "Response"
-  - uid: "com.azure.core.http.rest.ResponseBase"
-    name: "ResponseBase"
-  - uid: "com.azure.core.http.rest.ResponseConstructorsCache"
-    name: "ResponseConstructorsCache"
-  - uid: "com.azure.core.http.rest.RestProxy"
-    name: "RestProxy"
-  - uid: "com.azure.core.http.rest.SimpleResponse"
-    name: "SimpleResponse"
-  - uid: "com.azure.core.http.rest.StreamResponse"
-    name: "StreamResponse"
-  - uid: "com.azure.core.http.rest.Substitution"
-    name: "Substitution"
-  - uid: "com.azure.core.http.rest.SwaggerInterfaceParser"
-    name: "SwaggerInterfaceParser"
-  - uid: "com.azure.core.http.rest.SwaggerMethodParser"
-    name: "SwaggerMethodParser"
-  - uid: "com.azure.core.http.rest.UrlEscapers"
-    name: "UrlEscapers"
-- uid: "com.azure.core.util.logging"
-  name: "com.azure.core.util.logging"
+  - uid: com.azure.core.http.policy.AddDatePolicy
+    name: AddDatePolicy
+    href: com.azure.core.http.policy.AddDatePolicy.yml
+  - uid: com.azure.core.http.policy.AddHeadersFromContextPolicy
+    name: AddHeadersFromContextPolicy
+    href: com.azure.core.http.policy.AddHeadersFromContextPolicy.yml
+  - uid: com.azure.core.http.policy.AddHeadersPolicy
+    name: AddHeadersPolicy
+    href: com.azure.core.http.policy.AddHeadersPolicy.yml
+  - uid: com.azure.core.http.policy.AfterRetryPolicyProvider
+    name: AfterRetryPolicyProvider
+    href: com.azure.core.http.policy.AfterRetryPolicyProvider.yml
+  - uid: com.azure.core.http.policy.BearerTokenAuthenticationPolicy
+    name: BearerTokenAuthenticationPolicy
+    href: com.azure.core.http.policy.BearerTokenAuthenticationPolicy.yml
+  - uid: com.azure.core.http.policy.BeforeRetryPolicyProvider
+    name: BeforeRetryPolicyProvider
+    href: com.azure.core.http.policy.BeforeRetryPolicyProvider.yml
+  - uid: com.azure.core.http.policy.CookiePolicy
+    name: CookiePolicy
+    href: com.azure.core.http.policy.CookiePolicy.yml
+  - uid: com.azure.core.http.policy.ExponentialBackoff
+    name: ExponentialBackoff
+    href: com.azure.core.http.policy.ExponentialBackoff.yml
+  - uid: com.azure.core.http.policy.FixedDelay
+    name: FixedDelay
+    href: com.azure.core.http.policy.FixedDelay.yml
+  - uid: com.azure.core.http.policy.HostPolicy
+    name: HostPolicy
+    href: com.azure.core.http.policy.HostPolicy.yml
+  - uid: com.azure.core.http.policy.HttpLogDetailLevel
+    name: HttpLogDetailLevel
+    href: com.azure.core.http.policy.HttpLogDetailLevel.yml
+  - uid: com.azure.core.http.policy.HttpLogOptions
+    name: HttpLogOptions
+    href: com.azure.core.http.policy.HttpLogOptions.yml
+  - uid: com.azure.core.http.policy.HttpLoggingPolicy
+    name: HttpLoggingPolicy
+    href: com.azure.core.http.policy.HttpLoggingPolicy.yml
+  - uid: com.azure.core.http.policy.HttpPipelinePolicy
+    name: HttpPipelinePolicy
+    href: com.azure.core.http.policy.HttpPipelinePolicy.yml
+  - uid: com.azure.core.http.policy.HttpPolicyProvider
+    name: HttpPolicyProvider
+    href: com.azure.core.http.policy.HttpPolicyProvider.yml
+  - uid: com.azure.core.http.policy.HttpPolicyProviders
+    name: HttpPolicyProviders
+    href: com.azure.core.http.policy.HttpPolicyProviders.yml
+  - uid: com.azure.core.http.policy.PortPolicy
+    name: PortPolicy
+    href: com.azure.core.http.policy.PortPolicy.yml
+  - uid: com.azure.core.http.policy.ProtocolPolicy
+    name: ProtocolPolicy
+    href: com.azure.core.http.policy.ProtocolPolicy.yml
+  - uid: com.azure.core.http.policy.RequestIdPolicy
+    name: RequestIdPolicy
+    href: com.azure.core.http.policy.RequestIdPolicy.yml
+  - uid: com.azure.core.http.policy.RetryPolicy
+    name: RetryPolicy
+    href: com.azure.core.http.policy.RetryPolicy.yml
+  - uid: com.azure.core.http.policy.RetryStrategy
+    name: RetryStrategy
+    href: com.azure.core.http.policy.RetryStrategy.yml
+  - uid: com.azure.core.http.policy.TimeoutPolicy
+    name: TimeoutPolicy
+    href: com.azure.core.http.policy.TimeoutPolicy.yml
+  - uid: com.azure.core.http.policy.UserAgentPolicy
+    name: UserAgentPolicy
+    href: com.azure.core.http.policy.UserAgentPolicy.yml
+- uid: com.azure.core.http.rest
+  name: com.azure.core.http.rest
+  href: com.azure.core.http.rest.yml
   items:
-  - uid: "com.azure.core.util.logging.ClientLogger"
-    name: "ClientLogger"
-  - uid: "com.azure.core.util.logging.LogLevel"
-    name: "LogLevel"
-- uid: "com.azure.core.util.polling"
-  name: "com.azure.core.util.polling"
+  - uid: com.azure.core.http.rest.EncodedParameter
+    name: EncodedParameter
+    href: com.azure.core.http.rest.EncodedParameter.yml
+  - uid: com.azure.core.http.rest.MissingRequiredAnnotationException
+    name: MissingRequiredAnnotationException
+    href: com.azure.core.http.rest.MissingRequiredAnnotationException.yml
+  - uid: com.azure.core.http.rest.OperationDescription
+    name: OperationDescription
+    href: com.azure.core.http.rest.OperationDescription.yml
+  - uid: com.azure.core.http.rest.Page
+    name: Page
+    href: com.azure.core.http.rest.Page.yml
+  - uid: com.azure.core.http.rest.PagedFlux
+    name: PagedFlux
+    href: com.azure.core.http.rest.PagedFlux.yml
+  - uid: com.azure.core.http.rest.PagedFluxBase
+    name: PagedFluxBase
+    href: com.azure.core.http.rest.PagedFluxBase.yml
+  - uid: com.azure.core.http.rest.PagedIterable
+    name: PagedIterable
+    href: com.azure.core.http.rest.PagedIterable.yml
+  - uid: com.azure.core.http.rest.PagedIterableBase
+    name: PagedIterableBase
+    href: com.azure.core.http.rest.PagedIterableBase.yml
+  - uid: com.azure.core.http.rest.PagedResponse
+    name: PagedResponse
+    href: com.azure.core.http.rest.PagedResponse.yml
+  - uid: com.azure.core.http.rest.PagedResponseBase
+    name: PagedResponseBase
+    href: com.azure.core.http.rest.PagedResponseBase.yml
+  - uid: com.azure.core.http.rest.PercentEscaper
+    name: PercentEscaper
+    href: com.azure.core.http.rest.PercentEscaper.yml
+  - uid: com.azure.core.http.rest.Response
+    name: Response
+    href: com.azure.core.http.rest.Response.yml
+  - uid: com.azure.core.http.rest.ResponseBase
+    name: ResponseBase
+    href: com.azure.core.http.rest.ResponseBase.yml
+  - uid: com.azure.core.http.rest.ResponseConstructorsCache
+    name: ResponseConstructorsCache
+    href: com.azure.core.http.rest.ResponseConstructorsCache.yml
+  - uid: com.azure.core.http.rest.RestProxy
+    name: RestProxy
+    href: com.azure.core.http.rest.RestProxy.yml
+  - uid: com.azure.core.http.rest.SimpleResponse
+    name: SimpleResponse
+    href: com.azure.core.http.rest.SimpleResponse.yml
+  - uid: com.azure.core.http.rest.StreamResponse
+    name: StreamResponse
+    href: com.azure.core.http.rest.StreamResponse.yml
+  - uid: com.azure.core.http.rest.Substitution
+    name: Substitution
+    href: com.azure.core.http.rest.Substitution.yml
+  - uid: com.azure.core.http.rest.SwaggerInterfaceParser
+    name: SwaggerInterfaceParser
+    href: com.azure.core.http.rest.SwaggerInterfaceParser.yml
+  - uid: com.azure.core.http.rest.SwaggerMethodParser
+    name: SwaggerMethodParser
+    href: com.azure.core.http.rest.SwaggerMethodParser.yml
+  - uid: com.azure.core.http.rest.UrlEscapers
+    name: UrlEscapers
+    href: com.azure.core.http.rest.UrlEscapers.yml
+- uid: com.azure.core.util.logging
+  name: com.azure.core.util.logging
+  href: com.azure.core.util.logging.yml
   items:
-  - uid: "com.azure.core.util.polling.AsyncPollResponse"
-    name: "AsyncPollResponse"
-  - uid: "com.azure.core.util.polling.DefaultSyncPoller"
-    name: "DefaultSyncPoller"
-  - uid: "com.azure.core.util.polling.LongRunningOperationStatus"
-    name: "LongRunningOperationStatus"
-  - uid: "com.azure.core.util.polling.PollResponse"
-    name: "PollResponse"
-  - uid: "com.azure.core.util.polling.PollerFlux"
-    name: "PollerFlux"
-  - uid: "com.azure.core.util.polling.PollingContext"
-    name: "PollingContext"
-  - uid: "com.azure.core.util.polling.SyncPoller"
-    name: "SyncPoller"
-- uid: "com.azure.core.util.serializer"
-  name: "com.azure.core.util.serializer"
+  - uid: com.azure.core.util.logging.ClientLogger
+    name: ClientLogger
+    href: com.azure.core.util.logging.ClientLogger.yml
+  - uid: com.azure.core.util.logging.LogLevel
+    name: LogLevel
+    href: com.azure.core.util.logging.LogLevel.yml
+- uid: com.azure.core.util.polling
+  name: com.azure.core.util.polling
+  href: com.azure.core.util.polling.yml
   items:
-  - uid: "com.azure.core.util.serializer.AdditionalPropertiesDeserializer"
-    name: "AdditionalPropertiesDeserializer"
-  - uid: "com.azure.core.util.serializer.AdditionalPropertiesSerializer"
-    name: "AdditionalPropertiesSerializer"
-  - uid: "com.azure.core.util.serializer.Base64UrlSerializer"
-    name: "Base64UrlSerializer"
-  - uid: "com.azure.core.util.serializer.ByteArraySerializer"
-    name: "ByteArraySerializer"
-  - uid: "com.azure.core.util.serializer.CollectionFormat"
-    name: "CollectionFormat"
-  - uid: "com.azure.core.util.serializer.DateTimeRfc1123Serializer"
-    name: "DateTimeRfc1123Serializer"
-  - uid: "com.azure.core.util.serializer.DateTimeSerializer"
-    name: "DateTimeSerializer"
-  - uid: "com.azure.core.util.serializer.DurationSerializer"
-    name: "DurationSerializer"
-  - uid: "com.azure.core.util.serializer.FlatteningDeserializer"
-    name: "FlatteningDeserializer"
-  - uid: "com.azure.core.util.serializer.FlatteningSerializer"
-    name: "FlatteningSerializer"
-  - uid: "com.azure.core.util.serializer.HttpHeadersSerializer"
-    name: "HttpHeadersSerializer"
-  - uid: "com.azure.core.util.serializer.JacksonAdapter"
-    name: "JacksonAdapter"
-  - uid: "com.azure.core.util.serializer.SerializerAdapter"
-    name: "SerializerAdapter"
-  - uid: "com.azure.core.util.serializer.SerializerEncoding"
-    name: "SerializerEncoding"
-- uid: "com.azure.core.util.tracing"
-  name: "com.azure.core.util.tracing"
+  - uid: com.azure.core.util.polling.AsyncPollResponse
+    name: AsyncPollResponse
+    href: com.azure.core.util.polling.AsyncPollResponse.yml
+  - uid: com.azure.core.util.polling.DefaultSyncPoller
+    name: DefaultSyncPoller
+    href: com.azure.core.util.polling.DefaultSyncPoller.yml
+  - uid: com.azure.core.util.polling.LongRunningOperationStatus
+    name: LongRunningOperationStatus
+    href: com.azure.core.util.polling.LongRunningOperationStatus.yml
+  - uid: com.azure.core.util.polling.PollResponse
+    name: PollResponse
+    href: com.azure.core.util.polling.PollResponse.yml
+  - uid: com.azure.core.util.polling.PollerFlux
+    name: PollerFlux
+    href: com.azure.core.util.polling.PollerFlux.yml
+  - uid: com.azure.core.util.polling.PollingContext
+    name: PollingContext
+    href: com.azure.core.util.polling.PollingContext.yml
+  - uid: com.azure.core.util.polling.SyncPoller
+    name: SyncPoller
+    href: com.azure.core.util.polling.SyncPoller.yml
+- uid: com.azure.core.util.serializer
+  name: com.azure.core.util.serializer
+  href: com.azure.core.util.serializer.yml
   items:
-  - uid: "com.azure.core.util.tracing.ProcessKind"
-    name: "ProcessKind"
-  - uid: "com.azure.core.util.tracing.Tracer"
-    name: "Tracer"
-  - uid: "com.azure.core.util.tracing.TracerProxy"
-    name: "TracerProxy"
-- uid: "com.azure.identity"
-  name: "com.azure.identity"
+  - uid: com.azure.core.util.serializer.AdditionalPropertiesDeserializer
+    name: AdditionalPropertiesDeserializer
+    href: com.azure.core.util.serializer.AdditionalPropertiesDeserializer.yml
+  - uid: com.azure.core.util.serializer.AdditionalPropertiesSerializer
+    name: AdditionalPropertiesSerializer
+    href: com.azure.core.util.serializer.AdditionalPropertiesSerializer.yml
+  - uid: com.azure.core.util.serializer.Base64UrlSerializer
+    name: Base64UrlSerializer
+    href: com.azure.core.util.serializer.Base64UrlSerializer.yml
+  - uid: com.azure.core.util.serializer.ByteArraySerializer
+    name: ByteArraySerializer
+    href: com.azure.core.util.serializer.ByteArraySerializer.yml
+  - uid: com.azure.core.util.serializer.CollectionFormat
+    name: CollectionFormat
+    href: com.azure.core.util.serializer.CollectionFormat.yml
+  - uid: com.azure.core.util.serializer.DateTimeRfc1123Serializer
+    name: DateTimeRfc1123Serializer
+    href: com.azure.core.util.serializer.DateTimeRfc1123Serializer.yml
+  - uid: com.azure.core.util.serializer.DateTimeSerializer
+    name: DateTimeSerializer
+    href: com.azure.core.util.serializer.DateTimeSerializer.yml
+  - uid: com.azure.core.util.serializer.DurationSerializer
+    name: DurationSerializer
+    href: com.azure.core.util.serializer.DurationSerializer.yml
+  - uid: com.azure.core.util.serializer.FlatteningDeserializer
+    name: FlatteningDeserializer
+    href: com.azure.core.util.serializer.FlatteningDeserializer.yml
+  - uid: com.azure.core.util.serializer.FlatteningSerializer
+    name: FlatteningSerializer
+    href: com.azure.core.util.serializer.FlatteningSerializer.yml
+  - uid: com.azure.core.util.serializer.HttpHeadersSerializer
+    name: HttpHeadersSerializer
+    href: com.azure.core.util.serializer.HttpHeadersSerializer.yml
+  - uid: com.azure.core.util.serializer.JacksonAdapter
+    name: JacksonAdapter
+    href: com.azure.core.util.serializer.JacksonAdapter.yml
+  - uid: com.azure.core.util.serializer.SerializerAdapter
+    name: SerializerAdapter
+    href: com.azure.core.util.serializer.SerializerAdapter.yml
+  - uid: com.azure.core.util.serializer.SerializerEncoding
+    name: SerializerEncoding
+    href: com.azure.core.util.serializer.SerializerEncoding.yml
+- uid: com.azure.core.util.tracing
+  name: com.azure.core.util.tracing
+  href: com.azure.core.util.tracing.yml
   items:
-  - uid: "com.azure.identity.AadCredentialBuilderBase"
-    name: "AadCredentialBuilderBase"
-  - uid: "com.azure.identity.AppServiceMsiCredential"
-    name: "AppServiceMsiCredential"
-  - uid: "com.azure.identity.AuthorizationCodeCredential"
-    name: "AuthorizationCodeCredential"
-  - uid: "com.azure.identity.AuthorizationCodeCredentialBuilder"
-    name: "AuthorizationCodeCredentialBuilder"
-  - uid: "com.azure.identity.ChainedTokenCredential"
-    name: "ChainedTokenCredential"
-  - uid: "com.azure.identity.ChainedTokenCredentialBuilder"
-    name: "ChainedTokenCredentialBuilder"
-  - uid: "com.azure.identity.ClientCertificateCredential"
-    name: "ClientCertificateCredential"
-  - uid: "com.azure.identity.ClientCertificateCredentialBuilder"
-    name: "ClientCertificateCredentialBuilder"
-  - uid: "com.azure.identity.ClientSecretCredential"
-    name: "ClientSecretCredential"
-  - uid: "com.azure.identity.ClientSecretCredentialBuilder"
-    name: "ClientSecretCredentialBuilder"
-  - uid: "com.azure.identity.CredentialBuilderBase"
-    name: "CredentialBuilderBase"
-  - uid: "com.azure.identity.DefaultAzureCredential"
-    name: "DefaultAzureCredential"
-  - uid: "com.azure.identity.DefaultAzureCredentialBuilder"
-    name: "DefaultAzureCredentialBuilder"
-  - uid: "com.azure.identity.DeviceCodeCredential"
-    name: "DeviceCodeCredential"
-  - uid: "com.azure.identity.DeviceCodeCredentialBuilder"
-    name: "DeviceCodeCredentialBuilder"
-  - uid: "com.azure.identity.DeviceCodeInfo"
-    name: "DeviceCodeInfo"
-  - uid: "com.azure.identity.EnvironmentCredential"
-    name: "EnvironmentCredential"
-  - uid: "com.azure.identity.EnvironmentCredentialBuilder"
-    name: "EnvironmentCredentialBuilder"
-  - uid: "com.azure.identity.InteractiveBrowserCredential"
-    name: "InteractiveBrowserCredential"
-  - uid: "com.azure.identity.InteractiveBrowserCredentialBuilder"
-    name: "InteractiveBrowserCredentialBuilder"
-  - uid: "com.azure.identity.ManagedIdentityCredential"
-    name: "ManagedIdentityCredential"
-  - uid: "com.azure.identity.ManagedIdentityCredentialBuilder"
-    name: "ManagedIdentityCredentialBuilder"
-  - uid: "com.azure.identity.SharedTokenCacheCredential"
-    name: "SharedTokenCacheCredential"
-  - uid: "com.azure.identity.SharedTokenCacheCredentialBuilder"
-    name: "SharedTokenCacheCredentialBuilder"
-  - uid: "com.azure.identity.UsernamePasswordCredential"
-    name: "UsernamePasswordCredential"
-  - uid: "com.azure.identity.UsernamePasswordCredentialBuilder"
-    name: "UsernamePasswordCredentialBuilder"
-  - uid: "com.azure.identity.VirtualMachineMsiCredential"
-    name: "VirtualMachineMsiCredential"
-- uid: "com.azure.messaging.eventhubs"
-  name: "com.azure.messaging.eventhubs"
+  - uid: com.azure.core.util.tracing.ProcessKind
+    name: ProcessKind
+    href: com.azure.core.util.tracing.ProcessKind.yml
+  - uid: com.azure.core.util.tracing.Tracer
+    name: Tracer
+    href: com.azure.core.util.tracing.Tracer.yml
+  - uid: com.azure.core.util.tracing.TracerProxy
+    name: TracerProxy
+    href: com.azure.core.util.tracing.TracerProxy.yml
+- uid: com.azure.identity
+  name: com.azure.identity
+  href: com.azure.identity.yml
   items:
-  - uid: "com.azure.messaging.eventhubs.CheckpointStore"
-    name: "CheckpointStore"
-  - uid: "com.azure.messaging.eventhubs.EventData"
-    name: "EventData"
-  - uid: "com.azure.messaging.eventhubs.EventDataBatch"
-    name: "EventDataBatch"
-  - uid: "com.azure.messaging.eventhubs.EventHubAsyncClient"
-    name: "EventHubAsyncClient"
-  - uid: "com.azure.messaging.eventhubs.EventHubClient"
-    name: "EventHubClient"
-  - uid: "com.azure.messaging.eventhubs.EventHubClientBuilder"
-    name: "EventHubClientBuilder"
-  - uid: "com.azure.messaging.eventhubs.EventHubConsumerAsyncClient"
-    name: "EventHubConsumerAsyncClient"
-  - uid: "com.azure.messaging.eventhubs.EventHubConsumerClient"
-    name: "EventHubConsumerClient"
-  - uid: "com.azure.messaging.eventhubs.EventHubMessageSerializer"
-    name: "EventHubMessageSerializer"
-  - uid: "com.azure.messaging.eventhubs.EventHubPartitionAsyncConsumer"
-    name: "EventHubPartitionAsyncConsumer"
-  - uid: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient"
-    name: "EventHubProducerAsyncClient"
-  - uid: "com.azure.messaging.eventhubs.EventHubProducerClient"
-    name: "EventHubProducerClient"
-  - uid: "com.azure.messaging.eventhubs.EventHubProperties"
-    name: "EventHubProperties"
-  - uid: "com.azure.messaging.eventhubs.EventProcessorClient"
-    name: "EventProcessorClient"
-  - uid: "com.azure.messaging.eventhubs.EventProcessorClientBuilder"
-    name: "EventProcessorClientBuilder"
-  - uid: "com.azure.messaging.eventhubs.Messages"
-    name: "Messages"
-  - uid: "com.azure.messaging.eventhubs.PartitionBasedLoadBalancer"
-    name: "PartitionBasedLoadBalancer"
-  - uid: "com.azure.messaging.eventhubs.PartitionProperties"
-    name: "PartitionProperties"
-  - uid: "com.azure.messaging.eventhubs.PartitionPumpManager"
-    name: "PartitionPumpManager"
-- uid: "com.azure.messaging.eventhubs.models"
-  name: "com.azure.messaging.eventhubs.models"
+  - uid: com.azure.identity.AadCredentialBuilderBase
+    name: AadCredentialBuilderBase
+    href: com.azure.identity.AadCredentialBuilderBase.yml
+  - uid: com.azure.identity.AppServiceMsiCredential
+    name: AppServiceMsiCredential
+    href: com.azure.identity.AppServiceMsiCredential.yml
+  - uid: com.azure.identity.AuthorizationCodeCredential
+    name: AuthorizationCodeCredential
+    href: com.azure.identity.AuthorizationCodeCredential.yml
+  - uid: com.azure.identity.AuthorizationCodeCredentialBuilder
+    name: AuthorizationCodeCredentialBuilder
+    href: com.azure.identity.AuthorizationCodeCredentialBuilder.yml
+  - uid: com.azure.identity.ChainedTokenCredential
+    name: ChainedTokenCredential
+    href: com.azure.identity.ChainedTokenCredential.yml
+  - uid: com.azure.identity.ChainedTokenCredentialBuilder
+    name: ChainedTokenCredentialBuilder
+    href: com.azure.identity.ChainedTokenCredentialBuilder.yml
+  - uid: com.azure.identity.ClientCertificateCredential
+    name: ClientCertificateCredential
+    href: com.azure.identity.ClientCertificateCredential.yml
+  - uid: com.azure.identity.ClientCertificateCredentialBuilder
+    name: ClientCertificateCredentialBuilder
+    href: com.azure.identity.ClientCertificateCredentialBuilder.yml
+  - uid: com.azure.identity.ClientSecretCredential
+    name: ClientSecretCredential
+    href: com.azure.identity.ClientSecretCredential.yml
+  - uid: com.azure.identity.ClientSecretCredentialBuilder
+    name: ClientSecretCredentialBuilder
+    href: com.azure.identity.ClientSecretCredentialBuilder.yml
+  - uid: com.azure.identity.CredentialBuilderBase
+    name: CredentialBuilderBase
+    href: com.azure.identity.CredentialBuilderBase.yml
+  - uid: com.azure.identity.DefaultAzureCredential
+    name: DefaultAzureCredential
+    href: com.azure.identity.DefaultAzureCredential.yml
+  - uid: com.azure.identity.DefaultAzureCredentialBuilder
+    name: DefaultAzureCredentialBuilder
+    href: com.azure.identity.DefaultAzureCredentialBuilder.yml
+  - uid: com.azure.identity.DeviceCodeCredential
+    name: DeviceCodeCredential
+    href: com.azure.identity.DeviceCodeCredential.yml
+  - uid: com.azure.identity.DeviceCodeCredentialBuilder
+    name: DeviceCodeCredentialBuilder
+    href: com.azure.identity.DeviceCodeCredentialBuilder.yml
+  - uid: com.azure.identity.DeviceCodeInfo
+    name: DeviceCodeInfo
+    href: com.azure.identity.DeviceCodeInfo.yml
+  - uid: com.azure.identity.EnvironmentCredential
+    name: EnvironmentCredential
+    href: com.azure.identity.EnvironmentCredential.yml
+  - uid: com.azure.identity.EnvironmentCredentialBuilder
+    name: EnvironmentCredentialBuilder
+    href: com.azure.identity.EnvironmentCredentialBuilder.yml
+  - uid: com.azure.identity.InteractiveBrowserCredential
+    name: InteractiveBrowserCredential
+    href: com.azure.identity.InteractiveBrowserCredential.yml
+  - uid: com.azure.identity.InteractiveBrowserCredentialBuilder
+    name: InteractiveBrowserCredentialBuilder
+    href: com.azure.identity.InteractiveBrowserCredentialBuilder.yml
+  - uid: com.azure.identity.ManagedIdentityCredential
+    name: ManagedIdentityCredential
+    href: com.azure.identity.ManagedIdentityCredential.yml
+  - uid: com.azure.identity.ManagedIdentityCredentialBuilder
+    name: ManagedIdentityCredentialBuilder
+    href: com.azure.identity.ManagedIdentityCredentialBuilder.yml
+  - uid: com.azure.identity.SharedTokenCacheCredential
+    name: SharedTokenCacheCredential
+    href: com.azure.identity.SharedTokenCacheCredential.yml
+  - uid: com.azure.identity.SharedTokenCacheCredentialBuilder
+    name: SharedTokenCacheCredentialBuilder
+    href: com.azure.identity.SharedTokenCacheCredentialBuilder.yml
+  - uid: com.azure.identity.UsernamePasswordCredential
+    name: UsernamePasswordCredential
+    href: com.azure.identity.UsernamePasswordCredential.yml
+  - uid: com.azure.identity.UsernamePasswordCredentialBuilder
+    name: UsernamePasswordCredentialBuilder
+    href: com.azure.identity.UsernamePasswordCredentialBuilder.yml
+  - uid: com.azure.identity.VirtualMachineMsiCredential
+    name: VirtualMachineMsiCredential
+    href: com.azure.identity.VirtualMachineMsiCredential.yml
+- uid: com.azure.messaging.eventhubs
+  name: com.azure.messaging.eventhubs
+  href: com.azure.messaging.eventhubs.yml
   items:
-  - uid: "com.azure.messaging.eventhubs.models.Checkpoint"
-    name: "Checkpoint"
-  - uid: "com.azure.messaging.eventhubs.models.CloseContext"
-    name: "CloseContext"
-  - uid: "com.azure.messaging.eventhubs.models.CloseReason"
-    name: "CloseReason"
-  - uid: "com.azure.messaging.eventhubs.models.CreateBatchOptions"
-    name: "CreateBatchOptions"
-  - uid: "com.azure.messaging.eventhubs.models.ErrorContext"
-    name: "ErrorContext"
-  - uid: "com.azure.messaging.eventhubs.models.EventContext"
-    name: "EventContext"
-  - uid: "com.azure.messaging.eventhubs.models.EventPosition"
-    name: "EventPosition"
-  - uid: "com.azure.messaging.eventhubs.models.InitializationContext"
-    name: "InitializationContext"
-  - uid: "com.azure.messaging.eventhubs.models.LastEnqueuedEventProperties"
-    name: "LastEnqueuedEventProperties"
-  - uid: "com.azure.messaging.eventhubs.models.PartitionContext"
-    name: "PartitionContext"
-  - uid: "com.azure.messaging.eventhubs.models.PartitionEvent"
-    name: "PartitionEvent"
-  - uid: "com.azure.messaging.eventhubs.models.PartitionOwnership"
-    name: "PartitionOwnership"
-  - uid: "com.azure.messaging.eventhubs.models.ReceiveOptions"
-    name: "ReceiveOptions"
-  - uid: "com.azure.messaging.eventhubs.models.SendOptions"
-    name: "SendOptions"
-- uid: "com.azure.messaging.eventhubs.checkpointstore.blob"
-  name: "com.azure.messaging.eventhubs.checkpointstore.blob"
+  - uid: com.azure.messaging.eventhubs.CheckpointStore
+    name: CheckpointStore
+    href: com.azure.messaging.eventhubs.CheckpointStore.yml
+  - uid: com.azure.messaging.eventhubs.EventData
+    name: EventData
+    href: com.azure.messaging.eventhubs.EventData.yml
+  - uid: com.azure.messaging.eventhubs.EventDataBatch
+    name: EventDataBatch
+    href: com.azure.messaging.eventhubs.EventDataBatch.yml
+  - uid: com.azure.messaging.eventhubs.EventHubAsyncClient
+    name: EventHubAsyncClient
+    href: com.azure.messaging.eventhubs.EventHubAsyncClient.yml
+  - uid: com.azure.messaging.eventhubs.EventHubClient
+    name: EventHubClient
+    href: com.azure.messaging.eventhubs.EventHubClient.yml
+  - uid: com.azure.messaging.eventhubs.EventHubClientBuilder
+    name: EventHubClientBuilder
+    href: com.azure.messaging.eventhubs.EventHubClientBuilder.yml
+  - uid: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient
+    name: EventHubConsumerAsyncClient
+    href: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.yml
+  - uid: com.azure.messaging.eventhubs.EventHubConsumerClient
+    name: EventHubConsumerClient
+    href: com.azure.messaging.eventhubs.EventHubConsumerClient.yml
+  - uid: com.azure.messaging.eventhubs.EventHubMessageSerializer
+    name: EventHubMessageSerializer
+    href: com.azure.messaging.eventhubs.EventHubMessageSerializer.yml
+  - uid: com.azure.messaging.eventhubs.EventHubPartitionAsyncConsumer
+    name: EventHubPartitionAsyncConsumer
+    href: com.azure.messaging.eventhubs.EventHubPartitionAsyncConsumer.yml
+  - uid: com.azure.messaging.eventhubs.EventHubProducerAsyncClient
+    name: EventHubProducerAsyncClient
+    href: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.yml
+  - uid: com.azure.messaging.eventhubs.EventHubProducerClient
+    name: EventHubProducerClient
+    href: com.azure.messaging.eventhubs.EventHubProducerClient.yml
+  - uid: com.azure.messaging.eventhubs.EventHubProperties
+    name: EventHubProperties
+    href: com.azure.messaging.eventhubs.EventHubProperties.yml
+  - uid: com.azure.messaging.eventhubs.EventProcessorClient
+    name: EventProcessorClient
+    href: com.azure.messaging.eventhubs.EventProcessorClient.yml
+  - uid: com.azure.messaging.eventhubs.EventProcessorClientBuilder
+    name: EventProcessorClientBuilder
+    href: com.azure.messaging.eventhubs.EventProcessorClientBuilder.yml
+  - uid: com.azure.messaging.eventhubs.Messages
+    name: Messages
+    href: com.azure.messaging.eventhubs.Messages.yml
+  - uid: com.azure.messaging.eventhubs.PartitionBasedLoadBalancer
+    name: PartitionBasedLoadBalancer
+    href: com.azure.messaging.eventhubs.PartitionBasedLoadBalancer.yml
+  - uid: com.azure.messaging.eventhubs.PartitionProperties
+    name: PartitionProperties
+    href: com.azure.messaging.eventhubs.PartitionProperties.yml
+  - uid: com.azure.messaging.eventhubs.PartitionPumpManager
+    name: PartitionPumpManager
+    href: com.azure.messaging.eventhubs.PartitionPumpManager.yml
+- uid: com.azure.messaging.eventhubs.models
+  name: com.azure.messaging.eventhubs.models
+  href: com.azure.messaging.eventhubs.models.yml
   items:
-  - uid: "com.azure.messaging.eventhubs.checkpointstore.blob.BlobCheckpointStore"
-    name: "BlobCheckpointStore"
-  - uid: "com.azure.messaging.eventhubs.checkpointstore.blob.Messages"
-    name: "Messages"
-- uid: "com.azure.data.appconfiguration"
-  name: "com.azure.data.appconfiguration"
+  - uid: com.azure.messaging.eventhubs.models.Checkpoint
+    name: Checkpoint
+    href: com.azure.messaging.eventhubs.models.Checkpoint.yml
+  - uid: com.azure.messaging.eventhubs.models.CloseContext
+    name: CloseContext
+    href: com.azure.messaging.eventhubs.models.CloseContext.yml
+  - uid: com.azure.messaging.eventhubs.models.CloseReason
+    name: CloseReason
+    href: com.azure.messaging.eventhubs.models.CloseReason.yml
+  - uid: com.azure.messaging.eventhubs.models.CreateBatchOptions
+    name: CreateBatchOptions
+    href: com.azure.messaging.eventhubs.models.CreateBatchOptions.yml
+  - uid: com.azure.messaging.eventhubs.models.ErrorContext
+    name: ErrorContext
+    href: com.azure.messaging.eventhubs.models.ErrorContext.yml
+  - uid: com.azure.messaging.eventhubs.models.EventContext
+    name: EventContext
+    href: com.azure.messaging.eventhubs.models.EventContext.yml
+  - uid: com.azure.messaging.eventhubs.models.EventPosition
+    name: EventPosition
+    href: com.azure.messaging.eventhubs.models.EventPosition.yml
+  - uid: com.azure.messaging.eventhubs.models.InitializationContext
+    name: InitializationContext
+    href: com.azure.messaging.eventhubs.models.InitializationContext.yml
+  - uid: com.azure.messaging.eventhubs.models.LastEnqueuedEventProperties
+    name: LastEnqueuedEventProperties
+    href: com.azure.messaging.eventhubs.models.LastEnqueuedEventProperties.yml
+  - uid: com.azure.messaging.eventhubs.models.PartitionContext
+    name: PartitionContext
+    href: com.azure.messaging.eventhubs.models.PartitionContext.yml
+  - uid: com.azure.messaging.eventhubs.models.PartitionEvent
+    name: PartitionEvent
+    href: com.azure.messaging.eventhubs.models.PartitionEvent.yml
+  - uid: com.azure.messaging.eventhubs.models.PartitionOwnership
+    name: PartitionOwnership
+    href: com.azure.messaging.eventhubs.models.PartitionOwnership.yml
+  - uid: com.azure.messaging.eventhubs.models.ReceiveOptions
+    name: ReceiveOptions
+    href: com.azure.messaging.eventhubs.models.ReceiveOptions.yml
+  - uid: com.azure.messaging.eventhubs.models.SendOptions
+    name: SendOptions
+    href: com.azure.messaging.eventhubs.models.SendOptions.yml
+- uid: com.azure.messaging.eventhubs.checkpointstore.blob
+  name: com.azure.messaging.eventhubs.checkpointstore.blob
+  href: com.azure.messaging.eventhubs.checkpointstore.blob.yml
   items:
-  - uid: "com.azure.data.appconfiguration.ConfigurationAsyncClient"
-    name: "ConfigurationAsyncClient"
-  - uid: "com.azure.data.appconfiguration.ConfigurationClient"
-    name: "ConfigurationClient"
-  - uid: "com.azure.data.appconfiguration.ConfigurationClientBuilder"
-    name: "ConfigurationClientBuilder"
-  - uid: "com.azure.data.appconfiguration.ConfigurationService"
-    name: "ConfigurationService"
-  - uid: "com.azure.data.appconfiguration.ConfigurationServiceVersion"
-    name: "ConfigurationServiceVersion"
-- uid: "com.azure.data.appconfiguration.models"
-  name: "com.azure.data.appconfiguration.models"
+  - uid: com.azure.messaging.eventhubs.checkpointstore.blob.BlobCheckpointStore
+    name: BlobCheckpointStore
+    href: com.azure.messaging.eventhubs.checkpointstore.blob.BlobCheckpointStore.yml
+  - uid: com.azure.messaging.eventhubs.checkpointstore.blob.Messages
+    name: Messages
+    href: com.azure.messaging.eventhubs.checkpointstore.blob.Messages.yml
+- uid: com.azure.messaging.eventhubs.checkpointstore.blob
+  name: com.azure.messaging.eventhubs.checkpointstore.blob
+  href: com.azure.messaging.eventhubs.checkpointstore.blob.yml
   items:
-  - uid: "com.azure.data.appconfiguration.models.ConfigurationSetting"
-    name: "ConfigurationSetting"
-  - uid: "com.azure.data.appconfiguration.models.SettingFields"
-    name: "SettingFields"
-  - uid: "com.azure.data.appconfiguration.models.SettingSelector"
-    name: "SettingSelector"
+  - uid: com.azure.messaging.eventhubs.checkpointstore.blob.BlobCheckpointStore
+    name: BlobCheckpointStore
+    href: com.azure.messaging.eventhubs.checkpointstore.blob.BlobCheckpointStore.yml
+  - uid: com.azure.messaging.eventhubs.checkpointstore.blob.Messages
+    name: Messages
+    href: com.azure.messaging.eventhubs.checkpointstore.blob.Messages.yml
+- uid: com.azure.data.appconfiguration
+  name: com.azure.data.appconfiguration
+  href: com.azure.data.appconfiguration.yml
+  items:
+  - uid: com.azure.data.appconfiguration.ConfigurationAsyncClient
+    name: ConfigurationAsyncClient
+    href: com.azure.data.appconfiguration.ConfigurationAsyncClient.yml
+  - uid: com.azure.data.appconfiguration.ConfigurationClient
+    name: ConfigurationClient
+    href: com.azure.data.appconfiguration.ConfigurationClient.yml
+  - uid: com.azure.data.appconfiguration.ConfigurationClientBuilder
+    name: ConfigurationClientBuilder
+    href: com.azure.data.appconfiguration.ConfigurationClientBuilder.yml
+  - uid: com.azure.data.appconfiguration.ConfigurationService
+    name: ConfigurationService
+    href: com.azure.data.appconfiguration.ConfigurationService.yml
+  - uid: com.azure.data.appconfiguration.ConfigurationServiceVersion
+    name: ConfigurationServiceVersion
+    href: com.azure.data.appconfiguration.ConfigurationServiceVersion.yml
+- uid: com.azure.data.appconfiguration.models
+  name: com.azure.data.appconfiguration.models
+  href: com.azure.data.appconfiguration.models.yml
+  items:
+  - uid: com.azure.data.appconfiguration.models.ConfigurationSetting
+    name: ConfigurationSetting
+    href: com.azure.data.appconfiguration.models.ConfigurationSetting.yml
+  - uid: com.azure.data.appconfiguration.models.SettingFields
+    name: SettingFields
+    href: com.azure.data.appconfiguration.models.SettingFields.yml
+  - uid: com.azure.data.appconfiguration.models.SettingSelector
+    name: SettingSelector
+    href: com.azure.data.appconfiguration.models.SettingSelector.yml

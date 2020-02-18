@@ -14,14 +14,16 @@ import glob
 import yaml
 import pdb
 
-NAMESPACE_OUTPUT_TEMPLATE = """- uid: "{namespace}"
-  name: "{namespace}"
+NAMESPACE_OUTPUT_TEMPLATE = """- uid: {namespace}
+  name: {namespace}
+  href: {namespace}.yml
   items:
 {member_classes}
 """
 
-MEMBER_OUTPUT_TEMPLATE = """  - uid: \"{member_uid}\"
-    name: \"{member_name}\""""
+MEMBER_OUTPUT_TEMPLATE = """  - uid: {member_uid}
+    name: {member_name}
+    href: {member_uid}.yml"""
 
 def output_namespace_yml(namespace_key, namespace_results):
   top_level_members = sorted([member for member in namespace_results if not member.split('.')[-1][0].isupper()], key=lambda namespace: len(namespace.split(".")))
@@ -71,12 +73,12 @@ if __name__ == "__main__":
   # choose the first service folder (should be core)
   for moniker_path in moniker_maps.keys():
     print('STARTING {}'.format(moniker_path))
-    chosen_service_folder = [results for results in os.listdir('./{path}/'.format(path=moniker_path))][0] or ''
+    # chosen_service_folder = [results for results in os.listdir('./{path}/'.format(path=moniker_path))][0] or None
 
-    member_discovery_folder = os.path.join(moniker_path, chosen_service_folder)
-    toc_output_path = os.path.join(member_discovery_folder, 'toc_new.yml')
+    # member_discovery_folder = os.path.join(moniker_path, chosen_service_folder)
+    toc_output_path = os.path.join(moniker_path, 'toc_new.yml')
 
-    print(member_discovery_folder)
+    print(moniker_path)
     print(toc_output_path)    
 
     namespace_members = {}
@@ -84,7 +86,7 @@ if __name__ == "__main__":
 
     for namespace in moniker_maps[moniker_path]:
       full_namespace = namespace[0] + '.' + namespace[1].replace('-','.')
-      full_namespace_path = os.path.join(member_discovery_folder, full_namespace)
+      full_namespace_path = os.path.join(moniker_path, full_namespace)
       member_file = full_namespace_path +".yml"
       if full_namespace not in namespace_members:
         namespace_members[full_namespace] = []
