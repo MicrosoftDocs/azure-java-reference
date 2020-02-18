@@ -560,34 +560,6 @@
   - uid: com.azure.storage.blob.UploadBufferPool
     name: UploadBufferPool
     href: com.azure.storage.blob.UploadBufferPool.yml
-- uid: com.azure.storage.blob.batch
-  name: com.azure.storage.blob.batch
-  href: com.azure.storage.blob.batch.yml
-  items:
-  - uid: com.azure.storage.blob.batch.BlobBatch
-    name: BlobBatch
-    href: com.azure.storage.blob.batch.BlobBatch.yml
-  - uid: com.azure.storage.blob.batch.BlobBatchAsyncClient
-    name: BlobBatchAsyncClient
-    href: com.azure.storage.blob.batch.BlobBatchAsyncClient.yml
-  - uid: com.azure.storage.blob.batch.BlobBatchClient
-    name: BlobBatchClient
-    href: com.azure.storage.blob.batch.BlobBatchClient.yml
-  - uid: com.azure.storage.blob.batch.BlobBatchClientBuilder
-    name: BlobBatchClientBuilder
-    href: com.azure.storage.blob.batch.BlobBatchClientBuilder.yml
-  - uid: com.azure.storage.blob.batch.BlobBatchHelper
-    name: BlobBatchHelper
-    href: com.azure.storage.blob.batch.BlobBatchHelper.yml
-  - uid: com.azure.storage.blob.batch.BlobBatchOperationResponse
-    name: BlobBatchOperationResponse
-    href: com.azure.storage.blob.batch.BlobBatchOperationResponse.yml
-  - uid: com.azure.storage.blob.batch.BlobBatchStorageException
-    name: BlobBatchStorageException
-    href: com.azure.storage.blob.batch.BlobBatchStorageException.yml
-  - uid: com.azure.storage.blob.batch.BlobBatchType
-    name: BlobBatchType
-    href: com.azure.storage.blob.batch.BlobBatchType.yml
 - uid: com.azure.storage.blob.models
   name: com.azure.storage.blob.models
   href: com.azure.storage.blob.models.yml
