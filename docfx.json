@@ -1,117 +1,176 @@
-{
-  "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.yml"
-        ],
-        "src": "unified-latest/overview",
-        "dest": "api/overview/azure",
-        "group": "stable",
-        "version": "unified-latest"
+{ 
+   "build":{ 
+      "content":[ 
+         { 
+            "files":[ 
+               "**/*.md",
+               "**/*.yml"
+            ],
+            "src":"unified-latest/docs-ref-autogen/overview",
+            "dest":"api/overview/azure",
+            "group":"latest",
+            "version":"unified-latest",
+            "exclude":[ 
+               "**/obj/**",
+               "**/includes/**"
+            ]
+         },
+         { 
+            "files":[ 
+               "**/*.md",
+               "**/*.yml"
+            ],
+            "src":"unified-preview/docs-ref-autogen/overview",
+            "dest":"api/overview/azure",
+            "group":"preview",
+            "version":"unified-preview",
+            "exclude":[ 
+               "**/obj/**",
+               "**/includes/**"
+            ]
+         },
+         { 
+            "files":[ 
+               "**/toc.yml"
+            ],
+            "src":"unified-latest/docs-ref-autogen",
+            "dest":"api/azure",
+            "group":"latest",
+            "version":"unified-latest",
+            "exclude":[ 
+               "**/obj/**",
+               "**/includes/**"
+            ]
+         },
+         { 
+            "files":[ 
+               "**/toc.yml"
+            ],
+            "src":"unified-preview/docs-ref-autogen",
+            "dest":"api/azure",
+            "group":"preview",
+            "version":"unified-preview",
+            "exclude":[ 
+               "**/obj/**",
+               "**/includes/**"
+            ]
+         },
+         { 
+            "files":[ 
+               "toc.yml"
+            ],
+            "src":"breadcrumb",
+            "dest":"breadcrumb",
+            "version":"unified-latest",
+            "group":"latest"
+         },
+         { 
+            "files":[ 
+               "toc.yml"
+            ],
+            "src":"breadcrumb",
+            "dest":"breadcrumb",
+            "version":"unified-preview",
+            "group":"preview"
+         },
+         { 
+            "files":[ 
+               "**/*.md",
+               "**/*.yml"
+            ],
+            "src":"unified-latest/docs-ref-autogen",
+            "dest":"api",
+            "group":"latest",
+            "version":"unified-latest",
+            "exclude":[ 
+               "**/obj/**",
+               "**/includes/**",
+               "**/toc.yml"
+            ]
+         },
+         { 
+            "files":[ 
+               "**/*.md",
+               "**/*.yml"
+            ],
+            "src":"unified-preview/docs-ref-autogen",
+            "dest":"api",
+            "group":"preview",
+            "version":"unified-preview",
+            "exclude":[ 
+               "**/obj/**",
+               "**/includes/**",
+               "**/toc.yml"
+            ]
+         },
+         { 
+            "files":[ 
+               "**/*.md"
+            ],
+            "src":"unified-latest",
+            "version":"unified-latest",
+            "group":"stable",
+            "exclude":[ 
+               "**/obj/**",
+               "**/includes/**",
+               "README.md",
+               "LICENSE",
+               "LICENSE-CODE",
+               "ThirdPartyNotices",
+               "docs-ref-autogen"
+            ]
+         }
+      ],
+      "resource":[ 
+         { 
+            "files":[ 
+               "**/*.png",
+               "**/*.jpg",
+               "**/*.gif"
+            ],
+            "src":"unified-latest",
+            "group":"stable",
+            "version":"unified-latest",
+            "exclude":[ 
+               "**/obj/**",
+               "**/includes/**"
+            ]
+         }
+      ],
+      "groups":{ 
+         "":{ 
+            "dest":"preview",
+            "moniker_range":"unified-preview"
+         },
+         "latest":{ 
+            "dest":"latest",
+            "moniker_range":"unified-latest"
+         }
       },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "src": "unified-latest",
-        "dest": "api/overview/azure",
-        "version": "unified-latest",
-        "group": "stable",
-        "exclude": [
-          "**/obj/**",
-          "**/toc.yml",
-          "overview/**",
-          "**/includes/**"
-        ]
+      "overwrite":[ 
+
+      ],
+      "externalReference":[ 
+
+      ],
+      "globalMetadata":{ 
+         "breadcrumb_path":"~/breadcrumb/toc.yml"
       },
-      {
-        "files": [
-          "**/toc.yml"
-        ],
-        "src": "unified-latest",
-        "dest": "api/azure-java-sdk",
-        "group": "stable",
-        "version": "azure-java-stable",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
+      "markdownEngineName":"markdig",
+      "fileMetadata":{ 
+
       },
-      {
-        "files": [
-          "**/*.yml"
-        ],
-        "src": "breadcrumb",
-        "dest": "breadcrumb",
-        "version": "unified-latest",
-        "group": "stable",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md"
-        ],
-        "src": "unified-latest",
-        "version": "unified-latest",
-        "group": "stable",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "docs-ref-autogen"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif"
-        ],
-        "src": "unified-latest",
-        "group": "stable",
-        "version": "unified-latest",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
-    ],
-    "groups": {
-      "preview": {
-        "dest": "preview",
-        "moniker_range": "unified-preview"
-      },
-      "stable": {
-        "dest": "stable",
-        "moniker_range": "unified-latest"
-      }
-    },
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
-    },    
-    "markdownEngineName": "markdig",
-    "fileMetadata": {},
-    "template": [],
-    "dest": "_site"
-  },
-  "langs": {
-    "unified-latest/**.yml": [
-      "java"
-    ],
-    "unified-preview/**.yml": [
-      "java"
-    ]
-  }
+      "template":[ 
+
+      ],
+      "dest":"_site"
+   },
+   "langs":{ 
+      "unified-latest/docs-ref-autogen/**.yml":[ 
+         "java"
+      ],
+      "unified-preview/docs-ref-autogen/**.yml":[ 
+         "java"
+      ]
+   }
 }

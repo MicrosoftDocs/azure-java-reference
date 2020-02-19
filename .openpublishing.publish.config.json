@@ -3,7 +3,7 @@
     {
       "docset_name": "AzureMavenRef",
       "build_source_folder": ".",
-      "build_output_subfolder": "azure/sdk/java",
+      "build_output_subfolder": "AzureMavenRef",
       "locale": "en-us",
       "moniker_ranges": [
         "unified-latest",
@@ -26,15 +26,12 @@
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
+          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1"
         ]
       },
-      "DiffFolder": [ 
-        "api" 
-      ],
       "SplitTOC": [
-        "unified-latest/toc.yml"
+        "unified-latest/toc.yml",
+        "unified-preview/toc.yml"
       ]
     }
   ],
@@ -79,10 +76,25 @@
   ],
   "JoinTOCPlugin": [
     {
-      "TopLevelTOC": "docs-ref-mapping/reference-latest.yml",
-      "ReferenceTOCUrl": "/java/api/azure-java-sdk/toc.json?view=unified-latest",
+      "TopLevelTOC": "unified-latest/docs-ref-mapping/reference-latest.yml",
+      "ReferenceTOC": "unified-latest/docs-ref-autogen/toc.yml",
+      "ReferenceTOCUrl": "/java/api/azure/toc.json?view=unified-latest",
       "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
       "OutputFolder": "unified-latest/overview",
+      "HideEmptyNode": false,
+      "ContainerPageMetadata": {
+        "langs": [
+          "java"
+        ],
+        "open_to_public_contributors": false
+      }
+    },
+    {
+      "TopLevelTOC": "unified-preview/docs-ref-mapping/reference-preview.yml",
+      "ReferenceTOC": "unified-preview/docs-ref-autogen/toc.yml",
+      "ReferenceTOCUrl": "/java/api/azure/toc.json?view=unified-preview",
+      "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
+      "OutputFolder": "unified-preview/overview",
       "HideEmptyNode": false,
       "ContainerPageMetadata": {
         "langs": [
