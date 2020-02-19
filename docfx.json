@@ -138,7 +138,7 @@
       }
     ],
     "groups": {
-      "": {
+      "preview": {
         "dest": "preview",
         "moniker_range": "unified-preview"
       },
