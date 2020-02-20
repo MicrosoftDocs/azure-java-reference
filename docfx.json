@@ -3,7 +3,6 @@
     "content": [
       {
         "files": [
-          "**/*.md",
           "**/*.yml"
         ],
         "src": "unified-latest/docs-ref-autogen/overview",
@@ -17,7 +16,6 @@
       },
       {
         "files": [
-          "**/*.md",
           "**/*.yml"
         ],
         "src": "unified-preview/docs-ref-autogen/overview",
@@ -102,6 +100,26 @@
           "**/includes/**",
           "**/toc.yml"
         ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-conceptual",
+        "dest": "azure",
+        "group": "latest",
+        "version": "unified-latest"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-conceptual",
+        "dest": "azure",
+        "group": "preview",
+        "version": "unified-preview"
       },
       {
         "files": [

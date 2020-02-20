@@ -1,7 +1,7 @@
 [
     {
         "language": "java",
-        "output_path": "unified-latest",
+        "output_path": "unified-latest/docs-ref-autogen",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
@@ -127,7 +127,7 @@
     },
     {
         "language": "java",
-        "output_path": "unified-preview",
+        "output_path": "unified-preview/docs-ref-autogen",
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",

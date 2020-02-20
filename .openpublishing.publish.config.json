@@ -30,8 +30,8 @@
         ]
       },
       "SplitTOC": [
-        "unified-latest/toc.yml",
-        "unified-preview/toc.yml"
+        "unified-latest/docs-ref-autogen/toc.yml",
+        "unified-preview/docs-ref-autogen/toc.yml"
       ]
     }
   ],
@@ -42,13 +42,13 @@
   "need_preview_pull_request": false,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
-    {
-      "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
-      "branch_mapping": {}
-    }
-  ],
+      {
+        "path_to_root": "_themes",
+        "url": "https://github.com/Microsoft/templates.docs.msft",
+        "branch": "master",
+        "branch_mapping": {}
+      }
+    ],
   "branch_target_mapping": {},
   "need_generate_pdf_url_template": false,
   "dependent_packages": [
@@ -64,23 +64,24 @@
       "nuget_feed": "https://www.myget.org/F/op/api/v2",
       "path_to_root": "_dependentPackages/CommonPlugins",
       "target_framework": "net45",
-      "version": "latest-prerelease"
+      "version": "latest"
     },
     {
-      "id": "memberpage.plugins",
-      "nuget_feed": "https://www.myget.org/F/docfx/api/v2",
       "path_to_root": "_dependentPackages/memberpage.plugins",
       "target_framework": "net45",
-      "version": "latest-prerelease"
+      "version": "latest",
+      "id": "memberpage.plugins",
+      "nuget_feed": "https://www.myget.org/F/docfx/api/v2"
     }
   ],
   "JoinTOCPlugin": [
     {
       "TopLevelTOC": "unified-latest/docs-ref-mapping/reference-latest.yml",
       "ReferenceTOC": "unified-latest/docs-ref-autogen/toc.yml",
-      "ReferenceTOCUrl": "/java/api/azure/toc.json?view=unified-latest",
-      "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
-      "OutputFolder": "unified-latest/overview",
+      "ConceptualTOC": "docs-ref-conceptual/toc.yml",
+      "ReferenceTOCUrl": "/java/api/azure/toc.json",
+      "ConceptualTOCUrl": "/java/azure/toc.json",
+      "OutputFolder": "unified-latest/docs-ref-autogen/overview",
       "HideEmptyNode": false,
       "ContainerPageMetadata": {
         "langs": [
@@ -92,9 +93,10 @@
     {
       "TopLevelTOC": "unified-preview/docs-ref-mapping/reference-preview.yml",
       "ReferenceTOC": "unified-preview/docs-ref-autogen/toc.yml",
-      "ReferenceTOCUrl": "/java/api/azure/toc.json?view=unified-preview",
-      "ConceptualTOCUrl": "/java/azure/toc.json?view=azure-java-stable",
-      "OutputFolder": "unified-preview/overview",
+      "ConceptualTOC": "docs-ref-conceptual/toc.yml",
+      "ReferenceTOCUrl": "/java/api/azure/toc.json",
+      "ConceptualTOCUrl": "/java/azure/toc.json",
+      "OutputFolder": "unified-preview/docs-ref-autogen/overview",
       "HideEmptyNode": false,
       "ContainerPageMetadata": {
         "langs": [
