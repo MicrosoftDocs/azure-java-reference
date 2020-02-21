@@ -76,15 +76,16 @@ items:
   overload: "com.azure.cosmos.CommonsBridgeInternal.partitionKeyRangeIdInternal*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Gets the getPartitionKeyRangeId."
+  summary: "Gets the partitionKeyRangeId."
   syntax:
     content: "public static String partitionKeyRangeIdInternal(ChangeFeedOptions options)"
     parameters:
     - id: "options"
       type: "com.azure.cosmos.ChangeFeedOptions"
+      description: "the feed options"
     return:
       type: "java.lang.String"
-      description: "the getPartitionKeyRangeId."
+      description: "the partitionKeyRangeId."
 - uid: "com.azure.cosmos.CommonsBridgeInternal.partitionKeyRangeIdInternal(com.azure.cosmos.ChangeFeedOptions,java.lang.String)"
   id: "partitionKeyRangeIdInternal(com.azure.cosmos.ChangeFeedOptions,java.lang.String)"
   parent: "com.azure.cosmos.CommonsBridgeInternal"
@@ -96,17 +97,19 @@ items:
   overload: "com.azure.cosmos.CommonsBridgeInternal.partitionKeyRangeIdInternal*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Sets the getPartitionKeyRangeId."
+  summary: "Sets the partitionKeyRangeId."
   syntax:
     content: "public static ChangeFeedOptions partitionKeyRangeIdInternal(ChangeFeedOptions options, String partitionKeyRangeId)"
     parameters:
     - id: "options"
       type: "com.azure.cosmos.ChangeFeedOptions"
+      description: "the options"
     - id: "partitionKeyRangeId"
       type: "java.lang.String"
+      description: "the partition key range id"
     return:
       type: "com.azure.cosmos.ChangeFeedOptions"
-      description: "the getPartitionKeyRangeId."
+      description: "the change feed options"
 - uid: "com.azure.cosmos.CommonsBridgeInternal.partitionKeyRangeIdInternal(com.azure.cosmos.FeedOptions)"
   id: "partitionKeyRangeIdInternal(com.azure.cosmos.FeedOptions)"
   parent: "com.azure.cosmos.CommonsBridgeInternal"
@@ -118,15 +121,16 @@ items:
   overload: "com.azure.cosmos.CommonsBridgeInternal.partitionKeyRangeIdInternal*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Gets the getPartitionKeyRangeId."
+  summary: "Gets the partitionKeyRangeId."
   syntax:
     content: "public static String partitionKeyRangeIdInternal(FeedOptions options)"
     parameters:
     - id: "options"
       type: "com.azure.cosmos.FeedOptions"
+      description: "the feed options"
     return:
       type: "java.lang.String"
-      description: "the getPartitionKeyRangeId."
+      description: "the partitionKeyRangeId."
 - uid: "com.azure.cosmos.CommonsBridgeInternal.partitionKeyRangeIdInternal(com.azure.cosmos.FeedOptions,java.lang.String)"
   id: "partitionKeyRangeIdInternal(com.azure.cosmos.FeedOptions,java.lang.String)"
   parent: "com.azure.cosmos.CommonsBridgeInternal"
@@ -138,17 +142,19 @@ items:
   overload: "com.azure.cosmos.CommonsBridgeInternal.partitionKeyRangeIdInternal*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Sets the getPartitionKeyRangeId."
+  summary: "Sets the PartitionKeyRangeId."
   syntax:
     content: "public static FeedOptions partitionKeyRangeIdInternal(FeedOptions options, String partitionKeyRangeId)"
     parameters:
     - id: "options"
       type: "com.azure.cosmos.FeedOptions"
+      description: "the feed options"
     - id: "partitionKeyRangeId"
       type: "java.lang.String"
+      description: "the partition key range id"
     return:
       type: "com.azure.cosmos.FeedOptions"
-      description: "the getPartitionKeyRangeId."
+      description: "the partitionKeyRangeId."
 - uid: "com.azure.cosmos.CommonsBridgeInternal.setV2(com.azure.cosmos.PartitionKeyDefinition)"
   id: "setV2(com.azure.cosmos.PartitionKeyDefinition)"
   parent: "com.azure.cosmos.CommonsBridgeInternal"

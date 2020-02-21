@@ -9,6 +9,7 @@ items:
   - "com.azure.storage.common.sas.AccountSasService"
   - "com.azure.storage.common.sas.AccountSasSignatureValues"
   - "com.azure.storage.common.sas.BaseSasQueryParameters"
+  - "com.azure.storage.common.sas.CommonSasQueryParameters"
   - "com.azure.storage.common.sas.SasIpRange"
   - "com.azure.storage.common.sas.SasProtocol"
   langs:
@@ -45,6 +46,10 @@ references:
   name: "BaseSasQueryParameters"
   nameWithType: "BaseSasQueryParameters"
   fullName: "com.azure.storage.common.sas.BaseSasQueryParameters"
+- uid: "com.azure.storage.common.sas.CommonSasQueryParameters"
+  name: "CommonSasQueryParameters"
+  nameWithType: "CommonSasQueryParameters"
+  fullName: "com.azure.storage.common.sas.CommonSasQueryParameters"
 - uid: "com.azure.storage.common.sas.SasIpRange"
   name: "SasIpRange"
   nameWithType: "SasIpRange"

@@ -47,7 +47,7 @@ items:
   fullName: "com.azure.storage.file.datalake.models.PublicAccessType.BLOB"
   type: "Field"
   package: "com.azure.storage.file.datalake.models"
-  summary: "Static value blob for PublicAccessType."
+  summary: "Static value path for PublicAccessType."
   syntax:
     content: "public static final PublicAccessType BLOB"
     return:
@@ -62,7 +62,7 @@ items:
   fullName: "com.azure.storage.file.datalake.models.PublicAccessType.CONTAINER"
   type: "Field"
   package: "com.azure.storage.file.datalake.models"
-  summary: "Static value container for PublicAccessType."
+  summary: "Static value file system for PublicAccessType."
   syntax:
     content: "public static final PublicAccessType CONTAINER"
     return:

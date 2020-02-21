@@ -85,19 +85,22 @@ items:
     content: "public static final IndexingDirective INCLUDE"
     return:
       type: "com.azure.cosmos.IndexingDirective"
-- uid: "com.azure.cosmos.IndexingDirective.IndexingDirective()"
-  id: "IndexingDirective()"
+- uid: "com.azure.cosmos.IndexingDirective.IndexingDirective(java.lang.String)"
+  id: "IndexingDirective(java.lang.String)"
   parent: "com.azure.cosmos.IndexingDirective"
   langs:
   - "java"
-  name: "IndexingDirective()"
-  nameWithType: "IndexingDirective.IndexingDirective()"
-  fullName: "com.azure.cosmos.IndexingDirective.IndexingDirective()"
+  name: "IndexingDirective(String overWireValue)"
+  nameWithType: "IndexingDirective.IndexingDirective(String overWireValue)"
+  fullName: "com.azure.cosmos.IndexingDirective.IndexingDirective(String overWireValue)"
   overload: "com.azure.cosmos.IndexingDirective.IndexingDirective*"
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "private IndexingDirective()"
+    content: "private IndexingDirective(String overWireValue)"
+    parameters:
+    - id: "overWireValue"
+      type: "java.lang.String"
 - uid: "com.azure.cosmos.IndexingDirective.toString()"
   id: "toString()"
   parent: "com.azure.cosmos.IndexingDirective"
@@ -147,6 +150,11 @@ items:
     return:
       type: "com.azure.cosmos.IndexingDirective[]"
 references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.IndexingDirective.IndexingDirective*"
   name: "IndexingDirective"
   nameWithType: "IndexingDirective.IndexingDirective"
@@ -164,11 +172,6 @@ references:
   nameWithType: "IndexingDirective.values"
   fullName: "com.azure.cosmos.IndexingDirective.values"
   package: "com.azure.cosmos"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.IndexingDirective.valueOf*"
   name: "valueOf"
   nameWithType: "IndexingDirective.valueOf"

@@ -24,6 +24,7 @@ items:
   - "com.azure.ai.textanalytics.models.DocumentResult.getId()"
   - "com.azure.ai.textanalytics.models.DocumentResult.getStatistics()"
   - "com.azure.ai.textanalytics.models.DocumentResult.isError()"
+  - "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError()"
   - "java.lang.Object.clone()"
   - "java.lang.Object.equals(java.lang.Object)"
   - "java.lang.Object.finalize()"
@@ -46,7 +47,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.ExtractKeyPhraseResult*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Create a `KeyPhraseResult` model that describes extracted key phrases result"
+  summary: "Create a `KeyPhraseResult` model that describes extracted key phrases result."
   syntax:
     content: "public ExtractKeyPhraseResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error, List<String> keyPhrases)"
     parameters:
@@ -73,7 +74,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.getKeyPhrases*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get a list of key phrase string"
+  summary: "Get a list of key phrase string."
   syntax:
     content: "public List<String> getKeyPhrases()"
     return:
@@ -175,6 +176,10 @@ references:
   name: "DocumentResult.isError()"
   nameWithType: "DocumentResult.isError()"
   fullName: "com.azure.ai.textanalytics.models.DocumentResult.isError()"
+- uid: "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError()"
+  name: "DocumentResult.throwExceptionIfError()"
+  nameWithType: "DocumentResult.throwExceptionIfError()"
+  fullName: "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError()"
 - uid: "java.lang.Object.wait(long,int)"
   name: "Object.wait(long,int)"
   nameWithType: "Object.wait(long,int)"

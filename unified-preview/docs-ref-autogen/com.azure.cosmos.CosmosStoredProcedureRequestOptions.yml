@@ -217,7 +217,7 @@ items:
   syntax:
     content: " RequestOptions toRequestOptions()"
     return:
-      type: "com.azure.cosmos.internal.RequestOptions"
+      type: "com.azure.cosmos.implementation.RequestOptions"
 references:
 - uid: "com.azure.cosmos.CosmosStoredProcedureRequestOptions.CosmosStoredProcedureRequestOptions*"
   name: "CosmosStoredProcedureRequestOptions"
@@ -281,10 +281,10 @@ references:
   nameWithType: "CosmosStoredProcedureRequestOptions.setSessionToken"
   fullName: "com.azure.cosmos.CosmosStoredProcedureRequestOptions.setSessionToken"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.internal.RequestOptions"
+- uid: "com.azure.cosmos.implementation.RequestOptions"
   name: "RequestOptions"
   nameWithType: "RequestOptions"
-  fullName: "com.azure.cosmos.internal.RequestOptions"
+  fullName: "com.azure.cosmos.implementation.RequestOptions"
 - uid: "com.azure.cosmos.CosmosStoredProcedureRequestOptions.toRequestOptions*"
   name: "toRequestOptions"
   nameWithType: "CosmosStoredProcedureRequestOptions.toRequestOptions"

@@ -5,10 +5,10 @@ items:
   parent: "com.azure.storage.file.datalake.implementation"
   children:
   - "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.create(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)"
-  - "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.delete(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.util.Context)"
+  - "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.delete(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.Context)"
   - "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.getProperties(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)"
   - "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.listPaths(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.Integer,java.lang.Boolean,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)"
-  - "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.setProperties(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.util.Context)"
+  - "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.setProperties(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.Context)"
   langs:
   - "java"
   name: "FileSystemsImpl.FileSystemsService"
@@ -49,8 +49,8 @@ items:
       type: "com.azure.core.util.Context"
     return:
       type: "reactor.core.publisher.Mono<com.azure.storage.file.datalake.implementation.models.FileSystemsCreateResponse>"
-- uid: "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.delete(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.util.Context)"
-  id: "delete(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.util.Context)"
+- uid: "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.delete(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.Context)"
+  id: "delete(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.Context)"
   parent: "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService"
   langs:
   - "java"
@@ -74,9 +74,9 @@ items:
     - id: "version"
       type: "java.lang.String"
     - id: "ifModifiedSince"
-      type: "com.azure.core.implementation.DateTimeRfc1123"
+      type: "com.azure.core.util.DateTimeRfc1123"
     - id: "ifUnmodifiedSince"
-      type: "com.azure.core.implementation.DateTimeRfc1123"
+      type: "com.azure.core.util.DateTimeRfc1123"
     - id: "context"
       type: "com.azure.core.util.Context"
     return:
@@ -149,8 +149,8 @@ items:
       type: "com.azure.core.util.Context"
     return:
       type: "reactor.core.publisher.Mono<com.azure.storage.file.datalake.implementation.models.FileSystemsListPathsResponse>"
-- uid: "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.setProperties(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.util.Context)"
-  id: "setProperties(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.implementation.DateTimeRfc1123,com.azure.core.util.Context)"
+- uid: "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.setProperties(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.Context)"
+  id: "setProperties(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.Context)"
   parent: "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService"
   langs:
   - "java"
@@ -176,9 +176,9 @@ items:
     - id: "version"
       type: "java.lang.String"
     - id: "ifModifiedSince"
-      type: "com.azure.core.implementation.DateTimeRfc1123"
+      type: "com.azure.core.util.DateTimeRfc1123"
     - id: "ifUnmodifiedSince"
-      type: "com.azure.core.implementation.DateTimeRfc1123"
+      type: "com.azure.core.util.DateTimeRfc1123"
     - id: "context"
       type: "com.azure.core.util.Context"
     return:
@@ -216,11 +216,11 @@ references:
   nameWithType: "FileSystemsImpl.FileSystemsService.create"
   fullName: "com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService.create"
   package: "com.azure.storage.file.datalake.implementation"
-- uid: "com.azure.core.implementation.DateTimeRfc1123"
+- uid: "com.azure.core.util.DateTimeRfc1123"
   spec.java:
-  - uid: "com.azure.core.implementation.DateTimeRfc1123"
+  - uid: "com.azure.core.util.DateTimeRfc1123"
     name: "DateTimeRfc1123"
-    fullName: "com.azure.core.implementation.DateTimeRfc1123"
+    fullName: "com.azure.core.util.DateTimeRfc1123"
 - uid: "reactor.core.publisher.Mono<com.azure.storage.file.datalake.implementation.models.FileSystemsSetPropertiesResponse>"
   spec.java:
   - uid: "reactor.core.publisher.Mono"

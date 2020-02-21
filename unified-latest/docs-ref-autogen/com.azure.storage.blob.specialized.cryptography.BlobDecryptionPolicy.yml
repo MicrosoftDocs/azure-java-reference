@@ -51,7 +51,7 @@ items:
     parameters:
     - id: "key"
       type: "com.azure.core.cryptography.AsyncKeyEncryptionKey"
-      description: "An object of type <xref uid=\"\" data-throw-if-not-resolved=\"false\">AsyncKeyEncryptionKey</xref> that is used to wrap/unwrap the content encryption key"
+      description: "An object of type <xref uid=\"\" data-throw-if-not-resolved=\"false\">AsyncKeyEncryptionKey</xref> that is used to wrap/unwrap the content encryption\n key"
     - id: "keyResolver"
       type: "com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver"
       description: "The key resolver used to select the correct key for decrypting existing blobs."

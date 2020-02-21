@@ -16,6 +16,7 @@ items:
   fullName: "com.azure.storage.common.Utility"
   type: "Class"
   package: "com.azure.storage.common"
+  summary: "Utility methods for storage client libraries."
   syntax:
     content: "public final class Utility"
   inheritance:

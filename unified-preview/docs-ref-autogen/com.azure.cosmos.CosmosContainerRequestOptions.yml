@@ -257,7 +257,7 @@ items:
   syntax:
     content: " RequestOptions toRequestOptions()"
     return:
-      type: "com.azure.cosmos.internal.RequestOptions"
+      type: "com.azure.cosmos.implementation.RequestOptions"
 references:
 - uid: "com.azure.cosmos.CosmosContainerRequestOptions.CosmosContainerRequestOptions*"
   name: "CosmosContainerRequestOptions"
@@ -337,10 +337,10 @@ references:
   nameWithType: "CosmosContainerRequestOptions.setAccessCondition"
   fullName: "com.azure.cosmos.CosmosContainerRequestOptions.setAccessCondition"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.internal.RequestOptions"
+- uid: "com.azure.cosmos.implementation.RequestOptions"
   name: "RequestOptions"
   nameWithType: "RequestOptions"
-  fullName: "com.azure.cosmos.internal.RequestOptions"
+  fullName: "com.azure.cosmos.implementation.RequestOptions"
 - uid: "com.azure.cosmos.CosmosContainerRequestOptions.toRequestOptions*"
   name: "toRequestOptions"
   nameWithType: "CosmosContainerRequestOptions.toRequestOptions"

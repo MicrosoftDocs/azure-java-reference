@@ -45,7 +45,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DetectLanguageInput.DetectLanguageInput*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Creates an input for detect language that will takes `id` and `text` as required inputs"
+  summary: "Creates an input for detect language that will takes `id` and `text` as required inputs."
   syntax:
     content: "public DetectLanguageInput(String id, String text)"
     parameters:
@@ -66,7 +66,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DetectLanguageInput.DetectLanguageInput*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Creates an input for detect language that will takes `id`, `text` and `countryHint`"
+  summary: "Creates an input for detect language that will takes `id`, `text` and `countryHint`."
   syntax:
     content: "public DetectLanguageInput(String id, String text, String countryHint)"
     parameters:

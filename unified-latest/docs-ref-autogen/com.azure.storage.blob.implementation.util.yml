@@ -4,6 +4,7 @@ items:
   id: "util"
   children:
   - "com.azure.storage.blob.implementation.util.BlobHeadersAndQueryParameters"
+  - "com.azure.storage.blob.implementation.util.BlobSasImplUtil"
   - "com.azure.storage.blob.implementation.util.BuilderHelper"
   - "com.azure.storage.blob.implementation.util.ModelHelper"
   langs:
@@ -20,6 +21,10 @@ references:
   name: "BlobHeadersAndQueryParameters"
   nameWithType: "BlobHeadersAndQueryParameters"
   fullName: "com.azure.storage.blob.implementation.util.BlobHeadersAndQueryParameters"
+- uid: "com.azure.storage.blob.implementation.util.BlobSasImplUtil"
+  name: "BlobSasImplUtil"
+  nameWithType: "BlobSasImplUtil"
+  fullName: "com.azure.storage.blob.implementation.util.BlobSasImplUtil"
 - uid: "com.azure.storage.blob.implementation.util.BuilderHelper"
   name: "BuilderHelper"
   nameWithType: "BuilderHelper"

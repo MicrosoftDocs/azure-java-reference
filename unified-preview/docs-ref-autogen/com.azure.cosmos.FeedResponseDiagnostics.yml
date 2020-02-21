@@ -4,9 +4,9 @@ items:
   id: "FeedResponseDiagnostics"
   parent: "com.azure.cosmos"
   children:
-  - "com.azure.cosmos.FeedResponseDiagnostics.FeedResponseDiagnostics(java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>)"
+  - "com.azure.cosmos.FeedResponseDiagnostics.FeedResponseDiagnostics(java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
   - "com.azure.cosmos.FeedResponseDiagnostics.getQueryMetricsMap()"
-  - "com.azure.cosmos.FeedResponseDiagnostics.setQueryMetricsMap(java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>)"
+  - "com.azure.cosmos.FeedResponseDiagnostics.setQueryMetricsMap(java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
   - "com.azure.cosmos.FeedResponseDiagnostics.toString()"
   langs:
   - "java"
@@ -31,8 +31,8 @@ items:
   - "java.lang.Object.wait()"
   - "java.lang.Object.wait(long)"
   - "java.lang.Object.wait(long,int)"
-- uid: "com.azure.cosmos.FeedResponseDiagnostics.FeedResponseDiagnostics(java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>)"
-  id: "FeedResponseDiagnostics(java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>)"
+- uid: "com.azure.cosmos.FeedResponseDiagnostics.FeedResponseDiagnostics(java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
+  id: "FeedResponseDiagnostics(java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
   parent: "com.azure.cosmos.FeedResponseDiagnostics"
   langs:
   - "java"
@@ -46,7 +46,7 @@ items:
     content: " FeedResponseDiagnostics(Map<String,QueryMetrics> queryMetricsMap)"
     parameters:
     - id: "queryMetricsMap"
-      type: "java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>"
+      type: "java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>"
 - uid: "com.azure.cosmos.FeedResponseDiagnostics.getQueryMetricsMap()"
   id: "getQueryMetricsMap()"
   parent: "com.azure.cosmos.FeedResponseDiagnostics"
@@ -61,9 +61,9 @@ items:
   syntax:
     content: " Map<String,QueryMetrics> getQueryMetricsMap()"
     return:
-      type: "java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>"
-- uid: "com.azure.cosmos.FeedResponseDiagnostics.setQueryMetricsMap(java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>)"
-  id: "setQueryMetricsMap(java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>)"
+      type: "java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>"
+- uid: "com.azure.cosmos.FeedResponseDiagnostics.setQueryMetricsMap(java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
+  id: "setQueryMetricsMap(java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)"
   parent: "com.azure.cosmos.FeedResponseDiagnostics"
   langs:
   - "java"
@@ -77,7 +77,7 @@ items:
     content: " FeedResponseDiagnostics setQueryMetricsMap(Map<String,QueryMetrics> queryMetricsMap)"
     parameters:
     - id: "queryMetricsMap"
-      type: "java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>"
+      type: "java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>"
     return:
       type: "com.azure.cosmos.FeedResponseDiagnostics"
 - uid: "com.azure.cosmos.FeedResponseDiagnostics.toString()"
@@ -98,7 +98,7 @@ items:
       type: "java.lang.String"
       description: "Textual representation of feed response metrics"
 references:
-- uid: "java.util.Map<java.lang.String,com.azure.cosmos.internal.QueryMetrics>"
+- uid: "java.util.Map<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>"
   spec.java:
   - uid: "java.util.Map"
     name: "Map"
@@ -110,9 +110,9 @@ references:
     fullName: "java.lang.String"
   - name: ","
     fullName: ","
-  - uid: "com.azure.cosmos.internal.QueryMetrics"
+  - uid: "com.azure.cosmos.implementation.QueryMetrics"
     name: "QueryMetrics"
-    fullName: "com.azure.cosmos.internal.QueryMetrics"
+    fullName: "com.azure.cosmos.implementation.QueryMetrics"
   - name: ">"
     fullName: ">"
 - uid: "com.azure.cosmos.FeedResponseDiagnostics.FeedResponseDiagnostics*"
@@ -188,7 +188,7 @@ references:
   name: "Map"
   nameWithType: "Map"
   fullName: "java.util.Map"
-- uid: "java.lang.String,com.azure.cosmos.internal.QueryMetrics"
+- uid: "java.lang.String,com.azure.cosmos.implementation.QueryMetrics"
   name: "String,QueryMetrics"
   nameWithType: "String,QueryMetrics"
-  fullName: "java.lang.String,com.azure.cosmos.internal.QueryMetrics"
+  fullName: "java.lang.String,com.azure.cosmos.implementation.QueryMetrics"

@@ -47,7 +47,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResultCollection.DocumentResultCollection*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Create a document result collection"
+  summary: "Create a document result collection."
   syntax:
     content: "public DocumentResultCollection(Iterable<T> iterable, String modelVersion, TextDocumentBatchStatistics statistics)"
     parameters:
@@ -71,7 +71,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResultCollection.getModelVersion*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get model version"
+  summary: "Get model version."
   syntax:
     content: "public String getModelVersion()"
     return:
@@ -88,7 +88,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResultCollection.getStatistics*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get statistics of the batch documents"
+  summary: "Get statistics of the batch documents."
   syntax:
     content: "public TextDocumentBatchStatistics getStatistics()"
     return:

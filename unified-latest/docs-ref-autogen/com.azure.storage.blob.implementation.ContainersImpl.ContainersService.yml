@@ -7,7 +7,7 @@ items:
   - "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.acquireLease(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   - "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.breakLease(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   - "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.changeLease(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
-  - "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.create(java.lang.String,java.lang.String,java.lang.Integer,java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.blob.models.PublicAccessType,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+  - "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.create(java.lang.String,java.lang.String,java.lang.Integer,java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.blob.models.PublicAccessType,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,com.azure.core.util.Context)"
   - "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.delete(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.DateTimeRfc1123,com.azure.core.util.DateTimeRfc1123,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   - "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.getAccessPolicy(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
   - "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.getAccountInfo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
@@ -152,19 +152,19 @@ items:
       type: "com.azure.core.util.Context"
     return:
       type: "reactor.core.publisher.Mono<com.azure.storage.blob.implementation.models.ContainersChangeLeaseResponse>"
-- uid: "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.create(java.lang.String,java.lang.String,java.lang.Integer,java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.blob.models.PublicAccessType,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
-  id: "create(java.lang.String,java.lang.String,java.lang.Integer,java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.blob.models.PublicAccessType,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- uid: "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.create(java.lang.String,java.lang.String,java.lang.Integer,java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.blob.models.PublicAccessType,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,com.azure.core.util.Context)"
+  id: "create(java.lang.String,java.lang.String,java.lang.Integer,java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.blob.models.PublicAccessType,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,com.azure.core.util.Context)"
   parent: "com.azure.storage.blob.implementation.ContainersImpl.ContainersService"
   langs:
   - "java"
-  name: "create(String containerName, String url, Integer timeout, Map<String,String> metadata, PublicAccessType access, String version, String requestId, String restype, Context context)"
-  nameWithType: "ContainersImpl.ContainersService.create(String containerName, String url, Integer timeout, Map<String,String> metadata, PublicAccessType access, String version, String requestId, String restype, Context context)"
-  fullName: "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.create(String containerName, String url, Integer timeout, Map<String,String> metadata, PublicAccessType access, String version, String requestId, String restype, Context context)"
+  name: "create(String containerName, String url, Integer timeout, Map<String,String> metadata, PublicAccessType access, String version, String requestId, String restype, String defaultEncryptionScope, Boolean encryptionScopeOverridePrevented, Context context)"
+  nameWithType: "ContainersImpl.ContainersService.create(String containerName, String url, Integer timeout, Map<String,String> metadata, PublicAccessType access, String version, String requestId, String restype, String defaultEncryptionScope, Boolean encryptionScopeOverridePrevented, Context context)"
+  fullName: "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.create(String containerName, String url, Integer timeout, Map<String,String> metadata, PublicAccessType access, String version, String requestId, String restype, String defaultEncryptionScope, Boolean encryptionScopeOverridePrevented, Context context)"
   overload: "com.azure.storage.blob.implementation.ContainersImpl.ContainersService.create*"
   type: "Method"
   package: "com.azure.storage.blob.implementation"
   syntax:
-    content: "public abstract Mono<ContainersCreateResponse> create(String containerName, String url, Integer timeout, Map<String,String> metadata, PublicAccessType access, String version, String requestId, String restype, Context context)"
+    content: "public abstract Mono<ContainersCreateResponse> create(String containerName, String url, Integer timeout, Map<String,String> metadata, PublicAccessType access, String version, String requestId, String restype, String defaultEncryptionScope, Boolean encryptionScopeOverridePrevented, Context context)"
     parameters:
     - id: "containerName"
       type: "java.lang.String"
@@ -182,6 +182,10 @@ items:
       type: "java.lang.String"
     - id: "restype"
       type: "java.lang.String"
+    - id: "defaultEncryptionScope"
+      type: "java.lang.String"
+    - id: "encryptionScopeOverridePrevented"
+      type: "java.lang.Boolean"
     - id: "context"
       type: "com.azure.core.util.Context"
     return:
@@ -590,6 +594,11 @@ references:
   name: "PublicAccessType"
   nameWithType: "PublicAccessType"
   fullName: "com.azure.storage.blob.models.PublicAccessType"
+- uid: "java.lang.Boolean"
+  spec.java:
+  - uid: "java.lang.Boolean"
+    name: "Boolean"
+    fullName: "java.lang.Boolean"
 - uid: "com.azure.core.util.Context"
   spec.java:
   - uid: "com.azure.core.util.Context"

@@ -129,13 +129,16 @@ items:
   overload: "com.azure.cosmos.UniqueKeyPolicy.uniqueKeys*"
   type: "Method"
   package: "com.azure.cosmos"
+  summary: "Unique keys unique key policy."
   syntax:
     content: "public UniqueKeyPolicy uniqueKeys(List<UniqueKey> uniqueKeys)"
     parameters:
     - id: "uniqueKeys"
       type: "java.util.List<com.azure.cosmos.UniqueKey>"
+      description: "the unique keys"
     return:
       type: "com.azure.cosmos.UniqueKeyPolicy"
+      description: "the unique key policy"
 references:
 - uid: "com.azure.cosmos.UniqueKeyPolicy.UniqueKeyPolicy*"
   name: "UniqueKeyPolicy"

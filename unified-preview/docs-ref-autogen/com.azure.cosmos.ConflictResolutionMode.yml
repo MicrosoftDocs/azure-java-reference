@@ -49,24 +49,27 @@ items:
   fullName: "com.azure.cosmos.ConflictResolutionMode.CUSTOM"
   type: "Field"
   package: "com.azure.cosmos"
-  summary: "CUSTOM conflict resolution mode Setting the ConflictResolutionMode to \"CUSTOM\" indicates that conflict resolution is custom handled by a user. The user could elect to register a user specified <xref uid=\"com.azure.cosmos.internal.StoredProcedure\" data-throw-if-not-resolved=\"false\">StoredProcedure</xref> for handling conflicting resources. Should the user not register a user specified StoredProcedure, conflicts will default to being made available as <xref uid=\"com.azure.cosmos.internal.Conflict\" data-throw-if-not-resolved=\"false\">Conflict</xref> resources, which the user can inspect and manually resolve. See <xref uid=\"\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy#conflictResolutionProcedure()</xref> for details on how to specify the stored procedure to run for conflict resolution."
+  summary: "CUSTOM conflict resolution mode\n\nSetting the ConflictResolutionMode to \"CUSTOM\" indicates that conflict resolution is custom handled by a user. The user could elect to register a user specified <xref uid=\"com.azure.cosmos.implementation.StoredProcedure\" data-throw-if-not-resolved=\"false\">StoredProcedure</xref> for handling conflicting resources. Should the user not register a user specified StoredProcedure, conflicts will default to being made available as <xref uid=\"com.azure.cosmos.implementation.Conflict\" data-throw-if-not-resolved=\"false\">Conflict</xref> resources, which the user can inspect and manually resolve. See <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy.getConflictResolutionProcedure()\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy#getConflictResolutionProcedure()</xref> for details on how to specify the stored procedure to run for conflict resolution."
   syntax:
     content: "public static final ConflictResolutionMode CUSTOM"
     return:
       type: "com.azure.cosmos.ConflictResolutionMode"
-- uid: "com.azure.cosmos.ConflictResolutionMode.ConflictResolutionMode()"
-  id: "ConflictResolutionMode()"
+- uid: "com.azure.cosmos.ConflictResolutionMode.ConflictResolutionMode(java.lang.String)"
+  id: "ConflictResolutionMode(java.lang.String)"
   parent: "com.azure.cosmos.ConflictResolutionMode"
   langs:
   - "java"
-  name: "ConflictResolutionMode()"
-  nameWithType: "ConflictResolutionMode.ConflictResolutionMode()"
-  fullName: "com.azure.cosmos.ConflictResolutionMode.ConflictResolutionMode()"
+  name: "ConflictResolutionMode(String overWireValue)"
+  nameWithType: "ConflictResolutionMode.ConflictResolutionMode(String overWireValue)"
+  fullName: "com.azure.cosmos.ConflictResolutionMode.ConflictResolutionMode(String overWireValue)"
   overload: "com.azure.cosmos.ConflictResolutionMode.ConflictResolutionMode*"
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "private ConflictResolutionMode()"
+    content: "private ConflictResolutionMode(String overWireValue)"
+    parameters:
+    - id: "overWireValue"
+      type: "java.lang.String"
 - uid: "com.azure.cosmos.ConflictResolutionMode.INVALID"
   id: "INVALID"
   parent: "com.azure.cosmos.ConflictResolutionMode"
@@ -92,7 +95,7 @@ items:
   fullName: "com.azure.cosmos.ConflictResolutionMode.LAST_WRITER_WINS"
   type: "Field"
   package: "com.azure.cosmos"
-  summary: "Last writer wins conflict resolution mode Setting the ConflictResolutionMode to \"LAST\\_WRITER\\_WINS\" indicates that conflict resolution should be done by inspecting a field in the conflicting documents and picking the document which has the higher value in that path. See <xref uid=\"\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy#conflictResolutionPath()</xref> for details on how to specify the path to be checked for conflict resolution. Also note that Deletes win."
+  summary: "Last writer wins conflict resolution mode Setting the ConflictResolutionMode to \"LAST\\_WRITER\\_WINS\" indicates that conflict resolution should be done by inspecting a field in the conflicting documents and picking the document which has the higher value in that path. See <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy.getConflictResolutionPath()\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy#getConflictResolutionPath()</xref> for details on how to specify the path"
   syntax:
     content: "public static final ConflictResolutionMode LAST_WRITER_WINS"
     return:
@@ -146,6 +149,11 @@ items:
     return:
       type: "com.azure.cosmos.ConflictResolutionMode[]"
 references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.ConflictResolutionMode.ConflictResolutionMode*"
   name: "ConflictResolutionMode"
   nameWithType: "ConflictResolutionMode.ConflictResolutionMode"
@@ -163,11 +171,6 @@ references:
   nameWithType: "ConflictResolutionMode.values"
   fullName: "com.azure.cosmos.ConflictResolutionMode.values"
   package: "com.azure.cosmos"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.ConflictResolutionMode.valueOf*"
   name: "valueOf"
   nameWithType: "ConflictResolutionMode.valueOf"

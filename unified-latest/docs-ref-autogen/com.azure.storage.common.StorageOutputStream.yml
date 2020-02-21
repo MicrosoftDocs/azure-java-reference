@@ -14,6 +14,7 @@ items:
   - "com.azure.storage.common.StorageOutputStream.write(byte[])"
   - "com.azure.storage.common.StorageOutputStream.write(byte[],int,int)"
   - "com.azure.storage.common.StorageOutputStream.write(int)"
+  - "com.azure.storage.common.StorageOutputStream.writeInternal(byte[],int,int)"
   langs:
   - "java"
   name: "StorageOutputStream"
@@ -21,7 +22,7 @@ items:
   fullName: "com.azure.storage.common.StorageOutputStream"
   type: "Class"
   package: "com.azure.storage.common"
-  summary: "StorageOutputStream"
+  summary: "StorageOutputStream allows for uploading data to an Azure Storage service using stream concepts."
   syntax:
     content: "public abstract class StorageOutputStream extends OutputStream"
   inheritance:
@@ -215,7 +216,31 @@ items:
     parameters:
     - id: "byteVal"
       type: "int"
-      description: "An <code>int</code> which represents the bye value to write."
+      description: "An <code>int</code> which represents the byte value to write."
+- uid: "com.azure.storage.common.StorageOutputStream.writeInternal(byte[],int,int)"
+  id: "writeInternal(byte[],int,int)"
+  parent: "com.azure.storage.common.StorageOutputStream"
+  langs:
+  - "java"
+  name: "writeInternal(byte[] data, int offset, int length)"
+  nameWithType: "StorageOutputStream.writeInternal(byte[] data, int offset, int length)"
+  fullName: "com.azure.storage.common.StorageOutputStream.writeInternal(byte[] data, int offset, int length)"
+  overload: "com.azure.storage.common.StorageOutputStream.writeInternal*"
+  type: "Method"
+  package: "com.azure.storage.common"
+  summary: "Writes the data to the buffer and triggers writes to the service as needed."
+  syntax:
+    content: "protected void writeInternal(byte[] data, int offset, int length)"
+    parameters:
+    - id: "data"
+      type: "byte[]"
+      description: "A <code>byte</code> array which represents the data to write."
+    - id: "offset"
+      type: "int"
+      description: "An <code>int</code> which represents the start offset in the data."
+    - id: "length"
+      type: "int"
+      description: "An <code>int</code> which represents the number of bytes to write."
 references:
 - uid: "int"
   spec.java:
@@ -255,6 +280,11 @@ references:
   name: "dispatchWrite"
   nameWithType: "StorageOutputStream.dispatchWrite"
   fullName: "com.azure.storage.common.StorageOutputStream.dispatchWrite"
+  package: "com.azure.storage.common"
+- uid: "com.azure.storage.common.StorageOutputStream.writeInternal*"
+  name: "writeInternal"
+  nameWithType: "StorageOutputStream.writeInternal"
+  fullName: "com.azure.storage.common.StorageOutputStream.writeInternal"
   package: "com.azure.storage.common"
 - uid: "com.azure.storage.common.StorageOutputStream.checkStreamState*"
   name: "checkStreamState"

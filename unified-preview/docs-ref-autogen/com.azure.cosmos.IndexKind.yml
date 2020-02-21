@@ -54,19 +54,22 @@ items:
     content: "public static final IndexKind HASH"
     return:
       type: "com.azure.cosmos.IndexKind"
-- uid: "com.azure.cosmos.IndexKind.IndexKind()"
-  id: "IndexKind()"
+- uid: "com.azure.cosmos.IndexKind.IndexKind(java.lang.String)"
+  id: "IndexKind(java.lang.String)"
   parent: "com.azure.cosmos.IndexKind"
   langs:
   - "java"
-  name: "IndexKind()"
-  nameWithType: "IndexKind.IndexKind()"
-  fullName: "com.azure.cosmos.IndexKind.IndexKind()"
+  name: "IndexKind(String overWireValue)"
+  nameWithType: "IndexKind.IndexKind(String overWireValue)"
+  fullName: "com.azure.cosmos.IndexKind.IndexKind(String overWireValue)"
   overload: "com.azure.cosmos.IndexKind.IndexKind*"
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "private IndexKind()"
+    content: "private IndexKind(String overWireValue)"
+    parameters:
+    - id: "overWireValue"
+      type: "java.lang.String"
 - uid: "com.azure.cosmos.IndexKind.RANGE"
   id: "RANGE"
   parent: "com.azure.cosmos.IndexKind"
@@ -144,6 +147,11 @@ items:
     return:
       type: "com.azure.cosmos.IndexKind[]"
 references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.IndexKind.IndexKind*"
   name: "IndexKind"
   nameWithType: "IndexKind.IndexKind"
@@ -161,11 +169,6 @@ references:
   nameWithType: "IndexKind.values"
   fullName: "com.azure.cosmos.IndexKind.values"
   package: "com.azure.cosmos"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.IndexKind.valueOf*"
   name: "valueOf"
   nameWithType: "IndexKind.valueOf"

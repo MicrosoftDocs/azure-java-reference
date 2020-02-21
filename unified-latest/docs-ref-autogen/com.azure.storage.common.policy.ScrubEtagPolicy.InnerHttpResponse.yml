@@ -4,7 +4,7 @@ items:
   id: "InnerHttpResponse"
   parent: "com.azure.storage.common.policy"
   children:
-  - "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse(com.azure.core.http.HttpRequest)"
+  - "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse(com.azure.core.http.HttpResponse,com.azure.core.http.HttpHeaders,com.azure.core.http.HttpRequest)"
   - "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.getBody()"
   - "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.getBodyAsByteArray()"
   - "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.getBodyAsString()"
@@ -20,7 +20,7 @@ items:
   type: "Class"
   package: "com.azure.storage.common.policy"
   syntax:
-    content: "private final class ScrubEtagPolicy.InnerHttpResponse extends HttpResponse"
+    content: "private static final class ScrubEtagPolicy.InnerHttpResponse extends HttpResponse"
   inheritance:
   - "java.lang.Object"
   - "com.azure.core.http.HttpResponse"
@@ -46,20 +46,24 @@ items:
   - "java.lang.Object.wait()"
   - "java.lang.Object.wait(long)"
   - "java.lang.Object.wait(long,int)"
-- uid: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse(com.azure.core.http.HttpRequest)"
-  id: "InnerHttpResponse(com.azure.core.http.HttpRequest)"
+- uid: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse(com.azure.core.http.HttpResponse,com.azure.core.http.HttpHeaders,com.azure.core.http.HttpRequest)"
+  id: "InnerHttpResponse(com.azure.core.http.HttpResponse,com.azure.core.http.HttpHeaders,com.azure.core.http.HttpRequest)"
   parent: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse"
   langs:
   - "java"
-  name: "InnerHttpResponse(HttpRequest request)"
-  nameWithType: "ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse(HttpRequest request)"
-  fullName: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse(HttpRequest request)"
+  name: "InnerHttpResponse(HttpResponse innerHttpResponse, HttpHeaders headers, HttpRequest request)"
+  nameWithType: "ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse(HttpResponse innerHttpResponse, HttpHeaders headers, HttpRequest request)"
+  fullName: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse(HttpResponse innerHttpResponse, HttpHeaders headers, HttpRequest request)"
   overload: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.InnerHttpResponse*"
   type: "Constructor"
   package: "com.azure.storage.common.policy"
   syntax:
-    content: "protected InnerHttpResponse(HttpRequest request)"
+    content: " InnerHttpResponse(HttpResponse innerHttpResponse, HttpHeaders headers, HttpRequest request)"
     parameters:
+    - id: "innerHttpResponse"
+      type: "com.azure.core.http.HttpResponse"
+    - id: "headers"
+      type: "com.azure.core.http.HttpHeaders"
     - id: "request"
       type: "com.azure.core.http.HttpRequest"
 - uid: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.getBody()"
@@ -174,6 +178,16 @@ items:
     return:
       type: "int"
 references:
+- uid: "com.azure.core.http.HttpResponse"
+  spec.java:
+  - uid: "com.azure.core.http.HttpResponse"
+    name: "HttpResponse"
+    fullName: "com.azure.core.http.HttpResponse"
+- uid: "com.azure.core.http.HttpHeaders"
+  spec.java:
+  - uid: "com.azure.core.http.HttpHeaders"
+    name: "HttpHeaders"
+    fullName: "com.azure.core.http.HttpHeaders"
 - uid: "com.azure.core.http.HttpRequest"
   spec.java:
   - uid: "com.azure.core.http.HttpRequest"
@@ -204,11 +218,6 @@ references:
   nameWithType: "ScrubEtagPolicy.InnerHttpResponse.getHeaderValue"
   fullName: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.getHeaderValue"
   package: "com.azure.storage.common.policy"
-- uid: "com.azure.core.http.HttpHeaders"
-  spec.java:
-  - uid: "com.azure.core.http.HttpHeaders"
-    name: "HttpHeaders"
-    fullName: "com.azure.core.http.HttpHeaders"
 - uid: "com.azure.storage.common.policy.ScrubEtagPolicy.InnerHttpResponse.getHeaders*"
   name: "getHeaders"
   nameWithType: "ScrubEtagPolicy.InnerHttpResponse.getHeaders"
@@ -272,10 +281,6 @@ references:
   - uid: "java.nio.charset.Charset"
     name: "Charset"
     fullName: "java.nio.charset.Charset"
-- uid: "com.azure.core.http.HttpResponse"
-  name: "HttpResponse"
-  nameWithType: "HttpResponse"
-  fullName: "com.azure.core.http.HttpResponse"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"
   nameWithType: "Object.notify()"

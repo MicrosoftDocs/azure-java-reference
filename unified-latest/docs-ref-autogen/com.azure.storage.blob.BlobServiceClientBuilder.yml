@@ -6,6 +6,7 @@ items:
   children:
   - "com.azure.storage.blob.BlobServiceClientBuilder.BlobServiceClientBuilder()"
   - "com.azure.storage.blob.BlobServiceClientBuilder.addPolicy(com.azure.core.http.policy.HttpPipelinePolicy)"
+  - "com.azure.storage.blob.BlobServiceClientBuilder.blobContainerEncryptionScope(com.azure.storage.blob.models.BlobContainerEncryptionScope)"
   - "com.azure.storage.blob.BlobServiceClientBuilder.buildAsyncClient()"
   - "com.azure.storage.blob.BlobServiceClientBuilder.buildClient()"
   - "com.azure.storage.blob.BlobServiceClientBuilder.configuration(com.azure.core.util.Configuration)"
@@ -13,6 +14,7 @@ items:
   - "com.azure.storage.blob.BlobServiceClientBuilder.credential(com.azure.core.credential.TokenCredential)"
   - "com.azure.storage.blob.BlobServiceClientBuilder.credential(com.azure.storage.common.StorageSharedKeyCredential)"
   - "com.azure.storage.blob.BlobServiceClientBuilder.customerProvidedKey(com.azure.storage.blob.models.CustomerProvidedKey)"
+  - "com.azure.storage.blob.BlobServiceClientBuilder.encryptionScope(java.lang.String)"
   - "com.azure.storage.blob.BlobServiceClientBuilder.endpoint(java.lang.String)"
   - "com.azure.storage.blob.BlobServiceClientBuilder.getDefaultHttpLogOptions()"
   - "com.azure.storage.blob.BlobServiceClientBuilder.httpClient(com.azure.core.http.HttpClient)"
@@ -77,6 +79,27 @@ items:
     - id: "pipelinePolicy"
       type: "com.azure.core.http.policy.HttpPipelinePolicy"
       description: "a pipeline policy"
+    return:
+      type: "com.azure.storage.blob.BlobServiceClientBuilder"
+      description: "the updated BlobServiceClientBuilder object"
+- uid: "com.azure.storage.blob.BlobServiceClientBuilder.blobContainerEncryptionScope(com.azure.storage.blob.models.BlobContainerEncryptionScope)"
+  id: "blobContainerEncryptionScope(com.azure.storage.blob.models.BlobContainerEncryptionScope)"
+  parent: "com.azure.storage.blob.BlobServiceClientBuilder"
+  langs:
+  - "java"
+  name: "blobContainerEncryptionScope(BlobContainerEncryptionScope blobContainerEncryptionScope)"
+  nameWithType: "BlobServiceClientBuilder.blobContainerEncryptionScope(BlobContainerEncryptionScope blobContainerEncryptionScope)"
+  fullName: "com.azure.storage.blob.BlobServiceClientBuilder.blobContainerEncryptionScope(BlobContainerEncryptionScope blobContainerEncryptionScope)"
+  overload: "com.azure.storage.blob.BlobServiceClientBuilder.blobContainerEncryptionScope*"
+  type: "Method"
+  package: "com.azure.storage.blob"
+  summary: "Sets the <xref uid=\"com.azure.storage.blob.models.BlobContainerEncryptionScope\" data-throw-if-not-resolved=\"false\">encryption scope</xref> that is used to determine how blob contents are encrypted on the server."
+  syntax:
+    content: "public BlobServiceClientBuilder blobContainerEncryptionScope(BlobContainerEncryptionScope blobContainerEncryptionScope)"
+    parameters:
+    - id: "blobContainerEncryptionScope"
+      type: "com.azure.storage.blob.models.BlobContainerEncryptionScope"
+      description: "Encryption scope containing the encryption key information."
     return:
       type: "com.azure.storage.blob.BlobServiceClientBuilder"
       description: "the updated BlobServiceClientBuilder object"
@@ -171,7 +194,7 @@ items:
     parameters:
     - id: "credential"
       type: "com.azure.core.credential.TokenCredential"
-      description: "The credential to use for authenticating request."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">TokenCredential</xref>."
     return:
       type: "com.azure.storage.blob.BlobServiceClientBuilder"
       description: "the updated BlobServiceClientBuilder"
@@ -192,7 +215,7 @@ items:
     parameters:
     - id: "credential"
       type: "com.azure.storage.common.StorageSharedKeyCredential"
-      description: "The credential to use for authenticating request."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">StorageSharedKeyCredential</xref>."
     return:
       type: "com.azure.storage.blob.BlobServiceClientBuilder"
       description: "the updated BlobServiceClientBuilder"
@@ -214,6 +237,27 @@ items:
     - id: "customerProvidedKey"
       type: "com.azure.storage.blob.models.CustomerProvidedKey"
       description: "Customer provided key containing the encryption key information."
+    return:
+      type: "com.azure.storage.blob.BlobServiceClientBuilder"
+      description: "the updated BlobServiceClientBuilder object"
+- uid: "com.azure.storage.blob.BlobServiceClientBuilder.encryptionScope(java.lang.String)"
+  id: "encryptionScope(java.lang.String)"
+  parent: "com.azure.storage.blob.BlobServiceClientBuilder"
+  langs:
+  - "java"
+  name: "encryptionScope(String encryptionScope)"
+  nameWithType: "BlobServiceClientBuilder.encryptionScope(String encryptionScope)"
+  fullName: "com.azure.storage.blob.BlobServiceClientBuilder.encryptionScope(String encryptionScope)"
+  overload: "com.azure.storage.blob.BlobServiceClientBuilder.encryptionScope*"
+  type: "Method"
+  package: "com.azure.storage.blob"
+  summary: "Sets the `encryption scope` that is used to encrypt blob contents on the server."
+  syntax:
+    content: "public BlobServiceClientBuilder encryptionScope(String encryptionScope)"
+    parameters:
+    - id: "encryptionScope"
+      type: "java.lang.String"
+      description: "Encryption scope containing the encryption key information."
     return:
       type: "com.azure.storage.blob.BlobServiceClientBuilder"
       description: "the updated BlobServiceClientBuilder object"
@@ -335,7 +379,7 @@ items:
     parameters:
     - id: "retryOptions"
       type: "com.azure.storage.common.policy.RequestRetryOptions"
-      description: "The options used to configure retry behavior."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">RequestRetryOptions</xref>."
     return:
       type: "com.azure.storage.blob.BlobServiceClientBuilder"
       description: "the updated BlobServiceClientBuilder object"
@@ -371,7 +415,7 @@ items:
   overload: "com.azure.storage.blob.BlobServiceClientBuilder.serviceVersion*"
   type: "Method"
   package: "com.azure.storage.blob"
-  summary: "Sets the <xref uid=\"com.azure.storage.blob.BlobServiceVersion\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that is used when making API requests.\n\nIf a service version is not provided, the service version that will be used will be the latest known service version based on the version of the client library being used. If no service version is specified, updating to a newer version the client library will have the result of potentially moving to a newer service version."
+  summary: "Sets the <xref uid=\"com.azure.storage.blob.BlobServiceVersion\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that is used when making API requests.\n\nIf a service version is not provided, the service version that will be used will be the latest known service version based on the version of the client library being used. If no service version is specified, updating to a newer version of the client library will have the result of potentially moving to a newer service version.\n\nTargeting a specific service version may also mean that the service will return an error for newer APIs."
   syntax:
     content: "public BlobServiceClientBuilder serviceVersion(BlobServiceVersion version)"
     parameters:
@@ -423,6 +467,20 @@ references:
   name: "customerProvidedKey"
   nameWithType: "BlobServiceClientBuilder.customerProvidedKey"
   fullName: "com.azure.storage.blob.BlobServiceClientBuilder.customerProvidedKey"
+  package: "com.azure.storage.blob"
+- uid: "com.azure.storage.blob.BlobServiceClientBuilder.encryptionScope*"
+  name: "encryptionScope"
+  nameWithType: "BlobServiceClientBuilder.encryptionScope"
+  fullName: "com.azure.storage.blob.BlobServiceClientBuilder.encryptionScope"
+  package: "com.azure.storage.blob"
+- uid: "com.azure.storage.blob.models.BlobContainerEncryptionScope"
+  name: "BlobContainerEncryptionScope"
+  nameWithType: "BlobContainerEncryptionScope"
+  fullName: "com.azure.storage.blob.models.BlobContainerEncryptionScope"
+- uid: "com.azure.storage.blob.BlobServiceClientBuilder.blobContainerEncryptionScope*"
+  name: "blobContainerEncryptionScope"
+  nameWithType: "BlobServiceClientBuilder.blobContainerEncryptionScope"
+  fullName: "com.azure.storage.blob.BlobServiceClientBuilder.blobContainerEncryptionScope"
   package: "com.azure.storage.blob"
 - uid: "com.azure.storage.common.StorageSharedKeyCredential"
   spec.java:

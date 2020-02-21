@@ -5,6 +5,7 @@ items:
   parent: "com.azure.storage.blob"
   children:
   - "com.azure.storage.blob.BlobServiceVersion.V2019_02_02"
+  - "com.azure.storage.blob.BlobServiceVersion.V2019_07_07"
   - "com.azure.storage.blob.BlobServiceVersion.getLatest()"
   - "com.azure.storage.blob.BlobServiceVersion.getVersion()"
   - "com.azure.storage.blob.BlobServiceVersion.valueOf(java.lang.String)"
@@ -69,6 +70,20 @@ items:
   package: "com.azure.storage.blob"
   syntax:
     content: "public static final BlobServiceVersion V2019_02_02"
+    return:
+      type: "com.azure.storage.blob.BlobServiceVersion"
+- uid: "com.azure.storage.blob.BlobServiceVersion.V2019_07_07"
+  id: "V2019_07_07"
+  parent: "com.azure.storage.blob.BlobServiceVersion"
+  langs:
+  - "java"
+  name: "V2019_07_07"
+  nameWithType: "BlobServiceVersion.V2019_07_07"
+  fullName: "com.azure.storage.blob.BlobServiceVersion.V2019_07_07"
+  type: "Field"
+  package: "com.azure.storage.blob"
+  syntax:
+    content: "public static final BlobServiceVersion V2019_07_07"
     return:
       type: "com.azure.storage.blob.BlobServiceVersion"
 - uid: "com.azure.storage.blob.BlobServiceVersion.getLatest()"

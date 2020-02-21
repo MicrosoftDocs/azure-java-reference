@@ -3,7 +3,6 @@ items:
 - uid: "com.azure.storage.file.share"
   id: "share"
   children:
-  - "com.azure.storage.file.share.FileConfiguration"
   - "com.azure.storage.file.share.FileConstants"
   - "com.azure.storage.file.share.FileConstants.HeaderConstants"
   - "com.azure.storage.file.share.FileConstants.MessageConstants"
@@ -32,10 +31,6 @@ items:
   syntax:
     content: "package com.azure.storage.file.share"
 references:
-- uid: "com.azure.storage.file.share.FileConfiguration"
-  name: "FileConfiguration"
-  nameWithType: "FileConfiguration"
-  fullName: "com.azure.storage.file.share.FileConfiguration"
 - uid: "com.azure.storage.file.share.FileConstants"
   name: "FileConstants"
   nameWithType: "FileConstants"

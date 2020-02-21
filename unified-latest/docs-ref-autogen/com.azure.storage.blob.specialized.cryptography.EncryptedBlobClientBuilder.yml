@@ -6,6 +6,8 @@ items:
   children:
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.EncryptedBlobClientBuilder()"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.addPolicy(com.azure.core.http.policy.HttpPipelinePolicy)"
+  - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobAsyncClient(com.azure.storage.blob.BlobAsyncClient)"
+  - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobClient(com.azure.storage.blob.BlobClient)"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobName(java.lang.String)"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.buildEncryptedBlobAsyncClient()"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.buildEncryptedBlobClient()"
@@ -82,6 +84,48 @@ items:
     - id: "pipelinePolicy"
       type: "com.azure.core.http.policy.HttpPipelinePolicy"
       description: "a pipeline policy"
+    return:
+      type: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
+      description: "the updated EncryptedBlobClientBuilder object"
+- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobAsyncClient(com.azure.storage.blob.BlobAsyncClient)"
+  id: "blobAsyncClient(com.azure.storage.blob.BlobAsyncClient)"
+  parent: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
+  langs:
+  - "java"
+  name: "blobAsyncClient(BlobAsyncClient blobAsyncClient)"
+  nameWithType: "EncryptedBlobClientBuilder.blobAsyncClient(BlobAsyncClient blobAsyncClient)"
+  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobAsyncClient(BlobAsyncClient blobAsyncClient)"
+  overload: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobAsyncClient*"
+  type: "Method"
+  package: "com.azure.storage.blob.specialized.cryptography"
+  summary: "Configures the builder based on the passed <xref uid=\"com.azure.storage.blob.BlobAsyncClient\" data-throw-if-not-resolved=\"false\">BlobAsyncClient</xref>. This will set the <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">URL</xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that are used to interact with the service.\n\nUse this method after setting the key in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.key(com.azure.core.cryptography.AsyncKeyEncryptionKey,java.lang.String)\" data-throw-if-not-resolved=\"false\">key</xref> and keyResolver in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.keyResolver(com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver)\" data-throw-if-not-resolved=\"false\">#keyResolver(AsyncKeyEncryptionKeyResolver)</xref>.\n\nIf `pipeline` is set, all other settings are ignored, aside from <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">endpoint</xref> and <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion(com.azure.storage.blob.BlobServiceVersion)\" data-throw-if-not-resolved=\"false\">serviceVersion</xref>."
+  syntax:
+    content: "public EncryptedBlobClientBuilder blobAsyncClient(BlobAsyncClient blobAsyncClient)"
+    parameters:
+    - id: "blobAsyncClient"
+      type: "com.azure.storage.blob.BlobAsyncClient"
+      description: "BlobAsyncClient used to configure the builder."
+    return:
+      type: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
+      description: "the updated EncryptedBlobClientBuilder object"
+- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobClient(com.azure.storage.blob.BlobClient)"
+  id: "blobClient(com.azure.storage.blob.BlobClient)"
+  parent: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
+  langs:
+  - "java"
+  name: "blobClient(BlobClient blobClient)"
+  nameWithType: "EncryptedBlobClientBuilder.blobClient(BlobClient blobClient)"
+  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobClient(BlobClient blobClient)"
+  overload: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobClient*"
+  type: "Method"
+  package: "com.azure.storage.blob.specialized.cryptography"
+  summary: "Configures the builder based on the passed <xref uid=\"com.azure.storage.blob.BlobClient\" data-throw-if-not-resolved=\"false\">BlobClient</xref>. This will set the <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">URL</xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that are used to interact with the service.\n\nUse this method after setting the key in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.key(com.azure.core.cryptography.AsyncKeyEncryptionKey,java.lang.String)\" data-throw-if-not-resolved=\"false\">key</xref> and keyResolver in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.keyResolver(com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver)\" data-throw-if-not-resolved=\"false\">#keyResolver(AsyncKeyEncryptionKeyResolver)</xref>.\n\nIf `pipeline` is set, all other settings are ignored, aside from <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">endpoint</xref> and <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion(com.azure.storage.blob.BlobServiceVersion)\" data-throw-if-not-resolved=\"false\">serviceVersion</xref>."
+  syntax:
+    content: "public EncryptedBlobClientBuilder blobClient(BlobClient blobClient)"
+    parameters:
+    - id: "blobClient"
+      type: "com.azure.storage.blob.BlobClient"
+      description: "BlobClient used to configure the builder."
     return:
       type: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
       description: "the updated EncryptedBlobClientBuilder object"
@@ -220,7 +264,7 @@ items:
     parameters:
     - id: "credential"
       type: "com.azure.core.credential.TokenCredential"
-      description: "The credential to use for authenticating request."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">TokenCredential</xref>."
     return:
       type: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
       description: "the updated EncryptedBlobClientBuilder"
@@ -241,7 +285,7 @@ items:
     parameters:
     - id: "credential"
       type: "com.azure.storage.common.StorageSharedKeyCredential"
-      description: "The credential to use for authenticating request."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">StorageSharedKeyCredential</xref>."
     return:
       type: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
       description: "the updated EncryptedBlobClientBuilder"
@@ -408,7 +452,7 @@ items:
     parameters:
     - id: "retryOptions"
       type: "com.azure.storage.common.policy.RequestRetryOptions"
-      description: "The options used to configure retry behavior."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">RequestRetryOptions</xref>."
     return:
       type: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
       description: "the updated EncryptedBlobClientBuilder object"
@@ -444,7 +488,7 @@ items:
   overload: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion*"
   type: "Method"
   package: "com.azure.storage.blob.specialized.cryptography"
-  summary: "Sets the <xref uid=\"\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that is used when making API requests.\n\nIf a service version is not provided, the service version that will be used will be the latest known service version based on the version of the client library being used. If no service version is specified, updating to a newer version the client library will have the result of potentially moving to a newer service version."
+  summary: "Sets the <xref uid=\"\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that is used when making API requests.\n\nIf a service version is not provided, the service version that will be used will be the latest known service version based on the version of the client library being used. If no service version is specified, updating to a newer version of the client library will have the result of potentially moving to a newer service version.\n\nTargeting a specific service version may also mean that the service will return an error for newer APIs."
   syntax:
     content: "public EncryptedBlobClientBuilder serviceVersion(BlobServiceVersion version)"
     parameters:
@@ -665,6 +709,26 @@ references:
   name: "serviceVersion"
   nameWithType: "EncryptedBlobClientBuilder.serviceVersion"
   fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion"
+  package: "com.azure.storage.blob.specialized.cryptography"
+- uid: "com.azure.storage.blob.BlobClient"
+  spec.java:
+  - uid: "com.azure.storage.blob.BlobClient"
+    name: "BlobClient"
+    fullName: "com.azure.storage.blob.BlobClient"
+- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobClient*"
+  name: "blobClient"
+  nameWithType: "EncryptedBlobClientBuilder.blobClient"
+  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobClient"
+  package: "com.azure.storage.blob.specialized.cryptography"
+- uid: "com.azure.storage.blob.BlobAsyncClient"
+  spec.java:
+  - uid: "com.azure.storage.blob.BlobAsyncClient"
+    name: "BlobAsyncClient"
+    fullName: "com.azure.storage.blob.BlobAsyncClient"
+- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobAsyncClient*"
+  name: "blobAsyncClient"
+  nameWithType: "EncryptedBlobClientBuilder.blobAsyncClient"
+  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobAsyncClient"
   package: "com.azure.storage.blob.specialized.cryptography"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"

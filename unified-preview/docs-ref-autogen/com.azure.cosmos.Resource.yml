@@ -115,11 +115,11 @@ items:
   package: "com.azure.cosmos"
   summary: "Constructor."
   syntax:
-    content: " Resource(ObjectNode objectNode)"
+    content: "protected Resource(ObjectNode objectNode)"
     parameters:
     - id: "objectNode"
       type: "com.fasterxml.jackson.databind.node.ObjectNode"
-      description: "the <xref uid=\"\" data-throw-if-not-resolved=\"false\">ObjectNode</xref> that represent the\n                   <xref uid=\"com.azure.cosmos.JsonSerializable\" data-throw-if-not-resolved=\"false\">JsonSerializable</xref>"
+      description: "the <xref uid=\"\" data-throw-if-not-resolved=\"false\">ObjectNode</xref> that represent the\n <xref uid=\"com.azure.cosmos.JsonSerializable\" data-throw-if-not-resolved=\"false\">JsonSerializable</xref>"
 - uid: "com.azure.cosmos.Resource.Resource(java.lang.String)"
   id: "Resource(java.lang.String)"
   parent: "com.azure.cosmos.Resource"

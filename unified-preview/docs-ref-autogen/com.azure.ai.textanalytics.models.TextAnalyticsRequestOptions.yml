@@ -95,7 +95,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions.setShowStatistics*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Set the value of `showStatistics`"
+  summary: "Set the value of `showStatistics`."
   syntax:
     content: "public TextAnalyticsRequestOptions setShowStatistics(boolean showStatistics)"
     parameters:
@@ -116,7 +116,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions.showStatistics*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get the value of `showStatistics`"
+  summary: "Get the value of `showStatistics`."
   syntax:
     content: "public boolean showStatistics()"
     return:

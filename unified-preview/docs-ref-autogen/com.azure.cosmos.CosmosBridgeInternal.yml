@@ -6,6 +6,7 @@ items:
   children:
   - "com.azure.cosmos.CosmosBridgeInternal.CosmosBridgeInternal()"
   - "com.azure.cosmos.CosmosBridgeInternal.getAsyncDocumentClient(com.azure.cosmos.CosmosAsyncClient)"
+  - "com.azure.cosmos.CosmosBridgeInternal.getAsyncDocumentClient(com.azure.cosmos.CosmosAsyncDatabase)"
   - "com.azure.cosmos.CosmosBridgeInternal.getContextClient(com.azure.cosmos.CosmosAsyncContainer)"
   - "com.azure.cosmos.CosmosBridgeInternal.getContextClient(com.azure.cosmos.CosmosAsyncDatabase)"
   - "com.azure.cosmos.CosmosBridgeInternal.getCosmosContainerWithNewClient(com.azure.cosmos.CosmosAsyncContainer,com.azure.cosmos.CosmosAsyncDatabase,com.azure.cosmos.CosmosAsyncClient)"
@@ -66,7 +67,25 @@ items:
     - id: "client"
       type: "com.azure.cosmos.CosmosAsyncClient"
     return:
-      type: "com.azure.cosmos.internal.AsyncDocumentClient"
+      type: "com.azure.cosmos.implementation.AsyncDocumentClient"
+- uid: "com.azure.cosmos.CosmosBridgeInternal.getAsyncDocumentClient(com.azure.cosmos.CosmosAsyncDatabase)"
+  id: "getAsyncDocumentClient(com.azure.cosmos.CosmosAsyncDatabase)"
+  parent: "com.azure.cosmos.CosmosBridgeInternal"
+  langs:
+  - "java"
+  name: "getAsyncDocumentClient(CosmosAsyncDatabase cosmosAsyncDatabase)"
+  nameWithType: "CosmosBridgeInternal.getAsyncDocumentClient(CosmosAsyncDatabase cosmosAsyncDatabase)"
+  fullName: "com.azure.cosmos.CosmosBridgeInternal.getAsyncDocumentClient(CosmosAsyncDatabase cosmosAsyncDatabase)"
+  overload: "com.azure.cosmos.CosmosBridgeInternal.getAsyncDocumentClient*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public static AsyncDocumentClient getAsyncDocumentClient(CosmosAsyncDatabase cosmosAsyncDatabase)"
+    parameters:
+    - id: "cosmosAsyncDatabase"
+      type: "com.azure.cosmos.CosmosAsyncDatabase"
+    return:
+      type: "com.azure.cosmos.implementation.AsyncDocumentClient"
 - uid: "com.azure.cosmos.CosmosBridgeInternal.getContextClient(com.azure.cosmos.CosmosAsyncContainer)"
   id: "getContextClient(com.azure.cosmos.CosmosAsyncContainer)"
   parent: "com.azure.cosmos.CosmosBridgeInternal"
@@ -84,7 +103,7 @@ items:
     - id: "container"
       type: "com.azure.cosmos.CosmosAsyncContainer"
     return:
-      type: "com.azure.cosmos.internal.AsyncDocumentClient"
+      type: "com.azure.cosmos.implementation.AsyncDocumentClient"
 - uid: "com.azure.cosmos.CosmosBridgeInternal.getContextClient(com.azure.cosmos.CosmosAsyncDatabase)"
   id: "getContextClient(com.azure.cosmos.CosmosAsyncDatabase)"
   parent: "com.azure.cosmos.CosmosBridgeInternal"
@@ -102,7 +121,7 @@ items:
     - id: "database"
       type: "com.azure.cosmos.CosmosAsyncDatabase"
     return:
-      type: "com.azure.cosmos.internal.AsyncDocumentClient"
+      type: "com.azure.cosmos.implementation.AsyncDocumentClient"
 - uid: "com.azure.cosmos.CosmosBridgeInternal.getCosmosContainerWithNewClient(com.azure.cosmos.CosmosAsyncContainer,com.azure.cosmos.CosmosAsyncDatabase,com.azure.cosmos.CosmosAsyncClient)"
   id: "getCosmosContainerWithNewClient(com.azure.cosmos.CosmosAsyncContainer,com.azure.cosmos.CosmosAsyncDatabase,com.azure.cosmos.CosmosAsyncClient)"
   parent: "com.azure.cosmos.CosmosBridgeInternal"
@@ -180,7 +199,7 @@ items:
     - id: "cosmosContainerProperties"
       type: "com.azure.cosmos.CosmosContainerProperties"
     return:
-      type: "com.azure.cosmos.internal.DocumentCollection"
+      type: "com.azure.cosmos.implementation.DocumentCollection"
 references:
 - uid: "com.azure.cosmos.CosmosBridgeInternal.CosmosBridgeInternal*"
   name: "CosmosBridgeInternal"
@@ -191,10 +210,10 @@ references:
   name: "CosmosContainerProperties"
   nameWithType: "CosmosContainerProperties"
   fullName: "com.azure.cosmos.CosmosContainerProperties"
-- uid: "com.azure.cosmos.internal.DocumentCollection"
+- uid: "com.azure.cosmos.implementation.DocumentCollection"
   name: "DocumentCollection"
   nameWithType: "DocumentCollection"
-  fullName: "com.azure.cosmos.internal.DocumentCollection"
+  fullName: "com.azure.cosmos.implementation.DocumentCollection"
 - uid: "com.azure.cosmos.CosmosBridgeInternal.toDocumentCollection*"
   name: "toDocumentCollection"
   nameWithType: "CosmosBridgeInternal.toDocumentCollection"
@@ -204,10 +223,10 @@ references:
   name: "CosmosAsyncClient"
   nameWithType: "CosmosAsyncClient"
   fullName: "com.azure.cosmos.CosmosAsyncClient"
-- uid: "com.azure.cosmos.internal.AsyncDocumentClient"
+- uid: "com.azure.cosmos.implementation.AsyncDocumentClient"
   name: "AsyncDocumentClient"
   nameWithType: "AsyncDocumentClient"
-  fullName: "com.azure.cosmos.internal.AsyncDocumentClient"
+  fullName: "com.azure.cosmos.implementation.AsyncDocumentClient"
 - uid: "com.azure.cosmos.CosmosBridgeInternal.getAsyncDocumentClient*"
   name: "getAsyncDocumentClient"
   nameWithType: "CosmosBridgeInternal.getAsyncDocumentClient"

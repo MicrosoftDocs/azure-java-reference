@@ -9,6 +9,7 @@ items:
   - "com.azure.ai.textanalytics.models.DocumentResult.getId()"
   - "com.azure.ai.textanalytics.models.DocumentResult.getStatistics()"
   - "com.azure.ai.textanalytics.models.DocumentResult.isError()"
+  - "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError()"
   langs:
   - "java"
   name: "DocumentResult"
@@ -44,7 +45,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResult.DocumentResult*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Create a `DocumentResult` model that maintains document id, information about the document payload, and document error"
+  summary: "Create a `DocumentResult` model that maintains document id, information about the document payload, and document error."
   syntax:
     content: " DocumentResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error)"
     parameters:
@@ -68,7 +69,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResult.getError*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get the error of text document"
+  summary: "Get the error of text document."
   syntax:
     content: "public TextAnalyticsError getError()"
     return:
@@ -85,7 +86,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResult.getId*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get the document id"
+  summary: "Get the document id."
   syntax:
     content: "public String getId()"
     return:
@@ -102,7 +103,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResult.getStatistics*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get the statistics of the text document"
+  summary: "Get the statistics of the text document."
   syntax:
     content: "public TextDocumentStatistics getStatistics()"
     return:
@@ -119,12 +120,26 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResult.isError*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get the boolean value indicates if the document result is error or not"
+  summary: "Get the boolean value indicates if the document result is error or not."
   syntax:
     content: "public boolean isError()"
     return:
       type: "boolean"
       description: "A boolean indicates if the document result is error or not"
+- uid: "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError()"
+  id: "throwExceptionIfError()"
+  parent: "com.azure.ai.textanalytics.models.DocumentResult"
+  langs:
+  - "java"
+  name: "throwExceptionIfError()"
+  nameWithType: "DocumentResult.throwExceptionIfError()"
+  fullName: "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError()"
+  overload: "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError*"
+  type: "Method"
+  package: "com.azure.ai.textanalytics.models"
+  summary: "Throw a <xref uid=\"com.azure.ai.textanalytics.models.TextAnalyticsException\" data-throw-if-not-resolved=\"false\">TextAnalyticsException</xref> if result has isError true and when a non-error property was accessed."
+  syntax:
+    content: " void throwExceptionIfError()"
 references:
 - uid: "java.lang.String"
   spec.java:
@@ -168,6 +183,11 @@ references:
   name: "isError"
   nameWithType: "DocumentResult.isError"
   fullName: "com.azure.ai.textanalytics.models.DocumentResult.isError"
+  package: "com.azure.ai.textanalytics.models"
+- uid: "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError*"
+  name: "throwExceptionIfError"
+  nameWithType: "DocumentResult.throwExceptionIfError"
+  fullName: "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError"
   package: "com.azure.ai.textanalytics.models"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"

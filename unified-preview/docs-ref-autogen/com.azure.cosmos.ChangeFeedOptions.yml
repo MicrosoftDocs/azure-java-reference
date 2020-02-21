@@ -174,7 +174,7 @@ items:
     content: "public OffsetDateTime getStartDateTime()"
     return:
       type: "java.time.OffsetDateTime"
-      description: "a zoned date time to start looking for changes after, if set or null\n         otherwise"
+      description: "a zoned date time to start looking for changes after, if set or null\n otherwise"
 - uid: "com.azure.cosmos.ChangeFeedOptions.getStartFromBeginning()"
   id: "getStartFromBeginning()"
   parent: "com.azure.cosmos.ChangeFeedOptions"
@@ -191,7 +191,7 @@ items:
     content: "public boolean getStartFromBeginning()"
     return:
       type: "boolean"
-      description: "a boolean value indicating change feed should start from beginning or\n         not"
+      description: "a boolean value indicating change feed should start from beginning or\n not"
 - uid: "com.azure.cosmos.ChangeFeedOptions.setMaxItemCount(java.lang.Integer)"
   id: "setMaxItemCount(java.lang.Integer)"
   parent: "com.azure.cosmos.ChangeFeedOptions"
@@ -335,7 +335,7 @@ items:
     parameters:
     - id: "startFromBeginning"
       type: "boolean"
-      description: "a boolean value indicating change feed should start\n                           from beginning or not"
+      description: "a boolean value indicating change feed should start\n from beginning or not"
     return:
       type: "com.azure.cosmos.ChangeFeedOptions"
       description: "the ChangeFeedOptions."

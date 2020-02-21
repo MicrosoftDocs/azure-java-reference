@@ -87,6 +87,7 @@ items:
   - "com.azure.storage.blob.models.BlobErrorCode.MISSING_REQUIRED_QUERY_PARAMETER"
   - "com.azure.storage.blob.models.BlobErrorCode.MISSING_REQUIRED_XML_NODE"
   - "com.azure.storage.blob.models.BlobErrorCode.MULTIPLE_CONDITION_HEADERS_NOT_SUPPORTED"
+  - "com.azure.storage.blob.models.BlobErrorCode.NO_AUTHENTICATION_INFORMATION"
   - "com.azure.storage.blob.models.BlobErrorCode.NO_PENDING_COPY_OPERATION"
   - "com.azure.storage.blob.models.BlobErrorCode.OPERATION_NOT_ALLOWED_ON_INCREMENTAL_COPY_BLOB"
   - "com.azure.storage.blob.models.BlobErrorCode.OPERATION_TIMED_OUT"
@@ -1386,6 +1387,21 @@ items:
   summary: "Static value MultipleConditionHeadersNotSupported for BlobErrorCode."
   syntax:
     content: "public static final BlobErrorCode MULTIPLE_CONDITION_HEADERS_NOT_SUPPORTED"
+    return:
+      type: "com.azure.storage.blob.models.BlobErrorCode"
+- uid: "com.azure.storage.blob.models.BlobErrorCode.NO_AUTHENTICATION_INFORMATION"
+  id: "NO_AUTHENTICATION_INFORMATION"
+  parent: "com.azure.storage.blob.models.BlobErrorCode"
+  langs:
+  - "java"
+  name: "NO_AUTHENTICATION_INFORMATION"
+  nameWithType: "BlobErrorCode.NO_AUTHENTICATION_INFORMATION"
+  fullName: "com.azure.storage.blob.models.BlobErrorCode.NO_AUTHENTICATION_INFORMATION"
+  type: "Field"
+  package: "com.azure.storage.blob.models"
+  summary: "Static value NoAuthenticationInformation for BlobErrorCode."
+  syntax:
+    content: "public static final BlobErrorCode NO_AUTHENTICATION_INFORMATION"
     return:
       type: "com.azure.storage.blob.models.BlobErrorCode"
 - uid: "com.azure.storage.blob.models.BlobErrorCode.NO_PENDING_COPY_OPERATION"

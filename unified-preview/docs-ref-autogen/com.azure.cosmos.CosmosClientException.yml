@@ -28,6 +28,7 @@ items:
   - "com.azure.cosmos.CosmosClientException.resourceAddress"
   - "com.azure.cosmos.CosmosClientException.setCosmosResponseDiagnostics(com.azure.cosmos.CosmosResponseDiagnostics)"
   - "com.azure.cosmos.CosmosClientException.setError(com.azure.cosmos.CosmosError)"
+  - "com.azure.cosmos.CosmosClientException.setResourceAddress(java.lang.String)"
   - "com.azure.cosmos.CosmosClientException.toString()"
   langs:
   - "java"
@@ -36,13 +37,14 @@ items:
   fullName: "com.azure.cosmos.CosmosClientException"
   type: "Class"
   package: "com.azure.cosmos"
-  summary: "This class defines a custom exception type for all operations on DocumentClient in the Azure Cosmos DB database service. Applications are expected to catch CosmosClientException and handle errors as appropriate when calling methods on DocumentClient.\n\nErrors coming from the service during normal execution are converted to CosmosClientException before returning to the application with the following exception:\n\nWhen a BE error is encountered during a QueryIterable<T> iteration, an IllegalStateException is thrown instead of CosmosClientException.\n\nWhen a transport level error happens that request is not able to reach the service, an IllegalStateException is thrown instead of CosmosClientException."
+  summary: "This class defines a custom exception type for all operations on CosmosClient in the Azure Cosmos DB database service. Applications are expected to catch CosmosClientException and handle errors as appropriate when calling methods on CosmosClient.\n\nErrors coming from the service during normal execution are converted to CosmosClientException before returning to the application with the following exception:\n\nWhen a BE error is encountered during a QueryIterable<T> iteration, an IllegalStateException is thrown instead of CosmosClientException.\n\nWhen a transport level error happens that request is not able to reach the service, an IllegalStateException is thrown instead of CosmosClientException."
   syntax:
-    content: "public class CosmosClientException extends Exception"
+    content: "public class CosmosClientException extends RuntimeException"
   inheritance:
   - "java.lang.Object"
   - "java.lang.Throwable"
   - "java.lang.Exception"
+  - "java.lang.RuntimeException"
   inheritedMembers:
   - "java.lang.Object.clone()"
   - "java.lang.Object.equals(java.lang.Object)"
@@ -346,7 +348,7 @@ items:
     content: "public long getRetryAfterInMilliseconds()"
     return:
       type: "long"
-      description: "the recommended time interval after which the client can retry failed\n         requests."
+      description: "the recommended time interval after which the client can retry failed\n requests."
 - uid: "com.azure.cosmos.CosmosClientException.getStatusCode()"
   id: "getStatusCode()"
   parent: "com.azure.cosmos.CosmosClientException"
@@ -449,9 +451,9 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: " URI requestUri"
+    content: " Uri requestUri"
     return:
-      type: "java.net.URI"
+      type: "com.azure.cosmos.implementation.directconnectivity.Uri"
 - uid: "com.azure.cosmos.CosmosClientException.resourceAddress"
   id: "resourceAddress"
   parent: "com.azure.cosmos.CosmosClientException"
@@ -500,6 +502,22 @@ items:
     parameters:
     - id: "cosmosError"
       type: "com.azure.cosmos.CosmosError"
+- uid: "com.azure.cosmos.CosmosClientException.setResourceAddress(java.lang.String)"
+  id: "setResourceAddress(java.lang.String)"
+  parent: "com.azure.cosmos.CosmosClientException"
+  langs:
+  - "java"
+  name: "setResourceAddress(String resourceAddress)"
+  nameWithType: "CosmosClientException.setResourceAddress(String resourceAddress)"
+  fullName: "com.azure.cosmos.CosmosClientException.setResourceAddress(String resourceAddress)"
+  overload: "com.azure.cosmos.CosmosClientException.setResourceAddress*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public void setResourceAddress(String resourceAddress)"
+    parameters:
+    - id: "resourceAddress"
+      type: "java.lang.String"
 - uid: "com.azure.cosmos.CosmosClientException.toString()"
   id: "toString()"
   parent: "com.azure.cosmos.CosmosClientException"
@@ -636,11 +654,19 @@ references:
   nameWithType: "CosmosClientException.innerErrorMessage"
   fullName: "com.azure.cosmos.CosmosClientException.innerErrorMessage"
   package: "com.azure.cosmos"
-- uid: "java.net.URI"
-  spec.java:
-  - uid: "java.net.URI"
-    name: "URI"
-    fullName: "java.net.URI"
+- uid: "com.azure.cosmos.CosmosClientException.setResourceAddress*"
+  name: "setResourceAddress"
+  nameWithType: "CosmosClientException.setResourceAddress"
+  fullName: "com.azure.cosmos.CosmosClientException.setResourceAddress"
+  package: "com.azure.cosmos"
+- uid: "com.azure.cosmos.implementation.directconnectivity.Uri"
+  name: "Uri"
+  nameWithType: "Uri"
+  fullName: "com.azure.cosmos.implementation.directconnectivity.Uri"
+- uid: "java.lang.RuntimeException"
+  name: "RuntimeException"
+  nameWithType: "RuntimeException"
+  fullName: "java.lang.RuntimeException"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"
   nameWithType: "Object.notify()"

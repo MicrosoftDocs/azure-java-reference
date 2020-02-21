@@ -99,7 +99,7 @@ items:
     parameters:
     - id: "maxRetryAttemptsOnThrottledRequests"
       type: "int"
-      description: "the max number of retry attempts on failed requests due to a\n                                            throttle error."
+      description: "the max number of retry attempts on failed requests due to a\n throttle error."
     return:
       type: "com.azure.cosmos.RetryOptions"
       description: "the RetryOptions."

@@ -3,7 +3,6 @@ items:
 - uid: "com.azure.storage.blob.specialized.cryptography"
   id: "cryptography"
   children:
-  - "com.azure.storage.blob.specialized.cryptography.BlobCryptographyConfiguration"
   - "com.azure.storage.blob.specialized.cryptography.BlobDecryptionPolicy"
   - "com.azure.storage.blob.specialized.cryptography.BlobDecryptionPolicy.DecryptedResponse"
   - "com.azure.storage.blob.specialized.cryptography.CryptographyConstants"
@@ -26,10 +25,6 @@ items:
   syntax:
     content: "package com.azure.storage.blob.specialized.cryptography"
 references:
-- uid: "com.azure.storage.blob.specialized.cryptography.BlobCryptographyConfiguration"
-  name: "BlobCryptographyConfiguration"
-  nameWithType: "BlobCryptographyConfiguration"
-  fullName: "com.azure.storage.blob.specialized.cryptography.BlobCryptographyConfiguration"
 - uid: "com.azure.storage.blob.specialized.cryptography.BlobDecryptionPolicy"
   name: "BlobDecryptionPolicy"
   nameWithType: "BlobDecryptionPolicy"

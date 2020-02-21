@@ -8,6 +8,7 @@ items:
   - "com.azure.storage.blob.BlobUrlParts.getAccountName()"
   - "com.azure.storage.blob.BlobUrlParts.getBlobContainerName()"
   - "com.azure.storage.blob.BlobUrlParts.getBlobName()"
+  - "com.azure.storage.blob.BlobUrlParts.getCommonSasQueryParameters()"
   - "com.azure.storage.blob.BlobUrlParts.getHost()"
   - "com.azure.storage.blob.BlobUrlParts.getSasQueryParameters()"
   - "com.azure.storage.blob.BlobUrlParts.getScheme()"
@@ -15,8 +16,10 @@ items:
   - "com.azure.storage.blob.BlobUrlParts.getUnparsedParameters()"
   - "com.azure.storage.blob.BlobUrlParts.parse(java.lang.String)"
   - "com.azure.storage.blob.BlobUrlParts.parse(java.net.URL)"
+  - "com.azure.storage.blob.BlobUrlParts.parseSasQueryParameters(java.lang.String)"
   - "com.azure.storage.blob.BlobUrlParts.setAccountName(java.lang.String)"
   - "com.azure.storage.blob.BlobUrlParts.setBlobName(java.lang.String)"
+  - "com.azure.storage.blob.BlobUrlParts.setCommonSasQueryParameters(com.azure.storage.common.sas.CommonSasQueryParameters)"
   - "com.azure.storage.blob.BlobUrlParts.setContainerName(java.lang.String)"
   - "com.azure.storage.blob.BlobUrlParts.setHost(java.lang.String)"
   - "com.azure.storage.blob.BlobUrlParts.setSasQueryParameters(com.azure.storage.blob.sas.BlobServiceSasQueryParameters)"
@@ -113,6 +116,23 @@ items:
     return:
       type: "java.lang.String"
       description: "the decoded blob name."
+- uid: "com.azure.storage.blob.BlobUrlParts.getCommonSasQueryParameters()"
+  id: "getCommonSasQueryParameters()"
+  parent: "com.azure.storage.blob.BlobUrlParts"
+  langs:
+  - "java"
+  name: "getCommonSasQueryParameters()"
+  nameWithType: "BlobUrlParts.getCommonSasQueryParameters()"
+  fullName: "com.azure.storage.blob.BlobUrlParts.getCommonSasQueryParameters()"
+  overload: "com.azure.storage.blob.BlobUrlParts.getCommonSasQueryParameters*"
+  type: "Method"
+  package: "com.azure.storage.blob"
+  summary: "Gets the <xref uid=\"\" data-throw-if-not-resolved=\"false\">CommonSasQueryParameters</xref> representing the SAS query parameters that will be used to generate the SAS token for this URL."
+  syntax:
+    content: "public CommonSasQueryParameters getCommonSasQueryParameters()"
+    return:
+      type: "com.azure.storage.common.sas.CommonSasQueryParameters"
+      description: "the <xref uid=\"\" data-throw-if-not-resolved=\"false\">CommonSasQueryParameters</xref> of the URL"
 - uid: "com.azure.storage.blob.BlobUrlParts.getHost()"
   id: "getHost()"
   parent: "com.azure.storage.blob.BlobUrlParts"
@@ -141,7 +161,7 @@ items:
   overload: "com.azure.storage.blob.BlobUrlParts.getSasQueryParameters*"
   type: "Method"
   package: "com.azure.storage.blob"
-  summary: "Gets the <xref uid=\"com.azure.storage.blob.sas.BlobServiceSasQueryParameters\" data-throw-if-not-resolved=\"false\">BlobServiceSasQueryParameters</xref> representing the SAS query parameters that will be used to generate the SAS token for this URL."
+  summary: "Gets the <xref uid=\"com.azure.storage.blob.sas.BlobServiceSasQueryParameters\" data-throw-if-not-resolved=\"false\">BlobServiceSasQueryParameters</xref> representing the SAS query parameters"
   syntax:
     content: "public BlobServiceSasQueryParameters getSasQueryParameters()"
     return:
@@ -240,6 +260,27 @@ items:
     return:
       type: "com.azure.storage.blob.BlobUrlParts"
       description: "A <xref uid=\"com.azure.storage.blob.BlobUrlParts\" data-throw-if-not-resolved=\"false\">BlobUrlParts</xref> object containing all the components of a BlobURL."
+- uid: "com.azure.storage.blob.BlobUrlParts.parseSasQueryParameters(java.lang.String)"
+  id: "parseSasQueryParameters(java.lang.String)"
+  parent: "com.azure.storage.blob.BlobUrlParts"
+  langs:
+  - "java"
+  name: "parseSasQueryParameters(String queryParams)"
+  nameWithType: "BlobUrlParts.parseSasQueryParameters(String queryParams)"
+  fullName: "com.azure.storage.blob.BlobUrlParts.parseSasQueryParameters(String queryParams)"
+  overload: "com.azure.storage.blob.BlobUrlParts.parseSasQueryParameters*"
+  type: "Method"
+  package: "com.azure.storage.blob"
+  summary: "Sets the <xref uid=\"\" data-throw-if-not-resolved=\"false\">CommonSasQueryParameters</xref> representing the SAS query parameters that will be used to generate the SAS token for this URL."
+  syntax:
+    content: "public BlobUrlParts parseSasQueryParameters(String queryParams)"
+    parameters:
+    - id: "queryParams"
+      type: "java.lang.String"
+      description: "The SAS query parameter string."
+    return:
+      type: "com.azure.storage.blob.BlobUrlParts"
+      description: "the updated BlobUrlParts object."
 - uid: "com.azure.storage.blob.BlobUrlParts.setAccountName(java.lang.String)"
   id: "setAccountName(java.lang.String)"
   parent: "com.azure.storage.blob.BlobUrlParts"
@@ -279,6 +320,27 @@ items:
     - id: "blobName"
       type: "java.lang.String"
       description: "The blob name."
+    return:
+      type: "com.azure.storage.blob.BlobUrlParts"
+      description: "the updated BlobUrlParts object."
+- uid: "com.azure.storage.blob.BlobUrlParts.setCommonSasQueryParameters(com.azure.storage.common.sas.CommonSasQueryParameters)"
+  id: "setCommonSasQueryParameters(com.azure.storage.common.sas.CommonSasQueryParameters)"
+  parent: "com.azure.storage.blob.BlobUrlParts"
+  langs:
+  - "java"
+  name: "setCommonSasQueryParameters(CommonSasQueryParameters commonSasQueryParameters)"
+  nameWithType: "BlobUrlParts.setCommonSasQueryParameters(CommonSasQueryParameters commonSasQueryParameters)"
+  fullName: "com.azure.storage.blob.BlobUrlParts.setCommonSasQueryParameters(CommonSasQueryParameters commonSasQueryParameters)"
+  overload: "com.azure.storage.blob.BlobUrlParts.setCommonSasQueryParameters*"
+  type: "Method"
+  package: "com.azure.storage.blob"
+  summary: "Sets the <xref uid=\"\" data-throw-if-not-resolved=\"false\">CommonSasQueryParameters</xref> representing the SAS query parameters that will be used to generate the SAS token for this URL."
+  syntax:
+    content: "public BlobUrlParts setCommonSasQueryParameters(CommonSasQueryParameters commonSasQueryParameters)"
+    parameters:
+    - id: "commonSasQueryParameters"
+      type: "com.azure.storage.common.sas.CommonSasQueryParameters"
+      description: "The SAS query parameters."
     return:
       type: "com.azure.storage.blob.BlobUrlParts"
       description: "the updated BlobUrlParts object."
@@ -335,7 +397,7 @@ items:
   overload: "com.azure.storage.blob.BlobUrlParts.setSasQueryParameters*"
   type: "Method"
   package: "com.azure.storage.blob"
-  summary: "Sets the <xref uid=\"com.azure.storage.blob.sas.BlobServiceSasQueryParameters\" data-throw-if-not-resolved=\"false\">BlobServiceSasQueryParameters</xref> representing the SAS query parameters that will be used to generate the SAS token for this URL."
+  summary: "Sets the <xref uid=\"com.azure.storage.blob.sas.BlobServiceSasQueryParameters\" data-throw-if-not-resolved=\"false\">BlobServiceSasQueryParameters</xref> representing the SAS query parameters."
   syntax:
     content: "public BlobUrlParts setSasQueryParameters(BlobServiceSasQueryParameters blobServiceSasQueryParameters)"
     parameters:
@@ -509,6 +571,26 @@ references:
   name: "setSasQueryParameters"
   nameWithType: "BlobUrlParts.setSasQueryParameters"
   fullName: "com.azure.storage.blob.BlobUrlParts.setSasQueryParameters"
+  package: "com.azure.storage.blob"
+- uid: "com.azure.storage.common.sas.CommonSasQueryParameters"
+  spec.java:
+  - uid: "com.azure.storage.common.sas.CommonSasQueryParameters"
+    name: "CommonSasQueryParameters"
+    fullName: "com.azure.storage.common.sas.CommonSasQueryParameters"
+- uid: "com.azure.storage.blob.BlobUrlParts.getCommonSasQueryParameters*"
+  name: "getCommonSasQueryParameters"
+  nameWithType: "BlobUrlParts.getCommonSasQueryParameters"
+  fullName: "com.azure.storage.blob.BlobUrlParts.getCommonSasQueryParameters"
+  package: "com.azure.storage.blob"
+- uid: "com.azure.storage.blob.BlobUrlParts.setCommonSasQueryParameters*"
+  name: "setCommonSasQueryParameters"
+  nameWithType: "BlobUrlParts.setCommonSasQueryParameters"
+  fullName: "com.azure.storage.blob.BlobUrlParts.setCommonSasQueryParameters"
+  package: "com.azure.storage.blob"
+- uid: "com.azure.storage.blob.BlobUrlParts.parseSasQueryParameters*"
+  name: "parseSasQueryParameters"
+  nameWithType: "BlobUrlParts.parseSasQueryParameters"
+  fullName: "com.azure.storage.blob.BlobUrlParts.parseSasQueryParameters"
   package: "com.azure.storage.blob"
 - uid: "java.util.Map<java.lang.String,java.lang.String[]>"
   spec.java:

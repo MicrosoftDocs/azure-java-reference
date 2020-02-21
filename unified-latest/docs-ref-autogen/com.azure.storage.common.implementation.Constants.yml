@@ -5,8 +5,10 @@ items:
   parent: "com.azure.storage.common.implementation"
   children:
   - "com.azure.storage.common.implementation.Constants.BLOB_ALREADY_EXISTS"
+  - "com.azure.storage.common.implementation.Constants.BUFFER_COPY_LENGTH"
   - "com.azure.storage.common.implementation.Constants.ConnectionStringConstants"
   - "com.azure.storage.common.implementation.Constants.ENUM_COULD_NOT_BE_PARSED_INVALID_VALUE"
+  - "com.azure.storage.common.implementation.Constants.GB"
   - "com.azure.storage.common.implementation.Constants.HTTPS"
   - "com.azure.storage.common.implementation.Constants.HTTPS_HTTP"
   - "com.azure.storage.common.implementation.Constants.HeaderConstants"
@@ -53,6 +55,21 @@ items:
     content: "public static final String BLOB_ALREADY_EXISTS"
     return:
       type: "java.lang.String"
+- uid: "com.azure.storage.common.implementation.Constants.BUFFER_COPY_LENGTH"
+  id: "BUFFER_COPY_LENGTH"
+  parent: "com.azure.storage.common.implementation.Constants"
+  langs:
+  - "java"
+  name: "BUFFER_COPY_LENGTH"
+  nameWithType: "Constants.BUFFER_COPY_LENGTH"
+  fullName: "com.azure.storage.common.implementation.Constants.BUFFER_COPY_LENGTH"
+  type: "Field"
+  package: "com.azure.storage.common.implementation"
+  summary: "Buffer width used to copy data to output streams."
+  syntax:
+    content: "public static final int BUFFER_COPY_LENGTH"
+    return:
+      type: "int"
 - uid: "com.azure.storage.common.implementation.Constants.Constants()"
   id: "Constants()"
   parent: "com.azure.storage.common.implementation.Constants"
@@ -81,6 +98,21 @@ items:
     content: "public static final String ENUM_COULD_NOT_BE_PARSED_INVALID_VALUE"
     return:
       type: "java.lang.String"
+- uid: "com.azure.storage.common.implementation.Constants.GB"
+  id: "GB"
+  parent: "com.azure.storage.common.implementation.Constants"
+  langs:
+  - "java"
+  name: "GB"
+  nameWithType: "Constants.GB"
+  fullName: "com.azure.storage.common.implementation.Constants.GB"
+  type: "Field"
+  package: "com.azure.storage.common.implementation"
+  summary: "Represents a non-SI gigabyte."
+  syntax:
+    content: "public static final int GB"
+    return:
+      type: "int"
 - uid: "com.azure.storage.common.implementation.Constants.HTTPS"
   id: "HTTPS"
   parent: "com.azure.storage.common.implementation.Constants"

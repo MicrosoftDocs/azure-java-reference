@@ -7,6 +7,7 @@ items:
   - "com.azure.storage.blob.specialized.BlobInputStream.BlobInputStream(com.azure.storage.blob.BlobAsyncClient,com.azure.storage.blob.models.BlobRequestConditions)"
   - "com.azure.storage.blob.specialized.BlobInputStream.BlobInputStream(com.azure.storage.blob.specialized.BlobAsyncClientBase,long,java.lang.Long,com.azure.storage.blob.models.BlobRequestConditions)"
   - "com.azure.storage.blob.specialized.BlobInputStream.dispatchRead(int,long)"
+  - "com.azure.storage.blob.specialized.BlobInputStream.getProperties()"
   langs:
   - "java"
   name: "BlobInputStream"
@@ -121,6 +122,23 @@ items:
   exceptions:
   - type: "java.io.IOException"
     description: "If an I/O error occurs."
+- uid: "com.azure.storage.blob.specialized.BlobInputStream.getProperties()"
+  id: "getProperties()"
+  parent: "com.azure.storage.blob.specialized.BlobInputStream"
+  langs:
+  - "java"
+  name: "getProperties()"
+  nameWithType: "BlobInputStream.getProperties()"
+  fullName: "com.azure.storage.blob.specialized.BlobInputStream.getProperties()"
+  overload: "com.azure.storage.blob.specialized.BlobInputStream.getProperties*"
+  type: "Method"
+  package: "com.azure.storage.blob.specialized"
+  summary: "Gets the blob properties.\n\nIf no data has been read from the stream, a network call is made to get properties. Otherwise, the blob properties obtained from the download are stored."
+  syntax:
+    content: "public BlobProperties getProperties()"
+    return:
+      type: "com.azure.storage.blob.models.BlobProperties"
+      description: "<xref uid=\"com.azure.storage.blob.models.BlobProperties\" data-throw-if-not-resolved=\"false\">BlobProperties</xref>"
 references:
 - uid: "com.azure.storage.blob.BlobAsyncClient"
   name: "BlobAsyncClient"
@@ -168,6 +186,15 @@ references:
   name: "dispatchRead"
   nameWithType: "BlobInputStream.dispatchRead"
   fullName: "com.azure.storage.blob.specialized.BlobInputStream.dispatchRead"
+  package: "com.azure.storage.blob.specialized"
+- uid: "com.azure.storage.blob.models.BlobProperties"
+  name: "BlobProperties"
+  nameWithType: "BlobProperties"
+  fullName: "com.azure.storage.blob.models.BlobProperties"
+- uid: "com.azure.storage.blob.specialized.BlobInputStream.getProperties*"
+  name: "getProperties"
+  nameWithType: "BlobInputStream.getProperties"
+  fullName: "com.azure.storage.blob.specialized.BlobInputStream.getProperties"
   package: "com.azure.storage.blob.specialized"
 - uid: "com.azure.storage.common.StorageInputStream"
   name: "StorageInputStream"

@@ -53,19 +53,22 @@ items:
     content: "public static final PartitionKind HASH"
     return:
       type: "com.azure.cosmos.PartitionKind"
-- uid: "com.azure.cosmos.PartitionKind.PartitionKind()"
-  id: "PartitionKind()"
+- uid: "com.azure.cosmos.PartitionKind.PartitionKind(java.lang.String)"
+  id: "PartitionKind(java.lang.String)"
   parent: "com.azure.cosmos.PartitionKind"
   langs:
   - "java"
-  name: "PartitionKind()"
-  nameWithType: "PartitionKind.PartitionKind()"
-  fullName: "com.azure.cosmos.PartitionKind.PartitionKind()"
+  name: "PartitionKind(String overWireValue)"
+  nameWithType: "PartitionKind.PartitionKind(String overWireValue)"
+  fullName: "com.azure.cosmos.PartitionKind.PartitionKind(String overWireValue)"
   overload: "com.azure.cosmos.PartitionKind.PartitionKind*"
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "private PartitionKind()"
+    content: "private PartitionKind(String overWireValue)"
+    parameters:
+    - id: "overWireValue"
+      type: "java.lang.String"
 - uid: "com.azure.cosmos.PartitionKind.toString()"
   id: "toString()"
   parent: "com.azure.cosmos.PartitionKind"
@@ -115,6 +118,11 @@ items:
     return:
       type: "com.azure.cosmos.PartitionKind[]"
 references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.PartitionKind.PartitionKind*"
   name: "PartitionKind"
   nameWithType: "PartitionKind.PartitionKind"
@@ -132,11 +140,6 @@ references:
   nameWithType: "PartitionKind.values"
   fullName: "com.azure.cosmos.PartitionKind.values"
   package: "com.azure.cosmos"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.PartitionKind.valueOf*"
   name: "valueOf"
   nameWithType: "PartitionKind.valueOf"

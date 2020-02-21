@@ -23,7 +23,7 @@ items:
   fullName: "com.azure.cosmos.ConflictResolutionPolicy"
   type: "Class"
   package: "com.azure.cosmos"
-  summary: "Represents the conflict resolution policy configuration for specifying how to resolve conflicts in case writes from different regions result in conflicts on documents in the collection in the Azure Cosmos DB service. A collection with custom conflict resolution with no user-registered stored procedure.\n\n```java\nDocumentCollection collectionSpec = new DocumentCollection();\n collectionSpec.getId(\"Multi-master collection\");\n\n ConflictResolutionPolicy policy = ConflictResolutionPolicy.createCustomPolicy();\n collectionSpec.getConflictResolutionPolicy(policy);\n\n DocumentCollection collection = client.createCollection(databaseLink, collectionSpec, null)\n         .toBlocking().single().getResource();\n```\n\nA collection with custom conflict resolution with a user-registered stored procedure.\n\n```java\nDocumentCollection collectionSpec = new DocumentCollection();\n collectionSpec.getId(\"Multi-master collection\");\n\n ConflictResolutionPolicy policy = ConflictResolutionPolicy.createCustomPolicy(conflictResolutionSprocName);\n collectionSpec.getConflictResolutionPolicy(policy);\n\n DocumentCollection collection = client.createCollection(databaseLink, collectionSpec, null)\n         .toBlocking().single().getResource();\n```\n\nA collection with last writer wins conflict resolution, based on a path in the conflicting documents. A collection with custom conflict resolution with a user-registered stored procedure.\n\n```java\nDocumentCollection collectionSpec = new DocumentCollection();\n collectionSpec.getId(\"Multi-master collection\");\n\n ConflictResolutionPolicy policy = ConflictResolutionPolicy.createLastWriterWinsPolicy(\"/path/for/conflict/resolution\");\n collectionSpec.getConflictResolutionPolicy(policy);\n\n DocumentCollection collection = client.createCollection(databaseLink, collectionSpec, null)\n         .toBlocking().single().getResource();\n```"
+  summary: "Represents the conflict resolution policy configuration for specifying how to resolve conflicts in case writes from different regions result in conflicts on documents in the collection in the Azure Cosmos DB service.\n\nA collection with custom conflict resolution with no user-registered stored procedure.\n\n```java\nDocumentCollection collectionSpec = new DocumentCollection();\n collectionSpec.getId(\"Multi-master collection\");\n\n ConflictResolutionPolicy policy = ConflictResolutionPolicy.createCustomPolicy();\n collectionSpec.getConflictResolutionPolicy(policy);\n\n DocumentCollection collection = client.createCollection(databaseLink, collectionSpec, null)\n         .toBlocking().single().getResource();\n```\n\nA collection with custom conflict resolution with a user-registered stored procedure.\n\n```java\nDocumentCollection collectionSpec = new DocumentCollection();\n collectionSpec.getId(\"Multi-master collection\");\n\n ConflictResolutionPolicy policy = ConflictResolutionPolicy.createCustomPolicy(conflictResolutionSprocName);\n collectionSpec.getConflictResolutionPolicy(policy);\n\n DocumentCollection collection = client.createCollection(databaseLink, collectionSpec, null)\n         .toBlocking().single().getResource();\n```\n\nA collection with last writer wins conflict resolution, based on a path in the conflicting documents. A collection with custom conflict resolution with a user-registered stored procedure.\n\n```java\nDocumentCollection collectionSpec = new DocumentCollection();\n collectionSpec.getId(\"Multi-master collection\");\n\n ConflictResolutionPolicy policy = ConflictResolutionPolicy.createLastWriterWinsPolicy\n (\"/path/for/conflict/resolution\");\n collectionSpec.getConflictResolutionPolicy(policy);\n\n DocumentCollection collection = client.createCollection(databaseLink, collectionSpec, null)\n         .toBlocking().single().getResource();\n```"
   syntax:
     content: "public class ConflictResolutionPolicy extends JsonSerializable"
   inheritance:
@@ -105,7 +105,7 @@ items:
   overload: "com.azure.cosmos.ConflictResolutionPolicy.createCustomPolicy*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Creates a CUSTOM <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy</xref> without any <xref uid=\"com.azure.cosmos.internal.StoredProcedure\" data-throw-if-not-resolved=\"false\">StoredProcedure</xref>. User manually should resolve conflicts. The conflicts will be registered in the conflicts feed and the user should manually resolve them."
+  summary: "Creates a CUSTOM <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy</xref> without any <xref uid=\"com.azure.cosmos.implementation.StoredProcedure\" data-throw-if-not-resolved=\"false\">StoredProcedure</xref>. User manually should resolve conflicts.\n\nThe conflicts will be registered in the conflicts feed and the user should manually resolve them."
   syntax:
     content: "public static ConflictResolutionPolicy createCustomPolicy()"
     return:
@@ -122,7 +122,7 @@ items:
   overload: "com.azure.cosmos.ConflictResolutionPolicy.createCustomPolicy*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Creates a CUSTOM <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy</xref> which uses the specified stored procedure to perform conflict resolution This stored procedure may be created after the <xref uid=\"com.azure.cosmos.internal.DocumentCollection\" data-throw-if-not-resolved=\"false\">DocumentCollection</xref> is created and can be changed as required.\n\n *  In case the stored procedure fails or throws an exception, the conflict resolution will default to registering conflicts in the conflicts feed\n *  The user can provide the stored procedure @see <xref uid=\"\" data-throw-if-not-resolved=\"false\">Resource#id()</xref>"
+  summary: "Creates a CUSTOM <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy</xref> which uses the specified stored procedure to perform conflict resolution\n\nThis stored procedure may be created after the <xref uid=\"com.azure.cosmos.implementation.DocumentCollection\" data-throw-if-not-resolved=\"false\">DocumentCollection</xref> is created and can be changed as required.\n\n *  In case the stored procedure fails or throws an exception, the conflict resolution will default to registering conflicts in the conflicts feed\n *  The user can provide the stored procedure @see <xref uid=\"com.azure.cosmos.Resource.getId()\" data-throw-if-not-resolved=\"false\">Resource#getId()</xref>"
   syntax:
     content: "public static ConflictResolutionPolicy createCustomPolicy(String conflictResolutionSprocName)"
     parameters:
@@ -143,7 +143,7 @@ items:
   overload: "com.azure.cosmos.ConflictResolutionPolicy.createLastWriterWinsPolicy*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Creates a LAST\\_WRITER\\_WINS <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy</xref> with \"/\\_ts\" as the resolution path. In case of a conflict occurring on a document, the document with the higher integer value in the default path <xref uid=\"\" data-throw-if-not-resolved=\"false\">Resource#timestamp()</xref>, i.e., \"/\\_ts\" will be used. <xref uid=\"com.azure.cosmos.Resource.getTimestamp()\" data-throw-if-not-resolved=\"false\">Resource#getTimestamp()</xref>, i.e., \"/\\_ts\" will be used."
+  summary: "Creates a LAST\\_WRITER\\_WINS <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy</xref> with \"/\\_ts\" as the resolution path.\n\nIn case of a conflict occurring on a document, the document with the higher integer value in the default path <xref uid=\"com.azure.cosmos.Resource.getTimestamp()\" data-throw-if-not-resolved=\"false\">Resource#getTimestamp()</xref> ()\\}, i.e., \"/\\_ts\" will be used. <xref uid=\"com.azure.cosmos.Resource.getTimestamp()\" data-throw-if-not-resolved=\"false\">Resource#getTimestamp()</xref>, i.e., \"/\\_ts\" will be used."
   syntax:
     content: "public static ConflictResolutionPolicy createLastWriterWinsPolicy()"
     return:
@@ -160,13 +160,13 @@ items:
   overload: "com.azure.cosmos.ConflictResolutionPolicy.createLastWriterWinsPolicy*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Creates a LAST\\_WRITER\\_WINS <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy</xref> with path as the resolution path. The specified path must be present in each document and must be an integer value. In case of a conflict occurring on a document, the document with the higher integer value in the specified path will be picked."
+  summary: "Creates a LAST\\_WRITER\\_WINS <xref uid=\"com.azure.cosmos.ConflictResolutionPolicy\" data-throw-if-not-resolved=\"false\">ConflictResolutionPolicy</xref> with path as the resolution path.\n\nThe specified path must be present in each document and must be an integer value. In case of a conflict occurring on a document, the document with the higher integer value in the specified path will be picked."
   syntax:
     content: "public static ConflictResolutionPolicy createLastWriterWinsPolicy(String conflictResolutionPath)"
     parameters:
     - id: "conflictResolutionPath"
       type: "java.lang.String"
-      description: "The path to check values for last-writer wins conflict resolution.\n                               That path is a rooted path of the property in the document, such as \"/name/first\"."
+      description: "The path to check values for last-writer wins conflict resolution.\n That path is a rooted path of the property in the document, such as \"/name/first\"."
     return:
       type: "com.azure.cosmos.ConflictResolutionPolicy"
       description: "ConflictResolutionPolicy."
@@ -181,7 +181,7 @@ items:
   overload: "com.azure.cosmos.ConflictResolutionPolicy.getConflictResolutionPath*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Gets the path which is present in each document in the Azure Cosmos DB service for last writer wins conflict-resolution. This path must be present in each document and must be an integer value. In case of a conflict occurring on a document, the document with the higher integer value in the specified path will be picked. If the path is unspecified, by default the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Resource#timestamp()</xref> path will be used. This value should only be set when using <xref uid=\"com.azure.cosmos.ConflictResolutionMode.LAST_WRITER_WINS\" data-throw-if-not-resolved=\"false\">ConflictResolutionMode#LAST_WRITER_WINS</xref>"
+  summary: "Gets the path which is present in each document in the Azure Cosmos DB service for last writer wins conflict-resolution. This path must be present in each document and must be an integer value. In case of a conflict occurring on a document, the document with the higher integer value in the specified path will be picked. If the path is unspecified, by default the <xref uid=\"com.azure.cosmos.Resource.getTimestamp()\" data-throw-if-not-resolved=\"false\">Resource#getTimestamp()</xref> ()\\} path will be used.\n\nThis value should only be set when using <xref uid=\"com.azure.cosmos.ConflictResolutionMode.LAST_WRITER_WINS\" data-throw-if-not-resolved=\"false\">ConflictResolutionMode#LAST_WRITER_WINS</xref>"
   syntax:
     content: "public String getConflictResolutionPath()"
     return:
@@ -198,7 +198,7 @@ items:
   overload: "com.azure.cosmos.ConflictResolutionPolicy.getConflictResolutionProcedure*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Gets the <xref uid=\"com.azure.cosmos.internal.StoredProcedure\" data-throw-if-not-resolved=\"false\">StoredProcedure</xref> which is used for conflict resolution in the Azure Cosmos DB service. This stored procedure may be created after the <xref uid=\"com.azure.cosmos.internal.DocumentCollection\" data-throw-if-not-resolved=\"false\">DocumentCollection</xref> is created and can be changed as required.\n\n *  This value should only be set when using <xref uid=\"com.azure.cosmos.ConflictResolutionMode.CUSTOM\" data-throw-if-not-resolved=\"false\">ConflictResolutionMode#CUSTOM</xref>\n *  In case the stored procedure fails or throws an exception, the conflict resolution will default to registering conflicts in the conflicts feed\n *  The user can provide the stored procedure @see <xref uid=\"\" data-throw-if-not-resolved=\"false\">Resource#id()</xref>"
+  summary: "Gets the <xref uid=\"com.azure.cosmos.implementation.StoredProcedure\" data-throw-if-not-resolved=\"false\">StoredProcedure</xref> which is used for conflict resolution in the Azure Cosmos DB service. This stored procedure may be created after the <xref uid=\"com.azure.cosmos.implementation.DocumentCollection\" data-throw-if-not-resolved=\"false\">DocumentCollection</xref> is created and can be changed as required.\n\n *  This value should only be set when using <xref uid=\"com.azure.cosmos.ConflictResolutionMode.CUSTOM\" data-throw-if-not-resolved=\"false\">ConflictResolutionMode#CUSTOM</xref>\n *  In case the stored procedure fails or throws an exception, the conflict resolution will default to registering conflicts in the conflicts feed\n *  The user can provide the stored procedure @see <xref uid=\"com.azure.cosmos.Resource.getId()\" data-throw-if-not-resolved=\"false\">Resource#getId()</xref> ()\\}\n\n\\*"
   syntax:
     content: "public String getConflictResolutionProcedure()"
     return:
@@ -232,13 +232,13 @@ items:
   overload: "com.azure.cosmos.ConflictResolutionPolicy.setConflictResolutionPath*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Sets the path which is present in each document in the Azure Cosmos DB service for last writer wins conflict-resolution. This path must be present in each document and must be an integer value. In case of a conflict occurring on a document, the document with the higher integer value in the specified path will be picked. If the path is unspecified, by default the <xref uid=\"\" data-throw-if-not-resolved=\"false\">Resource#timestamp()</xref> path will be used. This value should only be set when using <xref uid=\"com.azure.cosmos.ConflictResolutionMode.LAST_WRITER_WINS\" data-throw-if-not-resolved=\"false\">ConflictResolutionMode#LAST_WRITER_WINS</xref>"
+  summary: "Sets the path which is present in each document in the Azure Cosmos DB service for last writer wins conflict-resolution. This path must be present in each document and must be an integer value. In case of a conflict occurring on a document, the document with the higher integer value in the specified path will be picked. If the path is unspecified, by default the <xref uid=\"com.azure.cosmos.Resource.getTimestamp()\" data-throw-if-not-resolved=\"false\">Resource#getTimestamp()</xref> ()\\} path will be used.\n\nThis value should only be set when using <xref uid=\"com.azure.cosmos.ConflictResolutionMode.LAST_WRITER_WINS\" data-throw-if-not-resolved=\"false\">ConflictResolutionMode#LAST_WRITER_WINS</xref>"
   syntax:
     content: " ConflictResolutionPolicy setConflictResolutionPath(String value)"
     parameters:
     - id: "value"
       type: "java.lang.String"
-      description: "The path to check values for last-writer wins conflict resolution.\n              That path is a rooted path of the property in the document, such as \"/name/first\"."
+      description: "The path to check values for last-writer wins conflict resolution.\n That path is a rooted path of the property in the document, such as \"/name/first\"."
     return:
       type: "com.azure.cosmos.ConflictResolutionPolicy"
 - uid: "com.azure.cosmos.ConflictResolutionPolicy.setConflictResolutionProcedure(java.lang.String)"

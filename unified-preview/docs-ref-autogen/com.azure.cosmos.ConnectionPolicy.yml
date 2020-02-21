@@ -129,7 +129,7 @@ items:
   overload: "com.azure.cosmos.ConnectionPolicy.getEnableReadRequestsFallback*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Gets whether to allow for reads to go to multiple regions configured on an account of Azure Cosmos DB service. DEFAULT value is null. If this property is not set, the default is true for all Consistency Levels other than Bounded Staleness, The default is false for Bounded Staleness. 1. <xref uid=\"\" data-throw-if-not-resolved=\"false\">#enableEndpointDiscovery</xref> is true 2. the Azure Cosmos DB account has more than one region"
+  summary: "Gets whether to allow for reads to go to multiple regions configured on an account of Azure Cosmos DB service.\n\nDEFAULT value is null.\n\nIf this property is not set, the default is true for all Consistency Levels other than Bounded Staleness, The default is false for Bounded Staleness. 1. <xref uid=\"\" data-throw-if-not-resolved=\"false\">#enableEndpointDiscovery</xref> is true 2. the Azure Cosmos DB account has more than one region"
   syntax:
     content: "public Boolean getEnableReadRequestsFallback()"
     return:
@@ -265,7 +265,7 @@ items:
   overload: "com.azure.cosmos.ConnectionPolicy.getUsingMultipleWriteLocations*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Gets the flag to enable writes on any locations (regions) for geo-replicated database accounts in the Azure Cosmos DB service. When the value of this property is true, the SDK will direct write operations to available writable locations of geo-replicated database account. Writable locations are ordered by PreferredLocations property. Setting the property value to true has no effect until EnableMultipleWriteLocations in DatabaseAccount is also set to true. DEFAULT value is false indicating that writes are only directed to first region in PreferredLocations property."
+  summary: "Gets the flag to enable writes on any locations (regions) for geo-replicated database accounts in the Azure Cosmos DB service.\n\nWhen the value of this property is true, the SDK will direct write operations to available writable locations of geo-replicated database account. Writable locations are ordered by PreferredLocations property. Setting the property value to true has no effect until EnableMultipleWriteLocations in DatabaseAccount is also set to true.\n\nDEFAULT value is true indicating that writes are directed to available writable locations of geo-replicated database account."
   syntax:
     content: "public boolean getUsingMultipleWriteLocations()"
     return:
@@ -324,13 +324,13 @@ items:
   overload: "com.azure.cosmos.ConnectionPolicy.setEnableReadRequestsFallback*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Sets whether to allow for reads to go to multiple regions configured on an account of Azure Cosmos DB service. DEFAULT value is null. If this property is not set, the default is true for all Consistency Levels other than Bounded Staleness, The default is false for Bounded Staleness. 1. <xref uid=\"\" data-throw-if-not-resolved=\"false\">#enableEndpointDiscovery</xref> is true 2. the Azure Cosmos DB account has more than one region"
+  summary: "Sets whether to allow for reads to go to multiple regions configured on an account of Azure Cosmos DB service.\n\nDEFAULT value is null.\n\nIf this property is not set, the default is true for all Consistency Levels other than Bounded Staleness, The default is false for Bounded Staleness. 1. <xref uid=\"\" data-throw-if-not-resolved=\"false\">#enableEndpointDiscovery</xref> is true 2. the Azure Cosmos DB account has more than one region"
   syntax:
     content: "public ConnectionPolicy setEnableReadRequestsFallback(Boolean enableReadRequestsFallback)"
     parameters:
     - id: "enableReadRequestsFallback"
       type: "java.lang.Boolean"
-      description: "flag to enable reads to go to multiple regions configured on an account of Azure Cosmos DB service."
+      description: "flag to enable reads to go to multiple regions configured on an account of\n Azure Cosmos DB service."
     return:
       type: "com.azure.cosmos.ConnectionPolicy"
       description: "the ConnectionPolicy."
@@ -480,7 +480,7 @@ items:
     parameters:
     - id: "userAgentSuffix"
       type: "java.lang.String"
-      description: "The value to be appended to the user-agent header, this is\n                        used for monitoring purposes."
+      description: "The value to be appended to the user-agent header, this is\n used for monitoring purposes."
     return:
       type: "com.azure.cosmos.ConnectionPolicy"
       description: "the ConnectionPolicy."
@@ -495,13 +495,13 @@ items:
   overload: "com.azure.cosmos.ConnectionPolicy.setUsingMultipleWriteLocations*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Sets the flag to enable writes on any locations (regions) for geo-replicated database accounts in the Azure Cosmos DB service. When the value of this property is true, the SDK will direct write operations to available writable locations of geo-replicated database account. Writable locations are ordered by PreferredLocations property. Setting the property value to true has no effect until EnableMultipleWriteLocations in DatabaseAccount is also set to true. DEFAULT value is false indicating that writes are only directed to first region in PreferredLocations property."
+  summary: "Sets the flag to enable writes on any locations (regions) for geo-replicated database accounts in the Azure Cosmos DB service.\n\nWhen the value of this property is true, the SDK will direct write operations to available writable locations of geo-replicated database account. Writable locations are ordered by PreferredLocations property. Setting the property value to true has no effect until EnableMultipleWriteLocations in DatabaseAccount is also set to true.\n\nDEFAULT value is false indicating that writes are only directed to first region in PreferredLocations property."
   syntax:
     content: "public ConnectionPolicy setUsingMultipleWriteLocations(boolean usingMultipleWriteLocations)"
     parameters:
     - id: "usingMultipleWriteLocations"
       type: "boolean"
-      description: "flag to enable writes on any locations (regions) for geo-replicated database accounts."
+      description: "flag to enable writes on any locations (regions) for geo-replicated\n database accounts."
     return:
       type: "com.azure.cosmos.ConnectionPolicy"
       description: "the ConnectionPolicy."

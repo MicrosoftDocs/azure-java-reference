@@ -5,7 +5,9 @@ items:
   parent: "com.azure.storage.file.share.models"
   children:
   - "com.azure.storage.file.share.models.CloseHandlesInfo.CloseHandlesInfo(java.lang.Integer)"
+  - "com.azure.storage.file.share.models.CloseHandlesInfo.CloseHandlesInfo(java.lang.Integer,java.lang.Integer)"
   - "com.azure.storage.file.share.models.CloseHandlesInfo.getClosedHandles()"
+  - "com.azure.storage.file.share.models.CloseHandlesInfo.getFailedHandles()"
   langs:
   - "java"
   name: "CloseHandlesInfo"
@@ -47,7 +49,28 @@ items:
     parameters:
     - id: "closedHandles"
       type: "java.lang.Integer"
+      description: "The numbers of handles closed.\n Note : Failed handles was added as a parameter, default value for failed handles is 0"
+- uid: "com.azure.storage.file.share.models.CloseHandlesInfo.CloseHandlesInfo(java.lang.Integer,java.lang.Integer)"
+  id: "CloseHandlesInfo(java.lang.Integer,java.lang.Integer)"
+  parent: "com.azure.storage.file.share.models.CloseHandlesInfo"
+  langs:
+  - "java"
+  name: "CloseHandlesInfo(Integer closedHandles, Integer failedHandles)"
+  nameWithType: "CloseHandlesInfo.CloseHandlesInfo(Integer closedHandles, Integer failedHandles)"
+  fullName: "com.azure.storage.file.share.models.CloseHandlesInfo.CloseHandlesInfo(Integer closedHandles, Integer failedHandles)"
+  overload: "com.azure.storage.file.share.models.CloseHandlesInfo.CloseHandlesInfo*"
+  type: "Constructor"
+  package: "com.azure.storage.file.share.models"
+  summary: "Creates an instance of information about close handles."
+  syntax:
+    content: "public CloseHandlesInfo(Integer closedHandles, Integer failedHandles)"
+    parameters:
+    - id: "closedHandles"
+      type: "java.lang.Integer"
       description: "The numbers of handles closed."
+    - id: "failedHandles"
+      type: "java.lang.Integer"
+      description: "The numbers of handles that failed to close."
 - uid: "com.azure.storage.file.share.models.CloseHandlesInfo.getClosedHandles()"
   id: "getClosedHandles()"
   parent: "com.azure.storage.file.share.models.CloseHandlesInfo"
@@ -64,6 +87,22 @@ items:
     return:
       type: "int"
       description: "The number of handles closed."
+- uid: "com.azure.storage.file.share.models.CloseHandlesInfo.getFailedHandles()"
+  id: "getFailedHandles()"
+  parent: "com.azure.storage.file.share.models.CloseHandlesInfo"
+  langs:
+  - "java"
+  name: "getFailedHandles()"
+  nameWithType: "CloseHandlesInfo.getFailedHandles()"
+  fullName: "com.azure.storage.file.share.models.CloseHandlesInfo.getFailedHandles()"
+  overload: "com.azure.storage.file.share.models.CloseHandlesInfo.getFailedHandles*"
+  type: "Method"
+  package: "com.azure.storage.file.share.models"
+  syntax:
+    content: "public int getFailedHandles()"
+    return:
+      type: "int"
+      description: "The number of handles that failed to close."
 references:
 - uid: "java.lang.Integer"
   spec.java:
@@ -84,6 +123,11 @@ references:
   name: "getClosedHandles"
   nameWithType: "CloseHandlesInfo.getClosedHandles"
   fullName: "com.azure.storage.file.share.models.CloseHandlesInfo.getClosedHandles"
+  package: "com.azure.storage.file.share.models"
+- uid: "com.azure.storage.file.share.models.CloseHandlesInfo.getFailedHandles*"
+  name: "getFailedHandles"
+  nameWithType: "CloseHandlesInfo.getFailedHandles"
+  fullName: "com.azure.storage.file.share.models.CloseHandlesInfo.getFailedHandles"
   package: "com.azure.storage.file.share.models"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"

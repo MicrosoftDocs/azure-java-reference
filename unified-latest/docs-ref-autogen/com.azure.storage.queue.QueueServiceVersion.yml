@@ -5,6 +5,7 @@ items:
   parent: "com.azure.storage.queue"
   children:
   - "com.azure.storage.queue.QueueServiceVersion.V2019_02_02"
+  - "com.azure.storage.queue.QueueServiceVersion.V2019_07_07"
   - "com.azure.storage.queue.QueueServiceVersion.getLatest()"
   - "com.azure.storage.queue.QueueServiceVersion.getVersion()"
   - "com.azure.storage.queue.QueueServiceVersion.valueOf(java.lang.String)"
@@ -69,6 +70,20 @@ items:
   package: "com.azure.storage.queue"
   syntax:
     content: "public static final QueueServiceVersion V2019_02_02"
+    return:
+      type: "com.azure.storage.queue.QueueServiceVersion"
+- uid: "com.azure.storage.queue.QueueServiceVersion.V2019_07_07"
+  id: "V2019_07_07"
+  parent: "com.azure.storage.queue.QueueServiceVersion"
+  langs:
+  - "java"
+  name: "V2019_07_07"
+  nameWithType: "QueueServiceVersion.V2019_07_07"
+  fullName: "com.azure.storage.queue.QueueServiceVersion.V2019_07_07"
+  type: "Field"
+  package: "com.azure.storage.queue"
+  syntax:
+    content: "public static final QueueServiceVersion V2019_07_07"
     return:
       type: "com.azure.storage.queue.QueueServiceVersion"
 - uid: "com.azure.storage.queue.QueueServiceVersion.getLatest()"

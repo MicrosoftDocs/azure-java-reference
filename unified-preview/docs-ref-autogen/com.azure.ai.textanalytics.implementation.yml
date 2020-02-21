@@ -3,6 +3,7 @@ items:
 - uid: "com.azure.ai.textanalytics.implementation"
   id: "implementation"
   children:
+  - "com.azure.ai.textanalytics.implementation.ApiKeyCredentialPolicy"
   - "com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl"
   - "com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.TextAnalyticsClientService"
   - "com.azure.ai.textanalytics.implementation.TextAnalyticsClientImplBuilder"
@@ -16,6 +17,10 @@ items:
   syntax:
     content: "package com.azure.ai.textanalytics.implementation"
 references:
+- uid: "com.azure.ai.textanalytics.implementation.ApiKeyCredentialPolicy"
+  name: "ApiKeyCredentialPolicy"
+  nameWithType: "ApiKeyCredentialPolicy"
+  fullName: "com.azure.ai.textanalytics.implementation.ApiKeyCredentialPolicy"
 - uid: "com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl"
   name: "TextAnalyticsClientImpl"
   nameWithType: "TextAnalyticsClientImpl"

@@ -126,7 +126,7 @@ items:
   syntax:
     content: " PartitionKeyInternal getNonePartitionKeyValue()"
     return:
-      type: "com.azure.cosmos.internal.routing.PartitionKeyInternal"
+      type: "com.azure.cosmos.implementation.routing.PartitionKeyInternal"
 - uid: "com.azure.cosmos.PartitionKeyDefinition.getPaths()"
   id: "getPaths()"
   parent: "com.azure.cosmos.PartitionKeyDefinition"
@@ -320,10 +320,10 @@ references:
   nameWithType: "PartitionKeyDefinition.isSystemKey"
   fullName: "com.azure.cosmos.PartitionKeyDefinition.isSystemKey"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.internal.routing.PartitionKeyInternal"
+- uid: "com.azure.cosmos.implementation.routing.PartitionKeyInternal"
   name: "PartitionKeyInternal"
   nameWithType: "PartitionKeyInternal"
-  fullName: "com.azure.cosmos.internal.routing.PartitionKeyInternal"
+  fullName: "com.azure.cosmos.implementation.routing.PartitionKeyInternal"
 - uid: "com.azure.cosmos.PartitionKeyDefinition.getNonePartitionKeyValue*"
   name: "getNonePartitionKeyValue"
   nameWithType: "PartitionKeyDefinition.getNonePartitionKeyValue"

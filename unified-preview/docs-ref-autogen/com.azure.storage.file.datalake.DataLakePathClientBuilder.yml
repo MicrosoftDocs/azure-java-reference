@@ -73,7 +73,7 @@ items:
   overload: "com.azure.storage.file.datalake.DataLakePathClientBuilder.addPolicy*"
   type: "Method"
   package: "com.azure.storage.file.datalake"
-  summary: "Adds a pipeline policy to apply on each request sent."
+  summary: "Adds a pipeline policy to apply on each request sent. The policy will be added after the retry policy. If the method is called multiple times, all policies will be added and their order preserved."
   syntax:
     content: "public DataLakePathClientBuilder addPolicy(HttpPipelinePolicy pipelinePolicy)"
     parameters:
@@ -189,7 +189,7 @@ items:
     parameters:
     - id: "credential"
       type: "com.azure.core.credential.TokenCredential"
-      description: "The credential to use for authenticating request."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">TokenCredential</xref>."
     return:
       type: "com.azure.storage.file.datalake.DataLakePathClientBuilder"
       description: "the updated DataLakePathClientBuilder"
@@ -210,7 +210,7 @@ items:
     parameters:
     - id: "credential"
       type: "com.azure.storage.common.StorageSharedKeyCredential"
-      description: "The credential to use for authenticating request."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">StorageSharedKeyCredential</xref>."
     return:
       type: "com.azure.storage.file.datalake.DataLakePathClientBuilder"
       description: "the updated DataLakePathClientBuilder"
@@ -374,7 +374,7 @@ items:
     parameters:
     - id: "retryOptions"
       type: "com.azure.storage.common.policy.RequestRetryOptions"
-      description: "The options used to configure retry behavior."
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">RequestRetryOptions</xref>."
     return:
       type: "com.azure.storage.file.datalake.DataLakePathClientBuilder"
       description: "the updated DataLakePathClientBuilder object"
@@ -410,7 +410,7 @@ items:
   overload: "com.azure.storage.file.datalake.DataLakePathClientBuilder.serviceVersion*"
   type: "Method"
   package: "com.azure.storage.file.datalake"
-  summary: "Sets the <xref uid=\"com.azure.storage.file.datalake.DataLakeServiceVersion\" data-throw-if-not-resolved=\"false\">DataLakeServiceVersion</xref> that is used when making API requests.\n\nIf a service version is not provided, the service version that will be used will be the latest known service version based on the version of the client library being used. If no service version is specified, updating to a newer version the client library will have the result of potentially moving to a newer service version."
+  summary: "Sets the <xref uid=\"com.azure.storage.file.datalake.DataLakeServiceVersion\" data-throw-if-not-resolved=\"false\">DataLakeServiceVersion</xref> that is used when making API requests.\n\nIf a service version is not provided, the service version that will be used will be the latest known service version based on the version of the client library being used. If no service version is specified, updating to a newer version of the client library will have the result of potentially moving to a newer service version.\n\nTargeting a specific service version may also mean that the service will return an error for newer APIs."
   syntax:
     content: "public DataLakePathClientBuilder serviceVersion(DataLakeServiceVersion version)"
     parameters:

@@ -80,7 +80,7 @@ items:
   fullName: "com.azure.cosmos.PartitionKeyDefinitionVersion.V2"
   type: "Field"
   package: "com.azure.cosmos"
-  summary: "Enhanced version of hash partitioning - offers better distribution of long partition keys and uses less storage. This version should be used for any practical purpose, but it is available in newer SDKs only."
+  summary: "Enhanced version of hash partitioning - offers better distribution of long partition keys and uses less storage.\n\nThis version should be used for any practical purpose, but it is available in newer SDKs only."
   syntax:
     content: "public static final PartitionKeyDefinitionVersion V2"
     return:

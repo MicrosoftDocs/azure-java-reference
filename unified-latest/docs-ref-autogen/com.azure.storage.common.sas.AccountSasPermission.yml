@@ -30,7 +30,7 @@ items:
   fullName: "com.azure.storage.common.sas.AccountSasPermission"
   type: "Class"
   package: "com.azure.storage.common.sas"
-  summary: "This is a helper class to construct a string representing the permissions granted by an AccountSAS. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on an <xref uid=\"com.azure.storage.common.sas.AccountSasSignatureValues\" data-throw-if-not-resolved=\"false\">AccountSasSignatureValues</xref> object. It is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness."
+  summary: "This is a helper class to construct a string representing the permissions granted by an Account SAS. Setting a value to true means that any SAS which uses these permissions will grant permissions for that operation. Once all the values are set, this should be serialized with toString and set as the permissions field on <xref uid=\"com.azure.storage.common.sas.AccountSasSignatureValues\" data-throw-if-not-resolved=\"false\">AccountSasSignatureValues</xref>.\n\nIt is possible to construct the permissions string without this class, but the order of the permissions is particular and this class guarantees correctness."
   syntax:
     content: "public final class AccountSasPermission"
   inheritance:
@@ -58,7 +58,7 @@ items:
   overload: "com.azure.storage.common.sas.AccountSasPermission.AccountSasPermission*"
   type: "Constructor"
   package: "com.azure.storage.common.sas"
-  summary: "Initializes an `AccountSasPermission` object with all fields set to false."
+  summary: "Initializes an <xref uid=\"com.azure.storage.common.sas.AccountSasPermission\" data-throw-if-not-resolved=\"false\">AccountSasPermission</xref> object with all fields set to false."
   syntax:
     content: "public AccountSasPermission()"
 - uid: "com.azure.storage.common.sas.AccountSasPermission.hasAddPermission()"
@@ -391,12 +391,12 @@ items:
   overload: "com.azure.storage.common.sas.AccountSasPermission.toString*"
   type: "Method"
   package: "com.azure.storage.common.sas"
-  summary: "Converts the given permissions to a `String`. Using this method will guarantee the permissions are in an order accepted by the service."
+  summary: "Converts the given permissions to a <xref uid=\"\" data-throw-if-not-resolved=\"false\">String</xref>. Using this method will guarantee the permissions are in an order accepted by the service."
   syntax:
     content: "public String toString()"
     return:
       type: "java.lang.String"
-      description: "A <code>String</code> which represents the <code>AccountSASPermissions</code>."
+      description: "A <xref uid=\"\" data-throw-if-not-resolved=\"false\">String</xref> which represents the <xref uid=\"com.azure.storage.common.sas.AccountSasPermission\" data-throw-if-not-resolved=\"false\">AccountSasPermission</xref>."
 references:
 - uid: "com.azure.storage.common.sas.AccountSasPermission.AccountSasPermission*"
   name: "AccountSasPermission"

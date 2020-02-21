@@ -93,13 +93,13 @@ items:
   overload: "com.azure.cosmos.IndexingPolicy.IndexingPolicy*"
   type: "Constructor"
   package: "com.azure.cosmos"
-  summary: "Initializes a new instance of the IndexingPolicy class with the specified set of indexes as default index specifications for the root path.\n\nThe following example shows how to override the default indexingPolicy for root path:\n\n```java\nHashIndex hashIndexOverride = Index.HASH(DataType.STRING, 5);\n RangeIndex rangeIndexOverride = Index.RANGE(DataType.NUMBER, 2);\n SpatialIndex spatialIndexOverride = Index.SPATIAL(DataType.POINT);\n\n IndexingPolicy indexingPolicy = new IndexingPolicy(hashIndexOverride, rangeIndexOverride, spatialIndexOverride);\n```\n\nIf you would like to just override the indexingPolicy for Numbers you can specify just that:\n\n```java\nRangeIndex rangeIndexOverride = Index.RANGE(DataType.NUMBER, 2);\n\n IndexingPolicy indexingPolicy = new IndexingPolicy(rangeIndexOverride);\n```"
+  summary: "Initializes a new instance of the IndexingPolicy class with the specified set of indexes as default index specifications for the root path.\n\nThe following example shows how to override the default indexingPolicy for root path:\n\n\\{@codesnippet com.azure.cosmos.indexingPolicy.defaultOverride)\\}"
   syntax:
     content: "public IndexingPolicy(Index[] defaultIndexOverrides)"
     parameters:
     - id: "defaultIndexOverrides"
       type: "com.azure.cosmos.Index[]"
-      description: "comma separated set of indexes that serve as default index specifications for the root path."
+      description: "comma separated set of indexes that serve as default index specifications for the\n root path."
 - uid: "com.azure.cosmos.IndexingPolicy.IndexingPolicy(java.lang.String)"
   id: "IndexingPolicy(java.lang.String)"
   parent: "com.azure.cosmos.IndexingPolicy"

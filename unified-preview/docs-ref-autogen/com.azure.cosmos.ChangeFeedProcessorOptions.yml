@@ -82,7 +82,7 @@ items:
     content: "public boolean getDiscardExistingLeases()"
     return:
       type: "boolean"
-      description: "a value indicating whether on start of the host all existing leases should be deleted and the host should start from scratch."
+      description: "a value indicating whether on start of the host all existing leases should be deleted and the host \n should start from scratch."
 - uid: "com.azure.cosmos.ChangeFeedProcessorOptions.getFeedPollDelay()"
   id: "getFeedPollDelay()"
   parent: "com.azure.cosmos.ChangeFeedProcessorOptions"
@@ -116,7 +116,7 @@ items:
     content: "public Duration getLeaseAcquireInterval()"
     return:
       type: "java.time.Duration"
-      description: "the interval to kick off a task to compute if partitions are distributed evenly among known host instances."
+      description: "the interval to kick off a task to compute if partitions are distributed evenly among known host \n instances."
 - uid: "com.azure.cosmos.ChangeFeedProcessorOptions.getLeaseExpirationInterval()"
   id: "getLeaseExpirationInterval()"
   parent: "com.azure.cosmos.ChangeFeedProcessorOptions"
@@ -308,7 +308,7 @@ items:
     parameters:
     - id: "feedPollDelay"
       type: "java.time.Duration"
-      description: "the delay in between polling a partition for new changes on the feed, after all current changes are drained."
+      description: "the delay in between polling a partition for new changes on the feed, after all current \n changes are drained."
     return:
       type: "com.azure.cosmos.ChangeFeedProcessorOptions"
       description: "the current ChangeFeedProcessorOptions instance."
@@ -329,7 +329,7 @@ items:
     parameters:
     - id: "leaseAcquireInterval"
       type: "java.time.Duration"
-      description: "he interval to kick off a task to compute if partitions are distributed evenly among known host instances."
+      description: "he interval to kick off a task to compute if partitions are distributed evenly \n among known host instances."
     return:
       type: "com.azure.cosmos.ChangeFeedProcessorOptions"
       description: "the current ChangeFeedProcessorOptions instance."
@@ -392,7 +392,7 @@ items:
     parameters:
     - id: "leaseRenewInterval"
       type: "java.time.Duration"
-      description: "the renew interval for all leases for partitions currently held by <xref uid=\"com.azure.cosmos.ChangeFeedProcessor\" data-throw-if-not-resolved=\"false\">ChangeFeedProcessor</xref> instance."
+      description: "the renew interval for all leases for partitions currently held by\n <xref uid=\"com.azure.cosmos.ChangeFeedProcessor\" data-throw-if-not-resolved=\"false\">ChangeFeedProcessor</xref> instance."
     return:
       type: "com.azure.cosmos.ChangeFeedProcessorOptions"
       description: "the current ChangeFeedProcessorOptions instance."

@@ -43,19 +43,22 @@ items:
   - "java.lang.Object.wait()"
   - "java.lang.Object.wait(long)"
   - "java.lang.Object.wait(long,int)"
-- uid: "com.azure.cosmos.DataType.DataType()"
-  id: "DataType()"
+- uid: "com.azure.cosmos.DataType.DataType(java.lang.String)"
+  id: "DataType(java.lang.String)"
   parent: "com.azure.cosmos.DataType"
   langs:
   - "java"
-  name: "DataType()"
-  nameWithType: "DataType.DataType()"
-  fullName: "com.azure.cosmos.DataType.DataType()"
+  name: "DataType(String overWireValue)"
+  nameWithType: "DataType.DataType(String overWireValue)"
+  fullName: "com.azure.cosmos.DataType.DataType(String overWireValue)"
   overload: "com.azure.cosmos.DataType.DataType*"
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "private DataType()"
+    content: "private DataType(String overWireValue)"
+    parameters:
+    - id: "overWireValue"
+      type: "java.lang.String"
 - uid: "com.azure.cosmos.DataType.LINE_STRING"
   id: "LINE_STRING"
   parent: "com.azure.cosmos.DataType"
@@ -195,6 +198,11 @@ items:
     return:
       type: "com.azure.cosmos.DataType[]"
 references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.DataType.DataType*"
   name: "DataType"
   nameWithType: "DataType.DataType"
@@ -212,11 +220,6 @@ references:
   nameWithType: "DataType.values"
   fullName: "com.azure.cosmos.DataType.values"
   package: "com.azure.cosmos"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.DataType.valueOf*"
   name: "valueOf"
   nameWithType: "DataType.valueOf"

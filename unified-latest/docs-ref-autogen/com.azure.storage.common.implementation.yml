@@ -3,10 +3,12 @@ items:
 - uid: "com.azure.storage.common.implementation"
   id: "implementation"
   children:
+  - "com.azure.storage.common.implementation.AccountSasImplUtil"
   - "com.azure.storage.common.implementation.Constants"
   - "com.azure.storage.common.implementation.Constants.ConnectionStringConstants"
   - "com.azure.storage.common.implementation.Constants.HeaderConstants"
   - "com.azure.storage.common.implementation.Constants.UrlConstants"
+  - "com.azure.storage.common.implementation.SasImplUtils"
   - "com.azure.storage.common.implementation.StorageImplUtils"
   langs:
   - "java"
@@ -18,6 +20,10 @@ items:
   syntax:
     content: "package com.azure.storage.common.implementation"
 references:
+- uid: "com.azure.storage.common.implementation.AccountSasImplUtil"
+  name: "AccountSasImplUtil"
+  nameWithType: "AccountSasImplUtil"
+  fullName: "com.azure.storage.common.implementation.AccountSasImplUtil"
 - uid: "com.azure.storage.common.implementation.Constants"
   name: "Constants"
   nameWithType: "Constants"
@@ -34,6 +40,10 @@ references:
   name: "Constants.UrlConstants"
   nameWithType: "Constants.UrlConstants"
   fullName: "com.azure.storage.common.implementation.Constants.UrlConstants"
+- uid: "com.azure.storage.common.implementation.SasImplUtils"
+  name: "SasImplUtils"
+  nameWithType: "SasImplUtils"
+  fullName: "com.azure.storage.common.implementation.SasImplUtils"
 - uid: "com.azure.storage.common.implementation.StorageImplUtils"
   name: "StorageImplUtils"
   nameWithType: "StorageImplUtils"

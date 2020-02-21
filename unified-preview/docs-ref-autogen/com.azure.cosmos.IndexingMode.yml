@@ -55,19 +55,22 @@ items:
     content: "public static final IndexingMode CONSISTENT"
     return:
       type: "com.azure.cosmos.IndexingMode"
-- uid: "com.azure.cosmos.IndexingMode.IndexingMode()"
-  id: "IndexingMode()"
+- uid: "com.azure.cosmos.IndexingMode.IndexingMode(java.lang.String)"
+  id: "IndexingMode(java.lang.String)"
   parent: "com.azure.cosmos.IndexingMode"
   langs:
   - "java"
-  name: "IndexingMode()"
-  nameWithType: "IndexingMode.IndexingMode()"
-  fullName: "com.azure.cosmos.IndexingMode.IndexingMode()"
+  name: "IndexingMode(String overWireValue)"
+  nameWithType: "IndexingMode.IndexingMode(String overWireValue)"
+  fullName: "com.azure.cosmos.IndexingMode.IndexingMode(String overWireValue)"
   overload: "com.azure.cosmos.IndexingMode.IndexingMode*"
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "private IndexingMode()"
+    content: "private IndexingMode(String overWireValue)"
+    parameters:
+    - id: "overWireValue"
+      type: "java.lang.String"
 - uid: "com.azure.cosmos.IndexingMode.LAZY"
   id: "LAZY"
   parent: "com.azure.cosmos.IndexingMode"
@@ -147,6 +150,11 @@ items:
     return:
       type: "com.azure.cosmos.IndexingMode[]"
 references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.IndexingMode.IndexingMode*"
   name: "IndexingMode"
   nameWithType: "IndexingMode.IndexingMode"
@@ -164,11 +172,6 @@ references:
   nameWithType: "IndexingMode.values"
   fullName: "com.azure.cosmos.IndexingMode.values"
   package: "com.azure.cosmos"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.IndexingMode.valueOf*"
   name: "valueOf"
   nameWithType: "IndexingMode.valueOf"

@@ -3,7 +3,6 @@ items:
 - uid: "com.azure.storage.file.datalake.sas"
   id: "sas"
   children:
-  - "com.azure.storage.file.datalake.sas.DataLakeServiceSasQueryParameters"
   - "com.azure.storage.file.datalake.sas.DataLakeServiceSasSignatureValues"
   - "com.azure.storage.file.datalake.sas.FileSystemSasPermission"
   - "com.azure.storage.file.datalake.sas.PathSasPermission"
@@ -17,10 +16,6 @@ items:
   syntax:
     content: "package com.azure.storage.file.datalake.sas"
 references:
-- uid: "com.azure.storage.file.datalake.sas.DataLakeServiceSasQueryParameters"
-  name: "DataLakeServiceSasQueryParameters"
-  nameWithType: "DataLakeServiceSasQueryParameters"
-  fullName: "com.azure.storage.file.datalake.sas.DataLakeServiceSasQueryParameters"
 - uid: "com.azure.storage.file.datalake.sas.DataLakeServiceSasSignatureValues"
   name: "DataLakeServiceSasSignatureValues"
   nameWithType: "DataLakeServiceSasSignatureValues"

@@ -6,6 +6,7 @@ items:
   children:
   - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.TextAnalyticsClientBuilder()"
   - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.addPolicy(com.azure.core.http.policy.HttpPipelinePolicy)"
+  - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.apiKey(com.azure.ai.textanalytics.models.TextAnalyticsApiKeyCredential)"
   - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.buildAsyncClient()"
   - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.buildClient()"
   - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.clientOptions(com.azure.ai.textanalytics.models.TextAnalyticsClientOptions)"
@@ -17,7 +18,6 @@ items:
   - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.pipeline(com.azure.core.http.HttpPipeline)"
   - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.retryPolicy(com.azure.core.http.policy.RetryPolicy)"
   - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.serviceVersion(com.azure.ai.textanalytics.TextAnalyticsServiceVersion)"
-  - "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.subscriptionKey(java.lang.String)"
   langs:
   - "java"
   name: "TextAnalyticsClientBuilder"
@@ -25,7 +25,7 @@ items:
   fullName: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder"
   type: "Class"
   package: "com.azure.ai.textanalytics"
-  summary: "This class provides a fluent builder API to help instantiation of <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClient\" data-throw-if-not-resolved=\"false\">TextAnalyticsClients</xref> and <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsAsyncClient\" data-throw-if-not-resolved=\"false\">TextAnalyticsAsyncClients</xref>, call <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.buildClient()\" data-throw-if-not-resolved=\"false\">#buildClient()</xref> buildClient\\} and <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.buildAsyncClient()\" data-throw-if-not-resolved=\"false\">buildAsyncClient</xref> respectively to construct an instance of the desired client.\n\nThe client needs the service endpoint of the Azure Text Analytics to access the resource service. <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.subscriptionKey(java.lang.String)\" data-throw-if-not-resolved=\"false\">subscriptionKey(String)</xref> or <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.credential(com.azure.core.credential.TokenCredential)\" data-throw-if-not-resolved=\"false\">credential(TokenCredential)</xref> give the builder access credential.\n\n**Instantiating an asynchronous Text Analytics Client**\n\n\\{@codesnippet com.azure.ai.textanalytics.TextAnalyticsAsyncClient.instantiation\\}\n\n**Instantiating a synchronous Text Analytics Client**\n\n\\{@codesnippet com.azure.ai.textanalytics.TextAnalyticsClient.instantiation\\}\n\nAnother way to construct the client is using a <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>. The pipeline gives the client an authenticated way to communicate with the service. Set the pipeline with <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.pipeline(com.azure.core.http.HttpPipeline)\" data-throw-if-not-resolved=\"false\">this</xref> and set the service endpoint with <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">this</xref>. Using a pipeline requires additional setup but allows for finer control on how the <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClient\" data-throw-if-not-resolved=\"false\">TextAnalyticsClient</xref> and <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsAsyncClient\" data-throw-if-not-resolved=\"false\">TextAnalyticsAsyncClient</xref> is built.\n\n\\{@codesnippet com.azure.ai.textanalytics.TextAnalyticsClient.pipeline.instantiation\\}"
+  summary: "This class provides a fluent builder API to help instantiation of <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClient\" data-throw-if-not-resolved=\"false\">TextAnalyticsClients</xref> and <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsAsyncClient\" data-throw-if-not-resolved=\"false\">TextAnalyticsAsyncClients</xref>, call <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.buildClient()\" data-throw-if-not-resolved=\"false\">#buildClient()</xref> buildClient\\} and <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.buildAsyncClient()\" data-throw-if-not-resolved=\"false\">buildAsyncClient</xref> respectively to construct an instance of the desired client.\n\nThe client needs the service endpoint of the Azure Text Analytics to access the resource service. <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.apiKey(com.azure.ai.textanalytics.models.TextAnalyticsApiKeyCredential)\" data-throw-if-not-resolved=\"false\">apiKey(TextAnalyticsApiKeyCredential)</xref> or <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.credential(com.azure.core.credential.TokenCredential)\" data-throw-if-not-resolved=\"false\">credential(TokenCredential)</xref> give the builder access credential.\n\n**Instantiating an asynchronous Text Analytics Client**\n\n\\{@codesnippet com.azure.ai.textanalytics.TextAnalyticsAsyncClient.instantiation\\}\n\n**Instantiating a synchronous Text Analytics Client**\n\n\\{@codesnippet com.azure.ai.textanalytics.TextAnalyticsClient.instantiation\\}\n\nAnother way to construct the client is using a <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>. The pipeline gives the client an authenticated way to communicate with the service. Set the pipeline with <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.pipeline(com.azure.core.http.HttpPipeline)\" data-throw-if-not-resolved=\"false\">this</xref> and set the service endpoint with <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">this</xref>. Using a pipeline requires additional setup but allows for finer control on how the <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClient\" data-throw-if-not-resolved=\"false\">TextAnalyticsClient</xref> and <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsAsyncClient\" data-throw-if-not-resolved=\"false\">TextAnalyticsAsyncClient</xref> is built.\n\n\\{@codesnippet com.azure.ai.textanalytics.TextAnalyticsClient.pipeline.instantiation\\}"
   syntax:
     content: "public final class TextAnalyticsClientBuilder"
   inheritance:
@@ -74,6 +74,27 @@ items:
     - id: "policy"
       type: "com.azure.core.http.policy.HttpPipelinePolicy"
       description: "The retry policy for service requests."
+    return:
+      type: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder"
+      description: "The updated TextAnalyticsClientBuilder object."
+- uid: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.apiKey(com.azure.ai.textanalytics.models.TextAnalyticsApiKeyCredential)"
+  id: "apiKey(com.azure.ai.textanalytics.models.TextAnalyticsApiKeyCredential)"
+  parent: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder"
+  langs:
+  - "java"
+  name: "apiKey(TextAnalyticsApiKeyCredential apiKeyCredential)"
+  nameWithType: "TextAnalyticsClientBuilder.apiKey(TextAnalyticsApiKeyCredential apiKeyCredential)"
+  fullName: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.apiKey(TextAnalyticsApiKeyCredential apiKeyCredential)"
+  overload: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.apiKey*"
+  type: "Method"
+  package: "com.azure.ai.textanalytics"
+  summary: "Sets the credential to use when authenticating HTTP requests for this TextAnalyticsClientBuilder."
+  syntax:
+    content: "public TextAnalyticsClientBuilder apiKey(TextAnalyticsApiKeyCredential apiKeyCredential)"
+    parameters:
+    - id: "apiKeyCredential"
+      type: "com.azure.ai.textanalytics.models.TextAnalyticsApiKeyCredential"
+      description: "API key credential"
     return:
       type: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder"
       description: "The updated TextAnalyticsClientBuilder object."
@@ -300,27 +321,6 @@ items:
     return:
       type: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder"
       description: "The updated TextAnalyticsClientBuilder object."
-- uid: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.subscriptionKey(java.lang.String)"
-  id: "subscriptionKey(java.lang.String)"
-  parent: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder"
-  langs:
-  - "java"
-  name: "subscriptionKey(String subscriptionKey)"
-  nameWithType: "TextAnalyticsClientBuilder.subscriptionKey(String subscriptionKey)"
-  fullName: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.subscriptionKey(String subscriptionKey)"
-  overload: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.subscriptionKey*"
-  type: "Method"
-  package: "com.azure.ai.textanalytics"
-  summary: "Sets the credential to use when authenticating HTTP requests for this TextAnalyticsClientBuilder."
-  syntax:
-    content: "public TextAnalyticsClientBuilder subscriptionKey(String subscriptionKey)"
-    parameters:
-    - id: "subscriptionKey"
-      type: "java.lang.String"
-      description: "subscription key"
-    return:
-      type: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder"
-      description: "The updated TextAnalyticsClientBuilder object."
 references:
 - uid: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.TextAnalyticsClientBuilder*"
   name: "TextAnalyticsClientBuilder"
@@ -364,10 +364,14 @@ references:
   nameWithType: "TextAnalyticsClientBuilder.endpoint"
   fullName: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.endpoint"
   package: "com.azure.ai.textanalytics"
-- uid: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.subscriptionKey*"
-  name: "subscriptionKey"
-  nameWithType: "TextAnalyticsClientBuilder.subscriptionKey"
-  fullName: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.subscriptionKey"
+- uid: "com.azure.ai.textanalytics.models.TextAnalyticsApiKeyCredential"
+  name: "TextAnalyticsApiKeyCredential"
+  nameWithType: "TextAnalyticsApiKeyCredential"
+  fullName: "com.azure.ai.textanalytics.models.TextAnalyticsApiKeyCredential"
+- uid: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.apiKey*"
+  name: "apiKey"
+  nameWithType: "TextAnalyticsClientBuilder.apiKey"
+  fullName: "com.azure.ai.textanalytics.TextAnalyticsClientBuilder.apiKey"
   package: "com.azure.ai.textanalytics"
 - uid: "com.azure.core.credential.TokenCredential"
   spec.java:

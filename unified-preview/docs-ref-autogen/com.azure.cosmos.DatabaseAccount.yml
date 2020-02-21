@@ -288,7 +288,7 @@ items:
   syntax:
     content: " ReplicationPolicy getReplicationPolicy()"
     return:
-      type: "com.azure.cosmos.internal.ReplicationPolicy"
+      type: "com.azure.cosmos.implementation.ReplicationPolicy"
       description: "the replication policy."
 - uid: "com.azure.cosmos.DatabaseAccount.getSystemReplicationPolicy()"
   id: "getSystemReplicationPolicy()"
@@ -305,7 +305,7 @@ items:
   syntax:
     content: " ReplicationPolicy getSystemReplicationPolicy()"
     return:
-      type: "com.azure.cosmos.internal.ReplicationPolicy"
+      type: "com.azure.cosmos.implementation.ReplicationPolicy"
       description: "the system replication policy."
 - uid: "com.azure.cosmos.DatabaseAccount.getWritableLocations()"
   id: "getWritableLocations()"
@@ -565,10 +565,10 @@ references:
   nameWithType: "DatabaseAccount.getConsistencyPolicy"
   fullName: "com.azure.cosmos.DatabaseAccount.getConsistencyPolicy"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.internal.ReplicationPolicy"
+- uid: "com.azure.cosmos.implementation.ReplicationPolicy"
   name: "ReplicationPolicy"
   nameWithType: "ReplicationPolicy"
-  fullName: "com.azure.cosmos.internal.ReplicationPolicy"
+  fullName: "com.azure.cosmos.implementation.ReplicationPolicy"
 - uid: "com.azure.cosmos.DatabaseAccount.getReplicationPolicy*"
   name: "getReplicationPolicy"
   nameWithType: "DatabaseAccount.getReplicationPolicy"

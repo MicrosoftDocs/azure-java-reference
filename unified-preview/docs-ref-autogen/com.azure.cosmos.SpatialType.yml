@@ -101,19 +101,22 @@ items:
     content: "public static final SpatialType POLYGON"
     return:
       type: "com.azure.cosmos.SpatialType"
-- uid: "com.azure.cosmos.SpatialType.SpatialType()"
-  id: "SpatialType()"
+- uid: "com.azure.cosmos.SpatialType.SpatialType(java.lang.String)"
+  id: "SpatialType(java.lang.String)"
   parent: "com.azure.cosmos.SpatialType"
   langs:
   - "java"
-  name: "SpatialType()"
-  nameWithType: "SpatialType.SpatialType()"
-  fullName: "com.azure.cosmos.SpatialType.SpatialType()"
+  name: "SpatialType(String overWireValue)"
+  nameWithType: "SpatialType.SpatialType(String overWireValue)"
+  fullName: "com.azure.cosmos.SpatialType.SpatialType(String overWireValue)"
   overload: "com.azure.cosmos.SpatialType.SpatialType*"
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "private SpatialType()"
+    content: "private SpatialType(String overWireValue)"
+    parameters:
+    - id: "overWireValue"
+      type: "java.lang.String"
 - uid: "com.azure.cosmos.SpatialType.toString()"
   id: "toString()"
   parent: "com.azure.cosmos.SpatialType"
@@ -163,6 +166,11 @@ items:
     return:
       type: "com.azure.cosmos.SpatialType[]"
 references:
+- uid: "java.lang.String"
+  spec.java:
+  - uid: "java.lang.String"
+    name: "String"
+    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.SpatialType.SpatialType*"
   name: "SpatialType"
   nameWithType: "SpatialType.SpatialType"
@@ -180,11 +188,6 @@ references:
   nameWithType: "SpatialType.values"
   fullName: "com.azure.cosmos.SpatialType.values"
   package: "com.azure.cosmos"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
 - uid: "com.azure.cosmos.SpatialType.valueOf*"
   name: "valueOf"
   nameWithType: "SpatialType.valueOf"

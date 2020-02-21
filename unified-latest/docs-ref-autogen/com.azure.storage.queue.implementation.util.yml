@@ -6,6 +6,7 @@ items:
   - "com.azure.storage.queue.implementation.util.BuilderHelper"
   - "com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts"
   - "com.azure.storage.queue.implementation.util.QueueHeadersAndQueryParameters"
+  - "com.azure.storage.queue.implementation.util.QueueSasImplUtil"
   langs:
   - "java"
   name: "com.azure.storage.queue.implementation.util"
@@ -28,3 +29,7 @@ references:
   name: "QueueHeadersAndQueryParameters"
   nameWithType: "QueueHeadersAndQueryParameters"
   fullName: "com.azure.storage.queue.implementation.util.QueueHeadersAndQueryParameters"
+- uid: "com.azure.storage.queue.implementation.util.QueueSasImplUtil"
+  name: "QueueSasImplUtil"
+  nameWithType: "QueueSasImplUtil"
+  fullName: "com.azure.storage.queue.implementation.util.QueueSasImplUtil"
