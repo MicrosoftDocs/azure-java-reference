@@ -122,6 +122,278 @@
                 "packageVersion": "1.0.1",
                 "inputPath": [],
                 "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.applicationinsights.v2015_05_01",
+                "packageArtifactId": "azure-mgmt-insights",
+                "packageVersion": "1.0.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-datalake-store",
+                "packageVersion": "1.22.0",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.edgegateway.v2019_03_01",
+                "packageArtifactId": "azure-mgmt-databoxedge",
+                "packageVersion": "1.0.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.eventgrid.v2019_06_01",
+                "packageArtifactId": "azure-mgmt-eventgrid",
+                "packageVersion": "1.0.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.kusto.v2019_11_09",
+                "packageArtifactId": "azure-mgmt-kusto",
+                "packageVersion": "1.0.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.labservices.v2018_10_15",
+                "packageArtifactId": "azure-mgmt-labservices",
+                "packageVersion": "1.0.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.mediaservices.v2018_07_01",
+                "packageArtifactId": "azure-mgmt-media<",
+                "packageVersion": "1.0.0-beta-5",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.privatedns.v2018_09_01",
+                "packageArtifactId": "azure-mgmt-privatedns",
+                "packageVersion": "1.0.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.resourcegraph.v2019_04_01",
+                "packageArtifactId": "azure-mgmt-resourcegraph",
+                "packageVersion": "1.0.0-beta-1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.apimanagement.v2019_01_01",
+                "packageArtifactId": "azure-mgmt-apimanagement",
+                "packageVersion": "1.0.0-beta-1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-batch",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-containerregistry",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-containerservice",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-monitor",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-sql",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-batch",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-cdn",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-storage",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-trafficmanager",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-servicebus",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-search",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-redis",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-resources",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-network",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-msi",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-locks",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-graph-rbac",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-keyvault",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-keyvault",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-keyvault",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-dns",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-eventhub",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-containerinstance",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-cosmosdb",
+                "packageVersion": "1.31.1",
+                "inputPath": [],
+                "excludePath": []
             }
         ]
     },
@@ -190,6 +462,30 @@
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-ai-textanalytics",
                 "packageVersion": "1.0.0-beta.2",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.hdinsight.v2018_06_01_preview",
+                "packageArtifactId": "azure-mgmt-hdinsight",
+                "packageVersion": "1.3.1",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.mixedreality.v2019_02_28_preview",
+                "packageArtifactId": "azure-mgmt-mixedreality",
+                "packageVersion": "1.0.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.operationsmanagement.v2015_11_01_preview",
+                "packageArtifactId": "azure-mgmt-operationsmanagement",
+                "packageVersion": "1.0.0-beta",
                 "inputPath": [],
                 "excludePath": []
             }
