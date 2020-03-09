@@ -350,22 +350,6 @@
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "azure-mgmt-keyvault",
-                "packageVersion": "1.31.1",
-                "inputPath": [],
-                "excludePath": []
-            },
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "azure-mgmt-keyvault",
-                "packageVersion": "1.31.1",
-                "inputPath": [],
-                "excludePath": []
-            },
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure",
                 "packageArtifactId": "azure-mgmt-dns",
                 "packageVersion": "1.31.1",
                 "inputPath": [],
