@@ -133,6 +133,14 @@
             },
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-datalake-store",
+                "packageVersion": "1.22.0",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.microsoft.azure.edgegateway.v2019_03_01",
                 "packageArtifactId": "azure-mgmt-databoxedge",
                 "packageVersion": "1.0.0-beta",
