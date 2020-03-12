@@ -190,14 +190,6 @@
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "azure-mgmt-batch",
-                "packageVersion": "1.31.1",
-                "inputPath": [],
-                "excludePath": []
-            },
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure",
                 "packageArtifactId": "azure-mgmt-cdn",
                 "packageVersion": "1.31.1",
                 "inputPath": [],
