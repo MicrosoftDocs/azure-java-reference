@@ -81,7 +81,7 @@ items:
   syntax:
     content: "public CosmosError getCosmosError()"
     return:
-      type: "com.azure.cosmos.CosmosError"
+      type: "com.azure.cosmos.models.CosmosError"
 - uid: "com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdContextException.getResponseHeaders()"
   id: "getResponseHeaders()"
   parent: "com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdContextException"
@@ -145,10 +145,10 @@ references:
   nameWithType: "RntbdContextException.RntbdContextException"
   fullName: "com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdContextException.RntbdContextException"
   package: "com.azure.cosmos.implementation.directconnectivity.rntbd"
-- uid: "com.azure.cosmos.CosmosError"
+- uid: "com.azure.cosmos.models.CosmosError"
   name: "CosmosError"
   nameWithType: "CosmosError"
-  fullName: "com.azure.cosmos.CosmosError"
+  fullName: "com.azure.cosmos.models.CosmosError"
 - uid: "com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdContextException.getCosmosError*"
   name: "getCosmosError"
   nameWithType: "RntbdContextException.getCosmosError"

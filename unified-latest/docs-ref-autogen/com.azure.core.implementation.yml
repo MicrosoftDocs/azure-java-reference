@@ -3,7 +3,6 @@ items:
 - uid: "com.azure.core.implementation"
   id: "implementation"
   children:
-  - "com.azure.core.implementation.LoggingUtil"
   - "com.azure.core.implementation.TypeUtil"
   - "com.azure.core.implementation.UnixTime"
   langs:
@@ -16,10 +15,6 @@ items:
   syntax:
     content: "package com.azure.core.implementation"
 references:
-- uid: "com.azure.core.implementation.LoggingUtil"
-  name: "LoggingUtil"
-  nameWithType: "LoggingUtil"
-  fullName: "com.azure.core.implementation.LoggingUtil"
 - uid: "com.azure.core.implementation.TypeUtil"
   name: "TypeUtil"
   nameWithType: "TypeUtil"

@@ -15,6 +15,7 @@ items:
   fullName: "com.azure.cosmos.FeedResponseDiagnostics"
   type: "Class"
   package: "com.azure.cosmos"
+  summary: "The type Feed response diagnostics."
   syntax:
     content: "public class FeedResponseDiagnostics"
   inheritance:

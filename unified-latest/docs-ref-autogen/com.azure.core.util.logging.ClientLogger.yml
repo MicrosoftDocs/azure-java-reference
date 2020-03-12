@@ -84,16 +84,16 @@ items:
   overload: "com.azure.core.util.logging.ClientLogger.canLogAtLevel*"
   type: "Method"
   package: "com.azure.core.util.logging"
-  summary: "Determines if the environment and logger support logging at the given log level."
+  summary: "Determines if the app or environment logger support logging at the given log level."
   syntax:
     content: "public boolean canLogAtLevel(LogLevel logLevel)"
     parameters:
     - id: "logLevel"
       type: "com.azure.core.util.logging.LogLevel"
-      description: "The <xref uid=\"com.azure.core.util.logging.LogLevel\" data-throw-if-not-resolved=\"false\">LogLevel</xref> being validated as supported."
+      description: "Logging level for the log message."
     return:
       type: "boolean"
-      description: "Flag indicating if the environment and logger support logging at the given log level."
+      description: "Flag indicating if the environment and logger are configured to support logging at the given log level."
 - uid: "com.azure.core.util.logging.ClientLogger.error(java.lang.String,java.lang.Object...)"
   id: "error(java.lang.String,java.lang.Object...)"
   parent: "com.azure.core.util.logging.ClientLogger"

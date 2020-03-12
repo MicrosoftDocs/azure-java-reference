@@ -4,7 +4,7 @@ items:
   id: "BaseDatabaseAccountConfigurationProvider"
   parent: "com.azure.cosmos.implementation"
   children:
-  - "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider.BaseDatabaseAccountConfigurationProvider(com.azure.cosmos.DatabaseAccount,com.azure.cosmos.ConsistencyLevel)"
+  - "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider.BaseDatabaseAccountConfigurationProvider(com.azure.cosmos.models.DatabaseAccount,com.azure.cosmos.ConsistencyLevel)"
   - "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider.getMaxReplicaSetSize()"
   - "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider.getQueryEngineConfiguration()"
   - "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider.getStoreConsistencyPolicy()"
@@ -34,8 +34,8 @@ items:
   - "java.lang.Object.wait()"
   - "java.lang.Object.wait(long)"
   - "java.lang.Object.wait(long,int)"
-- uid: "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider.BaseDatabaseAccountConfigurationProvider(com.azure.cosmos.DatabaseAccount,com.azure.cosmos.ConsistencyLevel)"
-  id: "BaseDatabaseAccountConfigurationProvider(com.azure.cosmos.DatabaseAccount,com.azure.cosmos.ConsistencyLevel)"
+- uid: "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider.BaseDatabaseAccountConfigurationProvider(com.azure.cosmos.models.DatabaseAccount,com.azure.cosmos.ConsistencyLevel)"
+  id: "BaseDatabaseAccountConfigurationProvider(com.azure.cosmos.models.DatabaseAccount,com.azure.cosmos.ConsistencyLevel)"
   parent: "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider"
   langs:
   - "java"
@@ -49,7 +49,7 @@ items:
     content: "public BaseDatabaseAccountConfigurationProvider(DatabaseAccount databaseAccount, ConsistencyLevel desiredConsistencyLevel)"
     parameters:
     - id: "databaseAccount"
-      type: "com.azure.cosmos.DatabaseAccount"
+      type: "com.azure.cosmos.models.DatabaseAccount"
     - id: "desiredConsistencyLevel"
       type: "com.azure.cosmos.ConsistencyLevel"
 - uid: "com.azure.cosmos.implementation.BaseDatabaseAccountConfigurationProvider.getMaxReplicaSetSize()"
@@ -98,10 +98,10 @@ items:
     return:
       type: "com.azure.cosmos.ConsistencyLevel"
 references:
-- uid: "com.azure.cosmos.DatabaseAccount"
+- uid: "com.azure.cosmos.models.DatabaseAccount"
   name: "DatabaseAccount"
   nameWithType: "DatabaseAccount"
-  fullName: "com.azure.cosmos.DatabaseAccount"
+  fullName: "com.azure.cosmos.models.DatabaseAccount"
 - uid: "com.azure.cosmos.ConsistencyLevel"
   name: "ConsistencyLevel"
   nameWithType: "ConsistencyLevel"

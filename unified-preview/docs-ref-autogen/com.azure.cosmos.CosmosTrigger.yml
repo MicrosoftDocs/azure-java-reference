@@ -8,7 +8,7 @@ items:
   - "com.azure.cosmos.CosmosTrigger.delete()"
   - "com.azure.cosmos.CosmosTrigger.getId()"
   - "com.azure.cosmos.CosmosTrigger.read()"
-  - "com.azure.cosmos.CosmosTrigger.replace(com.azure.cosmos.CosmosTriggerProperties)"
+  - "com.azure.cosmos.CosmosTrigger.replace(com.azure.cosmos.models.CosmosTriggerProperties)"
   langs:
   - "java"
   name: "CosmosTrigger"
@@ -72,7 +72,7 @@ items:
   syntax:
     content: "public CosmosTriggerResponse delete()"
     return:
-      type: "com.azure.cosmos.CosmosTriggerResponse"
+      type: "com.azure.cosmos.models.CosmosTriggerResponse"
       description: "the cosmos sync response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
@@ -109,13 +109,13 @@ items:
   syntax:
     content: "public CosmosTriggerResponse read()"
     return:
-      type: "com.azure.cosmos.CosmosTriggerResponse"
+      type: "com.azure.cosmos.models.CosmosTriggerResponse"
       description: "the cosmos sync trigger response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
     description: "the cosmos client exception"
-- uid: "com.azure.cosmos.CosmosTrigger.replace(com.azure.cosmos.CosmosTriggerProperties)"
-  id: "replace(com.azure.cosmos.CosmosTriggerProperties)"
+- uid: "com.azure.cosmos.CosmosTrigger.replace(com.azure.cosmos.models.CosmosTriggerProperties)"
+  id: "replace(com.azure.cosmos.models.CosmosTriggerProperties)"
   parent: "com.azure.cosmos.CosmosTrigger"
   langs:
   - "java"
@@ -130,10 +130,10 @@ items:
     content: "public CosmosTriggerResponse replace(CosmosTriggerProperties triggerSettings)"
     parameters:
     - id: "triggerSettings"
-      type: "com.azure.cosmos.CosmosTriggerProperties"
+      type: "com.azure.cosmos.models.CosmosTriggerProperties"
       description: "the trigger settings"
     return:
-      type: "com.azure.cosmos.CosmosTriggerResponse"
+      type: "com.azure.cosmos.models.CosmosTriggerResponse"
       description: "the cosmos sync trigger response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
@@ -166,19 +166,19 @@ references:
   name: "CosmosClientException"
   nameWithType: "CosmosClientException"
   fullName: "com.azure.cosmos.CosmosClientException"
-- uid: "com.azure.cosmos.CosmosTriggerResponse"
+- uid: "com.azure.cosmos.models.CosmosTriggerResponse"
   name: "CosmosTriggerResponse"
   nameWithType: "CosmosTriggerResponse"
-  fullName: "com.azure.cosmos.CosmosTriggerResponse"
+  fullName: "com.azure.cosmos.models.CosmosTriggerResponse"
 - uid: "com.azure.cosmos.CosmosTrigger.read*"
   name: "read"
   nameWithType: "CosmosTrigger.read"
   fullName: "com.azure.cosmos.CosmosTrigger.read"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.CosmosTriggerProperties"
+- uid: "com.azure.cosmos.models.CosmosTriggerProperties"
   name: "CosmosTriggerProperties"
   nameWithType: "CosmosTriggerProperties"
-  fullName: "com.azure.cosmos.CosmosTriggerProperties"
+  fullName: "com.azure.cosmos.models.CosmosTriggerProperties"
 - uid: "com.azure.cosmos.CosmosTrigger.replace*"
   name: "replace"
   nameWithType: "CosmosTrigger.replace"

@@ -8,7 +8,7 @@ items:
   - "com.azure.cosmos.CosmosUserDefinedFunction.delete()"
   - "com.azure.cosmos.CosmosUserDefinedFunction.getId()"
   - "com.azure.cosmos.CosmosUserDefinedFunction.read()"
-  - "com.azure.cosmos.CosmosUserDefinedFunction.replace(com.azure.cosmos.CosmosUserDefinedFunctionProperties)"
+  - "com.azure.cosmos.CosmosUserDefinedFunction.replace(com.azure.cosmos.models.CosmosUserDefinedFunctionProperties)"
   langs:
   - "java"
   name: "CosmosUserDefinedFunction"
@@ -72,7 +72,7 @@ items:
   syntax:
     content: "public CosmosUserDefinedFunctionResponse delete()"
     return:
-      type: "com.azure.cosmos.CosmosUserDefinedFunctionResponse"
+      type: "com.azure.cosmos.models.CosmosUserDefinedFunctionResponse"
       description: "the cosmos sync response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
@@ -109,13 +109,13 @@ items:
   syntax:
     content: "public CosmosUserDefinedFunctionResponse read()"
     return:
-      type: "com.azure.cosmos.CosmosUserDefinedFunctionResponse"
+      type: "com.azure.cosmos.models.CosmosUserDefinedFunctionResponse"
       description: "the cosmos sync user defined function response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
     description: "the cosmos client exception"
-- uid: "com.azure.cosmos.CosmosUserDefinedFunction.replace(com.azure.cosmos.CosmosUserDefinedFunctionProperties)"
-  id: "replace(com.azure.cosmos.CosmosUserDefinedFunctionProperties)"
+- uid: "com.azure.cosmos.CosmosUserDefinedFunction.replace(com.azure.cosmos.models.CosmosUserDefinedFunctionProperties)"
+  id: "replace(com.azure.cosmos.models.CosmosUserDefinedFunctionProperties)"
   parent: "com.azure.cosmos.CosmosUserDefinedFunction"
   langs:
   - "java"
@@ -130,10 +130,10 @@ items:
     content: "public CosmosUserDefinedFunctionResponse replace(CosmosUserDefinedFunctionProperties udfSettings)"
     parameters:
     - id: "udfSettings"
-      type: "com.azure.cosmos.CosmosUserDefinedFunctionProperties"
+      type: "com.azure.cosmos.models.CosmosUserDefinedFunctionProperties"
       description: "the udf settings"
     return:
-      type: "com.azure.cosmos.CosmosUserDefinedFunctionResponse"
+      type: "com.azure.cosmos.models.CosmosUserDefinedFunctionResponse"
       description: "the cosmos sync user defined function response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
@@ -166,19 +166,19 @@ references:
   name: "CosmosClientException"
   nameWithType: "CosmosClientException"
   fullName: "com.azure.cosmos.CosmosClientException"
-- uid: "com.azure.cosmos.CosmosUserDefinedFunctionResponse"
+- uid: "com.azure.cosmos.models.CosmosUserDefinedFunctionResponse"
   name: "CosmosUserDefinedFunctionResponse"
   nameWithType: "CosmosUserDefinedFunctionResponse"
-  fullName: "com.azure.cosmos.CosmosUserDefinedFunctionResponse"
+  fullName: "com.azure.cosmos.models.CosmosUserDefinedFunctionResponse"
 - uid: "com.azure.cosmos.CosmosUserDefinedFunction.read*"
   name: "read"
   nameWithType: "CosmosUserDefinedFunction.read"
   fullName: "com.azure.cosmos.CosmosUserDefinedFunction.read"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.CosmosUserDefinedFunctionProperties"
+- uid: "com.azure.cosmos.models.CosmosUserDefinedFunctionProperties"
   name: "CosmosUserDefinedFunctionProperties"
   nameWithType: "CosmosUserDefinedFunctionProperties"
-  fullName: "com.azure.cosmos.CosmosUserDefinedFunctionProperties"
+  fullName: "com.azure.cosmos.models.CosmosUserDefinedFunctionProperties"
 - uid: "com.azure.cosmos.CosmosUserDefinedFunction.replace*"
   name: "replace"
   nameWithType: "CosmosUserDefinedFunction.replace"

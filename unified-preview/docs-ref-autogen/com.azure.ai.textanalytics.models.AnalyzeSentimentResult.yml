@@ -13,7 +13,7 @@ items:
   fullName: "com.azure.ai.textanalytics.models.AnalyzeSentimentResult"
   type: "Class"
   package: "com.azure.ai.textanalytics.models"
-  summary: "The AnalyzeSentimentResult model."
+  summary: "The <xref uid=\"com.azure.ai.textanalytics.models.AnalyzeSentimentResult\" data-throw-if-not-resolved=\"false\">AnalyzeSentimentResult</xref> model."
   syntax:
     content: "public final class AnalyzeSentimentResult extends DocumentResult"
   inheritance:
@@ -47,22 +47,22 @@ items:
   overload: "com.azure.ai.textanalytics.models.AnalyzeSentimentResult.AnalyzeSentimentResult*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Creates a `TextSentimentResult` model that describes analyzed sentiment result."
+  summary: "Creates a <xref uid=\"com.azure.ai.textanalytics.models.AnalyzeSentimentResult\" data-throw-if-not-resolved=\"false\">AnalyzeSentimentResult</xref> model that describes analyzed sentiment result."
   syntax:
     content: "public AnalyzeSentimentResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error, DocumentSentiment documentSentiment)"
     parameters:
     - id: "id"
       type: "java.lang.String"
-      description: "unique, non-empty document identifier"
+      description: "Unique, non-empty document identifier."
     - id: "textDocumentStatistics"
       type: "com.azure.ai.textanalytics.models.TextDocumentStatistics"
-      description: "text document statistics"
+      description: "The text document statistics."
     - id: "error"
       type: "com.azure.ai.textanalytics.models.TextAnalyticsError"
-      description: "the document error"
+      description: "The document error."
     - id: "documentSentiment"
       type: "com.azure.ai.textanalytics.models.DocumentSentiment"
-      description: "the document sentiment"
+      description: "The document sentiment."
 - uid: "com.azure.ai.textanalytics.models.AnalyzeSentimentResult.getDocumentSentiment()"
   id: "getDocumentSentiment()"
   parent: "com.azure.ai.textanalytics.models.AnalyzeSentimentResult"
@@ -79,7 +79,7 @@ items:
     content: "public DocumentSentiment getDocumentSentiment()"
     return:
       type: "com.azure.ai.textanalytics.models.DocumentSentiment"
-      description: "the document sentiment"
+      description: "The document sentiment."
 references:
 - uid: "java.lang.String"
   spec.java:

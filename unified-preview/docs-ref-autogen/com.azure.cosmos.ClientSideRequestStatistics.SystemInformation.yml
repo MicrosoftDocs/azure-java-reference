@@ -5,6 +5,10 @@ items:
   parent: "com.azure.cosmos"
   children:
   - "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.availableMemory"
+  - "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getAvailableMemory()"
+  - "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getProcessCpuLoad()"
+  - "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getSystemCpuLoad()"
+  - "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getUsedMemory()"
   - "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.processCpuLoad"
   - "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.systemCpuLoad"
   - "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.usedMemory"
@@ -55,7 +59,67 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public String availableMemory"
+    content: " String availableMemory"
+    return:
+      type: "java.lang.String"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getAvailableMemory()"
+  id: "getAvailableMemory()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation"
+  langs:
+  - "java"
+  name: "getAvailableMemory()"
+  nameWithType: "ClientSideRequestStatistics.SystemInformation.getAvailableMemory()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getAvailableMemory()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getAvailableMemory*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public String getAvailableMemory()"
+    return:
+      type: "java.lang.String"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getProcessCpuLoad()"
+  id: "getProcessCpuLoad()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation"
+  langs:
+  - "java"
+  name: "getProcessCpuLoad()"
+  nameWithType: "ClientSideRequestStatistics.SystemInformation.getProcessCpuLoad()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getProcessCpuLoad()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getProcessCpuLoad*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public String getProcessCpuLoad()"
+    return:
+      type: "java.lang.String"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getSystemCpuLoad()"
+  id: "getSystemCpuLoad()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation"
+  langs:
+  - "java"
+  name: "getSystemCpuLoad()"
+  nameWithType: "ClientSideRequestStatistics.SystemInformation.getSystemCpuLoad()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getSystemCpuLoad()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getSystemCpuLoad*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public String getSystemCpuLoad()"
+    return:
+      type: "java.lang.String"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getUsedMemory()"
+  id: "getUsedMemory()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation"
+  langs:
+  - "java"
+  name: "getUsedMemory()"
+  nameWithType: "ClientSideRequestStatistics.SystemInformation.getUsedMemory()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getUsedMemory()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getUsedMemory*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public String getUsedMemory()"
     return:
       type: "java.lang.String"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.processCpuLoad"
@@ -69,7 +133,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public String processCpuLoad"
+    content: " String processCpuLoad"
     return:
       type: "java.lang.String"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.systemCpuLoad"
@@ -83,7 +147,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public String systemCpuLoad"
+    content: " String systemCpuLoad"
     return:
       type: "java.lang.String"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.usedMemory"
@@ -97,7 +161,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public String usedMemory"
+    content: " String usedMemory"
     return:
       type: "java.lang.String"
 references:
@@ -111,6 +175,26 @@ references:
   - uid: "java.lang.String"
     name: "String"
     fullName: "java.lang.String"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getUsedMemory*"
+  name: "getUsedMemory"
+  nameWithType: "ClientSideRequestStatistics.SystemInformation.getUsedMemory"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getUsedMemory"
+  package: "com.azure.cosmos"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getAvailableMemory*"
+  name: "getAvailableMemory"
+  nameWithType: "ClientSideRequestStatistics.SystemInformation.getAvailableMemory"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getAvailableMemory"
+  package: "com.azure.cosmos"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getProcessCpuLoad*"
+  name: "getProcessCpuLoad"
+  nameWithType: "ClientSideRequestStatistics.SystemInformation.getProcessCpuLoad"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getProcessCpuLoad"
+  package: "com.azure.cosmos"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getSystemCpuLoad*"
+  name: "getSystemCpuLoad"
+  nameWithType: "ClientSideRequestStatistics.SystemInformation.getSystemCpuLoad"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.SystemInformation.getSystemCpuLoad"
+  package: "com.azure.cosmos"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"
   nameWithType: "Object.notify()"

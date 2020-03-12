@@ -5,6 +5,7 @@ items:
   parent: "com.azure.cosmos.implementation"
   children:
   - "com.azure.cosmos.implementation.LifeCycleUtils.LifeCycleUtils()"
+  - "com.azure.cosmos.implementation.LifeCycleUtils.closeQuietly(com.azure.cosmos.implementation.http.HttpClient)"
   - "com.azure.cosmos.implementation.LifeCycleUtils.closeQuietly(java.lang.AutoCloseable)"
   langs:
   - "java"
@@ -42,6 +43,22 @@ items:
   package: "com.azure.cosmos.implementation"
   syntax:
     content: "public LifeCycleUtils()"
+- uid: "com.azure.cosmos.implementation.LifeCycleUtils.closeQuietly(com.azure.cosmos.implementation.http.HttpClient)"
+  id: "closeQuietly(com.azure.cosmos.implementation.http.HttpClient)"
+  parent: "com.azure.cosmos.implementation.LifeCycleUtils"
+  langs:
+  - "java"
+  name: "closeQuietly(HttpClient closeable)"
+  nameWithType: "LifeCycleUtils.closeQuietly(HttpClient closeable)"
+  fullName: "com.azure.cosmos.implementation.LifeCycleUtils.closeQuietly(HttpClient closeable)"
+  overload: "com.azure.cosmos.implementation.LifeCycleUtils.closeQuietly*"
+  type: "Method"
+  package: "com.azure.cosmos.implementation"
+  syntax:
+    content: "public static void closeQuietly(HttpClient closeable)"
+    parameters:
+    - id: "closeable"
+      type: "com.azure.cosmos.implementation.http.HttpClient"
 - uid: "com.azure.cosmos.implementation.LifeCycleUtils.closeQuietly(java.lang.AutoCloseable)"
   id: "closeQuietly(java.lang.AutoCloseable)"
   parent: "com.azure.cosmos.implementation.LifeCycleUtils"
@@ -74,6 +91,10 @@ references:
   nameWithType: "LifeCycleUtils.closeQuietly"
   fullName: "com.azure.cosmos.implementation.LifeCycleUtils.closeQuietly"
   package: "com.azure.cosmos.implementation"
+- uid: "com.azure.cosmos.implementation.http.HttpClient"
+  name: "HttpClient"
+  nameWithType: "HttpClient"
+  fullName: "com.azure.cosmos.implementation.http.HttpClient"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"
   nameWithType: "Object.notify()"

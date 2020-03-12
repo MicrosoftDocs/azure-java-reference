@@ -97,7 +97,7 @@ items:
   overload: "com.azure.data.appconfiguration.models.SettingSelector.getKeyFilter*"
   type: "Method"
   package: "com.azure.data.appconfiguration.models"
-  summary: "Gets the expressions to filter <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.getKey()\" data-throw-if-not-resolved=\"false\">keys</xref> on for the request.\n\nExamples:\n\n *  If `keyFilter = \"*\"`, settings with any key are returned.\n *  If `keyFilter = \"abc1234\"`, settings with a key equal to \"abc1234\" are returned.\n *  If `keyFilter = \"abc*\"`, settings with a key starting with \"abc\" are returned.\n *  If `keyFilter = \"*abc*\"`, settings with a key containing \"abc\" are returned.\n *  If `keyFilter = \"abc,def\"`, settings with a key equal to \"abc\" or \"def\" are returned."
+  summary: "Gets the expressions to filter <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.getKey()\" data-throw-if-not-resolved=\"false\">keys</xref> on for the request.\n\nSee [Filtering][] for more information about these supported filters.\n\n\n[Filtering]: https://github.com/Azure/AppConfiguration/blob/master/docs/REST/kv.md#filtering"
   syntax:
     content: "public String getKeyFilter()"
     return:
@@ -114,7 +114,7 @@ items:
   overload: "com.azure.data.appconfiguration.models.SettingSelector.getLabelFilter*"
   type: "Method"
   package: "com.azure.data.appconfiguration.models"
-  summary: "Gets the labels used to filter settings based on their <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.getLabel()\" data-throw-if-not-resolved=\"false\">label</xref> in the service. If the value is `null` or an empty string, all ConfigurationSettings with <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.NO_LABEL\" data-throw-if-not-resolved=\"false\">ConfigurationSetting#NO_LABEL</xref> are returned.\n\nExamples:\n\n *  If `labelFilter = \"*\"`, settings with any label are returned.\n *  If `labelFilter = \"\\0\"`, settings without any label are returned.\n *  If `labelFilter = \"\"`, settings without any label are returned.\n *  If `labelFilter = null`, settings without any label are returned.\n *  If `labelFilter = \"abc1234\"`, settings with a label equal to \"abc1234\" are returned.\n *  If `labelFilter = \"abc*\"`, settings with a label starting with \"abc\" are returned.\n *  If `labelFilter = \"*abc*\"`, settings with a label containing \"abc\" are returned.\n *  If `labelFilter = \"abc,def\"`, settings with labels \"abc\" or \"def\" are returned."
+  summary: "Gets the labels used to filter settings based on their <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.getLabel()\" data-throw-if-not-resolved=\"false\">label</xref> in the service.\n\nSee [Filtering][] for more information about these supported filters.\n\n\n[Filtering]: https://github.com/Azure/AppConfiguration/blob/master/docs/REST/kv.md#filtering"
   syntax:
     content: "public String getLabelFilter()"
     return:
@@ -173,7 +173,7 @@ items:
   overload: "com.azure.data.appconfiguration.models.SettingSelector.setKeyFilter*"
   type: "Method"
   package: "com.azure.data.appconfiguration.models"
-  summary: "Sets the expressions to filter <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.getKey()\" data-throw-if-not-resolved=\"false\">keys</xref> on for the request.\n\nExamples:\n\n *  If `keyFilter = \"*\"`, settings with any key are returned.\n *  If `keyFilter = \"abc1234\"`, settings with a key equal to \"abc1234\" are returned.\n *  If `keyFilter = \"abc*\"`, settings with a key starting with \"abc\" are returned.\n *  If `keyFilter = \"*abc*\"`, settings with a key containing \"abc\" are returned.\n *  If `keyFilter = \"abc,def\"`, settings with a key equal to \"abc\" or \"def\" are returned."
+  summary: "Sets the expressions to filter <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.getKey()\" data-throw-if-not-resolved=\"false\">keys</xref> on for the request.\n\nSee [Filtering][] for more information about these supported filters.\n\n\n[Filtering]: https://github.com/Azure/AppConfiguration/blob/master/docs/REST/kv.md#filtering"
   syntax:
     content: "public SettingSelector setKeyFilter(String keyFilter)"
     parameters:
@@ -194,13 +194,13 @@ items:
   overload: "com.azure.data.appconfiguration.models.SettingSelector.setLabelFilter*"
   type: "Method"
   package: "com.azure.data.appconfiguration.models"
-  summary: "Sets the expression to filter <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.getLabel()\" data-throw-if-not-resolved=\"false\">labels</xref> on for the request.\n\nExamples:\n\n *  If `labelFilter = \"*\"`, settings with any label are returned.\n *  If `labelFilter = \"\\0\"`, settings without any label are returned. (This is the default label.)\n *  If `labelFilter = \"abc1234\"`, settings with a label equal to \"abc1234\" are returned.\n *  If `labelFilter = \"abc*\"`, settings with a label starting with \"abc\" are returned.\n *  If `labelFilter = \"*abc*\"`, settings with a label containing \"abc\" are returned.\n *  If `labelFilter = \"abc,def\"`, settings with labels \"abc\" or \"def\" are returned."
+  summary: "Sets the expression to filter <xref uid=\"com.azure.data.appconfiguration.models.ConfigurationSetting.getLabel()\" data-throw-if-not-resolved=\"false\">labels</xref> on for the request.\n\nSee [Filtering][] for more information about these supported filters.\n\n\n[Filtering]: https://github.com/Azure/AppConfiguration/blob/master/docs/REST/kv.md#filtering"
   syntax:
     content: "public SettingSelector setLabelFilter(String labelFilter)"
     parameters:
     - id: "labelFilter"
       type: "java.lang.String"
-      description: "The expressions to filter ConfigurationSetting labels on. If the provided value is\n <code>null</code> or <code>\"\"</code>, all ConfigurationSettings will be returned regardless of their label."
+      description: "The expressions to filter ConfigurationSetting labels on."
     return:
       type: "com.azure.data.appconfiguration.models.SettingSelector"
       description: "SettingSelector The updated SettingSelector object."

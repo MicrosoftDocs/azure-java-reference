@@ -6,6 +6,7 @@ items:
   children:
   - "com.azure.cosmos.implementation.ResourceResponse.ResourceResponse(com.azure.cosmos.implementation.RxDocumentServiceResponse,java.lang.Class<T>)"
   - "com.azure.cosmos.implementation.ResourceResponse.getActivityId()"
+  - "com.azure.cosmos.implementation.ResourceResponse.getBodyAsByteArray()"
   - "com.azure.cosmos.implementation.ResourceResponse.getBodyAsString()"
   - "com.azure.cosmos.implementation.ResourceResponse.getCollectionQuota()"
   - "com.azure.cosmos.implementation.ResourceResponse.getCollectionSizeQuota()"
@@ -102,6 +103,21 @@ items:
     return:
       type: "java.lang.String"
       description: "the activity id."
+- uid: "com.azure.cosmos.implementation.ResourceResponse.getBodyAsByteArray()"
+  id: "getBodyAsByteArray()"
+  parent: "com.azure.cosmos.implementation.ResourceResponse"
+  langs:
+  - "java"
+  name: "getBodyAsByteArray()"
+  nameWithType: "ResourceResponse<T>.getBodyAsByteArray()"
+  fullName: "com.azure.cosmos.implementation.ResourceResponse<T>.getBodyAsByteArray()"
+  overload: "com.azure.cosmos.implementation.ResourceResponse.getBodyAsByteArray*"
+  type: "Method"
+  package: "com.azure.cosmos.implementation"
+  syntax:
+    content: "public byte[] getBodyAsByteArray()"
+    return:
+      type: "byte[]"
 - uid: "com.azure.cosmos.implementation.ResourceResponse.getBodyAsString()"
   id: "getBodyAsString()"
   parent: "com.azure.cosmos.implementation.ResourceResponse"
@@ -858,6 +874,18 @@ references:
   name: "getCurrentResourceQuotaUsage"
   nameWithType: "ResourceResponse<T>.getCurrentResourceQuotaUsage"
   fullName: "com.azure.cosmos.implementation.ResourceResponse<T>.getCurrentResourceQuotaUsage"
+  package: "com.azure.cosmos.implementation"
+- uid: "byte[]"
+  spec.java:
+  - uid: "byte"
+    name: "byte"
+    fullName: "byte"
+  - name: "[]"
+    fullName: "[]"
+- uid: "com.azure.cosmos.implementation.ResourceResponse.getBodyAsByteArray*"
+  name: "getBodyAsByteArray"
+  nameWithType: "ResourceResponse<T>.getBodyAsByteArray"
+  fullName: "com.azure.cosmos.implementation.ResourceResponse<T>.getBodyAsByteArray"
   package: "com.azure.cosmos.implementation"
 - uid: "com.azure.cosmos.implementation.ResourceResponse.getBodyAsString*"
   name: "getBodyAsString"

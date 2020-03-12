@@ -8,7 +8,7 @@ items:
   - "com.azure.cosmos.CosmosUser.delete()"
   - "com.azure.cosmos.CosmosUser.getId()"
   - "com.azure.cosmos.CosmosUser.read()"
-  - "com.azure.cosmos.CosmosUser.replace(com.azure.cosmos.CosmosUserProperties)"
+  - "com.azure.cosmos.CosmosUser.replace(com.azure.cosmos.models.CosmosUserProperties)"
   langs:
   - "java"
   name: "CosmosUser"
@@ -72,7 +72,7 @@ items:
   syntax:
     content: "public CosmosUserResponse delete()"
     return:
-      type: "com.azure.cosmos.CosmosUserResponse"
+      type: "com.azure.cosmos.models.CosmosUserResponse"
       description: "the cosmos sync user response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
@@ -109,13 +109,13 @@ items:
   syntax:
     content: "public CosmosUserResponse read()"
     return:
-      type: "com.azure.cosmos.CosmosUserResponse"
+      type: "com.azure.cosmos.models.CosmosUserResponse"
       description: "the cosmos sync user response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
     description: "the cosmos client exception"
-- uid: "com.azure.cosmos.CosmosUser.replace(com.azure.cosmos.CosmosUserProperties)"
-  id: "replace(com.azure.cosmos.CosmosUserProperties)"
+- uid: "com.azure.cosmos.CosmosUser.replace(com.azure.cosmos.models.CosmosUserProperties)"
+  id: "replace(com.azure.cosmos.models.CosmosUserProperties)"
   parent: "com.azure.cosmos.CosmosUser"
   langs:
   - "java"
@@ -130,10 +130,10 @@ items:
     content: "public CosmosUserResponse replace(CosmosUserProperties userProperties)"
     parameters:
     - id: "userProperties"
-      type: "com.azure.cosmos.CosmosUserProperties"
+      type: "com.azure.cosmos.models.CosmosUserProperties"
       description: "the user properties"
     return:
-      type: "com.azure.cosmos.CosmosUserResponse"
+      type: "com.azure.cosmos.models.CosmosUserResponse"
       description: "the cosmos sync user response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
@@ -166,19 +166,19 @@ references:
   name: "CosmosClientException"
   nameWithType: "CosmosClientException"
   fullName: "com.azure.cosmos.CosmosClientException"
-- uid: "com.azure.cosmos.CosmosUserResponse"
+- uid: "com.azure.cosmos.models.CosmosUserResponse"
   name: "CosmosUserResponse"
   nameWithType: "CosmosUserResponse"
-  fullName: "com.azure.cosmos.CosmosUserResponse"
+  fullName: "com.azure.cosmos.models.CosmosUserResponse"
 - uid: "com.azure.cosmos.CosmosUser.read*"
   name: "read"
   nameWithType: "CosmosUser.read"
   fullName: "com.azure.cosmos.CosmosUser.read"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.CosmosUserProperties"
+- uid: "com.azure.cosmos.models.CosmosUserProperties"
   name: "CosmosUserProperties"
   nameWithType: "CosmosUserProperties"
-  fullName: "com.azure.cosmos.CosmosUserProperties"
+  fullName: "com.azure.cosmos.models.CosmosUserProperties"
 - uid: "com.azure.cosmos.CosmosUser.replace*"
   name: "replace"
   nameWithType: "CosmosUser.replace"

@@ -26,7 +26,7 @@ items:
   overload: "com.azure.cosmos.implementation.changefeed.PartitionLoadBalancingStrategy.selectLeasesToTake*"
   type: "Method"
   package: "com.azure.cosmos.implementation.changefeed"
-  summary: "Select leases that should be taken for processing. This method will be called periodically with <xref uid=\"com.azure.cosmos.ChangeFeedProcessorOptions\" data-throw-if-not-resolved=\"false\">ChangeFeedProcessorOptions</xref> leaseAcquireInterval()."
+  summary: "Select leases that should be taken for processing. This method will be called periodically with <xref uid=\"com.azure.cosmos.models.ChangeFeedProcessorOptions\" data-throw-if-not-resolved=\"false\">ChangeFeedProcessorOptions</xref> leaseAcquireInterval()."
   syntax:
     content: "public abstract List<Lease> selectLeasesToTake(List<Lease> allLeases)"
     parameters:

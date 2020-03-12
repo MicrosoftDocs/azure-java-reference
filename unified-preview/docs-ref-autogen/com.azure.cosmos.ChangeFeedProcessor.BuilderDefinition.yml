@@ -9,7 +9,7 @@ items:
   - "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setHandleChanges(java.util.function.Consumer<java.util.List<com.fasterxml.jackson.databind.JsonNode>>)"
   - "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setHostName(java.lang.String)"
   - "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setLeaseContainer(com.azure.cosmos.CosmosAsyncContainer)"
-  - "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setOptions(com.azure.cosmos.ChangeFeedProcessorOptions)"
+  - "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setOptions(com.azure.cosmos.models.ChangeFeedProcessorOptions)"
   langs:
   - "java"
   name: "ChangeFeedProcessor.BuilderDefinition"
@@ -121,8 +121,8 @@ items:
     return:
       type: "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition"
       description: "current Builder."
-- uid: "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setOptions(com.azure.cosmos.ChangeFeedProcessorOptions)"
-  id: "setOptions(com.azure.cosmos.ChangeFeedProcessorOptions)"
+- uid: "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setOptions(com.azure.cosmos.models.ChangeFeedProcessorOptions)"
+  id: "setOptions(com.azure.cosmos.models.ChangeFeedProcessorOptions)"
   parent: "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition"
   langs:
   - "java"
@@ -132,12 +132,12 @@ items:
   overload: "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setOptions*"
   type: "Method"
   package: "com.azure.cosmos"
-  summary: "Sets the <xref uid=\"com.azure.cosmos.ChangeFeedProcessorOptions\" data-throw-if-not-resolved=\"false\">ChangeFeedProcessorOptions</xref> to be used.\n\nUnless specifically set the default values that will be used are: - maximum items per page or FeedResponse: 100 - lease renew interval: 17 seconds - lease acquire interval: 13 seconds - lease expiration interval: 60 seconds - feed poll delay: 5 seconds - maximum scale count: unlimited"
+  summary: "Sets the <xref uid=\"com.azure.cosmos.models.ChangeFeedProcessorOptions\" data-throw-if-not-resolved=\"false\">ChangeFeedProcessorOptions</xref> to be used.\n\nUnless specifically set the default values that will be used are: - maximum items per page or FeedResponse: 100 - lease renew interval: 17 seconds - lease acquire interval: 13 seconds - lease expiration interval: 60 seconds - feed poll delay: 5 seconds - maximum scale count: unlimited"
   syntax:
     content: "public abstract ChangeFeedProcessor.BuilderDefinition setOptions(ChangeFeedProcessorOptions changeFeedProcessorOptions)"
     parameters:
     - id: "changeFeedProcessorOptions"
-      type: "com.azure.cosmos.ChangeFeedProcessorOptions"
+      type: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
       description: "the change feed processor options to use."
     return:
       type: "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition"
@@ -162,10 +162,10 @@ references:
   nameWithType: "ChangeFeedProcessor.BuilderDefinition.setFeedContainer"
   fullName: "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setFeedContainer"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.ChangeFeedProcessorOptions"
+- uid: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
   name: "ChangeFeedProcessorOptions"
   nameWithType: "ChangeFeedProcessorOptions"
-  fullName: "com.azure.cosmos.ChangeFeedProcessorOptions"
+  fullName: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
 - uid: "com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition.setOptions*"
   name: "setOptions"
   nameWithType: "ChangeFeedProcessor.BuilderDefinition.setOptions"

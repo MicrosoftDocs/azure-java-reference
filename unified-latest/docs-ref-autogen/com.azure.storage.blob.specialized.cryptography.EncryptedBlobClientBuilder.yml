@@ -16,6 +16,7 @@ items:
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.containerName(java.lang.String)"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.credential(com.azure.core.credential.TokenCredential)"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.credential(com.azure.storage.common.StorageSharedKeyCredential)"
+  - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey(com.azure.storage.blob.models.CustomerProvidedKey)"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.getDefaultHttpLogOptions()"
   - "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.httpClient(com.azure.core.http.HttpClient)"
@@ -98,7 +99,7 @@ items:
   overload: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobAsyncClient*"
   type: "Method"
   package: "com.azure.storage.blob.specialized.cryptography"
-  summary: "Configures the builder based on the passed <xref uid=\"com.azure.storage.blob.BlobAsyncClient\" data-throw-if-not-resolved=\"false\">BlobAsyncClient</xref>. This will set the <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">URL</xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that are used to interact with the service.\n\nUse this method after setting the key in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.key(com.azure.core.cryptography.AsyncKeyEncryptionKey,java.lang.String)\" data-throw-if-not-resolved=\"false\">key</xref> and keyResolver in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.keyResolver(com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver)\" data-throw-if-not-resolved=\"false\">#keyResolver(AsyncKeyEncryptionKeyResolver)</xref>.\n\nIf `pipeline` is set, all other settings are ignored, aside from <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">endpoint</xref> and <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion(com.azure.storage.blob.BlobServiceVersion)\" data-throw-if-not-resolved=\"false\">serviceVersion</xref>."
+  summary: "Configures the builder based on the passed <xref uid=\"com.azure.storage.blob.BlobAsyncClient\" data-throw-if-not-resolved=\"false\">BlobAsyncClient</xref>. This will set the <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">URL</xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that are used to interact with the service.\n\nUse this method after setting the key in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.key(com.azure.core.cryptography.AsyncKeyEncryptionKey,java.lang.String)\" data-throw-if-not-resolved=\"false\">key</xref> and keyResolver in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.keyResolver(com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver)\" data-throw-if-not-resolved=\"false\">#keyResolver(AsyncKeyEncryptionKeyResolver)</xref>.\n\nIf `pipeline` is set, all other settings are ignored, aside from <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">endpoint</xref> and <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion(com.azure.storage.blob.BlobServiceVersion)\" data-throw-if-not-resolved=\"false\">serviceVersion</xref>.\n\nNote that for security reasons, this method does not copy over the <xref uid=\"\" data-throw-if-not-resolved=\"false\">CustomerProvidedKey</xref> and encryption scope properties from the provided client. To set CPK, please use <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey(com.azure.storage.blob.models.CustomerProvidedKey)\" data-throw-if-not-resolved=\"false\">#customerProvidedKey(CustomerProvidedKey)</xref>."
   syntax:
     content: "public EncryptedBlobClientBuilder blobAsyncClient(BlobAsyncClient blobAsyncClient)"
     parameters:
@@ -119,7 +120,7 @@ items:
   overload: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.blobClient*"
   type: "Method"
   package: "com.azure.storage.blob.specialized.cryptography"
-  summary: "Configures the builder based on the passed <xref uid=\"com.azure.storage.blob.BlobClient\" data-throw-if-not-resolved=\"false\">BlobClient</xref>. This will set the <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">URL</xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that are used to interact with the service.\n\nUse this method after setting the key in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.key(com.azure.core.cryptography.AsyncKeyEncryptionKey,java.lang.String)\" data-throw-if-not-resolved=\"false\">key</xref> and keyResolver in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.keyResolver(com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver)\" data-throw-if-not-resolved=\"false\">#keyResolver(AsyncKeyEncryptionKeyResolver)</xref>.\n\nIf `pipeline` is set, all other settings are ignored, aside from <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">endpoint</xref> and <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion(com.azure.storage.blob.BlobServiceVersion)\" data-throw-if-not-resolved=\"false\">serviceVersion</xref>."
+  summary: "Configures the builder based on the passed <xref uid=\"com.azure.storage.blob.BlobClient\" data-throw-if-not-resolved=\"false\">BlobClient</xref>. This will set the <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>, <xref uid=\"\" data-throw-if-not-resolved=\"false\">URL</xref> and <xref uid=\"\" data-throw-if-not-resolved=\"false\">BlobServiceVersion</xref> that are used to interact with the service.\n\nUse this method after setting the key in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.key(com.azure.core.cryptography.AsyncKeyEncryptionKey,java.lang.String)\" data-throw-if-not-resolved=\"false\">key</xref> and keyResolver in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.keyResolver(com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver)\" data-throw-if-not-resolved=\"false\">#keyResolver(AsyncKeyEncryptionKeyResolver)</xref>.\n\nIf `pipeline` is set, all other settings are ignored, aside from <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">endpoint</xref> and <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion(com.azure.storage.blob.BlobServiceVersion)\" data-throw-if-not-resolved=\"false\">serviceVersion</xref>.\n\nNote that for security reasons, this method does not copy over the <xref uid=\"\" data-throw-if-not-resolved=\"false\">CustomerProvidedKey</xref> and encryption scope properties from the provided client. To set CPK, please use <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey(com.azure.storage.blob.models.CustomerProvidedKey)\" data-throw-if-not-resolved=\"false\">#customerProvidedKey(CustomerProvidedKey)</xref>."
   syntax:
     content: "public EncryptedBlobClientBuilder blobClient(BlobClient blobClient)"
     parameters:
@@ -289,6 +290,27 @@ items:
     return:
       type: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
       description: "the updated EncryptedBlobClientBuilder"
+- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey(com.azure.storage.blob.models.CustomerProvidedKey)"
+  id: "customerProvidedKey(com.azure.storage.blob.models.CustomerProvidedKey)"
+  parent: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
+  langs:
+  - "java"
+  name: "customerProvidedKey(CustomerProvidedKey customerProvidedKey)"
+  nameWithType: "EncryptedBlobClientBuilder.customerProvidedKey(CustomerProvidedKey customerProvidedKey)"
+  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey(CustomerProvidedKey customerProvidedKey)"
+  overload: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey*"
+  type: "Method"
+  package: "com.azure.storage.blob.specialized.cryptography"
+  summary: "Sets the <xref uid=\"\" data-throw-if-not-resolved=\"false\">customer provided key</xref> that is used to encrypt blob contents on the server."
+  syntax:
+    content: "public EncryptedBlobClientBuilder customerProvidedKey(CustomerProvidedKey customerProvidedKey)"
+    parameters:
+    - id: "customerProvidedKey"
+      type: "com.azure.storage.blob.models.CustomerProvidedKey"
+      description: "<xref uid=\"\" data-throw-if-not-resolved=\"false\">CustomerProvidedKey</xref>"
+    return:
+      type: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
+      description: "the updated EncryptedBlobClientBuilder object"
 - uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)"
   id: "endpoint(java.lang.String)"
   parent: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder"
@@ -425,7 +447,7 @@ items:
   overload: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.pipeline*"
   type: "Method"
   package: "com.azure.storage.blob.specialized.cryptography"
-  summary: "Sets the <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref> to use for the service client. If `pipeline` is set, all other settings are ignored, aside from <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">endpoint</xref>."
+  summary: "Sets the <xref uid=\"\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref> to use for the service client, and adds a decryption policy if one is not present. If `pipeline` is set, all other settings are ignored, aside from <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.endpoint(java.lang.String)\" data-throw-if-not-resolved=\"false\">endpoint</xref> and <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey(com.azure.storage.blob.models.CustomerProvidedKey)\" data-throw-if-not-resolved=\"false\">customer provided key</xref>.\n\nUse this method after setting the key in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.key(com.azure.core.cryptography.AsyncKeyEncryptionKey,java.lang.String)\" data-throw-if-not-resolved=\"false\">key</xref> and keyResolver in <xref uid=\"com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.keyResolver(com.azure.core.cryptography.AsyncKeyEncryptionKeyResolver)\" data-throw-if-not-resolved=\"false\">#keyResolver(AsyncKeyEncryptionKeyResolver)</xref>."
   syntax:
     content: "public EncryptedBlobClientBuilder pipeline(HttpPipeline httpPipeline)"
     parameters:
@@ -709,6 +731,16 @@ references:
   name: "serviceVersion"
   nameWithType: "EncryptedBlobClientBuilder.serviceVersion"
   fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.serviceVersion"
+  package: "com.azure.storage.blob.specialized.cryptography"
+- uid: "com.azure.storage.blob.models.CustomerProvidedKey"
+  spec.java:
+  - uid: "com.azure.storage.blob.models.CustomerProvidedKey"
+    name: "CustomerProvidedKey"
+    fullName: "com.azure.storage.blob.models.CustomerProvidedKey"
+- uid: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey*"
+  name: "customerProvidedKey"
+  nameWithType: "EncryptedBlobClientBuilder.customerProvidedKey"
+  fullName: "com.azure.storage.blob.specialized.cryptography.EncryptedBlobClientBuilder.customerProvidedKey"
   package: "com.azure.storage.blob.specialized.cryptography"
 - uid: "com.azure.storage.blob.BlobClient"
   spec.java:

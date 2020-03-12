@@ -17,7 +17,7 @@ items:
   fullName: "com.azure.ai.textanalytics.models.DetectLanguageInput"
   type: "Class"
   package: "com.azure.ai.textanalytics.models"
-  summary: "The DetectLanguageInput model."
+  summary: "The <xref uid=\"com.azure.ai.textanalytics.models.DetectLanguageInput\" data-throw-if-not-resolved=\"false\">DetectLanguageInput</xref> model."
   syntax:
     content: "public final class DetectLanguageInput"
   inheritance:
@@ -51,10 +51,10 @@ items:
     parameters:
     - id: "id"
       type: "java.lang.String"
-      description: "unique, non-empty document identifier"
+      description: "Unique, non-empty document identifier."
     - id: "text"
       type: "java.lang.String"
-      description: "the text property"
+      description: "The text property."
 - uid: "com.azure.ai.textanalytics.models.DetectLanguageInput.DetectLanguageInput(java.lang.String,java.lang.String,java.lang.String)"
   id: "DetectLanguageInput(java.lang.String,java.lang.String,java.lang.String)"
   parent: "com.azure.ai.textanalytics.models.DetectLanguageInput"
@@ -72,13 +72,13 @@ items:
     parameters:
     - id: "id"
       type: "java.lang.String"
-      description: "unique, non-empty document identifier"
+      description: "Unique, non-empty document identifier."
     - id: "text"
       type: "java.lang.String"
-      description: "the text property"
+      description: "The text property."
     - id: "countryHint"
       type: "java.lang.String"
-      description: "the country hint"
+      description: "Accepts two letter country codes specified by ISO 3166-1 alpha-2. Defaults to \"US\" if not\n specified. To remove this behavior you can reset this parameter by setting this value to empty string\n <code>countryHint</code> = \"\" or \"none\"."
 - uid: "com.azure.ai.textanalytics.models.DetectLanguageInput.getCountryHint()"
   id: "getCountryHint()"
   parent: "com.azure.ai.textanalytics.models.DetectLanguageInput"
@@ -90,12 +90,12 @@ items:
   overload: "com.azure.ai.textanalytics.models.DetectLanguageInput.getCountryHint*"
   type: "Method"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Get the countryHint property: The countryHint property."
+  summary: "Get the countryHint property: The `countryHint` property."
   syntax:
     content: "public String getCountryHint()"
     return:
       type: "java.lang.String"
-      description: "the countryHint value."
+      description: "The <code>countryHint</code> value."
 - uid: "com.azure.ai.textanalytics.models.DetectLanguageInput.getId()"
   id: "getId()"
   parent: "com.azure.ai.textanalytics.models.DetectLanguageInput"
@@ -112,7 +112,7 @@ items:
     content: "public String getId()"
     return:
       type: "java.lang.String"
-      description: "the id value."
+      description: "The id value."
 - uid: "com.azure.ai.textanalytics.models.DetectLanguageInput.getText()"
   id: "getText()"
   parent: "com.azure.ai.textanalytics.models.DetectLanguageInput"
@@ -129,7 +129,7 @@ items:
     content: "public String getText()"
     return:
       type: "java.lang.String"
-      description: "the text value."
+      description: "The text value."
 - uid: "com.azure.ai.textanalytics.models.DetectLanguageInput.toString()"
   id: "toString()"
   parent: "com.azure.ai.textanalytics.models.DetectLanguageInput"

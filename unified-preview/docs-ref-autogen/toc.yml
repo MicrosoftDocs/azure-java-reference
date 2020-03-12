@@ -838,22 +838,14 @@
 - uid: com.azure.cosmos
   name: com.azure.cosmos
   items:
-  - uid: com.azure.cosmos.AccessCondition
-    name: AccessCondition
-  - uid: com.azure.cosmos.AccessConditionType
-    name: AccessConditionType
   - uid: com.azure.cosmos.BadRequestException
     name: BadRequestException
   - uid: com.azure.cosmos.BridgeInternal
     name: BridgeInternal
-  - uid: com.azure.cosmos.ChangeFeedOptions
-    name: ChangeFeedOptions
   - uid: com.azure.cosmos.ChangeFeedProcessor
     name: ChangeFeedProcessor
   - uid: com.azure.cosmos.ChangeFeedProcessor.BuilderDefinition
     name: ChangeFeedProcessor.BuilderDefinition
-  - uid: com.azure.cosmos.ChangeFeedProcessorOptions
-    name: ChangeFeedProcessorOptions
   - uid: com.azure.cosmos.ClientSideRequestStatistics
     name: ClientSideRequestStatistics
   - uid: com.azure.cosmos.ClientSideRequestStatistics.AddressResolutionStatistics
@@ -868,66 +860,36 @@
     name: ClientSideRequestStatistics.SystemInformation
   - uid: com.azure.cosmos.ClientSideRequestStatistics.ZonedDateTimeSerializer
     name: ClientSideRequestStatistics.ZonedDateTimeSerializer
-  - uid: com.azure.cosmos.CommonsBridgeInternal
-    name: CommonsBridgeInternal
-  - uid: com.azure.cosmos.CompositePath
-    name: CompositePath
-  - uid: com.azure.cosmos.CompositePathSortOrder
-    name: CompositePathSortOrder
   - uid: com.azure.cosmos.ConflictException
     name: ConflictException
-  - uid: com.azure.cosmos.ConflictResolutionMode
-    name: ConflictResolutionMode
-  - uid: com.azure.cosmos.ConflictResolutionPolicy
-    name: ConflictResolutionPolicy
   - uid: com.azure.cosmos.ConnectionMode
     name: ConnectionMode
   - uid: com.azure.cosmos.ConnectionPolicy
     name: ConnectionPolicy
   - uid: com.azure.cosmos.ConsistencyLevel
     name: ConsistencyLevel
-  - uid: com.azure.cosmos.ConsistencyPolicy
-    name: ConsistencyPolicy
-  - uid: com.azure.cosmos.ContinuablePagedIterable
-    name: ContinuablePagedIterable
   - uid: com.azure.cosmos.CosmosAsyncClient
     name: CosmosAsyncClient
   - uid: com.azure.cosmos.CosmosAsyncConflict
     name: CosmosAsyncConflict
-  - uid: com.azure.cosmos.CosmosAsyncConflictResponse
-    name: CosmosAsyncConflictResponse
   - uid: com.azure.cosmos.CosmosAsyncContainer
     name: CosmosAsyncContainer
-  - uid: com.azure.cosmos.CosmosAsyncContainerResponse
-    name: CosmosAsyncContainerResponse
   - uid: com.azure.cosmos.CosmosAsyncDatabase
     name: CosmosAsyncDatabase
-  - uid: com.azure.cosmos.CosmosAsyncDatabaseResponse
-    name: CosmosAsyncDatabaseResponse
-  - uid: com.azure.cosmos.CosmosAsyncItemResponse
-    name: CosmosAsyncItemResponse
   - uid: com.azure.cosmos.CosmosAsyncPermission
     name: CosmosAsyncPermission
-  - uid: com.azure.cosmos.CosmosAsyncPermissionResponse
-    name: CosmosAsyncPermissionResponse
   - uid: com.azure.cosmos.CosmosAsyncScripts
     name: CosmosAsyncScripts
   - uid: com.azure.cosmos.CosmosAsyncStoredProcedure
     name: CosmosAsyncStoredProcedure
-  - uid: com.azure.cosmos.CosmosAsyncStoredProcedureResponse
-    name: CosmosAsyncStoredProcedureResponse
   - uid: com.azure.cosmos.CosmosAsyncTrigger
     name: CosmosAsyncTrigger
-  - uid: com.azure.cosmos.CosmosAsyncTriggerResponse
-    name: CosmosAsyncTriggerResponse
   - uid: com.azure.cosmos.CosmosAsyncUser
     name: CosmosAsyncUser
   - uid: com.azure.cosmos.CosmosAsyncUserDefinedFunction
     name: CosmosAsyncUserDefinedFunction
-  - uid: com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse
-    name: CosmosAsyncUserDefinedFunctionResponse
-  - uid: com.azure.cosmos.CosmosAsyncUserResponse
-    name: CosmosAsyncUserResponse
+  - uid: com.azure.cosmos.CosmosAuthorizationTokenResolver
+    name: CosmosAuthorizationTokenResolver
   - uid: com.azure.cosmos.CosmosBridgeInternal
     name: CosmosBridgeInternal
   - uid: com.azure.cosmos.CosmosClient
@@ -936,116 +898,38 @@
     name: CosmosClientBuilder
   - uid: com.azure.cosmos.CosmosClientException
     name: CosmosClientException
-  - uid: com.azure.cosmos.CosmosConflictProperties
-    name: CosmosConflictProperties
-  - uid: com.azure.cosmos.CosmosConflictRequestOptions
-    name: CosmosConflictRequestOptions
   - uid: com.azure.cosmos.CosmosContainer
     name: CosmosContainer
-  - uid: com.azure.cosmos.CosmosContainerProperties
-    name: CosmosContainerProperties
-  - uid: com.azure.cosmos.CosmosContainerRequestOptions
-    name: CosmosContainerRequestOptions
-  - uid: com.azure.cosmos.CosmosContainerResponse
-    name: CosmosContainerResponse
-  - uid: com.azure.cosmos.CosmosContinuablePagedFlux
-    name: CosmosContinuablePagedFlux
-  - uid: com.azure.cosmos.CosmosContinuablePagedIterable
-    name: CosmosContinuablePagedIterable
   - uid: com.azure.cosmos.CosmosDatabase
     name: CosmosDatabase
-  - uid: com.azure.cosmos.CosmosDatabaseProperties
-    name: CosmosDatabaseProperties
-  - uid: com.azure.cosmos.CosmosDatabaseRequestOptions
-    name: CosmosDatabaseRequestOptions
-  - uid: com.azure.cosmos.CosmosDatabaseResponse
-    name: CosmosDatabaseResponse
-  - uid: com.azure.cosmos.CosmosError
-    name: CosmosError
-  - uid: com.azure.cosmos.CosmosItemRequestOptions
-    name: CosmosItemRequestOptions
-  - uid: com.azure.cosmos.CosmosItemResponse
-    name: CosmosItemResponse
   - uid: com.azure.cosmos.CosmosKeyCredential
     name: CosmosKeyCredential
-  - uid: com.azure.cosmos.CosmosPermissionProperties
-    name: CosmosPermissionProperties
-  - uid: com.azure.cosmos.CosmosPermissionRequestOptions
-    name: CosmosPermissionRequestOptions
-  - uid: com.azure.cosmos.CosmosResourceType
-    name: CosmosResourceType
-  - uid: com.azure.cosmos.CosmosResponse
-    name: CosmosResponse
+  - uid: com.azure.cosmos.CosmosPagedFlux
+    name: CosmosPagedFlux
+  - uid: com.azure.cosmos.CosmosPagedIterable
+    name: CosmosPagedIterable
   - uid: com.azure.cosmos.CosmosResponseDiagnostics
     name: CosmosResponseDiagnostics
   - uid: com.azure.cosmos.CosmosScripts
     name: CosmosScripts
   - uid: com.azure.cosmos.CosmosStoredProcedure
     name: CosmosStoredProcedure
-  - uid: com.azure.cosmos.CosmosStoredProcedureProperties
-    name: CosmosStoredProcedureProperties
-  - uid: com.azure.cosmos.CosmosStoredProcedureRequestOptions
-    name: CosmosStoredProcedureRequestOptions
-  - uid: com.azure.cosmos.CosmosStoredProcedureResponse
-    name: CosmosStoredProcedureResponse
   - uid: com.azure.cosmos.CosmosTrigger
     name: CosmosTrigger
-  - uid: com.azure.cosmos.CosmosTriggerProperties
-    name: CosmosTriggerProperties
-  - uid: com.azure.cosmos.CosmosTriggerResponse
-    name: CosmosTriggerResponse
   - uid: com.azure.cosmos.CosmosUser
     name: CosmosUser
   - uid: com.azure.cosmos.CosmosUserDefinedFunction
     name: CosmosUserDefinedFunction
-  - uid: com.azure.cosmos.CosmosUserDefinedFunctionProperties
-    name: CosmosUserDefinedFunctionProperties
-  - uid: com.azure.cosmos.CosmosUserDefinedFunctionResponse
-    name: CosmosUserDefinedFunctionResponse
-  - uid: com.azure.cosmos.CosmosUserProperties
-    name: CosmosUserProperties
-  - uid: com.azure.cosmos.CosmosUserResponse
-    name: CosmosUserResponse
-  - uid: com.azure.cosmos.DataType
-    name: DataType
-  - uid: com.azure.cosmos.DatabaseAccount
-    name: DatabaseAccount
-  - uid: com.azure.cosmos.DatabaseAccountLocation
-    name: DatabaseAccountLocation
-  - uid: com.azure.cosmos.ExcludedPath
-    name: ExcludedPath
-  - uid: com.azure.cosmos.FeedOptions
-    name: FeedOptions
-  - uid: com.azure.cosmos.FeedResponse
-    name: FeedResponse
   - uid: com.azure.cosmos.FeedResponseDiagnostics
     name: FeedResponseDiagnostics
   - uid: com.azure.cosmos.ForbiddenException
     name: ForbiddenException
   - uid: com.azure.cosmos.GoneException
     name: GoneException
-  - uid: com.azure.cosmos.HashIndex
-    name: HashIndex
-  - uid: com.azure.cosmos.IncludedPath
-    name: IncludedPath
-  - uid: com.azure.cosmos.Index
-    name: Index
-  - uid: com.azure.cosmos.IndexKind
-    name: IndexKind
-  - uid: com.azure.cosmos.IndexingDirective
-    name: IndexingDirective
-  - uid: com.azure.cosmos.IndexingMode
-    name: IndexingMode
-  - uid: com.azure.cosmos.IndexingPolicy
-    name: IndexingPolicy
   - uid: com.azure.cosmos.InternalServerErrorException
     name: InternalServerErrorException
   - uid: com.azure.cosmos.InvalidPartitionException
     name: InvalidPartitionException
-  - uid: com.azure.cosmos.ItemOperations
-    name: ItemOperations
-  - uid: com.azure.cosmos.JsonSerializable
-    name: JsonSerializable
   - uid: com.azure.cosmos.LockedException
     name: LockedException
   - uid: com.azure.cosmos.MethodNotAllowedException
@@ -1054,66 +938,26 @@
     name: NotFoundException
   - uid: com.azure.cosmos.PartitionIsMigratingException
     name: PartitionIsMigratingException
-  - uid: com.azure.cosmos.PartitionKey
-    name: PartitionKey
-  - uid: com.azure.cosmos.PartitionKeyDefinition
-    name: PartitionKeyDefinition
-  - uid: com.azure.cosmos.PartitionKeyDefinitionVersion
-    name: PartitionKeyDefinitionVersion
   - uid: com.azure.cosmos.PartitionKeyRangeGoneException
     name: PartitionKeyRangeGoneException
   - uid: com.azure.cosmos.PartitionKeyRangeIsSplittingException
     name: PartitionKeyRangeIsSplittingException
-  - uid: com.azure.cosmos.PartitionKind
-    name: PartitionKind
-  - uid: com.azure.cosmos.PermissionMode
-    name: PermissionMode
   - uid: com.azure.cosmos.PreconditionFailedException
     name: PreconditionFailedException
-  - uid: com.azure.cosmos.RangeIndex
-    name: RangeIndex
   - uid: com.azure.cosmos.RequestEntityTooLargeException
     name: RequestEntityTooLargeException
   - uid: com.azure.cosmos.RequestRateTooLargeException
     name: RequestRateTooLargeException
   - uid: com.azure.cosmos.RequestTimeoutException
     name: RequestTimeoutException
-  - uid: com.azure.cosmos.RequestVerb
-    name: RequestVerb
-  - uid: com.azure.cosmos.Resource
-    name: Resource
-  - uid: com.azure.cosmos.RetryOptions
-    name: RetryOptions
   - uid: com.azure.cosmos.RetryWithException
     name: RetryWithException
-  - uid: com.azure.cosmos.SerializationFormattingPolicy
-    name: SerializationFormattingPolicy
   - uid: com.azure.cosmos.ServiceUnavailableException
     name: ServiceUnavailableException
-  - uid: com.azure.cosmos.SpatialIndex
-    name: SpatialIndex
-  - uid: com.azure.cosmos.SpatialSpec
-    name: SpatialSpec
-  - uid: com.azure.cosmos.SpatialType
-    name: SpatialType
-  - uid: com.azure.cosmos.SqlParameter
-    name: SqlParameter
-  - uid: com.azure.cosmos.SqlParameterList
-    name: SqlParameterList
-  - uid: com.azure.cosmos.SqlQuerySpec
-    name: SqlQuerySpec
-  - uid: com.azure.cosmos.TokenResolver
-    name: TokenResolver
-  - uid: com.azure.cosmos.TriggerOperation
-    name: TriggerOperation
-  - uid: com.azure.cosmos.TriggerType
-    name: TriggerType
+  - uid: com.azure.cosmos.ThrottlingRetryOptions
+    name: ThrottlingRetryOptions
   - uid: com.azure.cosmos.UnauthorizedException
     name: UnauthorizedException
-  - uid: com.azure.cosmos.UniqueKey
-    name: UniqueKey
-  - uid: com.azure.cosmos.UniqueKeyPolicy
-    name: UniqueKeyPolicy
 - uid: com.azure.cosmos.implementation.directconnectivity
   name: com.azure.cosmos.implementation.directconnectivity
   items:
@@ -1207,6 +1051,8 @@
     name: ServiceConfig
   - uid: com.azure.cosmos.implementation.directconnectivity.ServiceConfig.SystemReplicationPolicy
     name: ServiceConfig.SystemReplicationPolicy
+  - uid: com.azure.cosmos.implementation.directconnectivity.SharedTransportClient
+    name: SharedTransportClient
   - uid: com.azure.cosmos.implementation.directconnectivity.StoreClient
     name: StoreClient
   - uid: com.azure.cosmos.implementation.directconnectivity.StoreClientFactory
@@ -1252,6 +1098,11 @@
     name: PartitionSplitException
   - uid: com.azure.cosmos.implementation.changefeed.exceptions.TaskCancelledException
     name: TaskCancelledException
+- uid: com.azure.cosmos.implementation.guava27
+  name: com.azure.cosmos.implementation.guava27
+  items:
+  - uid: com.azure.cosmos.implementation.guava27.Strings
+    name: Strings
 - uid: com.azure.cosmos.implementation.http
   name: com.azure.cosmos.implementation.http
   items:
@@ -1275,6 +1126,8 @@
     name: ReactorNettyClient.ReactorNettyHttpResponse
   - uid: com.azure.cosmos.implementation.http.ReactorNettyRequestRecord
     name: ReactorNettyRequestRecord
+  - uid: com.azure.cosmos.implementation.http.SharedGatewayHttpClient
+    name: SharedGatewayHttpClient
 - uid: com.azure.cosmos.implementation
   name: com.azure.cosmos.implementation
   items:
@@ -1296,6 +1149,8 @@
     name: ByteBufferOutputStream
   - uid: com.azure.cosmos.implementation.Bytes
     name: Bytes
+  - uid: com.azure.cosmos.implementation.ChangeFeedOptions
+    name: ChangeFeedOptions
   - uid: com.azure.cosmos.implementation.ChangeFeedQueryImpl
     name: ChangeFeedQueryImpl
   - uid: com.azure.cosmos.implementation.ClearingSessionContainerClientRetryPolicy
@@ -1396,6 +1251,8 @@
     name: InternalConstants.StreamApi
   - uid: com.azure.cosmos.implementation.InvalidPartitionExceptionRetryPolicy
     name: InvalidPartitionExceptionRetryPolicy
+  - uid: com.azure.cosmos.implementation.ItemOperations
+    name: ItemOperations
   - uid: com.azure.cosmos.implementation.JavaStreamUtils
     name: JavaStreamUtils
   - uid: com.azure.cosmos.implementation.LifeCycleUtils
@@ -1428,8 +1285,6 @@
     name: Paths
   - uid: com.azure.cosmos.implementation.PathsHelper
     name: PathsHelper
-  - uid: com.azure.cosmos.implementation.Permission
-    name: Permission
   - uid: com.azure.cosmos.implementation.Quadruple
     name: Quadruple
   - uid: com.azure.cosmos.implementation.QueryCompatibilityMode
@@ -1640,6 +1495,161 @@
     name: TextTable
   - uid: com.azure.cosmos.implementation.query.metrics.TextTable.Column
     name: TextTable.Column
+- uid: com.azure.cosmos.models
+  name: com.azure.cosmos.models
+  items:
+  - uid: com.azure.cosmos.models.AccessCondition
+    name: AccessCondition
+  - uid: com.azure.cosmos.models.AccessConditionType
+    name: AccessConditionType
+  - uid: com.azure.cosmos.models.ChangeFeedProcessorOptions
+    name: ChangeFeedProcessorOptions
+  - uid: com.azure.cosmos.models.CompositePath
+    name: CompositePath
+  - uid: com.azure.cosmos.models.CompositePathSortOrder
+    name: CompositePathSortOrder
+  - uid: com.azure.cosmos.models.ConflictResolutionMode
+    name: ConflictResolutionMode
+  - uid: com.azure.cosmos.models.ConflictResolutionPolicy
+    name: ConflictResolutionPolicy
+  - uid: com.azure.cosmos.models.ConsistencyPolicy
+    name: ConsistencyPolicy
+  - uid: com.azure.cosmos.models.CosmosAsyncConflictResponse
+    name: CosmosAsyncConflictResponse
+  - uid: com.azure.cosmos.models.CosmosAsyncContainerResponse
+    name: CosmosAsyncContainerResponse
+  - uid: com.azure.cosmos.models.CosmosAsyncDatabaseResponse
+    name: CosmosAsyncDatabaseResponse
+  - uid: com.azure.cosmos.models.CosmosAsyncItemResponse
+    name: CosmosAsyncItemResponse
+  - uid: com.azure.cosmos.models.CosmosAsyncPermissionResponse
+    name: CosmosAsyncPermissionResponse
+  - uid: com.azure.cosmos.models.CosmosAsyncStoredProcedureResponse
+    name: CosmosAsyncStoredProcedureResponse
+  - uid: com.azure.cosmos.models.CosmosAsyncTriggerResponse
+    name: CosmosAsyncTriggerResponse
+  - uid: com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse
+    name: CosmosAsyncUserDefinedFunctionResponse
+  - uid: com.azure.cosmos.models.CosmosAsyncUserResponse
+    name: CosmosAsyncUserResponse
+  - uid: com.azure.cosmos.models.CosmosConflictProperties
+    name: CosmosConflictProperties
+  - uid: com.azure.cosmos.models.CosmosConflictRequestOptions
+    name: CosmosConflictRequestOptions
+  - uid: com.azure.cosmos.models.CosmosContainerProperties
+    name: CosmosContainerProperties
+  - uid: com.azure.cosmos.models.CosmosContainerRequestOptions
+    name: CosmosContainerRequestOptions
+  - uid: com.azure.cosmos.models.CosmosContainerResponse
+    name: CosmosContainerResponse
+  - uid: com.azure.cosmos.models.CosmosDatabaseProperties
+    name: CosmosDatabaseProperties
+  - uid: com.azure.cosmos.models.CosmosDatabaseRequestOptions
+    name: CosmosDatabaseRequestOptions
+  - uid: com.azure.cosmos.models.CosmosDatabaseResponse
+    name: CosmosDatabaseResponse
+  - uid: com.azure.cosmos.models.CosmosError
+    name: CosmosError
+  - uid: com.azure.cosmos.models.CosmosItemRequestOptions
+    name: CosmosItemRequestOptions
+  - uid: com.azure.cosmos.models.CosmosItemResponse
+    name: CosmosItemResponse
+  - uid: com.azure.cosmos.models.CosmosPermissionProperties
+    name: CosmosPermissionProperties
+  - uid: com.azure.cosmos.models.CosmosPermissionRequestOptions
+    name: CosmosPermissionRequestOptions
+  - uid: com.azure.cosmos.models.CosmosResourceType
+    name: CosmosResourceType
+  - uid: com.azure.cosmos.models.CosmosResponse
+    name: CosmosResponse
+  - uid: com.azure.cosmos.models.CosmosStoredProcedureProperties
+    name: CosmosStoredProcedureProperties
+  - uid: com.azure.cosmos.models.CosmosStoredProcedureRequestOptions
+    name: CosmosStoredProcedureRequestOptions
+  - uid: com.azure.cosmos.models.CosmosStoredProcedureResponse
+    name: CosmosStoredProcedureResponse
+  - uid: com.azure.cosmos.models.CosmosTriggerProperties
+    name: CosmosTriggerProperties
+  - uid: com.azure.cosmos.models.CosmosTriggerResponse
+    name: CosmosTriggerResponse
+  - uid: com.azure.cosmos.models.CosmosUserDefinedFunctionProperties
+    name: CosmosUserDefinedFunctionProperties
+  - uid: com.azure.cosmos.models.CosmosUserDefinedFunctionResponse
+    name: CosmosUserDefinedFunctionResponse
+  - uid: com.azure.cosmos.models.CosmosUserProperties
+    name: CosmosUserProperties
+  - uid: com.azure.cosmos.models.CosmosUserResponse
+    name: CosmosUserResponse
+  - uid: com.azure.cosmos.models.DataType
+    name: DataType
+  - uid: com.azure.cosmos.models.DatabaseAccount
+    name: DatabaseAccount
+  - uid: com.azure.cosmos.models.DatabaseAccountLocation
+    name: DatabaseAccountLocation
+  - uid: com.azure.cosmos.models.ExcludedPath
+    name: ExcludedPath
+  - uid: com.azure.cosmos.models.FeedOptions
+    name: FeedOptions
+  - uid: com.azure.cosmos.models.FeedResponse
+    name: FeedResponse
+  - uid: com.azure.cosmos.models.HashIndex
+    name: HashIndex
+  - uid: com.azure.cosmos.models.IncludedPath
+    name: IncludedPath
+  - uid: com.azure.cosmos.models.Index
+    name: Index
+  - uid: com.azure.cosmos.models.IndexKind
+    name: IndexKind
+  - uid: com.azure.cosmos.models.IndexingDirective
+    name: IndexingDirective
+  - uid: com.azure.cosmos.models.IndexingMode
+    name: IndexingMode
+  - uid: com.azure.cosmos.models.IndexingPolicy
+    name: IndexingPolicy
+  - uid: com.azure.cosmos.models.JsonSerializable
+    name: JsonSerializable
+  - uid: com.azure.cosmos.models.ModelBridgeInternal
+    name: ModelBridgeInternal
+  - uid: com.azure.cosmos.models.PartitionKey
+    name: PartitionKey
+  - uid: com.azure.cosmos.models.PartitionKeyDefinition
+    name: PartitionKeyDefinition
+  - uid: com.azure.cosmos.models.PartitionKeyDefinitionVersion
+    name: PartitionKeyDefinitionVersion
+  - uid: com.azure.cosmos.models.PartitionKind
+    name: PartitionKind
+  - uid: com.azure.cosmos.models.Permission
+    name: Permission
+  - uid: com.azure.cosmos.models.PermissionMode
+    name: PermissionMode
+  - uid: com.azure.cosmos.models.RangeIndex
+    name: RangeIndex
+  - uid: com.azure.cosmos.models.RequestVerb
+    name: RequestVerb
+  - uid: com.azure.cosmos.models.Resource
+    name: Resource
+  - uid: com.azure.cosmos.models.SerializationFormattingPolicy
+    name: SerializationFormattingPolicy
+  - uid: com.azure.cosmos.models.SpatialIndex
+    name: SpatialIndex
+  - uid: com.azure.cosmos.models.SpatialSpec
+    name: SpatialSpec
+  - uid: com.azure.cosmos.models.SpatialType
+    name: SpatialType
+  - uid: com.azure.cosmos.models.SqlParameter
+    name: SqlParameter
+  - uid: com.azure.cosmos.models.SqlParameterList
+    name: SqlParameterList
+  - uid: com.azure.cosmos.models.SqlQuerySpec
+    name: SqlQuerySpec
+  - uid: com.azure.cosmos.models.TriggerOperation
+    name: TriggerOperation
+  - uid: com.azure.cosmos.models.TriggerType
+    name: TriggerType
+  - uid: com.azure.cosmos.models.UniqueKey
+    name: UniqueKey
+  - uid: com.azure.cosmos.models.UniqueKeyPolicy
+    name: UniqueKeyPolicy
 - uid: com.azure.cosmos.implementation.query.orderbyquery
   name: com.azure.cosmos.implementation.query.orderbyquery
   items:
@@ -1986,251 +1996,6 @@
     name: UInt128
   - uid: com.azure.cosmos.implementation.routing.UndefinedPartitionKeyComponent
     name: UndefinedPartitionKeyComponent
-- uid: com.azure.storage.file.datalake
-  name: com.azure.storage.file.datalake
-  items:
-  - uid: com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient
-    name: DataLakeDirectoryAsyncClient
-  - uid: com.azure.storage.file.datalake.DataLakeDirectoryClient
-    name: DataLakeDirectoryClient
-  - uid: com.azure.storage.file.datalake.DataLakeFileAsyncClient
-    name: DataLakeFileAsyncClient
-  - uid: com.azure.storage.file.datalake.DataLakeFileClient
-    name: DataLakeFileClient
-  - uid: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient
-    name: DataLakeFileSystemAsyncClient
-  - uid: com.azure.storage.file.datalake.DataLakeFileSystemClient
-    name: DataLakeFileSystemClient
-  - uid: com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder
-    name: DataLakeFileSystemClientBuilder
-  - uid: com.azure.storage.file.datalake.DataLakePathAsyncClient
-    name: DataLakePathAsyncClient
-  - uid: com.azure.storage.file.datalake.DataLakePathClient
-    name: DataLakePathClient
-  - uid: com.azure.storage.file.datalake.DataLakePathClientBuilder
-    name: DataLakePathClientBuilder
-  - uid: com.azure.storage.file.datalake.DataLakeServiceAsyncClient
-    name: DataLakeServiceAsyncClient
-  - uid: com.azure.storage.file.datalake.DataLakeServiceClient
-    name: DataLakeServiceClient
-  - uid: com.azure.storage.file.datalake.DataLakeServiceClientBuilder
-    name: DataLakeServiceClientBuilder
-  - uid: com.azure.storage.file.datalake.DataLakeServiceVersion
-    name: DataLakeServiceVersion
-  - uid: com.azure.storage.file.datalake.Transforms
-    name: Transforms
-- uid: com.azure.storage.file.datalake.implementation
-  name: com.azure.storage.file.datalake.implementation
-  items:
-  - uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientBuilder
-    name: DataLakeStorageClientBuilder
-  - uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-    name: DataLakeStorageClientImpl
-  - uid: com.azure.storage.file.datalake.implementation.FileSystemsImpl
-    name: FileSystemsImpl
-  - uid: com.azure.storage.file.datalake.implementation.FileSystemsImpl.FileSystemsService
-    name: FileSystemsImpl.FileSystemsService
-  - uid: com.azure.storage.file.datalake.implementation.PathsImpl
-    name: PathsImpl
-  - uid: com.azure.storage.file.datalake.implementation.PathsImpl.PathsService
-    name: PathsImpl.PathsService
-  - uid: com.azure.storage.file.datalake.implementation.ServicesImpl
-    name: ServicesImpl
-  - uid: com.azure.storage.file.datalake.implementation.ServicesImpl.ServicesService
-    name: ServicesImpl.ServicesService
-- uid: com.azure.storage.file.datalake.implementation.models
-  name: com.azure.storage.file.datalake.implementation.models
-  items:
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystem
-    name: FileSystem
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemCreateHeaders
-    name: FileSystemCreateHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemDeleteHeaders
-    name: FileSystemDeleteHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemGetPropertiesHeaders
-    name: FileSystemGetPropertiesHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemList
-    name: FileSystemList
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemListPathsHeaders
-    name: FileSystemListPathsHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemSetPropertiesHeaders
-    name: FileSystemSetPropertiesHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemsCreateResponse
-    name: FileSystemsCreateResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemsDeleteResponse
-    name: FileSystemsDeleteResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemsGetPropertiesResponse
-    name: FileSystemsGetPropertiesResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemsListPathsResponse
-    name: FileSystemsListPathsResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.FileSystemsSetPropertiesResponse
-    name: FileSystemsSetPropertiesResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.LeaseAccessConditions
-    name: LeaseAccessConditions
-  - uid: com.azure.storage.file.datalake.implementation.models.ModifiedAccessConditions
-    name: ModifiedAccessConditions
-  - uid: com.azure.storage.file.datalake.implementation.models.Path
-    name: Path
-  - uid: com.azure.storage.file.datalake.implementation.models.PathAppendDataHeaders
-    name: PathAppendDataHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathCreateHeaders
-    name: PathCreateHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathDeleteHeaders
-    name: PathDeleteHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathFlushDataHeaders
-    name: PathFlushDataHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathGetPropertiesAction
-    name: PathGetPropertiesAction
-  - uid: com.azure.storage.file.datalake.implementation.models.PathGetPropertiesHeaders
-    name: PathGetPropertiesHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathLeaseAction
-    name: PathLeaseAction
-  - uid: com.azure.storage.file.datalake.implementation.models.PathLeaseHeaders
-    name: PathLeaseHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathList
-    name: PathList
-  - uid: com.azure.storage.file.datalake.implementation.models.PathReadHeaders
-    name: PathReadHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathRenameMode
-    name: PathRenameMode
-  - uid: com.azure.storage.file.datalake.implementation.models.PathResourceType
-    name: PathResourceType
-  - uid: com.azure.storage.file.datalake.implementation.models.PathSetAccessControlHeaders
-    name: PathSetAccessControlHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathUpdateAction
-    name: PathUpdateAction
-  - uid: com.azure.storage.file.datalake.implementation.models.PathUpdateHeaders
-    name: PathUpdateHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsAppendDataResponse
-    name: PathsAppendDataResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsCreateResponse
-    name: PathsCreateResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsDeleteResponse
-    name: PathsDeleteResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsFlushDataResponse
-    name: PathsFlushDataResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsGetPropertiesResponse
-    name: PathsGetPropertiesResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsLeaseResponse
-    name: PathsLeaseResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsReadResponse
-    name: PathsReadResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsSetAccessControlResponse
-    name: PathsSetAccessControlResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.PathsUpdateResponse
-    name: PathsUpdateResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.ServiceListFileSystemsHeaders
-    name: ServiceListFileSystemsHeaders
-  - uid: com.azure.storage.file.datalake.implementation.models.ServicesListFileSystemsResponse
-    name: ServicesListFileSystemsResponse
-  - uid: com.azure.storage.file.datalake.implementation.models.SourceModifiedAccessConditions
-    name: SourceModifiedAccessConditions
-  - uid: com.azure.storage.file.datalake.implementation.models.StorageError
-    name: StorageError
-  - uid: com.azure.storage.file.datalake.implementation.models.StorageErrorError
-    name: StorageErrorError
-  - uid: com.azure.storage.file.datalake.implementation.models.StorageErrorException
-    name: StorageErrorException
-- uid: com.azure.storage.file.datalake.models
-  name: com.azure.storage.file.datalake.models
-  items:
-  - uid: com.azure.storage.file.datalake.models.AccessControlType
-    name: AccessControlType
-  - uid: com.azure.storage.file.datalake.models.AccessTier
-    name: AccessTier
-  - uid: com.azure.storage.file.datalake.models.ArchiveStatus
-    name: ArchiveStatus
-  - uid: com.azure.storage.file.datalake.models.CopyStatusType
-    name: CopyStatusType
-  - uid: com.azure.storage.file.datalake.models.DataLakeAccessPolicy
-    name: DataLakeAccessPolicy
-  - uid: com.azure.storage.file.datalake.models.DataLakeRequestConditions
-    name: DataLakeRequestConditions
-  - uid: com.azure.storage.file.datalake.models.DataLakeSignedIdentifier
-    name: DataLakeSignedIdentifier
-  - uid: com.azure.storage.file.datalake.models.DataLakeStorageException
-    name: DataLakeStorageException
-  - uid: com.azure.storage.file.datalake.models.DownloadRetryOptions
-    name: DownloadRetryOptions
-  - uid: com.azure.storage.file.datalake.models.FileRange
-    name: FileRange
-  - uid: com.azure.storage.file.datalake.models.FileReadAsyncResponse
-    name: FileReadAsyncResponse
-  - uid: com.azure.storage.file.datalake.models.FileReadHeaders
-    name: FileReadHeaders
-  - uid: com.azure.storage.file.datalake.models.FileReadResponse
-    name: FileReadResponse
-  - uid: com.azure.storage.file.datalake.models.FileSystemAccessPolicies
-    name: FileSystemAccessPolicies
-  - uid: com.azure.storage.file.datalake.models.FileSystemItem
-    name: FileSystemItem
-  - uid: com.azure.storage.file.datalake.models.FileSystemItemProperties
-    name: FileSystemItemProperties
-  - uid: com.azure.storage.file.datalake.models.FileSystemListDetails
-    name: FileSystemListDetails
-  - uid: com.azure.storage.file.datalake.models.FileSystemProperties
-    name: FileSystemProperties
-  - uid: com.azure.storage.file.datalake.models.LeaseDurationType
-    name: LeaseDurationType
-  - uid: com.azure.storage.file.datalake.models.LeaseStateType
-    name: LeaseStateType
-  - uid: com.azure.storage.file.datalake.models.LeaseStatusType
-    name: LeaseStatusType
-  - uid: com.azure.storage.file.datalake.models.ListFileSystemsIncludeType
-    name: ListFileSystemsIncludeType
-  - uid: com.azure.storage.file.datalake.models.ListFileSystemsOptions
-    name: ListFileSystemsOptions
-  - uid: com.azure.storage.file.datalake.models.ListPathsOptions
-    name: ListPathsOptions
-  - uid: com.azure.storage.file.datalake.models.PathAccessControl
-    name: PathAccessControl
-  - uid: com.azure.storage.file.datalake.models.PathAccessControlEntry
-    name: PathAccessControlEntry
-  - uid: com.azure.storage.file.datalake.models.PathHttpHeaders
-    name: PathHttpHeaders
-  - uid: com.azure.storage.file.datalake.models.PathInfo
-    name: PathInfo
-  - uid: com.azure.storage.file.datalake.models.PathItem
-    name: PathItem
-  - uid: com.azure.storage.file.datalake.models.PathPermissions
-    name: PathPermissions
-  - uid: com.azure.storage.file.datalake.models.PathProperties
-    name: PathProperties
-  - uid: com.azure.storage.file.datalake.models.PublicAccessType
-    name: PublicAccessType
-  - uid: com.azure.storage.file.datalake.models.RolePermissions
-    name: RolePermissions
-  - uid: com.azure.storage.file.datalake.models.UserDelegationKey
-    name: UserDelegationKey
-- uid: com.azure.storage.file.datalake.sas
-  name: com.azure.storage.file.datalake.sas
-  items:
-  - uid: com.azure.storage.file.datalake.sas.DataLakeServiceSasSignatureValues
-    name: DataLakeServiceSasSignatureValues
-  - uid: com.azure.storage.file.datalake.sas.FileSystemSasPermission
-    name: FileSystemSasPermission
-  - uid: com.azure.storage.file.datalake.sas.PathSasPermission
-    name: PathSasPermission
-- uid: com.azure.storage.file.datalake.specialized
-  name: com.azure.storage.file.datalake.specialized
-  items:
-  - uid: com.azure.storage.file.datalake.specialized.DataLakeLeaseAsyncClient
-    name: DataLakeLeaseAsyncClient
-  - uid: com.azure.storage.file.datalake.specialized.DataLakeLeaseClient
-    name: DataLakeLeaseClient
-  - uid: com.azure.storage.file.datalake.specialized.DataLakeLeaseClientBuilder
-    name: DataLakeLeaseClientBuilder
-- uid: com.azure.storage.file.datalake.implementation.util
-  name: com.azure.storage.file.datalake.implementation.util
-  items:
-  - uid: com.azure.storage.file.datalake.implementation.util.BuilderHelper
-    name: BuilderHelper
-  - uid: com.azure.storage.file.datalake.implementation.util.DataLakeHeadersAndQueryParameters
-    name: DataLakeHeadersAndQueryParameters
-  - uid: com.azure.storage.file.datalake.implementation.util.DataLakeImplUtils
-    name: DataLakeImplUtils
-  - uid: com.azure.storage.file.datalake.implementation.util.TransformUtils
-    name: TransformUtils
 - uid: com.azure.storage.blob.batch
   name: com.azure.storage.blob.batch
   items:
@@ -2345,36 +2110,30 @@
     name: DetectedLanguage
   - uid: com.azure.ai.textanalytics.models.DocumentResult
     name: DocumentResult
-  - uid: com.azure.ai.textanalytics.models.DocumentResultCollection
-    name: DocumentResultCollection
   - uid: com.azure.ai.textanalytics.models.DocumentSentiment
     name: DocumentSentiment
+  - uid: com.azure.ai.textanalytics.models.EntityCategory
+    name: EntityCategory
   - uid: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult
     name: ExtractKeyPhraseResult
-  - uid: com.azure.ai.textanalytics.models.InnerError
-    name: InnerError
   - uid: com.azure.ai.textanalytics.models.LinkedEntity
     name: LinkedEntity
   - uid: com.azure.ai.textanalytics.models.LinkedEntityMatch
     name: LinkedEntityMatch
   - uid: com.azure.ai.textanalytics.models.PiiEntity
     name: PiiEntity
-  - uid: com.azure.ai.textanalytics.models.RecognizeEntitiesResult
-    name: RecognizeEntitiesResult
+  - uid: com.azure.ai.textanalytics.models.RecognizeCategorizedEntitiesResult
+    name: RecognizeCategorizedEntitiesResult
   - uid: com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult
     name: RecognizeLinkedEntitiesResult
   - uid: com.azure.ai.textanalytics.models.RecognizePiiEntitiesResult
     name: RecognizePiiEntitiesResult
   - uid: com.azure.ai.textanalytics.models.SentenceSentiment
     name: SentenceSentiment
-  - uid: com.azure.ai.textanalytics.models.SentimentLabel
-    name: SentimentLabel
-  - uid: com.azure.ai.textanalytics.models.SentimentScorePerLabel
-    name: SentimentScorePerLabel
+  - uid: com.azure.ai.textanalytics.models.SentimentConfidenceScores
+    name: SentimentConfidenceScores
   - uid: com.azure.ai.textanalytics.models.TextAnalyticsApiKeyCredential
     name: TextAnalyticsApiKeyCredential
-  - uid: com.azure.ai.textanalytics.models.TextAnalyticsClientOptions
-    name: TextAnalyticsClientOptions
   - uid: com.azure.ai.textanalytics.models.TextAnalyticsError
     name: TextAnalyticsError
   - uid: com.azure.ai.textanalytics.models.TextAnalyticsErrorCode
@@ -2389,6 +2148,8 @@
     name: TextDocumentInput
   - uid: com.azure.ai.textanalytics.models.TextDocumentStatistics
     name: TextDocumentStatistics
+  - uid: com.azure.ai.textanalytics.models.TextSentiment
+    name: TextSentiment
 - uid: com.azure.ai.textanalytics
   name: com.azure.ai.textanalytics
   items:
@@ -2414,6 +2175,15 @@
     name: TextAnalyticsServiceVersion
   - uid: com.azure.ai.textanalytics.Transforms
     name: Transforms
+- uid: com.azure.ai.textanalytics.util
+  name: com.azure.ai.textanalytics.util
+  items:
+  - uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux
+    name: TextAnalyticsPagedFlux
+  - uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable
+    name: TextAnalyticsPagedIterable
+  - uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse
+    name: TextAnalyticsPagedResponse
 - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation
   name: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation
   items:

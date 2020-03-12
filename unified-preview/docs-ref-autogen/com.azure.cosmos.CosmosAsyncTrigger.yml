@@ -11,7 +11,7 @@ items:
   - "com.azure.cosmos.CosmosAsyncTrigger.getParentLink()"
   - "com.azure.cosmos.CosmosAsyncTrigger.getURIPathSegment()"
   - "com.azure.cosmos.CosmosAsyncTrigger.read()"
-  - "com.azure.cosmos.CosmosAsyncTrigger.replace(com.azure.cosmos.CosmosTriggerProperties)"
+  - "com.azure.cosmos.CosmosAsyncTrigger.replace(com.azure.cosmos.models.CosmosTriggerProperties)"
   - "com.azure.cosmos.CosmosAsyncTrigger.setId(java.lang.String)"
   langs:
   - "java"
@@ -20,6 +20,7 @@ items:
   fullName: "com.azure.cosmos.CosmosAsyncTrigger"
   type: "Class"
   package: "com.azure.cosmos"
+  summary: "The type Cosmos async trigger. This contains methods to operate on a cosmos trigger asynchronously"
   syntax:
     content: "public class CosmosAsyncTrigger"
   inheritance:
@@ -69,7 +70,7 @@ items:
   syntax:
     content: "public Mono<CosmosAsyncTriggerResponse> delete()"
     return:
-      type: "reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncTriggerResponse>"
+      type: "reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosAsyncTriggerResponse>"
       description: "an <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the single resource response for the deleted cosmos trigger or an error."
 - uid: "com.azure.cosmos.CosmosAsyncTrigger.getId()"
   id: "getId()"
@@ -148,10 +149,10 @@ items:
   syntax:
     content: "public Mono<CosmosAsyncTriggerResponse> read()"
     return:
-      type: "reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncTriggerResponse>"
+      type: "reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosAsyncTriggerResponse>"
       description: "an <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the single resource response for the read cosmos trigger or an error."
-- uid: "com.azure.cosmos.CosmosAsyncTrigger.replace(com.azure.cosmos.CosmosTriggerProperties)"
-  id: "replace(com.azure.cosmos.CosmosTriggerProperties)"
+- uid: "com.azure.cosmos.CosmosAsyncTrigger.replace(com.azure.cosmos.models.CosmosTriggerProperties)"
+  id: "replace(com.azure.cosmos.models.CosmosTriggerProperties)"
   parent: "com.azure.cosmos.CosmosAsyncTrigger"
   langs:
   - "java"
@@ -166,10 +167,10 @@ items:
     content: "public Mono<CosmosAsyncTriggerResponse> replace(CosmosTriggerProperties triggerSettings)"
     parameters:
     - id: "triggerSettings"
-      type: "com.azure.cosmos.CosmosTriggerProperties"
+      type: "com.azure.cosmos.models.CosmosTriggerProperties"
       description: "the cosmos trigger properties."
     return:
-      type: "reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncTriggerResponse>"
+      type: "reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosAsyncTriggerResponse>"
       description: "an <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the single resource response with the replaced cosmos trigger or an error."
 - uid: "com.azure.cosmos.CosmosAsyncTrigger.setId(java.lang.String)"
   id: "setId(java.lang.String)"
@@ -217,16 +218,16 @@ references:
   nameWithType: "CosmosAsyncTrigger.setId"
   fullName: "com.azure.cosmos.CosmosAsyncTrigger.setId"
   package: "com.azure.cosmos"
-- uid: "reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncTriggerResponse>"
+- uid: "reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosAsyncTriggerResponse>"
   spec.java:
   - uid: "reactor.core.publisher.Mono"
     name: "Mono"
     fullName: "reactor.core.publisher.Mono"
   - name: "<"
     fullName: "<"
-  - uid: "com.azure.cosmos.CosmosAsyncTriggerResponse"
+  - uid: "com.azure.cosmos.models.CosmosAsyncTriggerResponse"
     name: "CosmosAsyncTriggerResponse"
-    fullName: "com.azure.cosmos.CosmosAsyncTriggerResponse"
+    fullName: "com.azure.cosmos.models.CosmosAsyncTriggerResponse"
   - name: ">"
     fullName: ">"
 - uid: "com.azure.cosmos.CosmosAsyncTrigger.read*"
@@ -234,10 +235,10 @@ references:
   nameWithType: "CosmosAsyncTrigger.read"
   fullName: "com.azure.cosmos.CosmosAsyncTrigger.read"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.CosmosTriggerProperties"
+- uid: "com.azure.cosmos.models.CosmosTriggerProperties"
   name: "CosmosTriggerProperties"
   nameWithType: "CosmosTriggerProperties"
-  fullName: "com.azure.cosmos.CosmosTriggerProperties"
+  fullName: "com.azure.cosmos.models.CosmosTriggerProperties"
 - uid: "com.azure.cosmos.CosmosAsyncTrigger.replace*"
   name: "replace"
   nameWithType: "CosmosAsyncTrigger.replace"
@@ -311,7 +312,7 @@ references:
   name: "Mono"
   nameWithType: "Mono"
   fullName: "reactor.core.publisher.Mono"
-- uid: "com.azure.cosmos.CosmosAsyncTriggerResponse"
+- uid: "com.azure.cosmos.models.CosmosAsyncTriggerResponse"
   name: "CosmosAsyncTriggerResponse"
   nameWithType: "CosmosAsyncTriggerResponse"
-  fullName: "com.azure.cosmos.CosmosAsyncTriggerResponse"
+  fullName: "com.azure.cosmos.models.CosmosAsyncTriggerResponse"

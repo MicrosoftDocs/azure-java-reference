@@ -4,7 +4,7 @@ items:
   id: "ServiceItemLeaseUpdater"
   parent: "com.azure.cosmos.implementation.changefeed"
   children:
-  - "com.azure.cosmos.implementation.changefeed.ServiceItemLeaseUpdater.updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.PartitionKey,com.azure.cosmos.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
+  - "com.azure.cosmos.implementation.changefeed.ServiceItemLeaseUpdater.updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.models.PartitionKey,com.azure.cosmos.models.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
   langs:
   - "java"
   name: "ServiceItemLeaseUpdater"
@@ -15,8 +15,8 @@ items:
   summary: "Interface for service lease updater."
   syntax:
     content: "public interface ServiceItemLeaseUpdater"
-- uid: "com.azure.cosmos.implementation.changefeed.ServiceItemLeaseUpdater.updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.PartitionKey,com.azure.cosmos.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
-  id: "updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.PartitionKey,com.azure.cosmos.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
+- uid: "com.azure.cosmos.implementation.changefeed.ServiceItemLeaseUpdater.updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.models.PartitionKey,com.azure.cosmos.models.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
+  id: "updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.models.PartitionKey,com.azure.cosmos.models.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
   parent: "com.azure.cosmos.implementation.changefeed.ServiceItemLeaseUpdater"
   langs:
   - "java"
@@ -34,9 +34,9 @@ items:
     - id: "itemId"
       type: "java.lang.String"
     - id: "partitionKey"
-      type: "com.azure.cosmos.PartitionKey"
+      type: "com.azure.cosmos.models.PartitionKey"
     - id: "requestOptions"
-      type: "com.azure.cosmos.CosmosItemRequestOptions"
+      type: "com.azure.cosmos.models.CosmosItemRequestOptions"
     - id: "updateLease"
       type: "java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>"
     return:
@@ -51,14 +51,14 @@ references:
   - uid: "java.lang.String"
     name: "String"
     fullName: "java.lang.String"
-- uid: "com.azure.cosmos.PartitionKey"
+- uid: "com.azure.cosmos.models.PartitionKey"
   name: "PartitionKey"
   nameWithType: "PartitionKey"
-  fullName: "com.azure.cosmos.PartitionKey"
-- uid: "com.azure.cosmos.CosmosItemRequestOptions"
+  fullName: "com.azure.cosmos.models.PartitionKey"
+- uid: "com.azure.cosmos.models.CosmosItemRequestOptions"
   name: "CosmosItemRequestOptions"
   nameWithType: "CosmosItemRequestOptions"
-  fullName: "com.azure.cosmos.CosmosItemRequestOptions"
+  fullName: "com.azure.cosmos.models.CosmosItemRequestOptions"
 - uid: "java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>"
   spec.java:
   - uid: "java.util.function.Function"

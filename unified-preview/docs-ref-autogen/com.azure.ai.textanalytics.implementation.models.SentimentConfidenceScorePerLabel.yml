@@ -119,7 +119,7 @@ items:
       description: "the negative value to set."
     return:
       type: "com.azure.ai.textanalytics.implementation.models.SentimentConfidenceScorePerLabel"
-      description: "the SentimentConfidenceScorePerLabel object itself."
+      description: "the SentimentConfidenceScores object itself."
 - uid: "com.azure.ai.textanalytics.implementation.models.SentimentConfidenceScorePerLabel.setNeutral(double)"
   id: "setNeutral(double)"
   parent: "com.azure.ai.textanalytics.implementation.models.SentimentConfidenceScorePerLabel"
@@ -140,7 +140,7 @@ items:
       description: "the neutral value to set."
     return:
       type: "com.azure.ai.textanalytics.implementation.models.SentimentConfidenceScorePerLabel"
-      description: "the SentimentConfidenceScorePerLabel object itself."
+      description: "the SentimentConfidenceScores object itself."
 - uid: "com.azure.ai.textanalytics.implementation.models.SentimentConfidenceScorePerLabel.setPositive(double)"
   id: "setPositive(double)"
   parent: "com.azure.ai.textanalytics.implementation.models.SentimentConfidenceScorePerLabel"
@@ -161,7 +161,7 @@ items:
       description: "the positive value to set."
     return:
       type: "com.azure.ai.textanalytics.implementation.models.SentimentConfidenceScorePerLabel"
-      description: "the SentimentConfidenceScorePerLabel object itself."
+      description: "the SentimentConfidenceScores object itself."
 references:
 - uid: "com.azure.ai.textanalytics.implementation.models.SentimentConfidenceScorePerLabel.SentimentConfidenceScorePerLabel*"
   name: "SentimentConfidenceScorePerLabel"

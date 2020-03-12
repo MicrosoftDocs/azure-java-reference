@@ -13,6 +13,7 @@ items:
   - "com.azure.cosmos.implementation.http.ReactorNettyClient"
   - "com.azure.cosmos.implementation.http.ReactorNettyClient.ReactorNettyHttpResponse"
   - "com.azure.cosmos.implementation.http.ReactorNettyRequestRecord"
+  - "com.azure.cosmos.implementation.http.SharedGatewayHttpClient"
   langs:
   - "java"
   name: "com.azure.cosmos.implementation.http"
@@ -62,3 +63,7 @@ references:
   name: "ReactorNettyRequestRecord"
   nameWithType: "ReactorNettyRequestRecord"
   fullName: "com.azure.cosmos.implementation.http.ReactorNettyRequestRecord"
+- uid: "com.azure.cosmos.implementation.http.SharedGatewayHttpClient"
+  name: "SharedGatewayHttpClient"
+  nameWithType: "SharedGatewayHttpClient"
+  fullName: "com.azure.cosmos.implementation.http.SharedGatewayHttpClient"

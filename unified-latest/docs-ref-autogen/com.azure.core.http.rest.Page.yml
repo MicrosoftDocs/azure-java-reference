@@ -4,7 +4,6 @@ items:
   id: "Page"
   parent: "com.azure.core.http.rest"
   children:
-  - "com.azure.core.http.rest.Page.getContinuationToken()"
   - "com.azure.core.http.rest.Page.getItems()"
   langs:
   - "java"
@@ -15,26 +14,11 @@ items:
   package: "com.azure.core.http.rest"
   summary: "Represents a paginated REST response from the service."
   syntax:
-    content: "public interface Page<T>"
+    content: "public interface Page<T> extends ContinuablePage<String,T>"
     typeParameters:
     - id: "T"
-- uid: "com.azure.core.http.rest.Page.getContinuationToken()"
-  id: "getContinuationToken()"
-  parent: "com.azure.core.http.rest.Page"
-  langs:
-  - "java"
-  name: "getContinuationToken()"
-  nameWithType: "Page<T>.getContinuationToken()"
-  fullName: "com.azure.core.http.rest.Page<T>.getContinuationToken()"
-  overload: "com.azure.core.http.rest.Page.getContinuationToken*"
-  type: "Method"
-  package: "com.azure.core.http.rest"
-  summary: "Gets a link to the next page, or `null` if there are no more results."
-  syntax:
-    content: "public abstract String getContinuationToken()"
-    return:
-      type: "java.lang.String"
-      description: "A link to the next page, or <code>null</code> if there are no more results."
+  implements:
+  - "com.azure.core.util.paging.ContinuablePage<java.lang.String,T>"
 - uid: "com.azure.core.http.rest.Page.getItems()"
   id: "getItems()"
   parent: "com.azure.core.http.rest.Page"
@@ -46,12 +30,12 @@ items:
   overload: "com.azure.core.http.rest.Page.getItems*"
   type: "Method"
   package: "com.azure.core.http.rest"
-  summary: "Gets a list of items returned from the service."
+  summary: "Get list of elements in the page."
   syntax:
-    content: "public abstract List<T> getItems()"
+    content: "public default List<T> getItems()"
     return:
       type: "java.util.List<T>"
-      description: "A list of items from the service."
+      description: "the page elements"
 references:
 - uid: "java.util.List<T>"
   spec.java:
@@ -70,21 +54,23 @@ references:
   nameWithType: "Page<T>.getItems"
   fullName: "com.azure.core.http.rest.Page<T>.getItems"
   package: "com.azure.core.http.rest"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.azure.core.http.rest.Page.getContinuationToken*"
-  name: "getContinuationToken"
-  nameWithType: "Page<T>.getContinuationToken"
-  fullName: "com.azure.core.http.rest.Page<T>.getContinuationToken"
-  package: "com.azure.core.http.rest"
 - uid: "T"
   name: "T"
   nameWithType: "T"
   fullName: "T"
+- uid: "com.azure.core.util.paging.ContinuablePage<java.lang.String,T>"
+  name: "ContinuablePage<String,T>"
+  nameWithType: "ContinuablePage<String,T>"
+  fullName: "com.azure.core.util.paging.ContinuablePage<java.lang.String,T>"
 - uid: "java.util.List"
   name: "List"
   nameWithType: "List"
   fullName: "java.util.List"
+- uid: "java.lang.String,T"
+  name: "String,T"
+  nameWithType: "String,T"
+  fullName: "java.lang.String,T"
+- uid: "com.azure.core.util.paging.ContinuablePage"
+  name: "ContinuablePage"
+  nameWithType: "ContinuablePage"
+  fullName: "com.azure.core.util.paging.ContinuablePage"

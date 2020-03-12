@@ -11,7 +11,7 @@ items:
   - "com.azure.cosmos.CosmosAsyncUserDefinedFunction.getParentLink()"
   - "com.azure.cosmos.CosmosAsyncUserDefinedFunction.getURIPathSegment()"
   - "com.azure.cosmos.CosmosAsyncUserDefinedFunction.read()"
-  - "com.azure.cosmos.CosmosAsyncUserDefinedFunction.replace(com.azure.cosmos.CosmosUserDefinedFunctionProperties)"
+  - "com.azure.cosmos.CosmosAsyncUserDefinedFunction.replace(com.azure.cosmos.models.CosmosUserDefinedFunctionProperties)"
   - "com.azure.cosmos.CosmosAsyncUserDefinedFunction.setId(java.lang.String)"
   langs:
   - "java"
@@ -20,6 +20,7 @@ items:
   fullName: "com.azure.cosmos.CosmosAsyncUserDefinedFunction"
   type: "Class"
   package: "com.azure.cosmos"
+  summary: "The type Cosmos async user defined function."
   syntax:
     content: "public class CosmosAsyncUserDefinedFunction"
   inheritance:
@@ -69,7 +70,7 @@ items:
   syntax:
     content: "public Mono<CosmosAsyncUserDefinedFunctionResponse> delete()"
     return:
-      type: "reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse>"
+      type: "reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse>"
       description: "an <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the single resource response for the deleted cosmos user defined function or\n an error."
 - uid: "com.azure.cosmos.CosmosAsyncUserDefinedFunction.getId()"
   id: "getId()"
@@ -148,10 +149,10 @@ items:
   syntax:
     content: "public Mono<CosmosAsyncUserDefinedFunctionResponse> read()"
     return:
-      type: "reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse>"
+      type: "reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse>"
       description: "an <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the single resource response for the read user defined function or an error."
-- uid: "com.azure.cosmos.CosmosAsyncUserDefinedFunction.replace(com.azure.cosmos.CosmosUserDefinedFunctionProperties)"
-  id: "replace(com.azure.cosmos.CosmosUserDefinedFunctionProperties)"
+- uid: "com.azure.cosmos.CosmosAsyncUserDefinedFunction.replace(com.azure.cosmos.models.CosmosUserDefinedFunctionProperties)"
+  id: "replace(com.azure.cosmos.models.CosmosUserDefinedFunctionProperties)"
   parent: "com.azure.cosmos.CosmosAsyncUserDefinedFunction"
   langs:
   - "java"
@@ -166,10 +167,10 @@ items:
     content: "public Mono<CosmosAsyncUserDefinedFunctionResponse> replace(CosmosUserDefinedFunctionProperties udfSettings)"
     parameters:
     - id: "udfSettings"
-      type: "com.azure.cosmos.CosmosUserDefinedFunctionProperties"
+      type: "com.azure.cosmos.models.CosmosUserDefinedFunctionProperties"
       description: "the cosmos user defined function properties."
     return:
-      type: "reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse>"
+      type: "reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse>"
       description: "an <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the single resource response with the replaced cosmos user defined function\n or an error."
 - uid: "com.azure.cosmos.CosmosAsyncUserDefinedFunction.setId(java.lang.String)"
   id: "setId(java.lang.String)"
@@ -217,16 +218,16 @@ references:
   nameWithType: "CosmosAsyncUserDefinedFunction.setId"
   fullName: "com.azure.cosmos.CosmosAsyncUserDefinedFunction.setId"
   package: "com.azure.cosmos"
-- uid: "reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse>"
+- uid: "reactor.core.publisher.Mono<com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse>"
   spec.java:
   - uid: "reactor.core.publisher.Mono"
     name: "Mono"
     fullName: "reactor.core.publisher.Mono"
   - name: "<"
     fullName: "<"
-  - uid: "com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse"
+  - uid: "com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse"
     name: "CosmosAsyncUserDefinedFunctionResponse"
-    fullName: "com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse"
+    fullName: "com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse"
   - name: ">"
     fullName: ">"
 - uid: "com.azure.cosmos.CosmosAsyncUserDefinedFunction.read*"
@@ -234,10 +235,10 @@ references:
   nameWithType: "CosmosAsyncUserDefinedFunction.read"
   fullName: "com.azure.cosmos.CosmosAsyncUserDefinedFunction.read"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.CosmosUserDefinedFunctionProperties"
+- uid: "com.azure.cosmos.models.CosmosUserDefinedFunctionProperties"
   name: "CosmosUserDefinedFunctionProperties"
   nameWithType: "CosmosUserDefinedFunctionProperties"
-  fullName: "com.azure.cosmos.CosmosUserDefinedFunctionProperties"
+  fullName: "com.azure.cosmos.models.CosmosUserDefinedFunctionProperties"
 - uid: "com.azure.cosmos.CosmosAsyncUserDefinedFunction.replace*"
   name: "replace"
   nameWithType: "CosmosAsyncUserDefinedFunction.replace"
@@ -311,7 +312,7 @@ references:
   name: "Mono"
   nameWithType: "Mono"
   fullName: "reactor.core.publisher.Mono"
-- uid: "com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse"
+- uid: "com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse"
   name: "CosmosAsyncUserDefinedFunctionResponse"
   nameWithType: "CosmosAsyncUserDefinedFunctionResponse"
-  fullName: "com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse"
+  fullName: "com.azure.cosmos.models.CosmosAsyncUserDefinedFunctionResponse"
