@@ -2414,3 +2414,585 @@
     name: TextAnalyticsServiceVersion
   - uid: com.azure.ai.textanalytics.Transforms
     name: Transforms
+- uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation
+  name: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation
+  items:
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ApplicationImpl
+    name: ApplicationImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ApplicationInner
+    name: ApplicationInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ApplicationsImpl
+    name: ApplicationsImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ApplicationsInner
+    name: ApplicationsInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ApplicationsInner.ApplicationsService
+    name: ApplicationsInner.ApplicationsService
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.BillingResponseListResultImpl
+    name: BillingResponseListResultImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.BillingResponseListResultInner
+    name: BillingResponseListResultInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.CapabilitiesResultImpl
+    name: CapabilitiesResultImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.CapabilitiesResultInner
+    name: CapabilitiesResultInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClusterConfigurationsImpl
+    name: ClusterConfigurationsImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClusterConfigurationsInner
+    name: ClusterConfigurationsInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClusterImpl
+    name: ClusterImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClusterInner
+    name: ClusterInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClusterMonitoringResponseImpl
+    name: ClusterMonitoringResponseImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClusterMonitoringResponseInner
+    name: ClusterMonitoringResponseInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClustersImpl
+    name: ClustersImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClustersInner
+    name: ClustersInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ClustersInner.ClustersService
+    name: ClustersInner.ClustersService
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ConfigurationsImpl
+    name: ConfigurationsImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ConfigurationsInner
+    name: ConfigurationsInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ConfigurationsInner.ConfigurationsService
+    name: ConfigurationsInner.ConfigurationsService
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ExtensionImpl
+    name: ExtensionImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ExtensionInner
+    name: ExtensionInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ExtensionsImpl
+    name: ExtensionsImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ExtensionsInner
+    name: ExtensionsInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ExtensionsInner.ExtensionsService
+    name: ExtensionsInner.ExtensionsService
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.GatewaySettingsImpl
+    name: GatewaySettingsImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.GatewaySettingsInner
+    name: GatewaySettingsInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.HDInsightManagementClientImpl
+    name: HDInsightManagementClientImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.HDInsightManager
+    name: HDInsightManager
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.HDInsightManager.Configurable
+    name: HDInsightManager.Configurable
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.HDInsightManager.ConfigurableImpl
+    name: HDInsightManager.ConfigurableImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.IdParsingUtils
+    name: IdParsingUtils
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.LocationsImpl
+    name: LocationsImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.LocationsInner
+    name: LocationsInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.LocationsInner.LocationsService
+    name: LocationsInner.LocationsService
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.OperationImpl
+    name: OperationImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.OperationInner
+    name: OperationInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.OperationsImpl
+    name: OperationsImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.OperationsInner
+    name: OperationsInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.OperationsInner.OperationsService
+    name: OperationsInner.OperationsService
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.PageImpl
+    name: PageImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.RuntimeScriptActionDetailImpl
+    name: RuntimeScriptActionDetailImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.RuntimeScriptActionDetailInner
+    name: RuntimeScriptActionDetailInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ScriptActionInner
+    name: ScriptActionInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ScriptActionsImpl
+    name: ScriptActionsImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ScriptActionsInner
+    name: ScriptActionsInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ScriptActionsInner.ScriptActionsService
+    name: ScriptActionsInner.ScriptActionsService
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ScriptExecutionHistorysImpl
+    name: ScriptExecutionHistorysImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ScriptExecutionHistorysInner
+    name: ScriptExecutionHistorysInner
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.ScriptExecutionHistorysInner.ScriptExecutionHistorysService
+    name: ScriptExecutionHistorysInner.ScriptExecutionHistorysService
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.UsagesListResultImpl
+    name: UsagesListResultImpl
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation.UsagesListResultInner
+    name: UsagesListResultInner
+- uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview
+  name: com.microsoft.azure.management.hdinsight.v2018_06_01_preview
+  items:
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application
+    name: Application
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.Definition
+    name: Application.Definition
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.DefinitionStages
+    name: Application.DefinitionStages
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.DefinitionStages.Blank
+    name: Application.DefinitionStages.Blank
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.DefinitionStages.WithCluster
+    name: Application.DefinitionStages.WithCluster
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.DefinitionStages.WithCreate
+    name: Application.DefinitionStages.WithCreate
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.DefinitionStages.WithEtag
+    name: Application.DefinitionStages.WithEtag
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.DefinitionStages.WithProperties
+    name: Application.DefinitionStages.WithProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.DefinitionStages.WithTags
+    name: Application.DefinitionStages.WithTags
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.Update
+    name: Application.Update
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.UpdateStages
+    name: Application.UpdateStages
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.UpdateStages.WithEtag
+    name: Application.UpdateStages.WithEtag
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.UpdateStages.WithProperties
+    name: Application.UpdateStages.WithProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Application.UpdateStages.WithTags
+    name: Application.UpdateStages.WithTags
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ApplicationGetEndpoint
+    name: ApplicationGetEndpoint
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ApplicationGetHttpsEndpoint
+    name: ApplicationGetHttpsEndpoint
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ApplicationProperties
+    name: ApplicationProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Applications
+    name: Applications
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.AsyncOperationState
+    name: AsyncOperationState
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Autoscale
+    name: Autoscale
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.AutoscaleCapacity
+    name: AutoscaleCapacity
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.AutoscaleRecurrence
+    name: AutoscaleRecurrence
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.AutoscaleSchedule
+    name: AutoscaleSchedule
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.AutoscaleTimeAndCapacity
+    name: AutoscaleTimeAndCapacity
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.BillingMeters
+    name: BillingMeters
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.BillingResources
+    name: BillingResources
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.BillingResponseListResult
+    name: BillingResponseListResult
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.CapabilitiesResult
+    name: CapabilitiesResult
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClientGroupInfo
+    name: ClientGroupInfo
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster
+    name: Cluster
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.Definition
+    name: Cluster.Definition
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.DefinitionStages
+    name: Cluster.DefinitionStages
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.DefinitionStages.Blank
+    name: Cluster.DefinitionStages.Blank
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.DefinitionStages.WithCreate
+    name: Cluster.DefinitionStages.WithCreate
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.DefinitionStages.WithGroup
+    name: Cluster.DefinitionStages.WithGroup
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.DefinitionStages.WithIdentity
+    name: Cluster.DefinitionStages.WithIdentity
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.DefinitionStages.WithProperties
+    name: Cluster.DefinitionStages.WithProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.Update
+    name: Cluster.Update
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.UpdateStages
+    name: Cluster.UpdateStages
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.UpdateStages.WithIdentity
+    name: Cluster.UpdateStages.WithIdentity
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Cluster.UpdateStages.WithProperties
+    name: Cluster.UpdateStages.WithProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterConfigurations
+    name: ClusterConfigurations
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterCreateParametersExtended
+    name: ClusterCreateParametersExtended
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterCreateProperties
+    name: ClusterCreateProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterDefinition
+    name: ClusterDefinition
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterDiskEncryptionParameters
+    name: ClusterDiskEncryptionParameters
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterGetProperties
+    name: ClusterGetProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterIdentity
+    name: ClusterIdentity
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterIdentityUserAssignedIdentitiesValue
+    name: ClusterIdentityUserAssignedIdentitiesValue
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterListPersistedScriptActionsResult
+    name: ClusterListPersistedScriptActionsResult
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterListRuntimeScriptActionDetailResult
+    name: ClusterListRuntimeScriptActionDetailResult
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterMonitoringRequest
+    name: ClusterMonitoringRequest
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterMonitoringResponse
+    name: ClusterMonitoringResponse
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterPatchParameters
+    name: ClusterPatchParameters
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ClusterResizeParameters
+    name: ClusterResizeParameters
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Clusters
+    name: Clusters
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ComputeProfile
+    name: ComputeProfile
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Configurations
+    name: Configurations
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ConnectivityEndpoint
+    name: ConnectivityEndpoint
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.DataDisksGroups
+    name: DataDisksGroups
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.DaysOfWeek
+    name: DaysOfWeek
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.DirectoryType
+    name: DirectoryType
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.DiskBillingMeters
+    name: DiskBillingMeters
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.DiskEncryptionProperties
+    name: DiskEncryptionProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ErrorResponse
+    name: ErrorResponse
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ErrorResponseException
+    name: ErrorResponseException
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Errors
+    name: Errors
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ExecuteScriptActionParameters
+    name: ExecuteScriptActionParameters
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Extension
+    name: Extension
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Extensions
+    name: Extensions
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.FilterMode
+    name: FilterMode
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.GatewaySettings
+    name: GatewaySettings
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.HDInsightClusterProvisioningState
+    name: HDInsightClusterProvisioningState
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.HardwareProfile
+    name: HardwareProfile
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.JsonWebKeyEncryptionAlgorithm
+    name: JsonWebKeyEncryptionAlgorithm
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.KafkaRestProperties
+    name: KafkaRestProperties
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.LinuxOperatingSystemProfile
+    name: LinuxOperatingSystemProfile
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.LocalizedName
+    name: LocalizedName
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Locations
+    name: Locations
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.OSType
+    name: OSType
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Operation
+    name: Operation
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.OperationDisplay
+    name: OperationDisplay
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.OperationResource
+    name: OperationResource
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Operations
+    name: Operations
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.OsProfile
+    name: OsProfile
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.QuotaCapability
+    name: QuotaCapability
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.QuotaInfo
+    name: QuotaInfo
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.RegionalQuotaCapability
+    name: RegionalQuotaCapability
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.RegionsCapability
+    name: RegionsCapability
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ResourceIdentityType
+    name: ResourceIdentityType
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Role
+    name: Role
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.RuntimeScriptAction
+    name: RuntimeScriptAction
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.RuntimeScriptActionDetail
+    name: RuntimeScriptActionDetail
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ScriptActionExecutionSummary
+    name: ScriptActionExecutionSummary
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ScriptActionPersistedGetResponseSpec
+    name: ScriptActionPersistedGetResponseSpec
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ScriptActions
+    name: ScriptActions
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.ScriptExecutionHistorys
+    name: ScriptExecutionHistorys
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.SecurityProfile
+    name: SecurityProfile
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.SshProfile
+    name: SshProfile
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.SshPublicKey
+    name: SshPublicKey
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.StorageAccount
+    name: StorageAccount
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.StorageProfile
+    name: StorageProfile
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Tier
+    name: Tier
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.UpdateGatewaySettingsParameters
+    name: UpdateGatewaySettingsParameters
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.Usage
+    name: Usage
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.UsagesListResult
+    name: UsagesListResult
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.VersionSpec
+    name: VersionSpec
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.VersionsCapability
+    name: VersionsCapability
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.VirtualNetworkProfile
+    name: VirtualNetworkProfile
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.VmSizeCompatibilityFilter
+    name: VmSizeCompatibilityFilter
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.VmSizeCompatibilityFilterV2
+    name: VmSizeCompatibilityFilterV2
+  - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.VmSizesCapability
+    name: VmSizesCapability
+- uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation
+  name: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation
+  items:
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.CheckNameAvailabilityResponseInner
+    name: CheckNameAvailabilityResponseInner
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.IdParsingUtils
+    name: IdParsingUtils
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.MixedRealityClientImpl
+    name: MixedRealityClientImpl
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.MixedRealityClientImpl.MixedRealityClientService
+    name: MixedRealityClientImpl.MixedRealityClientService
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.MixedRealityManager
+    name: MixedRealityManager
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.MixedRealityManager.Configurable
+    name: MixedRealityManager.Configurable
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.MixedRealityManager.ConfigurableImpl
+    name: MixedRealityManager.ConfigurableImpl
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.OperationImpl
+    name: OperationImpl
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.OperationInner
+    name: OperationInner
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.OperationsImpl
+    name: OperationsImpl
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.OperationsInner
+    name: OperationsInner
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.OperationsInner.OperationsService
+    name: OperationsInner.OperationsService
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.PageImpl
+    name: PageImpl
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.SpatialAnchorsAccountImpl
+    name: SpatialAnchorsAccountImpl
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.SpatialAnchorsAccountInner
+    name: SpatialAnchorsAccountInner
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.SpatialAnchorsAccountKeysImpl
+    name: SpatialAnchorsAccountKeysImpl
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.SpatialAnchorsAccountKeysInner
+    name: SpatialAnchorsAccountKeysInner
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.SpatialAnchorsAccountsImpl
+    name: SpatialAnchorsAccountsImpl
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.SpatialAnchorsAccountsInner
+    name: SpatialAnchorsAccountsInner
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.implementation.SpatialAnchorsAccountsInner.SpatialAnchorsAccountsService
+    name: SpatialAnchorsAccountsInner.SpatialAnchorsAccountsService
+- uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview
+  name: com.microsoft.azure.management.mixedreality.v2019_02_28_preview
+  items:
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.AzureEntityResource
+    name: AzureEntityResource
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.CheckNameAvailabilityRequest
+    name: CheckNameAvailabilityRequest
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.ErrorResponse
+    name: ErrorResponse
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.ErrorResponseException
+    name: ErrorResponseException
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.NameAvailability
+    name: NameAvailability
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.NameUnavailableReason
+    name: NameUnavailableReason
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.Operation
+    name: Operation
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.OperationDisplay
+    name: OperationDisplay
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.Operations
+    name: Operations
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccount
+    name: SpatialAnchorsAccount
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccount.Definition
+    name: SpatialAnchorsAccount.Definition
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccount.DefinitionStages
+    name: SpatialAnchorsAccount.DefinitionStages
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccount.DefinitionStages.Blank
+    name: SpatialAnchorsAccount.DefinitionStages.Blank
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccount.DefinitionStages.WithCreate
+    name: SpatialAnchorsAccount.DefinitionStages.WithCreate
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccount.DefinitionStages.WithGroup
+    name: SpatialAnchorsAccount.DefinitionStages.WithGroup
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccount.Update
+    name: SpatialAnchorsAccount.Update
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccount.UpdateStages
+    name: SpatialAnchorsAccount.UpdateStages
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccountKeyRegenerateRequest
+    name: SpatialAnchorsAccountKeyRegenerateRequest
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccountKeys
+    name: SpatialAnchorsAccountKeys
+  - uid: com.microsoft.azure.management.mixedreality.v2019_02_28_preview.SpatialAnchorsAccounts
+    name: SpatialAnchorsAccounts
+- uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation
+  name: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation
+  items:
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.IdParsingUtils
+    name: IdParsingUtils
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementAssociationImpl
+    name: ManagementAssociationImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementAssociationInner
+    name: ManagementAssociationInner
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementAssociationsImpl
+    name: ManagementAssociationsImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementAssociationsInner
+    name: ManagementAssociationsInner
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementAssociationsInner.ManagementAssociationsService
+    name: ManagementAssociationsInner.ManagementAssociationsService
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementConfigurationImpl
+    name: ManagementConfigurationImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementConfigurationInner
+    name: ManagementConfigurationInner
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementConfigurationsImpl
+    name: ManagementConfigurationsImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementConfigurationsInner
+    name: ManagementConfigurationsInner
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.ManagementConfigurationsInner.ManagementConfigurationsService
+    name: ManagementConfigurationsInner.ManagementConfigurationsService
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationImpl
+    name: OperationImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationInner
+    name: OperationInner
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationsImpl
+    name: OperationsImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationsInner
+    name: OperationsInner
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationsInner.OperationsService
+    name: OperationsInner.OperationsService
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationsManagementClientImpl
+    name: OperationsManagementClientImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationsManagementManager
+    name: OperationsManagementManager
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationsManagementManager.Configurable
+    name: OperationsManagementManager.Configurable
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.OperationsManagementManager.ConfigurableImpl
+    name: OperationsManagementManager.ConfigurableImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.PageImpl
+    name: PageImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.SolutionImpl
+    name: SolutionImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.SolutionInner
+    name: SolutionInner
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.SolutionsImpl
+    name: SolutionsImpl
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.SolutionsInner
+    name: SolutionsInner
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.implementation.SolutionsInner.SolutionsService
+    name: SolutionsInner.SolutionsService
+- uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview
+  name: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview
+  items:
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ArmTemplateParameter
+    name: ArmTemplateParameter
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.CodeMessageError
+    name: CodeMessageError
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.CodeMessageErrorError
+    name: CodeMessageErrorError
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.CodeMessageErrorException
+    name: CodeMessageErrorException
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation
+    name: ManagementAssociation
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.Definition
+    name: ManagementAssociation.Definition
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.DefinitionStages
+    name: ManagementAssociation.DefinitionStages
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.DefinitionStages.Blank
+    name: ManagementAssociation.DefinitionStages.Blank
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.DefinitionStages.WithCreate
+    name: ManagementAssociation.DefinitionStages.WithCreate
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.DefinitionStages.WithLocation
+    name: ManagementAssociation.DefinitionStages.WithLocation
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.DefinitionStages.WithProperties
+    name: ManagementAssociation.DefinitionStages.WithProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.DefinitionStages.WithProvider
+    name: ManagementAssociation.DefinitionStages.WithProvider
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.Update
+    name: ManagementAssociation.Update
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.UpdateStages
+    name: ManagementAssociation.UpdateStages
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.UpdateStages.WithLocation
+    name: ManagementAssociation.UpdateStages.WithLocation
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation.UpdateStages.WithProperties
+    name: ManagementAssociation.UpdateStages.WithProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociationProperties
+    name: ManagementAssociationProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociations
+    name: ManagementAssociations
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration
+    name: ManagementConfiguration
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.Definition
+    name: ManagementConfiguration.Definition
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.DefinitionStages
+    name: ManagementConfiguration.DefinitionStages
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.DefinitionStages.Blank
+    name: ManagementConfiguration.DefinitionStages.Blank
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.DefinitionStages.WithCreate
+    name: ManagementConfiguration.DefinitionStages.WithCreate
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.DefinitionStages.WithLocation
+    name: ManagementConfiguration.DefinitionStages.WithLocation
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.DefinitionStages.WithProperties
+    name: ManagementConfiguration.DefinitionStages.WithProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.DefinitionStages.WithResourceGroupName
+    name: ManagementConfiguration.DefinitionStages.WithResourceGroupName
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.Update
+    name: ManagementConfiguration.Update
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.UpdateStages
+    name: ManagementConfiguration.UpdateStages
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.UpdateStages.WithLocation
+    name: ManagementConfiguration.UpdateStages.WithLocation
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfiguration.UpdateStages.WithProperties
+    name: ManagementConfiguration.UpdateStages.WithProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfigurationProperties
+    name: ManagementConfigurationProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementConfigurations
+    name: ManagementConfigurations
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Operation
+    name: Operation
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.OperationDisplay
+    name: OperationDisplay
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Operations
+    name: Operations
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution
+    name: Solution
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.Definition
+    name: Solution.Definition
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.DefinitionStages
+    name: Solution.DefinitionStages
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.DefinitionStages.Blank
+    name: Solution.DefinitionStages.Blank
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.DefinitionStages.WithCreate
+    name: Solution.DefinitionStages.WithCreate
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.DefinitionStages.WithGroup
+    name: Solution.DefinitionStages.WithGroup
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.DefinitionStages.WithPlan
+    name: Solution.DefinitionStages.WithPlan
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.DefinitionStages.WithProperties
+    name: Solution.DefinitionStages.WithProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.Update
+    name: Solution.Update
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.UpdateStages
+    name: Solution.UpdateStages
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.UpdateStages.WithPlan
+    name: Solution.UpdateStages.WithPlan
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solution.UpdateStages.WithProperties
+    name: Solution.UpdateStages.WithProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.SolutionPatch
+    name: SolutionPatch
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.SolutionPlan
+    name: SolutionPlan
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.SolutionProperties
+    name: SolutionProperties
+  - uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.Solutions
+    name: Solutions
