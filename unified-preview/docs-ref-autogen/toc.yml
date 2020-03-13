@@ -31,6 +31,22 @@
     name: OpenCensusHttpPolicy
   - uid: com.azure.core.tracing.opencensus.OpenCensusTracer
     name: OpenCensusTracer
+- uid: com.azure.core.tracing.opentelemetry.implementation
+  name: com.azure.core.tracing.opentelemetry.implementation
+  items:
+  - uid: com.azure.core.tracing.opentelemetry.implementation.AmqpPropagationFormatUtil
+    name: AmqpPropagationFormatUtil
+  - uid: com.azure.core.tracing.opentelemetry.implementation.AmqpTraceUtil
+    name: AmqpTraceUtil
+  - uid: com.azure.core.tracing.opentelemetry.implementation.HttpTraceUtil
+    name: HttpTraceUtil
+- uid: com.azure.core.tracing.opentelemetry
+  name: com.azure.core.tracing.opentelemetry
+  items:
+  - uid: com.azure.core.tracing.opentelemetry.OpenTelemetryHttpPolicy
+    name: OpenTelemetryHttpPolicy
+  - uid: com.azure.core.tracing.opentelemetry.OpenTelemetryTracer
+    name: OpenTelemetryTracer
 - uid: com.azure.core.annotation
   name: com.azure.core.annotation
   items:
