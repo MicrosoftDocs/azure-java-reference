@@ -5,7 +5,7 @@ items:
   parent: "com.azure.cosmos.implementation.changefeed.implementation"
   children:
   - "com.azure.cosmos.implementation.changefeed.implementation.DocumentServiceLeaseUpdaterImpl.DocumentServiceLeaseUpdaterImpl(com.azure.cosmos.implementation.changefeed.ChangeFeedContextClient)"
-  - "com.azure.cosmos.implementation.changefeed.implementation.DocumentServiceLeaseUpdaterImpl.updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.PartitionKey,com.azure.cosmos.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
+  - "com.azure.cosmos.implementation.changefeed.implementation.DocumentServiceLeaseUpdaterImpl.updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.models.PartitionKey,com.azure.cosmos.models.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
   langs:
   - "java"
   name: "DocumentServiceLeaseUpdaterImpl"
@@ -48,8 +48,8 @@ items:
     parameters:
     - id: "client"
       type: "com.azure.cosmos.implementation.changefeed.ChangeFeedContextClient"
-- uid: "com.azure.cosmos.implementation.changefeed.implementation.DocumentServiceLeaseUpdaterImpl.updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.PartitionKey,com.azure.cosmos.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
-  id: "updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.PartitionKey,com.azure.cosmos.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
+- uid: "com.azure.cosmos.implementation.changefeed.implementation.DocumentServiceLeaseUpdaterImpl.updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.models.PartitionKey,com.azure.cosmos.models.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
+  id: "updateLease(com.azure.cosmos.implementation.changefeed.Lease,java.lang.String,com.azure.cosmos.models.PartitionKey,com.azure.cosmos.models.CosmosItemRequestOptions,java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>)"
   parent: "com.azure.cosmos.implementation.changefeed.implementation.DocumentServiceLeaseUpdaterImpl"
   langs:
   - "java"
@@ -67,9 +67,9 @@ items:
     - id: "itemId"
       type: "java.lang.String"
     - id: "partitionKey"
-      type: "com.azure.cosmos.PartitionKey"
+      type: "com.azure.cosmos.models.PartitionKey"
     - id: "requestOptions"
-      type: "com.azure.cosmos.CosmosItemRequestOptions"
+      type: "com.azure.cosmos.models.CosmosItemRequestOptions"
     - id: "updateLease"
       type: "java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>"
     return:
@@ -93,14 +93,14 @@ references:
   - uid: "java.lang.String"
     name: "String"
     fullName: "java.lang.String"
-- uid: "com.azure.cosmos.PartitionKey"
+- uid: "com.azure.cosmos.models.PartitionKey"
   name: "PartitionKey"
   nameWithType: "PartitionKey"
-  fullName: "com.azure.cosmos.PartitionKey"
-- uid: "com.azure.cosmos.CosmosItemRequestOptions"
+  fullName: "com.azure.cosmos.models.PartitionKey"
+- uid: "com.azure.cosmos.models.CosmosItemRequestOptions"
   name: "CosmosItemRequestOptions"
   nameWithType: "CosmosItemRequestOptions"
-  fullName: "com.azure.cosmos.CosmosItemRequestOptions"
+  fullName: "com.azure.cosmos.models.CosmosItemRequestOptions"
 - uid: "java.util.function.Function<com.azure.cosmos.implementation.changefeed.Lease,com.azure.cosmos.implementation.changefeed.Lease>"
   spec.java:
   - uid: "java.util.function.Function"

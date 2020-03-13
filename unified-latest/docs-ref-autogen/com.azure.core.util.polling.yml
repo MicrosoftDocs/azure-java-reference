@@ -8,6 +8,7 @@ items:
   - "com.azure.core.util.polling.LongRunningOperationStatus"
   - "com.azure.core.util.polling.PollResponse"
   - "com.azure.core.util.polling.PollerFlux"
+  - "com.azure.core.util.polling.PollerFlux.OneTimeActivation"
   - "com.azure.core.util.polling.PollingContext"
   - "com.azure.core.util.polling.SyncPoller"
   langs:
@@ -40,6 +41,10 @@ references:
   name: "PollerFlux<T,U>"
   nameWithType: "PollerFlux<T,U>"
   fullName: "com.azure.core.util.polling.PollerFlux<T,U>"
+- uid: "com.azure.core.util.polling.PollerFlux.OneTimeActivation"
+  name: "PollerFlux<T,U>.OneTimeActivation<V,R>"
+  nameWithType: "PollerFlux<T,U>.OneTimeActivation<V,R>"
+  fullName: "com.azure.core.util.polling.PollerFlux<T,U>.OneTimeActivation<V,R>"
 - uid: "com.azure.core.util.polling.PollingContext"
   name: "PollingContext<T>"
   nameWithType: "PollingContext<T>"

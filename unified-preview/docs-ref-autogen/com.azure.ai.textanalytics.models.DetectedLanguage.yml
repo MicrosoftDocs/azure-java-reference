@@ -15,7 +15,7 @@ items:
   fullName: "com.azure.ai.textanalytics.models.DetectedLanguage"
   type: "Class"
   package: "com.azure.ai.textanalytics.models"
-  summary: "The DetectedLanguage model."
+  summary: "The <xref uid=\"com.azure.ai.textanalytics.models.DetectedLanguage\" data-throw-if-not-resolved=\"false\">DetectedLanguage</xref> model."
   syntax:
     content: "public final class DetectedLanguage"
   inheritance:
@@ -43,19 +43,19 @@ items:
   overload: "com.azure.ai.textanalytics.models.DetectedLanguage.DetectedLanguage*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Creates a `DetectedLanguage` model that describes detected language content."
+  summary: "Creates a <xref uid=\"com.azure.ai.textanalytics.models.DetectedLanguage\" data-throw-if-not-resolved=\"false\">DetectedLanguage</xref> model that describes detected language content."
   syntax:
     content: "public DetectedLanguage(String name, String iso6391Name, double score)"
     parameters:
     - id: "name"
       type: "java.lang.String"
-      description: "name of a detected language"
+      description: "The name of a detected language."
     - id: "iso6391Name"
       type: "java.lang.String"
-      description: "a two letter representation of the detected language according to the\n ISO 639-1 standard"
+      description: "A two letter representation of the detected language according to the ISO 639-1 standard."
     - id: "score"
       type: "double"
-      description: "a confidence score between 0 and 1"
+      description: "A confidence score between 0 and 1."
 - uid: "com.azure.ai.textanalytics.models.DetectedLanguage.getIso6391Name()"
   id: "getIso6391Name()"
   parent: "com.azure.ai.textanalytics.models.DetectedLanguage"
@@ -72,7 +72,7 @@ items:
     content: "public String getIso6391Name()"
     return:
       type: "java.lang.String"
-      description: "the iso6391Name value."
+      description: "The iso6391Name value."
 - uid: "com.azure.ai.textanalytics.models.DetectedLanguage.getName()"
   id: "getName()"
   parent: "com.azure.ai.textanalytics.models.DetectedLanguage"
@@ -89,7 +89,7 @@ items:
     content: "public String getName()"
     return:
       type: "java.lang.String"
-      description: "the name value."
+      description: "The name value."
 - uid: "com.azure.ai.textanalytics.models.DetectedLanguage.getScore()"
   id: "getScore()"
   parent: "com.azure.ai.textanalytics.models.DetectedLanguage"
@@ -106,7 +106,7 @@ items:
     content: "public double getScore()"
     return:
       type: "double"
-      description: "the score value."
+      description: "The score value."
 references:
 - uid: "java.lang.String"
   spec.java:

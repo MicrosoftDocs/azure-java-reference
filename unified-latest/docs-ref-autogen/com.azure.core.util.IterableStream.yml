@@ -4,6 +4,7 @@ items:
   id: "IterableStream"
   parent: "com.azure.core.util"
   children:
+  - "com.azure.core.util.IterableStream.<T>of(java.lang.Iterable<T>)"
   - "com.azure.core.util.IterableStream.IterableStream(java.lang.Iterable<T>)"
   - "com.azure.core.util.IterableStream.IterableStream(reactor.core.publisher.Flux<T>)"
   - "com.azure.core.util.IterableStream.iterator()"
@@ -15,7 +16,7 @@ items:
   fullName: "com.azure.core.util.IterableStream<T>"
   type: "Class"
   package: "com.azure.core.util"
-  summary: "This class provides utility to iterate over values using standard 'for-each' style loops, or to convert them into a Stream and operate in that fashion. All the values are preserved even if they are traversed multiple times.\n\n**Code sample using Stream**\n\n\\{@codesnippet com.azure.core.util.iterableStream.stream\\}\n\n**Code sample using Iterator**\n\n\\{@codesnippet com.azure.core.util.iterableStream.iterator.while\\}\n\n**Code sample using Stream and filter**\n\n\\{@codesnippet com.azure.core.util.iterableStream.stream.filter\\}"
+  summary: "This class provides utility to iterate over values using standard 'for-each' style loops or to convert them into a <xref uid=\"java.util.stream.Stream\" data-throw-if-not-resolved=\"false\">Stream</xref> and operate in that fashion.\n\n**Code sample using Stream**\n\n\\{@codesnippet com.azure.core.util.iterableStream.stream\\}\n\n**Code sample using Iterator**\n\n\\{@codesnippet com.azure.core.util.iterableStream.iterator.while\\}\n\n**Code sample using Stream and filter**\n\n\\{@codesnippet com.azure.core.util.iterableStream.stream.filter\\}"
   syntax:
     content: "public class IterableStream<T> implements Iterable<T>"
     typeParameters:
@@ -36,6 +37,27 @@ items:
   - "java.lang.Object.wait()"
   - "java.lang.Object.wait(long)"
   - "java.lang.Object.wait(long,int)"
+- uid: "com.azure.core.util.IterableStream.<T>of(java.lang.Iterable<T>)"
+  id: "<T>of(java.lang.Iterable<T>)"
+  parent: "com.azure.core.util.IterableStream"
+  langs:
+  - "java"
+  name: "<T>of(Iterable<T> iterable)"
+  nameWithType: "IterableStream<T>.<T>of(Iterable<T> iterable)"
+  fullName: "com.azure.core.util.IterableStream<T>.<T>of(Iterable<T> iterable)"
+  overload: "com.azure.core.util.IterableStream.of*"
+  type: "Method"
+  package: "com.azure.core.util"
+  summary: "Creates an <xref uid=\"com.azure.core.util.IterableStream\" data-throw-if-not-resolved=\"false\">IterableStream</xref> from an <xref uid=\"java.lang.Iterable\" data-throw-if-not-resolved=\"false\">Iterable</xref>.\n\nAn empty <xref uid=\"com.azure.core.util.IterableStream\" data-throw-if-not-resolved=\"false\">IterableStream</xref> will be returned if the input iterable is `null`."
+  syntax:
+    content: "public static IterableStream<T> <T>of(Iterable<T> iterable)"
+    parameters:
+    - id: "iterable"
+      type: "java.lang.Iterable<T>"
+      description: "Collection of items to iterate over."
+    return:
+      type: "com.azure.core.util.IterableStream<T>"
+      description: "An <xref uid=\"com.azure.core.util.IterableStream\" data-throw-if-not-resolved=\"false\">IterableStream</xref> based on the passed collection."
 - uid: "com.azure.core.util.IterableStream.IterableStream(java.lang.Iterable<T>)"
   id: "IterableStream(java.lang.Iterable<T>)"
   parent: "com.azure.core.util.IterableStream"
@@ -83,7 +105,7 @@ items:
   overload: "com.azure.core.util.IterableStream.iterator*"
   type: "Method"
   package: "com.azure.core.util"
-  summary: "Utility function to provide <xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\">Iterator</xref> of value `T`. It will provide same collection of `T` values if called multiple times."
+  summary: "Utility function to provide <xref uid=\"java.util.Iterator\" data-throw-if-not-resolved=\"false\">Iterator</xref> of value `T`."
   syntax:
     content: "public Iterator<T> iterator()"
     return:
@@ -100,7 +122,7 @@ items:
   overload: "com.azure.core.util.IterableStream.stream*"
   type: "Method"
   package: "com.azure.core.util"
-  summary: "Utility function to provide <xref uid=\"java.util.stream.Stream\" data-throw-if-not-resolved=\"false\">Stream</xref> of value `T`. It will provide the same stream of `T` values if called multiple times."
+  summary: "Utility function to provide <xref uid=\"java.util.stream.Stream\" data-throw-if-not-resolved=\"false\">Stream</xref> of value `T`."
   syntax:
     content: "public Stream<T> stream()"
     return:
@@ -169,6 +191,23 @@ references:
   name: "iterator"
   nameWithType: "IterableStream<T>.iterator"
   fullName: "com.azure.core.util.IterableStream<T>.iterator"
+  package: "com.azure.core.util"
+- uid: "com.azure.core.util.IterableStream<T>"
+  spec.java:
+  - uid: "com.azure.core.util.IterableStream"
+    name: "IterableStream"
+    fullName: "com.azure.core.util.IterableStream"
+  - name: "<"
+    fullName: "<"
+  - uid: "T"
+    name: "T"
+    fullName: "T"
+  - name: ">"
+    fullName: ">"
+- uid: "com.azure.core.util.IterableStream.of*"
+  name: "<T>of"
+  nameWithType: "IterableStream<T>.<T>of"
+  fullName: "com.azure.core.util.IterableStream<T>.<T>of"
   package: "com.azure.core.util"
 - uid: "T"
   name: "T"

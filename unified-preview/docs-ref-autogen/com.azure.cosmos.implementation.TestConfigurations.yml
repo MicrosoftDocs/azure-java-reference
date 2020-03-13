@@ -20,7 +20,7 @@ items:
   fullName: "com.azure.cosmos.implementation.TestConfigurations"
   type: "Class"
   package: "com.azure.cosmos.implementation"
-  summary: "Contains the configurations for tests. For running tests, you can pass a customized endpoint configuration in one of the following ways:\n\n *  \\-DACCOUNT\\_KEY=\"\\[your-key\\]\" -ACCOUNT\\_HOST=\"\\[your-endpoint\\]\" as JVM command-line option.\n *  You can set ACCOUNT\\_KEY and ACCOUNT\\_HOST as environment variables.\n\nIf none of the above is set, emulator endpoint will be used."
+  summary: "Contains the configurations for tests. For running tests, you can pass a customized endpoint configuration in one of the following ways:\n\n *  \\-DACCOUNT\\_KEY=\"\\[your-key\\]\" -ACCOUNT\\_HOST=\"\\[your-endpoint\\]\" as JVM command-line option.\n *  You can set ACCOUNT\\_KEY and ACCOUNT\\_HOST as environment variables.\n *  You can have a properties file with ACCOUNT\\_KEY AND ACCOUNT\\_HOST, etc.\n\nIf none of the above is set, emulator endpoint will be used."
   syntax:
     content: "public final class TestConfigurations"
   inheritance:

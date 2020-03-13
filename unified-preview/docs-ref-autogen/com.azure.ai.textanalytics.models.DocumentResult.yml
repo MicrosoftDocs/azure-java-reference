@@ -17,7 +17,7 @@ items:
   fullName: "com.azure.ai.textanalytics.models.DocumentResult"
   type: "Class"
   package: "com.azure.ai.textanalytics.models"
-  summary: "The DocumentResult model."
+  summary: "The <xref uid=\"com.azure.ai.textanalytics.models.DocumentResult\" data-throw-if-not-resolved=\"false\">DocumentResult</xref> model."
   syntax:
     content: "public class DocumentResult"
   inheritance:
@@ -45,19 +45,19 @@ items:
   overload: "com.azure.ai.textanalytics.models.DocumentResult.DocumentResult*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Create a `DocumentResult` model that maintains document id, information about the document payload, and document error."
+  summary: "Create a <xref uid=\"com.azure.ai.textanalytics.models.DocumentResult\" data-throw-if-not-resolved=\"false\">DocumentResult</xref> model that maintains document id, information about the document payload, and document error."
   syntax:
     content: " DocumentResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error)"
     parameters:
     - id: "id"
       type: "java.lang.String"
-      description: "unique, non-empty document identifier"
+      description: "Unique, non-empty document identifier."
     - id: "textDocumentStatistics"
       type: "com.azure.ai.textanalytics.models.TextDocumentStatistics"
-      description: "text document statistics"
+      description: "The text document statistics."
     - id: "error"
       type: "com.azure.ai.textanalytics.models.TextAnalyticsError"
-      description: "the document error."
+      description: "The document error."
 - uid: "com.azure.ai.textanalytics.models.DocumentResult.getError()"
   id: "getError()"
   parent: "com.azure.ai.textanalytics.models.DocumentResult"
@@ -74,7 +74,7 @@ items:
     content: "public TextAnalyticsError getError()"
     return:
       type: "com.azure.ai.textanalytics.models.TextAnalyticsError"
-      description: "the error of text document"
+      description: "The error of text document."
 - uid: "com.azure.ai.textanalytics.models.DocumentResult.getId()"
   id: "getId()"
   parent: "com.azure.ai.textanalytics.models.DocumentResult"
@@ -91,7 +91,7 @@ items:
     content: "public String getId()"
     return:
       type: "java.lang.String"
-      description: "the document id"
+      description: "The document id."
 - uid: "com.azure.ai.textanalytics.models.DocumentResult.getStatistics()"
   id: "getStatistics()"
   parent: "com.azure.ai.textanalytics.models.DocumentResult"
@@ -108,7 +108,7 @@ items:
     content: "public TextDocumentStatistics getStatistics()"
     return:
       type: "com.azure.ai.textanalytics.models.TextDocumentStatistics"
-      description: "the <xref uid=\"com.azure.ai.textanalytics.models.TextDocumentStatistics\" data-throw-if-not-resolved=\"false\">TextDocumentStatistics</xref> statistics of the text document"
+      description: "The <xref uid=\"com.azure.ai.textanalytics.models.TextDocumentStatistics\" data-throw-if-not-resolved=\"false\">TextDocumentStatistics</xref> statistics of the text document."
 - uid: "com.azure.ai.textanalytics.models.DocumentResult.isError()"
   id: "isError()"
   parent: "com.azure.ai.textanalytics.models.DocumentResult"
@@ -125,7 +125,7 @@ items:
     content: "public boolean isError()"
     return:
       type: "boolean"
-      description: "A boolean indicates if the document result is error or not"
+      description: "A boolean indicates if the document result is error or not."
 - uid: "com.azure.ai.textanalytics.models.DocumentResult.throwExceptionIfError()"
   id: "throwExceptionIfError()"
   parent: "com.azure.ai.textanalytics.models.DocumentResult"

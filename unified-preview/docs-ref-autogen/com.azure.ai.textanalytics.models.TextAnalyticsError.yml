@@ -15,7 +15,7 @@ items:
   fullName: "com.azure.ai.textanalytics.models.TextAnalyticsError"
   type: "Class"
   package: "com.azure.ai.textanalytics.models"
-  summary: "The TextAnalyticsError model."
+  summary: "The <xref uid=\"com.azure.ai.textanalytics.models.TextAnalyticsError\" data-throw-if-not-resolved=\"false\">TextAnalyticsError</xref> model."
   syntax:
     content: "public final class TextAnalyticsError"
   inheritance:
@@ -49,13 +49,13 @@ items:
     parameters:
     - id: "code"
       type: "com.azure.ai.textanalytics.models.TextAnalyticsErrorCode"
-      description: "error code"
+      description: "The error code."
     - id: "message"
       type: "java.lang.String"
-      description: "error message"
+      description: "The error message."
     - id: "target"
       type: "java.lang.String"
-      description: "error target"
+      description: "The error target."
 - uid: "com.azure.ai.textanalytics.models.TextAnalyticsError.getCode()"
   id: "getCode()"
   parent: "com.azure.ai.textanalytics.models.TextAnalyticsError"
@@ -72,7 +72,7 @@ items:
     content: "public TextAnalyticsErrorCode getCode()"
     return:
       type: "com.azure.ai.textanalytics.models.TextAnalyticsErrorCode"
-      description: "the code value."
+      description: "The code value."
 - uid: "com.azure.ai.textanalytics.models.TextAnalyticsError.getMessage()"
   id: "getMessage()"
   parent: "com.azure.ai.textanalytics.models.TextAnalyticsError"
@@ -89,7 +89,7 @@ items:
     content: "public String getMessage()"
     return:
       type: "java.lang.String"
-      description: "the message value."
+      description: "The message value."
 - uid: "com.azure.ai.textanalytics.models.TextAnalyticsError.getTarget()"
   id: "getTarget()"
   parent: "com.azure.ai.textanalytics.models.TextAnalyticsError"
@@ -106,7 +106,7 @@ items:
     content: "public String getTarget()"
     return:
       type: "java.lang.String"
-      description: "the target value."
+      description: "The target value."
 references:
 - uid: "com.azure.ai.textanalytics.models.TextAnalyticsErrorCode"
   name: "TextAnalyticsErrorCode"

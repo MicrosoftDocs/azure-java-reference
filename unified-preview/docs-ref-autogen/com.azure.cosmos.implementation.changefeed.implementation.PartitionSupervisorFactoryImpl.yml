@@ -4,7 +4,7 @@ items:
   id: "PartitionSupervisorFactoryImpl"
   parent: "com.azure.cosmos.implementation.changefeed.implementation"
   children:
-  - "com.azure.cosmos.implementation.changefeed.implementation.PartitionSupervisorFactoryImpl.PartitionSupervisorFactoryImpl(com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory,com.azure.cosmos.implementation.changefeed.LeaseManager,com.azure.cosmos.implementation.changefeed.PartitionProcessorFactory,com.azure.cosmos.ChangeFeedProcessorOptions,reactor.core.scheduler.Scheduler)"
+  - "com.azure.cosmos.implementation.changefeed.implementation.PartitionSupervisorFactoryImpl.PartitionSupervisorFactoryImpl(com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory,com.azure.cosmos.implementation.changefeed.LeaseManager,com.azure.cosmos.implementation.changefeed.PartitionProcessorFactory,com.azure.cosmos.models.ChangeFeedProcessorOptions,reactor.core.scheduler.Scheduler)"
   - "com.azure.cosmos.implementation.changefeed.implementation.PartitionSupervisorFactoryImpl.create(com.azure.cosmos.implementation.changefeed.Lease)"
   langs:
   - "java"
@@ -32,8 +32,8 @@ items:
   - "java.lang.Object.wait()"
   - "java.lang.Object.wait(long)"
   - "java.lang.Object.wait(long,int)"
-- uid: "com.azure.cosmos.implementation.changefeed.implementation.PartitionSupervisorFactoryImpl.PartitionSupervisorFactoryImpl(com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory,com.azure.cosmos.implementation.changefeed.LeaseManager,com.azure.cosmos.implementation.changefeed.PartitionProcessorFactory,com.azure.cosmos.ChangeFeedProcessorOptions,reactor.core.scheduler.Scheduler)"
-  id: "PartitionSupervisorFactoryImpl(com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory,com.azure.cosmos.implementation.changefeed.LeaseManager,com.azure.cosmos.implementation.changefeed.PartitionProcessorFactory,com.azure.cosmos.ChangeFeedProcessorOptions,reactor.core.scheduler.Scheduler)"
+- uid: "com.azure.cosmos.implementation.changefeed.implementation.PartitionSupervisorFactoryImpl.PartitionSupervisorFactoryImpl(com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory,com.azure.cosmos.implementation.changefeed.LeaseManager,com.azure.cosmos.implementation.changefeed.PartitionProcessorFactory,com.azure.cosmos.models.ChangeFeedProcessorOptions,reactor.core.scheduler.Scheduler)"
+  id: "PartitionSupervisorFactoryImpl(com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory,com.azure.cosmos.implementation.changefeed.LeaseManager,com.azure.cosmos.implementation.changefeed.PartitionProcessorFactory,com.azure.cosmos.models.ChangeFeedProcessorOptions,reactor.core.scheduler.Scheduler)"
   parent: "com.azure.cosmos.implementation.changefeed.implementation.PartitionSupervisorFactoryImpl"
   langs:
   - "java"
@@ -53,7 +53,7 @@ items:
     - id: "partitionProcessorFactory"
       type: "com.azure.cosmos.implementation.changefeed.PartitionProcessorFactory"
     - id: "options"
-      type: "com.azure.cosmos.ChangeFeedProcessorOptions"
+      type: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
     - id: "scheduler"
       type: "reactor.core.scheduler.Scheduler"
 - uid: "com.azure.cosmos.implementation.changefeed.implementation.PartitionSupervisorFactoryImpl.create(com.azure.cosmos.implementation.changefeed.Lease)"
@@ -87,10 +87,10 @@ references:
   name: "PartitionProcessorFactory"
   nameWithType: "PartitionProcessorFactory"
   fullName: "com.azure.cosmos.implementation.changefeed.PartitionProcessorFactory"
-- uid: "com.azure.cosmos.ChangeFeedProcessorOptions"
+- uid: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
   name: "ChangeFeedProcessorOptions"
   nameWithType: "ChangeFeedProcessorOptions"
-  fullName: "com.azure.cosmos.ChangeFeedProcessorOptions"
+  fullName: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
 - uid: "reactor.core.scheduler.Scheduler"
   spec.java:
   - uid: "reactor.core.scheduler.Scheduler"

@@ -5,9 +5,9 @@ items:
   parent: "com.azure.cosmos.implementation"
   children:
   - "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.BaseAuthorizationTokenProvider(com.azure.cosmos.CosmosKeyCredential)"
-  - "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.lang.String,com.azure.cosmos.implementation.ResourceType,java.util.Map<java.lang.String,java.lang.String>)"
-  - "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
-  - "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.net.URI,java.util.Map<java.lang.String,java.lang.String>)"
+  - "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.lang.String,com.azure.cosmos.implementation.ResourceType,java.util.Map<java.lang.String,java.lang.String>)"
+  - "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+  - "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.net.URI,java.util.Map<java.lang.String,java.lang.String>)"
   - "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.getAuthorizationTokenUsingResourceTokens(java.util.Map<java.lang.String,java.lang.String>,java.lang.String,java.lang.String)"
   langs:
   - "java"
@@ -51,8 +51,8 @@ items:
     parameters:
     - id: "cosmosKeyCredential"
       type: "com.azure.cosmos.CosmosKeyCredential"
-- uid: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.lang.String,com.azure.cosmos.implementation.ResourceType,java.util.Map<java.lang.String,java.lang.String>)"
-  id: "generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.lang.String,com.azure.cosmos.implementation.ResourceType,java.util.Map<java.lang.String,java.lang.String>)"
+- uid: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.lang.String,com.azure.cosmos.implementation.ResourceType,java.util.Map<java.lang.String,java.lang.String>)"
+  id: "generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.lang.String,com.azure.cosmos.implementation.ResourceType,java.util.Map<java.lang.String,java.lang.String>)"
   parent: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider"
   langs:
   - "java"
@@ -67,7 +67,7 @@ items:
     content: "public String generateKeyAuthorizationSignature(RequestVerb verb, String resourceIdOrFullName, ResourceType resourceType, Map<String,String> headers)"
     parameters:
     - id: "verb"
-      type: "com.azure.cosmos.RequestVerb"
+      type: "com.azure.cosmos.models.RequestVerb"
       description: "the verb."
     - id: "resourceIdOrFullName"
       type: "java.lang.String"
@@ -81,8 +81,8 @@ items:
     return:
       type: "java.lang.String"
       description: "the key authorization signature."
-- uid: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
-  id: "generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- uid: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+  id: "generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
   parent: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider"
   langs:
   - "java"
@@ -97,7 +97,7 @@ items:
     content: "public String generateKeyAuthorizationSignature(RequestVerb verb, String resourceIdOrFullName, String resourceSegment, Map<String,String> headers)"
     parameters:
     - id: "verb"
-      type: "com.azure.cosmos.RequestVerb"
+      type: "com.azure.cosmos.models.RequestVerb"
       description: "the verb"
     - id: "resourceIdOrFullName"
       type: "java.lang.String"
@@ -111,8 +111,8 @@ items:
     return:
       type: "java.lang.String"
       description: "the key authorization signature"
-- uid: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.net.URI,java.util.Map<java.lang.String,java.lang.String>)"
-  id: "generateKeyAuthorizationSignature(com.azure.cosmos.RequestVerb,java.net.URI,java.util.Map<java.lang.String,java.lang.String>)"
+- uid: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.net.URI,java.util.Map<java.lang.String,java.lang.String>)"
+  id: "generateKeyAuthorizationSignature(com.azure.cosmos.models.RequestVerb,java.net.URI,java.util.Map<java.lang.String,java.lang.String>)"
   parent: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider"
   langs:
   - "java"
@@ -126,7 +126,7 @@ items:
     content: "public String generateKeyAuthorizationSignature(RequestVerb verb, URI uri, Map<String,String> headers)"
     parameters:
     - id: "verb"
-      type: "com.azure.cosmos.RequestVerb"
+      type: "com.azure.cosmos.models.RequestVerb"
     - id: "uri"
       type: "java.net.URI"
     - id: "headers"
@@ -170,10 +170,10 @@ references:
   nameWithType: "BaseAuthorizationTokenProvider.BaseAuthorizationTokenProvider"
   fullName: "com.azure.cosmos.implementation.BaseAuthorizationTokenProvider.BaseAuthorizationTokenProvider"
   package: "com.azure.cosmos.implementation"
-- uid: "com.azure.cosmos.RequestVerb"
+- uid: "com.azure.cosmos.models.RequestVerb"
   name: "RequestVerb"
   nameWithType: "RequestVerb"
-  fullName: "com.azure.cosmos.RequestVerb"
+  fullName: "com.azure.cosmos.models.RequestVerb"
 - uid: "java.lang.String"
   spec.java:
   - uid: "java.lang.String"

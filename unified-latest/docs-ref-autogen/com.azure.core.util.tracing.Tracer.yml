@@ -4,9 +4,11 @@ items:
   id: "Tracer"
   parent: "com.azure.core.util.tracing"
   children:
+  - "com.azure.core.util.tracing.Tracer.AZ_TRACING_NAMESPACE_KEY"
   - "com.azure.core.util.tracing.Tracer.DIAGNOSTIC_ID_KEY"
   - "com.azure.core.util.tracing.Tracer.ENTITY_PATH_KEY"
   - "com.azure.core.util.tracing.Tracer.HOST_NAME_KEY"
+  - "com.azure.core.util.tracing.Tracer.MESSAGE_ENQUEUED_TIME"
   - "com.azure.core.util.tracing.Tracer.PARENT_SPAN_KEY"
   - "com.azure.core.util.tracing.Tracer.SCOPE_KEY"
   - "com.azure.core.util.tracing.Tracer.SPAN_BUILDER_KEY"
@@ -31,6 +33,21 @@ items:
   summary: "Contract that all tracers must implement to be pluggable into the SDK."
   syntax:
     content: "public interface Tracer"
+- uid: "com.azure.core.util.tracing.Tracer.AZ_TRACING_NAMESPACE_KEY"
+  id: "AZ_TRACING_NAMESPACE_KEY"
+  parent: "com.azure.core.util.tracing.Tracer"
+  langs:
+  - "java"
+  name: "AZ_TRACING_NAMESPACE_KEY"
+  nameWithType: "Tracer.AZ_TRACING_NAMESPACE_KEY"
+  fullName: "com.azure.core.util.tracing.Tracer.AZ_TRACING_NAMESPACE_KEY"
+  type: "Field"
+  package: "com.azure.core.util.tracing"
+  summary: "Key for <xref uid=\"com.azure.core.util.Context\" data-throw-if-not-resolved=\"false\">Context</xref> which indicates that the context contains the Azure resource provider namespace."
+  syntax:
+    content: "public static final String AZ_TRACING_NAMESPACE_KEY"
+    return:
+      type: "java.lang.String"
 - uid: "com.azure.core.util.tracing.Tracer.DIAGNOSTIC_ID_KEY"
   id: "DIAGNOSTIC_ID_KEY"
   parent: "com.azure.core.util.tracing.Tracer"
@@ -74,6 +91,21 @@ items:
   summary: "Key for <xref uid=\"com.azure.core.util.Context\" data-throw-if-not-resolved=\"false\">Context</xref> which indicates that the context contains the hostname."
   syntax:
     content: "public static final String HOST_NAME_KEY"
+    return:
+      type: "java.lang.String"
+- uid: "com.azure.core.util.tracing.Tracer.MESSAGE_ENQUEUED_TIME"
+  id: "MESSAGE_ENQUEUED_TIME"
+  parent: "com.azure.core.util.tracing.Tracer"
+  langs:
+  - "java"
+  name: "MESSAGE_ENQUEUED_TIME"
+  nameWithType: "Tracer.MESSAGE_ENQUEUED_TIME"
+  fullName: "com.azure.core.util.tracing.Tracer.MESSAGE_ENQUEUED_TIME"
+  type: "Field"
+  package: "com.azure.core.util.tracing"
+  summary: "Key for <xref uid=\"com.azure.core.util.Context\" data-throw-if-not-resolved=\"false\">Context</xref> which indicates the the time of the last enqueued message in the partition's stream."
+  syntax:
+    content: "public static final String MESSAGE_ENQUEUED_TIME"
     return:
       type: "java.lang.String"
 - uid: "com.azure.core.util.tracing.Tracer.PARENT_SPAN_KEY"
@@ -180,7 +212,7 @@ items:
   overload: "com.azure.core.util.tracing.Tracer.end*"
   type: "Method"
   package: "com.azure.core.util.tracing"
-  summary: "Completes the current tracing span.\n\n**Code samples**\n\nCompletes the tracing span present in the context, with the corresponding OpenCensus status for the given response status code\n\n\\{@codesnippet com.azure.core.util.tracing.end\\#int-throwable-context\\}"
+  summary: "Completes the current tracing span.\n\n**Code samples**\n\nCompletes the tracing span present in the context, with the corresponding OpenTelemetry status for the given response status code\n\n\\{@codesnippet com.azure.core.util.tracing.end\\#int-throwable-context\\}"
   syntax:
     content: "public abstract void end(int responseCode, Throwable error, Context context)"
     parameters:
@@ -204,7 +236,7 @@ items:
   overload: "com.azure.core.util.tracing.Tracer.end*"
   type: "Method"
   package: "com.azure.core.util.tracing"
-  summary: "Completes the current tracing span for AMQP calls.\n\n**Code samples**\n\nCompletes the tracing span with the corresponding OpenCensus status for the given status message\n\n\\{@codesnippet com.azure.core.util.tracing.end\\#string-throwable-context\\}"
+  summary: "Completes the current tracing span for AMQP calls.\n\n**Code samples**\n\nCompletes the tracing span with the corresponding OpenTelemetry status for the given status message\n\n\\{@codesnippet com.azure.core.util.tracing.end\\#string-throwable-context\\}"
   syntax:
     content: "public abstract void end(String statusMessage, Throwable error, Context context)"
     parameters:

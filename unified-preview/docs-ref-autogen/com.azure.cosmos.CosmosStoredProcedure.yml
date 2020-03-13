@@ -6,13 +6,13 @@ items:
   children:
   - "com.azure.cosmos.CosmosStoredProcedure.CosmosStoredProcedure(java.lang.String,com.azure.cosmos.CosmosContainer,com.azure.cosmos.CosmosAsyncStoredProcedure)"
   - "com.azure.cosmos.CosmosStoredProcedure.delete()"
-  - "com.azure.cosmos.CosmosStoredProcedure.delete(com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
-  - "com.azure.cosmos.CosmosStoredProcedure.execute(java.lang.Object[],com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
+  - "com.azure.cosmos.CosmosStoredProcedure.delete(com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
+  - "com.azure.cosmos.CosmosStoredProcedure.execute(java.lang.Object[],com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
   - "com.azure.cosmos.CosmosStoredProcedure.getId()"
   - "com.azure.cosmos.CosmosStoredProcedure.read()"
-  - "com.azure.cosmos.CosmosStoredProcedure.read(com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
-  - "com.azure.cosmos.CosmosStoredProcedure.replace(com.azure.cosmos.CosmosStoredProcedureProperties)"
-  - "com.azure.cosmos.CosmosStoredProcedure.replace(com.azure.cosmos.CosmosStoredProcedureProperties,com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
+  - "com.azure.cosmos.CosmosStoredProcedure.read(com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
+  - "com.azure.cosmos.CosmosStoredProcedure.replace(com.azure.cosmos.models.CosmosStoredProcedureProperties)"
+  - "com.azure.cosmos.CosmosStoredProcedure.replace(com.azure.cosmos.models.CosmosStoredProcedureProperties,com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
   langs:
   - "java"
   name: "CosmosStoredProcedure"
@@ -76,13 +76,13 @@ items:
   syntax:
     content: "public CosmosStoredProcedureResponse delete()"
     return:
-      type: "com.azure.cosmos.CosmosStoredProcedureResponse"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
       description: "the cosmos sync response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
     description: "the cosmos client exception"
-- uid: "com.azure.cosmos.CosmosStoredProcedure.delete(com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
-  id: "delete(com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
+- uid: "com.azure.cosmos.CosmosStoredProcedure.delete(com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
+  id: "delete(com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
   parent: "com.azure.cosmos.CosmosStoredProcedure"
   langs:
   - "java"
@@ -97,16 +97,16 @@ items:
     content: " CosmosStoredProcedureResponse delete(CosmosStoredProcedureRequestOptions options)"
     parameters:
     - id: "options"
-      type: "com.azure.cosmos.CosmosStoredProcedureRequestOptions"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureRequestOptions"
       description: "the options"
     return:
-      type: "com.azure.cosmos.CosmosStoredProcedureResponse"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
       description: "the cosmos sync response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
     description: "the cosmos client exception"
-- uid: "com.azure.cosmos.CosmosStoredProcedure.execute(java.lang.Object[],com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
-  id: "execute(java.lang.Object[],com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
+- uid: "com.azure.cosmos.CosmosStoredProcedure.execute(java.lang.Object[],com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
+  id: "execute(java.lang.Object[],com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
   parent: "com.azure.cosmos.CosmosStoredProcedure"
   langs:
   - "java"
@@ -124,10 +124,10 @@ items:
       type: "java.lang.Object[]"
       description: "the procedure params"
     - id: "options"
-      type: "com.azure.cosmos.CosmosStoredProcedureRequestOptions"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureRequestOptions"
       description: "the options"
     return:
-      type: "com.azure.cosmos.CosmosStoredProcedureResponse"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
       description: "the cosmos sync stored procedure response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
@@ -164,13 +164,13 @@ items:
   syntax:
     content: "public CosmosStoredProcedureResponse read()"
     return:
-      type: "com.azure.cosmos.CosmosStoredProcedureResponse"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
       description: "the cosmos sync stored procedure response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
     description: "the cosmos client exception"
-- uid: "com.azure.cosmos.CosmosStoredProcedure.read(com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
-  id: "read(com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
+- uid: "com.azure.cosmos.CosmosStoredProcedure.read(com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
+  id: "read(com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
   parent: "com.azure.cosmos.CosmosStoredProcedure"
   langs:
   - "java"
@@ -185,16 +185,16 @@ items:
     content: "public CosmosStoredProcedureResponse read(CosmosStoredProcedureRequestOptions options)"
     parameters:
     - id: "options"
-      type: "com.azure.cosmos.CosmosStoredProcedureRequestOptions"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureRequestOptions"
       description: "the options"
     return:
-      type: "com.azure.cosmos.CosmosStoredProcedureResponse"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
       description: "the cosmos sync stored procedure response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
     description: "the cosmos client exception"
-- uid: "com.azure.cosmos.CosmosStoredProcedure.replace(com.azure.cosmos.CosmosStoredProcedureProperties)"
-  id: "replace(com.azure.cosmos.CosmosStoredProcedureProperties)"
+- uid: "com.azure.cosmos.CosmosStoredProcedure.replace(com.azure.cosmos.models.CosmosStoredProcedureProperties)"
+  id: "replace(com.azure.cosmos.models.CosmosStoredProcedureProperties)"
   parent: "com.azure.cosmos.CosmosStoredProcedure"
   langs:
   - "java"
@@ -209,16 +209,16 @@ items:
     content: "public CosmosStoredProcedureResponse replace(CosmosStoredProcedureProperties storedProcedureSettings)"
     parameters:
     - id: "storedProcedureSettings"
-      type: "com.azure.cosmos.CosmosStoredProcedureProperties"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureProperties"
       description: "the stored procedure settings"
     return:
-      type: "com.azure.cosmos.CosmosStoredProcedureResponse"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
       description: "the cosmos sync stored procedure response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
     description: "the cosmos client exception"
-- uid: "com.azure.cosmos.CosmosStoredProcedure.replace(com.azure.cosmos.CosmosStoredProcedureProperties,com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
-  id: "replace(com.azure.cosmos.CosmosStoredProcedureProperties,com.azure.cosmos.CosmosStoredProcedureRequestOptions)"
+- uid: "com.azure.cosmos.CosmosStoredProcedure.replace(com.azure.cosmos.models.CosmosStoredProcedureProperties,com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
+  id: "replace(com.azure.cosmos.models.CosmosStoredProcedureProperties,com.azure.cosmos.models.CosmosStoredProcedureRequestOptions)"
   parent: "com.azure.cosmos.CosmosStoredProcedure"
   langs:
   - "java"
@@ -233,13 +233,13 @@ items:
     content: "public CosmosStoredProcedureResponse replace(CosmosStoredProcedureProperties storedProcedureSettings, CosmosStoredProcedureRequestOptions options)"
     parameters:
     - id: "storedProcedureSettings"
-      type: "com.azure.cosmos.CosmosStoredProcedureProperties"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureProperties"
       description: "the stored procedure settings"
     - id: "options"
-      type: "com.azure.cosmos.CosmosStoredProcedureRequestOptions"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureRequestOptions"
       description: "the options"
     return:
-      type: "com.azure.cosmos.CosmosStoredProcedureResponse"
+      type: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
       description: "the cosmos sync stored procedure response"
   exceptions:
   - type: "com.azure.cosmos.CosmosClientException"
@@ -272,19 +272,19 @@ references:
   name: "CosmosClientException"
   nameWithType: "CosmosClientException"
   fullName: "com.azure.cosmos.CosmosClientException"
-- uid: "com.azure.cosmos.CosmosStoredProcedureResponse"
+- uid: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
   name: "CosmosStoredProcedureResponse"
   nameWithType: "CosmosStoredProcedureResponse"
-  fullName: "com.azure.cosmos.CosmosStoredProcedureResponse"
+  fullName: "com.azure.cosmos.models.CosmosStoredProcedureResponse"
 - uid: "com.azure.cosmos.CosmosStoredProcedure.read*"
   name: "read"
   nameWithType: "CosmosStoredProcedure.read"
   fullName: "com.azure.cosmos.CosmosStoredProcedure.read"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.CosmosStoredProcedureRequestOptions"
+- uid: "com.azure.cosmos.models.CosmosStoredProcedureRequestOptions"
   name: "CosmosStoredProcedureRequestOptions"
   nameWithType: "CosmosStoredProcedureRequestOptions"
-  fullName: "com.azure.cosmos.CosmosStoredProcedureRequestOptions"
+  fullName: "com.azure.cosmos.models.CosmosStoredProcedureRequestOptions"
 - uid: "com.azure.cosmos.CosmosStoredProcedure.delete*"
   name: "delete"
   nameWithType: "CosmosStoredProcedure.delete"
@@ -302,10 +302,10 @@ references:
   nameWithType: "CosmosStoredProcedure.execute"
   fullName: "com.azure.cosmos.CosmosStoredProcedure.execute"
   package: "com.azure.cosmos"
-- uid: "com.azure.cosmos.CosmosStoredProcedureProperties"
+- uid: "com.azure.cosmos.models.CosmosStoredProcedureProperties"
   name: "CosmosStoredProcedureProperties"
   nameWithType: "CosmosStoredProcedureProperties"
-  fullName: "com.azure.cosmos.CosmosStoredProcedureProperties"
+  fullName: "com.azure.cosmos.models.CosmosStoredProcedureProperties"
 - uid: "com.azure.cosmos.CosmosStoredProcedure.replace*"
   name: "replace"
   nameWithType: "CosmosStoredProcedure.replace"

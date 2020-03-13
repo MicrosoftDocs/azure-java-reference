@@ -31,18 +31,18 @@ items:
   syntax:
     content: "public abstract Flux<FeedResponse<T>> executeAsync()"
     return:
-      type: "reactor.core.publisher.Flux<com.azure.cosmos.FeedResponse<T>>"
+      type: "reactor.core.publisher.Flux<com.azure.cosmos.models.FeedResponse<T>>"
 references:
-- uid: "reactor.core.publisher.Flux<com.azure.cosmos.FeedResponse<T>>"
+- uid: "reactor.core.publisher.Flux<com.azure.cosmos.models.FeedResponse<T>>"
   spec.java:
   - uid: "reactor.core.publisher.Flux"
     name: "Flux"
     fullName: "reactor.core.publisher.Flux"
   - name: "<"
     fullName: "<"
-  - uid: "com.azure.cosmos.FeedResponse"
+  - uid: "com.azure.cosmos.models.FeedResponse"
     name: "FeedResponse"
-    fullName: "com.azure.cosmos.FeedResponse"
+    fullName: "com.azure.cosmos.models.FeedResponse"
   - name: "<"
     fullName: "<"
   - uid: "T"
@@ -65,7 +65,7 @@ references:
   name: "Flux"
   nameWithType: "Flux"
   fullName: "reactor.core.publisher.Flux"
-- uid: "com.azure.cosmos.FeedResponse"
+- uid: "com.azure.cosmos.models.FeedResponse"
   name: "FeedResponse"
   nameWithType: "FeedResponse"
-  fullName: "com.azure.cosmos.FeedResponse"
+  fullName: "com.azure.cosmos.models.FeedResponse"

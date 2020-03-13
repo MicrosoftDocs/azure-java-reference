@@ -272,10 +272,10 @@ items:
     parameters:
     - id: "name"
       type: "java.lang.String"
-      description: "the string name to look for."
+      description: "The string name to look for."
     return:
       type: "com.azure.ai.textanalytics.models.TextAnalyticsErrorCode"
-      description: "the corresponding TextAnalyticsErrorCode."
+      description: "The corresponding TextAnalyticsErrorCode."
 references:
 - uid: "com.azure.ai.textanalytics.models.TextAnalyticsErrorCode.TextAnalyticsErrorCode*"
   name: "TextAnalyticsErrorCode"

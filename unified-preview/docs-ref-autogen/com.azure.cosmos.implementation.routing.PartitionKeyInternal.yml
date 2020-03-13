@@ -24,7 +24,7 @@ items:
   - "com.azure.cosmos.implementation.routing.PartitionKeyInternal.fromObjectArray(java.lang.Object[],boolean)"
   - "com.azure.cosmos.implementation.routing.PartitionKeyInternal.fromObjectArray(java.util.List<java.lang.Object>,boolean)"
   - "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getComponents()"
-  - "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getEffectivePartitionKeyString(com.azure.cosmos.implementation.routing.PartitionKeyInternal,com.azure.cosmos.PartitionKeyDefinition)"
+  - "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getEffectivePartitionKeyString(com.azure.cosmos.implementation.routing.PartitionKeyInternal,com.azure.cosmos.models.PartitionKeyDefinition)"
   - "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getEmpty()"
   - "com.azure.cosmos.implementation.routing.PartitionKeyInternal.toJson()"
   langs:
@@ -335,8 +335,8 @@ items:
     content: "public List<IPartitionKeyComponent> getComponents()"
     return:
       type: "java.util.List<com.azure.cosmos.implementation.routing.IPartitionKeyComponent>"
-- uid: "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getEffectivePartitionKeyString(com.azure.cosmos.implementation.routing.PartitionKeyInternal,com.azure.cosmos.PartitionKeyDefinition)"
-  id: "getEffectivePartitionKeyString(com.azure.cosmos.implementation.routing.PartitionKeyInternal,com.azure.cosmos.PartitionKeyDefinition)"
+- uid: "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getEffectivePartitionKeyString(com.azure.cosmos.implementation.routing.PartitionKeyInternal,com.azure.cosmos.models.PartitionKeyDefinition)"
+  id: "getEffectivePartitionKeyString(com.azure.cosmos.implementation.routing.PartitionKeyInternal,com.azure.cosmos.models.PartitionKeyDefinition)"
   parent: "com.azure.cosmos.implementation.routing.PartitionKeyInternal"
   langs:
   - "java"
@@ -352,7 +352,7 @@ items:
     - id: "internalPartitionKey"
       type: "com.azure.cosmos.implementation.routing.PartitionKeyInternal"
     - id: "partitionKey"
-      type: "com.azure.cosmos.PartitionKeyDefinition"
+      type: "com.azure.cosmos.models.PartitionKeyDefinition"
     return:
       type: "java.lang.String"
 - uid: "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getEmpty()"
@@ -482,10 +482,10 @@ references:
   nameWithType: "PartitionKeyInternal.getComponents"
   fullName: "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getComponents"
   package: "com.azure.cosmos.implementation.routing"
-- uid: "com.azure.cosmos.PartitionKeyDefinition"
+- uid: "com.azure.cosmos.models.PartitionKeyDefinition"
   name: "PartitionKeyDefinition"
   nameWithType: "PartitionKeyDefinition"
-  fullName: "com.azure.cosmos.PartitionKeyDefinition"
+  fullName: "com.azure.cosmos.models.PartitionKeyDefinition"
 - uid: "com.azure.cosmos.implementation.routing.PartitionKeyInternal.getEffectivePartitionKeyString*"
   name: "getEffectivePartitionKeyString"
   nameWithType: "PartitionKeyInternal.getEffectivePartitionKeyString"

@@ -4,8 +4,8 @@ items:
   id: "DocumentProducerFeedResponse"
   parent: "com.azure.cosmos.implementation.query"
   children:
-  - "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.DocumentProducerFeedResponse(com.azure.cosmos.FeedResponse<T>)"
-  - "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.DocumentProducerFeedResponse(com.azure.cosmos.FeedResponse<T>,com.azure.cosmos.implementation.PartitionKeyRange)"
+  - "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.DocumentProducerFeedResponse(com.azure.cosmos.models.FeedResponse<T>)"
+  - "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.DocumentProducerFeedResponse(com.azure.cosmos.models.FeedResponse<T>,com.azure.cosmos.implementation.PartitionKeyRange)"
   - "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.pageResult"
   - "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.populatePartitionedQueryMetrics()"
   - "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.sourcePartitionKeyRange"
@@ -32,8 +32,8 @@ items:
   - "java.lang.Object.wait()"
   - "java.lang.Object.wait(long)"
   - "java.lang.Object.wait(long,int)"
-- uid: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.DocumentProducerFeedResponse(com.azure.cosmos.FeedResponse<T>)"
-  id: "DocumentProducerFeedResponse(com.azure.cosmos.FeedResponse<T>)"
+- uid: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.DocumentProducerFeedResponse(com.azure.cosmos.models.FeedResponse<T>)"
+  id: "DocumentProducerFeedResponse(com.azure.cosmos.models.FeedResponse<T>)"
   parent: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse"
   langs:
   - "java"
@@ -47,9 +47,9 @@ items:
     content: " DocumentProducerFeedResponse(FeedResponse<T> pageResult)"
     parameters:
     - id: "pageResult"
-      type: "com.azure.cosmos.FeedResponse<T>"
-- uid: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.DocumentProducerFeedResponse(com.azure.cosmos.FeedResponse<T>,com.azure.cosmos.implementation.PartitionKeyRange)"
-  id: "DocumentProducerFeedResponse(com.azure.cosmos.FeedResponse<T>,com.azure.cosmos.implementation.PartitionKeyRange)"
+      type: "com.azure.cosmos.models.FeedResponse<T>"
+- uid: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.DocumentProducerFeedResponse(com.azure.cosmos.models.FeedResponse<T>,com.azure.cosmos.implementation.PartitionKeyRange)"
+  id: "DocumentProducerFeedResponse(com.azure.cosmos.models.FeedResponse<T>,com.azure.cosmos.implementation.PartitionKeyRange)"
   parent: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse"
   langs:
   - "java"
@@ -63,7 +63,7 @@ items:
     content: " DocumentProducerFeedResponse(FeedResponse<T> pageResult, PartitionKeyRange pkr)"
     parameters:
     - id: "pageResult"
-      type: "com.azure.cosmos.FeedResponse<T>"
+      type: "com.azure.cosmos.models.FeedResponse<T>"
     - id: "pkr"
       type: "com.azure.cosmos.implementation.PartitionKeyRange"
 - uid: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.pageResult"
@@ -79,7 +79,7 @@ items:
   syntax:
     content: " FeedResponse<T> pageResult"
     return:
-      type: "com.azure.cosmos.FeedResponse<T>"
+      type: "com.azure.cosmos.models.FeedResponse<T>"
 - uid: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse.populatePartitionedQueryMetrics()"
   id: "populatePartitionedQueryMetrics()"
   parent: "com.azure.cosmos.implementation.query.DocumentProducer.DocumentProducerFeedResponse"
@@ -108,11 +108,11 @@ items:
     return:
       type: "com.azure.cosmos.implementation.PartitionKeyRange"
 references:
-- uid: "com.azure.cosmos.FeedResponse<T>"
+- uid: "com.azure.cosmos.models.FeedResponse<T>"
   spec.java:
-  - uid: "com.azure.cosmos.FeedResponse"
+  - uid: "com.azure.cosmos.models.FeedResponse"
     name: "FeedResponse"
-    fullName: "com.azure.cosmos.FeedResponse"
+    fullName: "com.azure.cosmos.models.FeedResponse"
   - name: "<"
     fullName: "<"
   - uid: "T"
@@ -182,7 +182,7 @@ references:
   name: "T"
   nameWithType: "T"
   fullName: "T"
-- uid: "com.azure.cosmos.FeedResponse"
+- uid: "com.azure.cosmos.models.FeedResponse"
   name: "FeedResponse"
   nameWithType: "FeedResponse"
-  fullName: "com.azure.cosmos.FeedResponse"
+  fullName: "com.azure.cosmos.models.FeedResponse"

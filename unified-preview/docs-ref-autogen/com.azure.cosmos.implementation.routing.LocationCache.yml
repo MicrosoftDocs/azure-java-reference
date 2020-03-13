@@ -11,7 +11,7 @@ items:
   - "com.azure.cosmos.implementation.routing.LocationCache.getWriteEndpoints()"
   - "com.azure.cosmos.implementation.routing.LocationCache.markEndpointUnavailableForRead(java.net.URI)"
   - "com.azure.cosmos.implementation.routing.LocationCache.markEndpointUnavailableForWrite(java.net.URI)"
-  - "com.azure.cosmos.implementation.routing.LocationCache.onDatabaseAccountRead(com.azure.cosmos.DatabaseAccount)"
+  - "com.azure.cosmos.implementation.routing.LocationCache.onDatabaseAccountRead(com.azure.cosmos.models.DatabaseAccount)"
   - "com.azure.cosmos.implementation.routing.LocationCache.onLocationPreferenceChanged(org.apache.commons.collections4.list.UnmodifiableList<java.lang.String>)"
   - "com.azure.cosmos.implementation.routing.LocationCache.resolveServiceEndpoint(com.azure.cosmos.implementation.RxDocumentServiceRequest)"
   - "com.azure.cosmos.implementation.routing.LocationCache.shouldRefreshEndpoints(com.azure.cosmos.implementation.Utils.ValueHolder)"
@@ -147,8 +147,8 @@ items:
     parameters:
     - id: "endpoint"
       type: "java.net.URI"
-- uid: "com.azure.cosmos.implementation.routing.LocationCache.onDatabaseAccountRead(com.azure.cosmos.DatabaseAccount)"
-  id: "onDatabaseAccountRead(com.azure.cosmos.DatabaseAccount)"
+- uid: "com.azure.cosmos.implementation.routing.LocationCache.onDatabaseAccountRead(com.azure.cosmos.models.DatabaseAccount)"
+  id: "onDatabaseAccountRead(com.azure.cosmos.models.DatabaseAccount)"
   parent: "com.azure.cosmos.implementation.routing.LocationCache"
   langs:
   - "java"
@@ -158,12 +158,12 @@ items:
   overload: "com.azure.cosmos.implementation.routing.LocationCache.onDatabaseAccountRead*"
   type: "Method"
   package: "com.azure.cosmos.implementation.routing"
-  summary: "Invoked when <xref uid=\"com.azure.cosmos.DatabaseAccount\" data-throw-if-not-resolved=\"false\">DatabaseAccount</xref> is read"
+  summary: "Invoked when <xref uid=\"com.azure.cosmos.models.DatabaseAccount\" data-throw-if-not-resolved=\"false\">DatabaseAccount</xref> is read"
   syntax:
     content: "public void onDatabaseAccountRead(DatabaseAccount databaseAccount)"
     parameters:
     - id: "databaseAccount"
-      type: "com.azure.cosmos.DatabaseAccount"
+      type: "com.azure.cosmos.models.DatabaseAccount"
       description: "READ DatabaseAccount"
 - uid: "com.azure.cosmos.implementation.routing.LocationCache.onLocationPreferenceChanged(org.apache.commons.collections4.list.UnmodifiableList<java.lang.String>)"
   id: "onLocationPreferenceChanged(org.apache.commons.collections4.list.UnmodifiableList<java.lang.String>)"
@@ -192,7 +192,7 @@ items:
   overload: "com.azure.cosmos.implementation.routing.LocationCache.resolveServiceEndpoint*"
   type: "Method"
   package: "com.azure.cosmos.implementation.routing"
-  summary: "Resolves request to service endpoint. 1. If this is a write request (a) If UseMultipleWriteLocations = true (i) For document writes, resolve to most preferred and available write endpoint. Once the endpoint is marked unavailable, it is moved to the end of available write endpoint. Current request will be retried on next preferred available write endpoint. (ii) For all other resources, always resolve to first/second (regardless of preferred locations) write getEndpoint in <xref uid=\"com.azure.cosmos.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref>. Endpoint of first write location in <xref uid=\"com.azure.cosmos.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref> is the only getEndpoint that supports write operation on all resource types (except during that region's failover). Only during manual failover, client would retry write on second write location in <xref uid=\"com.azure.cosmos.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref>. (b) Else resolve the request to first write getEndpoint in <xref uid=\"com.azure.cosmos.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref> OR second write getEndpoint in <xref uid=\"com.azure.cosmos.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref> in case of manual failover of that location. 2. Else resolve the request to most preferred available read getEndpoint (getAutomatic failover for read requests)"
+  summary: "Resolves request to service endpoint. 1. If this is a write request (a) If UseMultipleWriteLocations = true (i) For document writes, resolve to most preferred and available write endpoint. Once the endpoint is marked unavailable, it is moved to the end of available write endpoint. Current request will be retried on next preferred available write endpoint. (ii) For all other resources, always resolve to first/second (regardless of preferred locations) write getEndpoint in <xref uid=\"com.azure.cosmos.models.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref>. Endpoint of first write location in <xref uid=\"com.azure.cosmos.models.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref> is the only getEndpoint that supports write operation on all resource types (except during that region's failover). Only during manual failover, client would retry write on second write location in <xref uid=\"com.azure.cosmos.models.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref>. (b) Else resolve the request to first write getEndpoint in <xref uid=\"com.azure.cosmos.models.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref> OR second write getEndpoint in <xref uid=\"com.azure.cosmos.models.DatabaseAccount.getWritableLocations()\" data-throw-if-not-resolved=\"false\">DatabaseAccount#getWritableLocations()</xref> in case of manual failover of that location. 2. Else resolve the request to most preferred available read getEndpoint (getAutomatic failover for read requests)"
   syntax:
     content: "public URI resolveServiceEndpoint(RxDocumentServiceRequest request)"
     parameters:
@@ -284,10 +284,10 @@ references:
   nameWithType: "LocationCache.markEndpointUnavailableForWrite"
   fullName: "com.azure.cosmos.implementation.routing.LocationCache.markEndpointUnavailableForWrite"
   package: "com.azure.cosmos.implementation.routing"
-- uid: "com.azure.cosmos.DatabaseAccount"
+- uid: "com.azure.cosmos.models.DatabaseAccount"
   name: "DatabaseAccount"
   nameWithType: "DatabaseAccount"
-  fullName: "com.azure.cosmos.DatabaseAccount"
+  fullName: "com.azure.cosmos.models.DatabaseAccount"
 - uid: "com.azure.cosmos.implementation.routing.LocationCache.onDatabaseAccountRead*"
   name: "onDatabaseAccountRead"
   nameWithType: "LocationCache.onDatabaseAccountRead"

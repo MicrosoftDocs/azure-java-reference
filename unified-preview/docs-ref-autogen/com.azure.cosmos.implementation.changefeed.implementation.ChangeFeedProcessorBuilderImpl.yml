@@ -14,7 +14,7 @@ items:
   - "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setHandleChanges(java.util.function.Consumer<java.util.List<com.fasterxml.jackson.databind.JsonNode>>)"
   - "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setHostName(java.lang.String)"
   - "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setLeaseContainer(com.azure.cosmos.CosmosAsyncContainer)"
-  - "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setOptions(com.azure.cosmos.ChangeFeedProcessorOptions)"
+  - "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setOptions(com.azure.cosmos.models.ChangeFeedProcessorOptions)"
   - "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.start()"
   - "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.stop()"
   - "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.withCollectionResourceId(java.lang.String)"
@@ -233,8 +233,8 @@ items:
     return:
       type: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl"
       description: "current Builder."
-- uid: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setOptions(com.azure.cosmos.ChangeFeedProcessorOptions)"
-  id: "setOptions(com.azure.cosmos.ChangeFeedProcessorOptions)"
+- uid: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setOptions(com.azure.cosmos.models.ChangeFeedProcessorOptions)"
+  id: "setOptions(com.azure.cosmos.models.ChangeFeedProcessorOptions)"
   parent: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl"
   langs:
   - "java"
@@ -244,12 +244,12 @@ items:
   overload: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setOptions*"
   type: "Method"
   package: "com.azure.cosmos.implementation.changefeed.implementation"
-  summary: "Sets the <xref uid=\"com.azure.cosmos.ChangeFeedProcessorOptions\" data-throw-if-not-resolved=\"false\">ChangeFeedProcessorOptions</xref> to be used."
+  summary: "Sets the <xref uid=\"com.azure.cosmos.models.ChangeFeedProcessorOptions\" data-throw-if-not-resolved=\"false\">ChangeFeedProcessorOptions</xref> to be used."
   syntax:
     content: "public ChangeFeedProcessorBuilderImpl setOptions(ChangeFeedProcessorOptions changeFeedProcessorOptions)"
     parameters:
     - id: "changeFeedProcessorOptions"
-      type: "com.azure.cosmos.ChangeFeedProcessorOptions"
+      type: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
       description: "the change feed processor options to use."
     return:
       type: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl"
@@ -465,10 +465,10 @@ references:
   nameWithType: "ChangeFeedProcessorBuilderImpl.setFeedContainer"
   fullName: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setFeedContainer"
   package: "com.azure.cosmos.implementation.changefeed.implementation"
-- uid: "com.azure.cosmos.ChangeFeedProcessorOptions"
+- uid: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
   name: "ChangeFeedProcessorOptions"
   nameWithType: "ChangeFeedProcessorOptions"
-  fullName: "com.azure.cosmos.ChangeFeedProcessorOptions"
+  fullName: "com.azure.cosmos.models.ChangeFeedProcessorOptions"
 - uid: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.setOptions*"
   name: "setOptions"
   nameWithType: "ChangeFeedProcessorBuilderImpl.setOptions"

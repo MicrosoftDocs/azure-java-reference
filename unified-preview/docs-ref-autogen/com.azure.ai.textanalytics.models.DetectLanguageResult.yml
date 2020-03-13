@@ -13,7 +13,7 @@ items:
   fullName: "com.azure.ai.textanalytics.models.DetectLanguageResult"
   type: "Class"
   package: "com.azure.ai.textanalytics.models"
-  summary: "The DetectedLanguageResult model."
+  summary: "The <xref uid=\"com.azure.ai.textanalytics.models.DetectLanguageResult\" data-throw-if-not-resolved=\"false\">DetectLanguageResult</xref> model."
   syntax:
     content: "public final class DetectLanguageResult extends DocumentResult"
   inheritance:
@@ -47,7 +47,7 @@ items:
   overload: "com.azure.ai.textanalytics.models.DetectLanguageResult.DetectLanguageResult*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Create a `DetectedLanguageResult` model that describes detected languages result."
+  summary: "Create a <xref uid=\"com.azure.ai.textanalytics.models.DetectLanguageResult\" data-throw-if-not-resolved=\"false\">DetectLanguageResult</xref> model that describes detected languages result."
   syntax:
     content: "public DetectLanguageResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error, DetectedLanguage primaryLanguage)"
     parameters:
@@ -56,13 +56,13 @@ items:
       description: "Unique, non-empty document identifier."
     - id: "textDocumentStatistics"
       type: "com.azure.ai.textanalytics.models.TextDocumentStatistics"
-      description: "text document statistics"
+      description: "The text document statistics."
     - id: "error"
       type: "com.azure.ai.textanalytics.models.TextAnalyticsError"
-      description: "the document error."
+      description: "The document error."
     - id: "primaryLanguage"
       type: "com.azure.ai.textanalytics.models.DetectedLanguage"
-      description: "the detected primary language"
+      description: "The detected primary language."
 - uid: "com.azure.ai.textanalytics.models.DetectLanguageResult.getPrimaryLanguage()"
   id: "getPrimaryLanguage()"
   parent: "com.azure.ai.textanalytics.models.DetectLanguageResult"
@@ -79,7 +79,7 @@ items:
     content: "public DetectedLanguage getPrimaryLanguage()"
     return:
       type: "com.azure.ai.textanalytics.models.DetectedLanguage"
-      description: "the detected language"
+      description: "The detected language."
 references:
 - uid: "java.lang.String"
   spec.java:

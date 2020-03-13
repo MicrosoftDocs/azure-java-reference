@@ -5,7 +5,7 @@ items:
   parent: "com.azure.cosmos.implementation.query"
   children:
   - "com.azure.cosmos.implementation.query.QueryPlanRetriever.QueryPlanRetriever()"
-  - "com.azure.cosmos.implementation.query.QueryPlanRetriever.getQueryPlanThroughGatewayAsync(com.azure.cosmos.implementation.query.IDocumentQueryClient,com.azure.cosmos.SqlQuerySpec,java.lang.String)"
+  - "com.azure.cosmos.implementation.query.QueryPlanRetriever.getQueryPlanThroughGatewayAsync(com.azure.cosmos.implementation.query.IDocumentQueryClient,com.azure.cosmos.models.SqlQuerySpec,java.lang.String)"
   langs:
   - "java"
   name: "QueryPlanRetriever"
@@ -42,8 +42,8 @@ items:
   package: "com.azure.cosmos.implementation.query"
   syntax:
     content: " QueryPlanRetriever()"
-- uid: "com.azure.cosmos.implementation.query.QueryPlanRetriever.getQueryPlanThroughGatewayAsync(com.azure.cosmos.implementation.query.IDocumentQueryClient,com.azure.cosmos.SqlQuerySpec,java.lang.String)"
-  id: "getQueryPlanThroughGatewayAsync(com.azure.cosmos.implementation.query.IDocumentQueryClient,com.azure.cosmos.SqlQuerySpec,java.lang.String)"
+- uid: "com.azure.cosmos.implementation.query.QueryPlanRetriever.getQueryPlanThroughGatewayAsync(com.azure.cosmos.implementation.query.IDocumentQueryClient,com.azure.cosmos.models.SqlQuerySpec,java.lang.String)"
+  id: "getQueryPlanThroughGatewayAsync(com.azure.cosmos.implementation.query.IDocumentQueryClient,com.azure.cosmos.models.SqlQuerySpec,java.lang.String)"
   parent: "com.azure.cosmos.implementation.query.QueryPlanRetriever"
   langs:
   - "java"
@@ -59,7 +59,7 @@ items:
     - id: "queryClient"
       type: "com.azure.cosmos.implementation.query.IDocumentQueryClient"
     - id: "sqlQuerySpec"
-      type: "com.azure.cosmos.SqlQuerySpec"
+      type: "com.azure.cosmos.models.SqlQuerySpec"
     - id: "resourceLink"
       type: "java.lang.String"
     return:
@@ -74,10 +74,10 @@ references:
   name: "IDocumentQueryClient"
   nameWithType: "IDocumentQueryClient"
   fullName: "com.azure.cosmos.implementation.query.IDocumentQueryClient"
-- uid: "com.azure.cosmos.SqlQuerySpec"
+- uid: "com.azure.cosmos.models.SqlQuerySpec"
   name: "SqlQuerySpec"
   nameWithType: "SqlQuerySpec"
-  fullName: "com.azure.cosmos.SqlQuerySpec"
+  fullName: "com.azure.cosmos.models.SqlQuerySpec"
 - uid: "java.lang.String"
   spec.java:
   - uid: "java.lang.String"

@@ -79,7 +79,7 @@ items:
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "public ClientSideRequestStatisticsSerializer()"
+    content: " ClientSideRequestStatisticsSerializer()"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.ClientSideRequestStatisticsSerializer.serialize(com.azure.cosmos.ClientSideRequestStatistics,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)"
   id: "serialize(com.azure.cosmos.ClientSideRequestStatistics,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)"
   parent: "com.azure.cosmos.ClientSideRequestStatistics.ClientSideRequestStatisticsSerializer"

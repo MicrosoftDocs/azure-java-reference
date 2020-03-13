@@ -79,7 +79,7 @@ items:
   type: "Constructor"
   package: "com.azure.cosmos"
   syntax:
-    content: "public ZonedDateTimeSerializer()"
+    content: " ZonedDateTimeSerializer()"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.ZonedDateTimeSerializer.serialize(java.time.ZonedDateTime,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)"
   id: "serialize(java.time.ZonedDateTime,com.fasterxml.jackson.core.JsonGenerator,com.fasterxml.jackson.databind.SerializerProvider)"
   parent: "com.azure.cosmos.ClientSideRequestStatistics.ZonedDateTimeSerializer"

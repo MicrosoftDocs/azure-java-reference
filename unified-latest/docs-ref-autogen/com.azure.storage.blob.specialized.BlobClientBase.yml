@@ -428,7 +428,7 @@ items:
   overload: "com.azure.storage.blob.specialized.BlobClientBase.downloadToFileWithResponse*"
   type: "Method"
   package: "com.azure.storage.blob.specialized"
-  summary: "Downloads the entire blob into a file specified by the path.\n\nThe file will be created and must not exist, if the file already exists a <xref uid=\"\" data-throw-if-not-resolved=\"false\">FileAlreadyExistsException</xref> will be thrown.\n\nThis method makes an extra HTTP call to get the length of the blob in the beginning. To avoid this extra call, provide the <xref uid=\"com.azure.storage.blob.models.BlobRange\" data-throw-if-not-resolved=\"false\">BlobRange</xref> parameter.\n\n**Code Samples**\n\n\\{@codesnippet com.azure.storage.blob.specialized.BlobClientBase.downloadToFileWithResponse\\#String-BlobRange-ParallelTransferOptions-DownloadRetryOptions-BlobRequestConditions-boolean-Duration-Context\\}\n\nFor more information, see the [Azure Docs][]\n\n\n[Azure Docs]: https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob"
+  summary: "Downloads the entire blob into a file specified by the path.\n\nThe file will be created and must not exist, if the file already exists a <xref uid=\"\" data-throw-if-not-resolved=\"false\">FileAlreadyExistsException</xref> will be thrown.\n\n**Code Samples**\n\n\\{@codesnippet com.azure.storage.blob.specialized.BlobClientBase.downloadToFileWithResponse\\#String-BlobRange-ParallelTransferOptions-DownloadRetryOptions-BlobRequestConditions-boolean-Duration-Context\\}\n\nFor more information, see the [Azure Docs][]\n\n\n[Azure Docs]: https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob"
   syntax:
     content: "public Response<BlobProperties> downloadToFileWithResponse(String filePath, BlobRange range, ParallelTransferOptions parallelTransferOptions, DownloadRetryOptions downloadRetryOptions, BlobRequestConditions requestConditions, boolean rangeGetContentMd5, Duration timeout, Context context)"
     parameters:
@@ -470,7 +470,7 @@ items:
   overload: "com.azure.storage.blob.specialized.BlobClientBase.downloadToFileWithResponse*"
   type: "Method"
   package: "com.azure.storage.blob.specialized"
-  summary: "Downloads the entire blob into a file specified by the path.\n\nBy default the file will be created and must not exist, if the file already exists a <xref uid=\"\" data-throw-if-not-resolved=\"false\">FileAlreadyExistsException</xref> will be thrown. To override this behavior, provide appropriate <xref uid=\"java.nio.file.OpenOption\" data-throw-if-not-resolved=\"false\">OpenOptions</xref>\n\nThis method makes an extra HTTP call to get the length of the blob in the beginning. To avoid this extra call, provide the <xref uid=\"com.azure.storage.blob.models.BlobRange\" data-throw-if-not-resolved=\"false\">BlobRange</xref> parameter.\n\n**Code Samples**\n\n\\{@codesnippet com.azure.storage.blob.specialized.BlobClientBase.downloadToFileWithResponse\\#String-BlobRange-ParallelTransferOptions-DownloadRetryOptions-BlobRequestConditions-boolean-Set-Duration-Context\\}\n\nFor more information, see the [Azure Docs][]\n\n\n[Azure Docs]: https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob"
+  summary: "Downloads the entire blob into a file specified by the path.\n\nBy default the file will be created and must not exist, if the file already exists a <xref uid=\"\" data-throw-if-not-resolved=\"false\">FileAlreadyExistsException</xref> will be thrown. To override this behavior, provide appropriate <xref uid=\"java.nio.file.OpenOption\" data-throw-if-not-resolved=\"false\">OpenOptions</xref>\n\n**Code Samples**\n\n\\{@codesnippet com.azure.storage.blob.specialized.BlobClientBase.downloadToFileWithResponse\\#String-BlobRange-ParallelTransferOptions-DownloadRetryOptions-BlobRequestConditions-boolean-Set-Duration-Context\\}\n\nFor more information, see the [Azure Docs][]\n\n\n[Azure Docs]: https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob"
   syntax:
     content: "public Response<BlobProperties> downloadToFileWithResponse(String filePath, BlobRange range, ParallelTransferOptions parallelTransferOptions, DownloadRetryOptions downloadRetryOptions, BlobRequestConditions requestConditions, boolean rangeGetContentMd5, Set<OpenOption> openOptions, Duration timeout, Context context)"
     parameters:
@@ -554,12 +554,12 @@ items:
   overload: "com.azure.storage.blob.specialized.BlobClientBase.exists*"
   type: "Method"
   package: "com.azure.storage.blob.specialized"
-  summary: "Gets if the container this client represents exists in the cloud.\n\n**Code Samples**\n\n\\{@codesnippet com.azure.storage.blob.specialized.BlobClientBase.exists\\}"
+  summary: "Gets if the blob this client represents exists in the cloud.\n\n**Code Samples**\n\n\\{@codesnippet com.azure.storage.blob.specialized.BlobClientBase.exists\\}"
   syntax:
     content: "public Boolean exists()"
     return:
       type: "java.lang.Boolean"
-      description: "true if the container exists, false if it doesn't"
+      description: "true if the blob exists, false if it doesn't"
 - uid: "com.azure.storage.blob.specialized.BlobClientBase.existsWithResponse(java.time.Duration,com.azure.core.util.Context)"
   id: "existsWithResponse(java.time.Duration,com.azure.core.util.Context)"
   parent: "com.azure.storage.blob.specialized.BlobClientBase"
@@ -571,7 +571,7 @@ items:
   overload: "com.azure.storage.blob.specialized.BlobClientBase.existsWithResponse*"
   type: "Method"
   package: "com.azure.storage.blob.specialized"
-  summary: "Gets if the container this client represents exists in the cloud.\n\n**Code Samples**\n\n\\{@codesnippet com.azure.storage.blob.specialized.BlobClientBase.existsWithResponse\\#Duration-Context\\}"
+  summary: "Gets if the blob this client represents exists in the cloud.\n\n**Code Samples**\n\n\\{@codesnippet com.azure.storage.blob.specialized.BlobClientBase.existsWithResponse\\#Duration-Context\\}"
   syntax:
     content: "public Response<Boolean> existsWithResponse(Duration timeout, Context context)"
     parameters:
@@ -583,7 +583,7 @@ items:
       description: "Additional context that is passed through the Http pipeline during the service call."
     return:
       type: "com.azure.core.http.rest.Response<java.lang.Boolean>"
-      description: "true if the container exists, false if it doesn't"
+      description: "true if the blob exists, false if it doesn't"
 - uid: "com.azure.storage.blob.specialized.BlobClientBase.generateSas(com.azure.storage.blob.sas.BlobServiceSasSignatureValues)"
   id: "generateSas(com.azure.storage.blob.sas.BlobServiceSasSignatureValues)"
   parent: "com.azure.storage.blob.specialized.BlobClientBase"

@@ -4,6 +4,12 @@ items:
   id: "GatewayStatistics"
   parent: "com.azure.cosmos"
   children:
+  - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getOperationType()"
+  - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestCharge()"
+  - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestTimeline()"
+  - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSessionToken()"
+  - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getStatusCode()"
+  - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSubStatusCode()"
   - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.operationType"
   - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.requestCharge"
   - "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.requestTimeline"
@@ -46,6 +52,96 @@ items:
   package: "com.azure.cosmos"
   syntax:
     content: "private GatewayStatistics()"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getOperationType()"
+  id: "getOperationType()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics"
+  langs:
+  - "java"
+  name: "getOperationType()"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getOperationType()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getOperationType()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getOperationType*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public OperationType getOperationType()"
+    return:
+      type: "com.azure.cosmos.implementation.OperationType"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestCharge()"
+  id: "getRequestCharge()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics"
+  langs:
+  - "java"
+  name: "getRequestCharge()"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getRequestCharge()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestCharge()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestCharge*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public String getRequestCharge()"
+    return:
+      type: "java.lang.String"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestTimeline()"
+  id: "getRequestTimeline()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics"
+  langs:
+  - "java"
+  name: "getRequestTimeline()"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getRequestTimeline()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestTimeline()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestTimeline*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public RequestTimeline getRequestTimeline()"
+    return:
+      type: "com.azure.cosmos.implementation.RequestTimeline"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSessionToken()"
+  id: "getSessionToken()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics"
+  langs:
+  - "java"
+  name: "getSessionToken()"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getSessionToken()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSessionToken()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSessionToken*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public String getSessionToken()"
+    return:
+      type: "java.lang.String"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getStatusCode()"
+  id: "getStatusCode()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics"
+  langs:
+  - "java"
+  name: "getStatusCode()"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getStatusCode()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getStatusCode()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getStatusCode*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public int getStatusCode()"
+    return:
+      type: "int"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSubStatusCode()"
+  id: "getSubStatusCode()"
+  parent: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics"
+  langs:
+  - "java"
+  name: "getSubStatusCode()"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getSubStatusCode()"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSubStatusCode()"
+  overload: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSubStatusCode*"
+  type: "Method"
+  package: "com.azure.cosmos"
+  syntax:
+    content: "public int getSubStatusCode()"
+    return:
+      type: "int"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.operationType"
   id: "operationType"
   parent: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics"
@@ -57,7 +153,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public OperationType operationType"
+    content: " OperationType operationType"
     return:
       type: "com.azure.cosmos.implementation.OperationType"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.requestCharge"
@@ -71,7 +167,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public String requestCharge"
+    content: " String requestCharge"
     return:
       type: "java.lang.String"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.requestTimeline"
@@ -85,7 +181,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public RequestTimeline requestTimeline"
+    content: " RequestTimeline requestTimeline"
     return:
       type: "com.azure.cosmos.implementation.RequestTimeline"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.sessionToken"
@@ -99,7 +195,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public String sessionToken"
+    content: " String sessionToken"
     return:
       type: "java.lang.String"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.statusCode"
@@ -113,7 +209,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public int statusCode"
+    content: " int statusCode"
     return:
       type: "int"
 - uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.subStatusCode"
@@ -127,7 +223,7 @@ items:
   type: "Field"
   package: "com.azure.cosmos"
   syntax:
-    content: "public int subStatusCode"
+    content: " int subStatusCode"
     return:
       type: "int"
 references:
@@ -141,19 +237,49 @@ references:
   - uid: "java.lang.String"
     name: "String"
     fullName: "java.lang.String"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSessionToken*"
+  name: "getSessionToken"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getSessionToken"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSessionToken"
+  package: "com.azure.cosmos"
 - uid: "com.azure.cosmos.implementation.OperationType"
   name: "OperationType"
   nameWithType: "OperationType"
   fullName: "com.azure.cosmos.implementation.OperationType"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getOperationType*"
+  name: "getOperationType"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getOperationType"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getOperationType"
+  package: "com.azure.cosmos"
 - uid: "int"
   spec.java:
   - uid: "int"
     name: "int"
     fullName: "int"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getStatusCode*"
+  name: "getStatusCode"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getStatusCode"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getStatusCode"
+  package: "com.azure.cosmos"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSubStatusCode*"
+  name: "getSubStatusCode"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getSubStatusCode"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getSubStatusCode"
+  package: "com.azure.cosmos"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestCharge*"
+  name: "getRequestCharge"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getRequestCharge"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestCharge"
+  package: "com.azure.cosmos"
 - uid: "com.azure.cosmos.implementation.RequestTimeline"
   name: "RequestTimeline"
   nameWithType: "RequestTimeline"
   fullName: "com.azure.cosmos.implementation.RequestTimeline"
+- uid: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestTimeline*"
+  name: "getRequestTimeline"
+  nameWithType: "ClientSideRequestStatistics.GatewayStatistics.getRequestTimeline"
+  fullName: "com.azure.cosmos.ClientSideRequestStatistics.GatewayStatistics.getRequestTimeline"
+  package: "com.azure.cosmos"
 - uid: "java.lang.Object.notify()"
   name: "Object.notify()"
   nameWithType: "Object.notify()"

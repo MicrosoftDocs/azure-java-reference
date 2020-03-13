@@ -3,6 +3,7 @@ items:
 - uid: "com.azure.data.appconfiguration.implementation"
   id: "implementation"
   children:
+  - "com.azure.data.appconfiguration.implementation.ClientConstants"
   - "com.azure.data.appconfiguration.implementation.ConfigurationClientCredentials"
   - "com.azure.data.appconfiguration.implementation.ConfigurationClientCredentials.AuthorizationHeaderProvider"
   - "com.azure.data.appconfiguration.implementation.ConfigurationClientCredentials.CredentialInformation"
@@ -18,6 +19,10 @@ items:
   syntax:
     content: "package com.azure.data.appconfiguration.implementation"
 references:
+- uid: "com.azure.data.appconfiguration.implementation.ClientConstants"
+  name: "ClientConstants"
+  nameWithType: "ClientConstants"
+  fullName: "com.azure.data.appconfiguration.implementation.ClientConstants"
 - uid: "com.azure.data.appconfiguration.implementation.ConfigurationClientCredentials"
   name: "ConfigurationClientCredentials"
   nameWithType: "ConfigurationClientCredentials"

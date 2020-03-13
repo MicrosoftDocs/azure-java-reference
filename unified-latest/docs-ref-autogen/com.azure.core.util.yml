@@ -3,6 +3,7 @@ items:
 - uid: "com.azure.core.util"
   id: "util"
   children:
+  - "com.azure.core.util.AuthorizationChallengeHandler"
   - "com.azure.core.util.Base64Url"
   - "com.azure.core.util.Base64Util"
   - "com.azure.core.util.Configuration"
@@ -32,6 +33,10 @@ items:
   syntax:
     content: "package com.azure.core.util"
 references:
+- uid: "com.azure.core.util.AuthorizationChallengeHandler"
+  name: "AuthorizationChallengeHandler"
+  nameWithType: "AuthorizationChallengeHandler"
+  fullName: "com.azure.core.util.AuthorizationChallengeHandler"
 - uid: "com.azure.core.util.Base64Url"
   name: "Base64Url"
   nameWithType: "Base64Url"

@@ -16,7 +16,7 @@ items:
   fullName: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics"
   type: "Class"
   package: "com.azure.ai.textanalytics.models"
-  summary: "If <xref uid=\"com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions.showStatistics()\" data-throw-if-not-resolved=\"false\">TextAnalyticsRequestOptions#showStatistics()</xref> is set to `true` this class will will contain information about the request payload."
+  summary: "If <xref uid=\"com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions.isIncludeStatistics()\" data-throw-if-not-resolved=\"false\">TextAnalyticsRequestOptions#isIncludeStatistics()</xref> is set to `true` this class will will contain information about the request payload."
   syntax:
     content: "public final class TextDocumentBatchStatistics"
   inheritance:
@@ -44,22 +44,22 @@ items:
   overload: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics.TextDocumentBatchStatistics*"
   type: "Constructor"
   package: "com.azure.ai.textanalytics.models"
-  summary: "Creates a `TextDocumentBatchStatistics` model that describes the statistics of batch text."
+  summary: "Creates a <xref uid=\"com.azure.ai.textanalytics.models.TextDocumentBatchStatistics\" data-throw-if-not-resolved=\"false\">TextDocumentBatchStatistics</xref> model that describes the statistics of batch text."
   syntax:
     content: "public TextDocumentBatchStatistics(int documentCount, int validDocumentCount, int invalidDocumentCount, long transactionCount)"
     parameters:
     - id: "documentCount"
       type: "int"
-      description: "number of documents submitted in the request"
+      description: "The number of documents submitted in the request."
     - id: "validDocumentCount"
       type: "int"
-      description: "number of valid documents. This excludes empty, over-size limit or\n non-supported languages documents"
+      description: "The number of valid documents. This excludes empty, over-size limit or\n non-supported languages documents."
     - id: "invalidDocumentCount"
       type: "int"
-      description: "Number of invalid documents. This includes empty, over-size limit or\n non-supported languages documents"
+      description: "The number of invalid documents. This includes empty, over-size limit or\n non-supported languages documents."
     - id: "transactionCount"
       type: "long"
-      description: "number of transactions for the request"
+      description: "The number of transactions for the request."
 - uid: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics.getDocumentCount()"
   id: "getDocumentCount()"
   parent: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics"
@@ -76,7 +76,7 @@ items:
     content: "public int getDocumentCount()"
     return:
       type: "int"
-      description: "the documentCount value."
+      description: "The documentCount value."
 - uid: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics.getInvalidDocumentCount()"
   id: "getInvalidDocumentCount()"
   parent: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics"
@@ -93,7 +93,7 @@ items:
     content: "public int getInvalidDocumentCount()"
     return:
       type: "int"
-      description: "the invalidDocumentCount value."
+      description: "the <code>invalidDocumentCount</code> value."
 - uid: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics.getTransactionCount()"
   id: "getTransactionCount()"
   parent: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics"
@@ -110,7 +110,7 @@ items:
     content: "public long getTransactionCount()"
     return:
       type: "long"
-      description: "the transactionCount value."
+      description: "the <code>transactionCount</code> value."
 - uid: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics.getValidDocumentCount()"
   id: "getValidDocumentCount()"
   parent: "com.azure.ai.textanalytics.models.TextDocumentBatchStatistics"
@@ -127,7 +127,7 @@ items:
     content: "public int getValidDocumentCount()"
     return:
       type: "int"
-      description: "the validDocumentCount value."
+      description: "The <code>validDocumentCount</code> value."
 references:
 - uid: "int"
   spec.java:
