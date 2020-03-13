@@ -718,6 +718,170 @@
     name: KeyType
   - uid: com.azure.security.keyvault.keys.models.KeyVaultKey
     name: KeyVaultKey
+- uid: com.azure.security.keyvault.certificates
+  name: com.azure.security.keyvault.certificates
+  items:
+  - uid: com.azure.security.keyvault.certificates.Action
+    name: Action
+  - uid: com.azure.security.keyvault.certificates.CertificateAsyncClient
+    name: CertificateAsyncClient
+  - uid: com.azure.security.keyvault.certificates.CertificateBackup
+    name: CertificateBackup
+  - uid: com.azure.security.keyvault.certificates.CertificateClient
+    name: CertificateClient
+  - uid: com.azure.security.keyvault.certificates.CertificateClientBuilder
+    name: CertificateClientBuilder
+  - uid: com.azure.security.keyvault.certificates.CertificateImportParameters
+    name: CertificateImportParameters
+  - uid: com.azure.security.keyvault.certificates.CertificateIssuerSetParameters
+    name: CertificateIssuerSetParameters
+  - uid: com.azure.security.keyvault.certificates.CertificateIssuerUpdateParameters
+    name: CertificateIssuerUpdateParameters
+  - uid: com.azure.security.keyvault.certificates.CertificateMergeParameters
+    name: CertificateMergeParameters
+  - uid: com.azure.security.keyvault.certificates.CertificateOperationUpdateParameter
+    name: CertificateOperationUpdateParameter
+  - uid: com.azure.security.keyvault.certificates.CertificatePolicyRequest
+    name: CertificatePolicyRequest
+  - uid: com.azure.security.keyvault.certificates.CertificateRequestAttributes
+    name: CertificateRequestAttributes
+  - uid: com.azure.security.keyvault.certificates.CertificateRequestParameters
+    name: CertificateRequestParameters
+  - uid: com.azure.security.keyvault.certificates.CertificateRestoreParameters
+    name: CertificateRestoreParameters
+  - uid: com.azure.security.keyvault.certificates.CertificateService
+    name: CertificateService
+  - uid: com.azure.security.keyvault.certificates.CertificateServiceVersion
+    name: CertificateServiceVersion
+  - uid: com.azure.security.keyvault.certificates.CertificateUpdateParameters
+    name: CertificateUpdateParameters
+  - uid: com.azure.security.keyvault.certificates.Contacts
+    name: Contacts
+  - uid: com.azure.security.keyvault.certificates.IssuerAttributes
+    name: IssuerAttributes
+  - uid: com.azure.security.keyvault.certificates.IssuerCredentials
+    name: IssuerCredentials
+  - uid: com.azure.security.keyvault.certificates.IssuerParameters
+    name: IssuerParameters
+  - uid: com.azure.security.keyvault.certificates.KeyProperties
+    name: KeyProperties
+  - uid: com.azure.security.keyvault.certificates.KeyVaultErrorCodeStrings
+    name: KeyVaultErrorCodeStrings
+  - uid: com.azure.security.keyvault.certificates.LifetimeActionRequest
+    name: LifetimeActionRequest
+  - uid: com.azure.security.keyvault.certificates.OrganizationDetails
+    name: OrganizationDetails
+  - uid: com.azure.security.keyvault.certificates.SecretProperties
+    name: SecretProperties
+  - uid: com.azure.security.keyvault.certificates.SubjectAlternativeNamesRequest
+    name: SubjectAlternativeNamesRequest
+  - uid: com.azure.security.keyvault.certificates.Trigger
+    name: Trigger
+  - uid: com.azure.security.keyvault.certificates.X509CertificateProperties
+    name: X509CertificateProperties
+- uid: com.azure.security.keyvault.certificates.implementation
+  name: com.azure.security.keyvault.certificates.implementation
+  items:
+  - uid: com.azure.security.keyvault.certificates.implementation.CertificatePropertiesPage
+    name: CertificatePropertiesPage
+  - uid: com.azure.security.keyvault.certificates.implementation.ContactPage
+    name: ContactPage
+  - uid: com.azure.security.keyvault.certificates.implementation.DeletedCertificatePage
+    name: DeletedCertificatePage
+  - uid: com.azure.security.keyvault.certificates.implementation.IssuerPropertiesPage
+    name: IssuerPropertiesPage
+  - uid: com.azure.security.keyvault.certificates.implementation.KeyVaultCredentialPolicy
+    name: KeyVaultCredentialPolicy
+  - uid: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache
+    name: ScopeTokenCache
+- uid: com.azure.security.keyvault.certificates.models
+  name: com.azure.security.keyvault.certificates.models
+  items:
+  - uid: com.azure.security.keyvault.certificates.models.AdministratorContact
+    name: AdministratorContact
+  - uid: com.azure.security.keyvault.certificates.models.CertificateContact
+    name: CertificateContact
+  - uid: com.azure.security.keyvault.certificates.models.CertificateContentType
+    name: CertificateContentType
+  - uid: com.azure.security.keyvault.certificates.models.CertificateIssuer
+    name: CertificateIssuer
+  - uid: com.azure.security.keyvault.certificates.models.CertificateKeyCurveName
+    name: CertificateKeyCurveName
+  - uid: com.azure.security.keyvault.certificates.models.CertificateKeyType
+    name: CertificateKeyType
+  - uid: com.azure.security.keyvault.certificates.models.CertificateKeyUsage
+    name: CertificateKeyUsage
+  - uid: com.azure.security.keyvault.certificates.models.CertificateOperation
+    name: CertificateOperation
+  - uid: com.azure.security.keyvault.certificates.models.CertificateOperationError
+    name: CertificateOperationError
+  - uid: com.azure.security.keyvault.certificates.models.CertificatePolicy
+    name: CertificatePolicy
+  - uid: com.azure.security.keyvault.certificates.models.CertificatePolicyAction
+    name: CertificatePolicyAction
+  - uid: com.azure.security.keyvault.certificates.models.CertificateProperties
+    name: CertificateProperties
+  - uid: com.azure.security.keyvault.certificates.models.DeletedCertificate
+    name: DeletedCertificate
+  - uid: com.azure.security.keyvault.certificates.models.ImportCertificateOptions
+    name: ImportCertificateOptions
+  - uid: com.azure.security.keyvault.certificates.models.IssuerProperties
+    name: IssuerProperties
+  - uid: com.azure.security.keyvault.certificates.models.KeyVaultCertificate
+    name: KeyVaultCertificate
+  - uid: com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy
+    name: KeyVaultCertificateWithPolicy
+  - uid: com.azure.security.keyvault.certificates.models.LifetimeAction
+    name: LifetimeAction
+  - uid: com.azure.security.keyvault.certificates.models.MergeCertificateOptions
+    name: MergeCertificateOptions
+  - uid: com.azure.security.keyvault.certificates.models.SubjectAlternativeNames
+    name: SubjectAlternativeNames
+  - uid: com.azure.security.keyvault.certificates.models.WellKnownIssuerNames
+    name: WellKnownIssuerNames
+- uid: com.azure.security.keyvault.secrets.implementation
+  name: com.azure.security.keyvault.secrets.implementation
+  items:
+  - uid: com.azure.security.keyvault.secrets.implementation.DeletedSecretPage
+    name: DeletedSecretPage
+  - uid: com.azure.security.keyvault.secrets.implementation.KeyVaultCredentialPolicy
+    name: KeyVaultCredentialPolicy
+  - uid: com.azure.security.keyvault.secrets.implementation.ScopeTokenCache
+    name: ScopeTokenCache
+  - uid: com.azure.security.keyvault.secrets.implementation.SecretPropertiesPage
+    name: SecretPropertiesPage
+- uid: com.azure.security.keyvault.secrets.models
+  name: com.azure.security.keyvault.secrets.models
+  items:
+  - uid: com.azure.security.keyvault.secrets.models.DeletedSecret
+    name: DeletedSecret
+  - uid: com.azure.security.keyvault.secrets.models.KeyVaultSecret
+    name: KeyVaultSecret
+  - uid: com.azure.security.keyvault.secrets.models.SecretProperties
+    name: SecretProperties
+- uid: com.azure.security.keyvault.secrets
+  name: com.azure.security.keyvault.secrets
+  items:
+  - uid: com.azure.security.keyvault.secrets.KeyVaultErrorCodeStrings
+    name: KeyVaultErrorCodeStrings
+  - uid: com.azure.security.keyvault.secrets.SecretAsyncClient
+    name: SecretAsyncClient
+  - uid: com.azure.security.keyvault.secrets.SecretBackup
+    name: SecretBackup
+  - uid: com.azure.security.keyvault.secrets.SecretClient
+    name: SecretClient
+  - uid: com.azure.security.keyvault.secrets.SecretClientBuilder
+    name: SecretClientBuilder
+  - uid: com.azure.security.keyvault.secrets.SecretRequestAttributes
+    name: SecretRequestAttributes
+  - uid: com.azure.security.keyvault.secrets.SecretRequestParameters
+    name: SecretRequestParameters
+  - uid: com.azure.security.keyvault.secrets.SecretRestoreRequestParameters
+    name: SecretRestoreRequestParameters
+  - uid: com.azure.security.keyvault.secrets.SecretService
+    name: SecretService
+  - uid: com.azure.security.keyvault.secrets.SecretServiceVersion
+    name: SecretServiceVersion
 - uid: com.azure.cosmos.implementation.query.aggregation
   name: com.azure.cosmos.implementation.query.aggregation
   items:
@@ -2184,6 +2348,470 @@
     name: TextAnalyticsPagedIterable
   - uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse
     name: TextAnalyticsPagedResponse
+- uid: com.azure.search.implementation
+  name: com.azure.search.implementation
+  items:
+  - uid: com.azure.search.implementation.DataSourcesImpl
+    name: DataSourcesImpl
+  - uid: com.azure.search.implementation.DataSourcesImpl.DataSourcesService
+    name: DataSourcesImpl.DataSourcesService
+  - uid: com.azure.search.implementation.DocumentsImpl
+    name: DocumentsImpl
+  - uid: com.azure.search.implementation.DocumentsImpl.DocumentsService
+    name: DocumentsImpl.DocumentsService
+  - uid: com.azure.search.implementation.GeoPointDeserializer
+    name: GeoPointDeserializer
+  - uid: com.azure.search.implementation.IndexersImpl
+    name: IndexersImpl
+  - uid: com.azure.search.implementation.IndexersImpl.IndexersService
+    name: IndexersImpl.IndexersService
+  - uid: com.azure.search.implementation.IndexesImpl
+    name: IndexesImpl
+  - uid: com.azure.search.implementation.IndexesImpl.IndexesService
+    name: IndexesImpl.IndexesService
+  - uid: com.azure.search.implementation.Iso8601DateDeserializer
+    name: Iso8601DateDeserializer
+  - uid: com.azure.search.implementation.SearchIndexRestClientBuilder
+    name: SearchIndexRestClientBuilder
+  - uid: com.azure.search.implementation.SearchIndexRestClientImpl
+    name: SearchIndexRestClientImpl
+  - uid: com.azure.search.implementation.SearchServiceRestClientBuilder
+    name: SearchServiceRestClientBuilder
+  - uid: com.azure.search.implementation.SearchServiceRestClientImpl
+    name: SearchServiceRestClientImpl
+  - uid: com.azure.search.implementation.SearchServiceRestClientImpl.SearchServiceRestClientService
+    name: SearchServiceRestClientImpl.SearchServiceRestClientService
+  - uid: com.azure.search.implementation.SerializationUtil
+    name: SerializationUtil
+  - uid: com.azure.search.implementation.SkillsetsImpl
+    name: SkillsetsImpl
+  - uid: com.azure.search.implementation.SkillsetsImpl.SkillsetsService
+    name: SkillsetsImpl.SkillsetsService
+  - uid: com.azure.search.implementation.SynonymMapsImpl
+    name: SynonymMapsImpl
+  - uid: com.azure.search.implementation.SynonymMapsImpl.SynonymMapsService
+    name: SynonymMapsImpl.SynonymMapsService
+- uid: com.azure.search.implementation.models
+  name: com.azure.search.implementation.models
+  items:
+  - uid: com.azure.search.implementation.models.AccessCondition
+    name: AccessCondition
+  - uid: com.azure.search.implementation.models.AnalyzeResult
+    name: AnalyzeResult
+  - uid: com.azure.search.implementation.models.ListDataSourcesResult
+    name: ListDataSourcesResult
+  - uid: com.azure.search.implementation.models.ListIndexersResult
+    name: ListIndexersResult
+  - uid: com.azure.search.implementation.models.ListIndexesResult
+    name: ListIndexesResult
+  - uid: com.azure.search.implementation.models.ListSkillsetsResult
+    name: ListSkillsetsResult
+  - uid: com.azure.search.implementation.models.ListSynonymMapsResult
+    name: ListSynonymMapsResult
+- uid: com.azure.search.models
+  name: com.azure.search.models
+  items:
+  - uid: com.azure.search.models.AnalyzeRequest
+    name: AnalyzeRequest
+  - uid: com.azure.search.models.Analyzer
+    name: Analyzer
+  - uid: com.azure.search.models.AnalyzerName
+    name: AnalyzerName
+  - uid: com.azure.search.models.AsciiFoldingTokenFilter
+    name: AsciiFoldingTokenFilter
+  - uid: com.azure.search.models.AutocompleteItem
+    name: AutocompleteItem
+  - uid: com.azure.search.models.AutocompleteMode
+    name: AutocompleteMode
+  - uid: com.azure.search.models.AutocompleteOptions
+    name: AutocompleteOptions
+  - uid: com.azure.search.models.AutocompleteRequest
+    name: AutocompleteRequest
+  - uid: com.azure.search.models.AutocompleteResult
+    name: AutocompleteResult
+  - uid: com.azure.search.models.AzureActiveDirectoryApplicationCredentials
+    name: AzureActiveDirectoryApplicationCredentials
+  - uid: com.azure.search.models.CharFilter
+    name: CharFilter
+  - uid: com.azure.search.models.CharFilterName
+    name: CharFilterName
+  - uid: com.azure.search.models.CjkBigramTokenFilter
+    name: CjkBigramTokenFilter
+  - uid: com.azure.search.models.CjkBigramTokenFilterScripts
+    name: CjkBigramTokenFilterScripts
+  - uid: com.azure.search.models.ClassicTokenizer
+    name: ClassicTokenizer
+  - uid: com.azure.search.models.CognitiveServicesAccount
+    name: CognitiveServicesAccount
+  - uid: com.azure.search.models.CognitiveServicesAccountKey
+    name: CognitiveServicesAccountKey
+  - uid: com.azure.search.models.CommonGramTokenFilter
+    name: CommonGramTokenFilter
+  - uid: com.azure.search.models.ConditionalSkill
+    name: ConditionalSkill
+  - uid: com.azure.search.models.CoordinateSystem
+    name: CoordinateSystem
+  - uid: com.azure.search.models.CorsOptions
+    name: CorsOptions
+  - uid: com.azure.search.models.CustomAnalyzer
+    name: CustomAnalyzer
+  - uid: com.azure.search.models.DataChangeDetectionPolicy
+    name: DataChangeDetectionPolicy
+  - uid: com.azure.search.models.DataContainer
+    name: DataContainer
+  - uid: com.azure.search.models.DataDeletionDetectionPolicy
+    name: DataDeletionDetectionPolicy
+  - uid: com.azure.search.models.DataSource
+    name: DataSource
+  - uid: com.azure.search.models.DataSourceCredentials
+    name: DataSourceCredentials
+  - uid: com.azure.search.models.DataSourceType
+    name: DataSourceType
+  - uid: com.azure.search.models.DataType
+    name: DataType
+  - uid: com.azure.search.models.DefaultCognitiveServicesAccount
+    name: DefaultCognitiveServicesAccount
+  - uid: com.azure.search.models.DictionaryDecompounderTokenFilter
+    name: DictionaryDecompounderTokenFilter
+  - uid: com.azure.search.models.DistanceScoringFunction
+    name: DistanceScoringFunction
+  - uid: com.azure.search.models.DistanceScoringParameters
+    name: DistanceScoringParameters
+  - uid: com.azure.search.models.EdgeNGramTokenFilter
+    name: EdgeNGramTokenFilter
+  - uid: com.azure.search.models.EdgeNGramTokenFilterSide
+    name: EdgeNGramTokenFilterSide
+  - uid: com.azure.search.models.EdgeNGramTokenFilterV2
+    name: EdgeNGramTokenFilterV2
+  - uid: com.azure.search.models.EdgeNGramTokenizer
+    name: EdgeNGramTokenizer
+  - uid: com.azure.search.models.ElisionTokenFilter
+    name: ElisionTokenFilter
+  - uid: com.azure.search.models.EncryptionKey
+    name: EncryptionKey
+  - uid: com.azure.search.models.EntityCategory
+    name: EntityCategory
+  - uid: com.azure.search.models.EntityRecognitionSkill
+    name: EntityRecognitionSkill
+  - uid: com.azure.search.models.EntityRecognitionSkillLanguage
+    name: EntityRecognitionSkillLanguage
+  - uid: com.azure.search.models.FacetResult
+    name: FacetResult
+  - uid: com.azure.search.models.Field
+    name: Field
+  - uid: com.azure.search.models.FieldMapping
+    name: FieldMapping
+  - uid: com.azure.search.models.FieldMappingFunction
+    name: FieldMappingFunction
+  - uid: com.azure.search.models.FreshnessScoringFunction
+    name: FreshnessScoringFunction
+  - uid: com.azure.search.models.FreshnessScoringParameters
+    name: FreshnessScoringParameters
+  - uid: com.azure.search.models.GeoPoint
+    name: GeoPoint
+  - uid: com.azure.search.models.GetIndexStatisticsResult
+    name: GetIndexStatisticsResult
+  - uid: com.azure.search.models.HighWaterMarkChangeDetectionPolicy
+    name: HighWaterMarkChangeDetectionPolicy
+  - uid: com.azure.search.models.ImageAnalysisSkill
+    name: ImageAnalysisSkill
+  - uid: com.azure.search.models.ImageAnalysisSkillLanguage
+    name: ImageAnalysisSkillLanguage
+  - uid: com.azure.search.models.ImageDetail
+    name: ImageDetail
+  - uid: com.azure.search.models.Index
+    name: Index
+  - uid: com.azure.search.models.IndexAction
+    name: IndexAction
+  - uid: com.azure.search.models.IndexActionType
+    name: IndexActionType
+  - uid: com.azure.search.models.IndexBatchBase
+    name: IndexBatchBase
+  - uid: com.azure.search.models.IndexDocumentsBatch
+    name: IndexDocumentsBatch
+  - uid: com.azure.search.models.IndexDocumentsResult
+    name: IndexDocumentsResult
+  - uid: com.azure.search.models.Indexer
+    name: Indexer
+  - uid: com.azure.search.models.IndexerExecutionInfo
+    name: IndexerExecutionInfo
+  - uid: com.azure.search.models.IndexerExecutionResult
+    name: IndexerExecutionResult
+  - uid: com.azure.search.models.IndexerExecutionStatus
+    name: IndexerExecutionStatus
+  - uid: com.azure.search.models.IndexerLimits
+    name: IndexerLimits
+  - uid: com.azure.search.models.IndexerStatus
+    name: IndexerStatus
+  - uid: com.azure.search.models.IndexingParameters
+    name: IndexingParameters
+  - uid: com.azure.search.models.IndexingResult
+    name: IndexingResult
+  - uid: com.azure.search.models.IndexingSchedule
+    name: IndexingSchedule
+  - uid: com.azure.search.models.InputFieldMappingEntry
+    name: InputFieldMappingEntry
+  - uid: com.azure.search.models.ItemError
+    name: ItemError
+  - uid: com.azure.search.models.ItemWarning
+    name: ItemWarning
+  - uid: com.azure.search.models.KeepTokenFilter
+    name: KeepTokenFilter
+  - uid: com.azure.search.models.KeyPhraseExtractionSkill
+    name: KeyPhraseExtractionSkill
+  - uid: com.azure.search.models.KeyPhraseExtractionSkillLanguage
+    name: KeyPhraseExtractionSkillLanguage
+  - uid: com.azure.search.models.KeywordMarkerTokenFilter
+    name: KeywordMarkerTokenFilter
+  - uid: com.azure.search.models.KeywordTokenizer
+    name: KeywordTokenizer
+  - uid: com.azure.search.models.KeywordTokenizerV2
+    name: KeywordTokenizerV2
+  - uid: com.azure.search.models.LanguageDetectionSkill
+    name: LanguageDetectionSkill
+  - uid: com.azure.search.models.LengthTokenFilter
+    name: LengthTokenFilter
+  - uid: com.azure.search.models.LimitTokenFilter
+    name: LimitTokenFilter
+  - uid: com.azure.search.models.MagnitudeScoringFunction
+    name: MagnitudeScoringFunction
+  - uid: com.azure.search.models.MagnitudeScoringParameters
+    name: MagnitudeScoringParameters
+  - uid: com.azure.search.models.MappingCharFilter
+    name: MappingCharFilter
+  - uid: com.azure.search.models.MergeSkill
+    name: MergeSkill
+  - uid: com.azure.search.models.MicrosoftLanguageStemmingTokenizer
+    name: MicrosoftLanguageStemmingTokenizer
+  - uid: com.azure.search.models.MicrosoftLanguageTokenizer
+    name: MicrosoftLanguageTokenizer
+  - uid: com.azure.search.models.MicrosoftStemmingTokenizerLanguage
+    name: MicrosoftStemmingTokenizerLanguage
+  - uid: com.azure.search.models.MicrosoftTokenizerLanguage
+    name: MicrosoftTokenizerLanguage
+  - uid: com.azure.search.models.NGramTokenFilter
+    name: NGramTokenFilter
+  - uid: com.azure.search.models.NGramTokenFilterV2
+    name: NGramTokenFilterV2
+  - uid: com.azure.search.models.NGramTokenizer
+    name: NGramTokenizer
+  - uid: com.azure.search.models.NamedEntityRecognitionSkill
+    name: NamedEntityRecognitionSkill
+  - uid: com.azure.search.models.NamedEntityRecognitionSkillLanguage
+    name: NamedEntityRecognitionSkillLanguage
+  - uid: com.azure.search.models.OcrSkill
+    name: OcrSkill
+  - uid: com.azure.search.models.OcrSkillLanguage
+    name: OcrSkillLanguage
+  - uid: com.azure.search.models.OutputFieldMappingEntry
+    name: OutputFieldMappingEntry
+  - uid: com.azure.search.models.PathHierarchyTokenizer
+    name: PathHierarchyTokenizer
+  - uid: com.azure.search.models.PathHierarchyTokenizerV2
+    name: PathHierarchyTokenizerV2
+  - uid: com.azure.search.models.PatternAnalyzer
+    name: PatternAnalyzer
+  - uid: com.azure.search.models.PatternCaptureTokenFilter
+    name: PatternCaptureTokenFilter
+  - uid: com.azure.search.models.PatternReplaceCharFilter
+    name: PatternReplaceCharFilter
+  - uid: com.azure.search.models.PatternReplaceTokenFilter
+    name: PatternReplaceTokenFilter
+  - uid: com.azure.search.models.PatternTokenizer
+    name: PatternTokenizer
+  - uid: com.azure.search.models.PhoneticEncoder
+    name: PhoneticEncoder
+  - uid: com.azure.search.models.PhoneticTokenFilter
+    name: PhoneticTokenFilter
+  - uid: com.azure.search.models.QueryType
+    name: QueryType
+  - uid: com.azure.search.models.RangeFacetResult
+    name: RangeFacetResult
+  - uid: com.azure.search.models.RegexFlags
+    name: RegexFlags
+  - uid: com.azure.search.models.RequestOptions
+    name: RequestOptions
+  - uid: com.azure.search.models.ResourceCounter
+    name: ResourceCounter
+  - uid: com.azure.search.models.ScoringFunction
+    name: ScoringFunction
+  - uid: com.azure.search.models.ScoringFunctionAggregation
+    name: ScoringFunctionAggregation
+  - uid: com.azure.search.models.ScoringFunctionInterpolation
+    name: ScoringFunctionInterpolation
+  - uid: com.azure.search.models.ScoringProfile
+    name: ScoringProfile
+  - uid: com.azure.search.models.SearchDocumentsResult
+    name: SearchDocumentsResult
+  - uid: com.azure.search.models.SearchError
+    name: SearchError
+  - uid: com.azure.search.models.SearchErrorException
+    name: SearchErrorException
+  - uid: com.azure.search.models.SearchMode
+    name: SearchMode
+  - uid: com.azure.search.models.SearchOptions
+    name: SearchOptions
+  - uid: com.azure.search.models.SearchRequest
+    name: SearchRequest
+  - uid: com.azure.search.models.SearchResult
+    name: SearchResult
+  - uid: com.azure.search.models.SentimentSkill
+    name: SentimentSkill
+  - uid: com.azure.search.models.SentimentSkillLanguage
+    name: SentimentSkillLanguage
+  - uid: com.azure.search.models.ServiceCounters
+    name: ServiceCounters
+  - uid: com.azure.search.models.ServiceLimits
+    name: ServiceLimits
+  - uid: com.azure.search.models.ServiceStatistics
+    name: ServiceStatistics
+  - uid: com.azure.search.models.ShaperSkill
+    name: ShaperSkill
+  - uid: com.azure.search.models.ShingleTokenFilter
+    name: ShingleTokenFilter
+  - uid: com.azure.search.models.Skill
+    name: Skill
+  - uid: com.azure.search.models.Skillset
+    name: Skillset
+  - uid: com.azure.search.models.SnowballTokenFilter
+    name: SnowballTokenFilter
+  - uid: com.azure.search.models.SnowballTokenFilterLanguage
+    name: SnowballTokenFilterLanguage
+  - uid: com.azure.search.models.SoftDeleteColumnDeletionDetectionPolicy
+    name: SoftDeleteColumnDeletionDetectionPolicy
+  - uid: com.azure.search.models.SplitSkill
+    name: SplitSkill
+  - uid: com.azure.search.models.SplitSkillLanguage
+    name: SplitSkillLanguage
+  - uid: com.azure.search.models.SqlIntegratedChangeTrackingPolicy
+    name: SqlIntegratedChangeTrackingPolicy
+  - uid: com.azure.search.models.StandardAnalyzer
+    name: StandardAnalyzer
+  - uid: com.azure.search.models.StandardTokenizer
+    name: StandardTokenizer
+  - uid: com.azure.search.models.StandardTokenizerV2
+    name: StandardTokenizerV2
+  - uid: com.azure.search.models.StemmerOverrideTokenFilter
+    name: StemmerOverrideTokenFilter
+  - uid: com.azure.search.models.StemmerTokenFilter
+    name: StemmerTokenFilter
+  - uid: com.azure.search.models.StemmerTokenFilterLanguage
+    name: StemmerTokenFilterLanguage
+  - uid: com.azure.search.models.StopAnalyzer
+    name: StopAnalyzer
+  - uid: com.azure.search.models.StopwordsList
+    name: StopwordsList
+  - uid: com.azure.search.models.StopwordsTokenFilter
+    name: StopwordsTokenFilter
+  - uid: com.azure.search.models.SuggestDocumentsResult
+    name: SuggestDocumentsResult
+  - uid: com.azure.search.models.SuggestOptions
+    name: SuggestOptions
+  - uid: com.azure.search.models.SuggestRequest
+    name: SuggestRequest
+  - uid: com.azure.search.models.SuggestResult
+    name: SuggestResult
+  - uid: com.azure.search.models.Suggester
+    name: Suggester
+  - uid: com.azure.search.models.SynonymMap
+    name: SynonymMap
+  - uid: com.azure.search.models.SynonymTokenFilter
+    name: SynonymTokenFilter
+  - uid: com.azure.search.models.TagScoringFunction
+    name: TagScoringFunction
+  - uid: com.azure.search.models.TagScoringParameters
+    name: TagScoringParameters
+  - uid: com.azure.search.models.TextExtractionAlgorithm
+    name: TextExtractionAlgorithm
+  - uid: com.azure.search.models.TextSplitMode
+    name: TextSplitMode
+  - uid: com.azure.search.models.TextTranslationSkill
+    name: TextTranslationSkill
+  - uid: com.azure.search.models.TextTranslationSkillLanguage
+    name: TextTranslationSkillLanguage
+  - uid: com.azure.search.models.TextWeights
+    name: TextWeights
+  - uid: com.azure.search.models.TokenCharacterKind
+    name: TokenCharacterKind
+  - uid: com.azure.search.models.TokenFilter
+    name: TokenFilter
+  - uid: com.azure.search.models.TokenFilterName
+    name: TokenFilterName
+  - uid: com.azure.search.models.TokenInfo
+    name: TokenInfo
+  - uid: com.azure.search.models.Tokenizer
+    name: Tokenizer
+  - uid: com.azure.search.models.TokenizerName
+    name: TokenizerName
+  - uid: com.azure.search.models.TruncateTokenFilter
+    name: TruncateTokenFilter
+  - uid: com.azure.search.models.UaxUrlEmailTokenizer
+    name: UaxUrlEmailTokenizer
+  - uid: com.azure.search.models.UniqueTokenFilter
+    name: UniqueTokenFilter
+  - uid: com.azure.search.models.ValueFacetResult
+    name: ValueFacetResult
+  - uid: com.azure.search.models.VisualFeature
+    name: VisualFeature
+  - uid: com.azure.search.models.WebApiSkill
+    name: WebApiSkill
+  - uid: com.azure.search.models.WordDelimiterTokenFilter
+    name: WordDelimiterTokenFilter
+- uid: com.azure.search
+  name: com.azure.search
+  items:
+  - uid: com.azure.search.DataSources
+    name: DataSources
+  - uid: com.azure.search.IndexBatchException
+    name: IndexBatchException
+  - uid: com.azure.search.SearchApiKeyCredential
+    name: SearchApiKeyCredential
+  - uid: com.azure.search.SearchApiKeyPipelinePolicy
+    name: SearchApiKeyPipelinePolicy
+  - uid: com.azure.search.SearchDocument
+    name: SearchDocument
+  - uid: com.azure.search.SearchIndexAsyncClient
+    name: SearchIndexAsyncClient
+  - uid: com.azure.search.SearchIndexClient
+    name: SearchIndexClient
+  - uid: com.azure.search.SearchIndexClientBuilder
+    name: SearchIndexClientBuilder
+  - uid: com.azure.search.SearchServiceAsyncClient
+    name: SearchServiceAsyncClient
+  - uid: com.azure.search.SearchServiceClient
+    name: SearchServiceClient
+  - uid: com.azure.search.SearchServiceClientBuilder
+    name: SearchServiceClientBuilder
+  - uid: com.azure.search.SearchServiceVersion
+    name: SearchServiceVersion
+- uid: com.azure.search.implementation.util
+  name: com.azure.search.implementation.util
+  items:
+  - uid: com.azure.search.implementation.util.DocumentResponseConversions
+    name: DocumentResponseConversions
+  - uid: com.azure.search.implementation.util.SuggestOptionsHandler
+    name: SuggestOptionsHandler
+- uid: com.azure.search.util
+  name: com.azure.search.util
+  items:
+  - uid: com.azure.search.util.AutocompletePagedFlux
+    name: AutocompletePagedFlux
+  - uid: com.azure.search.util.AutocompletePagedIterable
+    name: AutocompletePagedIterable
+  - uid: com.azure.search.util.AutocompletePagedResponse
+    name: AutocompletePagedResponse
+  - uid: com.azure.search.util.SearchPagedFlux
+    name: SearchPagedFlux
+  - uid: com.azure.search.util.SearchPagedIterable
+    name: SearchPagedIterable
+  - uid: com.azure.search.util.SearchPagedResponse
+    name: SearchPagedResponse
+  - uid: com.azure.search.util.SuggestPagedFlux
+    name: SuggestPagedFlux
+  - uid: com.azure.search.util.SuggestPagedIterable
+    name: SuggestPagedIterable
+  - uid: com.azure.search.util.SuggestPagedResponse
+    name: SuggestPagedResponse
 - uid: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation
   name: com.microsoft.azure.management.hdinsight.v2018_06_01_preview.implementation
   items:
