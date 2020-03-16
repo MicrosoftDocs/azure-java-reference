@@ -226,6 +226,166 @@
                 "packageVersion": "1.31.1",
                 "inputPath": [],
                 "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-cognitiveservices",
+                "packageVersion": "1.10.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-autosuggest",
+                "packageVersion": " 1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-customimagesearch",
+                "packageVersion": "1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-customsearch",
+                "packageVersion": "1.0.2",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-entitysearch",
+                "packageVersion": "1.0.2",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-imagesearch",
+                "packageVersion": "1.0.2",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-newssearch",
+                "packageVersion": "1.0.2",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-spellcheck",
+                "packageVersion": "1.0.2",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-videosearch",
+                "packageVersion": "1.0.2",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-visualsearch",
+                "packageVersion": "1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-websearch",
+                "packageVersion": "1.0.2",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-computervision",
+                "packageVersion": "1.0.3-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-contentmoderator",
+                "packageVersion": "1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-customvision-training",
+                "packageVersion": "1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-customvision-prediction",
+                "packageVersion": "1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-faceapi",
+                "packageVersion": "1.0.0-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-luis-runtime",
+                "packageVersion": "1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-luis-authoring",
+                "packageVersion": "1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-language",
+                "packageVersion": "0.0.1-beta",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.cognitiveservices",
+                "packageArtifactId": "azure-cognitiveservices-textanalytics",
+                "packageVersion": "1.0.2-beta",
+                "inputPath": [],
+                "excludePath": []
             }
         ]
     },
