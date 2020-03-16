@@ -24,6 +24,11 @@
       landingPageType: Service
       children:
       - com.azure.messaging.eventhubs*
+    - name: HD Insight
+      uid: azure.java.sdk.landingpage.preview.services.hdinsight
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.hdinsight*
     - name: Identity
       uid: azure.java.sdk.landingpage.preview.services.identity
       landingPageType: Service
@@ -34,6 +39,21 @@
       landingPageType: Service
       children:
       - com.azure.security.keyvault*
+    - name: Mixed Reality
+      uid: azure.java.sdk.landingpage.preview.services.mixedreality
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.mixedreality*
+    - name: Operations Management
+      uid: azure.java.sdk.landingpage.preview.services.operationsmanagement
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.operationsmanagement*
+    - name: Search
+      uid: azure.java.sdk.landingpage.preview.services.search
+      landingPageType: Service
+      children:
+      - com.azure.search*
     - name: Storage
       uid: azure.java.sdk.landingpage.preview.services.storage
       landingPageType: Service
