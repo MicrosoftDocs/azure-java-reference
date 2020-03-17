@@ -382,7 +382,7 @@
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.microsoft.azure.functions",
-                "packageArtifactId": ":azure-functions-java-library",
+                "packageArtifactId": "azure-functions-java-library",
                 "packageVersion": "1.3.1",
                 "inputPath": [],
                 "excludePath": []
