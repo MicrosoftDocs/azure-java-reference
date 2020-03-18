@@ -29,7 +29,7 @@
             },
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure.applicationinsights.v2015_05_01",
+                "packageGroupId": "com.microsoft.azure",
                 "packageArtifactId": "azure-mgmt-appservice",
                 "packageVersion": "1.31.1",
                 "inputPath": [],
