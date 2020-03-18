@@ -3,36 +3,11 @@
         "language": "java",
         "output_path": "unified-latest/docs-ref-autogen",
         "packages": [
-
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "azure-documentdb",
-                "packageVersion": "2.4.7",
-                "inputPath": [],
-                "excludePath": []
-            },
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "documentdb-bulkexecutor",
-                "packageVersion": "2.9.3",
-                "inputPath": [],
-                "excludePath": []
-            },
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure.edgegateway.v2019_03_01",
-                "packageArtifactId": "azure-mgmt-databoxedge",
-                "packageVersion": "1.0.0-beta",
-                "inputPath": [],
-                "excludePath": []
-            },
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "azure-eventgrid",
-                "packageVersion": "1.3.0",
+                "packageGroupId": "com.microsoft.azure.sdk.iot",
+                "packageArtifactId": "iot-service-client",
+                "packageVersion": "1.21.0",
                 "inputPath": [],
                 "excludePath": []
             }
@@ -44,7 +19,7 @@
         "packages": [
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.azure",
+                "packageGroupId": "com.microsoft.azure.sdk.iot",
                 "packageArtifactId": "tracing-opentelemetry",
                 "packageVersion": "1.0.0-preview.2",
                 "inputPath": [],
