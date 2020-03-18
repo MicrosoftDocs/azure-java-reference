@@ -1,0 +1,18 @@
+[
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-computervision",
+      "packageVersion": "1.0.3-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+    "packageDownloadUrl": "https://repo1.maven.org/maven2",
+    "packageGroupId": "com.microsoft.azure.cognitiveservices",
+    "packageArtifactId": "azure-cognitiveservices-autosuggest",
+    "packageVersion": " 1.0.2-beta",
+    "inputPath": [],
+    "excludePath": []
+  }
+]
