@@ -6,32 +6,80 @@
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "applicationinsights-core",
-                "packageVersion": "2.5.1",
+                "packageArtifactId": "azure-mgmt-batch",
+                "packageVersion": "1.31.1",
                 "inputPath": [],
                 "excludePath": []
             },
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "azure-applicationinsights-query",
-                "packageVersion": "1.0.0-Preview-1",
+                "packageArtifactId": "azure-mgmt-batchai",
+                "packageVersion": "1.31.1",
                 "inputPath": [],
                 "excludePath": []
             },
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure.applicationinsights.v2015_05_01",
-                "packageArtifactId": "azure-mgmt-insights",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-documentdb",
+                "packageVersion": "2.4.7",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-cosmosdb",
+                "packageVersion": "2.6.6",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "documentdb-bulkexecutor",
+                "packageVersion": "2.9.3",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-datalake-analytics",
+                "packageVersion": "1.22.0",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-datalake-analytics",
+                "packageVersion": "1.22.0",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure.edgegateway.v2019_03_01",
+                "packageArtifactId": "azure-mgmt-datalake-store",
+                "packageVersion": "1.22.0",
+                "inputPath": [],
+                "excludePath": []
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-mgmt-databoxedge",
                 "packageVersion": "1.0.0-beta",
                 "inputPath": [],
                 "excludePath": []
             },
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure.applicationinsights.v2015_05_01",
-                "packageArtifactId": "azure-mgmt-appservice",
-                "packageVersion": "1.31.1",
+                "packageGroupId": "com.microsoft.azure",
+                "packageArtifactId": "azure-eventgrid",
+                "packageVersion": "1.3.0",
                 "inputPath": [],
                 "excludePath": []
             }
