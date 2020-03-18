@@ -1,4 +1,5 @@
 [
+  // failure to build
   {
       "packageDownloadUrl": "https://repo1.maven.org/maven2",
       "packageGroupId": "com.microsoft.azure.cognitiveservices",
@@ -7,6 +8,7 @@
       "inputPath": [],
       "excludePath": []
   },
+  // failure to build
   {
     "packageDownloadUrl": "https://repo1.maven.org/maven2",
     "packageGroupId": "com.microsoft.azure.cognitiveservices",
@@ -14,5 +16,70 @@
     "packageVersion": " 1.0.2-beta",
     "inputPath": [],
     "excludePath": []
-  }
+  },
+  // long path issues
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-contentmoderator",
+      "packageVersion": "1.0.2-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-customvision-training",
+      "packageVersion": "1.0.2-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-customvision-prediction",
+      "packageVersion": "1.0.2-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-faceapi",
+      "packageVersion": "1.0.0-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-luis-runtime",
+      "packageVersion": "1.0.2-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-luis-authoring",
+      "packageVersion": "1.0.2-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-language",
+      "packageVersion": "0.0.1-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure.cognitiveservices",
+      "packageArtifactId": "azure-cognitiveservices-textanalytics",
+      "packageVersion": "1.0.2-beta",
+      "inputPath": [],
+      "excludePath": []
+  },
 ]
