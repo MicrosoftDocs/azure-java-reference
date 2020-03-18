@@ -16,6 +16,33 @@
     "inputPath": [],
     "excludePath": []
   },
+  // Could not find artifact com.microsoft.azure:azure-mgmt-resources:jar:tests:1.22.0 in central
+
+  {
+    "packageDownloadUrl": "https://repo1.maven.org/maven2",
+    "packageGroupId": "com.microsoft.azure",
+    "packageArtifactId": "azure-mgmt-datalake-analytics",
+    "packageVersion": "1.22.0",
+    "inputPath": [],
+    "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure",
+      "packageArtifactId": "azure-mgmt-datalake-analytics",
+      "packageVersion": "1.22.0",
+      "inputPath": [],
+      "excludePath": []
+  },
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure",
+      "packageArtifactId": "azure-mgmt-datalake-store",
+      "packageVersion": "1.22.0",
+      "inputPath": [],
+      "excludePath": []
+  },
+
   //  Could not find artifact com.microsoft.azure:azure-cosmosdb-commons-test-utils:jar:2.6.6 in central
   {
       "packageDownloadUrl": "https://repo1.maven.org/maven2",
