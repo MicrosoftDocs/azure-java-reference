@@ -8,7 +8,6 @@
       "inputPath": [],
       "excludePath": []
   },
-  // failure to build
   {
     "packageDownloadUrl": "https://repo1.maven.org/maven2",
     "packageGroupId": "com.microsoft.azure.cognitiveservices",
