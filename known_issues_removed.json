@@ -16,6 +16,16 @@
     "inputPath": [],
     "excludePath": []
   },
+  //  Could not find artifact com.microsoft.azure:azure-cosmosdb-commons-test-utils:jar:2.6.6 in central
+  {
+      "packageDownloadUrl": "https://repo1.maven.org/maven2",
+      "packageGroupId": "com.microsoft.azure",
+      "packageArtifactId": "azure-cosmosdb",
+      "packageVersion": "2.6.6",
+      "inputPath": [],
+      "excludePath": []
+  },
+
   //Could not find artifact com.microsoft.azure:azure-mgmt-resources:jar:tests:1.31.1 in central (https://repo.maven.apache.org/maven2) -> [Help 1]
   {
       "packageDownloadUrl": "https://repo1.maven.org/maven2",
