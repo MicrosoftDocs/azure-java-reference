@@ -4,9 +4,10 @@ import json
 import fnmatch
 import re
 import yaml
+import glob
 
 
-LEGACY_SOURCE_FOLDER = "legacy-docs-toc-merge" #"legacy/docs-ref-autogen"
+LEGACY_SOURCE_FOLDER = "legacy/docs-ref-autogen" #"legacy/docs-ref-autogen"
 TARGET_SOURCE_FOLDER = "unified-latest/docs-ref-autogen" #"docs-ref-autogen"
 
 root_dir = os.path.abspath(os.path.join(os.path.abspath(__file__), ".."))
@@ -29,7 +30,10 @@ if __name__ == "__main__":
     legacy_toc = yaml.safe_load(legacy_toc)
 
   appended_content = ""
-  files_for_copy
+  file_sets = []
+
+  import pdb
+  pdb.set_trace()
 
   # filter that toc
   for top_level_toc_item in legacy_toc:
@@ -42,3 +46,5 @@ if __name__ == "__main__":
     stable_toc.write(appended_content)
 
   print(file_sets)
+  for file in file_sets:
+    print(file)
