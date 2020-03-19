@@ -19,3 +19,11 @@ Copy-Item -Path "$TargetFolder/legacy-docs-toc-merge/*" -Exclude @("toc.yml") -D
 # # needs to be another 
 # $results | Set-Content "$TargetFolder/docs-ref-autogen/toc.yml" 
 # Copy-Item -Path "$TargetFolder/legacy-docs-toc-merge/*"  -Destination "$TargetFolder/docs-ref-autogen"
+Copy-Item -Force -Path "C:/repo/azure-java-reference/legacy-docs-toc-merge/*"  -Destination "C:/repo/azure-docs-sdk-java/temporary-src-based-yml"
+
+
+Copy-Item -Force -Path "C:/repo/azure-java-reference/unified-latest/docs-ref-autogen/*"  -Destination "C:/repo/azure-docs-sdk-java/docs-ref-autogen"
+Copy-Item -Force -Path "C:/repo/azure-java-reference/unified-preview/*"  -Destination "C:/repo/azure-docs-sdk-java/preview/docs-ref-autogen" 
+
+
+-Exclude @("toc.yml")
