@@ -6,7 +6,7 @@
     "com.microsoft.applicationinsights*",
     "com.microsoft.azure.applicationinsights.query*",
     "com.microsoft.azure.management.applicationinsights.v2015_05_01*",
-    "com.microsoft.azure.management.appservice*"
-
+    "com.microsoft.azure.management.appservice*",
+    "com.microsoft.azure.management.edgegateway*"
   ]
 }

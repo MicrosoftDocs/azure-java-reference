@@ -12747,3 +12747,595 @@
     uid: com.microsoft.identity.client.internal.controllers.RequestCodes
   name: com.microsoft.identity.client.internal.controllers
   uid: com.microsoft.identity.client.internal.controllers
+- href: com.microsoft.azure.management.edgegateway.v2019_03_01.yml
+  items:
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.AccountType.yml
+    name: AccountType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AccountType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Address.yml
+    name: Address
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Address
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Alert.yml
+    name: Alert
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Alert
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.AlertErrorDetails.yml
+    name: AlertErrorDetails
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AlertErrorDetails
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Alerts.yml
+    name: Alerts
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Alerts
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.AlertSeverity.yml
+    name: AlertSeverity
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AlertSeverity
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ARMBaseModel.yml
+    name: ARMBaseModel
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ARMBaseModel
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.AsymmetricEncryptedSecret.yml
+    name: AsymmetricEncryptedSecret
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AsymmetricEncryptedSecret
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Authentication.yml
+    name: Authentication
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Authentication
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.AuthenticationType.yml
+    name: AuthenticationType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AuthenticationType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.AzureContainerDataFormat.yml
+    name: AzureContainerDataFormat
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AzureContainerDataFormat
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.AzureContainerInfo.yml
+    name: AzureContainerInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AzureContainerInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.yml
+    name: BandwidthSchedule
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.Definition.yml
+    name: BandwidthSchedule.Definition
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.Definition
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.yml
+    name: BandwidthSchedule.DefinitionStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.Blank.yml
+    name: BandwidthSchedule.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithCreate.yml
+    name: BandwidthSchedule.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithDataBoxEdgeDevice.yml
+    name: BandwidthSchedule.DefinitionStages.WithDataBoxEdgeDevice
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithDataBoxEdgeDevice
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithDays.yml
+    name: BandwidthSchedule.DefinitionStages.WithDays
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithDays
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithRateInMbps.yml
+    name: BandwidthSchedule.DefinitionStages.WithRateInMbps
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithRateInMbps
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithStart.yml
+    name: BandwidthSchedule.DefinitionStages.WithStart
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithStart
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithStop.yml
+    name: BandwidthSchedule.DefinitionStages.WithStop
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithStop
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.Update.yml
+    name: BandwidthSchedule.Update
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.Update
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.UpdateStages.yml
+    name: BandwidthSchedule.UpdateStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.UpdateStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedules.yml
+    name: BandwidthSchedules
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedules
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ClientAccessRight.yml
+    name: ClientAccessRight
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ClientAccessRight
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ClientPermissionType.yml
+    name: ClientPermissionType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ClientPermissionType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ContactDetails.yml
+    name: ContactDetails
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ContactDetails
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.yml
+    name: DataBoxEdgeDevice
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.Definition.yml
+    name: DataBoxEdgeDevice.Definition
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.Definition
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.yml
+    name: DataBoxEdgeDevice.DefinitionStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.Blank.yml
+    name: DataBoxEdgeDevice.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithCreate.yml
+    name: DataBoxEdgeDevice.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithDataBoxEdgeDeviceStatus.yml
+    name: DataBoxEdgeDevice.DefinitionStages.WithDataBoxEdgeDeviceStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithDataBoxEdgeDeviceStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithDescription.yml
+    name: DataBoxEdgeDevice.DefinitionStages.WithDescription
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithDescription
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithEtag.yml
+    name: DataBoxEdgeDevice.DefinitionStages.WithEtag
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithEtag
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithFriendlyName.yml
+    name: DataBoxEdgeDevice.DefinitionStages.WithFriendlyName
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithFriendlyName
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithGroup.yml
+    name: DataBoxEdgeDevice.DefinitionStages.WithGroup
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithGroup
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithModelDescription.yml
+    name: DataBoxEdgeDevice.DefinitionStages.WithModelDescription
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithModelDescription
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithSku.yml
+    name: DataBoxEdgeDevice.DefinitionStages.WithSku
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithSku
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.Update.yml
+    name: DataBoxEdgeDevice.Update
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.Update
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.yml
+    name: DataBoxEdgeDevice.UpdateStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithDataBoxEdgeDeviceStatus.yml
+    name: DataBoxEdgeDevice.UpdateStages.WithDataBoxEdgeDeviceStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithDataBoxEdgeDeviceStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithDescription.yml
+    name: DataBoxEdgeDevice.UpdateStages.WithDescription
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithDescription
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithEtag.yml
+    name: DataBoxEdgeDevice.UpdateStages.WithEtag
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithEtag
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithFriendlyName.yml
+    name: DataBoxEdgeDevice.UpdateStages.WithFriendlyName
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithFriendlyName
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithModelDescription.yml
+    name: DataBoxEdgeDevice.UpdateStages.WithModelDescription
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithModelDescription
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithSku.yml
+    name: DataBoxEdgeDevice.UpdateStages.WithSku
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithSku
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceExtendedInfo.yml
+    name: DataBoxEdgeDeviceExtendedInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceExtendedInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceJob.yml
+    name: DataBoxEdgeDeviceJob
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceJob
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceJobModel.yml
+    name: DataBoxEdgeDeviceJobModel
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceJobModel
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevicePatch.yml
+    name: DataBoxEdgeDevicePatch
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevicePatch
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceStatus.yml
+    name: DataBoxEdgeDeviceStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DataPolicy.yml
+    name: DataPolicy
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataPolicy
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DayOfWeek.yml
+    name: DayOfWeek
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DayOfWeek
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Devices.yml
+    name: Devices
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Devices
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DeviceType.yml
+    name: DeviceType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DeviceType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.DownloadPhase.yml
+    name: DownloadPhase
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DownloadPhase
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.EncryptionAlgorithm.yml
+    name: EncryptionAlgorithm
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.EncryptionAlgorithm
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.FileEventTrigger.yml
+    name: FileEventTrigger
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.FileEventTrigger
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.FileSourceInfo.yml
+    name: FileSourceInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.FileSourceInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.InstallRebootBehavior.yml
+    name: InstallRebootBehavior
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.InstallRebootBehavior
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.IoTDeviceInfo.yml
+    name: IoTDeviceInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.IoTDeviceInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.IoTRole.yml
+    name: IoTRole
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.IoTRole
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Ipv4Config.yml
+    name: Ipv4Config
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Ipv4Config
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Ipv6Config.yml
+    name: Ipv6Config
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Ipv6Config
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.JobErrorDetails.yml
+    name: JobErrorDetails
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobErrorDetails
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.JobErrorItem.yml
+    name: JobErrorItem
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobErrorItem
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Jobs.yml
+    name: Jobs
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Jobs
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.JobStatus.yml
+    name: JobStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.JobType.yml
+    name: JobType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricAggregationType.yml
+    name: MetricAggregationType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricAggregationType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricCategory.yml
+    name: MetricCategory
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricCategory
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricDimensionV1.yml
+    name: MetricDimensionV1
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricDimensionV1
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricSpecificationV1.yml
+    name: MetricSpecificationV1
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricSpecificationV1
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricUnit.yml
+    name: MetricUnit
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricUnit
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.MonitoringStatus.yml
+    name: MonitoringStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MonitoringStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.MountPointMap.yml
+    name: MountPointMap
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MountPointMap
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapter.yml
+    name: NetworkAdapter
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapter
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterDHCPStatus.yml
+    name: NetworkAdapterDHCPStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterDHCPStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterPosition.yml
+    name: NetworkAdapterPosition
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterPosition
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterRDMAStatus.yml
+    name: NetworkAdapterRDMAStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterRDMAStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterStatus.yml
+    name: NetworkAdapterStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkGroup.yml
+    name: NetworkGroup
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkGroup
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkSettings.yml
+    name: NetworkSettings
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkSettings
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Operation.yml
+    name: Operation
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Operation
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.OperationDisplay.yml
+    name: OperationDisplay
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OperationDisplay
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Operations.yml
+    name: Operations
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Operations
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.OperationsStatus.yml
+    name: OperationsStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OperationsStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Order.yml
+    name: Order
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Order
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Orders.yml
+    name: Orders
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Orders
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.OrderState.yml
+    name: OrderState
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OrderState
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.OrderStatus.yml
+    name: OrderStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OrderStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.PeriodicTimerEventTrigger.yml
+    name: PeriodicTimerEventTrigger
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PeriodicTimerEventTrigger
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.PeriodicTimerSourceInfo.yml
+    name: PeriodicTimerSourceInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PeriodicTimerSourceInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.PlatformType.yml
+    name: PlatformType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PlatformType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.RefreshDetails.yml
+    name: RefreshDetails
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RefreshDetails
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.yml
+    name: Role
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.Definition.yml
+    name: Role.Definition
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.Definition
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.yml
+    name: Role.DefinitionStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.Blank.yml
+    name: Role.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.WithCreate.yml
+    name: Role.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.WithDataBoxEdgeDevice.yml
+    name: Role.DefinitionStages.WithDataBoxEdgeDevice
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.WithDataBoxEdgeDevice
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.Update.yml
+    name: Role.Update
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.Update
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.UpdateStages.yml
+    name: Role.UpdateStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.UpdateStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Roles.yml
+    name: Roles
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Roles
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleSinkInfo.yml
+    name: RoleSinkInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleSinkInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleStatus.yml
+    name: RoleStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleTypes.yml
+    name: RoleTypes
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleTypes
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.SecuritySettings.yml
+    name: SecuritySettings
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SecuritySettings
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ServiceSpecification.yml
+    name: ServiceSpecification
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ServiceSpecification
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.yml
+    name: Share
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.Definition.yml
+    name: Share.Definition
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.Definition
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.yml
+    name: Share.DefinitionStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.Blank.yml
+    name: Share.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithAccessProtocol.yml
+    name: Share.DefinitionStages.WithAccessProtocol
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithAccessProtocol
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithAzureContainerInfo.yml
+    name: Share.DefinitionStages.WithAzureContainerInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithAzureContainerInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithClientAccessRights.yml
+    name: Share.DefinitionStages.WithClientAccessRights
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithClientAccessRights
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithCreate.yml
+    name: Share.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDataBoxEdgeDevice.yml
+    name: Share.DefinitionStages.WithDataBoxEdgeDevice
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDataBoxEdgeDevice
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDataPolicy.yml
+    name: Share.DefinitionStages.WithDataPolicy
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDataPolicy
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDescription.yml
+    name: Share.DefinitionStages.WithDescription
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDescription
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithMonitoringStatus.yml
+    name: Share.DefinitionStages.WithMonitoringStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithMonitoringStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithRefreshDetails.yml
+    name: Share.DefinitionStages.WithRefreshDetails
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithRefreshDetails
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithShareStatus.yml
+    name: Share.DefinitionStages.WithShareStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithShareStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithUserAccessRights.yml
+    name: Share.DefinitionStages.WithUserAccessRights
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithUserAccessRights
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.Update.yml
+    name: Share.Update
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.Update
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.yml
+    name: Share.UpdateStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithAzureContainerInfo.yml
+    name: Share.UpdateStages.WithAzureContainerInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithAzureContainerInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithClientAccessRights.yml
+    name: Share.UpdateStages.WithClientAccessRights
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithClientAccessRights
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithDataPolicy.yml
+    name: Share.UpdateStages.WithDataPolicy
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithDataPolicy
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithDescription.yml
+    name: Share.UpdateStages.WithDescription
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithDescription
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithRefreshDetails.yml
+    name: Share.UpdateStages.WithRefreshDetails
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithRefreshDetails
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithUserAccessRights.yml
+    name: Share.UpdateStages.WithUserAccessRights
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithUserAccessRights
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessProtocol.yml
+    name: ShareAccessProtocol
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessProtocol
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessRight.yml
+    name: ShareAccessRight
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessRight
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessType.yml
+    name: ShareAccessType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Shares.yml
+    name: Shares
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Shares
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareStatus.yml
+    name: ShareStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Sku.yml
+    name: Sku
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Sku
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.SkuName.yml
+    name: SkuName
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SkuName
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.SkuTier.yml
+    name: SkuTier
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SkuTier
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.SSLStatus.yml
+    name: SSLStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SSLStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.yml
+    name: StorageAccountCredential
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.Definition.yml
+    name: StorageAccountCredential.Definition
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.Definition
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.yml
+    name: StorageAccountCredential.DefinitionStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.Blank.yml
+    name: StorageAccountCredential.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAccountKey.yml
+    name: StorageAccountCredential.DefinitionStages.WithAccountKey
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAccountKey
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAccountType.yml
+    name: StorageAccountCredential.DefinitionStages.WithAccountType
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAccountType
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAlias.yml
+    name: StorageAccountCredential.DefinitionStages.WithAlias
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAlias
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithBlobDomainName.yml
+    name: StorageAccountCredential.DefinitionStages.WithBlobDomainName
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithBlobDomainName
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithConnectionString.yml
+    name: StorageAccountCredential.DefinitionStages.WithConnectionString
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithConnectionString
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithCreate.yml
+    name: StorageAccountCredential.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithDataBoxEdgeDevice.yml
+    name: StorageAccountCredential.DefinitionStages.WithDataBoxEdgeDevice
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithDataBoxEdgeDevice
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithSslStatus.yml
+    name: StorageAccountCredential.DefinitionStages.WithSslStatus
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithSslStatus
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithUserName.yml
+    name: StorageAccountCredential.DefinitionStages.WithUserName
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithUserName
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.Update.yml
+    name: StorageAccountCredential.Update
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.Update
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.yml
+    name: StorageAccountCredential.UpdateStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithAccountKey.yml
+    name: StorageAccountCredential.UpdateStages.WithAccountKey
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithAccountKey
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithBlobDomainName.yml
+    name: StorageAccountCredential.UpdateStages.WithBlobDomainName
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithBlobDomainName
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithConnectionString.yml
+    name: StorageAccountCredential.UpdateStages.WithConnectionString
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithConnectionString
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithUserName.yml
+    name: StorageAccountCredential.UpdateStages.WithUserName
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithUserName
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredentials.yml
+    name: StorageAccountCredentials
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredentials
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.SymmetricKey.yml
+    name: SymmetricKey
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SymmetricKey
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.TimeGrain.yml
+    name: TimeGrain
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.TimeGrain
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.TrackingInfo.yml
+    name: TrackingInfo
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.TrackingInfo
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.yml
+    name: Trigger
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.Definition.yml
+    name: Trigger.Definition
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.Definition
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.yml
+    name: Trigger.DefinitionStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.Blank.yml
+    name: Trigger.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.WithCreate.yml
+    name: Trigger.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.WithDataBoxEdgeDevice.yml
+    name: Trigger.DefinitionStages.WithDataBoxEdgeDevice
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.WithDataBoxEdgeDevice
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.Update.yml
+    name: Trigger.Update
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.Update
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.UpdateStages.yml
+    name: Trigger.UpdateStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.UpdateStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Triggers.yml
+    name: Triggers
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Triggers
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateDownloadProgress.yml
+    name: UpdateDownloadProgress
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateDownloadProgress
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateInstallProgress.yml
+    name: UpdateInstallProgress
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateInstallProgress
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateOperation.yml
+    name: UpdateOperation
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateOperation
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateOperationStage.yml
+    name: UpdateOperationStage
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateOperationStage
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateSummary.yml
+    name: UpdateSummary
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateSummary
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.UploadCertificateRequest.yml
+    name: UploadCertificateRequest
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UploadCertificateRequest
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.UploadCertificateResponse.yml
+    name: UploadCertificateResponse
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UploadCertificateResponse
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.yml
+    name: User
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.Definition.yml
+    name: User.Definition
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.Definition
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.yml
+    name: User.DefinitionStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.Blank.yml
+    name: User.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithCreate.yml
+    name: User.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithDataBoxEdgeDevice.yml
+    name: User.DefinitionStages.WithDataBoxEdgeDevice
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithDataBoxEdgeDevice
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithEncryptedPassword.yml
+    name: User.DefinitionStages.WithEncryptedPassword
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithEncryptedPassword
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithShareAccessRights.yml
+    name: User.DefinitionStages.WithShareAccessRights
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithShareAccessRights
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.Update.yml
+    name: User.Update
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.Update
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.yml
+    name: User.UpdateStages
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.WithEncryptedPassword.yml
+    name: User.UpdateStages.WithEncryptedPassword
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.WithEncryptedPassword
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.WithShareAccessRights.yml
+    name: User.UpdateStages.WithShareAccessRights
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.WithShareAccessRights
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.UserAccessRight.yml
+    name: UserAccessRight
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UserAccessRight
+  - href: com.microsoft.azure.management.edgegateway.v2019_03_01.Users.yml
+    name: Users
+    uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Users
+  name: com.microsoft.azure.management.edgegateway.v2019_03_01
+  uid: com.microsoft.azure.management.edgegateway.v2019_03_01
