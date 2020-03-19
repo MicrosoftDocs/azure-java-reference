@@ -3,6 +3,8 @@ Param(
   [string]$TargetFolder
 )
 
+Write-Host $TargetFolder
+
 $results = Get-Content "$TargetFolder/unified-latest/docs-ref-mapping/reference-latest.yml","legacy-docs-toc-merge/toc.yml" 
 # needs to be another 
 $results | Set-Content "$TargetFolder/unified-latest/docs-ref-mapping/reference-latest.yml" 
