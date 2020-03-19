@@ -32,11 +32,11 @@ if __name__ == "__main__":
   # filter that toc
   for top_level_toc_item in legacy_toc:
     if check_against_targeted_namespaces(top_level_toc_item['uid'], migrating_namespaces_regexs):
-      appended_content += yaml.dump(top_level_toc_item)
+      appended_content += yaml.dump(top_level_toc_item, default_flow_style=False)
 
   # write the toc
   with open(os.path.join(TARGET_SOURCE_FOLDER, "toc.yml"), "a") as stable_toc:
-    toc.write(yaml.dump(legacy_toc, default_flow_style=False))
+    stable_toc.write(yaml.dump(appended_content, default_flow_style=False))
 
     # with open(os.path.join(LEGACY_SOURCE_FOLDER, 'toc.yml'), "a") as legacy_toc:
     #   lines = legacy_toc.readlines()
