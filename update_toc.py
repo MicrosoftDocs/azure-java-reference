@@ -25,29 +25,20 @@ if __name__ == "__main__":
     migrating_namespaces_regexs = [fnmatch.translate(namespace) for namespace in migrating_namespaces]
 
   # get the yml from legacy
-  with open(os.path.join(LEGACY_SOURCE_FOLDER, 'toc.yml'), "r") as legacy_toc:
+  with open(os.path.join(root_dir, LEGACY_SOURCE_FOLDER, 'toc.yml'), "r") as legacy_toc:
     legacy_toc = yaml.safe_load(legacy_toc)
 
   appended_content = ""
+  files_for_copy
+
   # filter that toc
   for top_level_toc_item in legacy_toc:
     if check_against_targeted_namespaces(top_level_toc_item['uid'], migrating_namespaces_regexs):
       appended_content += yaml.dump(top_level_toc_item, default_flow_style=False)
+      file_sets += glob.glob(os.path.join(root_dir, LEGACY_SOURCE_FOLDER, top_level_toc_item['uid']+"*"))
 
   # write the toc
-  with open(os.path.join(TARGET_SOURCE_FOLDER, "toc.yml"), "a") as stable_toc:
-    stable_toc.write(yaml.dump(appended_content, default_flow_style=False))
+  with open(os.path.join(root_dir, TARGET_SOURCE_FOLDER, "toc.yml"), "a", encoding="utf-8") as stable_toc:
+    stable_toc.write(appended_content)
 
-    # with open(os.path.join(LEGACY_SOURCE_FOLDER, 'toc.yml'), "a") as legacy_toc:
-    #   lines = legacy_toc.readlines()
-      
-      # print(lines)
-      # filtered_to_known_namespaces = [line for line in lines if check_against_targeted_namespaces(test_line=line, namespace_patterns_list=migrating_namespaces_regexs)]
-
-      # additional_content = "".join(filtered_to_known_namespaces)
-
-      # print("gonna add")
-      # print(additional_content)
-      # # with open(os.path.join(TARGET_SOURCE_FOLDER, "toc.yml"), a) as toc:
-      # #    toc.write(additional_content)
-
+  print(file_sets)
