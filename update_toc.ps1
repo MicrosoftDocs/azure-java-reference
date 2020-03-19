@@ -5,7 +5,7 @@ Param(
 
 Write-Host $TargetFolder
 
-$results = Get-Content "$TargetFolder/unified-latest/docs-ref-mapping/reference-latest.yml","legacy-docs-toc-merge/toc.yml" 
+$results = Get-Content "$TargetFolder/unified-latest/docs-ref-mapping/reference-latest.yml","$TargetFolder/legacy-docs-toc-merge/toc.yml" 
 # needs to be another 
 $results | Set-Content "$TargetFolder/unified-latest/docs-ref-mapping/reference-latest.yml" 
 Copy-Item -Path "$TargetFolder/legacy-docs-toc-merge/*" -Destination "$TargetFolder/unified-latest/docs-ref-autogen"
