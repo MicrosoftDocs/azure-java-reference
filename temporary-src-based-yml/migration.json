@@ -2,6 +2,11 @@
   "migrating_namespaces": [
     "com.microsoft.aad.adal*",
     "com.microsoft.aad.adal4j*",
-    "com.microsoft.identity.client*"
+    "com.microsoft.identity.client*",
+    "com.microsoft.applicationinsights*",
+    "com.microsoft.azure.applicationinsights.query*",
+    "com.microsoft.azure.management.applicationinsights.v2015_05_01*",
+    "com.microsoft.azure.management.appservice*"
+
   ]
 }
