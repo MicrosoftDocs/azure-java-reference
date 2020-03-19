@@ -2827,550 +2827,6 @@
     name: SettingFields
   - uid: com.azure.data.appconfiguration.models.SettingSelector
     name: SettingSelector
-- uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation
-  name: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation
-  items:
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertImpl
-    name: AlertImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertInner
-    name: AlertInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertsImpl
-    name: AlertsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertsInner
-    name: AlertsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertsInner.AlertsService
-    name: AlertsInner.AlertsService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthScheduleImpl
-    name: BandwidthScheduleImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthScheduleInner
-    name: BandwidthScheduleInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthSchedulesImpl
-    name: BandwidthSchedulesImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthSchedulesInner
-    name: BandwidthSchedulesInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthSchedulesInner.BandwidthSchedulesService
-    name: BandwidthSchedulesInner.BandwidthSchedulesService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceExtendedInfoImpl
-    name: DataBoxEdgeDeviceExtendedInfoImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceExtendedInfoInner
-    name: DataBoxEdgeDeviceExtendedInfoInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceImpl
-    name: DataBoxEdgeDeviceImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceInner
-    name: DataBoxEdgeDeviceInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceJobImpl
-    name: DataBoxEdgeDeviceJobImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceJobModelImpl
-    name: DataBoxEdgeDeviceJobModelImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeManagementClientImpl
-    name: DataBoxEdgeManagementClientImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeManager
-    name: DataBoxEdgeManager
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeManager.Configurable
-    name: DataBoxEdgeManager.Configurable
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeManager.ConfigurableImpl
-    name: DataBoxEdgeManager.ConfigurableImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DevicesImpl
-    name: DevicesImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DevicesInner
-    name: DevicesInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DevicesInner.DevicesService
-    name: DevicesInner.DevicesService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.IdParsingUtils
-    name: IdParsingUtils
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.JobInner
-    name: JobInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.JobsImpl
-    name: JobsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.JobsInner
-    name: JobsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.JobsInner.JobsService
-    name: JobsInner.JobsService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.NetworkSettingsImpl
-    name: NetworkSettingsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.NetworkSettingsInner
-    name: NetworkSettingsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationImpl
-    name: OperationImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationInner
-    name: OperationInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsImpl
-    name: OperationsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsInner
-    name: OperationsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsInner.OperationsService
-    name: OperationsInner.OperationsService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsStatusImpl
-    name: OperationsStatusImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsStatusInner
-    name: OperationsStatusInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsStatusInner.OperationsStatusService
-    name: OperationsStatusInner.OperationsStatusService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrderImpl
-    name: OrderImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrderInner
-    name: OrderInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrdersImpl
-    name: OrdersImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrdersInner
-    name: OrdersInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrdersInner.OrdersService
-    name: OrdersInner.OrdersService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.PageImpl
-    name: PageImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RoleImpl
-    name: RoleImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RoleInner
-    name: RoleInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RolesImpl
-    name: RolesImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RolesInner
-    name: RolesInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RolesInner.RolesService
-    name: RolesInner.RolesService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.ShareImpl
-    name: ShareImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.ShareInner
-    name: ShareInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.SharesImpl
-    name: SharesImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.SharesInner
-    name: SharesInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.SharesInner.SharesService
-    name: SharesInner.SharesService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialImpl
-    name: StorageAccountCredentialImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialInner
-    name: StorageAccountCredentialInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialsImpl
-    name: StorageAccountCredentialsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialsInner
-    name: StorageAccountCredentialsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialsInner.StorageAccountCredentialsService
-    name: StorageAccountCredentialsInner.StorageAccountCredentialsService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggerImpl
-    name: TriggerImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggerInner
-    name: TriggerInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggersImpl
-    name: TriggersImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggersInner
-    name: TriggersInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggersInner.TriggersService
-    name: TriggersInner.TriggersService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UpdateSummaryImpl
-    name: UpdateSummaryImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UpdateSummaryInner
-    name: UpdateSummaryInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UploadCertificateResponseImpl
-    name: UploadCertificateResponseImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UploadCertificateResponseInner
-    name: UploadCertificateResponseInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UserImpl
-    name: UserImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UserInner
-    name: UserInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UsersImpl
-    name: UsersImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UsersInner
-    name: UsersInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UsersInner.UsersService
-    name: UsersInner.UsersService
-- uid: com.microsoft.azure.management.edgegateway.v2019_03_01
-  name: com.microsoft.azure.management.edgegateway.v2019_03_01
-  items:
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ARMBaseModel
-    name: ARMBaseModel
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AccountType
-    name: AccountType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Address
-    name: Address
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Alert
-    name: Alert
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AlertErrorDetails
-    name: AlertErrorDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AlertSeverity
-    name: AlertSeverity
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Alerts
-    name: Alerts
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AsymmetricEncryptedSecret
-    name: AsymmetricEncryptedSecret
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Authentication
-    name: Authentication
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AuthenticationType
-    name: AuthenticationType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AzureContainerDataFormat
-    name: AzureContainerDataFormat
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AzureContainerInfo
-    name: AzureContainerInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule
-    name: BandwidthSchedule
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.Definition
-    name: BandwidthSchedule.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages
-    name: BandwidthSchedule.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.Blank
-    name: BandwidthSchedule.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithCreate
-    name: BandwidthSchedule.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithDataBoxEdgeDevice
-    name: BandwidthSchedule.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithDays
-    name: BandwidthSchedule.DefinitionStages.WithDays
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithRateInMbps
-    name: BandwidthSchedule.DefinitionStages.WithRateInMbps
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithStart
-    name: BandwidthSchedule.DefinitionStages.WithStart
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithStop
-    name: BandwidthSchedule.DefinitionStages.WithStop
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.Update
-    name: BandwidthSchedule.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.UpdateStages
-    name: BandwidthSchedule.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedules
-    name: BandwidthSchedules
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ClientAccessRight
-    name: ClientAccessRight
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ClientPermissionType
-    name: ClientPermissionType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ContactDetails
-    name: ContactDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice
-    name: DataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.Definition
-    name: DataBoxEdgeDevice.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages
-    name: DataBoxEdgeDevice.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.Blank
-    name: DataBoxEdgeDevice.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithCreate
-    name: DataBoxEdgeDevice.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithDataBoxEdgeDeviceStatus
-    name: DataBoxEdgeDevice.DefinitionStages.WithDataBoxEdgeDeviceStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithDescription
-    name: DataBoxEdgeDevice.DefinitionStages.WithDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithEtag
-    name: DataBoxEdgeDevice.DefinitionStages.WithEtag
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithFriendlyName
-    name: DataBoxEdgeDevice.DefinitionStages.WithFriendlyName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithGroup
-    name: DataBoxEdgeDevice.DefinitionStages.WithGroup
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithModelDescription
-    name: DataBoxEdgeDevice.DefinitionStages.WithModelDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithSku
-    name: DataBoxEdgeDevice.DefinitionStages.WithSku
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.Update
-    name: DataBoxEdgeDevice.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages
-    name: DataBoxEdgeDevice.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithDataBoxEdgeDeviceStatus
-    name: DataBoxEdgeDevice.UpdateStages.WithDataBoxEdgeDeviceStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithDescription
-    name: DataBoxEdgeDevice.UpdateStages.WithDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithEtag
-    name: DataBoxEdgeDevice.UpdateStages.WithEtag
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithFriendlyName
-    name: DataBoxEdgeDevice.UpdateStages.WithFriendlyName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithModelDescription
-    name: DataBoxEdgeDevice.UpdateStages.WithModelDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithSku
-    name: DataBoxEdgeDevice.UpdateStages.WithSku
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceExtendedInfo
-    name: DataBoxEdgeDeviceExtendedInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceJob
-    name: DataBoxEdgeDeviceJob
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceJobModel
-    name: DataBoxEdgeDeviceJobModel
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevicePatch
-    name: DataBoxEdgeDevicePatch
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceStatus
-    name: DataBoxEdgeDeviceStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataPolicy
-    name: DataPolicy
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DayOfWeek
-    name: DayOfWeek
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DeviceType
-    name: DeviceType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Devices
-    name: Devices
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DownloadPhase
-    name: DownloadPhase
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.EncryptionAlgorithm
-    name: EncryptionAlgorithm
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.FileEventTrigger
-    name: FileEventTrigger
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.FileSourceInfo
-    name: FileSourceInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.InstallRebootBehavior
-    name: InstallRebootBehavior
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.IoTDeviceInfo
-    name: IoTDeviceInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.IoTRole
-    name: IoTRole
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Ipv4Config
-    name: Ipv4Config
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Ipv6Config
-    name: Ipv6Config
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobErrorDetails
-    name: JobErrorDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobErrorItem
-    name: JobErrorItem
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobStatus
-    name: JobStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobType
-    name: JobType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Jobs
-    name: Jobs
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricAggregationType
-    name: MetricAggregationType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricCategory
-    name: MetricCategory
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricDimensionV1
-    name: MetricDimensionV1
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricSpecificationV1
-    name: MetricSpecificationV1
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricUnit
-    name: MetricUnit
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MonitoringStatus
-    name: MonitoringStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MountPointMap
-    name: MountPointMap
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapter
-    name: NetworkAdapter
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterDHCPStatus
-    name: NetworkAdapterDHCPStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterPosition
-    name: NetworkAdapterPosition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterRDMAStatus
-    name: NetworkAdapterRDMAStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterStatus
-    name: NetworkAdapterStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkGroup
-    name: NetworkGroup
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkSettings
-    name: NetworkSettings
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Operation
-    name: Operation
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OperationDisplay
-    name: OperationDisplay
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Operations
-    name: Operations
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OperationsStatus
-    name: OperationsStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Order
-    name: Order
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OrderState
-    name: OrderState
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OrderStatus
-    name: OrderStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Orders
-    name: Orders
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PeriodicTimerEventTrigger
-    name: PeriodicTimerEventTrigger
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PeriodicTimerSourceInfo
-    name: PeriodicTimerSourceInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PlatformType
-    name: PlatformType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RefreshDetails
-    name: RefreshDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role
-    name: Role
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.Definition
-    name: Role.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages
-    name: Role.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.Blank
-    name: Role.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.WithCreate
-    name: Role.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.WithDataBoxEdgeDevice
-    name: Role.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.Update
-    name: Role.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.UpdateStages
-    name: Role.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleSinkInfo
-    name: RoleSinkInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleStatus
-    name: RoleStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleTypes
-    name: RoleTypes
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Roles
-    name: Roles
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SSLStatus
-    name: SSLStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SecuritySettings
-    name: SecuritySettings
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ServiceSpecification
-    name: ServiceSpecification
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share
-    name: Share
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.Definition
-    name: Share.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages
-    name: Share.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.Blank
-    name: Share.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithAccessProtocol
-    name: Share.DefinitionStages.WithAccessProtocol
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithAzureContainerInfo
-    name: Share.DefinitionStages.WithAzureContainerInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithClientAccessRights
-    name: Share.DefinitionStages.WithClientAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithCreate
-    name: Share.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDataBoxEdgeDevice
-    name: Share.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDataPolicy
-    name: Share.DefinitionStages.WithDataPolicy
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDescription
-    name: Share.DefinitionStages.WithDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithMonitoringStatus
-    name: Share.DefinitionStages.WithMonitoringStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithRefreshDetails
-    name: Share.DefinitionStages.WithRefreshDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithShareStatus
-    name: Share.DefinitionStages.WithShareStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithUserAccessRights
-    name: Share.DefinitionStages.WithUserAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.Update
-    name: Share.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages
-    name: Share.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithAzureContainerInfo
-    name: Share.UpdateStages.WithAzureContainerInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithClientAccessRights
-    name: Share.UpdateStages.WithClientAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithDataPolicy
-    name: Share.UpdateStages.WithDataPolicy
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithDescription
-    name: Share.UpdateStages.WithDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithRefreshDetails
-    name: Share.UpdateStages.WithRefreshDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithUserAccessRights
-    name: Share.UpdateStages.WithUserAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessProtocol
-    name: ShareAccessProtocol
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessRight
-    name: ShareAccessRight
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessType
-    name: ShareAccessType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareStatus
-    name: ShareStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Shares
-    name: Shares
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Sku
-    name: Sku
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SkuName
-    name: SkuName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SkuTier
-    name: SkuTier
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential
-    name: StorageAccountCredential
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.Definition
-    name: StorageAccountCredential.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages
-    name: StorageAccountCredential.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.Blank
-    name: StorageAccountCredential.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAccountKey
-    name: StorageAccountCredential.DefinitionStages.WithAccountKey
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAccountType
-    name: StorageAccountCredential.DefinitionStages.WithAccountType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAlias
-    name: StorageAccountCredential.DefinitionStages.WithAlias
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithBlobDomainName
-    name: StorageAccountCredential.DefinitionStages.WithBlobDomainName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithConnectionString
-    name: StorageAccountCredential.DefinitionStages.WithConnectionString
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithCreate
-    name: StorageAccountCredential.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithDataBoxEdgeDevice
-    name: StorageAccountCredential.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithSslStatus
-    name: StorageAccountCredential.DefinitionStages.WithSslStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithUserName
-    name: StorageAccountCredential.DefinitionStages.WithUserName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.Update
-    name: StorageAccountCredential.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages
-    name: StorageAccountCredential.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithAccountKey
-    name: StorageAccountCredential.UpdateStages.WithAccountKey
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithBlobDomainName
-    name: StorageAccountCredential.UpdateStages.WithBlobDomainName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithConnectionString
-    name: StorageAccountCredential.UpdateStages.WithConnectionString
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithUserName
-    name: StorageAccountCredential.UpdateStages.WithUserName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredentials
-    name: StorageAccountCredentials
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SymmetricKey
-    name: SymmetricKey
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.TimeGrain
-    name: TimeGrain
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.TrackingInfo
-    name: TrackingInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger
-    name: Trigger
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.Definition
-    name: Trigger.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages
-    name: Trigger.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.Blank
-    name: Trigger.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.WithCreate
-    name: Trigger.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.WithDataBoxEdgeDevice
-    name: Trigger.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.Update
-    name: Trigger.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.UpdateStages
-    name: Trigger.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Triggers
-    name: Triggers
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateDownloadProgress
-    name: UpdateDownloadProgress
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateInstallProgress
-    name: UpdateInstallProgress
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateOperation
-    name: UpdateOperation
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateOperationStage
-    name: UpdateOperationStage
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateSummary
-    name: UpdateSummary
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UploadCertificateRequest
-    name: UploadCertificateRequest
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UploadCertificateResponse
-    name: UploadCertificateResponse
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User
-    name: User
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.Definition
-    name: User.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages
-    name: User.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.Blank
-    name: User.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithCreate
-    name: User.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithDataBoxEdgeDevice
-    name: User.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithEncryptedPassword
-    name: User.DefinitionStages.WithEncryptedPassword
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithShareAccessRights
-    name: User.DefinitionStages.WithShareAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.Update
-    name: User.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages
-    name: User.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.WithEncryptedPassword
-    name: User.UpdateStages.WithEncryptedPassword
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.WithShareAccessRights
-    name: User.UpdateStages.WithShareAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UserAccessRight
-    name: UserAccessRight
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Users
-    name: Users
 - uid: com.microsoft.azure.management.eventgrid.v2019_06_01.implementation
   name: com.microsoft.azure.management.eventgrid.v2019_06_01.implementation
   items:
@@ -11528,363 +10984,1766 @@
     name: SubscriptionValidationEventData
   - uid: com.microsoft.azure.eventgrid.models.SubscriptionValidationResponse
     name: SubscriptionValidationResponse
-- uid: com.microsoft.aad.adal
-  name: com.microsoft.aad.adal
-  href: com.microsoft.aad.adal.yml
+- href: com.microsoft.aad.adal.yml
   items:
-  - uid: com.microsoft.aad.adal.ADALError
+  - href: com.microsoft.aad.adal.ADALError.yml
     name: ADALError
-    href: com.microsoft.aad.adal.ADALError.yml
-  - uid: com.microsoft.aad.adal.AuthenticationActivity
+    uid: com.microsoft.aad.adal.ADALError
+  - href: com.microsoft.aad.adal.AuthenticationActivity.yml
     name: AuthenticationActivity
-    href: com.microsoft.aad.adal.AuthenticationActivity.yml
-  - uid: com.microsoft.aad.adal.AuthenticationCallback
+    uid: com.microsoft.aad.adal.AuthenticationActivity
+  - href: com.microsoft.aad.adal.AuthenticationCallback.yml
     name: AuthenticationCallback
-    href: com.microsoft.aad.adal.AuthenticationCallback.yml
-  - uid: com.microsoft.aad.adal.AuthenticationCancelError
+    uid: com.microsoft.aad.adal.AuthenticationCallback
+  - href: com.microsoft.aad.adal.AuthenticationCancelError.yml
     name: AuthenticationCancelError
-    href: com.microsoft.aad.adal.AuthenticationCancelError.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants
+    uid: com.microsoft.aad.adal.AuthenticationCancelError
+  - href: com.microsoft.aad.adal.AuthenticationConstants.yml
     name: AuthenticationConstants
-    href: com.microsoft.aad.adal.AuthenticationConstants.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants.AAD
+    uid: com.microsoft.aad.adal.AuthenticationConstants
+  - href: com.microsoft.aad.adal.AuthenticationConstants.AAD.yml
     name: AuthenticationConstants.AAD
-    href: com.microsoft.aad.adal.AuthenticationConstants.AAD.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants.Broker
+    uid: com.microsoft.aad.adal.AuthenticationConstants.AAD
+  - href: com.microsoft.aad.adal.AuthenticationConstants.Broker.yml
     name: AuthenticationConstants.Broker
-    href: com.microsoft.aad.adal.AuthenticationConstants.Broker.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants.Broker.CliTelemInfo
+    uid: com.microsoft.aad.adal.AuthenticationConstants.Broker
+  - href: com.microsoft.aad.adal.AuthenticationConstants.Broker.CliTelemInfo.yml
     name: AuthenticationConstants.Broker.CliTelemInfo
-    href: com.microsoft.aad.adal.AuthenticationConstants.Broker.CliTelemInfo.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants.Browser
+    uid: com.microsoft.aad.adal.AuthenticationConstants.Broker.CliTelemInfo
+  - href: com.microsoft.aad.adal.AuthenticationConstants.Browser.yml
     name: AuthenticationConstants.Browser
-    href: com.microsoft.aad.adal.AuthenticationConstants.Browser.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants.OAuth2
+    uid: com.microsoft.aad.adal.AuthenticationConstants.Browser
+  - href: com.microsoft.aad.adal.AuthenticationConstants.OAuth2.yml
     name: AuthenticationConstants.OAuth2
-    href: com.microsoft.aad.adal.AuthenticationConstants.OAuth2.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants.OAuth2ErrorCode
+    uid: com.microsoft.aad.adal.AuthenticationConstants.OAuth2
+  - href: com.microsoft.aad.adal.AuthenticationConstants.OAuth2ErrorCode.yml
     name: AuthenticationConstants.OAuth2ErrorCode
-    href: com.microsoft.aad.adal.AuthenticationConstants.OAuth2ErrorCode.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants.UIRequest
+    uid: com.microsoft.aad.adal.AuthenticationConstants.OAuth2ErrorCode
+  - href: com.microsoft.aad.adal.AuthenticationConstants.UIRequest.yml
     name: AuthenticationConstants.UIRequest
-    href: com.microsoft.aad.adal.AuthenticationConstants.UIRequest.yml
-  - uid: com.microsoft.aad.adal.AuthenticationConstants.UIResponse
+    uid: com.microsoft.aad.adal.AuthenticationConstants.UIRequest
+  - href: com.microsoft.aad.adal.AuthenticationConstants.UIResponse.yml
     name: AuthenticationConstants.UIResponse
-    href: com.microsoft.aad.adal.AuthenticationConstants.UIResponse.yml
-  - uid: com.microsoft.aad.adal.AuthenticationContext
+    uid: com.microsoft.aad.adal.AuthenticationConstants.UIResponse
+  - href: com.microsoft.aad.adal.AuthenticationContext.yml
     name: AuthenticationContext
-    href: com.microsoft.aad.adal.AuthenticationContext.yml
-  - uid: com.microsoft.aad.adal.AuthenticationException
+    uid: com.microsoft.aad.adal.AuthenticationContext
+  - href: com.microsoft.aad.adal.AuthenticationException.yml
     name: AuthenticationException
-    href: com.microsoft.aad.adal.AuthenticationException.yml
-  - uid: com.microsoft.aad.adal.AuthenticationParameters
+    uid: com.microsoft.aad.adal.AuthenticationException
+  - href: com.microsoft.aad.adal.AuthenticationParameters.yml
     name: AuthenticationParameters
-    href: com.microsoft.aad.adal.AuthenticationParameters.yml
-  - uid: com.microsoft.aad.adal.AuthenticationParameters.AuthenticationParamCallback
+    uid: com.microsoft.aad.adal.AuthenticationParameters
+  - href: com.microsoft.aad.adal.AuthenticationParameters.AuthenticationParamCallback.yml
     name: AuthenticationParameters.AuthenticationParamCallback
-    href: com.microsoft.aad.adal.AuthenticationParameters.AuthenticationParamCallback.yml
-  - uid: com.microsoft.aad.adal.AuthenticationResult
+    uid: com.microsoft.aad.adal.AuthenticationParameters.AuthenticationParamCallback
+  - href: com.microsoft.aad.adal.AuthenticationResult.yml
     name: AuthenticationResult
-    href: com.microsoft.aad.adal.AuthenticationResult.yml
-  - uid: com.microsoft.aad.adal.AuthenticationResult.AuthenticationStatus
+    uid: com.microsoft.aad.adal.AuthenticationResult
+  - href: com.microsoft.aad.adal.AuthenticationResult.AuthenticationStatus.yml
     name: AuthenticationResult.AuthenticationStatus
-    href: com.microsoft.aad.adal.AuthenticationResult.AuthenticationStatus.yml
-  - uid: com.microsoft.aad.adal.AuthenticationSettings
+    uid: com.microsoft.aad.adal.AuthenticationResult.AuthenticationStatus
+  - href: com.microsoft.aad.adal.AuthenticationSettings.yml
     name: AuthenticationSettings
-    href: com.microsoft.aad.adal.AuthenticationSettings.yml
-  - uid: com.microsoft.aad.adal.CacheKey
+    uid: com.microsoft.aad.adal.AuthenticationSettings
+  - href: com.microsoft.aad.adal.CacheKey.yml
     name: CacheKey
-    href: com.microsoft.aad.adal.CacheKey.yml
-  - uid: com.microsoft.aad.adal.DateTimeAdapter
+    uid: com.microsoft.aad.adal.CacheKey
+  - href: com.microsoft.aad.adal.DateTimeAdapter.yml
     name: DateTimeAdapter
-    href: com.microsoft.aad.adal.DateTimeAdapter.yml
-  - uid: com.microsoft.aad.adal.DefaultTokenCacheStore
+    uid: com.microsoft.aad.adal.DateTimeAdapter
+  - href: com.microsoft.aad.adal.DefaultTokenCacheStore.yml
     name: DefaultTokenCacheStore
-    href: com.microsoft.aad.adal.DefaultTokenCacheStore.yml
-  - uid: com.microsoft.aad.adal.FileTokenCacheStore
+    uid: com.microsoft.aad.adal.DefaultTokenCacheStore
+  - href: com.microsoft.aad.adal.FileTokenCacheStore.yml
     name: FileTokenCacheStore
-    href: com.microsoft.aad.adal.FileTokenCacheStore.yml
-  - uid: com.microsoft.aad.adal.IDeviceCertificate
+    uid: com.microsoft.aad.adal.FileTokenCacheStore
+  - href: com.microsoft.aad.adal.IDeviceCertificate.yml
     name: IDeviceCertificate
-    href: com.microsoft.aad.adal.IDeviceCertificate.yml
-  - uid: com.microsoft.aad.adal.IJWSBuilder
+    uid: com.microsoft.aad.adal.IDeviceCertificate
+  - href: com.microsoft.aad.adal.IJWSBuilder.yml
     name: IJWSBuilder
-    href: com.microsoft.aad.adal.IJWSBuilder.yml
-  - uid: com.microsoft.aad.adal.IntuneAppProtectionPolicyRequiredException
+    uid: com.microsoft.aad.adal.IJWSBuilder
+  - href: com.microsoft.aad.adal.IntuneAppProtectionPolicyRequiredException.yml
     name: IntuneAppProtectionPolicyRequiredException
-    href: com.microsoft.aad.adal.IntuneAppProtectionPolicyRequiredException.yml
-  - uid: com.microsoft.aad.adal.ITokenCacheStore
+    uid: com.microsoft.aad.adal.IntuneAppProtectionPolicyRequiredException
+  - href: com.microsoft.aad.adal.ITokenCacheStore.yml
     name: ITokenCacheStore
-    href: com.microsoft.aad.adal.ITokenCacheStore.yml
-  - uid: com.microsoft.aad.adal.ITokenStoreQuery
+    uid: com.microsoft.aad.adal.ITokenCacheStore
+  - href: com.microsoft.aad.adal.ITokenStoreQuery.yml
     name: ITokenStoreQuery
-    href: com.microsoft.aad.adal.ITokenStoreQuery.yml
-  - uid: com.microsoft.aad.adal.IWindowComponent
+    uid: com.microsoft.aad.adal.ITokenStoreQuery
+  - href: com.microsoft.aad.adal.IWindowComponent.yml
     name: IWindowComponent
-    href: com.microsoft.aad.adal.IWindowComponent.yml
-  - uid: com.microsoft.aad.adal.Logger
+    uid: com.microsoft.aad.adal.IWindowComponent
+  - href: com.microsoft.aad.adal.Logger.yml
     name: Logger
-    href: com.microsoft.aad.adal.Logger.yml
-  - uid: com.microsoft.aad.adal.Logger.ILogger
+    uid: com.microsoft.aad.adal.Logger
+  - href: com.microsoft.aad.adal.Logger.ILogger.yml
     name: Logger.ILogger
-    href: com.microsoft.aad.adal.Logger.ILogger.yml
-  - uid: com.microsoft.aad.adal.Logger.LogLevel
+    uid: com.microsoft.aad.adal.Logger.ILogger
+  - href: com.microsoft.aad.adal.Logger.LogLevel.yml
     name: Logger.LogLevel
-    href: com.microsoft.aad.adal.Logger.LogLevel.yml
-  - uid: com.microsoft.aad.adal.MemoryTokenCacheStore
+    uid: com.microsoft.aad.adal.Logger.LogLevel
+  - href: com.microsoft.aad.adal.MemoryTokenCacheStore.yml
     name: MemoryTokenCacheStore
-    href: com.microsoft.aad.adal.MemoryTokenCacheStore.yml
-  - uid: com.microsoft.aad.adal.PackageHelper
+    uid: com.microsoft.aad.adal.MemoryTokenCacheStore
+  - href: com.microsoft.aad.adal.PackageHelper.yml
     name: PackageHelper
-    href: com.microsoft.aad.adal.PackageHelper.yml
-  - uid: com.microsoft.aad.adal.PromptBehavior
+    uid: com.microsoft.aad.adal.PackageHelper
+  - href: com.microsoft.aad.adal.PromptBehavior.yml
     name: PromptBehavior
-    href: com.microsoft.aad.adal.PromptBehavior.yml
-  - uid: com.microsoft.aad.adal.ResourceAuthenticationChallengeException
+    uid: com.microsoft.aad.adal.PromptBehavior
+  - href: com.microsoft.aad.adal.ResourceAuthenticationChallengeException.yml
     name: ResourceAuthenticationChallengeException
-    href: com.microsoft.aad.adal.ResourceAuthenticationChallengeException.yml
-  - uid: com.microsoft.aad.adal.StorageHelper
+    uid: com.microsoft.aad.adal.ResourceAuthenticationChallengeException
+  - href: com.microsoft.aad.adal.StorageHelper.yml
     name: StorageHelper
-    href: com.microsoft.aad.adal.StorageHelper.yml
-  - uid: com.microsoft.aad.adal.StringExtensions
+    uid: com.microsoft.aad.adal.StorageHelper
+  - href: com.microsoft.aad.adal.StringExtensions.yml
     name: StringExtensions
-    href: com.microsoft.aad.adal.StringExtensions.yml
-  - uid: com.microsoft.aad.adal.TokenCacheItem
+    uid: com.microsoft.aad.adal.StringExtensions
+  - href: com.microsoft.aad.adal.TokenCacheItem.yml
     name: TokenCacheItem
-    href: com.microsoft.aad.adal.TokenCacheItem.yml
-  - uid: com.microsoft.aad.adal.TokenCacheItemSerializationAdapater
+    uid: com.microsoft.aad.adal.TokenCacheItem
+  - href: com.microsoft.aad.adal.TokenCacheItemSerializationAdapater.yml
     name: TokenCacheItemSerializationAdapater
-    href: com.microsoft.aad.adal.TokenCacheItemSerializationAdapater.yml
-  - uid: com.microsoft.aad.adal.UsageAuthenticationException
+    uid: com.microsoft.aad.adal.TokenCacheItemSerializationAdapater
+  - href: com.microsoft.aad.adal.UsageAuthenticationException.yml
     name: UsageAuthenticationException
-    href: com.microsoft.aad.adal.UsageAuthenticationException.yml
-  - uid: com.microsoft.aad.adal.UserInfo
+    uid: com.microsoft.aad.adal.UsageAuthenticationException
+  - href: com.microsoft.aad.adal.UserInfo.yml
     name: UserInfo
-    href: com.microsoft.aad.adal.UserInfo.yml
-  - uid: com.microsoft.aad.adal.WebviewHelper
+    uid: com.microsoft.aad.adal.UserInfo
+  - href: com.microsoft.aad.adal.WebviewHelper.yml
     name: WebviewHelper
-    href: com.microsoft.aad.adal.WebviewHelper.yml
-  - uid: com.microsoft.aad.adal.WebviewHelper.PreKeyAuthInfo
+    uid: com.microsoft.aad.adal.WebviewHelper
+  - href: com.microsoft.aad.adal.WebviewHelper.PreKeyAuthInfo.yml
     name: WebviewHelper.PreKeyAuthInfo
-    href: com.microsoft.aad.adal.WebviewHelper.PreKeyAuthInfo.yml
-- uid: com.microsoft.aad.adal4j
-  name: com.microsoft.aad.adal4j
-  href: com.microsoft.aad.adal4j.yml
+    uid: com.microsoft.aad.adal.WebviewHelper.PreKeyAuthInfo
+  name: com.microsoft.aad.adal
+  uid: com.microsoft.aad.adal
+- href: com.microsoft.aad.adal4j.yml
   items:
-  - uid: com.microsoft.aad.adal4j.AdalAuthorizationGrant
+  - href: com.microsoft.aad.adal4j.AdalAuthorizationGrant.yml
     name: AdalAuthorizationGrant
-    href: com.microsoft.aad.adal4j.AdalAuthorizationGrant.yml
-  - uid: com.microsoft.aad.adal4j.AdalClaimsChallengeException
+    uid: com.microsoft.aad.adal4j.AdalAuthorizationGrant
+  - href: com.microsoft.aad.adal4j.AdalClaimsChallengeException.yml
     name: AdalClaimsChallengeException
-    href: com.microsoft.aad.adal4j.AdalClaimsChallengeException.yml
-  - uid: com.microsoft.aad.adal4j.AdalDeviceCodeAuthorizationGrant
+    uid: com.microsoft.aad.adal4j.AdalClaimsChallengeException
+  - href: com.microsoft.aad.adal4j.AdalDeviceCodeAuthorizationGrant.yml
     name: AdalDeviceCodeAuthorizationGrant
-    href: com.microsoft.aad.adal4j.AdalDeviceCodeAuthorizationGrant.yml
-  - uid: com.microsoft.aad.adal4j.AdalErrorCode
+    uid: com.microsoft.aad.adal4j.AdalDeviceCodeAuthorizationGrant
+  - href: com.microsoft.aad.adal4j.AdalErrorCode.yml
     name: AdalErrorCode
-    href: com.microsoft.aad.adal4j.AdalErrorCode.yml
-  - uid: com.microsoft.aad.adal4j.AdalIntegratedAuthorizationGrant
+    uid: com.microsoft.aad.adal4j.AdalErrorCode
+  - href: com.microsoft.aad.adal4j.AdalIntegratedAuthorizationGrant.yml
     name: AdalIntegratedAuthorizationGrant
-    href: com.microsoft.aad.adal4j.AdalIntegratedAuthorizationGrant.yml
-  - uid: com.microsoft.aad.adal4j.AsymmetricKeyCredential
+    uid: com.microsoft.aad.adal4j.AdalIntegratedAuthorizationGrant
+  - href: com.microsoft.aad.adal4j.AsymmetricKeyCredential.yml
     name: AsymmetricKeyCredential
-    href: com.microsoft.aad.adal4j.AsymmetricKeyCredential.yml
-  - uid: com.microsoft.aad.adal4j.AuthenticationCallback
+    uid: com.microsoft.aad.adal4j.AsymmetricKeyCredential
+  - href: com.microsoft.aad.adal4j.AuthenticationCallback.yml
     name: AuthenticationCallback
-    href: com.microsoft.aad.adal4j.AuthenticationCallback.yml
-  - uid: com.microsoft.aad.adal4j.AuthenticationContext
+    uid: com.microsoft.aad.adal4j.AuthenticationCallback
+  - href: com.microsoft.aad.adal4j.AuthenticationContext.yml
     name: AuthenticationContext
-    href: com.microsoft.aad.adal4j.AuthenticationContext.yml
-  - uid: com.microsoft.aad.adal4j.AuthenticationException
+    uid: com.microsoft.aad.adal4j.AuthenticationContext
+  - href: com.microsoft.aad.adal4j.AuthenticationException.yml
     name: AuthenticationException
-    href: com.microsoft.aad.adal4j.AuthenticationException.yml
-  - uid: com.microsoft.aad.adal4j.AuthenticationResult
+    uid: com.microsoft.aad.adal4j.AuthenticationException
+  - href: com.microsoft.aad.adal4j.AuthenticationResult.yml
     name: AuthenticationResult
-    href: com.microsoft.aad.adal4j.AuthenticationResult.yml
-  - uid: com.microsoft.aad.adal4j.ClientAssertion
+    uid: com.microsoft.aad.adal4j.AuthenticationResult
+  - href: com.microsoft.aad.adal4j.ClientAssertion.yml
     name: ClientAssertion
-    href: com.microsoft.aad.adal4j.ClientAssertion.yml
-  - uid: com.microsoft.aad.adal4j.ClientCredential
+    uid: com.microsoft.aad.adal4j.ClientAssertion
+  - href: com.microsoft.aad.adal4j.ClientCredential.yml
     name: ClientCredential
-    href: com.microsoft.aad.adal4j.ClientCredential.yml
-  - uid: com.microsoft.aad.adal4j.DeviceCode
+    uid: com.microsoft.aad.adal4j.ClientCredential
+  - href: com.microsoft.aad.adal4j.DeviceCode.yml
     name: DeviceCode
-    href: com.microsoft.aad.adal4j.DeviceCode.yml
-  - uid: com.microsoft.aad.adal4j.DeviceCodeRequest
+    uid: com.microsoft.aad.adal4j.DeviceCode
+  - href: com.microsoft.aad.adal4j.DeviceCodeRequest.yml
     name: DeviceCodeRequest
-    href: com.microsoft.aad.adal4j.DeviceCodeRequest.yml
-  - uid: com.microsoft.aad.adal4j.DeviceCodeTokenErrorResponse
+    uid: com.microsoft.aad.adal4j.DeviceCodeRequest
+  - href: com.microsoft.aad.adal4j.DeviceCodeTokenErrorResponse.yml
     name: DeviceCodeTokenErrorResponse
-    href: com.microsoft.aad.adal4j.DeviceCodeTokenErrorResponse.yml
-  - uid: com.microsoft.aad.adal4j.NamespaceContextImpl
+    uid: com.microsoft.aad.adal4j.DeviceCodeTokenErrorResponse
+  - href: com.microsoft.aad.adal4j.NamespaceContextImpl.yml
     name: NamespaceContextImpl
-    href: com.microsoft.aad.adal4j.NamespaceContextImpl.yml
-  - uid: com.microsoft.aad.adal4j.UserAssertion
+    uid: com.microsoft.aad.adal4j.NamespaceContextImpl
+  - href: com.microsoft.aad.adal4j.UserAssertion.yml
     name: UserAssertion
-    href: com.microsoft.aad.adal4j.UserAssertion.yml
-  - uid: com.microsoft.aad.adal4j.UserInfo
+    uid: com.microsoft.aad.adal4j.UserAssertion
+  - href: com.microsoft.aad.adal4j.UserInfo.yml
     name: UserInfo
-    href: com.microsoft.aad.adal4j.UserInfo.yml
-- uid: com.microsoft.identity.client
-  name: com.microsoft.identity.client
-  href: com.microsoft.identity.client.yml
+    uid: com.microsoft.aad.adal4j.UserInfo
+  name: com.microsoft.aad.adal4j
+  uid: com.microsoft.aad.adal4j
+- href: com.microsoft.applicationinsights.yml
   items:
-  - uid: com.microsoft.identity.client.Account
+  - href: com.microsoft.applicationinsights.TelemetryClient.yml
+    name: TelemetryClient
+    uid: com.microsoft.applicationinsights.TelemetryClient
+  - href: com.microsoft.applicationinsights.TelemetryConfiguration.yml
+    name: TelemetryConfiguration
+    uid: com.microsoft.applicationinsights.TelemetryConfiguration
+  name: com.microsoft.applicationinsights
+  uid: com.microsoft.applicationinsights
+- href: com.microsoft.applicationinsights.channel.yml
+  items:
+  - href: com.microsoft.applicationinsights.channel.TelemetryChannel.yml
+    name: TelemetryChannel
+    uid: com.microsoft.applicationinsights.channel.TelemetryChannel
+  - href: com.microsoft.applicationinsights.channel.TelemetrySampler.yml
+    name: TelemetrySampler
+    uid: com.microsoft.applicationinsights.channel.TelemetrySampler
+  name: com.microsoft.applicationinsights.channel
+  uid: com.microsoft.applicationinsights.channel
+- href: com.microsoft.applicationinsights.common.yml
+  items:
+  - href: com.microsoft.applicationinsights.common.CommonUtils.yml
+    name: CommonUtils
+    uid: com.microsoft.applicationinsights.common.CommonUtils
+  name: com.microsoft.applicationinsights.common
+  uid: com.microsoft.applicationinsights.common
+- href: com.microsoft.applicationinsights.extensibility.yml
+  items:
+  - href: com.microsoft.applicationinsights.extensibility.ContextInitializer.yml
+    name: ContextInitializer
+    uid: com.microsoft.applicationinsights.extensibility.ContextInitializer
+  - href: com.microsoft.applicationinsights.extensibility.PerformanceCountersCollectionPlugin.yml
+    name: PerformanceCountersCollectionPlugin
+    uid: com.microsoft.applicationinsights.extensibility.PerformanceCountersCollectionPlugin
+  - href: com.microsoft.applicationinsights.extensibility.PerformanceCountersFactory.yml
+    name: PerformanceCountersFactory
+    uid: com.microsoft.applicationinsights.extensibility.PerformanceCountersFactory
+  - href: com.microsoft.applicationinsights.extensibility.TelemetryInitializer.yml
+    name: TelemetryInitializer
+    uid: com.microsoft.applicationinsights.extensibility.TelemetryInitializer
+  - href: com.microsoft.applicationinsights.extensibility.TelemetryModule.yml
+    name: TelemetryModule
+    uid: com.microsoft.applicationinsights.extensibility.TelemetryModule
+  - href: com.microsoft.applicationinsights.extensibility.TelemetryProcessor.yml
+    name: TelemetryProcessor
+    uid: com.microsoft.applicationinsights.extensibility.TelemetryProcessor
+  name: com.microsoft.applicationinsights.extensibility
+  uid: com.microsoft.applicationinsights.extensibility
+- href: com.microsoft.applicationinsights.extensibility.context.yml
+  items:
+  - href: com.microsoft.applicationinsights.extensibility.context.CloudContext.yml
+    name: CloudContext
+    uid: com.microsoft.applicationinsights.extensibility.context.CloudContext
+  - href: com.microsoft.applicationinsights.extensibility.context.ComponentContext.yml
+    name: ComponentContext
+    uid: com.microsoft.applicationinsights.extensibility.context.ComponentContext
+  - href: com.microsoft.applicationinsights.extensibility.context.ContextTagKeys.yml
+    name: ContextTagKeys
+    uid: com.microsoft.applicationinsights.extensibility.context.ContextTagKeys
+  - href: com.microsoft.applicationinsights.extensibility.context.DeviceContext.yml
+    name: DeviceContext
+    uid: com.microsoft.applicationinsights.extensibility.context.DeviceContext
+  - href: com.microsoft.applicationinsights.extensibility.context.InternalContext.yml
+    name: InternalContext
+    uid: com.microsoft.applicationinsights.extensibility.context.InternalContext
+  - href: com.microsoft.applicationinsights.extensibility.context.LocationContext.yml
+    name: LocationContext
+    uid: com.microsoft.applicationinsights.extensibility.context.LocationContext
+  - href: com.microsoft.applicationinsights.extensibility.context.OperationContext.yml
+    name: OperationContext
+    uid: com.microsoft.applicationinsights.extensibility.context.OperationContext
+  - href: com.microsoft.applicationinsights.extensibility.context.SessionContext.yml
+    name: SessionContext
+    uid: com.microsoft.applicationinsights.extensibility.context.SessionContext
+  - href: com.microsoft.applicationinsights.extensibility.context.UserContext.yml
+    name: UserContext
+    uid: com.microsoft.applicationinsights.extensibility.context.UserContext
+  name: com.microsoft.applicationinsights.extensibility.context
+  uid: com.microsoft.applicationinsights.extensibility.context
+- href: com.microsoft.applicationinsights.extensibility.initializer.yml
+  items:
+  - href: com.microsoft.applicationinsights.extensibility.initializer.CloudInfoContextInitializer.yml
+    name: CloudInfoContextInitializer
+    uid: com.microsoft.applicationinsights.extensibility.initializer.CloudInfoContextInitializer
+  - href: com.microsoft.applicationinsights.extensibility.initializer.DeviceInfoContextInitializer.yml
+    name: DeviceInfoContextInitializer
+    uid: com.microsoft.applicationinsights.extensibility.initializer.DeviceInfoContextInitializer
+  - href: com.microsoft.applicationinsights.extensibility.initializer.SdkVersionContextInitializer.yml
+    name: SdkVersionContextInitializer
+    uid: com.microsoft.applicationinsights.extensibility.initializer.SdkVersionContextInitializer
+  - href: com.microsoft.applicationinsights.extensibility.initializer.SequencePropertyInitializer.yml
+    name: SequencePropertyInitializer
+    uid: com.microsoft.applicationinsights.extensibility.initializer.SequencePropertyInitializer
+  - href: com.microsoft.applicationinsights.extensibility.initializer.TimestampPropertyInitializer.yml
+    name: TimestampPropertyInitializer
+    uid: com.microsoft.applicationinsights.extensibility.initializer.TimestampPropertyInitializer
+  name: com.microsoft.applicationinsights.extensibility.initializer
+  uid: com.microsoft.applicationinsights.extensibility.initializer
+- href: com.microsoft.applicationinsights.extensibility.initializer.docker.yml
+  items:
+  - href: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer.yml
+    name: DockerContextInitializer
+    uid: com.microsoft.applicationinsights.extensibility.initializer.docker.DockerContextInitializer
+  name: com.microsoft.applicationinsights.extensibility.initializer.docker
+  uid: com.microsoft.applicationinsights.extensibility.initializer.docker
+- href: com.microsoft.azure.management.appservice.yml
+  items:
+  - href: com.microsoft.azure.management.appservice.AccessControlEntryAction.yml
+    name: AccessControlEntryAction
+    uid: com.microsoft.azure.management.appservice.AccessControlEntryAction
+  - href: com.microsoft.azure.management.appservice.Address.yml
+    name: Address
+    uid: com.microsoft.azure.management.appservice.Address
+  - href: com.microsoft.azure.management.appservice.ApiDefinitionInfo.yml
+    name: ApiDefinitionInfo
+    uid: com.microsoft.azure.management.appservice.ApiDefinitionInfo
+  - href: com.microsoft.azure.management.appservice.ApplicationLogsConfig.yml
+    name: ApplicationLogsConfig
+    uid: com.microsoft.azure.management.appservice.ApplicationLogsConfig
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificate.yml
+    name: AppServiceCertificate
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificate
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificate.Definition.yml
+    name: AppServiceCertificate.Definition
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificate.Definition
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.yml
+    name: AppServiceCertificate.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.Blank.yml
+    name: AppServiceCertificate.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCertificate.yml
+    name: AppServiceCertificate.DefinitionStages.WithCertificate
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCertificate
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCreate.yml
+    name: AppServiceCertificate.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithGroup.yml
+    name: AppServiceCertificate.DefinitionStages.WithGroup
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithGroup
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithPfxFilePassword.yml
+    name: AppServiceCertificate.DefinitionStages.WithPfxFilePassword
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificate.DefinitionStages.WithPfxFilePassword
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateKeyVaultBinding.yml
+    name: AppServiceCertificateKeyVaultBinding
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateKeyVaultBinding
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.yml
+    name: AppServiceCertificateOrder
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.Definition.yml
+    name: AppServiceCertificateOrder.Definition
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.Definition
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.yml
+    name: AppServiceCertificateOrder.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.Blank.yml
+    name: AppServiceCertificateOrder.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithAutoRenew.yml
+    name: AppServiceCertificateOrder.DefinitionStages.WithAutoRenew
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithAutoRenew
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithCertificateSku.yml
+    name: AppServiceCertificateOrder.DefinitionStages.WithCertificateSku
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithCertificateSku
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithCreate.yml
+    name: AppServiceCertificateOrder.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithDomainVerification.yml
+    name: AppServiceCertificateOrder.DefinitionStages.WithDomainVerification
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithDomainVerification
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithDomainVerificationFromWebApp.yml
+    name: AppServiceCertificateOrder.DefinitionStages.WithDomainVerificationFromWebApp
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithDomainVerificationFromWebApp
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithHostName.yml
+    name: AppServiceCertificateOrder.DefinitionStages.WithHostName
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithHostName
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithKeyVault.yml
+    name: AppServiceCertificateOrder.DefinitionStages.WithKeyVault
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithKeyVault
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithValidYears.yml
+    name: AppServiceCertificateOrder.DefinitionStages.WithValidYears
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.DefinitionStages.WithValidYears
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.Update.yml
+    name: AppServiceCertificateOrder.Update
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.Update
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.UpdateStages.yml
+    name: AppServiceCertificateOrder.UpdateStages
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.UpdateStages
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.UpdateStages.WithAutoRenew.yml
+    name: AppServiceCertificateOrder.UpdateStages.WithAutoRenew
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrder.UpdateStages.WithAutoRenew
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificateOrders.yml
+    name: AppServiceCertificateOrders
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificateOrders
+  - href: com.microsoft.azure.management.appservice.AppServiceCertificates.yml
+    name: AppServiceCertificates
+    uid: com.microsoft.azure.management.appservice.AppServiceCertificates
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.yml
+    name: AppServiceDomain
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.Definition.yml
+    name: AppServiceDomain.Definition
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.Definition
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.yml
+    name: AppServiceDomain.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.Blank.yml
+    name: AppServiceDomain.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithAdminContact.yml
+    name: AppServiceDomain.DefinitionStages.WithAdminContact
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithAdminContact
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithAutoRenew.yml
+    name: AppServiceDomain.DefinitionStages.WithAutoRenew
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithAutoRenew
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithBillingContact.yml
+    name: AppServiceDomain.DefinitionStages.WithBillingContact
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithBillingContact
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithCreate.yml
+    name: AppServiceDomain.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithDomainPrivacy.yml
+    name: AppServiceDomain.DefinitionStages.WithDomainPrivacy
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithDomainPrivacy
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithRegistrantContact.yml
+    name: AppServiceDomain.DefinitionStages.WithRegistrantContact
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithRegistrantContact
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithTechContact.yml
+    name: AppServiceDomain.DefinitionStages.WithTechContact
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.DefinitionStages.WithTechContact
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.Update.yml
+    name: AppServiceDomain.Update
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.Update
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.yml
+    name: AppServiceDomain.UpdateStages
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithAdminContact.yml
+    name: AppServiceDomain.UpdateStages.WithAdminContact
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithAdminContact
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithAutoRenew.yml
+    name: AppServiceDomain.UpdateStages.WithAutoRenew
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithAutoRenew
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithBillingContact.yml
+    name: AppServiceDomain.UpdateStages.WithBillingContact
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithBillingContact
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithDomainPrivacy.yml
+    name: AppServiceDomain.UpdateStages.WithDomainPrivacy
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithDomainPrivacy
+  - href: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithTechContact.yml
+    name: AppServiceDomain.UpdateStages.WithTechContact
+    uid: com.microsoft.azure.management.appservice.AppServiceDomain.UpdateStages.WithTechContact
+  - href: com.microsoft.azure.management.appservice.AppServiceDomains.yml
+    name: AppServiceDomains
+    uid: com.microsoft.azure.management.appservice.AppServiceDomains
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.yml
+    name: AppServicePlan
+    uid: com.microsoft.azure.management.appservice.AppServicePlan
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.Definition.yml
+    name: AppServicePlan.Definition
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.Definition
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.yml
+    name: AppServicePlan.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.Blank.yml
+    name: AppServicePlan.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCapacity.yml
+    name: AppServicePlan.DefinitionStages.WithCapacity
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCapacity
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCreate.yml
+    name: AppServicePlan.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithGroup.yml
+    name: AppServicePlan.DefinitionStages.WithGroup
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithGroup
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithOperatingSystem.yml
+    name: AppServicePlan.DefinitionStages.WithOperatingSystem
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithOperatingSystem
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPerSiteScaling.yml
+    name: AppServicePlan.DefinitionStages.WithPerSiteScaling
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPerSiteScaling
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPricingTier.yml
+    name: AppServicePlan.DefinitionStages.WithPricingTier
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.DefinitionStages.WithPricingTier
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.Update.yml
+    name: AppServicePlan.Update
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.Update
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.yml
+    name: AppServicePlan.UpdateStages
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithCapacity.yml
+    name: AppServicePlan.UpdateStages.WithCapacity
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithCapacity
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithPerSiteScaling.yml
+    name: AppServicePlan.UpdateStages.WithPerSiteScaling
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithPerSiteScaling
+  - href: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithPricingTier.yml
+    name: AppServicePlan.UpdateStages.WithPricingTier
+    uid: com.microsoft.azure.management.appservice.AppServicePlan.UpdateStages.WithPricingTier
+  - href: com.microsoft.azure.management.appservice.AppServicePlanRestrictions.yml
+    name: AppServicePlanRestrictions
+    uid: com.microsoft.azure.management.appservice.AppServicePlanRestrictions
+  - href: com.microsoft.azure.management.appservice.AppServicePlans.yml
+    name: AppServicePlans
+    uid: com.microsoft.azure.management.appservice.AppServicePlans
+  - href: com.microsoft.azure.management.appservice.AppServicePlansTests.yml
+    name: AppServicePlansTests
+    uid: com.microsoft.azure.management.appservice.AppServicePlansTests
+  - href: com.microsoft.azure.management.appservice.AppServiceTest.yml
+    name: AppServiceTest
+    uid: com.microsoft.azure.management.appservice.AppServiceTest
+  - href: com.microsoft.azure.management.appservice.AppSetting.yml
+    name: AppSetting
+    uid: com.microsoft.azure.management.appservice.AppSetting
+  - href: com.microsoft.azure.management.appservice.AuthenticationTests.yml
+    name: AuthenticationTests
+    uid: com.microsoft.azure.management.appservice.AuthenticationTests
+  - href: com.microsoft.azure.management.appservice.AutoHealActions.yml
+    name: AutoHealActions
+    uid: com.microsoft.azure.management.appservice.AutoHealActions
+  - href: com.microsoft.azure.management.appservice.AutoHealActionType.yml
+    name: AutoHealActionType
+    uid: com.microsoft.azure.management.appservice.AutoHealActionType
+  - href: com.microsoft.azure.management.appservice.AutoHealCustomAction.yml
+    name: AutoHealCustomAction
+    uid: com.microsoft.azure.management.appservice.AutoHealCustomAction
+  - href: com.microsoft.azure.management.appservice.AutoHealRules.yml
+    name: AutoHealRules
+    uid: com.microsoft.azure.management.appservice.AutoHealRules
+  - href: com.microsoft.azure.management.appservice.AutoHealTriggers.yml
+    name: AutoHealTriggers
+    uid: com.microsoft.azure.management.appservice.AutoHealTriggers
+  - href: com.microsoft.azure.management.appservice.AzureBlobStorageApplicationLogsConfig.yml
+    name: AzureBlobStorageApplicationLogsConfig
+    uid: com.microsoft.azure.management.appservice.AzureBlobStorageApplicationLogsConfig
+  - href: com.microsoft.azure.management.appservice.AzureBlobStorageHttpLogsConfig.yml
+    name: AzureBlobStorageHttpLogsConfig
+    uid: com.microsoft.azure.management.appservice.AzureBlobStorageHttpLogsConfig
+  - href: com.microsoft.azure.management.appservice.AzureResourceType.yml
+    name: AzureResourceType
+    uid: com.microsoft.azure.management.appservice.AzureResourceType
+  - href: com.microsoft.azure.management.appservice.AzureTableStorageApplicationLogsConfig.yml
+    name: AzureTableStorageApplicationLogsConfig
+    uid: com.microsoft.azure.management.appservice.AzureTableStorageApplicationLogsConfig
+  - href: com.microsoft.azure.management.appservice.BackupItemStatus.yml
+    name: BackupItemStatus
+    uid: com.microsoft.azure.management.appservice.BackupItemStatus
+  - href: com.microsoft.azure.management.appservice.BackupRestoreOperationType.yml
+    name: BackupRestoreOperationType
+    uid: com.microsoft.azure.management.appservice.BackupRestoreOperationType
+  - href: com.microsoft.azure.management.appservice.BackupSchedule.yml
+    name: BackupSchedule
+    uid: com.microsoft.azure.management.appservice.BackupSchedule
+  - href: com.microsoft.azure.management.appservice.BuiltInAuthenticationProvider.yml
+    name: BuiltInAuthenticationProvider
+    uid: com.microsoft.azure.management.appservice.BuiltInAuthenticationProvider
+  - href: com.microsoft.azure.management.appservice.CertificateDetails.yml
+    name: CertificateDetails
+    uid: com.microsoft.azure.management.appservice.CertificateDetails
+  - href: com.microsoft.azure.management.appservice.CertificateOrderActionType.yml
+    name: CertificateOrderActionType
+    uid: com.microsoft.azure.management.appservice.CertificateOrderActionType
+  - href: com.microsoft.azure.management.appservice.CertificateOrderStatus.yml
+    name: CertificateOrderStatus
+    uid: com.microsoft.azure.management.appservice.CertificateOrderStatus
+  - href: com.microsoft.azure.management.appservice.CertificateOrdersTests.yml
+    name: CertificateOrdersTests
+    uid: com.microsoft.azure.management.appservice.CertificateOrdersTests
+  - href: com.microsoft.azure.management.appservice.CertificateProductType.yml
+    name: CertificateProductType
+    uid: com.microsoft.azure.management.appservice.CertificateProductType
+  - href: com.microsoft.azure.management.appservice.CertificatesTests.yml
+    name: CertificatesTests
+    uid: com.microsoft.azure.management.appservice.CertificatesTests
+  - href: com.microsoft.azure.management.appservice.Channels.yml
+    name: Channels
+    uid: com.microsoft.azure.management.appservice.Channels
+  - href: com.microsoft.azure.management.appservice.CheckNameResourceTypes.yml
+    name: CheckNameResourceTypes
+    uid: com.microsoft.azure.management.appservice.CheckNameResourceTypes
+  - href: com.microsoft.azure.management.appservice.CloneAbilityResult.yml
+    name: CloneAbilityResult
+    uid: com.microsoft.azure.management.appservice.CloneAbilityResult
+  - href: com.microsoft.azure.management.appservice.CloningInfo.yml
+    name: CloningInfo
+    uid: com.microsoft.azure.management.appservice.CloningInfo
+  - href: com.microsoft.azure.management.appservice.ComputeModeOptions.yml
+    name: ComputeModeOptions
+    uid: com.microsoft.azure.management.appservice.ComputeModeOptions
+  - href: com.microsoft.azure.management.appservice.ConnectionString.yml
+    name: ConnectionString
+    uid: com.microsoft.azure.management.appservice.ConnectionString
+  - href: com.microsoft.azure.management.appservice.ConnectionStringType.yml
+    name: ConnectionStringType
+    uid: com.microsoft.azure.management.appservice.ConnectionStringType
+  - href: com.microsoft.azure.management.appservice.ConnStringInfo.yml
+    name: ConnStringInfo
+    uid: com.microsoft.azure.management.appservice.ConnStringInfo
+  - href: com.microsoft.azure.management.appservice.ConnStringValueTypePair.yml
+    name: ConnStringValueTypePair
+    uid: com.microsoft.azure.management.appservice.ConnStringValueTypePair
+  - href: com.microsoft.azure.management.appservice.Contact.yml
+    name: Contact
+    uid: com.microsoft.azure.management.appservice.Contact
+  - href: com.microsoft.azure.management.appservice.CorsSettings.yml
+    name: CorsSettings
+    uid: com.microsoft.azure.management.appservice.CorsSettings
+  - href: com.microsoft.azure.management.appservice.CustomHostNameDnsRecordType.yml
+    name: CustomHostNameDnsRecordType
+    uid: com.microsoft.azure.management.appservice.CustomHostNameDnsRecordType
+  - href: com.microsoft.azure.management.appservice.DatabaseBackupSetting.yml
+    name: DatabaseBackupSetting
+    uid: com.microsoft.azure.management.appservice.DatabaseBackupSetting
+  - href: com.microsoft.azure.management.appservice.DatabaseType.yml
+    name: DatabaseType
+    uid: com.microsoft.azure.management.appservice.DatabaseType
+  - href: com.microsoft.azure.management.appservice.DeploymentSlot.yml
+    name: DeploymentSlot
+    uid: com.microsoft.azure.management.appservice.DeploymentSlot
+  - href: com.microsoft.azure.management.appservice.DeploymentSlot.Definition.yml
+    name: DeploymentSlot.Definition
+    uid: com.microsoft.azure.management.appservice.DeploymentSlot.Definition
+  - href: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.yml
+    name: DeploymentSlot.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.Blank.yml
+    name: DeploymentSlot.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.WithConfiguration.yml
+    name: DeploymentSlot.DefinitionStages.WithConfiguration
+    uid: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.WithConfiguration
+  - href: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.WithCreate.yml
+    name: DeploymentSlot.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.DeploymentSlot.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.DeploymentSlot.Update.yml
+    name: DeploymentSlot.Update
+    uid: com.microsoft.azure.management.appservice.DeploymentSlot.Update
+  - href: com.microsoft.azure.management.appservice.DeploymentSlots.yml
+    name: DeploymentSlots
+    uid: com.microsoft.azure.management.appservice.DeploymentSlots
+  - href: com.microsoft.azure.management.appservice.DeploymentSlotsTests.yml
+    name: DeploymentSlotsTests
+    uid: com.microsoft.azure.management.appservice.DeploymentSlotsTests
+  - href: com.microsoft.azure.management.appservice.DnsType.yml
+    name: DnsType
+    uid: com.microsoft.azure.management.appservice.DnsType
+  - href: com.microsoft.azure.management.appservice.DnsVerificationTestResult.yml
+    name: DnsVerificationTestResult
+    uid: com.microsoft.azure.management.appservice.DnsVerificationTestResult
+  - href: com.microsoft.azure.management.appservice.DomainContact.yml
+    name: DomainContact
+    uid: com.microsoft.azure.management.appservice.DomainContact
+  - href: com.microsoft.azure.management.appservice.DomainContact.Definition.yml
+    name: DomainContact.Definition
+    uid: com.microsoft.azure.management.appservice.DomainContact.Definition
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.yml
+    name: DomainContact.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.Blank.yml
+    name: DomainContact.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithAddressLine1.yml
+    name: DomainContact.DefinitionStages.WithAddressLine1
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithAddressLine1
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithAddressLine2.yml
+    name: DomainContact.DefinitionStages.WithAddressLine2
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithAddressLine2
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithAttach.yml
+    name: DomainContact.DefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithCity.yml
+    name: DomainContact.DefinitionStages.WithCity
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithCity
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithCountry.yml
+    name: DomainContact.DefinitionStages.WithCountry
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithCountry
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithEmail.yml
+    name: DomainContact.DefinitionStages.WithEmail
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithEmail
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithFaxNumber.yml
+    name: DomainContact.DefinitionStages.WithFaxNumber
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithFaxNumber
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithFirstName.yml
+    name: DomainContact.DefinitionStages.WithFirstName
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithFirstName
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithJobTitle.yml
+    name: DomainContact.DefinitionStages.WithJobTitle
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithJobTitle
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithLastName.yml
+    name: DomainContact.DefinitionStages.WithLastName
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithLastName
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithMiddleName.yml
+    name: DomainContact.DefinitionStages.WithMiddleName
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithMiddleName
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithOrganization.yml
+    name: DomainContact.DefinitionStages.WithOrganization
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithOrganization
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithPhoneCountryCode.yml
+    name: DomainContact.DefinitionStages.WithPhoneCountryCode
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithPhoneCountryCode
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithPhoneNumber.yml
+    name: DomainContact.DefinitionStages.WithPhoneNumber
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithPhoneNumber
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithPostalCode.yml
+    name: DomainContact.DefinitionStages.WithPostalCode
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithPostalCode
+  - href: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithStateOrProvince.yml
+    name: DomainContact.DefinitionStages.WithStateOrProvince
+    uid: com.microsoft.azure.management.appservice.DomainContact.DefinitionStages.WithStateOrProvince
+  - href: com.microsoft.azure.management.appservice.DomainLegalAgreement.yml
+    name: DomainLegalAgreement
+    uid: com.microsoft.azure.management.appservice.DomainLegalAgreement
+  - href: com.microsoft.azure.management.appservice.DomainPurchaseConsent.yml
+    name: DomainPurchaseConsent
+    uid: com.microsoft.azure.management.appservice.DomainPurchaseConsent
+  - href: com.microsoft.azure.management.appservice.DomainStatus.yml
+    name: DomainStatus
+    uid: com.microsoft.azure.management.appservice.DomainStatus
+  - href: com.microsoft.azure.management.appservice.DomainsTests.yml
+    name: DomainsTests
+    uid: com.microsoft.azure.management.appservice.DomainsTests
+  - href: com.microsoft.azure.management.appservice.DomainType.yml
+    name: DomainType
+    uid: com.microsoft.azure.management.appservice.DomainType
+  - href: com.microsoft.azure.management.appservice.EnabledConfig.yml
+    name: EnabledConfig
+    uid: com.microsoft.azure.management.appservice.EnabledConfig
+  - href: com.microsoft.azure.management.appservice.ErrorEntity.yml
+    name: ErrorEntity
+    uid: com.microsoft.azure.management.appservice.ErrorEntity
+  - href: com.microsoft.azure.management.appservice.Experiments.yml
+    name: Experiments
+    uid: com.microsoft.azure.management.appservice.Experiments
+  - href: com.microsoft.azure.management.appservice.FileSystemApplicationLogsConfig.yml
+    name: FileSystemApplicationLogsConfig
+    uid: com.microsoft.azure.management.appservice.FileSystemApplicationLogsConfig
+  - href: com.microsoft.azure.management.appservice.FileSystemHttpLogsConfig.yml
+    name: FileSystemHttpLogsConfig
+    uid: com.microsoft.azure.management.appservice.FileSystemHttpLogsConfig
+  - href: com.microsoft.azure.management.appservice.FrequencyUnit.yml
+    name: FrequencyUnit
+    uid: com.microsoft.azure.management.appservice.FrequencyUnit
+  - href: com.microsoft.azure.management.appservice.FunctionApp.yml
+    name: FunctionApp
+    uid: com.microsoft.azure.management.appservice.FunctionApp
+  - href: com.microsoft.azure.management.appservice.FunctionApp.Definition.yml
+    name: FunctionApp.Definition
+    uid: com.microsoft.azure.management.appservice.FunctionApp.Definition
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.yml
+    name: FunctionApp.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.Blank.yml
+    name: FunctionApp.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.ExistingAppServicePlanWithGroup.yml
+    name: FunctionApp.DefinitionStages.ExistingAppServicePlanWithGroup
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.ExistingAppServicePlanWithGroup
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.NewAppServicePlanWithGroup.yml
+    name: FunctionApp.DefinitionStages.NewAppServicePlanWithGroup
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.NewAppServicePlanWithGroup
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithCreate.yml
+    name: FunctionApp.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithDailyUsageQuota.yml
+    name: FunctionApp.DefinitionStages.WithDailyUsageQuota
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithDailyUsageQuota
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithNewAppServicePlan.yml
+    name: FunctionApp.DefinitionStages.WithNewAppServicePlan
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithNewAppServicePlan
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithRuntimeVersion.yml
+    name: FunctionApp.DefinitionStages.WithRuntimeVersion
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithRuntimeVersion
+  - href: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithStorageAccount.yml
+    name: FunctionApp.DefinitionStages.WithStorageAccount
+    uid: com.microsoft.azure.management.appservice.FunctionApp.DefinitionStages.WithStorageAccount
+  - href: com.microsoft.azure.management.appservice.FunctionApp.Update.yml
+    name: FunctionApp.Update
+    uid: com.microsoft.azure.management.appservice.FunctionApp.Update
+  - href: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.yml
+    name: FunctionApp.UpdateStages
+    uid: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages
+  - href: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithAppServicePlan.yml
+    name: FunctionApp.UpdateStages.WithAppServicePlan
+    uid: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithAppServicePlan
+  - href: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithDailyUsageQuota.yml
+    name: FunctionApp.UpdateStages.WithDailyUsageQuota
+    uid: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithDailyUsageQuota
+  - href: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithRuntimeVersion.yml
+    name: FunctionApp.UpdateStages.WithRuntimeVersion
+    uid: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithRuntimeVersion
+  - href: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithStorageAccount.yml
+    name: FunctionApp.UpdateStages.WithStorageAccount
+    uid: com.microsoft.azure.management.appservice.FunctionApp.UpdateStages.WithStorageAccount
+  - href: com.microsoft.azure.management.appservice.FunctionApps.yml
+    name: FunctionApps
+    uid: com.microsoft.azure.management.appservice.FunctionApps
+  - href: com.microsoft.azure.management.appservice.FunctionAppsTests.yml
+    name: FunctionAppsTests
+    uid: com.microsoft.azure.management.appservice.FunctionAppsTests
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.yml
+    name: FunctionDeploymentSlot
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.Definition.yml
+    name: FunctionDeploymentSlot.Definition
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.Definition
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.yml
+    name: FunctionDeploymentSlot.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.Blank.yml
+    name: FunctionDeploymentSlot.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.WithConfiguration.yml
+    name: FunctionDeploymentSlot.DefinitionStages.WithConfiguration
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.WithConfiguration
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.WithCreate.yml
+    name: FunctionDeploymentSlot.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.Update.yml
+    name: FunctionDeploymentSlot.Update
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlot.Update
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlots.yml
+    name: FunctionDeploymentSlots
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlots
+  - href: com.microsoft.azure.management.appservice.FunctionDeploymentSlotsTests.yml
+    name: FunctionDeploymentSlotsTests
+    uid: com.microsoft.azure.management.appservice.FunctionDeploymentSlotsTests
+  - href: com.microsoft.azure.management.appservice.GlobalCsmSkuDescription.yml
+    name: GlobalCsmSkuDescription
+    uid: com.microsoft.azure.management.appservice.GlobalCsmSkuDescription
+  - href: com.microsoft.azure.management.appservice.HandlerMapping.yml
+    name: HandlerMapping
+    uid: com.microsoft.azure.management.appservice.HandlerMapping
+  - href: com.microsoft.azure.management.appservice.HostingEnvironmentProfile.yml
+    name: HostingEnvironmentProfile
+    uid: com.microsoft.azure.management.appservice.HostingEnvironmentProfile
+  - href: com.microsoft.azure.management.appservice.HostingEnvironmentStatus.yml
+    name: HostingEnvironmentStatus
+    uid: com.microsoft.azure.management.appservice.HostingEnvironmentStatus
+  - href: com.microsoft.azure.management.appservice.HostName.yml
+    name: HostName
+    uid: com.microsoft.azure.management.appservice.HostName
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.yml
+    name: HostNameBinding
+    uid: com.microsoft.azure.management.appservice.HostNameBinding
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.Definition.yml
+    name: HostNameBinding.Definition
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.Definition
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.yml
+    name: HostNameBinding.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.Blank.yml
+    name: HostNameBinding.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithAttach.yml
+    name: HostNameBinding.DefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithDomain.yml
+    name: HostNameBinding.DefinitionStages.WithDomain
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithDomain
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithHostNameDnsRecordType.yml
+    name: HostNameBinding.DefinitionStages.WithHostNameDnsRecordType
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithHostNameDnsRecordType
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithSubDomain.yml
+    name: HostNameBinding.DefinitionStages.WithSubDomain
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.DefinitionStages.WithSubDomain
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinition.yml
+    name: HostNameBinding.UpdateDefinition
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinition
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.yml
+    name: HostNameBinding.UpdateDefinitionStages
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.Blank.yml
+    name: HostNameBinding.UpdateDefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithAttach.yml
+    name: HostNameBinding.UpdateDefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithDomain.yml
+    name: HostNameBinding.UpdateDefinitionStages.WithDomain
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithDomain
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithHostNameDnsRecordType.yml
+    name: HostNameBinding.UpdateDefinitionStages.WithHostNameDnsRecordType
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithHostNameDnsRecordType
+  - href: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithSubDomain.yml
+    name: HostNameBinding.UpdateDefinitionStages.WithSubDomain
+    uid: com.microsoft.azure.management.appservice.HostNameBinding.UpdateDefinitionStages.WithSubDomain
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.yml
+    name: HostNameSslBinding
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.Definition.yml
+    name: HostNameSslBinding.Definition
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.Definition
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.yml
+    name: HostNameSslBinding.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.Blank.yml
+    name: HostNameSslBinding.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithAttach.yml
+    name: HostNameSslBinding.DefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithCertificate.yml
+    name: HostNameSslBinding.DefinitionStages.WithCertificate
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithCertificate
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithHostname.yml
+    name: HostNameSslBinding.DefinitionStages.WithHostname
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithHostname
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithKeyVault.yml
+    name: HostNameSslBinding.DefinitionStages.WithKeyVault
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithKeyVault
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithSslType.yml
+    name: HostNameSslBinding.DefinitionStages.WithSslType
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.DefinitionStages.WithSslType
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinition.yml
+    name: HostNameSslBinding.UpdateDefinition
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinition
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.yml
+    name: HostNameSslBinding.UpdateDefinitionStages
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.Blank.yml
+    name: HostNameSslBinding.UpdateDefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithAttach.yml
+    name: HostNameSslBinding.UpdateDefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithCertificate.yml
+    name: HostNameSslBinding.UpdateDefinitionStages.WithCertificate
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithCertificate
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithHostname.yml
+    name: HostNameSslBinding.UpdateDefinitionStages.WithHostname
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithHostname
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithKeyVault.yml
+    name: HostNameSslBinding.UpdateDefinitionStages.WithKeyVault
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithKeyVault
+  - href: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithSslType.yml
+    name: HostNameSslBinding.UpdateDefinitionStages.WithSslType
+    uid: com.microsoft.azure.management.appservice.HostNameSslBinding.UpdateDefinitionStages.WithSslType
+  - href: com.microsoft.azure.management.appservice.HostNameSslState.yml
+    name: HostNameSslState
+    uid: com.microsoft.azure.management.appservice.HostNameSslState
+  - href: com.microsoft.azure.management.appservice.HostnameSslTests.yml
+    name: HostnameSslTests
+    uid: com.microsoft.azure.management.appservice.HostnameSslTests
+  - href: com.microsoft.azure.management.appservice.HostNameType.yml
+    name: HostNameType
+    uid: com.microsoft.azure.management.appservice.HostNameType
+  - href: com.microsoft.azure.management.appservice.HostType.yml
+    name: HostType
+    uid: com.microsoft.azure.management.appservice.HostType
+  - href: com.microsoft.azure.management.appservice.HttpLogsConfig.yml
+    name: HttpLogsConfig
+    uid: com.microsoft.azure.management.appservice.HttpLogsConfig
+  - href: com.microsoft.azure.management.appservice.InAvailabilityReasonType.yml
+    name: InAvailabilityReasonType
+    uid: com.microsoft.azure.management.appservice.InAvailabilityReasonType
+  - href: com.microsoft.azure.management.appservice.InternalLoadBalancingMode.yml
+    name: InternalLoadBalancingMode
+    uid: com.microsoft.azure.management.appservice.InternalLoadBalancingMode
+  - href: com.microsoft.azure.management.appservice.IpSecurityRestriction.yml
+    name: IpSecurityRestriction
+    uid: com.microsoft.azure.management.appservice.IpSecurityRestriction
+  - href: com.microsoft.azure.management.appservice.JavaVersion.yml
+    name: JavaVersion
+    uid: com.microsoft.azure.management.appservice.JavaVersion
+  - href: com.microsoft.azure.management.appservice.KeyVaultSecretStatus.yml
+    name: KeyVaultSecretStatus
+    uid: com.microsoft.azure.management.appservice.KeyVaultSecretStatus
+  - href: com.microsoft.azure.management.appservice.LinuxWebAppsTests.yml
+    name: LinuxWebAppsTests
+    uid: com.microsoft.azure.management.appservice.LinuxWebAppsTests
+  - href: com.microsoft.azure.management.appservice.LocalizableString.yml
+    name: LocalizableString
+    uid: com.microsoft.azure.management.appservice.LocalizableString
+  - href: com.microsoft.azure.management.appservice.LogLevel.yml
+    name: LogLevel
+    uid: com.microsoft.azure.management.appservice.LogLevel
+  - href: com.microsoft.azure.management.appservice.ManagedPipelineMode.yml
+    name: ManagedPipelineMode
+    uid: com.microsoft.azure.management.appservice.ManagedPipelineMode
+  - href: com.microsoft.azure.management.appservice.MetricAvailabilily.yml
+    name: MetricAvailabilily
+    uid: com.microsoft.azure.management.appservice.MetricAvailabilily
+  - href: com.microsoft.azure.management.appservice.MSDeployCore.yml
+    name: MSDeployCore
+    uid: com.microsoft.azure.management.appservice.MSDeployCore
+  - href: com.microsoft.azure.management.appservice.MSDeployLogEntry.yml
+    name: MSDeployLogEntry
+    uid: com.microsoft.azure.management.appservice.MSDeployLogEntry
+  - href: com.microsoft.azure.management.appservice.MSDeployLogEntryType.yml
+    name: MSDeployLogEntryType
+    uid: com.microsoft.azure.management.appservice.MSDeployLogEntryType
+  - href: com.microsoft.azure.management.appservice.MSDeployParameterEntry.yml
+    name: MSDeployParameterEntry
+    uid: com.microsoft.azure.management.appservice.MSDeployParameterEntry
+  - href: com.microsoft.azure.management.appservice.MSDeployProvisioningState.yml
+    name: MSDeployProvisioningState
+    uid: com.microsoft.azure.management.appservice.MSDeployProvisioningState
+  - href: com.microsoft.azure.management.appservice.MySqlMigrationType.yml
+    name: MySqlMigrationType
+    uid: com.microsoft.azure.management.appservice.MySqlMigrationType
+  - href: com.microsoft.azure.management.appservice.NameValuePair.yml
+    name: NameValuePair
+    uid: com.microsoft.azure.management.appservice.NameValuePair
+  - href: com.microsoft.azure.management.appservice.NetFrameworkVersion.yml
+    name: NetFrameworkVersion
+    uid: com.microsoft.azure.management.appservice.NetFrameworkVersion
+  - href: com.microsoft.azure.management.appservice.NetworkAccessControlEntry.yml
+    name: NetworkAccessControlEntry
+    uid: com.microsoft.azure.management.appservice.NetworkAccessControlEntry
+  - href: com.microsoft.azure.management.appservice.NotificationLevel.yml
+    name: NotificationLevel
+    uid: com.microsoft.azure.management.appservice.NotificationLevel
+  - href: com.microsoft.azure.management.appservice.OperatingSystem.yml
+    name: OperatingSystem
+    uid: com.microsoft.azure.management.appservice.OperatingSystem
+  - href: com.microsoft.azure.management.appservice.OperationStatus.yml
+    name: OperationStatus
+    uid: com.microsoft.azure.management.appservice.OperationStatus
+  - href: com.microsoft.azure.management.appservice.PerfMonSample.yml
+    name: PerfMonSample
+    uid: com.microsoft.azure.management.appservice.PerfMonSample
+  - href: com.microsoft.azure.management.appservice.PerfMonSet.yml
+    name: PerfMonSet
+    uid: com.microsoft.azure.management.appservice.PerfMonSet
+  - href: com.microsoft.azure.management.appservice.PhpVersion.yml
+    name: PhpVersion
+    uid: com.microsoft.azure.management.appservice.PhpVersion
+  - href: com.microsoft.azure.management.appservice.PlatformArchitecture.yml
+    name: PlatformArchitecture
+    uid: com.microsoft.azure.management.appservice.PlatformArchitecture
+  - href: com.microsoft.azure.management.appservice.PricingTier.yml
+    name: PricingTier
+    uid: com.microsoft.azure.management.appservice.PricingTier
+  - href: com.microsoft.azure.management.appservice.ProvisioningState.yml
+    name: ProvisioningState
+    uid: com.microsoft.azure.management.appservice.ProvisioningState
+  - href: com.microsoft.azure.management.appservice.PublicCertificateLocation.yml
+    name: PublicCertificateLocation
+    uid: com.microsoft.azure.management.appservice.PublicCertificateLocation
+  - href: com.microsoft.azure.management.appservice.PublishingProfile.yml
+    name: PublishingProfile
+    uid: com.microsoft.azure.management.appservice.PublishingProfile
+  - href: com.microsoft.azure.management.appservice.PublishingProfileFormat.yml
+    name: PublishingProfileFormat
+    uid: com.microsoft.azure.management.appservice.PublishingProfileFormat
+  - href: com.microsoft.azure.management.appservice.PythonVersion.yml
+    name: PythonVersion
+    uid: com.microsoft.azure.management.appservice.PythonVersion
+  - href: com.microsoft.azure.management.appservice.RampUpRule.yml
+    name: RampUpRule
+    uid: com.microsoft.azure.management.appservice.RampUpRule
+  - href: com.microsoft.azure.management.appservice.RemoteVisualStudioVersion.yml
+    name: RemoteVisualStudioVersion
+    uid: com.microsoft.azure.management.appservice.RemoteVisualStudioVersion
+  - href: com.microsoft.azure.management.appservice.RepositoryType.yml
+    name: RepositoryType
+    uid: com.microsoft.azure.management.appservice.RepositoryType
+  - href: com.microsoft.azure.management.appservice.RequestsBasedTrigger.yml
+    name: RequestsBasedTrigger
+    uid: com.microsoft.azure.management.appservice.RequestsBasedTrigger
+  - href: com.microsoft.azure.management.appservice.ResourceMetricAvailability.yml
+    name: ResourceMetricAvailability
+    uid: com.microsoft.azure.management.appservice.ResourceMetricAvailability
+  - href: com.microsoft.azure.management.appservice.ResourceMetricName.yml
+    name: ResourceMetricName
+    uid: com.microsoft.azure.management.appservice.ResourceMetricName
+  - href: com.microsoft.azure.management.appservice.ResourceMetricProperty.yml
+    name: ResourceMetricProperty
+    uid: com.microsoft.azure.management.appservice.ResourceMetricProperty
+  - href: com.microsoft.azure.management.appservice.ResourceMetricValue.yml
+    name: ResourceMetricValue
+    uid: com.microsoft.azure.management.appservice.ResourceMetricValue
+  - href: com.microsoft.azure.management.appservice.ResourceNameAvailabilityRequest.yml
+    name: ResourceNameAvailabilityRequest
+    uid: com.microsoft.azure.management.appservice.ResourceNameAvailabilityRequest
+  - href: com.microsoft.azure.management.appservice.ResourceScopeType.yml
+    name: ResourceScopeType
+    uid: com.microsoft.azure.management.appservice.ResourceScopeType
+  - href: com.microsoft.azure.management.appservice.RouteType.yml
+    name: RouteType
+    uid: com.microsoft.azure.management.appservice.RouteType
+  - href: com.microsoft.azure.management.appservice.RuntimeStack.yml
+    name: RuntimeStack
+    uid: com.microsoft.azure.management.appservice.RuntimeStack
+  - href: com.microsoft.azure.management.appservice.ScmType.yml
+    name: ScmType
+    uid: com.microsoft.azure.management.appservice.ScmType
+  - href: com.microsoft.azure.management.appservice.SiteAvailabilityState.yml
+    name: SiteAvailabilityState
+    uid: com.microsoft.azure.management.appservice.SiteAvailabilityState
+  - href: com.microsoft.azure.management.appservice.SiteCloneabilityCriterion.yml
+    name: SiteCloneabilityCriterion
+    uid: com.microsoft.azure.management.appservice.SiteCloneabilityCriterion
+  - href: com.microsoft.azure.management.appservice.SiteConfig.yml
+    name: SiteConfig
+    uid: com.microsoft.azure.management.appservice.SiteConfig
+  - href: com.microsoft.azure.management.appservice.SiteLimits.yml
+    name: SiteLimits
+    uid: com.microsoft.azure.management.appservice.SiteLimits
+  - href: com.microsoft.azure.management.appservice.SiteLoadBalancing.yml
+    name: SiteLoadBalancing
+    uid: com.microsoft.azure.management.appservice.SiteLoadBalancing
+  - href: com.microsoft.azure.management.appservice.SiteMachineKey.yml
+    name: SiteMachineKey
+    uid: com.microsoft.azure.management.appservice.SiteMachineKey
+  - href: com.microsoft.azure.management.appservice.SkuCapacity.yml
+    name: SkuCapacity
+    uid: com.microsoft.azure.management.appservice.SkuCapacity
+  - href: com.microsoft.azure.management.appservice.SkuDescription.yml
+    name: SkuDescription
+    uid: com.microsoft.azure.management.appservice.SkuDescription
+  - href: com.microsoft.azure.management.appservice.SkuName.yml
+    name: SkuName
+    uid: com.microsoft.azure.management.appservice.SkuName
+  - href: com.microsoft.azure.management.appservice.SlotSwapStatus.yml
+    name: SlotSwapStatus
+    uid: com.microsoft.azure.management.appservice.SlotSwapStatus
+  - href: com.microsoft.azure.management.appservice.SlowRequestsBasedTrigger.yml
+    name: SlowRequestsBasedTrigger
+    uid: com.microsoft.azure.management.appservice.SlowRequestsBasedTrigger
+  - href: com.microsoft.azure.management.appservice.SnapshotRecoveryTarget.yml
+    name: SnapshotRecoveryTarget
+    uid: com.microsoft.azure.management.appservice.SnapshotRecoveryTarget
+  - href: com.microsoft.azure.management.appservice.SourceControlTests.yml
+    name: SourceControlTests
+    uid: com.microsoft.azure.management.appservice.SourceControlTests
+  - href: com.microsoft.azure.management.appservice.SslState.yml
+    name: SslState
+    uid: com.microsoft.azure.management.appservice.SslState
+  - href: com.microsoft.azure.management.appservice.StatusCodesBasedTrigger.yml
+    name: StatusCodesBasedTrigger
+    uid: com.microsoft.azure.management.appservice.StatusCodesBasedTrigger
+  - href: com.microsoft.azure.management.appservice.StatusOptions.yml
+    name: StatusOptions
+    uid: com.microsoft.azure.management.appservice.StatusOptions
+  - href: com.microsoft.azure.management.appservice.UnauthenticatedClientAction.yml
+    name: UnauthenticatedClientAction
+    uid: com.microsoft.azure.management.appservice.UnauthenticatedClientAction
+  - href: com.microsoft.azure.management.appservice.UsageState.yml
+    name: UsageState
+    uid: com.microsoft.azure.management.appservice.UsageState
+  - href: com.microsoft.azure.management.appservice.ValidateResourceTypes.yml
+    name: ValidateResourceTypes
+    uid: com.microsoft.azure.management.appservice.ValidateResourceTypes
+  - href: com.microsoft.azure.management.appservice.ValidateResponseError.yml
+    name: ValidateResponseError
+    uid: com.microsoft.azure.management.appservice.ValidateResponseError
+  - href: com.microsoft.azure.management.appservice.VirtualApplication.yml
+    name: VirtualApplication
+    uid: com.microsoft.azure.management.appservice.VirtualApplication
+  - href: com.microsoft.azure.management.appservice.VirtualDirectory.yml
+    name: VirtualDirectory
+    uid: com.microsoft.azure.management.appservice.VirtualDirectory
+  - href: com.microsoft.azure.management.appservice.VirtualIPMapping.yml
+    name: VirtualIPMapping
+    uid: com.microsoft.azure.management.appservice.VirtualIPMapping
+  - href: com.microsoft.azure.management.appservice.VirtualNetworkProfile.yml
+    name: VirtualNetworkProfile
+    uid: com.microsoft.azure.management.appservice.VirtualNetworkProfile
+  - href: com.microsoft.azure.management.appservice.WebApp.yml
+    name: WebApp
+    uid: com.microsoft.azure.management.appservice.WebApp
+  - href: com.microsoft.azure.management.appservice.WebApp.Definition.yml
+    name: WebApp.Definition
+    uid: com.microsoft.azure.management.appservice.WebApp.Definition
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.yml
+    name: WebApp.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.Blank.yml
+    name: WebApp.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.ExistingLinuxPlanWithGroup.yml
+    name: WebApp.DefinitionStages.ExistingLinuxPlanWithGroup
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.ExistingLinuxPlanWithGroup
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.ExistingWindowsPlanWithGroup.yml
+    name: WebApp.DefinitionStages.ExistingWindowsPlanWithGroup
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.ExistingWindowsPlanWithGroup
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.NewAppServicePlanWithGroup.yml
+    name: WebApp.DefinitionStages.NewAppServicePlanWithGroup
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.NewAppServicePlanWithGroup
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCreate.yml
+    name: WebApp.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCredentials.yml
+    name: WebApp.DefinitionStages.WithCredentials
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithCredentials
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithDockerContainerImage.yml
+    name: WebApp.DefinitionStages.WithDockerContainerImage
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithDockerContainerImage
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan.yml
+    name: WebApp.DefinitionStages.WithNewAppServicePlan
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithNewAppServicePlan
+  - href: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithStartUpCommand.yml
+    name: WebApp.DefinitionStages.WithStartUpCommand
+    uid: com.microsoft.azure.management.appservice.WebApp.DefinitionStages.WithStartUpCommand
+  - href: com.microsoft.azure.management.appservice.WebApp.Update.yml
+    name: WebApp.Update
+    uid: com.microsoft.azure.management.appservice.WebApp.Update
+  - href: com.microsoft.azure.management.appservice.WebApp.UpdateStages.yml
+    name: WebApp.UpdateStages
+    uid: com.microsoft.azure.management.appservice.WebApp.UpdateStages
+  - href: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithAppServicePlan.yml
+    name: WebApp.UpdateStages.WithAppServicePlan
+    uid: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithAppServicePlan
+  - href: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithCredentials.yml
+    name: WebApp.UpdateStages.WithCredentials
+    uid: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithCredentials
+  - href: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithDockerContainerImage.yml
+    name: WebApp.UpdateStages.WithDockerContainerImage
+    uid: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithDockerContainerImage
+  - href: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithStartUpCommand.yml
+    name: WebApp.UpdateStages.WithStartUpCommand
+    uid: com.microsoft.azure.management.appservice.WebApp.UpdateStages.WithStartUpCommand
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.yml
+    name: WebAppAuthentication
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.Definition.yml
+    name: WebAppAuthentication.Definition
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.Definition
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.yml
+    name: WebAppAuthentication.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.Blank.yml
+    name: WebAppAuthentication.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAttach.yml
+    name: WebAppAuthentication.DefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAuthenticationProvider.yml
+    name: WebAppAuthentication.DefinitionStages.WithAuthenticationProvider
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithAuthenticationProvider
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider.yml
+    name: WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithDefaultAuthenticationProvider
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithExternalRedirectUrls.yml
+    name: WebAppAuthentication.DefinitionStages.WithExternalRedirectUrls
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithExternalRedirectUrls
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithTokenStore.yml
+    name: WebAppAuthentication.DefinitionStages.WithTokenStore
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.DefinitionStages.WithTokenStore
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.Update.yml
+    name: WebAppAuthentication.Update
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.Update
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinition.yml
+    name: WebAppAuthentication.UpdateDefinition
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinition
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.yml
+    name: WebAppAuthentication.UpdateDefinitionStages
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.Blank.yml
+    name: WebAppAuthentication.UpdateDefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithAttach.yml
+    name: WebAppAuthentication.UpdateDefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithAuthenticationProvider.yml
+    name: WebAppAuthentication.UpdateDefinitionStages.WithAuthenticationProvider
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithAuthenticationProvider
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithDefaultAuthenticationProvider.yml
+    name: WebAppAuthentication.UpdateDefinitionStages.WithDefaultAuthenticationProvider
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithDefaultAuthenticationProvider
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithExternalRedirectUrls.yml
+    name: WebAppAuthentication.UpdateDefinitionStages.WithExternalRedirectUrls
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithExternalRedirectUrls
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithTokenStore.yml
+    name: WebAppAuthentication.UpdateDefinitionStages.WithTokenStore
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateDefinitionStages.WithTokenStore
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.yml
+    name: WebAppAuthentication.UpdateStages
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.WithAuthenticationProvider.yml
+    name: WebAppAuthentication.UpdateStages.WithAuthenticationProvider
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.WithAuthenticationProvider
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.WithDefaultAuthenticationProvider.yml
+    name: WebAppAuthentication.UpdateStages.WithDefaultAuthenticationProvider
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.WithDefaultAuthenticationProvider
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.WithExternalRedirectUrls.yml
+    name: WebAppAuthentication.UpdateStages.WithExternalRedirectUrls
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.WithExternalRedirectUrls
+  - href: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.WithTokenStore.yml
+    name: WebAppAuthentication.UpdateStages.WithTokenStore
+    uid: com.microsoft.azure.management.appservice.WebAppAuthentication.UpdateStages.WithTokenStore
+  - href: com.microsoft.azure.management.appservice.WebAppBase.yml
+    name: WebAppBase
+    uid: com.microsoft.azure.management.appservice.WebAppBase
+  - href: com.microsoft.azure.management.appservice.WebAppBase.Definition.yml
+    name: WebAppBase.Definition
+    uid: com.microsoft.azure.management.appservice.WebAppBase.Definition
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.yml
+    name: WebAppBase.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAppSettings.yml
+    name: WebAppBase.DefinitionStages.WithAppSettings
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAppSettings
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAuthentication.yml
+    name: WebAppBase.DefinitionStages.WithAuthentication
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithAuthentication
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithClientAffinityEnabled.yml
+    name: WebAppBase.DefinitionStages.WithClientAffinityEnabled
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithClientAffinityEnabled
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithClientCertEnabled.yml
+    name: WebAppBase.DefinitionStages.WithClientCertEnabled
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithClientCertEnabled
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithConnectionString.yml
+    name: WebAppBase.DefinitionStages.WithConnectionString
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithConnectionString
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithCreate.yml
+    name: WebAppBase.DefinitionStages.WithCreate
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithCreate
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameBinding.yml
+    name: WebAppBase.DefinitionStages.WithHostNameBinding
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameBinding
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameSslBinding.yml
+    name: WebAppBase.DefinitionStages.WithHostNameSslBinding
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithHostNameSslBinding
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithScmSiteAlsoStopped.yml
+    name: WebAppBase.DefinitionStages.WithScmSiteAlsoStopped
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithScmSiteAlsoStopped
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs.yml
+    name: WebAppBase.DefinitionStages.WithSiteConfigs
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteConfigs
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteEnabled.yml
+    name: WebAppBase.DefinitionStages.WithSiteEnabled
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSiteEnabled
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSourceControl.yml
+    name: WebAppBase.DefinitionStages.WithSourceControl
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithSourceControl
+  - href: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithWebContainer.yml
+    name: WebAppBase.DefinitionStages.WithWebContainer
+    uid: com.microsoft.azure.management.appservice.WebAppBase.DefinitionStages.WithWebContainer
+  - href: com.microsoft.azure.management.appservice.WebAppBase.Update.yml
+    name: WebAppBase.Update
+    uid: com.microsoft.azure.management.appservice.WebAppBase.Update
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.yml
+    name: WebAppBase.UpdateStages
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings.yml
+    name: WebAppBase.UpdateStages.WithAppSettings
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAppSettings
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAuthentication.yml
+    name: WebAppBase.UpdateStages.WithAuthentication
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithAuthentication
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithClientAffinityEnabled.yml
+    name: WebAppBase.UpdateStages.WithClientAffinityEnabled
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithClientAffinityEnabled
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithClientCertEnabled.yml
+    name: WebAppBase.UpdateStages.WithClientCertEnabled
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithClientCertEnabled
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString.yml
+    name: WebAppBase.UpdateStages.WithConnectionString
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithConnectionString
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameBinding.yml
+    name: WebAppBase.UpdateStages.WithHostNameBinding
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameBinding
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameSslBinding.yml
+    name: WebAppBase.UpdateStages.WithHostNameSslBinding
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithHostNameSslBinding
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithScmSiteAlsoStopped.yml
+    name: WebAppBase.UpdateStages.WithScmSiteAlsoStopped
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithScmSiteAlsoStopped
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs.yml
+    name: WebAppBase.UpdateStages.WithSiteConfigs
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteConfigs
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteEnabled.yml
+    name: WebAppBase.UpdateStages.WithSiteEnabled
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSiteEnabled
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSourceControl.yml
+    name: WebAppBase.UpdateStages.WithSourceControl
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithSourceControl
+  - href: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithWebContainer.yml
+    name: WebAppBase.UpdateStages.WithWebContainer
+    uid: com.microsoft.azure.management.appservice.WebAppBase.UpdateStages.WithWebContainer
+  - href: com.microsoft.azure.management.appservice.WebAppConfigTests.yml
+    name: WebAppConfigTests
+    uid: com.microsoft.azure.management.appservice.WebAppConfigTests
+  - href: com.microsoft.azure.management.appservice.WebApps.yml
+    name: WebApps
+    uid: com.microsoft.azure.management.appservice.WebApps
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.yml
+    name: WebAppSourceControl
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.Definition.yml
+    name: WebAppSourceControl.Definition
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.Definition
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.yml
+    name: WebAppSourceControl.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.Blank.yml
+    name: WebAppSourceControl.DefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.GitHubWithAttach.yml
+    name: WebAppSourceControl.DefinitionStages.GitHubWithAttach
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.GitHubWithAttach
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithAttach.yml
+    name: WebAppSourceControl.DefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithBranch.yml
+    name: WebAppSourceControl.DefinitionStages.WithBranch
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithBranch
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubAccessToken.yml
+    name: WebAppSourceControl.DefinitionStages.WithGitHubAccessToken
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubAccessToken
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubBranch.yml
+    name: WebAppSourceControl.DefinitionStages.WithGitHubBranch
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithGitHubBranch
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType.yml
+    name: WebAppSourceControl.DefinitionStages.WithRepositoryType
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.DefinitionStages.WithRepositoryType
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinition.yml
+    name: WebAppSourceControl.UpdateDefinition
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinition
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.yml
+    name: WebAppSourceControl.UpdateDefinitionStages
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.Blank.yml
+    name: WebAppSourceControl.UpdateDefinitionStages.Blank
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.Blank
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.GitHubWithAttach.yml
+    name: WebAppSourceControl.UpdateDefinitionStages.GitHubWithAttach
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.GitHubWithAttach
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithAttach.yml
+    name: WebAppSourceControl.UpdateDefinitionStages.WithAttach
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithAttach
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithBranch.yml
+    name: WebAppSourceControl.UpdateDefinitionStages.WithBranch
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithBranch
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken.yml
+    name: WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithGitHubAccessToken
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch.yml
+    name: WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithGitHubBranch
+  - href: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType.yml
+    name: WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType
+    uid: com.microsoft.azure.management.appservice.WebAppSourceControl.UpdateDefinitionStages.WithRepositoryType
+  - href: com.microsoft.azure.management.appservice.WebAppsTests.yml
+    name: WebAppsTests
+    uid: com.microsoft.azure.management.appservice.WebAppsTests
+  - href: com.microsoft.azure.management.appservice.WebAppsWebDeployTests.yml
+    name: WebAppsWebDeployTests
+    uid: com.microsoft.azure.management.appservice.WebAppsWebDeployTests
+  - href: com.microsoft.azure.management.appservice.WebContainer.yml
+    name: WebContainer
+    uid: com.microsoft.azure.management.appservice.WebContainer
+  - href: com.microsoft.azure.management.appservice.WebDeployment.yml
+    name: WebDeployment
+    uid: com.microsoft.azure.management.appservice.WebDeployment
+  - href: com.microsoft.azure.management.appservice.WebDeployment.Definition.yml
+    name: WebDeployment.Definition
+    uid: com.microsoft.azure.management.appservice.WebDeployment.Definition
+  - href: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.yml
+    name: WebDeployment.DefinitionStages
+    uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages
+  - href: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithAddOnPackage.yml
+    name: WebDeployment.DefinitionStages.WithAddOnPackage
+    uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithAddOnPackage
+  - href: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExecute.yml
+    name: WebDeployment.DefinitionStages.WithExecute
+    uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExecute
+  - href: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted.yml
+    name: WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted
+    uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithExistingDeploymentsDeleted
+  - href: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithPackageUri.yml
+    name: WebDeployment.DefinitionStages.WithPackageUri
+    uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithPackageUri
+  - href: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithSetParameters.yml
+    name: WebDeployment.DefinitionStages.WithSetParameters
+    uid: com.microsoft.azure.management.appservice.WebDeployment.DefinitionStages.WithSetParameters
+  - href: com.microsoft.azure.management.appservice.WorkerPool.yml
+    name: WorkerPool
+    uid: com.microsoft.azure.management.appservice.WorkerPool
+  - href: com.microsoft.azure.management.appservice.WorkerSizeOptions.yml
+    name: WorkerSizeOptions
+    uid: com.microsoft.azure.management.appservice.WorkerSizeOptions
+  name: com.microsoft.azure.management.appservice
+  uid: com.microsoft.azure.management.appservice
+- href: com.microsoft.identity.client.yml
+  items:
+  - href: com.microsoft.identity.client.Account.yml
     name: Account
-    href: com.microsoft.identity.client.Account.yml
-  - uid: com.microsoft.identity.client.AcquireTokenParameters
+    uid: com.microsoft.identity.client.Account
+  - href: com.microsoft.identity.client.AcquireTokenParameters.yml
     name: AcquireTokenParameters
-    href: com.microsoft.identity.client.AcquireTokenParameters.yml
-  - uid: com.microsoft.identity.client.AcquireTokenParameters.Builder
+    uid: com.microsoft.identity.client.AcquireTokenParameters
+  - href: com.microsoft.identity.client.AcquireTokenParameters.Builder.yml
     name: AcquireTokenParameters.Builder
-    href: com.microsoft.identity.client.AcquireTokenParameters.Builder.yml
-  - uid: com.microsoft.identity.client.AcquireTokenSilentParameters
+    uid: com.microsoft.identity.client.AcquireTokenParameters.Builder
+  - href: com.microsoft.identity.client.AcquireTokenSilentParameters.yml
     name: AcquireTokenSilentParameters
-    href: com.microsoft.identity.client.AcquireTokenSilentParameters.yml
-  - uid: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder
+    uid: com.microsoft.identity.client.AcquireTokenSilentParameters
+  - href: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder.yml
     name: AcquireTokenSilentParameters.Builder
-    href: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder.yml
-  - uid: com.microsoft.identity.client.AuthenticationCallback
+    uid: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder
+  - href: com.microsoft.identity.client.AuthenticationCallback.yml
     name: AuthenticationCallback
-    href: com.microsoft.identity.client.AuthenticationCallback.yml
-  - uid: com.microsoft.identity.client.AuthenticationResult
+    uid: com.microsoft.identity.client.AuthenticationCallback
+  - href: com.microsoft.identity.client.AuthenticationResult.yml
     name: AuthenticationResult
-    href: com.microsoft.identity.client.AuthenticationResult.yml
-  - uid: com.microsoft.identity.client.AuthenticationScheme
+    uid: com.microsoft.identity.client.AuthenticationResult
+  - href: com.microsoft.identity.client.AuthenticationScheme.yml
     name: AuthenticationScheme
-    href: com.microsoft.identity.client.AuthenticationScheme.yml
-  - uid: com.microsoft.identity.client.BearerAuthenticationScheme
+    uid: com.microsoft.identity.client.AuthenticationScheme
+  - href: com.microsoft.identity.client.BearerAuthenticationScheme.yml
     name: BearerAuthenticationScheme
-    href: com.microsoft.identity.client.BearerAuthenticationScheme.yml
-  - uid: com.microsoft.identity.client.BrowserTabActivity
+    uid: com.microsoft.identity.client.BearerAuthenticationScheme
+  - href: com.microsoft.identity.client.BrowserTabActivity.yml
     name: BrowserTabActivity
-    href: com.microsoft.identity.client.BrowserTabActivity.yml
-  - uid: com.microsoft.identity.client.CurrentAccountResult
+    uid: com.microsoft.identity.client.BrowserTabActivity
+  - href: com.microsoft.identity.client.CurrentAccountResult.yml
     name: CurrentAccountResult
-    href: com.microsoft.identity.client.CurrentAccountResult.yml
-  - uid: com.microsoft.identity.client.HttpMethod
+    uid: com.microsoft.identity.client.CurrentAccountResult
+  - href: com.microsoft.identity.client.HttpMethod.yml
     name: HttpMethod
-    href: com.microsoft.identity.client.HttpMethod.yml
-  - uid: com.microsoft.identity.client.IAccount
+    uid: com.microsoft.identity.client.HttpMethod
+  - href: com.microsoft.identity.client.IAccount.yml
     name: IAccount
-    href: com.microsoft.identity.client.IAccount.yml
-  - uid: com.microsoft.identity.client.IAuthenticationResult
+    uid: com.microsoft.identity.client.IAccount
+  - href: com.microsoft.identity.client.IAuthenticationResult.yml
     name: IAuthenticationResult
-    href: com.microsoft.identity.client.IAuthenticationResult.yml
-  - uid: com.microsoft.identity.client.IClaimable
+    uid: com.microsoft.identity.client.IAuthenticationResult
+  - href: com.microsoft.identity.client.IClaimable.yml
     name: IClaimable
-    href: com.microsoft.identity.client.IClaimable.yml
-  - uid: com.microsoft.identity.client.ICurrentAccountResult
+    uid: com.microsoft.identity.client.IClaimable
+  - href: com.microsoft.identity.client.ICurrentAccountResult.yml
     name: ICurrentAccountResult
-    href: com.microsoft.identity.client.ICurrentAccountResult.yml
-  - uid: com.microsoft.identity.client.ILoggerCallback
+    uid: com.microsoft.identity.client.ICurrentAccountResult
+  - href: com.microsoft.identity.client.ILoggerCallback.yml
     name: ILoggerCallback
-    href: com.microsoft.identity.client.ILoggerCallback.yml
-  - uid: com.microsoft.identity.client.IMsalEventReceiver
+    uid: com.microsoft.identity.client.ILoggerCallback
+  - href: com.microsoft.identity.client.IMsalEventReceiver.yml
     name: IMsalEventReceiver
-    href: com.microsoft.identity.client.IMsalEventReceiver.yml
-  - uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication
+    uid: com.microsoft.identity.client.IMsalEventReceiver
+  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.yml
     name: IMultipleAccountPublicClientApplication
-    href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.yml
-  - uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback
+    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication
+  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback.yml
     name: IMultipleAccountPublicClientApplication.GetAccountCallback
-    href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback.yml
-  - uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback
+    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback
+  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback.yml
     name: IMultipleAccountPublicClientApplication.RemoveAccountCallback
-    href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback.yml
-  - uid: com.microsoft.identity.client.IMultiTenantAccount
+    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback
+  - href: com.microsoft.identity.client.IMultiTenantAccount.yml
     name: IMultiTenantAccount
-    href: com.microsoft.identity.client.IMultiTenantAccount.yml
-  - uid: com.microsoft.identity.client.IPublicClientApplication
+    uid: com.microsoft.identity.client.IMultiTenantAccount
+  - href: com.microsoft.identity.client.IPublicClientApplication.yml
     name: IPublicClientApplication
-    href: com.microsoft.identity.client.IPublicClientApplication.yml
-  - uid: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener
+    uid: com.microsoft.identity.client.IPublicClientApplication
+  - href: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener.yml
     name: IPublicClientApplication.ApplicationCreatedListener
-    href: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener.yml
-  - uid: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener
+    uid: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener
+  - href: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener.yml
     name: IPublicClientApplication.IMultipleAccountApplicationCreatedListener
-    href: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener.yml
-  - uid: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener
+    uid: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener
+  - href: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener.yml
     name: IPublicClientApplication.ISingleAccountApplicationCreatedListener
-    href: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener.yml
-  - uid: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback
+    uid: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener
+  - href: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback.yml
     name: IPublicClientApplication.LoadAccountsCallback
-    href: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback.yml
-  - uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication
+    uid: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback
+  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.yml
     name: ISingleAccountPublicClientApplication
-    href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.yml
-  - uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback
+    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication
+  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback.yml
     name: ISingleAccountPublicClientApplication.CurrentAccountCallback
-    href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback.yml
-  - uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback
+    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback
+  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback.yml
     name: ISingleAccountPublicClientApplication.SignOutCallback
-    href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback.yml
-  - uid: com.microsoft.identity.client.ITenantProfile
+    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback
+  - href: com.microsoft.identity.client.ITenantProfile.yml
     name: ITenantProfile
-    href: com.microsoft.identity.client.ITenantProfile.yml
-  - uid: com.microsoft.identity.client.ITokenShare
+    uid: com.microsoft.identity.client.ITenantProfile
+  - href: com.microsoft.identity.client.ITokenShare.yml
     name: ITokenShare
-    href: com.microsoft.identity.client.ITokenShare.yml
-  - uid: com.microsoft.identity.client.Logger
+    uid: com.microsoft.identity.client.ITokenShare
+  - href: com.microsoft.identity.client.Logger.yml
     name: Logger
-    href: com.microsoft.identity.client.Logger.yml
-  - uid: com.microsoft.identity.client.Logger.LogLevel
+    uid: com.microsoft.identity.client.Logger
+  - href: com.microsoft.identity.client.Logger.LogLevel.yml
     name: Logger.LogLevel
-    href: com.microsoft.identity.client.Logger.LogLevel.yml
-  - uid: com.microsoft.identity.client.MsalChromeCustomTabManager
+    uid: com.microsoft.identity.client.Logger.LogLevel
+  - href: com.microsoft.identity.client.MsalChromeCustomTabManager.yml
     name: MsalChromeCustomTabManager
-    href: com.microsoft.identity.client.MsalChromeCustomTabManager.yml
-  - uid: com.microsoft.identity.client.MultipleAccountPublicClientApplication
+    uid: com.microsoft.identity.client.MsalChromeCustomTabManager
+  - href: com.microsoft.identity.client.MultipleAccountPublicClientApplication.yml
     name: MultipleAccountPublicClientApplication
-    href: com.microsoft.identity.client.MultipleAccountPublicClientApplication.yml
-  - uid: com.microsoft.identity.client.MultiTenantAccount
+    uid: com.microsoft.identity.client.MultipleAccountPublicClientApplication
+  - href: com.microsoft.identity.client.MultiTenantAccount.yml
     name: MultiTenantAccount
-    href: com.microsoft.identity.client.MultiTenantAccount.yml
-  - uid: com.microsoft.identity.client.PoPAuthenticationScheme
+    uid: com.microsoft.identity.client.MultiTenantAccount
+  - href: com.microsoft.identity.client.PoPAuthenticationScheme.yml
     name: PoPAuthenticationScheme
-    href: com.microsoft.identity.client.PoPAuthenticationScheme.yml
-  - uid: com.microsoft.identity.client.PoPAuthenticationScheme.Builder
+    uid: com.microsoft.identity.client.PoPAuthenticationScheme
+  - href: com.microsoft.identity.client.PoPAuthenticationScheme.Builder.yml
     name: PoPAuthenticationScheme.Builder
-    href: com.microsoft.identity.client.PoPAuthenticationScheme.Builder.yml
-  - uid: com.microsoft.identity.client.Prompt
+    uid: com.microsoft.identity.client.PoPAuthenticationScheme.Builder
+  - href: com.microsoft.identity.client.Prompt.yml
     name: Prompt
-    href: com.microsoft.identity.client.Prompt.yml
-  - uid: com.microsoft.identity.client.PublicClientApplication
+    uid: com.microsoft.identity.client.Prompt
+  - href: com.microsoft.identity.client.PublicClientApplication.yml
     name: PublicClientApplication
-    href: com.microsoft.identity.client.PublicClientApplication.yml
-  - uid: com.microsoft.identity.client.PublicClientApplication.AccountMatcher
+    uid: com.microsoft.identity.client.PublicClientApplication
+  - href: com.microsoft.identity.client.PublicClientApplication.AccountMatcher.yml
     name: PublicClientApplication.AccountMatcher
-    href: com.microsoft.identity.client.PublicClientApplication.AccountMatcher.yml
-  - uid: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback
+    uid: com.microsoft.identity.client.PublicClientApplication.AccountMatcher
+  - href: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback.yml
     name: PublicClientApplication.BrokerDeviceModeCallback
-    href: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback.yml
-  - uid: com.microsoft.identity.client.PublicClientApplicationConfiguration
+    uid: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback
+  - href: com.microsoft.identity.client.PublicClientApplicationConfiguration.yml
     name: PublicClientApplicationConfiguration
-    href: com.microsoft.identity.client.PublicClientApplicationConfiguration.yml
-  - uid: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames
+    uid: com.microsoft.identity.client.PublicClientApplicationConfiguration
+  - href: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames.yml
     name: PublicClientApplicationConfiguration.SerializedNames
-    href: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames.yml
-  - uid: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory
+    uid: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames
+  - href: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory.yml
     name: PublicClientApplicationConfigurationFactory
-    href: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory.yml
-  - uid: com.microsoft.identity.client.SilentAuthenticationCallback
+    uid: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory
+  - href: com.microsoft.identity.client.SilentAuthenticationCallback.yml
     name: SilentAuthenticationCallback
-    href: com.microsoft.identity.client.SilentAuthenticationCallback.yml
-  - uid: com.microsoft.identity.client.SingleAccountPublicClientApplication
+    uid: com.microsoft.identity.client.SilentAuthenticationCallback
+  - href: com.microsoft.identity.client.SingleAccountPublicClientApplication.yml
     name: SingleAccountPublicClientApplication
-    href: com.microsoft.identity.client.SingleAccountPublicClientApplication.yml
-  - uid: com.microsoft.identity.client.TenantProfile
+    uid: com.microsoft.identity.client.SingleAccountPublicClientApplication
+  - href: com.microsoft.identity.client.TenantProfile.yml
     name: TenantProfile
-    href: com.microsoft.identity.client.TenantProfile.yml
-  - uid: com.microsoft.identity.client.TokenParameters
+    uid: com.microsoft.identity.client.TenantProfile
+  - href: com.microsoft.identity.client.TokenParameters.yml
     name: TokenParameters
-    href: com.microsoft.identity.client.TokenParameters.yml
-  - uid: com.microsoft.identity.client.TokenParameters.Builder
+    uid: com.microsoft.identity.client.TokenParameters
+  - href: com.microsoft.identity.client.TokenParameters.Builder.yml
     name: TokenParameters.Builder
-    href: com.microsoft.identity.client.TokenParameters.Builder.yml
-  - uid: com.microsoft.identity.client.TokenParametersAdapter
+    uid: com.microsoft.identity.client.TokenParameters.Builder
+  - href: com.microsoft.identity.client.TokenParametersAdapter.yml
     name: TokenParametersAdapter
-    href: com.microsoft.identity.client.TokenParametersAdapter.yml
-  - uid: com.microsoft.identity.client.WebViewSelection
+    uid: com.microsoft.identity.client.TokenParametersAdapter
+  - href: com.microsoft.identity.client.WebViewSelection.yml
     name: WebViewSelection
-    href: com.microsoft.identity.client.WebViewSelection.yml
+    uid: com.microsoft.identity.client.WebViewSelection
+  name: com.microsoft.identity.client
+  uid: com.microsoft.identity.client
+- href: com.microsoft.identity.client.claims.yml
+  items:
+  - href: com.microsoft.identity.client.claims.ClaimsRequest.yml
+    name: ClaimsRequest
+    uid: com.microsoft.identity.client.claims.ClaimsRequest
+  - href: com.microsoft.identity.client.claims.RequestedClaim.yml
+    name: RequestedClaim
+    uid: com.microsoft.identity.client.claims.RequestedClaim
+  - href: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.yml
+    name: RequestedClaimAdditionalInformation
+    uid: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation
+  - href: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.SerializedNames.yml
+    name: RequestedClaimAdditionalInformation.SerializedNames
+    uid: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.SerializedNames
+  - href: com.microsoft.identity.client.claims.WWWAuthenticateHeader.yml
+    name: WWWAuthenticateHeader
+    uid: com.microsoft.identity.client.claims.WWWAuthenticateHeader
+  name: com.microsoft.identity.client.claims
+  uid: com.microsoft.identity.client.claims
+- href: com.microsoft.identity.client.configuration.yml
+  items:
+  - href: com.microsoft.identity.client.configuration.AccountMode.yml
+    name: AccountMode
+    uid: com.microsoft.identity.client.configuration.AccountMode
+  - href: com.microsoft.identity.client.configuration.HttpConfiguration.yml
+    name: HttpConfiguration
+    uid: com.microsoft.identity.client.configuration.HttpConfiguration
+  - href: com.microsoft.identity.client.configuration.LoggerConfiguration.yml
+    name: LoggerConfiguration
+    uid: com.microsoft.identity.client.configuration.LoggerConfiguration
+  - href: com.microsoft.identity.client.configuration.LoggerConfiguration.SerializedNames.yml
+    name: LoggerConfiguration.SerializedNames
+    uid: com.microsoft.identity.client.configuration.LoggerConfiguration.SerializedNames
+  name: com.microsoft.identity.client.configuration
+  uid: com.microsoft.identity.client.configuration
+- href: com.microsoft.identity.client.exception.yml
+  items:
+  - href: com.microsoft.identity.client.exception.BrokerCommunicationException.yml
+    name: BrokerCommunicationException
+    uid: com.microsoft.identity.client.exception.BrokerCommunicationException
+  - href: com.microsoft.identity.client.exception.MsalArgumentException.yml
+    name: MsalArgumentException
+    uid: com.microsoft.identity.client.exception.MsalArgumentException
+  - href: com.microsoft.identity.client.exception.MsalClientException.yml
+    name: MsalClientException
+    uid: com.microsoft.identity.client.exception.MsalClientException
+  - href: com.microsoft.identity.client.exception.MsalDeclinedScopeException.yml
+    name: MsalDeclinedScopeException
+    uid: com.microsoft.identity.client.exception.MsalDeclinedScopeException
+  - href: com.microsoft.identity.client.exception.MsalException.yml
+    name: MsalException
+    uid: com.microsoft.identity.client.exception.MsalException
+  - href: com.microsoft.identity.client.exception.MsalIntuneAppProtectionPolicyRequiredException.yml
+    name: MsalIntuneAppProtectionPolicyRequiredException
+    uid: com.microsoft.identity.client.exception.MsalIntuneAppProtectionPolicyRequiredException
+  - href: com.microsoft.identity.client.exception.MsalServiceException.yml
+    name: MsalServiceException
+    uid: com.microsoft.identity.client.exception.MsalServiceException
+  - href: com.microsoft.identity.client.exception.MsalUiRequiredException.yml
+    name: MsalUiRequiredException
+    uid: com.microsoft.identity.client.exception.MsalUiRequiredException
+  - href: com.microsoft.identity.client.exception.MsalUserCancelException.yml
+    name: MsalUserCancelException
+    uid: com.microsoft.identity.client.exception.MsalUserCancelException
+  name: com.microsoft.identity.client.exception
+  uid: com.microsoft.identity.client.exception
+- href: com.microsoft.identity.client.internal.yml
+  items:
+  - href: com.microsoft.identity.client.internal.AsyncResult.yml
+    name: AsyncResult
+    uid: com.microsoft.identity.client.internal.AsyncResult
+  - href: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.yml
+    name: IntuneAcquireTokenParameters
+    uid: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters
+  - href: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.Builder.yml
+    name: IntuneAcquireTokenParameters.Builder
+    uid: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.Builder
+  - href: com.microsoft.identity.client.internal.MsalUtils.yml
+    name: MsalUtils
+    uid: com.microsoft.identity.client.internal.MsalUtils
+  name: com.microsoft.identity.client.internal
+  uid: com.microsoft.identity.client.internal
+- href: com.microsoft.identity.client.internal.configuration.yml
+  items:
+  - href: com.microsoft.identity.client.internal.configuration.LogLevelDeserializer.yml
+    name: LogLevelDeserializer
+    uid: com.microsoft.identity.client.internal.configuration.LogLevelDeserializer
+  name: com.microsoft.identity.client.internal.configuration
+  uid: com.microsoft.identity.client.internal.configuration
+- href: com.microsoft.identity.client.internal.controllers.yml
+  items:
+  - href: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.yml
+    name: BrokerAccountManagerStrategy
+    uid: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy
+  - href: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.OperationInfo.yml
+    name: BrokerAccountManagerStrategy.OperationInfo
+    uid: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.OperationInfo
+  - href: com.microsoft.identity.client.internal.controllers.BrokerActivity.yml
+    name: BrokerActivity
+    uid: com.microsoft.identity.client.internal.controllers.BrokerActivity
+  - href: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.yml
+    name: BrokerAuthServiceStrategy
+    uid: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy
+  - href: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.AuthServiceOperation.yml
+    name: BrokerAuthServiceStrategy.AuthServiceOperation
+    uid: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.AuthServiceOperation
+  - href: com.microsoft.identity.client.internal.controllers.BrokerMsalController.yml
+    name: BrokerMsalController
+    uid: com.microsoft.identity.client.internal.controllers.BrokerMsalController
+  - href: com.microsoft.identity.client.internal.controllers.LocalMSALController.yml
+    name: LocalMSALController
+    uid: com.microsoft.identity.client.internal.controllers.LocalMSALController
+  - href: com.microsoft.identity.client.internal.controllers.MSALControllerFactory.yml
+    name: MSALControllerFactory
+    uid: com.microsoft.identity.client.internal.controllers.MSALControllerFactory
+  - href: com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter.yml
+    name: MsalExceptionAdapter
+    uid: com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter
+  - href: com.microsoft.identity.client.internal.controllers.OperationParametersAdapter.yml
+    name: OperationParametersAdapter
+    uid: com.microsoft.identity.client.internal.controllers.OperationParametersAdapter
+  - href: com.microsoft.identity.client.internal.controllers.RequestCodes.yml
+    name: RequestCodes
+    uid: com.microsoft.identity.client.internal.controllers.RequestCodes
+  name: com.microsoft.identity.client.internal.controllers
+  uid: com.microsoft.identity.client.internal.controllers
