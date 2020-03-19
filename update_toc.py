@@ -5,9 +5,10 @@ import fnmatch
 import re
 import yaml
 import glob
+import shutil
 
 
-LEGACY_SOURCE_FOLDER = "legacy/docs-ref-autogen" #"legacy/docs-ref-autogen"
+LEGACY_SOURCE_FOLDER = "legacy/docs-ref-autogen"
 TARGET_SOURCE_FOLDER = "unified-latest/docs-ref-autogen" #"docs-ref-autogen"
 
 root_dir = os.path.abspath(os.path.join(os.path.abspath(__file__), ".."))
@@ -29,22 +30,21 @@ if __name__ == "__main__":
   with open(os.path.join(root_dir, LEGACY_SOURCE_FOLDER, 'toc.yml'), "r") as legacy_toc:
     legacy_toc = yaml.safe_load(legacy_toc)
 
-  appended_content = ""
-  file_sets = []
-
-  import pdb
-  pdb.set_trace()
+  toc_items = []
+  files_for_move = []
 
   # filter that toc
-  for top_level_toc_item in legacy_toc:
+  for index, top_level_toc_item in enumerate(legacy_toc):
     if check_against_targeted_namespaces(top_level_toc_item['uid'], migrating_namespaces_regexs):
-      appended_content += yaml.dump(top_level_toc_item, default_flow_style=False)
-      file_sets += glob.glob(os.path.join(root_dir, LEGACY_SOURCE_FOLDER, top_level_toc_item['uid']+"*"))
+      toc_items.append(top_level_toc_item)
+      files_for_move += glob.glob(os.path.join(root_dir, LEGACY_SOURCE_FOLDER, top_level_toc_item['uid']+"*"))
+
+  appended_content = yaml.dump(toc_items, default_flow_style=False)
 
   # write the toc
   with open(os.path.join(root_dir, TARGET_SOURCE_FOLDER, "toc.yml"), "a", encoding="utf-8") as stable_toc:
     stable_toc.write(appended_content)
 
-  print(file_sets)
-  for file in file_sets:
-    print(file)
+for file_name in files_for_move:
+  shutil.copy(file_name, os.path.join(root_dir, TARGET_SOURCE_FOLDER))
+
