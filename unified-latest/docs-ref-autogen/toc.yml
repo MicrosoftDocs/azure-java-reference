@@ -11334,550 +11334,6 @@
     name: UpdateOperationType
   - uid: com.microsoft.azure.documentdb.bulkexecutor.internal.UpdateOperationWithModifier
     name: UpdateOperationWithModifier
-- uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation
-  name: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation
-  items:
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertImpl
-    name: AlertImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertInner
-    name: AlertInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertsImpl
-    name: AlertsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertsInner
-    name: AlertsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.AlertsInner.AlertsService
-    name: AlertsInner.AlertsService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthScheduleImpl
-    name: BandwidthScheduleImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthScheduleInner
-    name: BandwidthScheduleInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthSchedulesImpl
-    name: BandwidthSchedulesImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthSchedulesInner
-    name: BandwidthSchedulesInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.BandwidthSchedulesInner.BandwidthSchedulesService
-    name: BandwidthSchedulesInner.BandwidthSchedulesService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceExtendedInfoImpl
-    name: DataBoxEdgeDeviceExtendedInfoImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceExtendedInfoInner
-    name: DataBoxEdgeDeviceExtendedInfoInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceImpl
-    name: DataBoxEdgeDeviceImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceInner
-    name: DataBoxEdgeDeviceInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceJobImpl
-    name: DataBoxEdgeDeviceJobImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeDeviceJobModelImpl
-    name: DataBoxEdgeDeviceJobModelImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeManagementClientImpl
-    name: DataBoxEdgeManagementClientImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeManager
-    name: DataBoxEdgeManager
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeManager.Configurable
-    name: DataBoxEdgeManager.Configurable
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DataBoxEdgeManager.ConfigurableImpl
-    name: DataBoxEdgeManager.ConfigurableImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DevicesImpl
-    name: DevicesImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DevicesInner
-    name: DevicesInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.DevicesInner.DevicesService
-    name: DevicesInner.DevicesService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.IdParsingUtils
-    name: IdParsingUtils
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.JobInner
-    name: JobInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.JobsImpl
-    name: JobsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.JobsInner
-    name: JobsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.JobsInner.JobsService
-    name: JobsInner.JobsService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.NetworkSettingsImpl
-    name: NetworkSettingsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.NetworkSettingsInner
-    name: NetworkSettingsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationImpl
-    name: OperationImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationInner
-    name: OperationInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsImpl
-    name: OperationsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsInner
-    name: OperationsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsInner.OperationsService
-    name: OperationsInner.OperationsService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsStatusImpl
-    name: OperationsStatusImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsStatusInner
-    name: OperationsStatusInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OperationsStatusInner.OperationsStatusService
-    name: OperationsStatusInner.OperationsStatusService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrderImpl
-    name: OrderImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrderInner
-    name: OrderInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrdersImpl
-    name: OrdersImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrdersInner
-    name: OrdersInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.OrdersInner.OrdersService
-    name: OrdersInner.OrdersService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.PageImpl
-    name: PageImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RoleImpl
-    name: RoleImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RoleInner
-    name: RoleInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RolesImpl
-    name: RolesImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RolesInner
-    name: RolesInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.RolesInner.RolesService
-    name: RolesInner.RolesService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.ShareImpl
-    name: ShareImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.ShareInner
-    name: ShareInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.SharesImpl
-    name: SharesImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.SharesInner
-    name: SharesInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.SharesInner.SharesService
-    name: SharesInner.SharesService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialImpl
-    name: StorageAccountCredentialImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialInner
-    name: StorageAccountCredentialInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialsImpl
-    name: StorageAccountCredentialsImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialsInner
-    name: StorageAccountCredentialsInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.StorageAccountCredentialsInner.StorageAccountCredentialsService
-    name: StorageAccountCredentialsInner.StorageAccountCredentialsService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggerImpl
-    name: TriggerImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggerInner
-    name: TriggerInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggersImpl
-    name: TriggersImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggersInner
-    name: TriggersInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.TriggersInner.TriggersService
-    name: TriggersInner.TriggersService
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UpdateSummaryImpl
-    name: UpdateSummaryImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UpdateSummaryInner
-    name: UpdateSummaryInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UploadCertificateResponseImpl
-    name: UploadCertificateResponseImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UploadCertificateResponseInner
-    name: UploadCertificateResponseInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UserImpl
-    name: UserImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UserInner
-    name: UserInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UsersImpl
-    name: UsersImpl
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UsersInner
-    name: UsersInner
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.implementation.UsersInner.UsersService
-    name: UsersInner.UsersService
-- uid: com.microsoft.azure.management.edgegateway.v2019_03_01
-  name: com.microsoft.azure.management.edgegateway.v2019_03_01
-  items:
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ARMBaseModel
-    name: ARMBaseModel
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AccountType
-    name: AccountType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Address
-    name: Address
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Alert
-    name: Alert
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AlertErrorDetails
-    name: AlertErrorDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AlertSeverity
-    name: AlertSeverity
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Alerts
-    name: Alerts
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AsymmetricEncryptedSecret
-    name: AsymmetricEncryptedSecret
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Authentication
-    name: Authentication
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AuthenticationType
-    name: AuthenticationType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AzureContainerDataFormat
-    name: AzureContainerDataFormat
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.AzureContainerInfo
-    name: AzureContainerInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule
-    name: BandwidthSchedule
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.Definition
-    name: BandwidthSchedule.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages
-    name: BandwidthSchedule.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.Blank
-    name: BandwidthSchedule.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithCreate
-    name: BandwidthSchedule.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithDataBoxEdgeDevice
-    name: BandwidthSchedule.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithDays
-    name: BandwidthSchedule.DefinitionStages.WithDays
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithRateInMbps
-    name: BandwidthSchedule.DefinitionStages.WithRateInMbps
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithStart
-    name: BandwidthSchedule.DefinitionStages.WithStart
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.DefinitionStages.WithStop
-    name: BandwidthSchedule.DefinitionStages.WithStop
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.Update
-    name: BandwidthSchedule.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedule.UpdateStages
-    name: BandwidthSchedule.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.BandwidthSchedules
-    name: BandwidthSchedules
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ClientAccessRight
-    name: ClientAccessRight
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ClientPermissionType
-    name: ClientPermissionType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ContactDetails
-    name: ContactDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice
-    name: DataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.Definition
-    name: DataBoxEdgeDevice.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages
-    name: DataBoxEdgeDevice.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.Blank
-    name: DataBoxEdgeDevice.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithCreate
-    name: DataBoxEdgeDevice.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithDataBoxEdgeDeviceStatus
-    name: DataBoxEdgeDevice.DefinitionStages.WithDataBoxEdgeDeviceStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithDescription
-    name: DataBoxEdgeDevice.DefinitionStages.WithDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithEtag
-    name: DataBoxEdgeDevice.DefinitionStages.WithEtag
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithFriendlyName
-    name: DataBoxEdgeDevice.DefinitionStages.WithFriendlyName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithGroup
-    name: DataBoxEdgeDevice.DefinitionStages.WithGroup
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithModelDescription
-    name: DataBoxEdgeDevice.DefinitionStages.WithModelDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.DefinitionStages.WithSku
-    name: DataBoxEdgeDevice.DefinitionStages.WithSku
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.Update
-    name: DataBoxEdgeDevice.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages
-    name: DataBoxEdgeDevice.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithDataBoxEdgeDeviceStatus
-    name: DataBoxEdgeDevice.UpdateStages.WithDataBoxEdgeDeviceStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithDescription
-    name: DataBoxEdgeDevice.UpdateStages.WithDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithEtag
-    name: DataBoxEdgeDevice.UpdateStages.WithEtag
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithFriendlyName
-    name: DataBoxEdgeDevice.UpdateStages.WithFriendlyName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithModelDescription
-    name: DataBoxEdgeDevice.UpdateStages.WithModelDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevice.UpdateStages.WithSku
-    name: DataBoxEdgeDevice.UpdateStages.WithSku
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceExtendedInfo
-    name: DataBoxEdgeDeviceExtendedInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceJob
-    name: DataBoxEdgeDeviceJob
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceJobModel
-    name: DataBoxEdgeDeviceJobModel
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDevicePatch
-    name: DataBoxEdgeDevicePatch
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataBoxEdgeDeviceStatus
-    name: DataBoxEdgeDeviceStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DataPolicy
-    name: DataPolicy
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DayOfWeek
-    name: DayOfWeek
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DeviceType
-    name: DeviceType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Devices
-    name: Devices
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.DownloadPhase
-    name: DownloadPhase
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.EncryptionAlgorithm
-    name: EncryptionAlgorithm
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.FileEventTrigger
-    name: FileEventTrigger
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.FileSourceInfo
-    name: FileSourceInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.InstallRebootBehavior
-    name: InstallRebootBehavior
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.IoTDeviceInfo
-    name: IoTDeviceInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.IoTRole
-    name: IoTRole
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Ipv4Config
-    name: Ipv4Config
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Ipv6Config
-    name: Ipv6Config
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobErrorDetails
-    name: JobErrorDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobErrorItem
-    name: JobErrorItem
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobStatus
-    name: JobStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.JobType
-    name: JobType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Jobs
-    name: Jobs
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricAggregationType
-    name: MetricAggregationType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricCategory
-    name: MetricCategory
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricDimensionV1
-    name: MetricDimensionV1
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricSpecificationV1
-    name: MetricSpecificationV1
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MetricUnit
-    name: MetricUnit
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MonitoringStatus
-    name: MonitoringStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.MountPointMap
-    name: MountPointMap
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapter
-    name: NetworkAdapter
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterDHCPStatus
-    name: NetworkAdapterDHCPStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterPosition
-    name: NetworkAdapterPosition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterRDMAStatus
-    name: NetworkAdapterRDMAStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkAdapterStatus
-    name: NetworkAdapterStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkGroup
-    name: NetworkGroup
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.NetworkSettings
-    name: NetworkSettings
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Operation
-    name: Operation
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OperationDisplay
-    name: OperationDisplay
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Operations
-    name: Operations
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OperationsStatus
-    name: OperationsStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Order
-    name: Order
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OrderState
-    name: OrderState
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.OrderStatus
-    name: OrderStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Orders
-    name: Orders
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PeriodicTimerEventTrigger
-    name: PeriodicTimerEventTrigger
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PeriodicTimerSourceInfo
-    name: PeriodicTimerSourceInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.PlatformType
-    name: PlatformType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RefreshDetails
-    name: RefreshDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role
-    name: Role
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.Definition
-    name: Role.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages
-    name: Role.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.Blank
-    name: Role.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.WithCreate
-    name: Role.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.DefinitionStages.WithDataBoxEdgeDevice
-    name: Role.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.Update
-    name: Role.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Role.UpdateStages
-    name: Role.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleSinkInfo
-    name: RoleSinkInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleStatus
-    name: RoleStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.RoleTypes
-    name: RoleTypes
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Roles
-    name: Roles
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SSLStatus
-    name: SSLStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SecuritySettings
-    name: SecuritySettings
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ServiceSpecification
-    name: ServiceSpecification
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share
-    name: Share
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.Definition
-    name: Share.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages
-    name: Share.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.Blank
-    name: Share.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithAccessProtocol
-    name: Share.DefinitionStages.WithAccessProtocol
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithAzureContainerInfo
-    name: Share.DefinitionStages.WithAzureContainerInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithClientAccessRights
-    name: Share.DefinitionStages.WithClientAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithCreate
-    name: Share.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDataBoxEdgeDevice
-    name: Share.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDataPolicy
-    name: Share.DefinitionStages.WithDataPolicy
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithDescription
-    name: Share.DefinitionStages.WithDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithMonitoringStatus
-    name: Share.DefinitionStages.WithMonitoringStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithRefreshDetails
-    name: Share.DefinitionStages.WithRefreshDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithShareStatus
-    name: Share.DefinitionStages.WithShareStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.DefinitionStages.WithUserAccessRights
-    name: Share.DefinitionStages.WithUserAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.Update
-    name: Share.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages
-    name: Share.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithAzureContainerInfo
-    name: Share.UpdateStages.WithAzureContainerInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithClientAccessRights
-    name: Share.UpdateStages.WithClientAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithDataPolicy
-    name: Share.UpdateStages.WithDataPolicy
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithDescription
-    name: Share.UpdateStages.WithDescription
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithRefreshDetails
-    name: Share.UpdateStages.WithRefreshDetails
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Share.UpdateStages.WithUserAccessRights
-    name: Share.UpdateStages.WithUserAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessProtocol
-    name: ShareAccessProtocol
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessRight
-    name: ShareAccessRight
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareAccessType
-    name: ShareAccessType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.ShareStatus
-    name: ShareStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Shares
-    name: Shares
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Sku
-    name: Sku
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SkuName
-    name: SkuName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SkuTier
-    name: SkuTier
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential
-    name: StorageAccountCredential
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.Definition
-    name: StorageAccountCredential.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages
-    name: StorageAccountCredential.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.Blank
-    name: StorageAccountCredential.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAccountKey
-    name: StorageAccountCredential.DefinitionStages.WithAccountKey
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAccountType
-    name: StorageAccountCredential.DefinitionStages.WithAccountType
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithAlias
-    name: StorageAccountCredential.DefinitionStages.WithAlias
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithBlobDomainName
-    name: StorageAccountCredential.DefinitionStages.WithBlobDomainName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithConnectionString
-    name: StorageAccountCredential.DefinitionStages.WithConnectionString
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithCreate
-    name: StorageAccountCredential.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithDataBoxEdgeDevice
-    name: StorageAccountCredential.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithSslStatus
-    name: StorageAccountCredential.DefinitionStages.WithSslStatus
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.DefinitionStages.WithUserName
-    name: StorageAccountCredential.DefinitionStages.WithUserName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.Update
-    name: StorageAccountCredential.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages
-    name: StorageAccountCredential.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithAccountKey
-    name: StorageAccountCredential.UpdateStages.WithAccountKey
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithBlobDomainName
-    name: StorageAccountCredential.UpdateStages.WithBlobDomainName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithConnectionString
-    name: StorageAccountCredential.UpdateStages.WithConnectionString
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredential.UpdateStages.WithUserName
-    name: StorageAccountCredential.UpdateStages.WithUserName
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.StorageAccountCredentials
-    name: StorageAccountCredentials
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.SymmetricKey
-    name: SymmetricKey
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.TimeGrain
-    name: TimeGrain
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.TrackingInfo
-    name: TrackingInfo
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger
-    name: Trigger
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.Definition
-    name: Trigger.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages
-    name: Trigger.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.Blank
-    name: Trigger.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.WithCreate
-    name: Trigger.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.DefinitionStages.WithDataBoxEdgeDevice
-    name: Trigger.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.Update
-    name: Trigger.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Trigger.UpdateStages
-    name: Trigger.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Triggers
-    name: Triggers
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateDownloadProgress
-    name: UpdateDownloadProgress
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateInstallProgress
-    name: UpdateInstallProgress
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateOperation
-    name: UpdateOperation
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateOperationStage
-    name: UpdateOperationStage
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UpdateSummary
-    name: UpdateSummary
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UploadCertificateRequest
-    name: UploadCertificateRequest
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UploadCertificateResponse
-    name: UploadCertificateResponse
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User
-    name: User
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.Definition
-    name: User.Definition
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages
-    name: User.DefinitionStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.Blank
-    name: User.DefinitionStages.Blank
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithCreate
-    name: User.DefinitionStages.WithCreate
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithDataBoxEdgeDevice
-    name: User.DefinitionStages.WithDataBoxEdgeDevice
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithEncryptedPassword
-    name: User.DefinitionStages.WithEncryptedPassword
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.DefinitionStages.WithShareAccessRights
-    name: User.DefinitionStages.WithShareAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.Update
-    name: User.Update
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages
-    name: User.UpdateStages
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.WithEncryptedPassword
-    name: User.UpdateStages.WithEncryptedPassword
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.User.UpdateStages.WithShareAccessRights
-    name: User.UpdateStages.WithShareAccessRights
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.UserAccessRight
-    name: UserAccessRight
-  - uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Users
-    name: Users
 - uid: com.microsoft.azure.eventgrid.customization
   name: com.microsoft.azure.eventgrid.customization
   items:
@@ -12072,3 +11528,363 @@
     name: SubscriptionValidationEventData
   - uid: com.microsoft.azure.eventgrid.models.SubscriptionValidationResponse
     name: SubscriptionValidationResponse
+- uid: com.microsoft.aad.adal
+  name: com.microsoft.aad.adal
+  href: com.microsoft.aad.adal.yml
+  items:
+  - uid: com.microsoft.aad.adal.ADALError
+    name: ADALError
+    href: com.microsoft.aad.adal.ADALError.yml
+  - uid: com.microsoft.aad.adal.AuthenticationActivity
+    name: AuthenticationActivity
+    href: com.microsoft.aad.adal.AuthenticationActivity.yml
+  - uid: com.microsoft.aad.adal.AuthenticationCallback
+    name: AuthenticationCallback
+    href: com.microsoft.aad.adal.AuthenticationCallback.yml
+  - uid: com.microsoft.aad.adal.AuthenticationCancelError
+    name: AuthenticationCancelError
+    href: com.microsoft.aad.adal.AuthenticationCancelError.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants
+    name: AuthenticationConstants
+    href: com.microsoft.aad.adal.AuthenticationConstants.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants.AAD
+    name: AuthenticationConstants.AAD
+    href: com.microsoft.aad.adal.AuthenticationConstants.AAD.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants.Broker
+    name: AuthenticationConstants.Broker
+    href: com.microsoft.aad.adal.AuthenticationConstants.Broker.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants.Broker.CliTelemInfo
+    name: AuthenticationConstants.Broker.CliTelemInfo
+    href: com.microsoft.aad.adal.AuthenticationConstants.Broker.CliTelemInfo.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants.Browser
+    name: AuthenticationConstants.Browser
+    href: com.microsoft.aad.adal.AuthenticationConstants.Browser.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants.OAuth2
+    name: AuthenticationConstants.OAuth2
+    href: com.microsoft.aad.adal.AuthenticationConstants.OAuth2.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants.OAuth2ErrorCode
+    name: AuthenticationConstants.OAuth2ErrorCode
+    href: com.microsoft.aad.adal.AuthenticationConstants.OAuth2ErrorCode.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants.UIRequest
+    name: AuthenticationConstants.UIRequest
+    href: com.microsoft.aad.adal.AuthenticationConstants.UIRequest.yml
+  - uid: com.microsoft.aad.adal.AuthenticationConstants.UIResponse
+    name: AuthenticationConstants.UIResponse
+    href: com.microsoft.aad.adal.AuthenticationConstants.UIResponse.yml
+  - uid: com.microsoft.aad.adal.AuthenticationContext
+    name: AuthenticationContext
+    href: com.microsoft.aad.adal.AuthenticationContext.yml
+  - uid: com.microsoft.aad.adal.AuthenticationException
+    name: AuthenticationException
+    href: com.microsoft.aad.adal.AuthenticationException.yml
+  - uid: com.microsoft.aad.adal.AuthenticationParameters
+    name: AuthenticationParameters
+    href: com.microsoft.aad.adal.AuthenticationParameters.yml
+  - uid: com.microsoft.aad.adal.AuthenticationParameters.AuthenticationParamCallback
+    name: AuthenticationParameters.AuthenticationParamCallback
+    href: com.microsoft.aad.adal.AuthenticationParameters.AuthenticationParamCallback.yml
+  - uid: com.microsoft.aad.adal.AuthenticationResult
+    name: AuthenticationResult
+    href: com.microsoft.aad.adal.AuthenticationResult.yml
+  - uid: com.microsoft.aad.adal.AuthenticationResult.AuthenticationStatus
+    name: AuthenticationResult.AuthenticationStatus
+    href: com.microsoft.aad.adal.AuthenticationResult.AuthenticationStatus.yml
+  - uid: com.microsoft.aad.adal.AuthenticationSettings
+    name: AuthenticationSettings
+    href: com.microsoft.aad.adal.AuthenticationSettings.yml
+  - uid: com.microsoft.aad.adal.CacheKey
+    name: CacheKey
+    href: com.microsoft.aad.adal.CacheKey.yml
+  - uid: com.microsoft.aad.adal.DateTimeAdapter
+    name: DateTimeAdapter
+    href: com.microsoft.aad.adal.DateTimeAdapter.yml
+  - uid: com.microsoft.aad.adal.DefaultTokenCacheStore
+    name: DefaultTokenCacheStore
+    href: com.microsoft.aad.adal.DefaultTokenCacheStore.yml
+  - uid: com.microsoft.aad.adal.FileTokenCacheStore
+    name: FileTokenCacheStore
+    href: com.microsoft.aad.adal.FileTokenCacheStore.yml
+  - uid: com.microsoft.aad.adal.IDeviceCertificate
+    name: IDeviceCertificate
+    href: com.microsoft.aad.adal.IDeviceCertificate.yml
+  - uid: com.microsoft.aad.adal.IJWSBuilder
+    name: IJWSBuilder
+    href: com.microsoft.aad.adal.IJWSBuilder.yml
+  - uid: com.microsoft.aad.adal.IntuneAppProtectionPolicyRequiredException
+    name: IntuneAppProtectionPolicyRequiredException
+    href: com.microsoft.aad.adal.IntuneAppProtectionPolicyRequiredException.yml
+  - uid: com.microsoft.aad.adal.ITokenCacheStore
+    name: ITokenCacheStore
+    href: com.microsoft.aad.adal.ITokenCacheStore.yml
+  - uid: com.microsoft.aad.adal.ITokenStoreQuery
+    name: ITokenStoreQuery
+    href: com.microsoft.aad.adal.ITokenStoreQuery.yml
+  - uid: com.microsoft.aad.adal.IWindowComponent
+    name: IWindowComponent
+    href: com.microsoft.aad.adal.IWindowComponent.yml
+  - uid: com.microsoft.aad.adal.Logger
+    name: Logger
+    href: com.microsoft.aad.adal.Logger.yml
+  - uid: com.microsoft.aad.adal.Logger.ILogger
+    name: Logger.ILogger
+    href: com.microsoft.aad.adal.Logger.ILogger.yml
+  - uid: com.microsoft.aad.adal.Logger.LogLevel
+    name: Logger.LogLevel
+    href: com.microsoft.aad.adal.Logger.LogLevel.yml
+  - uid: com.microsoft.aad.adal.MemoryTokenCacheStore
+    name: MemoryTokenCacheStore
+    href: com.microsoft.aad.adal.MemoryTokenCacheStore.yml
+  - uid: com.microsoft.aad.adal.PackageHelper
+    name: PackageHelper
+    href: com.microsoft.aad.adal.PackageHelper.yml
+  - uid: com.microsoft.aad.adal.PromptBehavior
+    name: PromptBehavior
+    href: com.microsoft.aad.adal.PromptBehavior.yml
+  - uid: com.microsoft.aad.adal.ResourceAuthenticationChallengeException
+    name: ResourceAuthenticationChallengeException
+    href: com.microsoft.aad.adal.ResourceAuthenticationChallengeException.yml
+  - uid: com.microsoft.aad.adal.StorageHelper
+    name: StorageHelper
+    href: com.microsoft.aad.adal.StorageHelper.yml
+  - uid: com.microsoft.aad.adal.StringExtensions
+    name: StringExtensions
+    href: com.microsoft.aad.adal.StringExtensions.yml
+  - uid: com.microsoft.aad.adal.TokenCacheItem
+    name: TokenCacheItem
+    href: com.microsoft.aad.adal.TokenCacheItem.yml
+  - uid: com.microsoft.aad.adal.TokenCacheItemSerializationAdapater
+    name: TokenCacheItemSerializationAdapater
+    href: com.microsoft.aad.adal.TokenCacheItemSerializationAdapater.yml
+  - uid: com.microsoft.aad.adal.UsageAuthenticationException
+    name: UsageAuthenticationException
+    href: com.microsoft.aad.adal.UsageAuthenticationException.yml
+  - uid: com.microsoft.aad.adal.UserInfo
+    name: UserInfo
+    href: com.microsoft.aad.adal.UserInfo.yml
+  - uid: com.microsoft.aad.adal.WebviewHelper
+    name: WebviewHelper
+    href: com.microsoft.aad.adal.WebviewHelper.yml
+  - uid: com.microsoft.aad.adal.WebviewHelper.PreKeyAuthInfo
+    name: WebviewHelper.PreKeyAuthInfo
+    href: com.microsoft.aad.adal.WebviewHelper.PreKeyAuthInfo.yml
+- uid: com.microsoft.aad.adal4j
+  name: com.microsoft.aad.adal4j
+  href: com.microsoft.aad.adal4j.yml
+  items:
+  - uid: com.microsoft.aad.adal4j.AdalAuthorizationGrant
+    name: AdalAuthorizationGrant
+    href: com.microsoft.aad.adal4j.AdalAuthorizationGrant.yml
+  - uid: com.microsoft.aad.adal4j.AdalClaimsChallengeException
+    name: AdalClaimsChallengeException
+    href: com.microsoft.aad.adal4j.AdalClaimsChallengeException.yml
+  - uid: com.microsoft.aad.adal4j.AdalDeviceCodeAuthorizationGrant
+    name: AdalDeviceCodeAuthorizationGrant
+    href: com.microsoft.aad.adal4j.AdalDeviceCodeAuthorizationGrant.yml
+  - uid: com.microsoft.aad.adal4j.AdalErrorCode
+    name: AdalErrorCode
+    href: com.microsoft.aad.adal4j.AdalErrorCode.yml
+  - uid: com.microsoft.aad.adal4j.AdalIntegratedAuthorizationGrant
+    name: AdalIntegratedAuthorizationGrant
+    href: com.microsoft.aad.adal4j.AdalIntegratedAuthorizationGrant.yml
+  - uid: com.microsoft.aad.adal4j.AsymmetricKeyCredential
+    name: AsymmetricKeyCredential
+    href: com.microsoft.aad.adal4j.AsymmetricKeyCredential.yml
+  - uid: com.microsoft.aad.adal4j.AuthenticationCallback
+    name: AuthenticationCallback
+    href: com.microsoft.aad.adal4j.AuthenticationCallback.yml
+  - uid: com.microsoft.aad.adal4j.AuthenticationContext
+    name: AuthenticationContext
+    href: com.microsoft.aad.adal4j.AuthenticationContext.yml
+  - uid: com.microsoft.aad.adal4j.AuthenticationException
+    name: AuthenticationException
+    href: com.microsoft.aad.adal4j.AuthenticationException.yml
+  - uid: com.microsoft.aad.adal4j.AuthenticationResult
+    name: AuthenticationResult
+    href: com.microsoft.aad.adal4j.AuthenticationResult.yml
+  - uid: com.microsoft.aad.adal4j.ClientAssertion
+    name: ClientAssertion
+    href: com.microsoft.aad.adal4j.ClientAssertion.yml
+  - uid: com.microsoft.aad.adal4j.ClientCredential
+    name: ClientCredential
+    href: com.microsoft.aad.adal4j.ClientCredential.yml
+  - uid: com.microsoft.aad.adal4j.DeviceCode
+    name: DeviceCode
+    href: com.microsoft.aad.adal4j.DeviceCode.yml
+  - uid: com.microsoft.aad.adal4j.DeviceCodeRequest
+    name: DeviceCodeRequest
+    href: com.microsoft.aad.adal4j.DeviceCodeRequest.yml
+  - uid: com.microsoft.aad.adal4j.DeviceCodeTokenErrorResponse
+    name: DeviceCodeTokenErrorResponse
+    href: com.microsoft.aad.adal4j.DeviceCodeTokenErrorResponse.yml
+  - uid: com.microsoft.aad.adal4j.NamespaceContextImpl
+    name: NamespaceContextImpl
+    href: com.microsoft.aad.adal4j.NamespaceContextImpl.yml
+  - uid: com.microsoft.aad.adal4j.UserAssertion
+    name: UserAssertion
+    href: com.microsoft.aad.adal4j.UserAssertion.yml
+  - uid: com.microsoft.aad.adal4j.UserInfo
+    name: UserInfo
+    href: com.microsoft.aad.adal4j.UserInfo.yml
+- uid: com.microsoft.identity.client
+  name: com.microsoft.identity.client
+  href: com.microsoft.identity.client.yml
+  items:
+  - uid: com.microsoft.identity.client.Account
+    name: Account
+    href: com.microsoft.identity.client.Account.yml
+  - uid: com.microsoft.identity.client.AcquireTokenParameters
+    name: AcquireTokenParameters
+    href: com.microsoft.identity.client.AcquireTokenParameters.yml
+  - uid: com.microsoft.identity.client.AcquireTokenParameters.Builder
+    name: AcquireTokenParameters.Builder
+    href: com.microsoft.identity.client.AcquireTokenParameters.Builder.yml
+  - uid: com.microsoft.identity.client.AcquireTokenSilentParameters
+    name: AcquireTokenSilentParameters
+    href: com.microsoft.identity.client.AcquireTokenSilentParameters.yml
+  - uid: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder
+    name: AcquireTokenSilentParameters.Builder
+    href: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder.yml
+  - uid: com.microsoft.identity.client.AuthenticationCallback
+    name: AuthenticationCallback
+    href: com.microsoft.identity.client.AuthenticationCallback.yml
+  - uid: com.microsoft.identity.client.AuthenticationResult
+    name: AuthenticationResult
+    href: com.microsoft.identity.client.AuthenticationResult.yml
+  - uid: com.microsoft.identity.client.AuthenticationScheme
+    name: AuthenticationScheme
+    href: com.microsoft.identity.client.AuthenticationScheme.yml
+  - uid: com.microsoft.identity.client.BearerAuthenticationScheme
+    name: BearerAuthenticationScheme
+    href: com.microsoft.identity.client.BearerAuthenticationScheme.yml
+  - uid: com.microsoft.identity.client.BrowserTabActivity
+    name: BrowserTabActivity
+    href: com.microsoft.identity.client.BrowserTabActivity.yml
+  - uid: com.microsoft.identity.client.CurrentAccountResult
+    name: CurrentAccountResult
+    href: com.microsoft.identity.client.CurrentAccountResult.yml
+  - uid: com.microsoft.identity.client.HttpMethod
+    name: HttpMethod
+    href: com.microsoft.identity.client.HttpMethod.yml
+  - uid: com.microsoft.identity.client.IAccount
+    name: IAccount
+    href: com.microsoft.identity.client.IAccount.yml
+  - uid: com.microsoft.identity.client.IAuthenticationResult
+    name: IAuthenticationResult
+    href: com.microsoft.identity.client.IAuthenticationResult.yml
+  - uid: com.microsoft.identity.client.IClaimable
+    name: IClaimable
+    href: com.microsoft.identity.client.IClaimable.yml
+  - uid: com.microsoft.identity.client.ICurrentAccountResult
+    name: ICurrentAccountResult
+    href: com.microsoft.identity.client.ICurrentAccountResult.yml
+  - uid: com.microsoft.identity.client.ILoggerCallback
+    name: ILoggerCallback
+    href: com.microsoft.identity.client.ILoggerCallback.yml
+  - uid: com.microsoft.identity.client.IMsalEventReceiver
+    name: IMsalEventReceiver
+    href: com.microsoft.identity.client.IMsalEventReceiver.yml
+  - uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication
+    name: IMultipleAccountPublicClientApplication
+    href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.yml
+  - uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback
+    name: IMultipleAccountPublicClientApplication.GetAccountCallback
+    href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback.yml
+  - uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback
+    name: IMultipleAccountPublicClientApplication.RemoveAccountCallback
+    href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback.yml
+  - uid: com.microsoft.identity.client.IMultiTenantAccount
+    name: IMultiTenantAccount
+    href: com.microsoft.identity.client.IMultiTenantAccount.yml
+  - uid: com.microsoft.identity.client.IPublicClientApplication
+    name: IPublicClientApplication
+    href: com.microsoft.identity.client.IPublicClientApplication.yml
+  - uid: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener
+    name: IPublicClientApplication.ApplicationCreatedListener
+    href: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener.yml
+  - uid: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener
+    name: IPublicClientApplication.IMultipleAccountApplicationCreatedListener
+    href: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener.yml
+  - uid: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener
+    name: IPublicClientApplication.ISingleAccountApplicationCreatedListener
+    href: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener.yml
+  - uid: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback
+    name: IPublicClientApplication.LoadAccountsCallback
+    href: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback.yml
+  - uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication
+    name: ISingleAccountPublicClientApplication
+    href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.yml
+  - uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback
+    name: ISingleAccountPublicClientApplication.CurrentAccountCallback
+    href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback.yml
+  - uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback
+    name: ISingleAccountPublicClientApplication.SignOutCallback
+    href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback.yml
+  - uid: com.microsoft.identity.client.ITenantProfile
+    name: ITenantProfile
+    href: com.microsoft.identity.client.ITenantProfile.yml
+  - uid: com.microsoft.identity.client.ITokenShare
+    name: ITokenShare
+    href: com.microsoft.identity.client.ITokenShare.yml
+  - uid: com.microsoft.identity.client.Logger
+    name: Logger
+    href: com.microsoft.identity.client.Logger.yml
+  - uid: com.microsoft.identity.client.Logger.LogLevel
+    name: Logger.LogLevel
+    href: com.microsoft.identity.client.Logger.LogLevel.yml
+  - uid: com.microsoft.identity.client.MsalChromeCustomTabManager
+    name: MsalChromeCustomTabManager
+    href: com.microsoft.identity.client.MsalChromeCustomTabManager.yml
+  - uid: com.microsoft.identity.client.MultipleAccountPublicClientApplication
+    name: MultipleAccountPublicClientApplication
+    href: com.microsoft.identity.client.MultipleAccountPublicClientApplication.yml
+  - uid: com.microsoft.identity.client.MultiTenantAccount
+    name: MultiTenantAccount
+    href: com.microsoft.identity.client.MultiTenantAccount.yml
+  - uid: com.microsoft.identity.client.PoPAuthenticationScheme
+    name: PoPAuthenticationScheme
+    href: com.microsoft.identity.client.PoPAuthenticationScheme.yml
+  - uid: com.microsoft.identity.client.PoPAuthenticationScheme.Builder
+    name: PoPAuthenticationScheme.Builder
+    href: com.microsoft.identity.client.PoPAuthenticationScheme.Builder.yml
+  - uid: com.microsoft.identity.client.Prompt
+    name: Prompt
+    href: com.microsoft.identity.client.Prompt.yml
+  - uid: com.microsoft.identity.client.PublicClientApplication
+    name: PublicClientApplication
+    href: com.microsoft.identity.client.PublicClientApplication.yml
+  - uid: com.microsoft.identity.client.PublicClientApplication.AccountMatcher
+    name: PublicClientApplication.AccountMatcher
+    href: com.microsoft.identity.client.PublicClientApplication.AccountMatcher.yml
+  - uid: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback
+    name: PublicClientApplication.BrokerDeviceModeCallback
+    href: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback.yml
+  - uid: com.microsoft.identity.client.PublicClientApplicationConfiguration
+    name: PublicClientApplicationConfiguration
+    href: com.microsoft.identity.client.PublicClientApplicationConfiguration.yml
+  - uid: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames
+    name: PublicClientApplicationConfiguration.SerializedNames
+    href: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames.yml
+  - uid: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory
+    name: PublicClientApplicationConfigurationFactory
+    href: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory.yml
+  - uid: com.microsoft.identity.client.SilentAuthenticationCallback
+    name: SilentAuthenticationCallback
+    href: com.microsoft.identity.client.SilentAuthenticationCallback.yml
+  - uid: com.microsoft.identity.client.SingleAccountPublicClientApplication
+    name: SingleAccountPublicClientApplication
+    href: com.microsoft.identity.client.SingleAccountPublicClientApplication.yml
+  - uid: com.microsoft.identity.client.TenantProfile
+    name: TenantProfile
+    href: com.microsoft.identity.client.TenantProfile.yml
+  - uid: com.microsoft.identity.client.TokenParameters
+    name: TokenParameters
+    href: com.microsoft.identity.client.TokenParameters.yml
+  - uid: com.microsoft.identity.client.TokenParameters.Builder
+    name: TokenParameters.Builder
+    href: com.microsoft.identity.client.TokenParameters.Builder.yml
+  - uid: com.microsoft.identity.client.TokenParametersAdapter
+    name: TokenParametersAdapter
+    href: com.microsoft.identity.client.TokenParametersAdapter.yml
+  - uid: com.microsoft.identity.client.WebViewSelection
+    name: WebViewSelection
+    href: com.microsoft.identity.client.WebViewSelection.yml
