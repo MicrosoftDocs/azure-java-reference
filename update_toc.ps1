@@ -15,7 +15,7 @@ Copy-Item -Path "$TargetFolder/legacy-docs-toc-merge/*" -Destination "$TargetFol
 #   [string]$TargetFolder
 # )
 
-# $results = Get-Content "$TargetFolder/docs-ref-mapping/reference-latest.yml","legacy-docs-toc-merge/toc.yml" 
+# $results = Get-Content "$TargetFolder/docs-ref-autogen/toc.yml","legacy-docs-toc-merge/toc.yml" 
 # # needs to be another 
-# $results | Set-Content "$TargetFolder/docs-ref-mapping/reference-latest.yml" 
+# $results | Set-Content "$TargetFolder/docs-ref-autogen/toc.yml" 
 # Copy-Item -Path "$TargetFolder/legacy-docs-toc-merge/*" -Destination "$TargetFolder/docs-ref-autogen"
