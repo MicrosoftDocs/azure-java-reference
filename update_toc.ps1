@@ -8,7 +8,6 @@ $results = Get-Content "$TargetFolder/unified-latest/docs-ref-mapping/reference-
 $results | Set-Content "$TargetFolder/unified-latest/docs-ref-mapping/reference-latest.yml" 
 Copy-Item -Path "$TargetFolder/legacy-docs-toc-merge/*" -Destination "$TargetFolder/unified-latest/docs-ref-autogen"
 
-
 # # converted for main repo
 # Param(
 #   [string]$TargetFolder
