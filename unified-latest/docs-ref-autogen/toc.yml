@@ -12458,295 +12458,6 @@
     uid: com.microsoft.azure.management.appservice.WorkerSizeOptions
   name: com.microsoft.azure.management.appservice
   uid: com.microsoft.azure.management.appservice
-- href: com.microsoft.identity.client.yml
-  items:
-  - href: com.microsoft.identity.client.Account.yml
-    name: Account
-    uid: com.microsoft.identity.client.Account
-  - href: com.microsoft.identity.client.AcquireTokenParameters.yml
-    name: AcquireTokenParameters
-    uid: com.microsoft.identity.client.AcquireTokenParameters
-  - href: com.microsoft.identity.client.AcquireTokenParameters.Builder.yml
-    name: AcquireTokenParameters.Builder
-    uid: com.microsoft.identity.client.AcquireTokenParameters.Builder
-  - href: com.microsoft.identity.client.AcquireTokenSilentParameters.yml
-    name: AcquireTokenSilentParameters
-    uid: com.microsoft.identity.client.AcquireTokenSilentParameters
-  - href: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder.yml
-    name: AcquireTokenSilentParameters.Builder
-    uid: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder
-  - href: com.microsoft.identity.client.AuthenticationCallback.yml
-    name: AuthenticationCallback
-    uid: com.microsoft.identity.client.AuthenticationCallback
-  - href: com.microsoft.identity.client.AuthenticationResult.yml
-    name: AuthenticationResult
-    uid: com.microsoft.identity.client.AuthenticationResult
-  - href: com.microsoft.identity.client.AuthenticationScheme.yml
-    name: AuthenticationScheme
-    uid: com.microsoft.identity.client.AuthenticationScheme
-  - href: com.microsoft.identity.client.BearerAuthenticationScheme.yml
-    name: BearerAuthenticationScheme
-    uid: com.microsoft.identity.client.BearerAuthenticationScheme
-  - href: com.microsoft.identity.client.BrowserTabActivity.yml
-    name: BrowserTabActivity
-    uid: com.microsoft.identity.client.BrowserTabActivity
-  - href: com.microsoft.identity.client.CurrentAccountResult.yml
-    name: CurrentAccountResult
-    uid: com.microsoft.identity.client.CurrentAccountResult
-  - href: com.microsoft.identity.client.HttpMethod.yml
-    name: HttpMethod
-    uid: com.microsoft.identity.client.HttpMethod
-  - href: com.microsoft.identity.client.IAccount.yml
-    name: IAccount
-    uid: com.microsoft.identity.client.IAccount
-  - href: com.microsoft.identity.client.IAuthenticationResult.yml
-    name: IAuthenticationResult
-    uid: com.microsoft.identity.client.IAuthenticationResult
-  - href: com.microsoft.identity.client.IClaimable.yml
-    name: IClaimable
-    uid: com.microsoft.identity.client.IClaimable
-  - href: com.microsoft.identity.client.ICurrentAccountResult.yml
-    name: ICurrentAccountResult
-    uid: com.microsoft.identity.client.ICurrentAccountResult
-  - href: com.microsoft.identity.client.ILoggerCallback.yml
-    name: ILoggerCallback
-    uid: com.microsoft.identity.client.ILoggerCallback
-  - href: com.microsoft.identity.client.IMsalEventReceiver.yml
-    name: IMsalEventReceiver
-    uid: com.microsoft.identity.client.IMsalEventReceiver
-  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.yml
-    name: IMultipleAccountPublicClientApplication
-    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication
-  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback.yml
-    name: IMultipleAccountPublicClientApplication.GetAccountCallback
-    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback
-  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback.yml
-    name: IMultipleAccountPublicClientApplication.RemoveAccountCallback
-    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback
-  - href: com.microsoft.identity.client.IMultiTenantAccount.yml
-    name: IMultiTenantAccount
-    uid: com.microsoft.identity.client.IMultiTenantAccount
-  - href: com.microsoft.identity.client.IPublicClientApplication.yml
-    name: IPublicClientApplication
-    uid: com.microsoft.identity.client.IPublicClientApplication
-  - href: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener.yml
-    name: IPublicClientApplication.ApplicationCreatedListener
-    uid: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener
-  - href: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener.yml
-    name: IPublicClientApplication.IMultipleAccountApplicationCreatedListener
-    uid: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener
-  - href: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener.yml
-    name: IPublicClientApplication.ISingleAccountApplicationCreatedListener
-    uid: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener
-  - href: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback.yml
-    name: IPublicClientApplication.LoadAccountsCallback
-    uid: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback
-  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.yml
-    name: ISingleAccountPublicClientApplication
-    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication
-  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback.yml
-    name: ISingleAccountPublicClientApplication.CurrentAccountCallback
-    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback
-  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback.yml
-    name: ISingleAccountPublicClientApplication.SignOutCallback
-    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback
-  - href: com.microsoft.identity.client.ITenantProfile.yml
-    name: ITenantProfile
-    uid: com.microsoft.identity.client.ITenantProfile
-  - href: com.microsoft.identity.client.ITokenShare.yml
-    name: ITokenShare
-    uid: com.microsoft.identity.client.ITokenShare
-  - href: com.microsoft.identity.client.Logger.yml
-    name: Logger
-    uid: com.microsoft.identity.client.Logger
-  - href: com.microsoft.identity.client.Logger.LogLevel.yml
-    name: Logger.LogLevel
-    uid: com.microsoft.identity.client.Logger.LogLevel
-  - href: com.microsoft.identity.client.MsalChromeCustomTabManager.yml
-    name: MsalChromeCustomTabManager
-    uid: com.microsoft.identity.client.MsalChromeCustomTabManager
-  - href: com.microsoft.identity.client.MultipleAccountPublicClientApplication.yml
-    name: MultipleAccountPublicClientApplication
-    uid: com.microsoft.identity.client.MultipleAccountPublicClientApplication
-  - href: com.microsoft.identity.client.MultiTenantAccount.yml
-    name: MultiTenantAccount
-    uid: com.microsoft.identity.client.MultiTenantAccount
-  - href: com.microsoft.identity.client.PoPAuthenticationScheme.yml
-    name: PoPAuthenticationScheme
-    uid: com.microsoft.identity.client.PoPAuthenticationScheme
-  - href: com.microsoft.identity.client.PoPAuthenticationScheme.Builder.yml
-    name: PoPAuthenticationScheme.Builder
-    uid: com.microsoft.identity.client.PoPAuthenticationScheme.Builder
-  - href: com.microsoft.identity.client.Prompt.yml
-    name: Prompt
-    uid: com.microsoft.identity.client.Prompt
-  - href: com.microsoft.identity.client.PublicClientApplication.yml
-    name: PublicClientApplication
-    uid: com.microsoft.identity.client.PublicClientApplication
-  - href: com.microsoft.identity.client.PublicClientApplication.AccountMatcher.yml
-    name: PublicClientApplication.AccountMatcher
-    uid: com.microsoft.identity.client.PublicClientApplication.AccountMatcher
-  - href: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback.yml
-    name: PublicClientApplication.BrokerDeviceModeCallback
-    uid: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback
-  - href: com.microsoft.identity.client.PublicClientApplicationConfiguration.yml
-    name: PublicClientApplicationConfiguration
-    uid: com.microsoft.identity.client.PublicClientApplicationConfiguration
-  - href: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames.yml
-    name: PublicClientApplicationConfiguration.SerializedNames
-    uid: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames
-  - href: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory.yml
-    name: PublicClientApplicationConfigurationFactory
-    uid: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory
-  - href: com.microsoft.identity.client.SilentAuthenticationCallback.yml
-    name: SilentAuthenticationCallback
-    uid: com.microsoft.identity.client.SilentAuthenticationCallback
-  - href: com.microsoft.identity.client.SingleAccountPublicClientApplication.yml
-    name: SingleAccountPublicClientApplication
-    uid: com.microsoft.identity.client.SingleAccountPublicClientApplication
-  - href: com.microsoft.identity.client.TenantProfile.yml
-    name: TenantProfile
-    uid: com.microsoft.identity.client.TenantProfile
-  - href: com.microsoft.identity.client.TokenParameters.yml
-    name: TokenParameters
-    uid: com.microsoft.identity.client.TokenParameters
-  - href: com.microsoft.identity.client.TokenParameters.Builder.yml
-    name: TokenParameters.Builder
-    uid: com.microsoft.identity.client.TokenParameters.Builder
-  - href: com.microsoft.identity.client.TokenParametersAdapter.yml
-    name: TokenParametersAdapter
-    uid: com.microsoft.identity.client.TokenParametersAdapter
-  - href: com.microsoft.identity.client.WebViewSelection.yml
-    name: WebViewSelection
-    uid: com.microsoft.identity.client.WebViewSelection
-  name: com.microsoft.identity.client
-  uid: com.microsoft.identity.client
-- href: com.microsoft.identity.client.claims.yml
-  items:
-  - href: com.microsoft.identity.client.claims.ClaimsRequest.yml
-    name: ClaimsRequest
-    uid: com.microsoft.identity.client.claims.ClaimsRequest
-  - href: com.microsoft.identity.client.claims.RequestedClaim.yml
-    name: RequestedClaim
-    uid: com.microsoft.identity.client.claims.RequestedClaim
-  - href: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.yml
-    name: RequestedClaimAdditionalInformation
-    uid: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation
-  - href: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.SerializedNames.yml
-    name: RequestedClaimAdditionalInformation.SerializedNames
-    uid: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.SerializedNames
-  - href: com.microsoft.identity.client.claims.WWWAuthenticateHeader.yml
-    name: WWWAuthenticateHeader
-    uid: com.microsoft.identity.client.claims.WWWAuthenticateHeader
-  name: com.microsoft.identity.client.claims
-  uid: com.microsoft.identity.client.claims
-- href: com.microsoft.identity.client.configuration.yml
-  items:
-  - href: com.microsoft.identity.client.configuration.AccountMode.yml
-    name: AccountMode
-    uid: com.microsoft.identity.client.configuration.AccountMode
-  - href: com.microsoft.identity.client.configuration.HttpConfiguration.yml
-    name: HttpConfiguration
-    uid: com.microsoft.identity.client.configuration.HttpConfiguration
-  - href: com.microsoft.identity.client.configuration.LoggerConfiguration.yml
-    name: LoggerConfiguration
-    uid: com.microsoft.identity.client.configuration.LoggerConfiguration
-  - href: com.microsoft.identity.client.configuration.LoggerConfiguration.SerializedNames.yml
-    name: LoggerConfiguration.SerializedNames
-    uid: com.microsoft.identity.client.configuration.LoggerConfiguration.SerializedNames
-  name: com.microsoft.identity.client.configuration
-  uid: com.microsoft.identity.client.configuration
-- href: com.microsoft.identity.client.exception.yml
-  items:
-  - href: com.microsoft.identity.client.exception.BrokerCommunicationException.yml
-    name: BrokerCommunicationException
-    uid: com.microsoft.identity.client.exception.BrokerCommunicationException
-  - href: com.microsoft.identity.client.exception.MsalArgumentException.yml
-    name: MsalArgumentException
-    uid: com.microsoft.identity.client.exception.MsalArgumentException
-  - href: com.microsoft.identity.client.exception.MsalClientException.yml
-    name: MsalClientException
-    uid: com.microsoft.identity.client.exception.MsalClientException
-  - href: com.microsoft.identity.client.exception.MsalDeclinedScopeException.yml
-    name: MsalDeclinedScopeException
-    uid: com.microsoft.identity.client.exception.MsalDeclinedScopeException
-  - href: com.microsoft.identity.client.exception.MsalException.yml
-    name: MsalException
-    uid: com.microsoft.identity.client.exception.MsalException
-  - href: com.microsoft.identity.client.exception.MsalIntuneAppProtectionPolicyRequiredException.yml
-    name: MsalIntuneAppProtectionPolicyRequiredException
-    uid: com.microsoft.identity.client.exception.MsalIntuneAppProtectionPolicyRequiredException
-  - href: com.microsoft.identity.client.exception.MsalServiceException.yml
-    name: MsalServiceException
-    uid: com.microsoft.identity.client.exception.MsalServiceException
-  - href: com.microsoft.identity.client.exception.MsalUiRequiredException.yml
-    name: MsalUiRequiredException
-    uid: com.microsoft.identity.client.exception.MsalUiRequiredException
-  - href: com.microsoft.identity.client.exception.MsalUserCancelException.yml
-    name: MsalUserCancelException
-    uid: com.microsoft.identity.client.exception.MsalUserCancelException
-  name: com.microsoft.identity.client.exception
-  uid: com.microsoft.identity.client.exception
-- href: com.microsoft.identity.client.internal.yml
-  items:
-  - href: com.microsoft.identity.client.internal.AsyncResult.yml
-    name: AsyncResult
-    uid: com.microsoft.identity.client.internal.AsyncResult
-  - href: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.yml
-    name: IntuneAcquireTokenParameters
-    uid: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters
-  - href: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.Builder.yml
-    name: IntuneAcquireTokenParameters.Builder
-    uid: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.Builder
-  - href: com.microsoft.identity.client.internal.MsalUtils.yml
-    name: MsalUtils
-    uid: com.microsoft.identity.client.internal.MsalUtils
-  name: com.microsoft.identity.client.internal
-  uid: com.microsoft.identity.client.internal
-- href: com.microsoft.identity.client.internal.configuration.yml
-  items:
-  - href: com.microsoft.identity.client.internal.configuration.LogLevelDeserializer.yml
-    name: LogLevelDeserializer
-    uid: com.microsoft.identity.client.internal.configuration.LogLevelDeserializer
-  name: com.microsoft.identity.client.internal.configuration
-  uid: com.microsoft.identity.client.internal.configuration
-- href: com.microsoft.identity.client.internal.controllers.yml
-  items:
-  - href: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.yml
-    name: BrokerAccountManagerStrategy
-    uid: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy
-  - href: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.OperationInfo.yml
-    name: BrokerAccountManagerStrategy.OperationInfo
-    uid: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.OperationInfo
-  - href: com.microsoft.identity.client.internal.controllers.BrokerActivity.yml
-    name: BrokerActivity
-    uid: com.microsoft.identity.client.internal.controllers.BrokerActivity
-  - href: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.yml
-    name: BrokerAuthServiceStrategy
-    uid: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy
-  - href: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.AuthServiceOperation.yml
-    name: BrokerAuthServiceStrategy.AuthServiceOperation
-    uid: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.AuthServiceOperation
-  - href: com.microsoft.identity.client.internal.controllers.BrokerMsalController.yml
-    name: BrokerMsalController
-    uid: com.microsoft.identity.client.internal.controllers.BrokerMsalController
-  - href: com.microsoft.identity.client.internal.controllers.LocalMSALController.yml
-    name: LocalMSALController
-    uid: com.microsoft.identity.client.internal.controllers.LocalMSALController
-  - href: com.microsoft.identity.client.internal.controllers.MSALControllerFactory.yml
-    name: MSALControllerFactory
-    uid: com.microsoft.identity.client.internal.controllers.MSALControllerFactory
-  - href: com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter.yml
-    name: MsalExceptionAdapter
-    uid: com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter
-  - href: com.microsoft.identity.client.internal.controllers.OperationParametersAdapter.yml
-    name: OperationParametersAdapter
-    uid: com.microsoft.identity.client.internal.controllers.OperationParametersAdapter
-  - href: com.microsoft.identity.client.internal.controllers.RequestCodes.yml
-    name: RequestCodes
-    uid: com.microsoft.identity.client.internal.controllers.RequestCodes
-  name: com.microsoft.identity.client.internal.controllers
-  uid: com.microsoft.identity.client.internal.controllers
 - href: com.microsoft.azure.management.edgegateway.v2019_03_01.yml
   items:
   - href: com.microsoft.azure.management.edgegateway.v2019_03_01.AccountType.yml
@@ -13339,3 +13050,292 @@
     uid: com.microsoft.azure.management.edgegateway.v2019_03_01.Users
   name: com.microsoft.azure.management.edgegateway.v2019_03_01
   uid: com.microsoft.azure.management.edgegateway.v2019_03_01
+- href: com.microsoft.identity.client.yml
+  items:
+  - href: com.microsoft.identity.client.Account.yml
+    name: Account
+    uid: com.microsoft.identity.client.Account
+  - href: com.microsoft.identity.client.AcquireTokenParameters.yml
+    name: AcquireTokenParameters
+    uid: com.microsoft.identity.client.AcquireTokenParameters
+  - href: com.microsoft.identity.client.AcquireTokenParameters.Builder.yml
+    name: AcquireTokenParameters.Builder
+    uid: com.microsoft.identity.client.AcquireTokenParameters.Builder
+  - href: com.microsoft.identity.client.AcquireTokenSilentParameters.yml
+    name: AcquireTokenSilentParameters
+    uid: com.microsoft.identity.client.AcquireTokenSilentParameters
+  - href: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder.yml
+    name: AcquireTokenSilentParameters.Builder
+    uid: com.microsoft.identity.client.AcquireTokenSilentParameters.Builder
+  - href: com.microsoft.identity.client.AuthenticationCallback.yml
+    name: AuthenticationCallback
+    uid: com.microsoft.identity.client.AuthenticationCallback
+  - href: com.microsoft.identity.client.AuthenticationResult.yml
+    name: AuthenticationResult
+    uid: com.microsoft.identity.client.AuthenticationResult
+  - href: com.microsoft.identity.client.AuthenticationScheme.yml
+    name: AuthenticationScheme
+    uid: com.microsoft.identity.client.AuthenticationScheme
+  - href: com.microsoft.identity.client.BearerAuthenticationScheme.yml
+    name: BearerAuthenticationScheme
+    uid: com.microsoft.identity.client.BearerAuthenticationScheme
+  - href: com.microsoft.identity.client.BrowserTabActivity.yml
+    name: BrowserTabActivity
+    uid: com.microsoft.identity.client.BrowserTabActivity
+  - href: com.microsoft.identity.client.CurrentAccountResult.yml
+    name: CurrentAccountResult
+    uid: com.microsoft.identity.client.CurrentAccountResult
+  - href: com.microsoft.identity.client.HttpMethod.yml
+    name: HttpMethod
+    uid: com.microsoft.identity.client.HttpMethod
+  - href: com.microsoft.identity.client.IAccount.yml
+    name: IAccount
+    uid: com.microsoft.identity.client.IAccount
+  - href: com.microsoft.identity.client.IAuthenticationResult.yml
+    name: IAuthenticationResult
+    uid: com.microsoft.identity.client.IAuthenticationResult
+  - href: com.microsoft.identity.client.IClaimable.yml
+    name: IClaimable
+    uid: com.microsoft.identity.client.IClaimable
+  - href: com.microsoft.identity.client.ICurrentAccountResult.yml
+    name: ICurrentAccountResult
+    uid: com.microsoft.identity.client.ICurrentAccountResult
+  - href: com.microsoft.identity.client.ILoggerCallback.yml
+    name: ILoggerCallback
+    uid: com.microsoft.identity.client.ILoggerCallback
+  - href: com.microsoft.identity.client.IMsalEventReceiver.yml
+    name: IMsalEventReceiver
+    uid: com.microsoft.identity.client.IMsalEventReceiver
+  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.yml
+    name: IMultipleAccountPublicClientApplication
+    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication
+  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback.yml
+    name: IMultipleAccountPublicClientApplication.GetAccountCallback
+    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.GetAccountCallback
+  - href: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback.yml
+    name: IMultipleAccountPublicClientApplication.RemoveAccountCallback
+    uid: com.microsoft.identity.client.IMultipleAccountPublicClientApplication.RemoveAccountCallback
+  - href: com.microsoft.identity.client.IMultiTenantAccount.yml
+    name: IMultiTenantAccount
+    uid: com.microsoft.identity.client.IMultiTenantAccount
+  - href: com.microsoft.identity.client.IPublicClientApplication.yml
+    name: IPublicClientApplication
+    uid: com.microsoft.identity.client.IPublicClientApplication
+  - href: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener.yml
+    name: IPublicClientApplication.ApplicationCreatedListener
+    uid: com.microsoft.identity.client.IPublicClientApplication.ApplicationCreatedListener
+  - href: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener.yml
+    name: IPublicClientApplication.IMultipleAccountApplicationCreatedListener
+    uid: com.microsoft.identity.client.IPublicClientApplication.IMultipleAccountApplicationCreatedListener
+  - href: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener.yml
+    name: IPublicClientApplication.ISingleAccountApplicationCreatedListener
+    uid: com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener
+  - href: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback.yml
+    name: IPublicClientApplication.LoadAccountsCallback
+    uid: com.microsoft.identity.client.IPublicClientApplication.LoadAccountsCallback
+  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.yml
+    name: ISingleAccountPublicClientApplication
+    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication
+  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback.yml
+    name: ISingleAccountPublicClientApplication.CurrentAccountCallback
+    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.CurrentAccountCallback
+  - href: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback.yml
+    name: ISingleAccountPublicClientApplication.SignOutCallback
+    uid: com.microsoft.identity.client.ISingleAccountPublicClientApplication.SignOutCallback
+  - href: com.microsoft.identity.client.ITenantProfile.yml
+    name: ITenantProfile
+    uid: com.microsoft.identity.client.ITenantProfile
+  - href: com.microsoft.identity.client.ITokenShare.yml
+    name: ITokenShare
+    uid: com.microsoft.identity.client.ITokenShare
+  - href: com.microsoft.identity.client.Logger.yml
+    name: Logger
+    uid: com.microsoft.identity.client.Logger
+  - href: com.microsoft.identity.client.Logger.LogLevel.yml
+    name: Logger.LogLevel
+    uid: com.microsoft.identity.client.Logger.LogLevel
+  - href: com.microsoft.identity.client.MsalChromeCustomTabManager.yml
+    name: MsalChromeCustomTabManager
+    uid: com.microsoft.identity.client.MsalChromeCustomTabManager
+  - href: com.microsoft.identity.client.MultipleAccountPublicClientApplication.yml
+    name: MultipleAccountPublicClientApplication
+    uid: com.microsoft.identity.client.MultipleAccountPublicClientApplication
+  - href: com.microsoft.identity.client.MultiTenantAccount.yml
+    name: MultiTenantAccount
+    uid: com.microsoft.identity.client.MultiTenantAccount
+  - href: com.microsoft.identity.client.PoPAuthenticationScheme.yml
+    name: PoPAuthenticationScheme
+    uid: com.microsoft.identity.client.PoPAuthenticationScheme
+  - href: com.microsoft.identity.client.PoPAuthenticationScheme.Builder.yml
+    name: PoPAuthenticationScheme.Builder
+    uid: com.microsoft.identity.client.PoPAuthenticationScheme.Builder
+  - href: com.microsoft.identity.client.Prompt.yml
+    name: Prompt
+    uid: com.microsoft.identity.client.Prompt
+  - href: com.microsoft.identity.client.PublicClientApplication.yml
+    name: PublicClientApplication
+    uid: com.microsoft.identity.client.PublicClientApplication
+  - href: com.microsoft.identity.client.PublicClientApplication.AccountMatcher.yml
+    name: PublicClientApplication.AccountMatcher
+    uid: com.microsoft.identity.client.PublicClientApplication.AccountMatcher
+  - href: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback.yml
+    name: PublicClientApplication.BrokerDeviceModeCallback
+    uid: com.microsoft.identity.client.PublicClientApplication.BrokerDeviceModeCallback
+  - href: com.microsoft.identity.client.PublicClientApplicationConfiguration.yml
+    name: PublicClientApplicationConfiguration
+    uid: com.microsoft.identity.client.PublicClientApplicationConfiguration
+  - href: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames.yml
+    name: PublicClientApplicationConfiguration.SerializedNames
+    uid: com.microsoft.identity.client.PublicClientApplicationConfiguration.SerializedNames
+  - href: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory.yml
+    name: PublicClientApplicationConfigurationFactory
+    uid: com.microsoft.identity.client.PublicClientApplicationConfigurationFactory
+  - href: com.microsoft.identity.client.SilentAuthenticationCallback.yml
+    name: SilentAuthenticationCallback
+    uid: com.microsoft.identity.client.SilentAuthenticationCallback
+  - href: com.microsoft.identity.client.SingleAccountPublicClientApplication.yml
+    name: SingleAccountPublicClientApplication
+    uid: com.microsoft.identity.client.SingleAccountPublicClientApplication
+  - href: com.microsoft.identity.client.TenantProfile.yml
+    name: TenantProfile
+    uid: com.microsoft.identity.client.TenantProfile
+  - href: com.microsoft.identity.client.TokenParameters.yml
+    name: TokenParameters
+    uid: com.microsoft.identity.client.TokenParameters
+  - href: com.microsoft.identity.client.TokenParameters.Builder.yml
+    name: TokenParameters.Builder
+    uid: com.microsoft.identity.client.TokenParameters.Builder
+  - href: com.microsoft.identity.client.TokenParametersAdapter.yml
+    name: TokenParametersAdapter
+    uid: com.microsoft.identity.client.TokenParametersAdapter
+  - href: com.microsoft.identity.client.WebViewSelection.yml
+    name: WebViewSelection
+    uid: com.microsoft.identity.client.WebViewSelection
+  name: com.microsoft.identity.client
+  uid: com.microsoft.identity.client
+- href: com.microsoft.identity.client.claims.yml
+  items:
+  - href: com.microsoft.identity.client.claims.ClaimsRequest.yml
+    name: ClaimsRequest
+    uid: com.microsoft.identity.client.claims.ClaimsRequest
+  - href: com.microsoft.identity.client.claims.RequestedClaim.yml
+    name: RequestedClaim
+    uid: com.microsoft.identity.client.claims.RequestedClaim
+  - href: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.yml
+    name: RequestedClaimAdditionalInformation
+    uid: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation
+  - href: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.SerializedNames.yml
+    name: RequestedClaimAdditionalInformation.SerializedNames
+    uid: com.microsoft.identity.client.claims.RequestedClaimAdditionalInformation.SerializedNames
+  - href: com.microsoft.identity.client.claims.WWWAuthenticateHeader.yml
+    name: WWWAuthenticateHeader
+    uid: com.microsoft.identity.client.claims.WWWAuthenticateHeader
+  name: com.microsoft.identity.client.claims
+  uid: com.microsoft.identity.client.claims
+- href: com.microsoft.identity.client.configuration.yml
+  items:
+  - href: com.microsoft.identity.client.configuration.AccountMode.yml
+    name: AccountMode
+    uid: com.microsoft.identity.client.configuration.AccountMode
+  - href: com.microsoft.identity.client.configuration.HttpConfiguration.yml
+    name: HttpConfiguration
+    uid: com.microsoft.identity.client.configuration.HttpConfiguration
+  - href: com.microsoft.identity.client.configuration.LoggerConfiguration.yml
+    name: LoggerConfiguration
+    uid: com.microsoft.identity.client.configuration.LoggerConfiguration
+  - href: com.microsoft.identity.client.configuration.LoggerConfiguration.SerializedNames.yml
+    name: LoggerConfiguration.SerializedNames
+    uid: com.microsoft.identity.client.configuration.LoggerConfiguration.SerializedNames
+  name: com.microsoft.identity.client.configuration
+  uid: com.microsoft.identity.client.configuration
+- href: com.microsoft.identity.client.exception.yml
+  items:
+  - href: com.microsoft.identity.client.exception.BrokerCommunicationException.yml
+    name: BrokerCommunicationException
+    uid: com.microsoft.identity.client.exception.BrokerCommunicationException
+  - href: com.microsoft.identity.client.exception.MsalArgumentException.yml
+    name: MsalArgumentException
+    uid: com.microsoft.identity.client.exception.MsalArgumentException
+  - href: com.microsoft.identity.client.exception.MsalClientException.yml
+    name: MsalClientException
+    uid: com.microsoft.identity.client.exception.MsalClientException
+  - href: com.microsoft.identity.client.exception.MsalDeclinedScopeException.yml
+    name: MsalDeclinedScopeException
+    uid: com.microsoft.identity.client.exception.MsalDeclinedScopeException
+  - href: com.microsoft.identity.client.exception.MsalException.yml
+    name: MsalException
+    uid: com.microsoft.identity.client.exception.MsalException
+  - href: com.microsoft.identity.client.exception.MsalIntuneAppProtectionPolicyRequiredException.yml
+    name: MsalIntuneAppProtectionPolicyRequiredException
+    uid: com.microsoft.identity.client.exception.MsalIntuneAppProtectionPolicyRequiredException
+  - href: com.microsoft.identity.client.exception.MsalServiceException.yml
+    name: MsalServiceException
+    uid: com.microsoft.identity.client.exception.MsalServiceException
+  - href: com.microsoft.identity.client.exception.MsalUiRequiredException.yml
+    name: MsalUiRequiredException
+    uid: com.microsoft.identity.client.exception.MsalUiRequiredException
+  - href: com.microsoft.identity.client.exception.MsalUserCancelException.yml
+    name: MsalUserCancelException
+    uid: com.microsoft.identity.client.exception.MsalUserCancelException
+  name: com.microsoft.identity.client.exception
+  uid: com.microsoft.identity.client.exception
+- href: com.microsoft.identity.client.internal.yml
+  items:
+  - href: com.microsoft.identity.client.internal.AsyncResult.yml
+    name: AsyncResult
+    uid: com.microsoft.identity.client.internal.AsyncResult
+  - href: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.yml
+    name: IntuneAcquireTokenParameters
+    uid: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters
+  - href: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.Builder.yml
+    name: IntuneAcquireTokenParameters.Builder
+    uid: com.microsoft.identity.client.internal.IntuneAcquireTokenParameters.Builder
+  - href: com.microsoft.identity.client.internal.MsalUtils.yml
+    name: MsalUtils
+    uid: com.microsoft.identity.client.internal.MsalUtils
+  name: com.microsoft.identity.client.internal
+  uid: com.microsoft.identity.client.internal
+- href: com.microsoft.identity.client.internal.configuration.yml
+  items:
+  - href: com.microsoft.identity.client.internal.configuration.LogLevelDeserializer.yml
+    name: LogLevelDeserializer
+    uid: com.microsoft.identity.client.internal.configuration.LogLevelDeserializer
+  name: com.microsoft.identity.client.internal.configuration
+  uid: com.microsoft.identity.client.internal.configuration
+- href: com.microsoft.identity.client.internal.controllers.yml
+  items:
+  - href: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.yml
+    name: BrokerAccountManagerStrategy
+    uid: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy
+  - href: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.OperationInfo.yml
+    name: BrokerAccountManagerStrategy.OperationInfo
+    uid: com.microsoft.identity.client.internal.controllers.BrokerAccountManagerStrategy.OperationInfo
+  - href: com.microsoft.identity.client.internal.controllers.BrokerActivity.yml
+    name: BrokerActivity
+    uid: com.microsoft.identity.client.internal.controllers.BrokerActivity
+  - href: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.yml
+    name: BrokerAuthServiceStrategy
+    uid: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy
+  - href: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.AuthServiceOperation.yml
+    name: BrokerAuthServiceStrategy.AuthServiceOperation
+    uid: com.microsoft.identity.client.internal.controllers.BrokerAuthServiceStrategy.AuthServiceOperation
+  - href: com.microsoft.identity.client.internal.controllers.BrokerMsalController.yml
+    name: BrokerMsalController
+    uid: com.microsoft.identity.client.internal.controllers.BrokerMsalController
+  - href: com.microsoft.identity.client.internal.controllers.LocalMSALController.yml
+    name: LocalMSALController
+    uid: com.microsoft.identity.client.internal.controllers.LocalMSALController
+  - href: com.microsoft.identity.client.internal.controllers.MSALControllerFactory.yml
+    name: MSALControllerFactory
+    uid: com.microsoft.identity.client.internal.controllers.MSALControllerFactory
+  - href: com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter.yml
+    name: MsalExceptionAdapter
+    uid: com.microsoft.identity.client.internal.controllers.MsalExceptionAdapter
+  - href: com.microsoft.identity.client.internal.controllers.OperationParametersAdapter.yml
+    name: OperationParametersAdapter
+    uid: com.microsoft.identity.client.internal.controllers.OperationParametersAdapter
+  - href: com.microsoft.identity.client.internal.controllers.RequestCodes.yml
+    name: RequestCodes
+    uid: com.microsoft.identity.client.internal.controllers.RequestCodes
+  name: com.microsoft.identity.client.internal.controllers
+  uid: com.microsoft.identity.client.internal.controllers
