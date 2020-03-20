@@ -7,6 +7,17 @@
     "com.microsoft.azure.applicationinsights.query*",
     "com.microsoft.azure.management.applicationinsights.v2015_05_01*",
     "com.microsoft.azure.management.appservice*",
-    "com.microsoft.azure.management.edgegateway*"
+    "com.microsoft.azure.management.edgegateway*",
+    "com.microsoft.azure.sdk.iot*",
+    "com.microsoft.cognitiveservices.speech*",
+    "tools.com.microsoft.azure.sdk.iot*",
+    "com.microsoft.azure.management.labservices*",
+    "com.microsoft.azure.loganalytics*",
+    "system.fabric*",
+    "microsoft.servicefabric.*",
+    "com.microsoft.azure.management.streamanalytics*",
+    "com.microsoft.azure.elasticdb*",
+    "com.microsoft.azure.management.compute*",
+    "com.microsoft.azure.cognitiveservices.search.autosuggest*"
   ]
 }
