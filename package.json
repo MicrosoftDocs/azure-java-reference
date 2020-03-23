@@ -518,15 +518,6 @@
                 "inputPath": [],
                 "excludePath": [],
                 "excludePackages": "com.microsoft.azure.management.cosmosdb.implementation"
-            },
-            {
-                "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageGroupId": "com.microsoft.azure",
-                "packageArtifactId": "azure-mgmt-sql",
-                "packageVersion": "RELEASE",
-                "inputPath": [],
-                "excludePath": [],
-                "excludePackages": "com.microsoft.azure.management.sql.implementation"
             }
         ]
     },
