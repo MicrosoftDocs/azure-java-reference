@@ -1,0 +1,8 @@
+### YamlMime:TableOfContent
+- uid: "com.azure.tracing.opentelemetry"
+  name: "com.azure.tracing.opentelemetry"
+  items:
+  - uid: "com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy"
+    name: "OpenTelemetryHttpPolicy"
+  - uid: "com.azure.tracing.opentelemetry.OpenTelemetryTracer"
+    name: "OpenTelemetryTracer"
