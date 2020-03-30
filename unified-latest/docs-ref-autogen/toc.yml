@@ -31,4 +31,3 @@
     name: "SecretService"
   - uid: "com.azure.security.keyvault.secrets.SecretServiceVersion"
     name: "SecretServiceVersion"
-[]
