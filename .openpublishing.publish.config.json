@@ -47,6 +47,12 @@
         "url": "https://github.com/Microsoft/templates.docs.msft",
         "branch": "master",
         "branch_mapping": {}
+      },
+      {
+        "path_to_root": "_readmes",
+        "url": "https://github.com/Azure/azure-sdk-for-java",
+        "branch": "f013f35a9069c69b96d70261678d4a183d6b8c49",
+        "branch_mapping": {}
       }
     ],
   "branch_target_mapping": {},

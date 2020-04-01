@@ -385,7 +385,7 @@
       - com.azure.security.keyvault.keys*
     - name: Secrets
       uid: azure.java.sdk.landingpage.services.keyvault.Secrets
-      href: ~/docs-ref-services/keyvault-secrets-readme.md
+      href: ~/_readmes/sdk/keyvault/azure-security-keyvault-secrets/README.md
       children:
       - com.azure.security.keyvault.secrets*
     - name: Certificates

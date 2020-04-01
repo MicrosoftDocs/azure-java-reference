@@ -137,7 +137,16 @@
           "ThirdPartyNotices",
           "docs-ref-autogen"
         ]
-      }
+      },
+      {
+        "files": [
+          "**/README.md"
+        ],
+        "src": "_readmes",
+        "dest": "api/overview/azure/functions",
+        "group": "latest",
+        "version": "unified-latest",
+      },
     ],
     "resource": [
       {
