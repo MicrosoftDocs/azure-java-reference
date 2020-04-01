@@ -143,10 +143,10 @@
           "**/README.md"
         ],
         "src": "_readmes",
-        "dest": "api/overview/azure/functions",
+        "dest": "azure",
         "group": "latest",
         "version": "unified-latest",
-      },
+      }
     ],
     "resource": [
       {
