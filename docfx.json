@@ -145,7 +145,7 @@
         "src": "_readmes",
         "dest": "azure",
         "group": "latest",
-        "version": "unified-latest",
+        "version": "unified-latest"
       }
     ],
     "resource": [
