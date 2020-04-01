@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path": "_readmes/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets",
+      "source_path": "_readmes/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets.md",
       "redirect_url": "https://github.com/Azure/azure-sdk-for-java/tree/master/sdk/keyvault/azure-security-keyvault-secrets/src/samples/java/com/azure/security/keyvault/secrets",
       "redirect_document_id": false
     }
