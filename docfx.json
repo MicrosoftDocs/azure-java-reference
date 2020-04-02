@@ -140,7 +140,8 @@
       },
       {
         "files": [
-          "**/*"
+          "**/README.md",
+          "**/_readmes/sdk/keyvault/azure-security-keyvault-secrets/src/**"
         ],
         "src": "_readmes",
         "dest": "azure",
