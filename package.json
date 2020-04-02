@@ -8,7 +8,7 @@
                 "packageDownloadUrl": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-java/maven/v1",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-data-appconfiguration",
-                "packageVersion": "1.2.0-beta.1.dev.20200401.3",
+                "packageVersion": "1.2.0-beta.1.dev.20200402.3",
                 "inputPath": [],
                 "excludePath": []
             },
