@@ -140,7 +140,7 @@
       },
       {
         "files": [
-          "**/**"
+          "**/sdk/**"
         ],
         "src": "_readmes",
         "dest": "azure",
