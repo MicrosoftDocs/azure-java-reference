@@ -1,70 +1,22 @@
 ### YamlMime:TableOfContent
-- uid: com.azure.data.appconfiguration
-  name: com.azure.data.appconfiguration
+- uid: "com.azure.core.http.netty.implementation"
+  name: "com.azure.core.http.netty.implementation"
   items:
-  - uid: com.azure.data.appconfiguration.ConfigurationAsyncClient
-    name: ConfigurationAsyncClient
-  - uid: com.azure.data.appconfiguration.ConfigurationClient
-    name: ConfigurationClient
-  - uid: com.azure.data.appconfiguration.ConfigurationClientBuilder
-    name: ConfigurationClientBuilder
-  - uid: com.azure.data.appconfiguration.ConfigurationService
-    name: ConfigurationService
-  - uid: com.azure.data.appconfiguration.ConfigurationServiceVersion
-    name: ConfigurationServiceVersion
-- uid: com.azure.data.appconfiguration.implementation
-  name: com.azure.data.appconfiguration.implementation
+  - uid: "com.azure.core.http.netty.implementation.ChallengeHolder"
+    name: "ChallengeHolder"
+  - uid: "com.azure.core.http.netty.implementation.HttpProxyExceptionHandler"
+    name: "HttpProxyExceptionHandler"
+  - uid: "com.azure.core.http.netty.implementation.HttpProxyHandler"
+    name: "HttpProxyHandler"
+  - uid: "com.azure.core.http.netty.implementation.ReactorNettyClientProvider"
+    name: "ReactorNettyClientProvider"
+- uid: "com.azure.core.http.netty"
+  name: "com.azure.core.http.netty"
   items:
-  - uid: com.azure.data.appconfiguration.implementation.ClientConstants
-    name: ClientConstants
-  - uid: com.azure.data.appconfiguration.implementation.ConfigurationClientCredentials
-    name: ConfigurationClientCredentials
-  - uid: com.azure.data.appconfiguration.implementation.ConfigurationClientCredentials.AuthorizationHeaderProvider
-    name: ConfigurationClientCredentials.AuthorizationHeaderProvider
-  - uid: com.azure.data.appconfiguration.implementation.ConfigurationClientCredentials.CredentialInformation
-    name: ConfigurationClientCredentials.CredentialInformation
-  - uid: com.azure.data.appconfiguration.implementation.ConfigurationCredentialsPolicy
-    name: ConfigurationCredentialsPolicy
-  - uid: com.azure.data.appconfiguration.implementation.ConfigurationSettingPage
-    name: ConfigurationSettingPage
-- uid: com.azure.data.appconfiguration.models
-  name: com.azure.data.appconfiguration.models
-  items:
-  - uid: com.azure.data.appconfiguration.models.ConfigurationSetting
-    name: ConfigurationSetting
-  - uid: com.azure.data.appconfiguration.models.SettingFields
-    name: SettingFields
-  - uid: com.azure.data.appconfiguration.models.SettingSelector
-    name: SettingSelector
-- uid: com.azure.security.keyvault.secrets.models
-  name: com.azure.security.keyvault.secrets.models
-  items:
-  - uid: com.azure.security.keyvault.secrets.models.DeletedSecret
-    name: DeletedSecret
-  - uid: com.azure.security.keyvault.secrets.models.KeyVaultSecret
-    name: KeyVaultSecret
-  - uid: com.azure.security.keyvault.secrets.models.SecretProperties
-    name: SecretProperties
-- uid: com.azure.security.keyvault.secrets
-  name: com.azure.security.keyvault.secrets
-  items:
-  - uid: com.azure.security.keyvault.secrets.KeyVaultErrorCodeStrings
-    name: KeyVaultErrorCodeStrings
-  - uid: com.azure.security.keyvault.secrets.SecretAsyncClient
-    name: SecretAsyncClient
-  - uid: com.azure.security.keyvault.secrets.SecretBackup
-    name: SecretBackup
-  - uid: com.azure.security.keyvault.secrets.SecretClient
-    name: SecretClient
-  - uid: com.azure.security.keyvault.secrets.SecretClientBuilder
-    name: SecretClientBuilder
-  - uid: com.azure.security.keyvault.secrets.SecretRequestAttributes
-    name: SecretRequestAttributes
-  - uid: com.azure.security.keyvault.secrets.SecretRequestParameters
-    name: SecretRequestParameters
-  - uid: com.azure.security.keyvault.secrets.SecretRestoreRequestParameters
-    name: SecretRestoreRequestParameters
-  - uid: com.azure.security.keyvault.secrets.SecretService
-    name: SecretService
-  - uid: com.azure.security.keyvault.secrets.SecretServiceVersion
-    name: SecretServiceVersion
+  - uid: "com.azure.core.http.netty.NettyAsyncHttpClient"
+    name: "NettyAsyncHttpClient"
+  - uid: "com.azure.core.http.netty.NettyAsyncHttpClient.ReactorNettyHttpResponse"
+    name: "NettyAsyncHttpClient.ReactorNettyHttpResponse"
+  - uid: "com.azure.core.http.netty.NettyAsyncHttpClientBuilder"
+    name: "NettyAsyncHttpClientBuilder"
+[]
