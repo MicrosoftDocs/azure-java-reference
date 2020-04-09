@@ -6,6 +6,7 @@ import re
 import yaml
 import glob
 import shutil
+import sys
 
 
 LEGACY_SOURCE_FOLDER = "legacy/docs-ref-autogen"
@@ -24,6 +25,9 @@ if __name__ == "__main__":
     json = json.loads(text)
 
     migrating_namespaces = json["migrating_namespaces"]
+
+    if not migrating_namespaces:
+      exit(0)
     migrating_namespaces_regexs = [fnmatch.translate(namespace) for namespace in migrating_namespaces]
 
   # get the yml from legacy
