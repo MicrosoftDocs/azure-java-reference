@@ -9,7 +9,7 @@
                 "packageArtifactId": "azure-core-http-netty",
                 "packageVersion": "1.5.0",
                 "inputPath": [],
-                "excludePath": [],
+                "excludePath": []
             }
         ]
     },
