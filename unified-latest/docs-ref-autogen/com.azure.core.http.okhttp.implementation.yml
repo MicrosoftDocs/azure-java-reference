@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: "com.azure.core.http.okhttp.implementation"
+  id: "implementation"
+  children:
+  - "com.azure.core.http.okhttp.implementation.OkHttpClientProvider"
+  - "com.azure.core.http.okhttp.implementation.OkHttpProxySelector"
+  - "com.azure.core.http.okhttp.implementation.ProxyAuthenticator"
+  - "com.azure.core.http.okhttp.implementation.ProxyAuthenticator.ProxyAuthenticationInfoInterceptor"
+  langs:
+  - "java"
+  name: "com.azure.core.http.okhttp.implementation"
+  nameWithType: "com.azure.core.http.okhttp.implementation"
+  fullName: "com.azure.core.http.okhttp.implementation"
+  type: "Namespace"
+  syntax:
+    content: "package com.azure.core.http.okhttp.implementation"
+references:
+- uid: "com.azure.core.http.okhttp.implementation.OkHttpClientProvider"
+  name: "OkHttpClientProvider"
+  nameWithType: "OkHttpClientProvider"
+  fullName: "com.azure.core.http.okhttp.implementation.OkHttpClientProvider"
+- uid: "com.azure.core.http.okhttp.implementation.OkHttpProxySelector"
+  name: "OkHttpProxySelector"
+  nameWithType: "OkHttpProxySelector"
+  fullName: "com.azure.core.http.okhttp.implementation.OkHttpProxySelector"
+- uid: "com.azure.core.http.okhttp.implementation.ProxyAuthenticator"
+  name: "ProxyAuthenticator"
+  nameWithType: "ProxyAuthenticator"
+  fullName: "com.azure.core.http.okhttp.implementation.ProxyAuthenticator"
+- uid: "com.azure.core.http.okhttp.implementation.ProxyAuthenticator.ProxyAuthenticationInfoInterceptor"
+  name: "ProxyAuthenticator.ProxyAuthenticationInfoInterceptor"
+  nameWithType: "ProxyAuthenticator.ProxyAuthenticationInfoInterceptor"
+  fullName: "com.azure.core.http.okhttp.implementation.ProxyAuthenticator.ProxyAuthenticationInfoInterceptor"
