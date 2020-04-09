@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider"
+  id: "IErrorContextProvider"
+  parent: "com.microsoft.azure.servicebus.primitives"
+  children:
+  - "com.microsoft.azure.servicebus.primitives.IErrorContextProvider.getContext()"
+  langs:
+  - "java"
+  name: "IErrorContextProvider"
+  nameWithType: "IErrorContextProvider"
+  fullName: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider"
+  type: "Interface"
+  package: "com.microsoft.azure.servicebus.primitives"
+  syntax:
+    content: " interface IErrorContextProvider"
+- uid: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider.getContext()"
+  id: "getContext()"
+  parent: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider"
+  langs:
+  - "java"
+  name: "getContext()"
+  nameWithType: "IErrorContextProvider.getContext()"
+  fullName: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider.getContext()"
+  overload: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider.getContext*"
+  type: "Method"
+  package: "com.microsoft.azure.servicebus.primitives"
+  syntax:
+    content: "public abstract ErrorContext getContext()"
+    return:
+      type: "com.microsoft.azure.servicebus.primitives.ErrorContext"
+references:
+- uid: "com.microsoft.azure.servicebus.primitives.ErrorContext"
+  name: "ErrorContext"
+  nameWithType: "ErrorContext"
+  fullName: "com.microsoft.azure.servicebus.primitives.ErrorContext"
+- uid: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider.getContext*"
+  name: "getContext"
+  nameWithType: "IErrorContextProvider.getContext"
+  fullName: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider.getContext"
+  package: "com.microsoft.azure.servicebus.primitives"
