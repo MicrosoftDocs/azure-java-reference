@@ -1,20 +1,23 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.azure.storage.common.implementation.policy"
-  id: "policy"
+- uid: com.azure.storage.common.implementation.policy
+  id: policy
+  artifact: com.azure:azure-storage-common:12.4.0
   children:
-  - "com.azure.storage.common.implementation.policy.SasTokenCredentialPolicy"
+  - com.azure.storage.common.implementation.policy.SasTokenCredentialPolicy
   langs:
-  - "java"
-  name: "com.azure.storage.common.implementation.policy"
-  nameWithType: "com.azure.storage.common.implementation.policy"
-  fullName: "com.azure.storage.common.implementation.policy"
-  type: "Namespace"
-  summary: "Package containing the implementations and inner policy classes for\n Azure Storage."
+  - java
+  name: com.azure.storage.common.implementation.policy
+  nameWithType: com.azure.storage.common.implementation.policy
+  fullName: com.azure.storage.common.implementation.policy
+  type: Namespace
+  summary: >-
+    Package containing the implementations and inner policy classes for
+     Azure Storage.
   syntax:
-    content: "package com.azure.storage.common.implementation.policy"
+    content: package com.azure.storage.common.implementation.policy
 references:
-- uid: "com.azure.storage.common.implementation.policy.SasTokenCredentialPolicy"
-  name: "SasTokenCredentialPolicy"
-  nameWithType: "SasTokenCredentialPolicy"
-  fullName: "com.azure.storage.common.implementation.policy.SasTokenCredentialPolicy"
+- uid: com.azure.storage.common.implementation.policy.SasTokenCredentialPolicy
+  name: SasTokenCredentialPolicy
+  nameWithType: SasTokenCredentialPolicy
+  fullName: com.azure.storage.common.implementation.policy.SasTokenCredentialPolicy
