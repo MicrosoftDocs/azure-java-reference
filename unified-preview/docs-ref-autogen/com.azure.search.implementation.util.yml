@@ -1,24 +1,25 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.azure.search.implementation.util"
-  id: "util"
+- uid: com.azure.search.implementation.util
+  id: util
+  artifact: com.azure:azure-search:11.0.0-beta.1
   children:
-  - "com.azure.search.implementation.util.DocumentResponseConversions"
-  - "com.azure.search.implementation.util.SuggestOptionsHandler"
+  - com.azure.search.implementation.util.DocumentResponseConversions
+  - com.azure.search.implementation.util.SuggestOptionsHandler
   langs:
-  - "java"
-  name: "com.azure.search.implementation.util"
-  nameWithType: "com.azure.search.implementation.util"
-  fullName: "com.azure.search.implementation.util"
-  type: "Namespace"
+  - java
+  name: com.azure.search.implementation.util
+  nameWithType: com.azure.search.implementation.util
+  fullName: com.azure.search.implementation.util
+  type: Namespace
   syntax:
-    content: "package com.azure.search.implementation.util"
+    content: package com.azure.search.implementation.util
 references:
-- uid: "com.azure.search.implementation.util.DocumentResponseConversions"
-  name: "DocumentResponseConversions"
-  nameWithType: "DocumentResponseConversions"
-  fullName: "com.azure.search.implementation.util.DocumentResponseConversions"
-- uid: "com.azure.search.implementation.util.SuggestOptionsHandler"
-  name: "SuggestOptionsHandler"
-  nameWithType: "SuggestOptionsHandler"
-  fullName: "com.azure.search.implementation.util.SuggestOptionsHandler"
+- uid: com.azure.search.implementation.util.DocumentResponseConversions
+  name: DocumentResponseConversions
+  nameWithType: DocumentResponseConversions
+  fullName: com.azure.search.implementation.util.DocumentResponseConversions
+- uid: com.azure.search.implementation.util.SuggestOptionsHandler
+  name: SuggestOptionsHandler
+  nameWithType: SuggestOptionsHandler
+  fullName: com.azure.search.implementation.util.SuggestOptionsHandler
