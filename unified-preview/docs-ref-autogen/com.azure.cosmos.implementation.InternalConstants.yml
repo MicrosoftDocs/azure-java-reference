@@ -4,10 +4,6 @@ items:
   id: InternalConstants
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos.implementation
-  children:
-  - com.azure.cosmos.implementation.InternalConstants.InternalConstants()
-  - com.azure.cosmos.implementation.InternalConstants.ResourceKeys
-  - com.azure.cosmos.implementation.InternalConstants.StreamApi
   langs:
   - java
   name: InternalConstants

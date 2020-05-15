@@ -142,13 +142,13 @@ items:
   overload: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observer*
   type: Method
   package: com.azure.cosmos.implementation.changefeed.implementation
-  summary: Sets an existing <xref uid="com.azure.cosmos.implementation.changefeed.ChangeFeedObserver" data-throw-if-not-resolved="false">ChangeFeedObserver</xref> type to be used by a <xref uid="com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory" data-throw-if-not-resolved="false">ChangeFeedObserverFactory</xref> to process changes.
+  summary: Sets an existing <xref uid="? extends com.azure.cosmos.implementation.changefeed.ChangeFeedObserver" data-throw-if-not-resolved="false">ChangeFeedObserver</xref> type to be used by a <xref uid="com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory" data-throw-if-not-resolved="false">ChangeFeedObserverFactory</xref> to process changes.
   syntax:
     content: public ChangeFeedProcessorBuilderImpl observer(Class<? extends ChangeFeedObserver> type)
     parameters:
     - id: type
       type: java.lang.Class<? extends com.azure.cosmos.implementation.changefeed.ChangeFeedObserver>
-      description: the type of <xref uid="com.azure.cosmos.implementation.changefeed.ChangeFeedObserver" data-throw-if-not-resolved="false">ChangeFeedObserver</xref> to be used.
+      description: the type of <xref uid="? extends com.azure.cosmos.implementation.changefeed.ChangeFeedObserver" data-throw-if-not-resolved="false">ChangeFeedObserver</xref> to be used.
     return:
       type: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl
       description: current Builder.
@@ -164,7 +164,7 @@ items:
   overload: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory*
   type: Method
   package: com.azure.cosmos.implementation.changefeed.implementation
-  summary: Sets the <xref uid="com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory" data-throw-if-not-resolved="false">ChangeFeedObserverFactory</xref> to be used to generate <xref uid="com.azure.cosmos.implementation.changefeed.ChangeFeedObserver" data-throw-if-not-resolved="false">ChangeFeedObserver</xref>
+  summary: Sets the <xref uid="com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory" data-throw-if-not-resolved="false">ChangeFeedObserverFactory</xref> to be used to generate <xref uid="? extends com.azure.cosmos.implementation.changefeed.ChangeFeedObserver" data-throw-if-not-resolved="false">ChangeFeedObserver</xref>
   syntax:
     content: public ChangeFeedProcessorBuilderImpl observerFactory(ChangeFeedObserverFactory observerFactory)
     parameters:

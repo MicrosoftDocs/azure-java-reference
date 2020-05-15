@@ -7,7 +7,6 @@ items:
   children:
   - com.azure.cosmos.ItemOperations.<T>readMany(com.azure.cosmos.CosmosContainer,java.util.List<org.apache.commons.lang3.tuple.Pair<java.lang.String,com.azure.cosmos.PartitionKey>>,java.lang.Class<T>)
   - com.azure.cosmos.ItemOperations.<T>readManyAsync(com.azure.cosmos.CosmosAsyncContainer,java.util.List<org.apache.commons.lang3.tuple.Pair<java.lang.String,com.azure.cosmos.PartitionKey>>,java.lang.Class<T>)
-  - com.azure.cosmos.ItemOperations.<T>readManyInternal(com.azure.cosmos.CosmosAsyncContainer,java.util.List<org.apache.commons.lang3.tuple.Pair<java.lang.String,com.azure.cosmos.PartitionKey>>,com.azure.cosmos.FeedOptions,java.lang.Class<T>)
   - com.azure.cosmos.ItemOperations.ItemOperations()
   langs:
   - java
@@ -97,31 +96,6 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.cosmos.FeedResponse<T>>
       description: a Mono with feed response of cosmos items
-- uid: com.azure.cosmos.ItemOperations.<T>readManyInternal(com.azure.cosmos.CosmosAsyncContainer,java.util.List<org.apache.commons.lang3.tuple.Pair<java.lang.String,com.azure.cosmos.PartitionKey>>,com.azure.cosmos.FeedOptions,java.lang.Class<T>)
-  id: <T>readManyInternal(com.azure.cosmos.CosmosAsyncContainer,java.util.List<org.apache.commons.lang3.tuple.Pair<java.lang.String,com.azure.cosmos.PartitionKey>>,com.azure.cosmos.FeedOptions,java.lang.Class<T>)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.ItemOperations
-  langs:
-  - java
-  name: <T>readManyInternal(CosmosAsyncContainer container, List<Pair<String,PartitionKey>> itemKeyList, FeedOptions options, Class<T> klass)
-  nameWithType: ItemOperations.<T>readManyInternal(CosmosAsyncContainer container, List<Pair<String,PartitionKey>> itemKeyList, FeedOptions options, Class<T> klass)
-  fullName: com.azure.cosmos.ItemOperations.<T>readManyInternal(CosmosAsyncContainer container, List<Pair<String,PartitionKey>> itemKeyList, FeedOptions options, Class<T> klass)
-  overload: com.azure.cosmos.ItemOperations.readManyInternal*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: static Mono<FeedResponse<T>> <T>readManyInternal(CosmosAsyncContainer container, List<Pair<String,PartitionKey>> itemKeyList, FeedOptions options, Class<T> klass)
-    parameters:
-    - id: container
-      type: com.azure.cosmos.CosmosAsyncContainer
-    - id: itemKeyList
-      type: java.util.List<org.apache.commons.lang3.tuple.Pair<java.lang.String,com.azure.cosmos.PartitionKey>>
-    - id: options
-      type: com.azure.cosmos.FeedOptions
-    - id: klass
-      type: java.lang.Class<T>
-    return:
-      type: reactor.core.publisher.Mono<com.azure.cosmos.FeedResponse<T>>
 - uid: com.azure.cosmos.ItemOperations.ItemOperations()
   id: ItemOperations()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -226,15 +200,6 @@ references:
   name: <T>readManyAsync
   nameWithType: ItemOperations.<T>readManyAsync
   fullName: com.azure.cosmos.ItemOperations.<T>readManyAsync
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.FeedOptions
-  name: FeedOptions
-  nameWithType: FeedOptions
-  fullName: com.azure.cosmos.FeedOptions
-- uid: com.azure.cosmos.ItemOperations.readManyInternal*
-  name: <T>readManyInternal
-  nameWithType: ItemOperations.<T>readManyInternal
-  fullName: com.azure.cosmos.ItemOperations.<T>readManyInternal
   package: com.azure.cosmos
 - uid: java.lang.Object.notify()
   name: Object.notify()

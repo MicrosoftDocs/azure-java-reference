@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos.implementation.changefeed.implementation
   children:
-  - com.azure.cosmos.implementation.changefeed.implementation.ExceptionClassifier.ExceptionClassifier()
   - com.azure.cosmos.implementation.changefeed.implementation.ExceptionClassifier.SubStatusCode_PartitionKeyRangeGone
   - com.azure.cosmos.implementation.changefeed.implementation.ExceptionClassifier.SubStatusCode_ReadSessionNotAvailable
   - com.azure.cosmos.implementation.changefeed.implementation.ExceptionClassifier.SubStatusCode_Splitting

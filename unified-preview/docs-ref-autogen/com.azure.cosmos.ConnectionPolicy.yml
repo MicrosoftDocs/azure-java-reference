@@ -142,7 +142,7 @@ items:
     DEFAULT value is null.
 
 
-    If this property is not set, the default is true for all Consistency Levels other than Bounded Staleness, The default is false for Bounded Staleness. 1. <xref uid="" data-throw-if-not-resolved="false">#enableEndpointDiscovery</xref> is true 2. the Azure Cosmos DB account has more than one region
+    If this property is not set, the default is true for all Consistency Levels other than Bounded Staleness, The default is false for Bounded Staleness. 1. <xref uid="com.azure.cosmos.ConnectionPolicy.enableEndpointDiscovery" data-throw-if-not-resolved="false">#enableEndpointDiscovery</xref> is true 2. the Azure Cosmos DB account has more than one region
   syntax:
     content: public Boolean getEnableReadRequestsFallback()
     return:
@@ -369,7 +369,7 @@ items:
     DEFAULT value is null.
 
 
-    If this property is not set, the default is true for all Consistency Levels other than Bounded Staleness, The default is false for Bounded Staleness. 1. <xref uid="" data-throw-if-not-resolved="false">#enableEndpointDiscovery</xref> is true 2. the Azure Cosmos DB account has more than one region
+    If this property is not set, the default is true for all Consistency Levels other than Bounded Staleness, The default is false for Bounded Staleness. 1. <xref uid="com.azure.cosmos.ConnectionPolicy.enableEndpointDiscovery" data-throw-if-not-resolved="false">#enableEndpointDiscovery</xref> is true 2. the Azure Cosmos DB account has more than one region
   syntax:
     content: public ConnectionPolicy setEnableReadRequestsFallback(Boolean enableReadRequestsFallback)
     parameters:

@@ -91,7 +91,7 @@ items:
   overload: com.azure.messaging.eventhubs.implementation.PartitionProcessor.initialize*
   type: Method
   package: com.azure.messaging.eventhubs.implementation
-  summary: This method is called when this <xref uid="com.azure.messaging.eventhubs.EventProcessorClient" data-throw-if-not-resolved="false">EventProcessorClient</xref> takes ownership of a new partition and before any events from this partition are received. By default, each partition is processed from <xref uid="com.azure.messaging.eventhubs.models.EventPosition.earliest()" data-throw-if-not-resolved="false">EventPosition#earliest()</xref>. To start processing from a different position, use <xref uid="" data-throw-if-not-resolved="false">InitializationContext#setInitialPosition(EventPosition)</xref> to
+  summary: This method is called when this <xref uid="com.azure.messaging.eventhubs.EventProcessorClient" data-throw-if-not-resolved="false">EventProcessorClient</xref> takes ownership of a new partition and before any events from this partition are received. By default, each partition is processed from <xref uid="com.azure.messaging.eventhubs.models.EventPosition.earliest()" data-throw-if-not-resolved="false">EventPosition#earliest()</xref>. To start processing from a different position, use <xref uid="com.azure.messaging.eventhubs.models.InitializationContext.setInitialPosition*" data-throw-if-not-resolved="false">InitializationContext#setInitialPosition(EventPosition)</xref> to
   syntax:
     content: public void initialize(InitializationContext initializationContext)
     parameters:

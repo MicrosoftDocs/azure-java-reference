@@ -6,8 +6,6 @@ items:
   parent: com.azure.cosmos.implementation
   children:
   - com.azure.cosmos.implementation.ClientRetryPolicy.ClientRetryPolicy(com.azure.cosmos.implementation.GlobalEndpointManager,boolean,com.azure.cosmos.RetryOptions)
-  - com.azure.cosmos.implementation.ClientRetryPolicy.MaxRetryCount
-  - com.azure.cosmos.implementation.ClientRetryPolicy.RetryIntervalInMS
   - com.azure.cosmos.implementation.ClientRetryPolicy.onBeforeSendRequest(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   - com.azure.cosmos.implementation.ClientRetryPolicy.shouldRetry(java.lang.Exception)
   langs:
@@ -67,36 +65,6 @@ items:
       type: boolean
     - id: retryOptions
       type: com.azure.cosmos.RetryOptions
-- uid: com.azure.cosmos.implementation.ClientRetryPolicy.MaxRetryCount
-  id: MaxRetryCount
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ClientRetryPolicy
-  langs:
-  - java
-  name: MaxRetryCount
-  nameWithType: ClientRetryPolicy.MaxRetryCount
-  fullName: com.azure.cosmos.implementation.ClientRetryPolicy.MaxRetryCount
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static final int MaxRetryCount
-    return:
-      type: int
-- uid: com.azure.cosmos.implementation.ClientRetryPolicy.RetryIntervalInMS
-  id: RetryIntervalInMS
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ClientRetryPolicy
-  langs:
-  - java
-  name: RetryIntervalInMS
-  nameWithType: ClientRetryPolicy.RetryIntervalInMS
-  fullName: com.azure.cosmos.implementation.ClientRetryPolicy.RetryIntervalInMS
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static final int RetryIntervalInMS
-    return:
-      type: int
 - uid: com.azure.cosmos.implementation.ClientRetryPolicy.onBeforeSendRequest(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   id: onBeforeSendRequest(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -183,11 +151,6 @@ references:
   nameWithType: ClientRetryPolicy.onBeforeSendRequest
   fullName: com.azure.cosmos.implementation.ClientRetryPolicy.onBeforeSendRequest
   package: com.azure.cosmos.implementation
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
 - uid: com.azure.cosmos.implementation.DocumentClientRetryPolicy
   name: DocumentClientRetryPolicy
   nameWithType: DocumentClientRetryPolicy

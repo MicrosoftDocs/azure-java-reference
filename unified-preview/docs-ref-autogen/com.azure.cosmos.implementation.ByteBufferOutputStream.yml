@@ -15,7 +15,7 @@ items:
   fullName: com.azure.cosmos.implementation.ByteBufferOutputStream
   type: Class
   package: com.azure.cosmos.implementation
-  summary: <xref uid="java.io.ByteArrayOutputStream.toByteArray()" data-throw-if-not-resolved="false">ByteArrayOutputStream#toByteArray()</xref> copied data and is inefficient. This class provides a <xref uid="" data-throw-if-not-resolved="false">ByteBufferOutputStream#toByteArray()</xref>
+  summary: <xref uid="java.io.ByteArrayOutputStream.toByteArray()" data-throw-if-not-resolved="false">ByteArrayOutputStream#toByteArray()</xref> copied data and is inefficient. This class provides a <xref uid="com.azure.cosmos.implementation.ByteBufferOutputStream.toByteArray*" data-throw-if-not-resolved="false">ByteBufferOutputStream#toByteArray()</xref>
   syntax:
     content: public class ByteBufferOutputStream extends ByteArrayOutputStream
   inheritance:

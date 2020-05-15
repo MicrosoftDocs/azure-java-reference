@@ -4,9 +4,6 @@ items:
   id: StreamApi
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos.implementation
-  children:
-  - com.azure.cosmos.implementation.InternalConstants.StreamApi.STREAM_LENGTH_EOF
-  - com.azure.cosmos.implementation.InternalConstants.StreamApi.StreamApi()
   langs:
   - java
   name: InternalConstants.StreamApi
@@ -30,21 +27,6 @@ items:
   - java.lang.Object.wait()
   - java.lang.Object.wait(long)
   - java.lang.Object.wait(long,int)
-- uid: com.azure.cosmos.implementation.InternalConstants.StreamApi.STREAM_LENGTH_EOF
-  id: STREAM_LENGTH_EOF
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.InternalConstants.StreamApi
-  langs:
-  - java
-  name: STREAM_LENGTH_EOF
-  nameWithType: InternalConstants.StreamApi.STREAM_LENGTH_EOF
-  fullName: com.azure.cosmos.implementation.InternalConstants.StreamApi.STREAM_LENGTH_EOF
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static final int STREAM_LENGTH_EOF
-    return:
-      type: int
 - uid: com.azure.cosmos.implementation.InternalConstants.StreamApi.StreamApi()
   id: StreamApi()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -65,11 +47,6 @@ references:
   nameWithType: InternalConstants.StreamApi.StreamApi
   fullName: com.azure.cosmos.implementation.InternalConstants.StreamApi.StreamApi
   package: com.azure.cosmos.implementation
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
 - uid: java.lang.Object.notify()
   name: Object.notify()
   nameWithType: Object.notify()

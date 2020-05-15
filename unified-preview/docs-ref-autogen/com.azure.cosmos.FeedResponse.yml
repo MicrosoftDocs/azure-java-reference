@@ -5,9 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.FeedResponse.FeedResponse(java.util.List<T>,java.util.Map<java.lang.String,java.lang.String>)
-  - com.azure.cosmos.FeedResponse.FeedResponse(java.util.List<T>,java.util.Map<java.lang.String,java.lang.String>,boolean)
-  - com.azure.cosmos.FeedResponse.FeedResponse(java.util.List<T>,java.util.Map<java.lang.String,java.lang.String>,java.util.concurrent.ConcurrentMap<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>)
   - com.azure.cosmos.FeedResponse.getActivityId()
   - com.azure.cosmos.FeedResponse.getCollectionQuota()
   - com.azure.cosmos.FeedResponse.getCollectionSizeQuota()
@@ -34,9 +31,6 @@ items:
   - com.azure.cosmos.FeedResponse.getUserDefinedFunctionsUsage()
   - com.azure.cosmos.FeedResponse.getUserQuota()
   - com.azure.cosmos.FeedResponse.getUserUsage()
-  - com.azure.cosmos.FeedResponse.nochanges
-  - com.azure.cosmos.FeedResponse.queryMetrics()
-  - com.azure.cosmos.FeedResponse.queryMetricsMap()
   langs:
   - java
   name: FeedResponse<T>
@@ -620,53 +614,6 @@ items:
     return:
       type: long
       description: The current number of users.
-- uid: com.azure.cosmos.FeedResponse.nochanges
-  id: nochanges
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.FeedResponse
-  langs:
-  - java
-  name: nochanges
-  nameWithType: FeedResponse<T>.nochanges
-  fullName: com.azure.cosmos.FeedResponse<T>.nochanges
-  type: Field
-  package: com.azure.cosmos
-  syntax:
-    content: final boolean nochanges
-    return:
-      type: boolean
-- uid: com.azure.cosmos.FeedResponse.queryMetrics()
-  id: queryMetrics()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.FeedResponse
-  langs:
-  - java
-  name: queryMetrics()
-  nameWithType: FeedResponse<T>.queryMetrics()
-  fullName: com.azure.cosmos.FeedResponse<T>.queryMetrics()
-  overload: com.azure.cosmos.FeedResponse.queryMetrics*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " ConcurrentMap<String,QueryMetrics> queryMetrics()"
-    return:
-      type: java.util.concurrent.ConcurrentMap<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>
-- uid: com.azure.cosmos.FeedResponse.queryMetricsMap()
-  id: queryMetricsMap()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.FeedResponse
-  langs:
-  - java
-  name: queryMetricsMap()
-  nameWithType: FeedResponse<T>.queryMetricsMap()
-  fullName: com.azure.cosmos.FeedResponse<T>.queryMetricsMap()
-  overload: com.azure.cosmos.FeedResponse.queryMetricsMap*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " ConcurrentMap<String,QueryMetrics> queryMetricsMap()"
-    return:
-      type: java.util.concurrent.ConcurrentMap<java.lang.String,com.azure.cosmos.implementation.QueryMetrics>
 references:
 - uid: java.util.List<T>
   spec.java:
@@ -884,16 +831,6 @@ references:
   name: getFeedResponseDiagnostics
   nameWithType: FeedResponse<T>.getFeedResponseDiagnostics
   fullName: com.azure.cosmos.FeedResponse<T>.getFeedResponseDiagnostics
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.FeedResponse.queryMetrics*
-  name: queryMetrics
-  nameWithType: FeedResponse<T>.queryMetrics
-  fullName: com.azure.cosmos.FeedResponse<T>.queryMetrics
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.FeedResponse.queryMetricsMap*
-  name: queryMetricsMap
-  nameWithType: FeedResponse<T>.queryMetricsMap
-  fullName: com.azure.cosmos.FeedResponse<T>.queryMetricsMap
   package: com.azure.cosmos
 - uid: T
   name: T

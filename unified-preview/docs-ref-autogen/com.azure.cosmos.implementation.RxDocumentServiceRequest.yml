@@ -41,7 +41,6 @@ items:
   - com.azure.cosmos.implementation.RxDocumentServiceRequest.forceNameCacheRefresh
   - com.azure.cosmos.implementation.RxDocumentServiceRequest.forcePartitionKeyRangeRefresh
   - com.azure.cosmos.implementation.RxDocumentServiceRequest.getActivityId()
-  - com.azure.cosmos.implementation.RxDocumentServiceRequest.getAttachmentIdFromMediaId(java.lang.String)
   - com.azure.cosmos.implementation.RxDocumentServiceRequest.getContent()
   - com.azure.cosmos.implementation.RxDocumentServiceRequest.getContentObservable()
   - com.azure.cosmos.implementation.RxDocumentServiceRequest.getContinuation()
@@ -1270,25 +1269,6 @@ items:
     content: public UUID getActivityId()
     return:
       type: java.util.UUID
-- uid: com.azure.cosmos.implementation.RxDocumentServiceRequest.getAttachmentIdFromMediaId(java.lang.String)
-  id: getAttachmentIdFromMediaId(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RxDocumentServiceRequest
-  langs:
-  - java
-  name: getAttachmentIdFromMediaId(String mediaId)
-  nameWithType: RxDocumentServiceRequest.getAttachmentIdFromMediaId(String mediaId)
-  fullName: com.azure.cosmos.implementation.RxDocumentServiceRequest.getAttachmentIdFromMediaId(String mediaId)
-  overload: com.azure.cosmos.implementation.RxDocumentServiceRequest.getAttachmentIdFromMediaId*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static String getAttachmentIdFromMediaId(String mediaId)
-    parameters:
-    - id: mediaId
-      type: java.lang.String
-    return:
-      type: java.lang.String
 - uid: com.azure.cosmos.implementation.RxDocumentServiceRequest.getContent()
   id: getContent()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -2018,11 +1998,6 @@ references:
   name: createFromName
   nameWithType: RxDocumentServiceRequest.createFromName
   fullName: com.azure.cosmos.implementation.RxDocumentServiceRequest.createFromName
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.RxDocumentServiceRequest.getAttachmentIdFromMediaId*
-  name: getAttachmentIdFromMediaId
-  nameWithType: RxDocumentServiceRequest.getAttachmentIdFromMediaId
-  fullName: com.azure.cosmos.implementation.RxDocumentServiceRequest.getAttachmentIdFromMediaId
   package: com.azure.cosmos.implementation
 - uid: com.azure.cosmos.implementation.RxDocumentServiceRequest.getResourceId*
   name: getResourceId

@@ -18,9 +18,6 @@ items:
   - com.azure.storage.blob.implementation.AzureBlobStorageImpl.getVersion()
   - com.azure.storage.blob.implementation.AzureBlobStorageImpl.pageBlobs()
   - com.azure.storage.blob.implementation.AzureBlobStorageImpl.services()
-  - com.azure.storage.blob.implementation.AzureBlobStorageImpl.setPathRenameMode(com.azure.storage.blob.models.PathRenameMode)
-  - com.azure.storage.blob.implementation.AzureBlobStorageImpl.setUrl(java.lang.String)
-  - com.azure.storage.blob.implementation.AzureBlobStorageImpl.setVersion(java.lang.String)
   langs:
   - java
   name: AzureBlobStorageImpl
@@ -277,69 +274,6 @@ items:
     return:
       type: com.azure.storage.blob.implementation.ServicesImpl
       description: the ServicesImpl object.
-- uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setPathRenameMode(com.azure.storage.blob.models.PathRenameMode)
-  id: setPathRenameMode(com.azure.storage.blob.models.PathRenameMode)
-  artifact: com.azure:azure-storage-blob:12.4.0
-  parent: com.azure.storage.blob.implementation.AzureBlobStorageImpl
-  langs:
-  - java
-  name: setPathRenameMode(PathRenameMode pathRenameMode)
-  nameWithType: AzureBlobStorageImpl.setPathRenameMode(PathRenameMode pathRenameMode)
-  fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setPathRenameMode(PathRenameMode pathRenameMode)
-  overload: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setPathRenameMode*
-  type: Method
-  package: com.azure.storage.blob.implementation
-  summary: "Sets Determines the behavior of the rename operation. Possible values include: 'legacy', 'posix'."
-  syntax:
-    content: " AzureBlobStorageImpl setPathRenameMode(PathRenameMode pathRenameMode)"
-    parameters:
-    - id: pathRenameMode
-      type: com.azure.storage.blob.models.PathRenameMode
-      description: the pathRenameMode value.
-    return:
-      type: com.azure.storage.blob.implementation.AzureBlobStorageImpl
-- uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setUrl(java.lang.String)
-  id: setUrl(java.lang.String)
-  artifact: com.azure:azure-storage-blob:12.4.0
-  parent: com.azure.storage.blob.implementation.AzureBlobStorageImpl
-  langs:
-  - java
-  name: setUrl(String url)
-  nameWithType: AzureBlobStorageImpl.setUrl(String url)
-  fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setUrl(String url)
-  overload: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setUrl*
-  type: Method
-  package: com.azure.storage.blob.implementation
-  summary: Sets The URL of the service account, container, or blob that is the targe of the desired operation.
-  syntax:
-    content: " AzureBlobStorageImpl setUrl(String url)"
-    parameters:
-    - id: url
-      type: java.lang.String
-      description: the url value.
-    return:
-      type: com.azure.storage.blob.implementation.AzureBlobStorageImpl
-- uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setVersion(java.lang.String)
-  id: setVersion(java.lang.String)
-  artifact: com.azure:azure-storage-blob:12.4.0
-  parent: com.azure.storage.blob.implementation.AzureBlobStorageImpl
-  langs:
-  - java
-  name: setVersion(String version)
-  nameWithType: AzureBlobStorageImpl.setVersion(String version)
-  fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setVersion(String version)
-  overload: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setVersion*
-  type: Method
-  package: com.azure.storage.blob.implementation
-  summary: Sets Specifies the version of the operation to use for this request.
-  syntax:
-    content: " AzureBlobStorageImpl setVersion(String version)"
-    parameters:
-    - id: version
-      type: java.lang.String
-      description: the version value.
-    return:
-      type: com.azure.storage.blob.implementation.AzureBlobStorageImpl
 references:
 - uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.AzureBlobStorageImpl*
   name: AzureBlobStorageImpl
@@ -361,20 +295,10 @@ references:
   nameWithType: AzureBlobStorageImpl.getUrl
   fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.getUrl
   package: com.azure.storage.blob.implementation
-- uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setUrl*
-  name: setUrl
-  nameWithType: AzureBlobStorageImpl.setUrl
-  fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setUrl
-  package: com.azure.storage.blob.implementation
 - uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.getVersion*
   name: getVersion
   nameWithType: AzureBlobStorageImpl.getVersion
   fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.getVersion
-  package: com.azure.storage.blob.implementation
-- uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setVersion*
-  name: setVersion
-  nameWithType: AzureBlobStorageImpl.setVersion
-  fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setVersion
   package: com.azure.storage.blob.implementation
 - uid: com.azure.storage.blob.models.PathRenameMode
   name: PathRenameMode
@@ -384,11 +308,6 @@ references:
   name: getPathRenameMode
   nameWithType: AzureBlobStorageImpl.getPathRenameMode
   fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.getPathRenameMode
-  package: com.azure.storage.blob.implementation
-- uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setPathRenameMode*
-  name: setPathRenameMode
-  nameWithType: AzureBlobStorageImpl.setPathRenameMode
-  fullName: com.azure.storage.blob.implementation.AzureBlobStorageImpl.setPathRenameMode
   package: com.azure.storage.blob.implementation
 - uid: com.azure.storage.blob.implementation.AzureBlobStorageImpl.getHttpPipeline*
   name: getHttpPipeline

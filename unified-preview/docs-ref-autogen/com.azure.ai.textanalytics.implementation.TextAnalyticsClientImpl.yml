@@ -21,7 +21,6 @@ items:
   - com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.languagesWithRestResponseAsync(com.azure.ai.textanalytics.implementation.models.LanguageBatchInput,java.lang.String,java.lang.Boolean,com.azure.core.util.Context)
   - com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.sentimentWithRestResponseAsync(com.azure.ai.textanalytics.implementation.models.MultiLanguageBatchInput,com.azure.core.util.Context)
   - com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.sentimentWithRestResponseAsync(com.azure.ai.textanalytics.implementation.models.MultiLanguageBatchInput,java.lang.String,java.lang.Boolean,com.azure.core.util.Context)
-  - com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.setEndpoint(java.lang.String)
   langs:
   - java
   name: TextAnalyticsClientImpl
@@ -452,27 +451,6 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.SimpleResponse<com.azure.ai.textanalytics.implementation.models.SentimentResponse>>
       description: a Mono which performs the network request upon subscription.
-- uid: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.setEndpoint(java.lang.String)
-  id: setEndpoint(java.lang.String)
-  artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
-  parent: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl
-  langs:
-  - java
-  name: setEndpoint(String endpoint)
-  nameWithType: TextAnalyticsClientImpl.setEndpoint(String endpoint)
-  fullName: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.setEndpoint(String endpoint)
-  overload: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.setEndpoint*
-  type: Method
-  package: com.azure.ai.textanalytics.implementation
-  summary: 'Sets Supported Cognitive Services endpoints (protocol and hostname, for example: https://westus.api.cognitive.microsoft.com).'
-  syntax:
-    content: " TextAnalyticsClientImpl setEndpoint(String endpoint)"
-    parameters:
-    - id: endpoint
-      type: java.lang.String
-      description: the endpoint value.
-    return:
-      type: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl
 references:
 - uid: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.TextAnalyticsClientImpl*
   name: TextAnalyticsClientImpl
@@ -493,11 +471,6 @@ references:
   name: getEndpoint
   nameWithType: TextAnalyticsClientImpl.getEndpoint
   fullName: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.getEndpoint
-  package: com.azure.ai.textanalytics.implementation
-- uid: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.setEndpoint*
-  name: setEndpoint
-  nameWithType: TextAnalyticsClientImpl.setEndpoint
-  fullName: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.setEndpoint
   package: com.azure.ai.textanalytics.implementation
 - uid: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl.getHttpPipeline*
   name: getHttpPipeline

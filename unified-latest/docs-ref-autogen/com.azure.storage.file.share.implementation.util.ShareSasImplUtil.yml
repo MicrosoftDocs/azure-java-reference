@@ -91,13 +91,13 @@ items:
   overload: com.azure.storage.file.share.implementation.util.ShareSasImplUtil.generateSas*
   type: Method
   package: com.azure.storage.file.share.implementation.util
-  summary: Generates a Sas signed with a <xref uid="" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>
+  summary: Generates a Sas signed with a <xref uid="com.azure.storage.common.StorageSharedKeyCredential" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>
   syntax:
     content: public String generateSas(StorageSharedKeyCredential storageSharedKeyCredentials)
     parameters:
     - id: storageSharedKeyCredentials
       type: com.azure.storage.common.StorageSharedKeyCredential
-      description: <xref uid="" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>
+      description: <xref uid="com.azure.storage.common.StorageSharedKeyCredential" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>
     return:
       type: java.lang.String
       description: A String representing the Sas

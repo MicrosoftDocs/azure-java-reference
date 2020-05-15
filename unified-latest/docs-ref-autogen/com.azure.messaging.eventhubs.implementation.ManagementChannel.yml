@@ -15,7 +15,6 @@ items:
   - com.azure.messaging.eventhubs.implementation.ManagementChannel.MANAGEMENT_RESULT_PARTITION_IDS
   - com.azure.messaging.eventhubs.implementation.ManagementChannel.MANAGEMENT_RESULT_PARTITION_IS_EMPTY
   - com.azure.messaging.eventhubs.implementation.ManagementChannel.MANAGEMENT_RESULT_RUNTIME_INFO_RETRIEVAL_TIME_UTC
-  - com.azure.messaging.eventhubs.implementation.ManagementChannel.ManagementChannel(reactor.core.publisher.Mono<com.azure.core.amqp.implementation.RequestResponseChannel>,java.lang.String,com.azure.core.credential.TokenCredential,com.azure.core.amqp.implementation.TokenManagerProvider,com.azure.core.amqp.implementation.MessageSerializer,reactor.core.scheduler.Scheduler)
   - com.azure.messaging.eventhubs.implementation.ManagementChannel.close()
   - com.azure.messaging.eventhubs.implementation.ManagementChannel.getEventHubProperties()
   - com.azure.messaging.eventhubs.implementation.ManagementChannel.getPartitionProperties(java.lang.String)

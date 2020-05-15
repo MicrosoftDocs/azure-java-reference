@@ -27,13 +27,13 @@ items:
     Represents the startTime and duration of important events in the lifetime of a request.
 
 
-    A <xref uid="com.azure.cosmos.implementation.RequestTimeline" data-throw-if-not-resolved="false">RequestTimeline</xref> represents a timeline as a sequence of <xref uid="" data-throw-if-not-resolved="false">Event</xref> instances with name, startTime, and duration properties. Hence, one might use this class to represent any timeline. Today we use it to represent request timelines for:
+    A <xref uid="com.azure.cosmos.implementation.RequestTimeline" data-throw-if-not-resolved="false">RequestTimeline</xref> represents a timeline as a sequence of <xref uid="com.azure.cosmos.implementation.RequestTimeline.Event" data-throw-if-not-resolved="false">Event</xref> instances with name, startTime, and duration properties. Hence, one might use this class to represent any timeline. Today we use it to represent request timelines for:
 
-     *  <xref uid="" data-throw-if-not-resolved="false">com.azure.cosmos.implementation.http.HttpClient#send</xref>,
-     *  <xref uid="" data-throw-if-not-resolved="false">com.azure.cosmos.implementation.directconnectivity.HttpTransportClient#invokeStoreAsync</xref>, and
-     *  <xref uid="" data-throw-if-not-resolved="false">com.azure.cosmos.implementation.directconnectivity.RntbdTransportClient#invokeStoreAsync</xref>.
+     *  <xref uid="com.azure.cosmos.implementation.http.HttpClient.send" data-throw-if-not-resolved="false">com.azure.cosmos.implementation.http.HttpClient#send</xref>,
+     *  <xref uid="com.azure.cosmos.implementation.directconnectivity.HttpTransportClient.invokeStoreAsync" data-throw-if-not-resolved="false">com.azure.cosmos.implementation.directconnectivity.HttpTransportClient#invokeStoreAsync</xref>, and
+     *  <xref uid="com.azure.cosmos.implementation.directconnectivity.RntbdTransportClient.invokeStoreAsync" data-throw-if-not-resolved="false">com.azure.cosmos.implementation.directconnectivity.RntbdTransportClient#invokeStoreAsync</xref>.
 
-    A <xref uid="com.azure.cosmos.implementation.RequestTimeline" data-throw-if-not-resolved="false">RequestTimeline</xref> serializes to JSON as an array of <xref uid="" data-throw-if-not-resolved="false">Event</xref> instances. This is the default serialization for any class that implements <xref uid="java.lang.Iterable" data-throw-if-not-resolved="false">Iterable</xref>.
+    A <xref uid="com.azure.cosmos.implementation.RequestTimeline" data-throw-if-not-resolved="false">RequestTimeline</xref> serializes to JSON as an array of <xref uid="com.azure.cosmos.implementation.RequestTimeline.Event" data-throw-if-not-resolved="false">Event</xref> instances. This is the default serialization for any class that implements <xref uid="java.lang.Iterable" data-throw-if-not-resolved="false">Iterable</xref>.
 
 
     **Example:**
@@ -135,12 +135,12 @@ items:
   overload: com.azure.cosmos.implementation.RequestTimeline.iterator*
   type: Method
   package: com.azure.cosmos.implementation
-  summary: Returns an iterator for enumerating the <xref uid="" data-throw-if-not-resolved="false">Event</xref> instances in this <xref uid="com.azure.cosmos.implementation.RequestTimeline" data-throw-if-not-resolved="false">RequestTimeline</xref>.
+  summary: Returns an iterator for enumerating the <xref uid="com.azure.cosmos.implementation.RequestTimeline.Event" data-throw-if-not-resolved="false">Event</xref> instances in this <xref uid="com.azure.cosmos.implementation.RequestTimeline" data-throw-if-not-resolved="false">RequestTimeline</xref>.
   syntax:
     content: public Iterator<RequestTimeline.Event> iterator()
     return:
       type: java.util.Iterator<com.azure.cosmos.implementation.RequestTimeline.Event>
-      description: an iterator for enumerating the <xref uid="" data-throw-if-not-resolved="false">Event</xref> instances in this <xref uid="com.azure.cosmos.implementation.RequestTimeline" data-throw-if-not-resolved="false">RequestTimeline</xref>.
+      description: an iterator for enumerating the <xref uid="com.azure.cosmos.implementation.RequestTimeline.Event" data-throw-if-not-resolved="false">Event</xref> instances in this <xref uid="com.azure.cosmos.implementation.RequestTimeline" data-throw-if-not-resolved="false">RequestTimeline</xref>.
 - uid: com.azure.cosmos.implementation.RequestTimeline.of()
   id: of()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2

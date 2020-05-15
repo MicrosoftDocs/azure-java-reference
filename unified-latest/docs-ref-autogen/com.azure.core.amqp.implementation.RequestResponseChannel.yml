@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-core-amqp:1.0.1
   parent: com.azure.core.amqp.implementation
   children:
-  - com.azure.core.amqp.implementation.RequestResponseChannel.RequestResponseChannel(java.lang.String,java.lang.String,java.lang.String,java.lang.String,org.apache.qpid.proton.engine.Session,com.azure.core.amqp.AmqpRetryOptions,com.azure.core.amqp.implementation.ReactorHandlerProvider,com.azure.core.amqp.implementation.ReactorProvider,com.azure.core.amqp.implementation.MessageSerializer)
   - com.azure.core.amqp.implementation.RequestResponseChannel.dispose()
   - com.azure.core.amqp.implementation.RequestResponseChannel.getEndpointStates()
   - com.azure.core.amqp.implementation.RequestResponseChannel.isDisposed()

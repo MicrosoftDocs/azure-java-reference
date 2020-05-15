@@ -14,7 +14,6 @@ items:
   - com.azure.cosmos.implementation.ResourceResponse.getCollectionUsage()
   - com.azure.cosmos.implementation.ResourceResponse.getCosmosResponseDiagnosticString()
   - com.azure.cosmos.implementation.ResourceResponse.getCosmosResponseDiagnostics()
-  - com.azure.cosmos.implementation.ResourceResponse.getCurrentQuotaHeader(java.lang.String)
   - com.azure.cosmos.implementation.ResourceResponse.getCurrentResourceQuotaUsage()
   - com.azure.cosmos.implementation.ResourceResponse.getDatabaseQuota()
   - com.azure.cosmos.implementation.ResourceResponse.getDatabaseUsage()
@@ -24,7 +23,6 @@ items:
   - com.azure.cosmos.implementation.ResourceResponse.getDocumentUsage()
   - com.azure.cosmos.implementation.ResourceResponse.getIndexTransformationProgress()
   - com.azure.cosmos.implementation.ResourceResponse.getLazyIndexingProgress()
-  - com.azure.cosmos.implementation.ResourceResponse.getMaxQuotaHeader(java.lang.String)
   - com.azure.cosmos.implementation.ResourceResponse.getMaxResourceQuota()
   - com.azure.cosmos.implementation.ResourceResponse.getPermissionQuota()
   - com.azure.cosmos.implementation.ResourceResponse.getPermissionUsage()
@@ -229,25 +227,6 @@ items:
     return:
       type: com.azure.cosmos.CosmosResponseDiagnostics
       description: request diagnostic statistics for the current request to Azure Cosmos DB service.
-- uid: com.azure.cosmos.implementation.ResourceResponse.getCurrentQuotaHeader(java.lang.String)
-  id: getCurrentQuotaHeader(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceResponse
-  langs:
-  - java
-  name: getCurrentQuotaHeader(String headerName)
-  nameWithType: ResourceResponse<T>.getCurrentQuotaHeader(String headerName)
-  fullName: com.azure.cosmos.implementation.ResourceResponse<T>.getCurrentQuotaHeader(String headerName)
-  overload: com.azure.cosmos.implementation.ResourceResponse.getCurrentQuotaHeader*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " long getCurrentQuotaHeader(String headerName)"
-    parameters:
-    - id: headerName
-      type: java.lang.String
-    return:
-      type: long
 - uid: com.azure.cosmos.implementation.ResourceResponse.getCurrentResourceQuotaUsage()
   id: getCurrentResourceQuotaUsage()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -410,25 +389,6 @@ items:
     return:
       type: long
       description: the progress of lazy indexing.
-- uid: com.azure.cosmos.implementation.ResourceResponse.getMaxQuotaHeader(java.lang.String)
-  id: getMaxQuotaHeader(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceResponse
-  langs:
-  - java
-  name: getMaxQuotaHeader(String headerName)
-  nameWithType: ResourceResponse<T>.getMaxQuotaHeader(String headerName)
-  fullName: com.azure.cosmos.implementation.ResourceResponse<T>.getMaxQuotaHeader(String headerName)
-  overload: com.azure.cosmos.implementation.ResourceResponse.getMaxQuotaHeader*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " long getMaxQuotaHeader(String headerName)"
-    parameters:
-    - id: headerName
-      type: java.lang.String
-    return:
-      type: long
 - uid: com.azure.cosmos.implementation.ResourceResponse.getMaxResourceQuota()
   id: getMaxResourceQuota()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -977,16 +937,6 @@ references:
   name: getCosmosResponseDiagnosticString
   nameWithType: ResourceResponse<T>.getCosmosResponseDiagnosticString
   fullName: com.azure.cosmos.implementation.ResourceResponse<T>.getCosmosResponseDiagnosticString
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.ResourceResponse.getCurrentQuotaHeader*
-  name: getCurrentQuotaHeader
-  nameWithType: ResourceResponse<T>.getCurrentQuotaHeader
-  fullName: com.azure.cosmos.implementation.ResourceResponse<T>.getCurrentQuotaHeader
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.ResourceResponse.getMaxQuotaHeader*
-  name: getMaxQuotaHeader
-  nameWithType: ResourceResponse<T>.getMaxQuotaHeader
-  fullName: com.azure.cosmos.implementation.ResourceResponse<T>.getMaxQuotaHeader
   package: com.azure.cosmos.implementation
 - uid: java.lang.Object.notify()
   name: Object.notify()

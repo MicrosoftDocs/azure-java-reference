@@ -22,7 +22,6 @@ items:
   - com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.PERMISSIONS_PATH_SEGMENT
   - com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.Paths()
   - com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.RID_RANGE_PATH_SEGMENT
-  - com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.ROOT
   - com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.SCHEMAS_PATH_SEGMENT
   - com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.STORED_PROCEDURES_PATH_SEGMENT
   - com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.TOPOLOGY_PATH_SEGMENT
@@ -306,21 +305,6 @@ items:
   package: com.azure.cosmos.implementation.changefeed.implementation
   syntax:
     content: public static final String RID_RANGE_PATH_SEGMENT
-    return:
-      type: java.lang.String
-- uid: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.ROOT
-  id: ROOT
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths
-  langs:
-  - java
-  name: ROOT
-  nameWithType: ChangeFeedHelper.Paths.ROOT
-  fullName: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.ROOT
-  type: Field
-  package: com.azure.cosmos.implementation.changefeed.implementation
-  syntax:
-    content: static final String ROOT
     return:
       type: java.lang.String
 - uid: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedHelper.Paths.SCHEMAS_PATH_SEGMENT

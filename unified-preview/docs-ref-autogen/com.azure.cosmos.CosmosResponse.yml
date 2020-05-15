@@ -5,10 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.CosmosResponse.CosmosResponse(T)
-  - com.azure.cosmos.CosmosResponse.CosmosResponse(com.azure.cosmos.implementation.ResourceResponse)
-  - com.azure.cosmos.CosmosResponse.CosmosResponse(com.azure.cosmos.implementation.ResourceResponse,T)
-  - com.azure.cosmos.CosmosResponse.CosmosResponse(com.azure.cosmos.implementation.StoredProcedureResponse)
   - com.azure.cosmos.CosmosResponse.getActivityId()
   - com.azure.cosmos.CosmosResponse.getCosmosResponseDiagnostics()
   - com.azure.cosmos.CosmosResponse.getCurrentResourceQuotaUsage()
@@ -19,8 +15,6 @@ items:
   - com.azure.cosmos.CosmosResponse.getResponseHeaders()
   - com.azure.cosmos.CosmosResponse.getSessionToken()
   - com.azure.cosmos.CosmosResponse.getStatusCode()
-  - com.azure.cosmos.CosmosResponse.resourceResponseWrapper
-  - com.azure.cosmos.CosmosResponse.setProperties(T)
   langs:
   - java
   name: CosmosResponse<T>
@@ -294,40 +288,6 @@ items:
     return:
       type: int
       description: the status code.
-- uid: com.azure.cosmos.CosmosResponse.resourceResponseWrapper
-  id: resourceResponseWrapper
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosResponse
-  langs:
-  - java
-  name: resourceResponseWrapper
-  nameWithType: CosmosResponse<T>.resourceResponseWrapper
-  fullName: com.azure.cosmos.CosmosResponse<T>.resourceResponseWrapper
-  type: Field
-  package: com.azure.cosmos
-  syntax:
-    content: final ResourceResponse resourceResponseWrapper
-    return:
-      type: com.azure.cosmos.implementation.ResourceResponse
-- uid: com.azure.cosmos.CosmosResponse.setProperties(T)
-  id: setProperties(T)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosResponse
-  langs:
-  - java
-  name: setProperties(T resourceSettings)
-  nameWithType: CosmosResponse<T>.setProperties(T resourceSettings)
-  fullName: com.azure.cosmos.CosmosResponse<T>.setProperties(T resourceSettings)
-  overload: com.azure.cosmos.CosmosResponse.setProperties*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " CosmosResponse<T> setProperties(T resourceSettings)"
-    parameters:
-    - id: resourceSettings
-      type: T
-    return:
-      type: com.azure.cosmos.CosmosResponse<T>
 references:
 - uid: com.azure.cosmos.implementation.ResourceResponse
   spec.java:
@@ -352,23 +312,6 @@ references:
   name: getProperties
   nameWithType: CosmosResponse<T>.getProperties
   fullName: com.azure.cosmos.CosmosResponse<T>.getProperties
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.CosmosResponse<T>
-  spec.java:
-  - uid: com.azure.cosmos.CosmosResponse
-    name: CosmosResponse
-    fullName: com.azure.cosmos.CosmosResponse
-  - name: <
-    fullName: <
-  - uid: T
-    name: T
-    fullName: T
-  - name: '>'
-    fullName: '>'
-- uid: com.azure.cosmos.CosmosResponse.setProperties*
-  name: setProperties
-  nameWithType: CosmosResponse<T>.setProperties
-  fullName: com.azure.cosmos.CosmosResponse<T>.setProperties
   package: com.azure.cosmos
 - uid: java.lang.String
   spec.java:

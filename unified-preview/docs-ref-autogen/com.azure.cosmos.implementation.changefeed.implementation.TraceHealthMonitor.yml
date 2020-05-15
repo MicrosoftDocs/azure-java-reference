@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos.implementation.changefeed.implementation
   children:
-  - com.azure.cosmos.implementation.changefeed.implementation.TraceHealthMonitor.TraceHealthMonitor()
   - com.azure.cosmos.implementation.changefeed.implementation.TraceHealthMonitor.inspect(com.azure.cosmos.implementation.changefeed.HealthMonitoringRecord)
   langs:
   - java

@@ -61,19 +61,19 @@ items:
   overload: com.azure.storage.queue.implementation.util.BuilderHelper.buildPipeline*
   type: Method
   package: com.azure.storage.queue.implementation.util
-  summary: Constructs a <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> from values passed from a builder.
+  summary: Constructs a <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref> from values passed from a builder.
   syntax:
     content: public static HttpPipeline buildPipeline(StorageSharedKeyCredential storageSharedKeyCredential, TokenCredential tokenCredential, SasTokenCredential sasTokenCredential, String endpoint, RequestRetryOptions retryOptions, HttpLogOptions logOptions, HttpClient httpClient, List<HttpPipelinePolicy> additionalPolicies, Configuration configuration, ClientLogger logger)
     parameters:
     - id: storageSharedKeyCredential
       type: com.azure.storage.common.StorageSharedKeyCredential
-      description: <xref uid="" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref> if present.
+      description: <xref uid="com.azure.storage.common.StorageSharedKeyCredential" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref> if present.
     - id: tokenCredential
       type: com.azure.core.credential.TokenCredential
-      description: <xref uid="" data-throw-if-not-resolved="false">TokenCredential</xref> if present.
+      description: <xref uid="com.azure.core.credential.TokenCredential" data-throw-if-not-resolved="false">TokenCredential</xref> if present.
     - id: sasTokenCredential
       type: com.azure.storage.common.implementation.credentials.SasTokenCredential
-      description: <xref uid="" data-throw-if-not-resolved="false">SasTokenCredential</xref> if present.
+      description: <xref uid="com.azure.storage.common.implementation.credentials.SasTokenCredential" data-throw-if-not-resolved="false">SasTokenCredential</xref> if present.
     - id: endpoint
       type: java.lang.String
       description: The endpoint for the client.
@@ -94,10 +94,10 @@ items:
       description: Configuration store contain environment settings.
     - id: logger
       type: com.azure.core.util.logging.ClientLogger
-      description: <xref uid="" data-throw-if-not-resolved="false">ClientLogger</xref> used to log any exception.
+      description: <xref uid="com.azure.core.util.logging.ClientLogger" data-throw-if-not-resolved="false">ClientLogger</xref> used to log any exception.
     return:
       type: com.azure.core.http.HttpPipeline
-      description: A new <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> from the passed values.
+      description: A new <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref> from the passed values.
 - uid: com.azure.storage.queue.implementation.util.BuilderHelper.getDefaultHttpLogOptions()
   id: getDefaultHttpLogOptions()
   artifact: com.azure:azure-storage-queue:12.3.0
@@ -143,7 +143,7 @@ items:
       description: The endpoint for the client.
     - id: logger
       type: com.azure.core.util.logging.ClientLogger
-      description: <xref uid="" data-throw-if-not-resolved="false">ClientLogger</xref> used to log any exception.
+      description: <xref uid="com.azure.core.util.logging.ClientLogger" data-throw-if-not-resolved="false">ClientLogger</xref> used to log any exception.
 - uid: com.azure.storage.queue.implementation.util.BuilderHelper.parseEndpoint(java.lang.String,com.azure.core.util.logging.ClientLogger)
   id: parseEndpoint(java.lang.String,com.azure.core.util.logging.ClientLogger)
   artifact: com.azure:azure-storage-queue:12.3.0
@@ -165,7 +165,7 @@ items:
       description: Endpoint to parse.
     - id: logger
       type: com.azure.core.util.logging.ClientLogger
-      description: <xref uid="" data-throw-if-not-resolved="false">ClientLogger</xref> used to log any exception.
+      description: <xref uid="com.azure.core.util.logging.ClientLogger" data-throw-if-not-resolved="false">ClientLogger</xref> used to log any exception.
     return:
       type: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts
       description: The parsed endpoint as a <xref uid="" data-throw-if-not-resolved="false">QueueUrlParts</xref>.

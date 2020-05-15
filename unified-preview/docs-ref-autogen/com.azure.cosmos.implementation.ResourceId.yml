@@ -5,12 +5,7 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos.implementation
   children:
-  - com.azure.cosmos.implementation.ResourceId.Length
-  - com.azure.cosmos.implementation.ResourceId.MAX_PATH_FRAGMENT
-  - com.azure.cosmos.implementation.ResourceId.OFFER_ID_LENGTH
-  - com.azure.cosmos.implementation.ResourceId.blockCopy(byte[],int,byte[],int,int)
   - com.azure.cosmos.implementation.ResourceId.equals(com.azure.cosmos.implementation.ResourceId)
-  - com.azure.cosmos.implementation.ResourceId.fromBase64String(java.lang.String)
   - com.azure.cosmos.implementation.ResourceId.getAttachment()
   - com.azure.cosmos.implementation.ResourceId.getAttachmentId()
   - com.azure.cosmos.implementation.ResourceId.getConflict()
@@ -40,14 +35,11 @@ items:
   - com.azure.cosmos.implementation.ResourceId.isDatabaseId()
   - com.azure.cosmos.implementation.ResourceId.newAttachmentId(java.lang.String,int)
   - com.azure.cosmos.implementation.ResourceId.newDatabaseId(int)
-  - com.azure.cosmos.implementation.ResourceId.newDocumentCollectionId(int,int)
   - com.azure.cosmos.implementation.ResourceId.newDocumentCollectionId(java.lang.String,int)
   - com.azure.cosmos.implementation.ResourceId.newPermissionId(java.lang.String,long)
   - com.azure.cosmos.implementation.ResourceId.newUserId(java.lang.String,int)
   - com.azure.cosmos.implementation.ResourceId.parse(com.azure.cosmos.implementation.ResourceType,java.lang.String)
   - com.azure.cosmos.implementation.ResourceId.parse(java.lang.String)
-  - com.azure.cosmos.implementation.ResourceId.toBase64String(byte[])
-  - com.azure.cosmos.implementation.ResourceId.toBase64String(byte[],int,int)
   - com.azure.cosmos.implementation.ResourceId.toString()
   - com.azure.cosmos.implementation.ResourceId.tryParse(java.lang.String)
   - com.azure.cosmos.implementation.ResourceId.verify(java.lang.String)
@@ -76,51 +68,6 @@ items:
   - java.lang.Object.wait()
   - java.lang.Object.wait(long)
   - java.lang.Object.wait(long,int)
-- uid: com.azure.cosmos.implementation.ResourceId.Length
-  id: Length
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceId
-  langs:
-  - java
-  name: Length
-  nameWithType: ResourceId.Length
-  fullName: com.azure.cosmos.implementation.ResourceId.Length
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static final short Length
-    return:
-      type: short
-- uid: com.azure.cosmos.implementation.ResourceId.MAX_PATH_FRAGMENT
-  id: MAX_PATH_FRAGMENT
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceId
-  langs:
-  - java
-  name: MAX_PATH_FRAGMENT
-  nameWithType: ResourceId.MAX_PATH_FRAGMENT
-  fullName: com.azure.cosmos.implementation.ResourceId.MAX_PATH_FRAGMENT
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static final short MAX_PATH_FRAGMENT
-    return:
-      type: short
-- uid: com.azure.cosmos.implementation.ResourceId.OFFER_ID_LENGTH
-  id: OFFER_ID_LENGTH
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceId
-  langs:
-  - java
-  name: OFFER_ID_LENGTH
-  nameWithType: ResourceId.OFFER_ID_LENGTH
-  fullName: com.azure.cosmos.implementation.ResourceId.OFFER_ID_LENGTH
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static final short OFFER_ID_LENGTH
-    return:
-      type: short
 - uid: com.azure.cosmos.implementation.ResourceId.ResourceId()
   id: ResourceId()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -135,31 +82,6 @@ items:
   package: com.azure.cosmos.implementation
   syntax:
     content: private ResourceId()
-- uid: com.azure.cosmos.implementation.ResourceId.blockCopy(byte[],int,byte[],int,int)
-  id: blockCopy(byte[],int,byte[],int,int)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceId
-  langs:
-  - java
-  name: blockCopy(byte[] src, int srcOffset, byte[] dst, int dstOffset, int count)
-  nameWithType: ResourceId.blockCopy(byte[] src, int srcOffset, byte[] dst, int dstOffset, int count)
-  fullName: com.azure.cosmos.implementation.ResourceId.blockCopy(byte[] src, int srcOffset, byte[] dst, int dstOffset, int count)
-  overload: com.azure.cosmos.implementation.ResourceId.blockCopy*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static void blockCopy(byte[] src, int srcOffset, byte[] dst, int dstOffset, int count)
-    parameters:
-    - id: src
-      type: byte[]
-    - id: srcOffset
-      type: int
-    - id: dst
-      type: byte[]
-    - id: dstOffset
-      type: int
-    - id: count
-      type: int
 - uid: com.azure.cosmos.implementation.ResourceId.equals(com.azure.cosmos.implementation.ResourceId)
   id: equals(com.azure.cosmos.implementation.ResourceId)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -179,25 +101,6 @@ items:
       type: com.azure.cosmos.implementation.ResourceId
     return:
       type: boolean
-- uid: com.azure.cosmos.implementation.ResourceId.fromBase64String(java.lang.String)
-  id: fromBase64String(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceId
-  langs:
-  - java
-  name: fromBase64String(String s)
-  nameWithType: ResourceId.fromBase64String(String s)
-  fullName: com.azure.cosmos.implementation.ResourceId.fromBase64String(String s)
-  overload: com.azure.cosmos.implementation.ResourceId.fromBase64String*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static byte[] fromBase64String(String s)
-    parameters:
-    - id: s
-      type: java.lang.String
-    return:
-      type: byte[]
 - uid: com.azure.cosmos.implementation.ResourceId.getAttachment()
   id: getAttachment()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -672,27 +575,6 @@ items:
       type: int
     return:
       type: com.azure.cosmos.implementation.ResourceId
-- uid: com.azure.cosmos.implementation.ResourceId.newDocumentCollectionId(int,int)
-  id: newDocumentCollectionId(int,int)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceId
-  langs:
-  - java
-  name: newDocumentCollectionId(int dbId, int collectionId)
-  nameWithType: ResourceId.newDocumentCollectionId(int dbId, int collectionId)
-  fullName: com.azure.cosmos.implementation.ResourceId.newDocumentCollectionId(int dbId, int collectionId)
-  overload: com.azure.cosmos.implementation.ResourceId.newDocumentCollectionId*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static ResourceId newDocumentCollectionId(int dbId, int collectionId)
-    parameters:
-    - id: dbId
-      type: int
-    - id: collectionId
-      type: int
-    return:
-      type: com.azure.cosmos.implementation.ResourceId
 - uid: com.azure.cosmos.implementation.ResourceId.newDocumentCollectionId(java.lang.String,int)
   id: newDocumentCollectionId(java.lang.String,int)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -798,48 +680,6 @@ items:
       type: com.azure.cosmos.implementation.ResourceId
   exceptions:
   - type: java.lang.IllegalArgumentException
-- uid: com.azure.cosmos.implementation.ResourceId.toBase64String(byte[])
-  id: toBase64String(byte[])
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceId
-  langs:
-  - java
-  name: toBase64String(byte[] buffer)
-  nameWithType: ResourceId.toBase64String(byte[] buffer)
-  fullName: com.azure.cosmos.implementation.ResourceId.toBase64String(byte[] buffer)
-  overload: com.azure.cosmos.implementation.ResourceId.toBase64String*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static String toBase64String(byte[] buffer)
-    parameters:
-    - id: buffer
-      type: byte[]
-    return:
-      type: java.lang.String
-- uid: com.azure.cosmos.implementation.ResourceId.toBase64String(byte[],int,int)
-  id: toBase64String(byte[],int,int)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.ResourceId
-  langs:
-  - java
-  name: toBase64String(byte[] buffer, int offset, int length)
-  nameWithType: ResourceId.toBase64String(byte[] buffer, int offset, int length)
-  fullName: com.azure.cosmos.implementation.ResourceId.toBase64String(byte[] buffer, int offset, int length)
-  overload: com.azure.cosmos.implementation.ResourceId.toBase64String*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static String toBase64String(byte[] buffer, int offset, int length)
-    parameters:
-    - id: buffer
-      type: byte[]
-    - id: offset
-      type: int
-    - id: length
-      type: int
-    return:
-      type: java.lang.String
 - uid: com.azure.cosmos.implementation.ResourceId.toString()
   id: toString()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -1036,21 +876,6 @@ references:
   nameWithType: ResourceId.verifyBool
   fullName: com.azure.cosmos.implementation.ResourceId.verifyBool
   package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.ResourceId.fromBase64String*
-  name: fromBase64String
-  nameWithType: ResourceId.fromBase64String
-  fullName: com.azure.cosmos.implementation.ResourceId.fromBase64String
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.ResourceId.toBase64String*
-  name: toBase64String
-  nameWithType: ResourceId.toBase64String
-  fullName: com.azure.cosmos.implementation.ResourceId.toBase64String
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.ResourceId.blockCopy*
-  name: blockCopy
-  nameWithType: ResourceId.blockCopy
-  fullName: com.azure.cosmos.implementation.ResourceId.blockCopy
-  package: com.azure.cosmos.implementation
 - uid: com.azure.cosmos.implementation.ResourceId.isDatabaseId*
   name: isDatabaseId
   nameWithType: ResourceId.isDatabaseId
@@ -1196,11 +1021,6 @@ references:
   nameWithType: ResourceId.equals
   fullName: com.azure.cosmos.implementation.ResourceId.equals
   package: com.azure.cosmos.implementation
-- uid: short
-  spec.java:
-  - uid: short
-    name: short
-    fullName: short
 - uid: java.lang.Object.notify()
   name: Object.notify()
   nameWithType: Object.notify()

@@ -8,7 +8,6 @@ items:
   - com.azure.cosmos.CosmosPermissionRequestOptions.CosmosPermissionRequestOptions()
   - com.azure.cosmos.CosmosPermissionRequestOptions.getAccessCondition()
   - com.azure.cosmos.CosmosPermissionRequestOptions.setAccessCondition(com.azure.cosmos.AccessCondition)
-  - com.azure.cosmos.CosmosPermissionRequestOptions.toRequestOptions()
   langs:
   - java
   name: CosmosPermissionRequestOptions
@@ -87,22 +86,6 @@ items:
     return:
       type: com.azure.cosmos.CosmosPermissionRequestOptions
       description: the current request options
-- uid: com.azure.cosmos.CosmosPermissionRequestOptions.toRequestOptions()
-  id: toRequestOptions()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosPermissionRequestOptions
-  langs:
-  - java
-  name: toRequestOptions()
-  nameWithType: CosmosPermissionRequestOptions.toRequestOptions()
-  fullName: com.azure.cosmos.CosmosPermissionRequestOptions.toRequestOptions()
-  overload: com.azure.cosmos.CosmosPermissionRequestOptions.toRequestOptions*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " RequestOptions toRequestOptions()"
-    return:
-      type: com.azure.cosmos.implementation.RequestOptions
 references:
 - uid: com.azure.cosmos.CosmosPermissionRequestOptions.CosmosPermissionRequestOptions*
   name: CosmosPermissionRequestOptions
@@ -122,15 +105,6 @@ references:
   name: setAccessCondition
   nameWithType: CosmosPermissionRequestOptions.setAccessCondition
   fullName: com.azure.cosmos.CosmosPermissionRequestOptions.setAccessCondition
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.implementation.RequestOptions
-  name: RequestOptions
-  nameWithType: RequestOptions
-  fullName: com.azure.cosmos.implementation.RequestOptions
-- uid: com.azure.cosmos.CosmosPermissionRequestOptions.toRequestOptions*
-  name: toRequestOptions
-  nameWithType: CosmosPermissionRequestOptions.toRequestOptions
-  fullName: com.azure.cosmos.CosmosPermissionRequestOptions.toRequestOptions
   package: com.azure.cosmos
 - uid: java.lang.Object.notify()
   name: Object.notify()

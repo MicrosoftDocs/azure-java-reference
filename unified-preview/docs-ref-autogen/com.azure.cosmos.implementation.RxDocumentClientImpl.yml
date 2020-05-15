@@ -6,16 +6,12 @@ items:
   parent: com.azure.cosmos.implementation
   children:
   - com.azure.cosmos.implementation.RxDocumentClientImpl.<T>readMany(java.util.List<org.apache.commons.lang3.tuple.Pair<java.lang.String,com.azure.cosmos.PartitionKey>>,java.lang.String,com.azure.cosmos.FeedOptions,java.lang.Class<T>)
-  - com.azure.cosmos.implementation.RxDocumentClientImpl.RxDocumentClientImpl(java.net.URI,java.lang.String,com.azure.cosmos.ConnectionPolicy,com.azure.cosmos.ConsistencyLevel,com.azure.cosmos.implementation.Configs,com.azure.cosmos.CosmosKeyCredential,boolean)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.RxDocumentClientImpl(java.net.URI,java.lang.String,java.util.List<com.azure.cosmos.implementation.Permission>,com.azure.cosmos.ConnectionPolicy,com.azure.cosmos.ConsistencyLevel,com.azure.cosmos.implementation.Configs,com.azure.cosmos.TokenResolver,com.azure.cosmos.CosmosKeyCredential,boolean)
-  - com.azure.cosmos.implementation.RxDocumentClientImpl.asDatabaseAccountManagerInternal()
-  - com.azure.cosmos.implementation.RxDocumentClientImpl.captureSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.implementation.RxDocumentServiceResponse)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.close()
   - com.azure.cosmos.implementation.RxDocumentClientImpl.createCollection(java.lang.String,com.azure.cosmos.implementation.DocumentCollection,com.azure.cosmos.implementation.RequestOptions)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.createDatabase(com.azure.cosmos.implementation.Database,com.azure.cosmos.implementation.RequestOptions)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.createDocument(java.lang.String,java.lang.Object,com.azure.cosmos.implementation.RequestOptions,boolean)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.createPermission(java.lang.String,com.azure.cosmos.implementation.Permission,com.azure.cosmos.implementation.RequestOptions)
-  - com.azure.cosmos.implementation.RxDocumentClientImpl.createRxGatewayProxy(com.azure.cosmos.implementation.ISessionContainer,com.azure.cosmos.ConsistencyLevel,com.azure.cosmos.implementation.QueryCompatibilityMode,com.azure.cosmos.implementation.UserAgentContainer,com.azure.cosmos.implementation.GlobalEndpointManager,com.azure.cosmos.implementation.http.HttpClient)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.createStoredProcedure(java.lang.String,com.azure.cosmos.implementation.StoredProcedure,com.azure.cosmos.implementation.RequestOptions)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.createTrigger(java.lang.String,com.azure.cosmos.implementation.Trigger,com.azure.cosmos.implementation.RequestOptions)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.createUser(java.lang.String,com.azure.cosmos.implementation.User,com.azure.cosmos.implementation.RequestOptions)
@@ -70,7 +66,6 @@ items:
   - com.azure.cosmos.implementation.RxDocumentClientImpl.readDatabases(com.azure.cosmos.FeedOptions)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.readDocument(java.lang.String,com.azure.cosmos.implementation.RequestOptions)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.readDocuments(java.lang.String,com.azure.cosmos.FeedOptions)
-  - com.azure.cosmos.implementation.RxDocumentClientImpl.readFeed(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.readOffer(java.lang.String)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.readOffers(com.azure.cosmos.FeedOptions)
   - com.azure.cosmos.implementation.RxDocumentClientImpl.readPartitionKeyRanges(java.lang.String,com.azure.cosmos.FeedOptions)
@@ -245,41 +240,6 @@ items:
       type: com.azure.cosmos.CosmosKeyCredential
     - id: sessionCapturingOverride
       type: boolean
-- uid: com.azure.cosmos.implementation.RxDocumentClientImpl.asDatabaseAccountManagerInternal()
-  id: asDatabaseAccountManagerInternal()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RxDocumentClientImpl
-  langs:
-  - java
-  name: asDatabaseAccountManagerInternal()
-  nameWithType: RxDocumentClientImpl.asDatabaseAccountManagerInternal()
-  fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.asDatabaseAccountManagerInternal()
-  overload: com.azure.cosmos.implementation.RxDocumentClientImpl.asDatabaseAccountManagerInternal*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " DatabaseAccountManagerInternal asDatabaseAccountManagerInternal()"
-    return:
-      type: com.azure.cosmos.implementation.DatabaseAccountManagerInternal
-- uid: com.azure.cosmos.implementation.RxDocumentClientImpl.captureSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.implementation.RxDocumentServiceResponse)
-  id: captureSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.implementation.RxDocumentServiceResponse)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RxDocumentClientImpl
-  langs:
-  - java
-  name: captureSessionToken(RxDocumentServiceRequest request, RxDocumentServiceResponse response)
-  nameWithType: RxDocumentClientImpl.captureSessionToken(RxDocumentServiceRequest request, RxDocumentServiceResponse response)
-  fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.captureSessionToken(RxDocumentServiceRequest request, RxDocumentServiceResponse response)
-  overload: com.azure.cosmos.implementation.RxDocumentClientImpl.captureSessionToken*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " void captureSessionToken(RxDocumentServiceRequest request, RxDocumentServiceResponse response)"
-    parameters:
-    - id: request
-      type: com.azure.cosmos.implementation.RxDocumentServiceRequest
-    - id: response
-      type: com.azure.cosmos.implementation.RxDocumentServiceResponse
 - uid: com.azure.cosmos.implementation.RxDocumentClientImpl.close()
   id: close()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -386,35 +346,6 @@ items:
       type: com.azure.cosmos.implementation.RequestOptions
     return:
       type: reactor.core.publisher.Mono<com.azure.cosmos.implementation.ResourceResponse<com.azure.cosmos.implementation.Permission>>
-- uid: com.azure.cosmos.implementation.RxDocumentClientImpl.createRxGatewayProxy(com.azure.cosmos.implementation.ISessionContainer,com.azure.cosmos.ConsistencyLevel,com.azure.cosmos.implementation.QueryCompatibilityMode,com.azure.cosmos.implementation.UserAgentContainer,com.azure.cosmos.implementation.GlobalEndpointManager,com.azure.cosmos.implementation.http.HttpClient)
-  id: createRxGatewayProxy(com.azure.cosmos.implementation.ISessionContainer,com.azure.cosmos.ConsistencyLevel,com.azure.cosmos.implementation.QueryCompatibilityMode,com.azure.cosmos.implementation.UserAgentContainer,com.azure.cosmos.implementation.GlobalEndpointManager,com.azure.cosmos.implementation.http.HttpClient)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RxDocumentClientImpl
-  langs:
-  - java
-  name: createRxGatewayProxy(ISessionContainer sessionContainer, ConsistencyLevel consistencyLevel, QueryCompatibilityMode queryCompatibilityMode, UserAgentContainer userAgentContainer, GlobalEndpointManager globalEndpointManager, HttpClient httpClient)
-  nameWithType: RxDocumentClientImpl.createRxGatewayProxy(ISessionContainer sessionContainer, ConsistencyLevel consistencyLevel, QueryCompatibilityMode queryCompatibilityMode, UserAgentContainer userAgentContainer, GlobalEndpointManager globalEndpointManager, HttpClient httpClient)
-  fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.createRxGatewayProxy(ISessionContainer sessionContainer, ConsistencyLevel consistencyLevel, QueryCompatibilityMode queryCompatibilityMode, UserAgentContainer userAgentContainer, GlobalEndpointManager globalEndpointManager, HttpClient httpClient)
-  overload: com.azure.cosmos.implementation.RxDocumentClientImpl.createRxGatewayProxy*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " RxGatewayStoreModel createRxGatewayProxy(ISessionContainer sessionContainer, ConsistencyLevel consistencyLevel, QueryCompatibilityMode queryCompatibilityMode, UserAgentContainer userAgentContainer, GlobalEndpointManager globalEndpointManager, HttpClient httpClient)"
-    parameters:
-    - id: sessionContainer
-      type: com.azure.cosmos.implementation.ISessionContainer
-    - id: consistencyLevel
-      type: com.azure.cosmos.ConsistencyLevel
-    - id: queryCompatibilityMode
-      type: com.azure.cosmos.implementation.QueryCompatibilityMode
-    - id: userAgentContainer
-      type: com.azure.cosmos.implementation.UserAgentContainer
-    - id: globalEndpointManager
-      type: com.azure.cosmos.implementation.GlobalEndpointManager
-    - id: httpClient
-      type: com.azure.cosmos.implementation.http.HttpClient
-    return:
-      type: com.azure.cosmos.implementation.RxGatewayStoreModel
 - uid: com.azure.cosmos.implementation.RxDocumentClientImpl.createStoredProcedure(java.lang.String,com.azure.cosmos.implementation.StoredProcedure,com.azure.cosmos.implementation.RequestOptions)
   id: createStoredProcedure(java.lang.String,com.azure.cosmos.implementation.StoredProcedure,com.azure.cosmos.implementation.RequestOptions)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -1553,25 +1484,6 @@ items:
       type: com.azure.cosmos.FeedOptions
     return:
       type: reactor.core.publisher.Flux<com.azure.cosmos.FeedResponse<com.azure.cosmos.implementation.Document>>
-- uid: com.azure.cosmos.implementation.RxDocumentClientImpl.readFeed(com.azure.cosmos.implementation.RxDocumentServiceRequest)
-  id: readFeed(com.azure.cosmos.implementation.RxDocumentServiceRequest)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RxDocumentClientImpl
-  langs:
-  - java
-  name: readFeed(RxDocumentServiceRequest request)
-  nameWithType: RxDocumentClientImpl.readFeed(RxDocumentServiceRequest request)
-  fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.readFeed(RxDocumentServiceRequest request)
-  overload: com.azure.cosmos.implementation.RxDocumentClientImpl.readFeed*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " Mono<RxDocumentServiceResponse> readFeed(RxDocumentServiceRequest request)"
-    parameters:
-    - id: request
-      type: com.azure.cosmos.implementation.RxDocumentServiceRequest
-    return:
-      type: reactor.core.publisher.Mono<com.azure.cosmos.implementation.RxDocumentServiceResponse>
 - uid: com.azure.cosmos.implementation.RxDocumentClientImpl.readOffer(java.lang.String)
   id: readOffer(java.lang.String)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -2245,44 +2157,6 @@ references:
   nameWithType: RxDocumentClientImpl.init
   fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.init
   package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.DatabaseAccountManagerInternal
-  name: DatabaseAccountManagerInternal
-  nameWithType: DatabaseAccountManagerInternal
-  fullName: com.azure.cosmos.implementation.DatabaseAccountManagerInternal
-- uid: com.azure.cosmos.implementation.RxDocumentClientImpl.asDatabaseAccountManagerInternal*
-  name: asDatabaseAccountManagerInternal
-  nameWithType: RxDocumentClientImpl.asDatabaseAccountManagerInternal
-  fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.asDatabaseAccountManagerInternal
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.ISessionContainer
-  name: ISessionContainer
-  nameWithType: ISessionContainer
-  fullName: com.azure.cosmos.implementation.ISessionContainer
-- uid: com.azure.cosmos.implementation.QueryCompatibilityMode
-  name: QueryCompatibilityMode
-  nameWithType: QueryCompatibilityMode
-  fullName: com.azure.cosmos.implementation.QueryCompatibilityMode
-- uid: com.azure.cosmos.implementation.UserAgentContainer
-  name: UserAgentContainer
-  nameWithType: UserAgentContainer
-  fullName: com.azure.cosmos.implementation.UserAgentContainer
-- uid: com.azure.cosmos.implementation.GlobalEndpointManager
-  name: GlobalEndpointManager
-  nameWithType: GlobalEndpointManager
-  fullName: com.azure.cosmos.implementation.GlobalEndpointManager
-- uid: com.azure.cosmos.implementation.http.HttpClient
-  name: HttpClient
-  nameWithType: HttpClient
-  fullName: com.azure.cosmos.implementation.http.HttpClient
-- uid: com.azure.cosmos.implementation.RxGatewayStoreModel
-  name: RxGatewayStoreModel
-  nameWithType: RxGatewayStoreModel
-  fullName: com.azure.cosmos.implementation.RxGatewayStoreModel
-- uid: com.azure.cosmos.implementation.RxDocumentClientImpl.createRxGatewayProxy*
-  name: createRxGatewayProxy
-  nameWithType: RxDocumentClientImpl.createRxGatewayProxy
-  fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.createRxGatewayProxy
-  package: com.azure.cosmos.implementation
 - uid: com.azure.cosmos.implementation.RxDocumentClientImpl.getServiceEndpoint*
   name: getServiceEndpoint
   nameWithType: RxDocumentClientImpl.getServiceEndpoint
@@ -2420,27 +2294,6 @@ references:
   nameWithType: RxDocumentClientImpl.deleteCollection
   fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.deleteCollection
   package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.RxDocumentServiceRequest
-  name: RxDocumentServiceRequest
-  nameWithType: RxDocumentServiceRequest
-  fullName: com.azure.cosmos.implementation.RxDocumentServiceRequest
-- uid: reactor.core.publisher.Mono<com.azure.cosmos.implementation.RxDocumentServiceResponse>
-  spec.java:
-  - uid: reactor.core.publisher.Mono
-    name: Mono
-    fullName: reactor.core.publisher.Mono
-  - name: <
-    fullName: <
-  - uid: com.azure.cosmos.implementation.RxDocumentServiceResponse
-    name: RxDocumentServiceResponse
-    fullName: com.azure.cosmos.implementation.RxDocumentServiceResponse
-  - name: '>'
-    fullName: '>'
-- uid: com.azure.cosmos.implementation.RxDocumentClientImpl.readFeed*
-  name: readFeed
-  nameWithType: RxDocumentClientImpl.readFeed
-  fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.readFeed
-  package: com.azure.cosmos.implementation
 - uid: com.azure.cosmos.implementation.RxDocumentClientImpl.readCollection*
   name: readCollection
   nameWithType: RxDocumentClientImpl.readCollection
@@ -2525,15 +2378,6 @@ references:
   name: getUserAuthorizationToken
   nameWithType: RxDocumentClientImpl.getUserAuthorizationToken
   fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.getUserAuthorizationToken
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.RxDocumentServiceResponse
-  name: RxDocumentServiceResponse
-  nameWithType: RxDocumentServiceResponse
-  fullName: com.azure.cosmos.implementation.RxDocumentServiceResponse
-- uid: com.azure.cosmos.implementation.RxDocumentClientImpl.captureSessionToken*
-  name: captureSessionToken
-  nameWithType: RxDocumentClientImpl.captureSessionToken
-  fullName: com.azure.cosmos.implementation.RxDocumentClientImpl.captureSessionToken
   package: com.azure.cosmos.implementation
 - uid: java.lang.Object
   spec.java:

@@ -67,7 +67,7 @@ items:
       description: the error occurred during response transmission (optional).
     return:
       type: io.opencensus.trace.Status
-      description: the corresponding OpenTelemetry <xref uid="" data-throw-if-not-resolved="false">Status</xref>.
+      description: the corresponding OpenTelemetry <xref uid="io.opencensus.trace.Status" data-throw-if-not-resolved="false">Status</xref>.
 references:
 - uid: com.azure.tracing.opentelemetry.implementation.AmqpTraceUtil.AmqpTraceUtil*
   name: AmqpTraceUtil

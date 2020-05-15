@@ -12,7 +12,6 @@ items:
   - com.azure.cosmos.FeedOptions.getEnableScanInQuery()
   - com.azure.cosmos.FeedOptions.getMaxBufferedItemCount()
   - com.azure.cosmos.FeedOptions.getMaxDegreeOfParallelism()
-  - com.azure.cosmos.FeedOptions.getPartitionKeyRangeIdInternal()
   - com.azure.cosmos.FeedOptions.getResponseContinuationTokenLimitInKb(int)
   - com.azure.cosmos.FeedOptions.getSessionToken()
   - com.azure.cosmos.FeedOptions.maxItemCount()
@@ -30,7 +29,6 @@ items:
   - com.azure.cosmos.FeedOptions.setEnableScanInQuery(java.lang.Boolean)
   - com.azure.cosmos.FeedOptions.setMaxBufferedItemCount(int)
   - com.azure.cosmos.FeedOptions.setMaxDegreeOfParallelism(int)
-  - com.azure.cosmos.FeedOptions.setPartitionKeyRangeIdInternal(java.lang.String)
   - com.azure.cosmos.FeedOptions.setResponseContinuationTokenLimitInKb()
   - com.azure.cosmos.FeedOptions.setSessionToken(java.lang.String)
   langs:
@@ -181,24 +179,6 @@ items:
       description: >-
         number of concurrent operations run client side during parallel query
          execution.
-- uid: com.azure.cosmos.FeedOptions.getPartitionKeyRangeIdInternal()
-  id: getPartitionKeyRangeIdInternal()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.FeedOptions
-  langs:
-  - java
-  name: getPartitionKeyRangeIdInternal()
-  nameWithType: FeedOptions.getPartitionKeyRangeIdInternal()
-  fullName: com.azure.cosmos.FeedOptions.getPartitionKeyRangeIdInternal()
-  overload: com.azure.cosmos.FeedOptions.getPartitionKeyRangeIdInternal*
-  type: Method
-  package: com.azure.cosmos
-  summary: Gets the partitionKeyRangeId.
-  syntax:
-    content: " String getPartitionKeyRangeIdInternal()"
-    return:
-      type: java.lang.String
-      description: the partitionKeyRangeId.
 - uid: com.azure.cosmos.FeedOptions.getResponseContinuationTokenLimitInKb(int)
   id: getResponseContinuationTokenLimitInKb(int)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -553,28 +533,6 @@ items:
     return:
       type: com.azure.cosmos.FeedOptions
       description: the FeedOptions.
-- uid: com.azure.cosmos.FeedOptions.setPartitionKeyRangeIdInternal(java.lang.String)
-  id: setPartitionKeyRangeIdInternal(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.FeedOptions
-  langs:
-  - java
-  name: setPartitionKeyRangeIdInternal(String partitionKeyRangeId)
-  nameWithType: FeedOptions.setPartitionKeyRangeIdInternal(String partitionKeyRangeId)
-  fullName: com.azure.cosmos.FeedOptions.setPartitionKeyRangeIdInternal(String partitionKeyRangeId)
-  overload: com.azure.cosmos.FeedOptions.setPartitionKeyRangeIdInternal*
-  type: Method
-  package: com.azure.cosmos
-  summary: Sets the partitionKeyRangeId.
-  syntax:
-    content: " FeedOptions setPartitionKeyRangeIdInternal(String partitionKeyRangeId)"
-    parameters:
-    - id: partitionKeyRangeId
-      type: java.lang.String
-      description: the partitionKeyRangeId.
-    return:
-      type: com.azure.cosmos.FeedOptions
-      description: the FeedOptions.
 - uid: com.azure.cosmos.FeedOptions.setResponseContinuationTokenLimitInKb()
   id: setResponseContinuationTokenLimitInKb()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -630,16 +588,6 @@ references:
   - uid: java.lang.String
     name: String
     fullName: java.lang.String
-- uid: com.azure.cosmos.FeedOptions.getPartitionKeyRangeIdInternal*
-  name: getPartitionKeyRangeIdInternal
-  nameWithType: FeedOptions.getPartitionKeyRangeIdInternal
-  fullName: com.azure.cosmos.FeedOptions.getPartitionKeyRangeIdInternal
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.FeedOptions.setPartitionKeyRangeIdInternal*
-  name: setPartitionKeyRangeIdInternal
-  nameWithType: FeedOptions.setPartitionKeyRangeIdInternal
-  fullName: com.azure.cosmos.FeedOptions.setPartitionKeyRangeIdInternal
-  package: com.azure.cosmos
 - uid: com.azure.cosmos.FeedOptions.getSessionToken*
   name: getSessionToken
   nameWithType: FeedOptions.getSessionToken

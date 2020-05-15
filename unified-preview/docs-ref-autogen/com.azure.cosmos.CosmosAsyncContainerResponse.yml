@@ -5,10 +5,8 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.CosmosAsyncContainerResponse.CosmosAsyncContainerResponse(com.azure.cosmos.implementation.ResourceResponse<com.azure.cosmos.implementation.DocumentCollection>,com.azure.cosmos.CosmosAsyncDatabase)
   - com.azure.cosmos.CosmosAsyncContainerResponse.getContainer()
   - com.azure.cosmos.CosmosAsyncContainerResponse.getIndexTransformationProgress()
-  - com.azure.cosmos.CosmosAsyncContainerResponse.getLazyIndexingProgress()
   - com.azure.cosmos.CosmosAsyncContainerResponse.getProperties()
   langs:
   - java
@@ -33,7 +31,6 @@ items:
   - com.azure.cosmos.CosmosResponse.getResponseHeaders()
   - com.azure.cosmos.CosmosResponse.getSessionToken()
   - com.azure.cosmos.CosmosResponse.getStatusCode()
-  - com.azure.cosmos.CosmosResponse.setProperties(T)
   - java.lang.Object.clone()
   - java.lang.Object.equals(java.lang.Object)
   - java.lang.Object.finalize()
@@ -100,24 +97,6 @@ items:
     return:
       type: long
       description: the progress of an index transformation.
-- uid: com.azure.cosmos.CosmosAsyncContainerResponse.getLazyIndexingProgress()
-  id: getLazyIndexingProgress()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosAsyncContainerResponse
-  langs:
-  - java
-  name: getLazyIndexingProgress()
-  nameWithType: CosmosAsyncContainerResponse.getLazyIndexingProgress()
-  fullName: com.azure.cosmos.CosmosAsyncContainerResponse.getLazyIndexingProgress()
-  overload: com.azure.cosmos.CosmosAsyncContainerResponse.getLazyIndexingProgress*
-  type: Method
-  package: com.azure.cosmos
-  summary: Gets the progress of lazy indexing.
-  syntax:
-    content: " long getLazyIndexingProgress()"
-    return:
-      type: long
-      description: the progress of lazy indexing.
 - uid: com.azure.cosmos.CosmosAsyncContainerResponse.getProperties()
   id: getProperties()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -167,11 +146,6 @@ references:
   name: getIndexTransformationProgress
   nameWithType: CosmosAsyncContainerResponse.getIndexTransformationProgress
   fullName: com.azure.cosmos.CosmosAsyncContainerResponse.getIndexTransformationProgress
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.CosmosAsyncContainerResponse.getLazyIndexingProgress*
-  name: getLazyIndexingProgress
-  nameWithType: CosmosAsyncContainerResponse.getLazyIndexingProgress
-  fullName: com.azure.cosmos.CosmosAsyncContainerResponse.getLazyIndexingProgress
   package: com.azure.cosmos
 - uid: com.azure.cosmos.CosmosContainerProperties
   name: CosmosContainerProperties
@@ -227,10 +201,6 @@ references:
   name: Object.equals(Object)
   nameWithType: Object.equals(Object)
   fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.azure.cosmos.CosmosResponse.setProperties(T)
-  name: CosmosResponse.setProperties(T)
-  nameWithType: CosmosResponse.setProperties(T)
-  fullName: com.azure.cosmos.CosmosResponse.setProperties(T)
 - uid: java.lang.Object.toString()
   name: Object.toString()
   nameWithType: Object.toString()

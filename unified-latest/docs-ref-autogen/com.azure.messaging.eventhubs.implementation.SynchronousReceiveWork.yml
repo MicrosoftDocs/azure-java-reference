@@ -9,9 +9,7 @@ items:
   - com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.complete()
   - com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.error(java.lang.Throwable)
   - com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getId()
-  - com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getNumberOfEvents()
   - com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getTimeout()
-  - com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.isTerminal()
   - com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.next(com.azure.messaging.eventhubs.models.PartitionEvent)
   langs:
   - java
@@ -117,24 +115,6 @@ items:
     return:
       type: long
       description: The unique identifier for this work.
-- uid: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getNumberOfEvents()
-  id: getNumberOfEvents()
-  artifact: com.azure:azure-messaging-eventhubs:5.0.2
-  parent: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork
-  langs:
-  - java
-  name: getNumberOfEvents()
-  nameWithType: SynchronousReceiveWork.getNumberOfEvents()
-  fullName: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getNumberOfEvents()
-  overload: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getNumberOfEvents*
-  type: Method
-  package: com.azure.messaging.eventhubs.implementation
-  summary: Gets the number of events to receive.
-  syntax:
-    content: " int getNumberOfEvents()"
-    return:
-      type: int
-      description: The number of events to receive.
 - uid: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getTimeout()
   id: getTimeout()
   artifact: com.azure:azure-messaging-eventhubs:5.0.2
@@ -153,26 +133,6 @@ items:
     return:
       type: java.time.Duration
       description: The duration to wait for the work to complete.
-- uid: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.isTerminal()
-  id: isTerminal()
-  artifact: com.azure:azure-messaging-eventhubs:5.0.2
-  parent: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork
-  langs:
-  - java
-  name: isTerminal()
-  nameWithType: SynchronousReceiveWork.isTerminal()
-  fullName: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.isTerminal()
-  overload: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.isTerminal*
-  type: Method
-  package: com.azure.messaging.eventhubs.implementation
-  summary: Gets whether or not the work item has reached a terminal state.
-  syntax:
-    content: " boolean isTerminal()"
-    return:
-      type: boolean
-      description: >-
-        <code>true</code> if all the events have been fetched, it has been cancelled, or an error occurred. <code>
-             false</code> otherwise.
 - uid: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.next(com.azure.messaging.eventhubs.models.PartitionEvent)
   id: next(com.azure.messaging.eventhubs.models.PartitionEvent)
   artifact: com.azure:azure-messaging-eventhubs:5.0.2
@@ -234,21 +194,6 @@ references:
   name: getTimeout
   nameWithType: SynchronousReceiveWork.getTimeout
   fullName: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getTimeout
-  package: com.azure.messaging.eventhubs.implementation
-- uid: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getNumberOfEvents*
-  name: getNumberOfEvents
-  nameWithType: SynchronousReceiveWork.getNumberOfEvents
-  fullName: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.getNumberOfEvents
-  package: com.azure.messaging.eventhubs.implementation
-- uid: boolean
-  spec.java:
-  - uid: boolean
-    name: boolean
-    fullName: boolean
-- uid: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.isTerminal*
-  name: isTerminal
-  nameWithType: SynchronousReceiveWork.isTerminal
-  fullName: com.azure.messaging.eventhubs.implementation.SynchronousReceiveWork.isTerminal
   package: com.azure.messaging.eventhubs.implementation
 - uid: com.azure.messaging.eventhubs.models.PartitionEvent
   name: PartitionEvent

@@ -8,7 +8,6 @@ items:
   - com.azure.cosmos.CosmosConflictRequestOptions.CosmosConflictRequestOptions()
   - com.azure.cosmos.CosmosConflictRequestOptions.getAccessCondition()
   - com.azure.cosmos.CosmosConflictRequestOptions.setAccessCondition(com.azure.cosmos.AccessCondition)
-  - com.azure.cosmos.CosmosConflictRequestOptions.toRequestOptions()
   langs:
   - java
   name: CosmosConflictRequestOptions
@@ -86,22 +85,6 @@ items:
     return:
       type: com.azure.cosmos.CosmosConflictRequestOptions
       description: the current request options
-- uid: com.azure.cosmos.CosmosConflictRequestOptions.toRequestOptions()
-  id: toRequestOptions()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosConflictRequestOptions
-  langs:
-  - java
-  name: toRequestOptions()
-  nameWithType: CosmosConflictRequestOptions.toRequestOptions()
-  fullName: com.azure.cosmos.CosmosConflictRequestOptions.toRequestOptions()
-  overload: com.azure.cosmos.CosmosConflictRequestOptions.toRequestOptions*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " RequestOptions toRequestOptions()"
-    return:
-      type: com.azure.cosmos.implementation.RequestOptions
 references:
 - uid: com.azure.cosmos.CosmosConflictRequestOptions.CosmosConflictRequestOptions*
   name: CosmosConflictRequestOptions
@@ -121,15 +104,6 @@ references:
   name: setAccessCondition
   nameWithType: CosmosConflictRequestOptions.setAccessCondition
   fullName: com.azure.cosmos.CosmosConflictRequestOptions.setAccessCondition
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.implementation.RequestOptions
-  name: RequestOptions
-  nameWithType: RequestOptions
-  fullName: com.azure.cosmos.implementation.RequestOptions
-- uid: com.azure.cosmos.CosmosConflictRequestOptions.toRequestOptions*
-  name: toRequestOptions
-  nameWithType: CosmosConflictRequestOptions.toRequestOptions
-  fullName: com.azure.cosmos.CosmosConflictRequestOptions.toRequestOptions
   package: com.azure.cosmos
 - uid: java.lang.Object.notify()
   name: Object.notify()

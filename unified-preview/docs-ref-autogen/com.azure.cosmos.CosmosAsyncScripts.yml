@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.CosmosAsyncScripts.CosmosAsyncScripts(com.azure.cosmos.CosmosAsyncContainer)
   - com.azure.cosmos.CosmosAsyncScripts.createStoredProcedure(com.azure.cosmos.CosmosStoredProcedureProperties)
   - com.azure.cosmos.CosmosAsyncScripts.createStoredProcedure(com.azure.cosmos.CosmosStoredProcedureProperties,com.azure.cosmos.CosmosStoredProcedureRequestOptions)
   - com.azure.cosmos.CosmosAsyncScripts.createTrigger(com.azure.cosmos.CosmosTriggerProperties)

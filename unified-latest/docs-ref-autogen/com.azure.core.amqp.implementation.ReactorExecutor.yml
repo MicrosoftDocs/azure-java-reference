@@ -5,9 +5,7 @@ items:
   artifact: com.azure:azure-core-amqp:1.0.1
   parent: com.azure.core.amqp.implementation
   children:
-  - com.azure.core.amqp.implementation.ReactorExecutor.ReactorExecutor(org.apache.qpid.proton.reactor.Reactor,reactor.core.scheduler.Scheduler,java.lang.String,com.azure.core.amqp.implementation.AmqpExceptionHandler,java.time.Duration,java.lang.String)
   - com.azure.core.amqp.implementation.ReactorExecutor.close()
-  - com.azure.core.amqp.implementation.ReactorExecutor.start()
   langs:
   - java
   name: ReactorExecutor
@@ -74,21 +72,6 @@ items:
   package: com.azure.core.amqp.implementation
   syntax:
     content: public void close()
-- uid: com.azure.core.amqp.implementation.ReactorExecutor.start()
-  id: start()
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ReactorExecutor
-  langs:
-  - java
-  name: start()
-  nameWithType: ReactorExecutor.start()
-  fullName: com.azure.core.amqp.implementation.ReactorExecutor.start()
-  overload: com.azure.core.amqp.implementation.ReactorExecutor.start*
-  type: Method
-  package: com.azure.core.amqp.implementation
-  summary: Starts the reactor and will begin processing any reactor events until there are no longer any left or <xref uid="com.azure.core.amqp.implementation.ReactorExecutor.close()" data-throw-if-not-resolved="false">#close()</xref> is called.
-  syntax:
-    content: " void start()"
 references:
 - uid: org.apache.qpid.proton.reactor.Reactor
   spec.java:
@@ -118,11 +101,6 @@ references:
   name: ReactorExecutor
   nameWithType: ReactorExecutor.ReactorExecutor
   fullName: com.azure.core.amqp.implementation.ReactorExecutor.ReactorExecutor
-  package: com.azure.core.amqp.implementation
-- uid: com.azure.core.amqp.implementation.ReactorExecutor.start*
-  name: start
-  nameWithType: ReactorExecutor.start
-  fullName: com.azure.core.amqp.implementation.ReactorExecutor.start
   package: com.azure.core.amqp.implementation
 - uid: com.azure.core.amqp.implementation.ReactorExecutor.close*
   name: close

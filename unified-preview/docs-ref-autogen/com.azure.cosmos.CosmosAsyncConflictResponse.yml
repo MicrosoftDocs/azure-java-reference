@@ -5,9 +5,7 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.CosmosAsyncConflictResponse.CosmosAsyncConflictResponse(com.azure.cosmos.implementation.ResourceResponse<com.azure.cosmos.implementation.Conflict>,com.azure.cosmos.CosmosAsyncContainer)
   - com.azure.cosmos.CosmosAsyncConflictResponse.getConflict()
-  - com.azure.cosmos.CosmosAsyncConflictResponse.getContainer()
   - com.azure.cosmos.CosmosAsyncConflictResponse.getProperties()
   langs:
   - java
@@ -32,7 +30,6 @@ items:
   - com.azure.cosmos.CosmosResponse.getResponseHeaders()
   - com.azure.cosmos.CosmosResponse.getSessionToken()
   - com.azure.cosmos.CosmosResponse.getStatusCode()
-  - com.azure.cosmos.CosmosResponse.setProperties(T)
   - java.lang.Object.clone()
   - java.lang.Object.equals(java.lang.Object)
   - java.lang.Object.finalize()
@@ -81,22 +78,6 @@ items:
     return:
       type: com.azure.cosmos.CosmosAsyncConflict
       description: the cosmos conflict client
-- uid: com.azure.cosmos.CosmosAsyncConflictResponse.getContainer()
-  id: getContainer()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosAsyncConflictResponse
-  langs:
-  - java
-  name: getContainer()
-  nameWithType: CosmosAsyncConflictResponse.getContainer()
-  fullName: com.azure.cosmos.CosmosAsyncConflictResponse.getContainer()
-  overload: com.azure.cosmos.CosmosAsyncConflictResponse.getContainer*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " CosmosAsyncContainer getContainer()"
-    return:
-      type: com.azure.cosmos.CosmosAsyncContainer
 - uid: com.azure.cosmos.CosmosAsyncConflictResponse.getProperties()
   id: getProperties()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -136,11 +117,6 @@ references:
   name: CosmosAsyncConflictResponse
   nameWithType: CosmosAsyncConflictResponse.CosmosAsyncConflictResponse
   fullName: com.azure.cosmos.CosmosAsyncConflictResponse.CosmosAsyncConflictResponse
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.CosmosAsyncConflictResponse.getContainer*
-  name: getContainer
-  nameWithType: CosmosAsyncConflictResponse.getContainer
-  fullName: com.azure.cosmos.CosmosAsyncConflictResponse.getContainer
   package: com.azure.cosmos
 - uid: com.azure.cosmos.CosmosAsyncConflict
   name: CosmosAsyncConflict
@@ -196,10 +172,6 @@ references:
   name: Object.equals(Object)
   nameWithType: Object.equals(Object)
   fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.azure.cosmos.CosmosResponse.setProperties(T)
-  name: CosmosResponse.setProperties(T)
-  nameWithType: CosmosResponse.setProperties(T)
-  fullName: com.azure.cosmos.CosmosResponse.setProperties(T)
 - uid: java.lang.Object.toString()
   name: Object.toString()
   nameWithType: Object.toString()

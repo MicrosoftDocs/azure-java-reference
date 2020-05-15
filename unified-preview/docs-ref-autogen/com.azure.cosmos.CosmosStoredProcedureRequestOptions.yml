@@ -14,7 +14,6 @@ items:
   - com.azure.cosmos.CosmosStoredProcedureRequestOptions.setConsistencyLevel(com.azure.cosmos.ConsistencyLevel)
   - com.azure.cosmos.CosmosStoredProcedureRequestOptions.setPartitionKey(com.azure.cosmos.PartitionKey)
   - com.azure.cosmos.CosmosStoredProcedureRequestOptions.setSessionToken(java.lang.String)
-  - com.azure.cosmos.CosmosStoredProcedureRequestOptions.toRequestOptions()
   langs:
   - java
   name: CosmosStoredProcedureRequestOptions
@@ -213,22 +212,6 @@ items:
     return:
       type: com.azure.cosmos.CosmosStoredProcedureRequestOptions
       description: the CosmosStoredProcedureRequestOptions.
-- uid: com.azure.cosmos.CosmosStoredProcedureRequestOptions.toRequestOptions()
-  id: toRequestOptions()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosStoredProcedureRequestOptions
-  langs:
-  - java
-  name: toRequestOptions()
-  nameWithType: CosmosStoredProcedureRequestOptions.toRequestOptions()
-  fullName: com.azure.cosmos.CosmosStoredProcedureRequestOptions.toRequestOptions()
-  overload: com.azure.cosmos.CosmosStoredProcedureRequestOptions.toRequestOptions*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " RequestOptions toRequestOptions()"
-    return:
-      type: com.azure.cosmos.implementation.RequestOptions
 references:
 - uid: com.azure.cosmos.CosmosStoredProcedureRequestOptions.CosmosStoredProcedureRequestOptions*
   name: CosmosStoredProcedureRequestOptions
@@ -291,15 +274,6 @@ references:
   name: setSessionToken
   nameWithType: CosmosStoredProcedureRequestOptions.setSessionToken
   fullName: com.azure.cosmos.CosmosStoredProcedureRequestOptions.setSessionToken
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.implementation.RequestOptions
-  name: RequestOptions
-  nameWithType: RequestOptions
-  fullName: com.azure.cosmos.implementation.RequestOptions
-- uid: com.azure.cosmos.CosmosStoredProcedureRequestOptions.toRequestOptions*
-  name: toRequestOptions
-  nameWithType: CosmosStoredProcedureRequestOptions.toRequestOptions
-  fullName: com.azure.cosmos.CosmosStoredProcedureRequestOptions.toRequestOptions
   package: com.azure.cosmos
 - uid: java.lang.Object.notify()
   name: Object.notify()

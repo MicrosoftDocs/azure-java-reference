@@ -9,14 +9,12 @@ items:
   - com.azure.cosmos.ChangeFeedOptions.ChangeFeedOptions(com.azure.cosmos.ChangeFeedOptions)
   - com.azure.cosmos.ChangeFeedOptions.getMaxItemCount()
   - com.azure.cosmos.ChangeFeedOptions.getPartitionKey()
-  - com.azure.cosmos.ChangeFeedOptions.getPartitionKeyRangeId()
   - com.azure.cosmos.ChangeFeedOptions.getProperties()
   - com.azure.cosmos.ChangeFeedOptions.getRequestContinuation()
   - com.azure.cosmos.ChangeFeedOptions.getStartDateTime()
   - com.azure.cosmos.ChangeFeedOptions.getStartFromBeginning()
   - com.azure.cosmos.ChangeFeedOptions.setMaxItemCount(java.lang.Integer)
   - com.azure.cosmos.ChangeFeedOptions.setPartitionKey(com.azure.cosmos.PartitionKey)
-  - com.azure.cosmos.ChangeFeedOptions.setPartitionKeyRangeId(java.lang.String)
   - com.azure.cosmos.ChangeFeedOptions.setProperties(java.util.Map<java.lang.String,java.lang.Object>)
   - com.azure.cosmos.ChangeFeedOptions.setRequestContinuation(java.lang.String)
   - com.azure.cosmos.ChangeFeedOptions.setStartDateTime(java.time.OffsetDateTime)
@@ -112,28 +110,6 @@ items:
     return:
       type: com.azure.cosmos.PartitionKey
       description: the partition key.
-- uid: com.azure.cosmos.ChangeFeedOptions.getPartitionKeyRangeId()
-  id: getPartitionKeyRangeId()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.ChangeFeedOptions
-  langs:
-  - java
-  name: getPartitionKeyRangeId()
-  nameWithType: ChangeFeedOptions.getPartitionKeyRangeId()
-  fullName: com.azure.cosmos.ChangeFeedOptions.getPartitionKeyRangeId()
-  overload: com.azure.cosmos.ChangeFeedOptions.getPartitionKeyRangeId*
-  type: Method
-  package: com.azure.cosmos
-  summary: >-
-    Get the partition key range id for the current request
-
-
-    ChangeFeed requests can be executed against specific partition key ranges. This is used to process the change feed in parallel across multiple consumers.
-  syntax:
-    content: " String getPartitionKeyRangeId()"
-    return:
-      type: java.lang.String
-      description: a string indicating the partition key range ID
 - uid: com.azure.cosmos.ChangeFeedOptions.getProperties()
   id: getProperties()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -254,32 +230,6 @@ items:
     return:
       type: com.azure.cosmos.ChangeFeedOptions
       description: the FeedOptionsBase.
-- uid: com.azure.cosmos.ChangeFeedOptions.setPartitionKeyRangeId(java.lang.String)
-  id: setPartitionKeyRangeId(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.ChangeFeedOptions
-  langs:
-  - java
-  name: setPartitionKeyRangeId(String partitionKeyRangeId)
-  nameWithType: ChangeFeedOptions.setPartitionKeyRangeId(String partitionKeyRangeId)
-  fullName: com.azure.cosmos.ChangeFeedOptions.setPartitionKeyRangeId(String partitionKeyRangeId)
-  overload: com.azure.cosmos.ChangeFeedOptions.setPartitionKeyRangeId*
-  type: Method
-  package: com.azure.cosmos
-  summary: >-
-    Set the partition key range id for the current request
-
-
-    ChangeFeed requests can be executed against specific partition key ranges. This is used to process the change feed in parallel across multiple consumers.
-  syntax:
-    content: " ChangeFeedOptions setPartitionKeyRangeId(String partitionKeyRangeId)"
-    parameters:
-    - id: partitionKeyRangeId
-      type: java.lang.String
-      description: a string indicating the partition key range ID
-    return:
-      type: com.azure.cosmos.ChangeFeedOptions
-      description: the ChangeFeedOptions.
 - uid: com.azure.cosmos.ChangeFeedOptions.setProperties(java.util.Map<java.lang.String,java.lang.Object>)
   id: setProperties(java.util.Map<java.lang.String,java.lang.Object>)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -376,21 +326,6 @@ references:
   nameWithType: ChangeFeedOptions.ChangeFeedOptions
   fullName: com.azure.cosmos.ChangeFeedOptions.ChangeFeedOptions
   package: com.azure.cosmos
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.azure.cosmos.ChangeFeedOptions.getPartitionKeyRangeId*
-  name: getPartitionKeyRangeId
-  nameWithType: ChangeFeedOptions.getPartitionKeyRangeId
-  fullName: com.azure.cosmos.ChangeFeedOptions.getPartitionKeyRangeId
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.ChangeFeedOptions.setPartitionKeyRangeId*
-  name: setPartitionKeyRangeId
-  nameWithType: ChangeFeedOptions.setPartitionKeyRangeId
-  fullName: com.azure.cosmos.ChangeFeedOptions.setPartitionKeyRangeId
-  package: com.azure.cosmos
 - uid: boolean
   spec.java:
   - uid: boolean
@@ -436,6 +371,11 @@ references:
   nameWithType: ChangeFeedOptions.setMaxItemCount
   fullName: com.azure.cosmos.ChangeFeedOptions.setMaxItemCount
   package: com.azure.cosmos
+- uid: java.lang.String
+  spec.java:
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
 - uid: com.azure.cosmos.ChangeFeedOptions.getRequestContinuation*
   name: getRequestContinuation
   nameWithType: ChangeFeedOptions.getRequestContinuation

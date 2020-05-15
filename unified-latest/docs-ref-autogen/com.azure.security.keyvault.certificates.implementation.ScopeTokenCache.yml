@@ -4,10 +4,6 @@ items:
   id: ScopeTokenCache
   artifact: com.azure:azure-security-keyvault-certificates:4.0.0
   parent: com.azure.security.keyvault.certificates.implementation
-  children:
-  - com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.ScopeTokenCache(java.util.function.Function<com.azure.core.credential.TokenRequestContext,reactor.core.publisher.Mono<com.azure.core.credential.AccessToken>>)
-  - com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.getToken()
-  - com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.setRequest(com.azure.core.credential.TokenRequestContext)
   langs:
   - java
   name: ScopeTokenCache
@@ -51,41 +47,6 @@ items:
     - id: getNew
       type: java.util.function.Function<com.azure.core.credential.TokenRequestContext,reactor.core.publisher.Mono<com.azure.core.credential.AccessToken>>
       description: a method to get a new token
-- uid: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.getToken()
-  id: getToken()
-  artifact: com.azure:azure-security-keyvault-certificates:4.0.0
-  parent: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache
-  langs:
-  - java
-  name: getToken()
-  nameWithType: ScopeTokenCache.getToken()
-  fullName: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.getToken()
-  overload: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.getToken*
-  type: Method
-  package: com.azure.security.keyvault.certificates.implementation
-  summary: Asynchronously get a token from either the cache or replenish the cache with a new token.
-  syntax:
-    content: " Mono<AccessToken> getToken()"
-    return:
-      type: reactor.core.publisher.Mono<com.azure.core.credential.AccessToken>
-      description: a Publisher that emits an AccessToken
-- uid: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.setRequest(com.azure.core.credential.TokenRequestContext)
-  id: setRequest(com.azure.core.credential.TokenRequestContext)
-  artifact: com.azure:azure-security-keyvault-certificates:4.0.0
-  parent: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache
-  langs:
-  - java
-  name: setRequest(TokenRequestContext request)
-  nameWithType: ScopeTokenCache.setRequest(TokenRequestContext request)
-  fullName: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.setRequest(TokenRequestContext request)
-  overload: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.setRequest*
-  type: Method
-  package: com.azure.security.keyvault.certificates.implementation
-  syntax:
-    content: " void setRequest(TokenRequestContext request)"
-    parameters:
-    - id: request
-      type: com.azure.core.credential.TokenRequestContext
 references:
 - uid: java.util.function.Function<com.azure.core.credential.TokenRequestContext,reactor.core.publisher.Mono<com.azure.core.credential.AccessToken>>
   spec.java:
@@ -115,33 +76,6 @@ references:
   name: ScopeTokenCache
   nameWithType: ScopeTokenCache.ScopeTokenCache
   fullName: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.ScopeTokenCache
-  package: com.azure.security.keyvault.certificates.implementation
-- uid: com.azure.core.credential.TokenRequestContext
-  spec.java:
-  - uid: com.azure.core.credential.TokenRequestContext
-    name: TokenRequestContext
-    fullName: com.azure.core.credential.TokenRequestContext
-- uid: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.setRequest*
-  name: setRequest
-  nameWithType: ScopeTokenCache.setRequest
-  fullName: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.setRequest
-  package: com.azure.security.keyvault.certificates.implementation
-- uid: reactor.core.publisher.Mono<com.azure.core.credential.AccessToken>
-  spec.java:
-  - uid: reactor.core.publisher.Mono
-    name: Mono
-    fullName: reactor.core.publisher.Mono
-  - name: <
-    fullName: <
-  - uid: com.azure.core.credential.AccessToken
-    name: AccessToken
-    fullName: com.azure.core.credential.AccessToken
-  - name: '>'
-    fullName: '>'
-- uid: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.getToken*
-  name: getToken
-  nameWithType: ScopeTokenCache.getToken
-  fullName: com.azure.security.keyvault.certificates.implementation.ScopeTokenCache.getToken
   package: com.azure.security.keyvault.certificates.implementation
 - uid: java.lang.Object.notify()
   name: Object.notify()
@@ -199,7 +133,3 @@ references:
   name: TokenRequestContext,Mono
   nameWithType: TokenRequestContext,Mono
   fullName: com.azure.core.credential.TokenRequestContext,reactor.core.publisher.Mono
-- uid: reactor.core.publisher.Mono
-  name: Mono
-  nameWithType: Mono
-  fullName: reactor.core.publisher.Mono

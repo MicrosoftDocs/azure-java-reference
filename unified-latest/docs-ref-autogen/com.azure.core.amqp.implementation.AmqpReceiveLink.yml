@@ -77,7 +77,7 @@ items:
       type: reactor.core.publisher.Flux<org.apache.qpid.proton.message.Message>
       description: >-
         A Flux of AMQP messages which completes when the client calls
-         <xref uid="" data-throw-if-not-resolved="false">AmqpReceiveLink.close()</xref> or an unrecoverable error occurs on the AMQP link.
+         <xref uid="java.lang.AutoCloseable.close*" data-throw-if-not-resolved="false">AmqpReceiveLink.close()</xref> or an unrecoverable error occurs on the AMQP link.
 - uid: com.azure.core.amqp.implementation.AmqpReceiveLink.setEmptyCreditListener(java.util.function.Supplier<java.lang.Integer>)
   id: setEmptyCreditListener(java.util.function.Supplier<java.lang.Integer>)
   artifact: com.azure:azure-core-amqp:1.0.1

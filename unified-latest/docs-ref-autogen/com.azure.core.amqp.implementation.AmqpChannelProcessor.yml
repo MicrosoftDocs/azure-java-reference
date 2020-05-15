@@ -92,11 +92,7 @@ items:
   - reactor.core.publisher.Mono.<T>create(java.util.function.Consumer<reactor.core.publisher.MonoSink<T>>)
   - reactor.core.publisher.Mono.<T>defer(java.util.function.Supplier<? extends reactor.core.publisher.Mono<? extends T>>)
   - reactor.core.publisher.Mono.<T>deferWithContext(java.util.function.Function<reactor.util.context.Context,? extends reactor.core.publisher.Mono<? extends T>>)
-  - reactor.core.publisher.Mono.<T>doOnSignal(reactor.core.publisher.Mono<T>,java.util.function.Consumer<? super org.reactivestreams.Subscription>,java.util.function.Consumer<? super T>,java.util.function.LongConsumer,java.lang.Runnable)
-  - reactor.core.publisher.Mono.<T>doOnTerminalSignal(reactor.core.publisher.Mono<T>,java.util.function.Consumer<? super T>,java.util.function.Consumer<? super java.lang.Throwable>,java.util.function.BiConsumer<? super T,java.lang.Throwable>)
   - reactor.core.publisher.Mono.<T>empty()
-  - reactor.core.publisher.Mono.<T>empty(org.reactivestreams.Publisher<T>)
-  - reactor.core.publisher.Mono.<T>equalsBiPredicate()
   - reactor.core.publisher.Mono.<T>error(java.lang.Throwable)
   - reactor.core.publisher.Mono.<T>error(java.util.function.Supplier<? extends java.lang.Throwable>)
   - reactor.core.publisher.Mono.<T>first(java.lang.Iterable<? extends reactor.core.publisher.Mono<? extends T>>)
@@ -693,10 +689,6 @@ references:
   name: Mono.<T>empty()
   nameWithType: Mono.<T>empty()
   fullName: reactor.core.publisher.Mono.<T>empty()
-- uid: reactor.core.publisher.Mono.<T>doOnSignal(reactor.core.publisher.Mono<T>,java.util.function.Consumer<? super org.reactivestreams.Subscription>,java.util.function.Consumer<? super T>,java.util.function.LongConsumer,java.lang.Runnable)
-  name: Mono.<T>doOnSignal(Mono<T>,Consumer<? super Subscription>,Consumer<? super T>,LongConsumer,Runnable)
-  nameWithType: Mono.<T>doOnSignal(Mono<T>,Consumer<? super Subscription>,Consumer<? super T>,LongConsumer,Runnable)
-  fullName: reactor.core.publisher.Mono.<T>doOnSignal(reactor.core.publisher.Mono<T>,java.util.function.Consumer<? super org.reactivestreams.Subscription>,java.util.function.Consumer<? super T>,java.util.function.LongConsumer,java.lang.Runnable)
 - uid: reactor.core.publisher.Mono.<E>onErrorResume(java.lang.Class<E>,java.util.function.Function<? super E,? extends reactor.core.publisher.Mono<? extends T>>)
   name: Mono.<E>onErrorResume(Class<E>,Function<? super E,? extends Mono<? extends T>>)
   nameWithType: Mono.<E>onErrorResume(Class<E>,Function<? super E,? extends Mono<? extends T>>)
@@ -933,10 +925,6 @@ references:
   name: Mono.<R>zipDelayError(Function<? super Object[],? extends R>,Mono<?>...)
   nameWithType: Mono.<R>zipDelayError(Function<? super Object[],? extends R>,Mono<?>...)
   fullName: reactor.core.publisher.Mono.<R>zipDelayError(java.util.function.Function<? super java.lang.Object[],? extends R>,reactor.core.publisher.Mono<?>...)
-- uid: reactor.core.publisher.Mono.<T>doOnTerminalSignal(reactor.core.publisher.Mono<T>,java.util.function.Consumer<? super T>,java.util.function.Consumer<? super java.lang.Throwable>,java.util.function.BiConsumer<? super T,java.lang.Throwable>)
-  name: Mono.<T>doOnTerminalSignal(Mono<T>,Consumer<? super T>,Consumer<? super Throwable>,BiConsumer<? super T,Throwable>)
-  nameWithType: Mono.<T>doOnTerminalSignal(Mono<T>,Consumer<? super T>,Consumer<? super Throwable>,BiConsumer<? super T,Throwable>)
-  fullName: reactor.core.publisher.Mono.<T>doOnTerminalSignal(reactor.core.publisher.Mono<T>,java.util.function.Consumer<? super T>,java.util.function.Consumer<? super java.lang.Throwable>,java.util.function.BiConsumer<? super T,java.lang.Throwable>)
 - uid: reactor.core.publisher.Mono.<T>sequenceEqual(org.reactivestreams.Publisher<? extends T>,org.reactivestreams.Publisher<? extends T>,java.util.function.BiPredicate<? super T,? super T>,int)
   name: Mono.<T>sequenceEqual(Publisher<? extends T>,Publisher<? extends T>,BiPredicate<? super T,? super T>,int)
   nameWithType: Mono.<T>sequenceEqual(Publisher<? extends T>,Publisher<? extends T>,BiPredicate<? super T,? super T>,int)
@@ -1293,10 +1281,6 @@ references:
   name: Mono.timeout(Duration)
   nameWithType: Mono.timeout(Duration)
   fullName: reactor.core.publisher.Mono.timeout(java.time.Duration)
-- uid: reactor.core.publisher.Mono.<T>equalsBiPredicate()
-  name: Mono.<T>equalsBiPredicate()
-  nameWithType: Mono.<T>equalsBiPredicate()
-  fullName: reactor.core.publisher.Mono.<T>equalsBiPredicate()
 - uid: reactor.core.publisher.Mono.delay(java.time.Duration,reactor.core.scheduler.Scheduler)
   name: Mono.delay(Duration,Scheduler)
   nameWithType: Mono.delay(Duration,Scheduler)
@@ -1313,10 +1297,6 @@ references:
   name: Mono.<T1,T2,T3>zipDelayError(Mono<? extends T1>,Mono<? extends T2>,Mono<? extends T3>)
   nameWithType: Mono.<T1,T2,T3>zipDelayError(Mono<? extends T1>,Mono<? extends T2>,Mono<? extends T3>)
   fullName: reactor.core.publisher.Mono.<T1,T2,T3>zipDelayError(reactor.core.publisher.Mono<? extends T1>,reactor.core.publisher.Mono<? extends T2>,reactor.core.publisher.Mono<? extends T3>)
-- uid: reactor.core.publisher.Mono.<T>empty(org.reactivestreams.Publisher<T>)
-  name: Mono.<T>empty(Publisher<T>)
-  nameWithType: Mono.<T>empty(Publisher<T>)
-  fullName: reactor.core.publisher.Mono.<T>empty(org.reactivestreams.Publisher<T>)
 - uid: reactor.core.publisher.Mono.<T>error(java.util.function.Supplier<? extends java.lang.Throwable>)
   name: Mono.<T>error(Supplier<? extends Throwable>)
   nameWithType: Mono.<T>error(Supplier<? extends Throwable>)
@@ -1725,22 +1705,6 @@ references:
   name: T>empty()
   nameWithType: T>empty()
   fullName: T>empty()
-- uid: T>,java.util.function.Consumer
-  name: T>,Consumer
-  nameWithType: T>,Consumer
-  fullName: T>,java.util.function.Consumer
-- uid: '? super T>,java.util.function.LongConsumer,java.lang.Runnable)'
-  name: '? super T>,LongConsumer,Runnable)'
-  nameWithType: '? super T>,LongConsumer,Runnable)'
-  fullName: '? super T>,java.util.function.LongConsumer,java.lang.Runnable)'
-- uid: '? super org.reactivestreams.Subscription>,java.util.function.Consumer'
-  name: '? super Subscription>,Consumer'
-  nameWithType: '? super Subscription>,Consumer'
-  fullName: '? super org.reactivestreams.Subscription>,java.util.function.Consumer'
-- uid: T>doOnSignal(reactor.core.publisher.Mono
-  name: T>doOnSignal(Mono
-  nameWithType: T>doOnSignal(Mono
-  fullName: T>doOnSignal(reactor.core.publisher.Mono
 - uid: E>,java.util.function.Function
   name: E>,Function
   nameWithType: E>,Function
@@ -2009,18 +1973,6 @@ references:
   name: R>zipDelayError(Function
   nameWithType: R>zipDelayError(Function
   fullName: R>zipDelayError(java.util.function.Function
-- uid: T>doOnTerminalSignal(reactor.core.publisher.Mono
-  name: T>doOnTerminalSignal(Mono
-  nameWithType: T>doOnTerminalSignal(Mono
-  fullName: T>doOnTerminalSignal(reactor.core.publisher.Mono
-- uid: '? super java.lang.Throwable>,java.util.function.BiConsumer'
-  name: '? super Throwable>,BiConsumer'
-  nameWithType: '? super Throwable>,BiConsumer'
-  fullName: '? super java.lang.Throwable>,java.util.function.BiConsumer'
-- uid: '? super T,java.lang.Throwable>)'
-  name: '? super T,Throwable>)'
-  nameWithType: '? super T,Throwable>)'
-  fullName: '? super T,java.lang.Throwable>)'
 - uid: '? extends T>,org.reactivestreams.Publisher'
   name: '? extends T>,Publisher'
   nameWithType: '? extends T>,Publisher'
@@ -2049,6 +2001,10 @@ references:
   name: Mono.doOnSuccessOrError(BiConsumer
   nameWithType: Mono.doOnSuccessOrError(BiConsumer
   fullName: reactor.core.publisher.Mono.doOnSuccessOrError(java.util.function.BiConsumer
+- uid: '? super T,java.lang.Throwable>)'
+  name: '? super T,Throwable>)'
+  nameWithType: '? super T,Throwable>)'
+  fullName: '? super T,java.lang.Throwable>)'
 - uid: reactor.core.publisher.Mono.when(org.reactivestreams.Publisher
   name: Mono.when(Publisher
   nameWithType: Mono.when(Publisher
@@ -2297,18 +2253,10 @@ references:
   name: I>fromDirect(Publisher
   nameWithType: I>fromDirect(Publisher
   fullName: I>fromDirect(org.reactivestreams.Publisher
-- uid: T>equalsBiPredicate()
-  name: T>equalsBiPredicate()
-  nameWithType: T>equalsBiPredicate()
-  fullName: T>equalsBiPredicate()
 - uid: T1,T2,T3>zipDelayError(reactor.core.publisher.Mono
   name: T1,T2,T3>zipDelayError(Mono
   nameWithType: T1,T2,T3>zipDelayError(Mono
   fullName: T1,T2,T3>zipDelayError(reactor.core.publisher.Mono
-- uid: T>empty(org.reactivestreams.Publisher
-  name: T>empty(Publisher
-  nameWithType: T>empty(Publisher
-  fullName: T>empty(org.reactivestreams.Publisher
 - uid: '? extends java.lang.Throwable>)'
   name: '? extends Throwable>)'
   nameWithType: '? extends Throwable>)'

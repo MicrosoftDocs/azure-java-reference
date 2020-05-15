@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-storage-common:12.4.0
   parent: com.azure.storage.common.implementation.connectionstring
   children:
-  - com.azure.storage.common.implementation.connectionstring.StorageConnectionString.StorageConnectionString(com.azure.storage.common.implementation.connectionstring.StorageAuthenticationSettings,com.azure.storage.common.implementation.connectionstring.StorageEndpoint,com.azure.storage.common.implementation.connectionstring.StorageEndpoint,com.azure.storage.common.implementation.connectionstring.StorageEndpoint,com.azure.storage.common.implementation.connectionstring.StorageEndpoint,java.lang.String)
   - com.azure.storage.common.implementation.connectionstring.StorageConnectionString.create(java.lang.String,com.azure.core.util.logging.ClientLogger)
   - com.azure.storage.common.implementation.connectionstring.StorageConnectionString.getAccountName()
   - com.azure.storage.common.implementation.connectionstring.StorageConnectionString.getBlobEndpoint()

@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-storage-file-datalake:12.0.0-beta.12
   parent: com.azure.storage.file.datalake
   children:
-  - com.azure.storage.file.datalake.DataLakeServiceAsyncClient.DataLakeServiceAsyncClient(com.azure.core.http.HttpPipeline,java.lang.String,com.azure.storage.file.datalake.DataLakeServiceVersion,java.lang.String,com.azure.storage.blob.BlobServiceAsyncClient)
   - com.azure.storage.file.datalake.DataLakeServiceAsyncClient.createFileSystem(java.lang.String)
   - com.azure.storage.file.datalake.DataLakeServiceAsyncClient.createFileSystemWithResponse(java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.file.datalake.models.PublicAccessType)
   - com.azure.storage.file.datalake.DataLakeServiceAsyncClient.deleteFileSystem(java.lang.String)
@@ -34,7 +33,7 @@ items:
     This client contains operations on the main data lake service account. Operations on a file system are available on <xref uid="com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient" data-throw-if-not-resolved="false">DataLakeFileSystemAsyncClient</xref> through <xref uid="com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getFileSystemAsyncClient(java.lang.String)" data-throw-if-not-resolved="false">#getFileSystemAsyncClient(String)</xref>, and operations on a file or directory are available on <xref uid="com.azure.storage.file.datalake.DataLakeFileAsyncClient" data-throw-if-not-resolved="false">DataLakeFileAsyncClient</xref> or <xref uid="com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient" data-throw-if-not-resolved="false">DataLakeDirectoryAsyncClient</xref>.
 
 
-    Note this client is an async client that returns reactive responses from Spring Reactor Core project (https://projectreactor.io/). Calling the methods in this client will **NOT** start the actual network operation, until `.subscribe()` is called on the reactive response. You can simply convert one of these responses to a <xref uid="" data-throw-if-not-resolved="false">java.util.concurrent.CompletableFuture</xref> object through <xref uid="" data-throw-if-not-resolved="false">Mono#toFuture()</xref>.
+    Note this client is an async client that returns reactive responses from Spring Reactor Core project (https://projectreactor.io/). Calling the methods in this client will **NOT** start the actual network operation, until `.subscribe()` is called on the reactive response. You can simply convert one of these responses to a <xref uid="" data-throw-if-not-resolved="false">java.util.concurrent.CompletableFuture</xref> object through <xref uid="reactor.core.publisher.Mono.toFuture*" data-throw-if-not-resolved="false">Mono#toFuture()</xref>.
   syntax:
     content: public class DataLakeServiceAsyncClient
   inheritance:
@@ -81,7 +80,7 @@ items:
       description: The storage account name.
     - id: blobServiceAsyncClient
       type: com.azure.storage.blob.BlobServiceAsyncClient
-      description: The underlying <xref uid="" data-throw-if-not-resolved="false">BlobServiceAsyncClient</xref>
+      description: The underlying <xref uid="com.azure.storage.blob.BlobServiceAsyncClient" data-throw-if-not-resolved="false">BlobServiceAsyncClient</xref>
 - uid: com.azure.storage.file.datalake.DataLakeServiceAsyncClient.createFileSystem(java.lang.String)
   id: createFileSystem(java.lang.String)
   artifact: com.azure:azure-storage-file-datalake:12.0.0-beta.12
@@ -157,7 +156,7 @@ items:
          x-ms-blob-public-access header in the Azure Docs for more information. Pass null for no public access.
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient>>
-      description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains a <xref uid="com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient" data-throw-if-not-resolved="false">DataLakeFileSystemAsyncClient</xref> used to interact with the file system created.
+      description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains a <xref uid="com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient" data-throw-if-not-resolved="false">DataLakeFileSystemAsyncClient</xref> used to interact with the file system created.
 - uid: com.azure.storage.file.datalake.DataLakeServiceAsyncClient.deleteFileSystem(java.lang.String)
   id: deleteFileSystem(java.lang.String)
   artifact: com.azure:azure-storage-file-datalake:12.0.0-beta.12
@@ -240,10 +239,10 @@ items:
   type: Method
   package: com.azure.storage.file.datalake
   summary: >-
-    Generates an account SAS for the Azure Storage account using the specified <xref uid="" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref>. Note : The client must be authenticated via <xref uid="" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>
+    Generates an account SAS for the Azure Storage account using the specified <xref uid="com.azure.storage.common.sas.AccountSasSignatureValues" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref>. Note : The client must be authenticated via <xref uid="" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>
 
 
-    See <xref uid="" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref> for more information on how to construct an account SAS.
+    See <xref uid="com.azure.storage.common.sas.AccountSasSignatureValues" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref> for more information on how to construct an account SAS.
 
 
     The snippet below generates a SAS that lasts for two days and gives the user read and list access to file systems and file shares.
@@ -255,7 +254,7 @@ items:
     parameters:
     - id: accountSasSignatureValues
       type: com.azure.storage.common.sas.AccountSasSignatureValues
-      description: <xref uid="" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref>
+      description: <xref uid="com.azure.storage.common.sas.AccountSasSignatureValues" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref>
     return:
       type: java.lang.String
       description: A <code>String</code> representing all SAS query parameters.
@@ -338,7 +337,7 @@ items:
   overload: com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getHttpPipeline*
   type: Method
   package: com.azure.storage.file.datalake
-  summary: Gets the <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> powering this client.
+  summary: Gets the <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref> powering this client.
   syntax:
     content: public HttpPipeline getHttpPipeline()
     return:
@@ -375,7 +374,7 @@ items:
   type: Method
   package: com.azure.storage.file.datalake
   summary: >-
-    Gets a user delegation key for use with this account's data lake storage. Note: This method call is only valid when using <xref uid="" data-throw-if-not-resolved="false">TokenCredential</xref> in this object's <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref>.
+    Gets a user delegation key for use with this account's data lake storage. Note: This method call is only valid when using <xref uid="" data-throw-if-not-resolved="false">TokenCredential</xref> in this object's <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref>.
 
 
     **Code Samples**
@@ -407,7 +406,7 @@ items:
   type: Method
   package: com.azure.storage.file.datalake
   summary: >-
-    Gets a user delegation key for use with this account's data lake storage. Note: This method call is only valid when using <xref uid="" data-throw-if-not-resolved="false">TokenCredential</xref> in this object's <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref>.
+    Gets a user delegation key for use with this account's data lake storage. Note: This method call is only valid when using <xref uid="" data-throw-if-not-resolved="false">TokenCredential</xref> in this object's <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref>.
 
 
     **Code Samples**
@@ -426,7 +425,7 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.storage.file.datalake.models.UserDelegationKey>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> containing the user
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> containing the user
          delegation key.
 - uid: com.azure.storage.file.datalake.DataLakeServiceAsyncClient.listFileSystems()
   id: listFileSystems()

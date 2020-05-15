@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-core-amqp:1.0.1
   parent: com.azure.core.amqp.implementation
   children:
-  - com.azure.core.amqp.implementation.ReactorSender.ReactorSender(java.lang.String,org.apache.qpid.proton.engine.Sender,com.azure.core.amqp.implementation.handler.SendLinkHandler,com.azure.core.amqp.implementation.ReactorProvider,com.azure.core.amqp.implementation.TokenManager,com.azure.core.amqp.implementation.MessageSerializer,java.time.Duration,com.azure.core.amqp.AmqpRetryPolicy,int)
   - com.azure.core.amqp.implementation.ReactorSender.dispose()
   - com.azure.core.amqp.implementation.ReactorSender.getEndpointStates()
   - com.azure.core.amqp.implementation.ReactorSender.getEntityPath()

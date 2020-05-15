@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-identity:1.0.3
   parent: com.azure.identity.implementation
   children:
-  - com.azure.identity.implementation.IdentityClient.IdentityClient(java.lang.String,java.lang.String,com.azure.identity.implementation.IdentityClientOptions)
   - com.azure.identity.implementation.IdentityClient.authenticateToIMDSEndpoint(com.azure.core.credential.TokenRequestContext)
   - com.azure.identity.implementation.IdentityClient.authenticateToManagedIdentityEndpoint(java.lang.String,java.lang.String,com.azure.core.credential.TokenRequestContext)
   - com.azure.identity.implementation.IdentityClient.authenticateWithAuthorizationCode(com.azure.core.credential.TokenRequestContext,java.lang.String,java.net.URI)

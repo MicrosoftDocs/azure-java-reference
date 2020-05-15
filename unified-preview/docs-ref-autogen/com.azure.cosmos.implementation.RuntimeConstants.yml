@@ -8,7 +8,6 @@ items:
   - com.azure.cosmos.implementation.RuntimeConstants.MediaTypes
   - com.azure.cosmos.implementation.RuntimeConstants.ProtocolScheme
   - com.azure.cosmos.implementation.RuntimeConstants.RuntimeConstants()
-  - com.azure.cosmos.implementation.RuntimeConstants.Separators
   langs:
   - java
   name: RuntimeConstants

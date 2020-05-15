@@ -4,8 +4,6 @@ items:
   id: WeightedDeliveryTag
   artifact: com.azure:azure-core-amqp:1.0.1
   parent: com.azure.core.amqp.implementation
-  children:
-  - com.azure.core.amqp.implementation.ReactorSender.WeightedDeliveryTag.WeightedDeliveryTag(java.lang.String,int)
   langs:
   - java
   name: ReactorSender.WeightedDeliveryTag

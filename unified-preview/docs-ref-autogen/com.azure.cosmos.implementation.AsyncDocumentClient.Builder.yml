@@ -7,10 +7,6 @@ items:
   children:
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.Builder()
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.build()
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.configs
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.connectionPolicy
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.cosmosKeyCredential
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.desiredConsistencyLevel
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.getConfigs()
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.getConnectionPolicy()
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.getCosmosKeyCredential()
@@ -19,10 +15,6 @@ items:
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.getPermissionFeed()
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.getServiceEndpoint()
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.getTokenResolver()
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.masterKeyOrResourceToken
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.permissionFeed
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.serviceEndpoint
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.sessionCapturingOverride
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.setConfigs(com.azure.cosmos.implementation.Configs)
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.setConnectionPolicy(com.azure.cosmos.ConnectionPolicy)
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.setDesiredConsistencyLevel(com.azure.cosmos.ConsistencyLevel)
@@ -30,7 +22,6 @@ items:
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.setPermissionFeed(java.util.List<com.azure.cosmos.implementation.Permission>)
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.setServiceEndpoint(java.net.URI)
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.setTokenResolver(com.azure.cosmos.TokenResolver)
-  - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.tokenResolver
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.withConfigs(com.azure.cosmos.implementation.Configs)
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.withConnectionPolicy(com.azure.cosmos.ConnectionPolicy)
   - com.azure.cosmos.implementation.AsyncDocumentClient.Builder.withConsistencyLevel(com.azure.cosmos.ConsistencyLevel)
@@ -109,66 +100,6 @@ items:
     content: public AsyncDocumentClient build()
     return:
       type: com.azure.cosmos.implementation.AsyncDocumentClient
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.configs
-  id: configs
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: configs
-  nameWithType: AsyncDocumentClient.Builder.configs
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.configs
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " Configs configs"
-    return:
-      type: com.azure.cosmos.implementation.Configs
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.connectionPolicy
-  id: connectionPolicy
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: connectionPolicy
-  nameWithType: AsyncDocumentClient.Builder.connectionPolicy
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.connectionPolicy
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " ConnectionPolicy connectionPolicy"
-    return:
-      type: com.azure.cosmos.ConnectionPolicy
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.cosmosKeyCredential
-  id: cosmosKeyCredential
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: cosmosKeyCredential
-  nameWithType: AsyncDocumentClient.Builder.cosmosKeyCredential
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.cosmosKeyCredential
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " CosmosKeyCredential cosmosKeyCredential"
-    return:
-      type: com.azure.cosmos.CosmosKeyCredential
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.desiredConsistencyLevel
-  id: desiredConsistencyLevel
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: desiredConsistencyLevel
-  nameWithType: AsyncDocumentClient.Builder.desiredConsistencyLevel
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.desiredConsistencyLevel
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " ConsistencyLevel desiredConsistencyLevel"
-    return:
-      type: com.azure.cosmos.ConsistencyLevel
 - uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.getConfigs()
   id: getConfigs()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -297,66 +228,6 @@ items:
     content: public TokenResolver getTokenResolver()
     return:
       type: com.azure.cosmos.TokenResolver
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.masterKeyOrResourceToken
-  id: masterKeyOrResourceToken
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: masterKeyOrResourceToken
-  nameWithType: AsyncDocumentClient.Builder.masterKeyOrResourceToken
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.masterKeyOrResourceToken
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " String masterKeyOrResourceToken"
-    return:
-      type: java.lang.String
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.permissionFeed
-  id: permissionFeed
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: permissionFeed
-  nameWithType: AsyncDocumentClient.Builder.permissionFeed
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.permissionFeed
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " List<Permission> permissionFeed"
-    return:
-      type: java.util.List<com.azure.cosmos.implementation.Permission>
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.serviceEndpoint
-  id: serviceEndpoint
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: serviceEndpoint
-  nameWithType: AsyncDocumentClient.Builder.serviceEndpoint
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.serviceEndpoint
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " URI serviceEndpoint"
-    return:
-      type: java.net.URI
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.sessionCapturingOverride
-  id: sessionCapturingOverride
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: sessionCapturingOverride
-  nameWithType: AsyncDocumentClient.Builder.sessionCapturingOverride
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.sessionCapturingOverride
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " boolean sessionCapturingOverride"
-    return:
-      type: boolean
 - uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.setConfigs(com.azure.cosmos.implementation.Configs)
   id: setConfigs(com.azure.cosmos.implementation.Configs)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -475,21 +346,6 @@ items:
     content: public void setTokenResolver(TokenResolver tokenResolver)
     parameters:
     - id: tokenResolver
-      type: com.azure.cosmos.TokenResolver
-- uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.tokenResolver
-  id: tokenResolver
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.AsyncDocumentClient.Builder
-  langs:
-  - java
-  name: tokenResolver
-  nameWithType: AsyncDocumentClient.Builder.tokenResolver
-  fullName: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.tokenResolver
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " TokenResolver tokenResolver"
-    return:
       type: com.azure.cosmos.TokenResolver
 - uid: com.azure.cosmos.implementation.AsyncDocumentClient.Builder.withConfigs(com.azure.cosmos.implementation.Configs)
   id: withConfigs(com.azure.cosmos.implementation.Configs)

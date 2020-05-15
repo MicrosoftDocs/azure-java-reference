@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-core-amqp:1.0.1
   parent: com.azure.core.amqp.implementation
   children:
-  - com.azure.core.amqp.implementation.ReactorSender.SendTimeout.SendTimeout(java.lang.String)
   - com.azure.core.amqp.implementation.ReactorSender.SendTimeout.run()
   langs:
   - java

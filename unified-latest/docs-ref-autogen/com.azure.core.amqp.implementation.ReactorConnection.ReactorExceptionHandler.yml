@@ -6,7 +6,6 @@ items:
   parent: com.azure.core.amqp.implementation
   children:
   - com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.onConnectionError(java.lang.Throwable)
-  - com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.onConnectionShutdown(com.azure.core.amqp.AmqpShutdownSignal)
   langs:
   - java
   name: ReactorConnection.ReactorExceptionHandler
@@ -20,8 +19,6 @@ items:
   - java.lang.Object
   - com.azure.core.amqp.implementation.AmqpExceptionHandler
   inheritedMembers:
-  - com.azure.core.amqp.implementation.AmqpExceptionHandler.onConnectionError(java.lang.Throwable)
-  - com.azure.core.amqp.implementation.AmqpExceptionHandler.onConnectionShutdown(com.azure.core.amqp.AmqpShutdownSignal)
   - java.lang.Object.clone()
   - java.lang.Object.equals(java.lang.Object)
   - java.lang.Object.finalize()
@@ -64,23 +61,6 @@ items:
     parameters:
     - id: exception
       type: java.lang.Throwable
-- uid: com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.onConnectionShutdown(com.azure.core.amqp.AmqpShutdownSignal)
-  id: onConnectionShutdown(com.azure.core.amqp.AmqpShutdownSignal)
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler
-  langs:
-  - java
-  name: onConnectionShutdown(AmqpShutdownSignal shutdownSignal)
-  nameWithType: ReactorConnection.ReactorExceptionHandler.onConnectionShutdown(AmqpShutdownSignal shutdownSignal)
-  fullName: com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.onConnectionShutdown(AmqpShutdownSignal shutdownSignal)
-  overload: com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.onConnectionShutdown*
-  type: Method
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: " void onConnectionShutdown(AmqpShutdownSignal shutdownSignal)"
-    parameters:
-    - id: shutdownSignal
-      type: com.azure.core.amqp.AmqpShutdownSignal
 references:
 - uid: com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.ReactorExceptionHandler*
   name: ReactorExceptionHandler
@@ -96,15 +76,6 @@ references:
   name: onConnectionError
   nameWithType: ReactorConnection.ReactorExceptionHandler.onConnectionError
   fullName: com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.onConnectionError
-  package: com.azure.core.amqp.implementation
-- uid: com.azure.core.amqp.AmqpShutdownSignal
-  name: AmqpShutdownSignal
-  nameWithType: AmqpShutdownSignal
-  fullName: com.azure.core.amqp.AmqpShutdownSignal
-- uid: com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.onConnectionShutdown*
-  name: onConnectionShutdown
-  nameWithType: ReactorConnection.ReactorExceptionHandler.onConnectionShutdown
-  fullName: com.azure.core.amqp.implementation.ReactorConnection.ReactorExceptionHandler.onConnectionShutdown
   package: com.azure.core.amqp.implementation
 - uid: com.azure.core.amqp.implementation.AmqpExceptionHandler
   name: AmqpExceptionHandler
@@ -122,26 +93,18 @@ references:
   name: Object.finalize()
   nameWithType: Object.finalize()
   fullName: java.lang.Object.finalize()
-- uid: java.lang.Object.notifyAll()
-  name: Object.notifyAll()
-  nameWithType: Object.notifyAll()
-  fullName: java.lang.Object.notifyAll()
 - uid: java.lang.Object.clone()
   name: Object.clone()
   nameWithType: Object.clone()
   fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
 - uid: java.lang.Object.equals(java.lang.Object)
   name: Object.equals(Object)
   nameWithType: Object.equals(Object)
   fullName: java.lang.Object.equals(java.lang.Object)
-- uid: java.lang.Object.toString()
-  name: Object.toString()
-  nameWithType: Object.toString()
-  fullName: java.lang.Object.toString()
-- uid: com.azure.core.amqp.implementation.AmqpExceptionHandler.onConnectionShutdown(com.azure.core.amqp.AmqpShutdownSignal)
-  name: AmqpExceptionHandler.onConnectionShutdown(AmqpShutdownSignal)
-  nameWithType: AmqpExceptionHandler.onConnectionShutdown(AmqpShutdownSignal)
-  fullName: com.azure.core.amqp.implementation.AmqpExceptionHandler.onConnectionShutdown(com.azure.core.amqp.AmqpShutdownSignal)
 - uid: java.lang.Object.getClass()
   name: Object.getClass()
   nameWithType: Object.getClass()
@@ -154,11 +117,11 @@ references:
   name: Object.hashCode()
   nameWithType: Object.hashCode()
   fullName: java.lang.Object.hashCode()
-- uid: com.azure.core.amqp.implementation.AmqpExceptionHandler.onConnectionError(java.lang.Throwable)
-  name: AmqpExceptionHandler.onConnectionError(Throwable)
-  nameWithType: AmqpExceptionHandler.onConnectionError(Throwable)
-  fullName: com.azure.core.amqp.implementation.AmqpExceptionHandler.onConnectionError(java.lang.Throwable)
 - uid: java.lang.Object.wait(long,int)
   name: Object.wait(long,int)
   nameWithType: Object.wait(long,int)
   fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()

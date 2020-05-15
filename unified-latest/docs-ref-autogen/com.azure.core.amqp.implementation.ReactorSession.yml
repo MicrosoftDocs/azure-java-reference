@@ -15,7 +15,6 @@ items:
   - com.azure.core.amqp.implementation.ReactorSession.getSessionName()
   - com.azure.core.amqp.implementation.ReactorSession.isDisposed()
   - com.azure.core.amqp.implementation.ReactorSession.removeLink(java.lang.String)
-  - com.azure.core.amqp.implementation.ReactorSession.session()
   langs:
   - java
   name: ReactorSession
@@ -288,22 +287,6 @@ items:
       type: java.lang.String
     return:
       type: boolean
-- uid: com.azure.core.amqp.implementation.ReactorSession.session()
-  id: session()
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ReactorSession
-  langs:
-  - java
-  name: session()
-  nameWithType: ReactorSession.session()
-  fullName: com.azure.core.amqp.implementation.ReactorSession.session()
-  overload: com.azure.core.amqp.implementation.ReactorSession.session*
-  type: Method
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: " Session session()"
-    return:
-      type: org.apache.qpid.proton.engine.Session
 references:
 - uid: org.apache.qpid.proton.engine.Session
   spec.java:
@@ -356,11 +339,6 @@ references:
   name: ReactorSession
   nameWithType: ReactorSession.ReactorSession
   fullName: com.azure.core.amqp.implementation.ReactorSession.ReactorSession
-  package: com.azure.core.amqp.implementation
-- uid: com.azure.core.amqp.implementation.ReactorSession.session*
-  name: session
-  nameWithType: ReactorSession.session
-  fullName: com.azure.core.amqp.implementation.ReactorSession.session
   package: com.azure.core.amqp.implementation
 - uid: reactor.core.publisher.Flux<com.azure.core.amqp.AmqpEndpointState>
   spec.java:

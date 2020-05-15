@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.ClientSideRequestStatistics.StoreResponseStatistics.StoreResponseStatistics()
   - com.azure.cosmos.ClientSideRequestStatistics.StoreResponseStatistics.requestOperationType
   - com.azure.cosmos.ClientSideRequestStatistics.StoreResponseStatistics.requestResourceType
   - com.azure.cosmos.ClientSideRequestStatistics.StoreResponseStatistics.requestResponseTime

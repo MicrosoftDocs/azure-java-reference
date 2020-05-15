@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-core:1.2.0
   parent: com.azure.core.implementation.serializer
   children:
-  - com.azure.core.implementation.serializer.ItemPage.ItemPage()
   - com.azure.core.implementation.serializer.ItemPage.getContinuationToken()
   - com.azure.core.implementation.serializer.ItemPage.getItems()
   langs:

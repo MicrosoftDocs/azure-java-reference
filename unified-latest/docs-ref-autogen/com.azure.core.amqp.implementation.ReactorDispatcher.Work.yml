@@ -4,9 +4,6 @@ items:
   id: Work
   artifact: com.azure:azure-core-amqp:1.0.1
   parent: com.azure.core.amqp.implementation
-  children:
-  - com.azure.core.amqp.implementation.ReactorDispatcher.Work.Work(java.lang.Runnable)
-  - com.azure.core.amqp.implementation.ReactorDispatcher.Work.Work(java.lang.Runnable,java.time.Duration)
   langs:
   - java
   name: ReactorDispatcher.Work

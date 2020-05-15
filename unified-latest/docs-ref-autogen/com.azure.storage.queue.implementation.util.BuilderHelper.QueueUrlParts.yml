@@ -13,7 +13,6 @@ items:
   - com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.getScheme()
   - com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setAccountName(java.lang.String)
   - com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setEndpoint(java.lang.String)
-  - com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setQueueName(java.lang.String)
   - com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setSasToken(java.lang.String)
   - com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setScheme(java.lang.String)
   langs:
@@ -171,25 +170,6 @@ items:
       type: java.lang.String
     return:
       type: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts
-- uid: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setQueueName(java.lang.String)
-  id: setQueueName(java.lang.String)
-  artifact: com.azure:azure-storage-queue:12.3.0
-  parent: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts
-  langs:
-  - java
-  name: setQueueName(String queueName)
-  nameWithType: BuilderHelper.QueueUrlParts.setQueueName(String queueName)
-  fullName: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setQueueName(String queueName)
-  overload: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setQueueName*
-  type: Method
-  package: com.azure.storage.queue.implementation.util
-  syntax:
-    content: " BuilderHelper.QueueUrlParts setQueueName(String queueName)"
-    parameters:
-    - id: queueName
-      type: java.lang.String
-    return:
-      type: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts
 - uid: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setSasToken(java.lang.String)
   id: setSasToken(java.lang.String)
   artifact: com.azure:azure-storage-queue:12.3.0
@@ -273,11 +253,6 @@ references:
   name: getQueueName
   nameWithType: BuilderHelper.QueueUrlParts.getQueueName
   fullName: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.getQueueName
-  package: com.azure.storage.queue.implementation.util
-- uid: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setQueueName*
-  name: setQueueName
-  nameWithType: BuilderHelper.QueueUrlParts.setQueueName
-  fullName: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.setQueueName
   package: com.azure.storage.queue.implementation.util
 - uid: com.azure.storage.queue.implementation.util.BuilderHelper.QueueUrlParts.getSasToken*
   name: getSasToken

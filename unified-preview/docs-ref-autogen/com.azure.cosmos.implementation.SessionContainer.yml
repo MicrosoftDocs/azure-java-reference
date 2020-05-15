@@ -10,7 +10,6 @@ items:
   - com.azure.cosmos.implementation.SessionContainer.clearTokenByCollectionFullName(java.lang.String)
   - com.azure.cosmos.implementation.SessionContainer.clearTokenByResourceId(java.lang.String)
   - com.azure.cosmos.implementation.SessionContainer.getHostName()
-  - com.azure.cosmos.implementation.SessionContainer.getSessionToken(java.lang.String)
   - com.azure.cosmos.implementation.SessionContainer.resolveGlobalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   - com.azure.cosmos.implementation.SessionContainer.resolvePartitionLocalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,java.lang.String)
   - com.azure.cosmos.implementation.SessionContainer.setSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,java.util.Map<java.lang.String,java.lang.String>)
@@ -127,25 +126,6 @@ items:
     content: public String getHostName()
     return:
       type: java.lang.String
-- uid: com.azure.cosmos.implementation.SessionContainer.getSessionToken(java.lang.String)
-  id: getSessionToken(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.SessionContainer
-  langs:
-  - java
-  name: getSessionToken(String collectionLink)
-  nameWithType: SessionContainer.getSessionToken(String collectionLink)
-  fullName: com.azure.cosmos.implementation.SessionContainer.getSessionToken(String collectionLink)
-  overload: com.azure.cosmos.implementation.SessionContainer.getSessionToken*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " String getSessionToken(String collectionLink)"
-    parameters:
-    - id: collectionLink
-      type: java.lang.String
-    return:
-      type: java.lang.String
 - uid: com.azure.cosmos.implementation.SessionContainer.resolveGlobalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   id: resolveGlobalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -246,11 +226,6 @@ references:
   name: getHostName
   nameWithType: SessionContainer.getHostName
   fullName: com.azure.cosmos.implementation.SessionContainer.getHostName
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.SessionContainer.getSessionToken*
-  name: getSessionToken
-  nameWithType: SessionContainer.getSessionToken
-  fullName: com.azure.cosmos.implementation.SessionContainer.getSessionToken
   package: com.azure.cosmos.implementation
 - uid: com.azure.cosmos.implementation.RxDocumentServiceRequest
   name: RxDocumentServiceRequest

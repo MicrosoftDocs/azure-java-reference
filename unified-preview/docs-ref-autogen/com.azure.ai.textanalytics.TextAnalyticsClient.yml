@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
   parent: com.azure.ai.textanalytics
   children:
-  - com.azure.ai.textanalytics.TextAnalyticsClient.TextAnalyticsClient(com.azure.ai.textanalytics.TextAnalyticsAsyncClient)
   - com.azure.ai.textanalytics.TextAnalyticsClient.analyzeSentiment(java.lang.String)
   - com.azure.ai.textanalytics.TextAnalyticsClient.analyzeSentimentBatch(java.util.List<java.lang.String>)
   - com.azure.ai.textanalytics.TextAnalyticsClient.analyzeSentimentBatchWithResponse(java.util.List<com.azure.ai.textanalytics.models.TextDocumentInput>,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
@@ -665,7 +664,7 @@ items:
     return:
       type: com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.ExtractKeyPhraseResult>>
       description: >-
-        A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.ExtractKeyPhraseResult" data-throw-if-not-resolved="false">key phrases</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrasesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
   id: extractKeyPhrasesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
@@ -853,7 +852,7 @@ items:
     return:
       type: com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.RecognizeEntitiesResult>>
       description: >-
-        A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.RecognizeEntitiesResult" data-throw-if-not-resolved="false">categorized entity</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
   id: recognizeEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
@@ -1061,7 +1060,7 @@ items:
     return:
       type: com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult>>
       description: >-
-        A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult" data-throw-if-not-resolved="false">linked entity</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
   id: recognizeLinkedEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
@@ -1271,7 +1270,7 @@ items:
     return:
       type: com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.RecognizePiiEntitiesResult>>
       description: >-
-        A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.RecognizeEntitiesResult" data-throw-if-not-resolved="false">PII entity</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizePiiEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
   id: recognizePiiEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)

@@ -5,15 +5,9 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos.implementation
   children:
-  - com.azure.cosmos.implementation.RuntimeExecutionTimes.RuntimeExecutionTimes(java.time.Duration,java.time.Duration,java.time.Duration)
-  - com.azure.cosmos.implementation.RuntimeExecutionTimes.ZERO
-  - com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromCollection(java.util.Collection<com.azure.cosmos.implementation.RuntimeExecutionTimes>)
-  - com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromDelimitedString(java.lang.String)
   - com.azure.cosmos.implementation.RuntimeExecutionTimes.getQueryEngineExecutionTime()
   - com.azure.cosmos.implementation.RuntimeExecutionTimes.getSystemFunctionExecutionTime()
   - com.azure.cosmos.implementation.RuntimeExecutionTimes.getUserDefinedFunctionExecutionTime()
-  - com.azure.cosmos.implementation.RuntimeExecutionTimes.toDelimitedString()
-  - com.azure.cosmos.implementation.RuntimeExecutionTimes.toTextString(int)
   langs:
   - java
   name: RuntimeExecutionTimes
@@ -59,59 +53,6 @@ items:
       type: java.time.Duration
     - id: userDefinedFunctionExecutionTime
       type: java.time.Duration
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.ZERO
-  id: ZERO
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RuntimeExecutionTimes
-  langs:
-  - java
-  name: ZERO
-  nameWithType: RuntimeExecutionTimes.ZERO
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.ZERO
-  type: Field
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static final RuntimeExecutionTimes ZERO
-    return:
-      type: com.azure.cosmos.implementation.RuntimeExecutionTimes
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromCollection(java.util.Collection<com.azure.cosmos.implementation.RuntimeExecutionTimes>)
-  id: createFromCollection(java.util.Collection<com.azure.cosmos.implementation.RuntimeExecutionTimes>)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RuntimeExecutionTimes
-  langs:
-  - java
-  name: createFromCollection(Collection<RuntimeExecutionTimes> runtimeExecutionTimesCollection)
-  nameWithType: RuntimeExecutionTimes.createFromCollection(Collection<RuntimeExecutionTimes> runtimeExecutionTimesCollection)
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromCollection(Collection<RuntimeExecutionTimes> runtimeExecutionTimesCollection)
-  overload: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromCollection*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static RuntimeExecutionTimes createFromCollection(Collection<RuntimeExecutionTimes> runtimeExecutionTimesCollection)
-    parameters:
-    - id: runtimeExecutionTimesCollection
-      type: java.util.Collection<com.azure.cosmos.implementation.RuntimeExecutionTimes>
-    return:
-      type: com.azure.cosmos.implementation.RuntimeExecutionTimes
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromDelimitedString(java.lang.String)
-  id: createFromDelimitedString(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RuntimeExecutionTimes
-  langs:
-  - java
-  name: createFromDelimitedString(String delimitedString)
-  nameWithType: RuntimeExecutionTimes.createFromDelimitedString(String delimitedString)
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromDelimitedString(String delimitedString)
-  overload: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromDelimitedString*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static RuntimeExecutionTimes createFromDelimitedString(String delimitedString)
-    parameters:
-    - id: delimitedString
-      type: java.lang.String
-    return:
-      type: com.azure.cosmos.implementation.RuntimeExecutionTimes
 - uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.getQueryEngineExecutionTime()
   id: getQueryEngineExecutionTime()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -163,41 +104,6 @@ items:
     return:
       type: java.time.Duration
       description: the userDefinedFunctionExecutionTime
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.toDelimitedString()
-  id: toDelimitedString()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RuntimeExecutionTimes
-  langs:
-  - java
-  name: toDelimitedString()
-  nameWithType: RuntimeExecutionTimes.toDelimitedString()
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.toDelimitedString()
-  overload: com.azure.cosmos.implementation.RuntimeExecutionTimes.toDelimitedString*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " String toDelimitedString()"
-    return:
-      type: java.lang.String
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.toTextString(int)
-  id: toTextString(int)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RuntimeExecutionTimes
-  langs:
-  - java
-  name: toTextString(int indentLevel)
-  nameWithType: RuntimeExecutionTimes.toTextString(int indentLevel)
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.toTextString(int indentLevel)
-  overload: com.azure.cosmos.implementation.RuntimeExecutionTimes.toTextString*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: " String toTextString(int indentLevel)"
-    parameters:
-    - id: indentLevel
-      type: int
-    return:
-      type: java.lang.String
 references:
 - uid: java.time.Duration
   spec.java:
@@ -223,48 +129,6 @@ references:
   name: getUserDefinedFunctionExecutionTime
   nameWithType: RuntimeExecutionTimes.getUserDefinedFunctionExecutionTime
   fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.getUserDefinedFunctionExecutionTime
-  package: com.azure.cosmos.implementation
-- uid: java.util.Collection<com.azure.cosmos.implementation.RuntimeExecutionTimes>
-  spec.java:
-  - uid: java.util.Collection
-    name: Collection
-    fullName: java.util.Collection
-  - name: <
-    fullName: <
-  - uid: com.azure.cosmos.implementation.RuntimeExecutionTimes
-    name: RuntimeExecutionTimes
-    fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes
-  - name: '>'
-    fullName: '>'
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromCollection*
-  name: createFromCollection
-  nameWithType: RuntimeExecutionTimes.createFromCollection
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromCollection
-  package: com.azure.cosmos.implementation
-- uid: java.lang.String
-  spec.java:
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromDelimitedString*
-  name: createFromDelimitedString
-  nameWithType: RuntimeExecutionTimes.createFromDelimitedString
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.createFromDelimitedString
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.toDelimitedString*
-  name: toDelimitedString
-  nameWithType: RuntimeExecutionTimes.toDelimitedString
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.toDelimitedString
-  package: com.azure.cosmos.implementation
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
-- uid: com.azure.cosmos.implementation.RuntimeExecutionTimes.toTextString*
-  name: toTextString
-  nameWithType: RuntimeExecutionTimes.toTextString
-  fullName: com.azure.cosmos.implementation.RuntimeExecutionTimes.toTextString
   package: com.azure.cosmos.implementation
 - uid: java.lang.Object.notify()
   name: Object.notify()
@@ -310,7 +174,3 @@ references:
   name: Object.toString()
   nameWithType: Object.toString()
   fullName: java.lang.Object.toString()
-- uid: java.util.Collection
-  name: Collection
-  nameWithType: Collection
-  fullName: java.util.Collection

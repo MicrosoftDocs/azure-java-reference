@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-security-keyvault-keys:4.1.0
   parent: com.azure.security.keyvault.keys.implementation
   children:
-  - com.azure.security.keyvault.keys.implementation.ScopeTokenCache.ScopeTokenCache(java.util.function.Function<com.azure.core.credential.TokenRequestContext,reactor.core.publisher.Mono<com.azure.core.credential.AccessToken>>)
   - com.azure.security.keyvault.keys.implementation.ScopeTokenCache.getToken()
   - com.azure.security.keyvault.keys.implementation.ScopeTokenCache.setTokenRequest(com.azure.core.credential.TokenRequestContext)
   langs:

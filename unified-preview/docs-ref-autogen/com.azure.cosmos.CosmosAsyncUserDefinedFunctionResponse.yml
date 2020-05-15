@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse.CosmosAsyncUserDefinedFunctionResponse(com.azure.cosmos.implementation.ResourceResponse<com.azure.cosmos.implementation.UserDefinedFunction>,com.azure.cosmos.CosmosAsyncContainer)
   - com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse.getProperties()
   - com.azure.cosmos.CosmosAsyncUserDefinedFunctionResponse.getUserDefinedFunction()
   langs:
@@ -31,7 +30,6 @@ items:
   - com.azure.cosmos.CosmosResponse.getResponseHeaders()
   - com.azure.cosmos.CosmosResponse.getSessionToken()
   - com.azure.cosmos.CosmosResponse.getStatusCode()
-  - com.azure.cosmos.CosmosResponse.setProperties(T)
   - java.lang.Object.clone()
   - java.lang.Object.equals(java.lang.Object)
   - java.lang.Object.finalize()
@@ -174,10 +172,6 @@ references:
   name: Object.equals(Object)
   nameWithType: Object.equals(Object)
   fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.azure.cosmos.CosmosResponse.setProperties(T)
-  name: CosmosResponse.setProperties(T)
-  nameWithType: CosmosResponse.setProperties(T)
-  fullName: com.azure.cosmos.CosmosResponse.setProperties(T)
 - uid: java.lang.Object.toString()
   name: Object.toString()
   nameWithType: Object.toString()

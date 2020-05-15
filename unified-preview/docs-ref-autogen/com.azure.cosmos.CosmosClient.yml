@@ -5,10 +5,7 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.CosmosClient.CosmosClient(com.azure.cosmos.CosmosClientBuilder)
-  - com.azure.cosmos.CosmosClient.asyncClient()
   - com.azure.cosmos.CosmosClient.close()
-  - com.azure.cosmos.CosmosClient.convertResponse(com.azure.cosmos.CosmosAsyncDatabaseResponse)
   - com.azure.cosmos.CosmosClient.cosmosClientBuilder()
   - com.azure.cosmos.CosmosClient.createDatabase(com.azure.cosmos.CosmosDatabaseProperties)
   - com.azure.cosmos.CosmosClient.createDatabase(com.azure.cosmos.CosmosDatabaseProperties,com.azure.cosmos.CosmosDatabaseRequestOptions)
@@ -19,7 +16,6 @@ items:
   - com.azure.cosmos.CosmosClient.createDatabaseIfNotExists(com.azure.cosmos.CosmosDatabaseProperties)
   - com.azure.cosmos.CosmosClient.createDatabaseIfNotExists(java.lang.String)
   - com.azure.cosmos.CosmosClient.getDatabase(java.lang.String)
-  - com.azure.cosmos.CosmosClient.mapDatabaseResponseAndBlock(reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncDatabaseResponse>)
   - com.azure.cosmos.CosmosClient.queryDatabases(com.azure.cosmos.SqlQuerySpec,com.azure.cosmos.FeedOptions)
   - com.azure.cosmos.CosmosClient.queryDatabases(java.lang.String,com.azure.cosmos.FeedOptions)
   - com.azure.cosmos.CosmosClient.readAllDatabases()
@@ -67,22 +63,6 @@ items:
     parameters:
     - id: builder
       type: com.azure.cosmos.CosmosClientBuilder
-- uid: com.azure.cosmos.CosmosClient.asyncClient()
-  id: asyncClient()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosClient
-  langs:
-  - java
-  name: asyncClient()
-  nameWithType: CosmosClient.asyncClient()
-  fullName: com.azure.cosmos.CosmosClient.asyncClient()
-  overload: com.azure.cosmos.CosmosClient.asyncClient*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " CosmosAsyncClient asyncClient()"
-    return:
-      type: com.azure.cosmos.CosmosAsyncClient
 - uid: com.azure.cosmos.CosmosClient.close()
   id: close()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -98,25 +78,6 @@ items:
   summary: Close this <xref uid="com.azure.cosmos.CosmosClient" data-throw-if-not-resolved="false">CosmosClient</xref> instance
   syntax:
     content: public void close()
-- uid: com.azure.cosmos.CosmosClient.convertResponse(com.azure.cosmos.CosmosAsyncDatabaseResponse)
-  id: convertResponse(com.azure.cosmos.CosmosAsyncDatabaseResponse)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosClient
-  langs:
-  - java
-  name: convertResponse(CosmosAsyncDatabaseResponse response)
-  nameWithType: CosmosClient.convertResponse(CosmosAsyncDatabaseResponse response)
-  fullName: com.azure.cosmos.CosmosClient.convertResponse(CosmosAsyncDatabaseResponse response)
-  overload: com.azure.cosmos.CosmosClient.convertResponse*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " CosmosDatabaseResponse convertResponse(CosmosAsyncDatabaseResponse response)"
-    parameters:
-    - id: response
-      type: com.azure.cosmos.CosmosAsyncDatabaseResponse
-    return:
-      type: com.azure.cosmos.CosmosDatabaseResponse
 - uid: com.azure.cosmos.CosmosClient.cosmosClientBuilder()
   id: cosmosClientBuilder()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -372,27 +333,6 @@ items:
     return:
       type: com.azure.cosmos.CosmosDatabase
       description: <xref uid="com.azure.cosmos.CosmosDatabase" data-throw-if-not-resolved="false">CosmosDatabase</xref> the cosmos sync database
-- uid: com.azure.cosmos.CosmosClient.mapDatabaseResponseAndBlock(reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncDatabaseResponse>)
-  id: mapDatabaseResponseAndBlock(reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncDatabaseResponse>)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosClient
-  langs:
-  - java
-  name: mapDatabaseResponseAndBlock(Mono<CosmosAsyncDatabaseResponse> databaseMono)
-  nameWithType: CosmosClient.mapDatabaseResponseAndBlock(Mono<CosmosAsyncDatabaseResponse> databaseMono)
-  fullName: com.azure.cosmos.CosmosClient.mapDatabaseResponseAndBlock(Mono<CosmosAsyncDatabaseResponse> databaseMono)
-  overload: com.azure.cosmos.CosmosClient.mapDatabaseResponseAndBlock*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " CosmosDatabaseResponse mapDatabaseResponseAndBlock(Mono<CosmosAsyncDatabaseResponse> databaseMono)"
-    parameters:
-    - id: databaseMono
-      type: reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncDatabaseResponse>
-    return:
-      type: com.azure.cosmos.CosmosDatabaseResponse
-  exceptions:
-  - type: com.azure.cosmos.CosmosClientException
 - uid: com.azure.cosmos.CosmosClient.queryDatabases(com.azure.cosmos.SqlQuerySpec,com.azure.cosmos.FeedOptions)
   id: queryDatabases(com.azure.cosmos.SqlQuerySpec,com.azure.cosmos.FeedOptions)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -534,23 +474,6 @@ references:
   - uid: int
     name: int
     fullName: int
-- uid: reactor.core.publisher.Mono<com.azure.cosmos.CosmosAsyncDatabaseResponse>
-  spec.java:
-  - uid: reactor.core.publisher.Mono
-    name: Mono
-    fullName: reactor.core.publisher.Mono
-  - name: <
-    fullName: <
-  - uid: com.azure.cosmos.CosmosAsyncDatabaseResponse
-    name: CosmosAsyncDatabaseResponse
-    fullName: com.azure.cosmos.CosmosAsyncDatabaseResponse
-  - name: '>'
-    fullName: '>'
-- uid: com.azure.cosmos.CosmosClient.mapDatabaseResponseAndBlock*
-  name: mapDatabaseResponseAndBlock
-  nameWithType: CosmosClient.mapDatabaseResponseAndBlock
-  fullName: com.azure.cosmos.CosmosClient.mapDatabaseResponseAndBlock
-  package: com.azure.cosmos
 - uid: com.azure.cosmos.FeedOptions
   name: FeedOptions
   nameWithType: FeedOptions
@@ -589,24 +512,6 @@ references:
   name: getDatabase
   nameWithType: CosmosClient.getDatabase
   fullName: com.azure.cosmos.CosmosClient.getDatabase
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.CosmosAsyncDatabaseResponse
-  name: CosmosAsyncDatabaseResponse
-  nameWithType: CosmosAsyncDatabaseResponse
-  fullName: com.azure.cosmos.CosmosAsyncDatabaseResponse
-- uid: com.azure.cosmos.CosmosClient.convertResponse*
-  name: convertResponse
-  nameWithType: CosmosClient.convertResponse
-  fullName: com.azure.cosmos.CosmosClient.convertResponse
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.CosmosAsyncClient
-  name: CosmosAsyncClient
-  nameWithType: CosmosAsyncClient
-  fullName: com.azure.cosmos.CosmosAsyncClient
-- uid: com.azure.cosmos.CosmosClient.asyncClient*
-  name: asyncClient
-  nameWithType: CosmosClient.asyncClient
-  fullName: com.azure.cosmos.CosmosClient.asyncClient
   package: com.azure.cosmos
 - uid: com.azure.cosmos.CosmosClient.close*
   name: close
@@ -661,10 +566,6 @@ references:
   name: Object.toString()
   nameWithType: Object.toString()
   fullName: java.lang.Object.toString()
-- uid: reactor.core.publisher.Mono
-  name: Mono
-  nameWithType: Mono
-  fullName: reactor.core.publisher.Mono
 - uid: com.azure.cosmos.CosmosContinuablePagedIterable
   name: CosmosContinuablePagedIterable
   nameWithType: CosmosContinuablePagedIterable

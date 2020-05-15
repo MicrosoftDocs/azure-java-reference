@@ -16,11 +16,6 @@ items:
   - com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getVersion()
   - com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.paths()
   - com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.services()
-  - com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setFileSystem(java.lang.String)
-  - com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setPath1(java.lang.String)
-  - com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setResource(java.lang.String)
-  - com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setUrl(java.lang.String)
-  - com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setVersion(java.lang.String)
   langs:
   - java
   name: DataLakeStorageClientImpl
@@ -241,111 +236,6 @@ items:
     return:
       type: com.azure.storage.file.datalake.implementation.ServicesImpl
       description: the ServicesImpl object.
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setFileSystem(java.lang.String)
-  id: setFileSystem(java.lang.String)
-  artifact: com.azure:azure-storage-file-datalake:12.0.0-beta.12
-  parent: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-  langs:
-  - java
-  name: setFileSystem(String fileSystem)
-  nameWithType: DataLakeStorageClientImpl.setFileSystem(String fileSystem)
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setFileSystem(String fileSystem)
-  overload: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setFileSystem*
-  type: Method
-  package: com.azure.storage.file.datalake.implementation
-  summary: Sets The filesystem identifier.
-  syntax:
-    content: " DataLakeStorageClientImpl setFileSystem(String fileSystem)"
-    parameters:
-    - id: fileSystem
-      type: java.lang.String
-      description: the fileSystem value.
-    return:
-      type: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setPath1(java.lang.String)
-  id: setPath1(java.lang.String)
-  artifact: com.azure:azure-storage-file-datalake:12.0.0-beta.12
-  parent: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-  langs:
-  - java
-  name: setPath1(String path1)
-  nameWithType: DataLakeStorageClientImpl.setPath1(String path1)
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setPath1(String path1)
-  overload: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setPath1*
-  type: Method
-  package: com.azure.storage.file.datalake.implementation
-  summary: Sets The file or directory path.
-  syntax:
-    content: " DataLakeStorageClientImpl setPath1(String path1)"
-    parameters:
-    - id: path1
-      type: java.lang.String
-      description: the path1 value.
-    return:
-      type: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setResource(java.lang.String)
-  id: setResource(java.lang.String)
-  artifact: com.azure:azure-storage-file-datalake:12.0.0-beta.12
-  parent: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-  langs:
-  - java
-  name: setResource(String resource)
-  nameWithType: DataLakeStorageClientImpl.setResource(String resource)
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setResource(String resource)
-  overload: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setResource*
-  type: Method
-  package: com.azure.storage.file.datalake.implementation
-  summary: Sets The value must be "filesystem" for all filesystem operations.
-  syntax:
-    content: " DataLakeStorageClientImpl setResource(String resource)"
-    parameters:
-    - id: resource
-      type: java.lang.String
-      description: the resource value.
-    return:
-      type: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setUrl(java.lang.String)
-  id: setUrl(java.lang.String)
-  artifact: com.azure:azure-storage-file-datalake:12.0.0-beta.12
-  parent: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-  langs:
-  - java
-  name: setUrl(String url)
-  nameWithType: DataLakeStorageClientImpl.setUrl(String url)
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setUrl(String url)
-  overload: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setUrl*
-  type: Method
-  package: com.azure.storage.file.datalake.implementation
-  summary: Sets The URL of the service account, container, or blob that is the targe of the desired operation.
-  syntax:
-    content: " DataLakeStorageClientImpl setUrl(String url)"
-    parameters:
-    - id: url
-      type: java.lang.String
-      description: the url value.
-    return:
-      type: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setVersion(java.lang.String)
-  id: setVersion(java.lang.String)
-  artifact: com.azure:azure-storage-file-datalake:12.0.0-beta.12
-  parent: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
-  langs:
-  - java
-  name: setVersion(String version)
-  nameWithType: DataLakeStorageClientImpl.setVersion(String version)
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setVersion(String version)
-  overload: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setVersion*
-  type: Method
-  package: com.azure.storage.file.datalake.implementation
-  summary: Sets Specifies the version of the operation to use for this request.
-  syntax:
-    content: " DataLakeStorageClientImpl setVersion(String version)"
-    parameters:
-    - id: version
-      type: java.lang.String
-      description: the version value.
-    return:
-      type: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl
 references:
 - uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.DataLakeStorageClientImpl*
   name: DataLakeStorageClientImpl
@@ -367,50 +257,25 @@ references:
   nameWithType: DataLakeStorageClientImpl.getUrl
   fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getUrl
   package: com.azure.storage.file.datalake.implementation
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setUrl*
-  name: setUrl
-  nameWithType: DataLakeStorageClientImpl.setUrl
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setUrl
-  package: com.azure.storage.file.datalake.implementation
 - uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getResource*
   name: getResource
   nameWithType: DataLakeStorageClientImpl.getResource
   fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getResource
-  package: com.azure.storage.file.datalake.implementation
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setResource*
-  name: setResource
-  nameWithType: DataLakeStorageClientImpl.setResource
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setResource
   package: com.azure.storage.file.datalake.implementation
 - uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getVersion*
   name: getVersion
   nameWithType: DataLakeStorageClientImpl.getVersion
   fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getVersion
   package: com.azure.storage.file.datalake.implementation
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setVersion*
-  name: setVersion
-  nameWithType: DataLakeStorageClientImpl.setVersion
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setVersion
-  package: com.azure.storage.file.datalake.implementation
 - uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getFileSystem*
   name: getFileSystem
   nameWithType: DataLakeStorageClientImpl.getFileSystem
   fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getFileSystem
   package: com.azure.storage.file.datalake.implementation
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setFileSystem*
-  name: setFileSystem
-  nameWithType: DataLakeStorageClientImpl.setFileSystem
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setFileSystem
-  package: com.azure.storage.file.datalake.implementation
 - uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getPath1*
   name: getPath1
   nameWithType: DataLakeStorageClientImpl.getPath1
   fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getPath1
-  package: com.azure.storage.file.datalake.implementation
-- uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setPath1*
-  name: setPath1
-  nameWithType: DataLakeStorageClientImpl.setPath1
-  fullName: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.setPath1
   package: com.azure.storage.file.datalake.implementation
 - uid: com.azure.storage.file.datalake.implementation.DataLakeStorageClientImpl.getHttpPipeline*
   name: getHttpPipeline

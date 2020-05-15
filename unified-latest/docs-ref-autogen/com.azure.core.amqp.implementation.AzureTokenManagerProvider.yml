@@ -6,7 +6,6 @@ items:
   parent: com.azure.core.amqp.implementation
   children:
   - com.azure.core.amqp.implementation.AzureTokenManagerProvider.AzureTokenManagerProvider(com.azure.core.amqp.implementation.CbsAuthorizationType,java.lang.String,java.lang.String)
-  - com.azure.core.amqp.implementation.AzureTokenManagerProvider.TOKEN_AUDIENCE_FORMAT
   - com.azure.core.amqp.implementation.AzureTokenManagerProvider.getScopesFromResource(java.lang.String)
   - com.azure.core.amqp.implementation.AzureTokenManagerProvider.getTokenManager(reactor.core.publisher.Mono<com.azure.core.amqp.ClaimsBasedSecurityNode>,java.lang.String)
   langs:
@@ -60,21 +59,6 @@ items:
     - id: activeDirectoryScope
       type: java.lang.String
       description: Scope used to access AD resources for the Azure service.
-- uid: com.azure.core.amqp.implementation.AzureTokenManagerProvider.TOKEN_AUDIENCE_FORMAT
-  id: TOKEN_AUDIENCE_FORMAT
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.AzureTokenManagerProvider
-  langs:
-  - java
-  name: TOKEN_AUDIENCE_FORMAT
-  nameWithType: AzureTokenManagerProvider.TOKEN_AUDIENCE_FORMAT
-  fullName: com.azure.core.amqp.implementation.AzureTokenManagerProvider.TOKEN_AUDIENCE_FORMAT
-  type: Field
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: static final String TOKEN_AUDIENCE_FORMAT
-    return:
-      type: java.lang.String
 - uid: com.azure.core.amqp.implementation.AzureTokenManagerProvider.getScopesFromResource(java.lang.String)
   id: getScopesFromResource(java.lang.String)
   artifact: com.azure:azure-core-amqp:1.0.1

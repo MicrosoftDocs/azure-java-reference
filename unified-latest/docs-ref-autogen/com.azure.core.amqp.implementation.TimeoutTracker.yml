@@ -4,10 +4,6 @@ items:
   id: TimeoutTracker
   artifact: com.azure:azure-core-amqp:1.0.1
   parent: com.azure.core.amqp.implementation
-  children:
-  - com.azure.core.amqp.implementation.TimeoutTracker.TimeoutTracker(java.time.Duration,boolean)
-  - com.azure.core.amqp.implementation.TimeoutTracker.elapsed()
-  - com.azure.core.amqp.implementation.TimeoutTracker.remaining()
   langs:
   - java
   name: TimeoutTracker
@@ -54,39 +50,7 @@ items:
       type: boolean
       description: >-
         whether/not to start the timeout tracking - right now. If not started now, timer
-         tracking will start upon the first call to <xref uid="com.azure.core.amqp.implementation.TimeoutTracker.elapsed()" data-throw-if-not-resolved="false">TimeoutTracker#elapsed()</xref>/<xref uid="com.azure.core.amqp.implementation.TimeoutTracker.remaining()" data-throw-if-not-resolved="false">TimeoutTracker#remaining()</xref>
-- uid: com.azure.core.amqp.implementation.TimeoutTracker.elapsed()
-  id: elapsed()
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.TimeoutTracker
-  langs:
-  - java
-  name: elapsed()
-  nameWithType: TimeoutTracker.elapsed()
-  fullName: com.azure.core.amqp.implementation.TimeoutTracker.elapsed()
-  overload: com.azure.core.amqp.implementation.TimeoutTracker.elapsed*
-  type: Method
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: " Duration elapsed()"
-    return:
-      type: java.time.Duration
-- uid: com.azure.core.amqp.implementation.TimeoutTracker.remaining()
-  id: remaining()
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.TimeoutTracker
-  langs:
-  - java
-  name: remaining()
-  nameWithType: TimeoutTracker.remaining()
-  fullName: com.azure.core.amqp.implementation.TimeoutTracker.remaining()
-  overload: com.azure.core.amqp.implementation.TimeoutTracker.remaining*
-  type: Method
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: " Duration remaining()"
-    return:
-      type: java.time.Duration
+         tracking will start upon the first call to <xref uid="com.azure.core.amqp.implementation.TimeoutTracker.elapsed*" data-throw-if-not-resolved="false">TimeoutTracker#elapsed()</xref>/<xref uid="com.azure.core.amqp.implementation.TimeoutTracker.remaining*" data-throw-if-not-resolved="false">TimeoutTracker#remaining()</xref>
 references:
 - uid: java.time.Duration
   spec.java:
@@ -102,16 +66,6 @@ references:
   name: TimeoutTracker
   nameWithType: TimeoutTracker.TimeoutTracker
   fullName: com.azure.core.amqp.implementation.TimeoutTracker.TimeoutTracker
-  package: com.azure.core.amqp.implementation
-- uid: com.azure.core.amqp.implementation.TimeoutTracker.remaining*
-  name: remaining
-  nameWithType: TimeoutTracker.remaining
-  fullName: com.azure.core.amqp.implementation.TimeoutTracker.remaining
-  package: com.azure.core.amqp.implementation
-- uid: com.azure.core.amqp.implementation.TimeoutTracker.elapsed*
-  name: elapsed
-  nameWithType: TimeoutTracker.elapsed
-  fullName: com.azure.core.amqp.implementation.TimeoutTracker.elapsed
   package: com.azure.core.amqp.implementation
 - uid: java.lang.Object.notify()
   name: Object.notify()

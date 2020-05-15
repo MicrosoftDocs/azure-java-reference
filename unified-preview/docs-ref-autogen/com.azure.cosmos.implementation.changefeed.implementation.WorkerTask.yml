@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos.implementation.changefeed.implementation
   children:
-  - com.azure.cosmos.implementation.changefeed.implementation.WorkerTask.WorkerTask(com.azure.cosmos.implementation.changefeed.Lease,java.lang.Runnable)
   - com.azure.cosmos.implementation.changefeed.implementation.WorkerTask.isRunning()
   - com.azure.cosmos.implementation.changefeed.implementation.WorkerTask.lease()
   - com.azure.cosmos.implementation.changefeed.implementation.WorkerTask.run()
@@ -33,7 +32,6 @@ items:
   - java.lang.Object.wait(long)
   - java.lang.Object.wait(long,int)
   - java.lang.Thread.activeCount()
-  - java.lang.Thread.blockedOn(sun.nio.ch.Interruptible)
   - java.lang.Thread.checkAccess()
   - java.lang.Thread.clone()
   - java.lang.Thread.countStackFrames()
@@ -60,7 +58,6 @@ items:
   - java.lang.Thread.join(long)
   - java.lang.Thread.join(long,int)
   - java.lang.Thread.onSpinWait()
-  - java.lang.Thread.processQueue(java.lang.ref.ReferenceQueue<java.lang.Class<?>>,java.util.concurrent.ConcurrentMap<? extends java.lang.ref.WeakReference<java.lang.Class<?>>,?>)
   - java.lang.Thread.resume()
   - java.lang.Thread.run()
   - java.lang.Thread.setContextClassLoader(java.lang.ClassLoader)
@@ -252,10 +249,6 @@ references:
   name: Thread.setDaemon(boolean)
   nameWithType: Thread.setDaemon(boolean)
   fullName: java.lang.Thread.setDaemon(boolean)
-- uid: java.lang.Thread.blockedOn(sun.nio.ch.Interruptible)
-  name: Thread.blockedOn(Interruptible)
-  nameWithType: Thread.blockedOn(Interruptible)
-  fullName: java.lang.Thread.blockedOn(sun.nio.ch.Interruptible)
 - uid: java.lang.Object.equals(java.lang.Object)
   name: Object.equals(Object)
   nameWithType: Object.equals(Object)
@@ -312,10 +305,6 @@ references:
   name: Thread.onSpinWait()
   nameWithType: Thread.onSpinWait()
   fullName: java.lang.Thread.onSpinWait()
-- uid: java.lang.Thread.processQueue(java.lang.ref.ReferenceQueue<java.lang.Class<?>>,java.util.concurrent.ConcurrentMap<? extends java.lang.ref.WeakReference<java.lang.Class<?>>,?>)
-  name: Thread.processQueue(ReferenceQueue<Class<?>>,ConcurrentMap<? extends WeakReference<Class<?>>,?>)
-  nameWithType: Thread.processQueue(ReferenceQueue<Class<?>>,ConcurrentMap<? extends WeakReference<Class<?>>,?>)
-  fullName: java.lang.Thread.processQueue(java.lang.ref.ReferenceQueue<java.lang.Class<?>>,java.util.concurrent.ConcurrentMap<? extends java.lang.ref.WeakReference<java.lang.Class<?>>,?>)
 - uid: java.lang.Thread.getContextClassLoader()
   name: Thread.getContextClassLoader()
   nameWithType: Thread.getContextClassLoader()
@@ -392,23 +381,3 @@ references:
   name: Thread.getId()
   nameWithType: Thread.getId()
   fullName: java.lang.Thread.getId()
-- uid: ?>>,java.util.concurrent.ConcurrentMap
-  name: ?>>,ConcurrentMap
-  nameWithType: ?>>,ConcurrentMap
-  fullName: ?>>,java.util.concurrent.ConcurrentMap
-- uid: java.lang.Thread.processQueue(java.lang.ref.ReferenceQueue
-  name: Thread.processQueue(ReferenceQueue
-  nameWithType: Thread.processQueue(ReferenceQueue
-  fullName: java.lang.Thread.processQueue(java.lang.ref.ReferenceQueue
-- uid: '? extends java.lang.ref.WeakReference'
-  name: '? extends WeakReference'
-  nameWithType: '? extends WeakReference'
-  fullName: '? extends java.lang.ref.WeakReference'
-- uid: java.lang.Class
-  name: Class
-  nameWithType: Class
-  fullName: java.lang.Class
-- uid: ?>>,?>)
-  name: ?>>,?>)
-  nameWithType: ?>>,?>)
-  fullName: ?>>,?>)

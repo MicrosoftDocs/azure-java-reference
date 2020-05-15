@@ -4,8 +4,6 @@ items:
   id: CosmosContinuablePagedIterable
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
-  children:
-  - com.azure.cosmos.CosmosContinuablePagedIterable.CosmosContinuablePagedIterable(com.azure.core.util.paging.ContinuablePagedFlux<java.lang.String,T,com.azure.cosmos.FeedResponse<T>>)
   langs:
   - java
   name: CosmosContinuablePagedIterable<T>

@@ -59,7 +59,7 @@ items:
   overload: com.azure.storage.file.share.implementation.util.BuilderHelper.buildPipeline*
   type: Method
   package: com.azure.storage.file.share.implementation.util
-  summary: Constructs a <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> from values passed from a builder.
+  summary: Constructs a <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref> from values passed from a builder.
   syntax:
     content: public static HttpPipeline buildPipeline(Supplier<HttpPipelinePolicy> credentialPolicySupplier, RequestRetryOptions retryOptions, HttpLogOptions logOptions, HttpClient httpClient, List<HttpPipelinePolicy> additionalPolicies, Configuration configuration)
     parameters:
@@ -83,7 +83,7 @@ items:
       description: Configuration store contain environment settings.
     return:
       type: com.azure.core.http.HttpPipeline
-      description: A new <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> from the passed values.
+      description: A new <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref> from the passed values.
 - uid: com.azure.storage.file.share.implementation.util.BuilderHelper.getAccountName(java.net.URL)
   id: getAccountName(java.net.URL)
   artifact: com.azure:azure-storage-file-share:12.2.0

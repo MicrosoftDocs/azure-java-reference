@@ -67,7 +67,7 @@ items:
       type: com.azure.core.util.Context
     return:
       type: com.azure.core.util.Context
-      description: <xref uid="" data-throw-if-not-resolved="false">Context</xref> which contains the trace context propagation data
+      description: <xref uid="com.azure.core.util.Context" data-throw-if-not-resolved="false">Context</xref> which contains the trace context propagation data
 - uid: com.azure.tracing.opentelemetry.implementation.AmqpPropagationFormatUtil.getDiagnosticId(io.opencensus.trace.SpanContext)
   id: getDiagnosticId(io.opencensus.trace.SpanContext)
   artifact: com.azure:tracing-opentelemetry:1.0.0-preview.2

@@ -6,22 +6,18 @@ items:
   parent: com.azure.cosmos
   children:
   - com.azure.cosmos.CosmosItemRequestOptions.CosmosItemRequestOptions()
-  - com.azure.cosmos.CosmosItemRequestOptions.CosmosItemRequestOptions(com.azure.cosmos.PartitionKey)
   - com.azure.cosmos.CosmosItemRequestOptions.getAccessCondition()
   - com.azure.cosmos.CosmosItemRequestOptions.getConsistencyLevel()
   - com.azure.cosmos.CosmosItemRequestOptions.getIndexingDirective()
-  - com.azure.cosmos.CosmosItemRequestOptions.getPartitionKey()
   - com.azure.cosmos.CosmosItemRequestOptions.getPostTriggerInclude()
   - com.azure.cosmos.CosmosItemRequestOptions.getPreTriggerInclude()
   - com.azure.cosmos.CosmosItemRequestOptions.getSessionToken()
   - com.azure.cosmos.CosmosItemRequestOptions.setAccessCondition(com.azure.cosmos.AccessCondition)
   - com.azure.cosmos.CosmosItemRequestOptions.setConsistencyLevel(com.azure.cosmos.ConsistencyLevel)
   - com.azure.cosmos.CosmosItemRequestOptions.setIndexingDirective(com.azure.cosmos.IndexingDirective)
-  - com.azure.cosmos.CosmosItemRequestOptions.setPartitionKey(com.azure.cosmos.PartitionKey)
   - com.azure.cosmos.CosmosItemRequestOptions.setPostTriggerInclude(java.util.List<java.lang.String>)
   - com.azure.cosmos.CosmosItemRequestOptions.setPreTriggerInclude(java.util.List<java.lang.String>)
   - com.azure.cosmos.CosmosItemRequestOptions.setSessionToken(java.lang.String)
-  - com.azure.cosmos.CosmosItemRequestOptions.toRequestOptions()
   langs:
   - java
   name: CosmosItemRequestOptions
@@ -134,24 +130,6 @@ items:
     return:
       type: com.azure.cosmos.IndexingDirective
       description: the indexing directive.
-- uid: com.azure.cosmos.CosmosItemRequestOptions.getPartitionKey()
-  id: getPartitionKey()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosItemRequestOptions
-  langs:
-  - java
-  name: getPartitionKey()
-  nameWithType: CosmosItemRequestOptions.getPartitionKey()
-  fullName: com.azure.cosmos.CosmosItemRequestOptions.getPartitionKey()
-  overload: com.azure.cosmos.CosmosItemRequestOptions.getPartitionKey*
-  type: Method
-  package: com.azure.cosmos
-  summary: Gets the partition key
-  syntax:
-    content: " PartitionKey getPartitionKey()"
-    return:
-      type: com.azure.cosmos.PartitionKey
-      description: the partition key
 - uid: com.azure.cosmos.CosmosItemRequestOptions.getPostTriggerInclude()
   id: getPostTriggerInclude()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -272,28 +250,6 @@ items:
     return:
       type: com.azure.cosmos.CosmosItemRequestOptions
       description: the CosmosItemRequestOptions.
-- uid: com.azure.cosmos.CosmosItemRequestOptions.setPartitionKey(com.azure.cosmos.PartitionKey)
-  id: setPartitionKey(com.azure.cosmos.PartitionKey)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosItemRequestOptions
-  langs:
-  - java
-  name: setPartitionKey(PartitionKey partitionKey)
-  nameWithType: CosmosItemRequestOptions.setPartitionKey(PartitionKey partitionKey)
-  fullName: com.azure.cosmos.CosmosItemRequestOptions.setPartitionKey(PartitionKey partitionKey)
-  overload: com.azure.cosmos.CosmosItemRequestOptions.setPartitionKey*
-  type: Method
-  package: com.azure.cosmos
-  summary: Sets the partition key
-  syntax:
-    content: " CosmosItemRequestOptions setPartitionKey(PartitionKey partitionKey)"
-    parameters:
-    - id: partitionKey
-      type: com.azure.cosmos.PartitionKey
-      description: the partition key
-    return:
-      type: com.azure.cosmos.CosmosItemRequestOptions
-      description: the CosmosItemRequestOptions.
 - uid: com.azure.cosmos.CosmosItemRequestOptions.setPostTriggerInclude(java.util.List<java.lang.String>)
   id: setPostTriggerInclude(java.util.List<java.lang.String>)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -360,22 +316,6 @@ items:
     return:
       type: com.azure.cosmos.CosmosItemRequestOptions
       description: the CosmosItemRequestOptions.
-- uid: com.azure.cosmos.CosmosItemRequestOptions.toRequestOptions()
-  id: toRequestOptions()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosItemRequestOptions
-  langs:
-  - java
-  name: toRequestOptions()
-  nameWithType: CosmosItemRequestOptions.toRequestOptions()
-  fullName: com.azure.cosmos.CosmosItemRequestOptions.toRequestOptions()
-  overload: com.azure.cosmos.CosmosItemRequestOptions.toRequestOptions*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " RequestOptions toRequestOptions()"
-    return:
-      type: com.azure.cosmos.implementation.RequestOptions
 references:
 - uid: com.azure.cosmos.CosmosItemRequestOptions.CosmosItemRequestOptions*
   name: CosmosItemRequestOptions
@@ -474,25 +414,6 @@ references:
   name: setSessionToken
   nameWithType: CosmosItemRequestOptions.setSessionToken
   fullName: com.azure.cosmos.CosmosItemRequestOptions.setSessionToken
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.CosmosItemRequestOptions.setPartitionKey*
-  name: setPartitionKey
-  nameWithType: CosmosItemRequestOptions.setPartitionKey
-  fullName: com.azure.cosmos.CosmosItemRequestOptions.setPartitionKey
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.CosmosItemRequestOptions.getPartitionKey*
-  name: getPartitionKey
-  nameWithType: CosmosItemRequestOptions.getPartitionKey
-  fullName: com.azure.cosmos.CosmosItemRequestOptions.getPartitionKey
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.implementation.RequestOptions
-  name: RequestOptions
-  nameWithType: RequestOptions
-  fullName: com.azure.cosmos.implementation.RequestOptions
-- uid: com.azure.cosmos.CosmosItemRequestOptions.toRequestOptions*
-  name: toRequestOptions
-  nameWithType: CosmosItemRequestOptions.toRequestOptions
-  fullName: com.azure.cosmos.CosmosItemRequestOptions.toRequestOptions
   package: com.azure.cosmos
 - uid: java.lang.Object.notify()
   name: Object.notify()

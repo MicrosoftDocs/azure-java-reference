@@ -22,7 +22,7 @@ items:
   fullName: com.azure.core.implementation.TypeUtil
   type: Class
   package: com.azure.core.implementation
-  summary: Utility type exposing methods to deal with <xref uid="com.azure.core.implementation.serializer.jsonwrapper.api.Type" data-throw-if-not-resolved="false">Type</xref>.
+  summary: Utility type exposing methods to deal with <xref uid="java.lang.reflect.Type" data-throw-if-not-resolved="false">Type</xref>.
   syntax:
     content: public final class TypeUtil
   inheritance:

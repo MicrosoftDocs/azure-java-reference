@@ -6,12 +6,8 @@ items:
   parent: com.azure.cosmos
   children:
   - com.azure.cosmos.PartitionKey.NONE
-  - com.azure.cosmos.PartitionKey.PartitionKey(com.azure.cosmos.implementation.routing.PartitionKeyInternal)
   - com.azure.cosmos.PartitionKey.PartitionKey(java.lang.Object)
   - com.azure.cosmos.PartitionKey.equals(java.lang.Object)
-  - com.azure.cosmos.PartitionKey.fromJsonString(java.lang.String)
-  - com.azure.cosmos.PartitionKey.getInternalPartitionKey()
-  - com.azure.cosmos.PartitionKey.getKeyObject()
   - com.azure.cosmos.PartitionKey.hashCode()
   - com.azure.cosmos.PartitionKey.toString()
   langs:
@@ -111,62 +107,6 @@ items:
     return:
       type: boolean
       description: True if two object instance are considered equal.
-- uid: com.azure.cosmos.PartitionKey.fromJsonString(java.lang.String)
-  id: fromJsonString(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.PartitionKey
-  langs:
-  - java
-  name: fromJsonString(String jsonString)
-  nameWithType: PartitionKey.fromJsonString(String jsonString)
-  fullName: com.azure.cosmos.PartitionKey.fromJsonString(String jsonString)
-  overload: com.azure.cosmos.PartitionKey.fromJsonString*
-  type: Method
-  package: com.azure.cosmos
-  summary: Create a new instance of the PartitionKey object from a serialized JSON partition key.
-  syntax:
-    content: static PartitionKey fromJsonString(String jsonString)
-    parameters:
-    - id: jsonString
-      type: java.lang.String
-      description: the JSON string representation of this PartitionKey object.
-    return:
-      type: com.azure.cosmos.PartitionKey
-      description: the PartitionKey instance.
-- uid: com.azure.cosmos.PartitionKey.getInternalPartitionKey()
-  id: getInternalPartitionKey()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.PartitionKey
-  langs:
-  - java
-  name: getInternalPartitionKey()
-  nameWithType: PartitionKey.getInternalPartitionKey()
-  fullName: com.azure.cosmos.PartitionKey.getInternalPartitionKey()
-  overload: com.azure.cosmos.PartitionKey.getInternalPartitionKey*
-  type: Method
-  package: com.azure.cosmos
-  syntax:
-    content: " PartitionKeyInternal getInternalPartitionKey()"
-    return:
-      type: com.azure.cosmos.implementation.routing.PartitionKeyInternal
-- uid: com.azure.cosmos.PartitionKey.getKeyObject()
-  id: getKeyObject()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.PartitionKey
-  langs:
-  - java
-  name: getKeyObject()
-  nameWithType: PartitionKey.getKeyObject()
-  fullName: com.azure.cosmos.PartitionKey.getKeyObject()
-  overload: com.azure.cosmos.PartitionKey.getKeyObject*
-  type: Method
-  package: com.azure.cosmos
-  summary: Gets the object used to create partition key
-  syntax:
-    content: " Object getKeyObject()"
-    return:
-      type: java.lang.Object
-      description: the partition key object
 - uid: com.azure.cosmos.PartitionKey.hashCode()
   id: hashCode()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -216,30 +156,15 @@ references:
   - uid: java.lang.Object
     name: Object
     fullName: java.lang.Object
-- uid: com.azure.cosmos.PartitionKey.getKeyObject*
-  name: getKeyObject
-  nameWithType: PartitionKey.getKeyObject
-  fullName: com.azure.cosmos.PartitionKey.getKeyObject
-  package: com.azure.cosmos
 - uid: java.lang.String
   spec.java:
   - uid: java.lang.String
     name: String
     fullName: java.lang.String
-- uid: com.azure.cosmos.PartitionKey.fromJsonString*
-  name: fromJsonString
-  nameWithType: PartitionKey.fromJsonString
-  fullName: com.azure.cosmos.PartitionKey.fromJsonString
-  package: com.azure.cosmos
 - uid: com.azure.cosmos.PartitionKey.toString*
   name: toString
   nameWithType: PartitionKey.toString
   fullName: com.azure.cosmos.PartitionKey.toString
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.PartitionKey.getInternalPartitionKey*
-  name: getInternalPartitionKey
-  nameWithType: PartitionKey.getInternalPartitionKey
-  fullName: com.azure.cosmos.PartitionKey.getInternalPartitionKey
   package: com.azure.cosmos
 - uid: boolean
   spec.java:

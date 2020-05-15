@@ -13,8 +13,6 @@ items:
   - com.azure.storage.file.share.implementation.AzureFileStorageImpl.getUrl()
   - com.azure.storage.file.share.implementation.AzureFileStorageImpl.getVersion()
   - com.azure.storage.file.share.implementation.AzureFileStorageImpl.services()
-  - com.azure.storage.file.share.implementation.AzureFileStorageImpl.setUrl(java.lang.String)
-  - com.azure.storage.file.share.implementation.AzureFileStorageImpl.setVersion(java.lang.String)
   - com.azure.storage.file.share.implementation.AzureFileStorageImpl.shares()
   langs:
   - java
@@ -182,48 +180,6 @@ items:
     return:
       type: com.azure.storage.file.share.implementation.ServicesImpl
       description: the ServicesImpl object.
-- uid: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setUrl(java.lang.String)
-  id: setUrl(java.lang.String)
-  artifact: com.azure:azure-storage-file-share:12.2.0
-  parent: com.azure.storage.file.share.implementation.AzureFileStorageImpl
-  langs:
-  - java
-  name: setUrl(String url)
-  nameWithType: AzureFileStorageImpl.setUrl(String url)
-  fullName: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setUrl(String url)
-  overload: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setUrl*
-  type: Method
-  package: com.azure.storage.file.share.implementation
-  summary: Sets The URL of the service account, share, directory or file that is the target of the desired operation.
-  syntax:
-    content: " AzureFileStorageImpl setUrl(String url)"
-    parameters:
-    - id: url
-      type: java.lang.String
-      description: the url value.
-    return:
-      type: com.azure.storage.file.share.implementation.AzureFileStorageImpl
-- uid: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setVersion(java.lang.String)
-  id: setVersion(java.lang.String)
-  artifact: com.azure:azure-storage-file-share:12.2.0
-  parent: com.azure.storage.file.share.implementation.AzureFileStorageImpl
-  langs:
-  - java
-  name: setVersion(String version)
-  nameWithType: AzureFileStorageImpl.setVersion(String version)
-  fullName: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setVersion(String version)
-  overload: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setVersion*
-  type: Method
-  package: com.azure.storage.file.share.implementation
-  summary: Sets Specifies the version of the operation to use for this request.
-  syntax:
-    content: " AzureFileStorageImpl setVersion(String version)"
-    parameters:
-    - id: version
-      type: java.lang.String
-      description: the version value.
-    return:
-      type: com.azure.storage.file.share.implementation.AzureFileStorageImpl
 - uid: com.azure.storage.file.share.implementation.AzureFileStorageImpl.shares()
   id: shares()
   artifact: com.azure:azure-storage-file-share:12.2.0
@@ -263,20 +219,10 @@ references:
   nameWithType: AzureFileStorageImpl.getVersion
   fullName: com.azure.storage.file.share.implementation.AzureFileStorageImpl.getVersion
   package: com.azure.storage.file.share.implementation
-- uid: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setVersion*
-  name: setVersion
-  nameWithType: AzureFileStorageImpl.setVersion
-  fullName: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setVersion
-  package: com.azure.storage.file.share.implementation
 - uid: com.azure.storage.file.share.implementation.AzureFileStorageImpl.getUrl*
   name: getUrl
   nameWithType: AzureFileStorageImpl.getUrl
   fullName: com.azure.storage.file.share.implementation.AzureFileStorageImpl.getUrl
-  package: com.azure.storage.file.share.implementation
-- uid: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setUrl*
-  name: setUrl
-  nameWithType: AzureFileStorageImpl.setUrl
-  fullName: com.azure.storage.file.share.implementation.AzureFileStorageImpl.setUrl
   package: com.azure.storage.file.share.implementation
 - uid: com.azure.storage.file.share.implementation.AzureFileStorageImpl.getHttpPipeline*
   name: getHttpPipeline

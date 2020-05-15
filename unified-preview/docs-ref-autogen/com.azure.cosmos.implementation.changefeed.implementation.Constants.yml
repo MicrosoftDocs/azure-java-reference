@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos.implementation.changefeed.implementation
   children:
-  - com.azure.cosmos.implementation.changefeed.implementation.Constants.Constants()
   - com.azure.cosmos.implementation.changefeed.implementation.Constants.PartitionedQueryExecutionInfo
   - com.azure.cosmos.implementation.changefeed.implementation.Constants.Properties
   - com.azure.cosmos.implementation.changefeed.implementation.Constants.QueryExecutionContext

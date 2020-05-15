@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-storage-queue:12.3.0
   parent: com.azure.storage.queue
   children:
-  - com.azure.storage.queue.QueueServiceClient.QueueServiceClient(com.azure.storage.queue.QueueServiceAsyncClient)
   - com.azure.storage.queue.QueueServiceClient.createQueue(java.lang.String)
   - com.azure.storage.queue.QueueServiceClient.createQueueWithResponse(java.lang.String,java.util.Map<java.lang.String,java.lang.String>,java.time.Duration,com.azure.core.util.Context)
   - com.azure.storage.queue.QueueServiceClient.deleteQueue(java.lang.String)
@@ -22,7 +21,6 @@ items:
   - com.azure.storage.queue.QueueServiceClient.getStatisticsWithResponse(java.time.Duration,com.azure.core.util.Context)
   - com.azure.storage.queue.QueueServiceClient.listQueues()
   - com.azure.storage.queue.QueueServiceClient.listQueues(com.azure.storage.queue.models.QueuesSegmentOptions,java.time.Duration,com.azure.core.util.Context)
-  - com.azure.storage.queue.QueueServiceClient.listQueues(java.lang.String,com.azure.storage.queue.models.QueuesSegmentOptions,java.time.Duration,com.azure.core.util.Context)
   - com.azure.storage.queue.QueueServiceClient.setProperties(com.azure.storage.queue.models.QueueServiceProperties)
   - com.azure.storage.queue.QueueServiceClient.setPropertiesWithResponse(com.azure.storage.queue.models.QueueServiceProperties,java.time.Duration,com.azure.core.util.Context)
   langs:
@@ -235,10 +233,10 @@ items:
   type: Method
   package: com.azure.storage.queue
   summary: >-
-    Generates an account SAS for the Azure Storage account using the specified <xref uid="" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref>. Note : The client must be authenticated via <xref uid="" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>
+    Generates an account SAS for the Azure Storage account using the specified <xref uid="com.azure.storage.common.sas.AccountSasSignatureValues" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref>. Note : The client must be authenticated via <xref uid="" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>
 
 
-    See <xref uid="" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref> for more information on how to construct an account SAS.
+    See <xref uid="com.azure.storage.common.sas.AccountSasSignatureValues" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref> for more information on how to construct an account SAS.
 
 
     **Generating an account SAS**
@@ -253,7 +251,7 @@ items:
     parameters:
     - id: accountSasSignatureValues
       type: com.azure.storage.common.sas.AccountSasSignatureValues
-      description: <xref uid="" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref>
+      description: <xref uid="com.azure.storage.common.sas.AccountSasSignatureValues" data-throw-if-not-resolved="false">AccountSasSignatureValues</xref>
     return:
       type: java.lang.String
       description: A <code>String</code> representing all SAS query parameters.
@@ -287,7 +285,7 @@ items:
   overload: com.azure.storage.queue.QueueServiceClient.getHttpPipeline*
   type: Method
   package: com.azure.storage.queue
-  summary: Gets the <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> powering this client.
+  summary: Gets the <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref> powering this client.
   syntax:
     content: public HttpPipeline getHttpPipeline()
     return:
@@ -576,39 +574,6 @@ items:
   syntax:
     content: public PagedIterable<QueueItem> listQueues(QueuesSegmentOptions options, Duration timeout, Context context)
     parameters:
-    - id: options
-      type: com.azure.storage.queue.models.QueuesSegmentOptions
-      description: Options for listing queues
-    - id: timeout
-      type: java.time.Duration
-      description: >-
-        An optional timeout applied to the operation. If a response is not returned before the timeout
-         concludes a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be thrown.
-    - id: context
-      type: com.azure.core.util.Context
-      description: Additional context that is passed through the Http pipeline during the service call.
-    return:
-      type: com.azure.core.http.rest.PagedIterable<com.azure.storage.queue.models.QueueItem>
-      description: <xref uid="com.azure.storage.queue.models.QueueItem" data-throw-if-not-resolved="false">Queues</xref> in the storage account that satisfy the filter requirements
-- uid: com.azure.storage.queue.QueueServiceClient.listQueues(java.lang.String,com.azure.storage.queue.models.QueuesSegmentOptions,java.time.Duration,com.azure.core.util.Context)
-  id: listQueues(java.lang.String,com.azure.storage.queue.models.QueuesSegmentOptions,java.time.Duration,com.azure.core.util.Context)
-  artifact: com.azure:azure-storage-queue:12.3.0
-  parent: com.azure.storage.queue.QueueServiceClient
-  langs:
-  - java
-  name: listQueues(String marker, QueuesSegmentOptions options, Duration timeout, Context context)
-  nameWithType: QueueServiceClient.listQueues(String marker, QueuesSegmentOptions options, Duration timeout, Context context)
-  fullName: com.azure.storage.queue.QueueServiceClient.listQueues(String marker, QueuesSegmentOptions options, Duration timeout, Context context)
-  overload: com.azure.storage.queue.QueueServiceClient.listQueues*
-  type: Method
-  package: com.azure.storage.queue
-  summary: Lists the queues in the storage account that pass the filter starting at the specified marker. Pass true to <xref uid="com.azure.storage.queue.models.QueuesSegmentOptions.setIncludeMetadata(boolean)" data-throw-if-not-resolved="false">includeMetadata</xref> to have metadata returned for the queues.
-  syntax:
-    content: " PagedIterable<QueueItem> listQueues(String marker, QueuesSegmentOptions options, Duration timeout, Context context)"
-    parameters:
-    - id: marker
-      type: java.lang.String
-      description: Starting point to list the queues
     - id: options
       type: com.azure.storage.queue.models.QueuesSegmentOptions
       description: Options for listing queues

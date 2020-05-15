@@ -5,12 +5,10 @@ items:
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
   parent: com.azure.cosmos
   children:
-  - com.azure.cosmos.CosmosAsyncItemResponse.CosmosAsyncItemResponse(com.azure.cosmos.implementation.ResourceResponse<com.azure.cosmos.implementation.Document>,java.lang.Class<T>)
   - com.azure.cosmos.CosmosAsyncItemResponse.getActivityId()
   - com.azure.cosmos.CosmosAsyncItemResponse.getCosmosResponseDiagnostics()
   - com.azure.cosmos.CosmosAsyncItemResponse.getCurrentResourceQuotaUsage()
   - com.azure.cosmos.CosmosAsyncItemResponse.getMaxResourceQuota()
-  - com.azure.cosmos.CosmosAsyncItemResponse.getProperties()
   - com.azure.cosmos.CosmosAsyncItemResponse.getRequestCharge()
   - com.azure.cosmos.CosmosAsyncItemResponse.getRequestLatency()
   - com.azure.cosmos.CosmosAsyncItemResponse.getResource()
@@ -133,24 +131,6 @@ items:
     return:
       type: java.lang.String
       description: the max resource quota.
-- uid: com.azure.cosmos.CosmosAsyncItemResponse.getProperties()
-  id: getProperties()
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.CosmosAsyncItemResponse
-  langs:
-  - java
-  name: getProperties()
-  nameWithType: CosmosAsyncItemResponse<T>.getProperties()
-  fullName: com.azure.cosmos.CosmosAsyncItemResponse<T>.getProperties()
-  overload: com.azure.cosmos.CosmosAsyncItemResponse.getProperties*
-  type: Method
-  package: com.azure.cosmos
-  summary: Gets the itemProperties
-  syntax:
-    content: " CosmosItemProperties getProperties()"
-    return:
-      type: com.azure.cosmos.implementation.CosmosItemProperties
-      description: the itemProperties
 - uid: com.azure.cosmos.CosmosAsyncItemResponse.getRequestCharge()
   id: getRequestCharge()
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -298,15 +278,6 @@ references:
   name: getResource
   nameWithType: CosmosAsyncItemResponse<T>.getResource
   fullName: com.azure.cosmos.CosmosAsyncItemResponse<T>.getResource
-  package: com.azure.cosmos
-- uid: com.azure.cosmos.implementation.CosmosItemProperties
-  name: CosmosItemProperties
-  nameWithType: CosmosItemProperties
-  fullName: com.azure.cosmos.implementation.CosmosItemProperties
-- uid: com.azure.cosmos.CosmosAsyncItemResponse.getProperties*
-  name: getProperties
-  nameWithType: CosmosAsyncItemResponse<T>.getProperties
-  fullName: com.azure.cosmos.CosmosAsyncItemResponse<T>.getProperties
   package: com.azure.cosmos
 - uid: java.lang.String
   spec.java:

@@ -27,7 +27,6 @@ items:
   - com.azure.cosmos.implementation.Utils.checkStateOrThrow(boolean,java.lang.String,java.lang.String,java.lang.Object...)
   - com.azure.cosmos.implementation.Utils.createQuery(java.util.Map<java.lang.String,java.lang.String>)
   - com.azure.cosmos.implementation.Utils.encodeBase64String(byte[])
-  - com.azure.cosmos.implementation.Utils.escapeNonAscii(java.lang.String)
   - com.azure.cosmos.implementation.Utils.getCollectionName(java.lang.String)
   - com.azure.cosmos.implementation.Utils.getSimpleObjectMapper()
   - com.azure.cosmos.implementation.Utils.getUTF8Bytes(java.lang.String)
@@ -498,25 +497,6 @@ items:
     parameters:
     - id: binaryData
       type: byte[]
-    return:
-      type: java.lang.String
-- uid: com.azure.cosmos.implementation.Utils.escapeNonAscii(java.lang.String)
-  id: escapeNonAscii(java.lang.String)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.Utils
-  langs:
-  - java
-  name: escapeNonAscii(String partitionKeyJson)
-  nameWithType: Utils.escapeNonAscii(String partitionKeyJson)
-  fullName: com.azure.cosmos.implementation.Utils.escapeNonAscii(String partitionKeyJson)
-  overload: com.azure.cosmos.implementation.Utils.escapeNonAscii*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static String escapeNonAscii(String partitionKeyJson)
-    parameters:
-    - id: partitionKeyJson
-      type: java.lang.String
     return:
       type: java.lang.String
 - uid: com.azure.cosmos.implementation.Utils.getCollectionName(java.lang.String)
@@ -1304,11 +1284,6 @@ references:
   name: setContinuationTokenAndMaxItemCount
   nameWithType: Utils.setContinuationTokenAndMaxItemCount
   fullName: com.azure.cosmos.implementation.Utils.setContinuationTokenAndMaxItemCount
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.Utils.escapeNonAscii*
-  name: escapeNonAscii
-  nameWithType: Utils.escapeNonAscii
-  fullName: com.azure.cosmos.implementation.Utils.escapeNonAscii
   package: com.azure.cosmos.implementation
 - uid: java.util.Base64.Encoder
   spec.java:

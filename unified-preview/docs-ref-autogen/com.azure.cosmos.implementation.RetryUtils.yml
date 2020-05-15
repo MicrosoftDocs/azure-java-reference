@@ -7,7 +7,6 @@ items:
   children:
   - com.azure.cosmos.implementation.RetryUtils.<T>toRetryWithAlternateFunc(java.util.function.Function<com.azure.cosmos.implementation.Quadruple<java.lang.Boolean,java.lang.Boolean,java.time.Duration,java.lang.Integer>,reactor.core.publisher.Mono<T>>,com.azure.cosmos.implementation.IRetryPolicy,java.util.function.Function<com.azure.cosmos.implementation.Quadruple<java.lang.Boolean,java.lang.Boolean,java.time.Duration,java.lang.Integer>,reactor.core.publisher.Mono<T>>,java.time.Duration,com.azure.cosmos.implementation.RxDocumentServiceRequest)
   - com.azure.cosmos.implementation.RetryUtils.RetryUtils()
-  - com.azure.cosmos.implementation.RetryUtils.toRetryWhenFunc(com.azure.cosmos.implementation.IRetryPolicy)
   langs:
   - java
   name: RetryUtils
@@ -78,70 +77,11 @@ items:
   package: com.azure.cosmos.implementation
   syntax:
     content: public RetryUtils()
-- uid: com.azure.cosmos.implementation.RetryUtils.toRetryWhenFunc(com.azure.cosmos.implementation.IRetryPolicy)
-  id: toRetryWhenFunc(com.azure.cosmos.implementation.IRetryPolicy)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.RetryUtils
-  langs:
-  - java
-  name: toRetryWhenFunc(IRetryPolicy policy)
-  nameWithType: RetryUtils.toRetryWhenFunc(IRetryPolicy policy)
-  fullName: com.azure.cosmos.implementation.RetryUtils.toRetryWhenFunc(IRetryPolicy policy)
-  overload: com.azure.cosmos.implementation.RetryUtils.toRetryWhenFunc*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static Function<Flux<Throwable>,Flux<Long>> toRetryWhenFunc(IRetryPolicy policy)
-    parameters:
-    - id: policy
-      type: com.azure.cosmos.implementation.IRetryPolicy
-    return:
-      type: java.util.function.Function<reactor.core.publisher.Flux<java.lang.Throwable>,reactor.core.publisher.Flux<java.lang.Long>>
 references:
 - uid: com.azure.cosmos.implementation.RetryUtils.RetryUtils*
   name: RetryUtils
   nameWithType: RetryUtils.RetryUtils
   fullName: com.azure.cosmos.implementation.RetryUtils.RetryUtils
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.IRetryPolicy
-  name: IRetryPolicy
-  nameWithType: IRetryPolicy
-  fullName: com.azure.cosmos.implementation.IRetryPolicy
-- uid: java.util.function.Function<reactor.core.publisher.Flux<java.lang.Throwable>,reactor.core.publisher.Flux<java.lang.Long>>
-  spec.java:
-  - uid: java.util.function.Function
-    name: Function
-    fullName: java.util.function.Function
-  - name: <
-    fullName: <
-  - uid: reactor.core.publisher.Flux
-    name: Flux
-    fullName: reactor.core.publisher.Flux
-  - name: <
-    fullName: <
-  - uid: java.lang.Throwable
-    name: Throwable
-    fullName: java.lang.Throwable
-  - name: '>'
-    fullName: '>'
-  - name: ','
-    fullName: ','
-  - uid: reactor.core.publisher.Flux
-    name: Flux
-    fullName: reactor.core.publisher.Flux
-  - name: <
-    fullName: <
-  - uid: java.lang.Long
-    name: Long
-    fullName: java.lang.Long
-  - name: '>'
-    fullName: '>'
-  - name: '>'
-    fullName: '>'
-- uid: com.azure.cosmos.implementation.RetryUtils.toRetryWhenFunc*
-  name: toRetryWhenFunc
-  nameWithType: RetryUtils.toRetryWhenFunc
-  fullName: com.azure.cosmos.implementation.RetryUtils.toRetryWhenFunc
   package: com.azure.cosmos.implementation
 - uid: java.util.function.Function<com.azure.cosmos.implementation.Quadruple<java.lang.Boolean,java.lang.Boolean,java.time.Duration,java.lang.Integer>,reactor.core.publisher.Mono<T>>
   spec.java:
@@ -189,6 +129,10 @@ references:
     fullName: '>'
   - name: '>'
     fullName: '>'
+- uid: com.azure.cosmos.implementation.IRetryPolicy
+  name: IRetryPolicy
+  nameWithType: IRetryPolicy
+  fullName: com.azure.cosmos.implementation.IRetryPolicy
 - uid: java.time.Duration
   spec.java:
   - uid: java.time.Duration
@@ -271,22 +215,6 @@ references:
   name: Object.toString()
   nameWithType: Object.toString()
   fullName: java.lang.Object.toString()
-- uid: reactor.core.publisher.Flux
-  name: Flux
-  nameWithType: Flux
-  fullName: reactor.core.publisher.Flux
-- uid: java.lang.Long
-  name: Long
-  nameWithType: Long
-  fullName: java.lang.Long
-- uid: java.lang.Throwable>,reactor.core.publisher.Flux
-  name: Throwable>,Flux
-  nameWithType: Throwable>,Flux
-  fullName: java.lang.Throwable>,reactor.core.publisher.Flux
-- uid: java.util.function.Function
-  name: Function
-  nameWithType: Function
-  fullName: java.util.function.Function
 - uid: T
   name: T
   nameWithType: T
@@ -299,6 +227,10 @@ references:
   name: Quadruple
   nameWithType: Quadruple
   fullName: com.azure.cosmos.implementation.Quadruple
+- uid: java.util.function.Function
+  name: Function
+  nameWithType: Function
+  fullName: java.util.function.Function
 - uid: java.lang.Throwable,reactor.core.publisher.Mono
   name: Throwable,Mono
   nameWithType: Throwable,Mono

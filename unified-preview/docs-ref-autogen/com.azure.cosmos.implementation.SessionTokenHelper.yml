@@ -8,10 +8,8 @@ items:
   - com.azure.cosmos.implementation.SessionTokenHelper.SessionTokenHelper()
   - com.azure.cosmos.implementation.SessionTokenHelper.concatPartitionKeyRangeIdWithSessionToken(java.lang.String,java.lang.String)
   - com.azure.cosmos.implementation.SessionTokenHelper.parse(java.lang.String)
-  - com.azure.cosmos.implementation.SessionTokenHelper.resolvePartitionLocalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,java.lang.String,java.util.concurrent.ConcurrentHashMap<java.lang.String,com.azure.cosmos.implementation.ISessionToken>)
   - com.azure.cosmos.implementation.SessionTokenHelper.setOriginalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,java.lang.String)
   - com.azure.cosmos.implementation.SessionTokenHelper.setPartitionLocalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,com.azure.cosmos.implementation.ISessionContainer)
-  - com.azure.cosmos.implementation.SessionTokenHelper.tryParse(java.lang.String,com.azure.cosmos.implementation.Utils.ValueHolder<com.azure.cosmos.implementation.ISessionToken>)
   - com.azure.cosmos.implementation.SessionTokenHelper.validateAndRemoveSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   langs:
   - java
@@ -91,29 +89,6 @@ items:
       type: java.lang.String
     return:
       type: com.azure.cosmos.implementation.ISessionToken
-- uid: com.azure.cosmos.implementation.SessionTokenHelper.resolvePartitionLocalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,java.lang.String,java.util.concurrent.ConcurrentHashMap<java.lang.String,com.azure.cosmos.implementation.ISessionToken>)
-  id: resolvePartitionLocalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,java.lang.String,java.util.concurrent.ConcurrentHashMap<java.lang.String,com.azure.cosmos.implementation.ISessionToken>)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.SessionTokenHelper
-  langs:
-  - java
-  name: resolvePartitionLocalSessionToken(RxDocumentServiceRequest request, String partitionKeyRangeId, ConcurrentHashMap<String,ISessionToken> rangeIdToTokenMap)
-  nameWithType: SessionTokenHelper.resolvePartitionLocalSessionToken(RxDocumentServiceRequest request, String partitionKeyRangeId, ConcurrentHashMap<String,ISessionToken> rangeIdToTokenMap)
-  fullName: com.azure.cosmos.implementation.SessionTokenHelper.resolvePartitionLocalSessionToken(RxDocumentServiceRequest request, String partitionKeyRangeId, ConcurrentHashMap<String,ISessionToken> rangeIdToTokenMap)
-  overload: com.azure.cosmos.implementation.SessionTokenHelper.resolvePartitionLocalSessionToken*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static ISessionToken resolvePartitionLocalSessionToken(RxDocumentServiceRequest request, String partitionKeyRangeId, ConcurrentHashMap<String,ISessionToken> rangeIdToTokenMap)
-    parameters:
-    - id: request
-      type: com.azure.cosmos.implementation.RxDocumentServiceRequest
-    - id: partitionKeyRangeId
-      type: java.lang.String
-    - id: rangeIdToTokenMap
-      type: java.util.concurrent.ConcurrentHashMap<java.lang.String,com.azure.cosmos.implementation.ISessionToken>
-    return:
-      type: com.azure.cosmos.implementation.ISessionToken
 - uid: com.azure.cosmos.implementation.SessionTokenHelper.setOriginalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,java.lang.String)
   id: setOriginalSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest,java.lang.String)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -154,27 +129,6 @@ items:
       type: com.azure.cosmos.implementation.ISessionContainer
   exceptions:
   - type: com.azure.cosmos.CosmosClientException
-- uid: com.azure.cosmos.implementation.SessionTokenHelper.tryParse(java.lang.String,com.azure.cosmos.implementation.Utils.ValueHolder<com.azure.cosmos.implementation.ISessionToken>)
-  id: tryParse(java.lang.String,com.azure.cosmos.implementation.Utils.ValueHolder<com.azure.cosmos.implementation.ISessionToken>)
-  artifact: com.azure:azure-cosmos:4.0.0-preview.2
-  parent: com.azure.cosmos.implementation.SessionTokenHelper
-  langs:
-  - java
-  name: tryParse(String sessionToken, Utils.ValueHolder<ISessionToken> parsedSessionToken)
-  nameWithType: SessionTokenHelper.tryParse(String sessionToken, Utils.ValueHolder<ISessionToken> parsedSessionToken)
-  fullName: com.azure.cosmos.implementation.SessionTokenHelper.tryParse(String sessionToken, Utils.ValueHolder<ISessionToken> parsedSessionToken)
-  overload: com.azure.cosmos.implementation.SessionTokenHelper.tryParse*
-  type: Method
-  package: com.azure.cosmos.implementation
-  syntax:
-    content: static boolean tryParse(String sessionToken, Utils.ValueHolder<ISessionToken> parsedSessionToken)
-    parameters:
-    - id: sessionToken
-      type: java.lang.String
-    - id: parsedSessionToken
-      type: com.azure.cosmos.implementation.Utils.ValueHolder<com.azure.cosmos.implementation.ISessionToken>
-    return:
-      type: boolean
 - uid: com.azure.cosmos.implementation.SessionTokenHelper.validateAndRemoveSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   id: validateAndRemoveSessionToken(com.azure.cosmos.implementation.RxDocumentServiceRequest)
   artifact: com.azure:azure-cosmos:4.0.0-preview.2
@@ -227,58 +181,14 @@ references:
   nameWithType: SessionTokenHelper.setPartitionLocalSessionToken
   fullName: com.azure.cosmos.implementation.SessionTokenHelper.setPartitionLocalSessionToken
   package: com.azure.cosmos.implementation
-- uid: java.util.concurrent.ConcurrentHashMap<java.lang.String,com.azure.cosmos.implementation.ISessionToken>
-  spec.java:
-  - uid: java.util.concurrent.ConcurrentHashMap
-    name: ConcurrentHashMap
-    fullName: java.util.concurrent.ConcurrentHashMap
-  - name: <
-    fullName: <
-  - uid: java.lang.String
-    name: String
-    fullName: java.lang.String
-  - name: ','
-    fullName: ','
-  - uid: com.azure.cosmos.implementation.ISessionToken
-    name: ISessionToken
-    fullName: com.azure.cosmos.implementation.ISessionToken
-  - name: '>'
-    fullName: '>'
 - uid: com.azure.cosmos.implementation.ISessionToken
   name: ISessionToken
   nameWithType: ISessionToken
   fullName: com.azure.cosmos.implementation.ISessionToken
-- uid: com.azure.cosmos.implementation.SessionTokenHelper.resolvePartitionLocalSessionToken*
-  name: resolvePartitionLocalSessionToken
-  nameWithType: SessionTokenHelper.resolvePartitionLocalSessionToken
-  fullName: com.azure.cosmos.implementation.SessionTokenHelper.resolvePartitionLocalSessionToken
-  package: com.azure.cosmos.implementation
 - uid: com.azure.cosmos.implementation.SessionTokenHelper.parse*
   name: parse
   nameWithType: SessionTokenHelper.parse
   fullName: com.azure.cosmos.implementation.SessionTokenHelper.parse
-  package: com.azure.cosmos.implementation
-- uid: com.azure.cosmos.implementation.Utils.ValueHolder<com.azure.cosmos.implementation.ISessionToken>
-  spec.java:
-  - uid: com.azure.cosmos.implementation.Utils.ValueHolder
-    name: ValueHolder
-    fullName: com.azure.cosmos.implementation.Utils.ValueHolder
-  - name: <
-    fullName: <
-  - uid: com.azure.cosmos.implementation.ISessionToken
-    name: ISessionToken
-    fullName: com.azure.cosmos.implementation.ISessionToken
-  - name: '>'
-    fullName: '>'
-- uid: boolean
-  spec.java:
-  - uid: boolean
-    name: boolean
-    fullName: boolean
-- uid: com.azure.cosmos.implementation.SessionTokenHelper.tryParse*
-  name: tryParse
-  nameWithType: SessionTokenHelper.tryParse
-  fullName: com.azure.cosmos.implementation.SessionTokenHelper.tryParse
   package: com.azure.cosmos.implementation
 - uid: com.azure.cosmos.implementation.SessionTokenHelper.validateAndRemoveSessionToken*
   name: validateAndRemoveSessionToken
@@ -334,15 +244,3 @@ references:
   name: Object.toString()
   nameWithType: Object.toString()
   fullName: java.lang.Object.toString()
-- uid: java.util.concurrent.ConcurrentHashMap
-  name: ConcurrentHashMap
-  nameWithType: ConcurrentHashMap
-  fullName: java.util.concurrent.ConcurrentHashMap
-- uid: java.lang.String,com.azure.cosmos.implementation.ISessionToken
-  name: String,ISessionToken
-  nameWithType: String,ISessionToken
-  fullName: java.lang.String,com.azure.cosmos.implementation.ISessionToken
-- uid: com.azure.cosmos.implementation.Utils.ValueHolder
-  name: Utils.ValueHolder
-  nameWithType: Utils.ValueHolder
-  fullName: com.azure.cosmos.implementation.Utils.ValueHolder

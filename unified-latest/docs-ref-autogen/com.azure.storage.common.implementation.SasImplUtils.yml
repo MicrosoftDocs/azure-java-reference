@@ -59,13 +59,13 @@ items:
   overload: com.azure.storage.common.implementation.SasImplUtils.extractSharedKeyCredential*
   type: Method
   package: com.azure.storage.common.implementation
-  summary: Extracts the <xref uid="com.azure.storage.common.StorageSharedKeyCredential" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref> from a <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref>
+  summary: Extracts the <xref uid="com.azure.storage.common.StorageSharedKeyCredential" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref> from a <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref>
   syntax:
     content: public static StorageSharedKeyCredential extractSharedKeyCredential(HttpPipeline pipeline)
     parameters:
     - id: pipeline
       type: com.azure.core.http.HttpPipeline
-      description: <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref>
+      description: <xref uid="com.azure.core.http.HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref>
     return:
       type: com.azure.storage.common.StorageSharedKeyCredential
       description: a <xref uid="com.azure.storage.common.StorageSharedKeyCredential" data-throw-if-not-resolved="false">StorageSharedKeyCredential</xref>

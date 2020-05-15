@@ -5,20 +5,16 @@ items:
   artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
   parent: com.azure.ai.textanalytics
   children:
-  - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.TextAnalyticsAsyncClient(com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl,com.azure.ai.textanalytics.TextAnalyticsServiceVersion,com.azure.ai.textanalytics.models.TextAnalyticsClientOptions)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentiment(java.lang.String)
-  - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentAsyncClient
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentBatch(java.util.List<java.lang.String>)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentBatchWithResponse(java.util.List<com.azure.ai.textanalytics.models.TextDocumentInput>,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentWithResponse(java.lang.String,java.lang.String)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguage(java.lang.String)
-  - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageAsyncClient
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageBatch(java.util.List<java.lang.String>)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageBatchWithResponse(java.util.List<com.azure.ai.textanalytics.models.DetectLanguageInput>,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageWithResponse(java.lang.String,java.lang.String)
-  - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.extractKeyPhraseAsyncClient
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.extractKeyPhrases(java.lang.String)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.extractKeyPhrases(java.lang.String,java.lang.String)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.extractKeyPhrasesBatch(java.util.List<java.lang.String>)
@@ -32,19 +28,16 @@ items:
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeEntitiesBatch(java.util.List<java.lang.String>)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeEntitiesBatchWithResponse(java.util.List<com.azure.ai.textanalytics.models.TextDocumentInput>,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
-  - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeEntityAsyncClient
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntities(java.lang.String)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntities(java.lang.String,java.lang.String)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntitiesBatch(java.util.List<java.lang.String>)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntitiesBatchWithResponse(java.util.List<com.azure.ai.textanalytics.models.TextDocumentInput>,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
-  - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntityAsyncClient
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntities(java.lang.String)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntities(java.lang.String,java.lang.String)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntitiesBatch(java.util.List<java.lang.String>)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntitiesBatchWithResponse(java.util.List<com.azure.ai.textanalytics.models.TextDocumentInput>,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
-  - com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntityAsyncClient
   langs:
   - java
   name: TextAnalyticsAsyncClient
@@ -140,21 +133,6 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.ai.textanalytics.models.DocumentSentiment>
       description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.ai.textanalytics.models.DocumentSentiment" data-throw-if-not-resolved="false">document sentiment</xref> of the text.
-- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentAsyncClient
-  id: analyzeSentimentAsyncClient
-  artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
-  parent: com.azure.ai.textanalytics.TextAnalyticsAsyncClient
-  langs:
-  - java
-  name: analyzeSentimentAsyncClient
-  nameWithType: TextAnalyticsAsyncClient.analyzeSentimentAsyncClient
-  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentAsyncClient
-  type: Field
-  package: com.azure.ai.textanalytics
-  syntax:
-    content: final AnalyzeSentimentAsyncClient analyzeSentimentAsyncClient
-    return:
-      type: com.azure.ai.textanalytics.AnalyzeSentimentAsyncClient
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentBatch(java.util.List<java.lang.String>)
   id: analyzeSentimentBatch(java.util.List<java.lang.String>)
   artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
@@ -226,7 +204,7 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.AnalyzeSentimentResult>>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.AnalyzeSentimentResult" data-throw-if-not-resolved="false">text sentiment</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   id: analyzeSentimentBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
@@ -309,7 +287,7 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentSentiment>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> has the
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> has the
          <xref uid="com.azure.ai.textanalytics.models.DocumentSentiment" data-throw-if-not-resolved="false">document sentiment</xref> of the text.
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguage(java.lang.String)
   id: detectLanguage(java.lang.String)
@@ -346,21 +324,6 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.ai.textanalytics.models.DetectedLanguage>
       description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.ai.textanalytics.models.DetectedLanguage" data-throw-if-not-resolved="false">detected language</xref> of the text.
-- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageAsyncClient
-  id: detectLanguageAsyncClient
-  artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
-  parent: com.azure.ai.textanalytics.TextAnalyticsAsyncClient
-  langs:
-  - java
-  name: detectLanguageAsyncClient
-  nameWithType: TextAnalyticsAsyncClient.detectLanguageAsyncClient
-  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageAsyncClient
-  type: Field
-  package: com.azure.ai.textanalytics
-  syntax:
-    content: final DetectLanguageAsyncClient detectLanguageAsyncClient
-    return:
-      type: com.azure.ai.textanalytics.DetectLanguageAsyncClient
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageBatch(java.util.List<java.lang.String>)
   id: detectLanguageBatch(java.util.List<java.lang.String>)
   artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
@@ -438,7 +401,7 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.DetectLanguageResult>>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.DetectLanguageResult" data-throw-if-not-resolved="false">detected language</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguageBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   id: detectLanguageBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
@@ -527,23 +490,8 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DetectedLanguage>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> has the
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> has the
          <xref uid="com.azure.ai.textanalytics.models.DetectedLanguage" data-throw-if-not-resolved="false">detected language</xref> of the text.
-- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.extractKeyPhraseAsyncClient
-  id: extractKeyPhraseAsyncClient
-  artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
-  parent: com.azure.ai.textanalytics.TextAnalyticsAsyncClient
-  langs:
-  - java
-  name: extractKeyPhraseAsyncClient
-  nameWithType: TextAnalyticsAsyncClient.extractKeyPhraseAsyncClient
-  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.extractKeyPhraseAsyncClient
-  type: Field
-  package: com.azure.ai.textanalytics
-  syntax:
-    content: final ExtractKeyPhraseAsyncClient extractKeyPhraseAsyncClient
-    return:
-      type: com.azure.ai.textanalytics.ExtractKeyPhraseAsyncClient
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.extractKeyPhrases(java.lang.String)
   id: extractKeyPhrases(java.lang.String)
   artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
@@ -684,7 +632,7 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.ExtractKeyPhraseResult>>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.ExtractKeyPhraseResult" data-throw-if-not-resolved="false">key phrases</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.extractKeyPhrasesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   id: extractKeyPhrasesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
@@ -916,7 +864,7 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.RecognizeEntitiesResult>>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.RecognizeEntitiesResult" data-throw-if-not-resolved="false">categorized entity</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   id: recognizeEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
@@ -965,21 +913,6 @@ items:
       description: >-
         A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> of <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of the
          <xref uid="com.azure.ai.textanalytics.models.RecognizeEntitiesResult" data-throw-if-not-resolved="false">categorized entity</xref>.
-- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeEntityAsyncClient
-  id: recognizeEntityAsyncClient
-  artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
-  parent: com.azure.ai.textanalytics.TextAnalyticsAsyncClient
-  langs:
-  - java
-  name: recognizeEntityAsyncClient
-  nameWithType: TextAnalyticsAsyncClient.recognizeEntityAsyncClient
-  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeEntityAsyncClient
-  type: Field
-  package: com.azure.ai.textanalytics
-  syntax:
-    content: final RecognizeEntityAsyncClient recognizeEntityAsyncClient
-    return:
-      type: com.azure.ai.textanalytics.RecognizeEntityAsyncClient
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntities(java.lang.String)
   id: recognizeLinkedEntities(java.lang.String)
   artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
@@ -1120,7 +1053,7 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult>>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult" data-throw-if-not-resolved="false">linked entity</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   id: recognizeLinkedEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
@@ -1166,21 +1099,6 @@ items:
       description: >-
         A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> of <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of the
          <xref uid="com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult" data-throw-if-not-resolved="false">linked entity</xref>.
-- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntityAsyncClient
-  id: recognizeLinkedEntityAsyncClient
-  artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
-  parent: com.azure.ai.textanalytics.TextAnalyticsAsyncClient
-  langs:
-  - java
-  name: recognizeLinkedEntityAsyncClient
-  nameWithType: TextAnalyticsAsyncClient.recognizeLinkedEntityAsyncClient
-  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizeLinkedEntityAsyncClient
-  type: Field
-  package: com.azure.ai.textanalytics
-  syntax:
-    content: final RecognizeLinkedEntityAsyncClient recognizeLinkedEntityAsyncClient
-    return:
-      type: com.azure.ai.textanalytics.RecognizeLinkedEntityAsyncClient
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntities(java.lang.String)
   id: recognizePiiEntities(java.lang.String)
   artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
@@ -1321,7 +1239,7 @@ items:
     return:
       type: reactor.core.publisher.Mono<com.azure.core.http.rest.Response<com.azure.ai.textanalytics.models.DocumentResultCollection<com.azure.ai.textanalytics.models.RecognizePiiEntitiesResult>>>
       description: >-
-        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="" data-throw-if-not-resolved="false">value</xref> contains the
+        A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the
          <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of <xref uid="com.azure.ai.textanalytics.models.RecognizePiiEntitiesResult" data-throw-if-not-resolved="false">PII entity</xref>.
 - uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
   id: recognizePiiEntitiesBatchWithResponse(java.util.List<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
@@ -1367,21 +1285,6 @@ items:
       description: >-
         A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> of <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.ai.textanalytics.models.DocumentResultCollection" data-throw-if-not-resolved="false">batch</xref> of the
          <xref uid="com.azure.ai.textanalytics.models.RecognizePiiEntitiesResult" data-throw-if-not-resolved="false">PII entity</xref>.
-- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntityAsyncClient
-  id: recognizePiiEntityAsyncClient
-  artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.2
-  parent: com.azure.ai.textanalytics.TextAnalyticsAsyncClient
-  langs:
-  - java
-  name: recognizePiiEntityAsyncClient
-  nameWithType: TextAnalyticsAsyncClient.recognizePiiEntityAsyncClient
-  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.recognizePiiEntityAsyncClient
-  type: Field
-  package: com.azure.ai.textanalytics
-  syntax:
-    content: final RecognizePiiEntityAsyncClient recognizePiiEntityAsyncClient
-    return:
-      type: com.azure.ai.textanalytics.RecognizePiiEntityAsyncClient
 references:
 - uid: com.azure.ai.textanalytics.implementation.TextAnalyticsClientImpl
   name: TextAnalyticsClientImpl
@@ -1940,30 +1843,6 @@ references:
   nameWithType: TextAnalyticsAsyncClient.analyzeSentimentBatchWithResponse
   fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.analyzeSentimentBatchWithResponse
   package: com.azure.ai.textanalytics
-- uid: com.azure.ai.textanalytics.DetectLanguageAsyncClient
-  name: DetectLanguageAsyncClient
-  nameWithType: DetectLanguageAsyncClient
-  fullName: com.azure.ai.textanalytics.DetectLanguageAsyncClient
-- uid: com.azure.ai.textanalytics.AnalyzeSentimentAsyncClient
-  name: AnalyzeSentimentAsyncClient
-  nameWithType: AnalyzeSentimentAsyncClient
-  fullName: com.azure.ai.textanalytics.AnalyzeSentimentAsyncClient
-- uid: com.azure.ai.textanalytics.ExtractKeyPhraseAsyncClient
-  name: ExtractKeyPhraseAsyncClient
-  nameWithType: ExtractKeyPhraseAsyncClient
-  fullName: com.azure.ai.textanalytics.ExtractKeyPhraseAsyncClient
-- uid: com.azure.ai.textanalytics.RecognizeEntityAsyncClient
-  name: RecognizeEntityAsyncClient
-  nameWithType: RecognizeEntityAsyncClient
-  fullName: com.azure.ai.textanalytics.RecognizeEntityAsyncClient
-- uid: com.azure.ai.textanalytics.RecognizePiiEntityAsyncClient
-  name: RecognizePiiEntityAsyncClient
-  nameWithType: RecognizePiiEntityAsyncClient
-  fullName: com.azure.ai.textanalytics.RecognizePiiEntityAsyncClient
-- uid: com.azure.ai.textanalytics.RecognizeLinkedEntityAsyncClient
-  name: RecognizeLinkedEntityAsyncClient
-  nameWithType: RecognizeLinkedEntityAsyncClient
-  fullName: com.azure.ai.textanalytics.RecognizeLinkedEntityAsyncClient
 - uid: java.lang.Object.notify()
   name: Object.notify()
   nameWithType: Object.notify()

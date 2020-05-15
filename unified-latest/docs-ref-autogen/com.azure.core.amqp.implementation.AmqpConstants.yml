@@ -6,7 +6,6 @@ items:
   parent: com.azure.core.amqp.implementation
   children:
   - com.azure.core.amqp.implementation.AmqpConstants.AMQP_ANNOTATION_FORMAT
-  - com.azure.core.amqp.implementation.AmqpConstants.AMQP_BATCH_MESSAGE_FORMAT
   - com.azure.core.amqp.implementation.AmqpConstants.APACHE
   - com.azure.core.amqp.implementation.AmqpConstants.AmqpConstants()
   - com.azure.core.amqp.implementation.AmqpConstants.PARTITION_KEY
@@ -51,21 +50,6 @@ items:
     content: public static final String AMQP_ANNOTATION_FORMAT
     return:
       type: java.lang.String
-- uid: com.azure.core.amqp.implementation.AmqpConstants.AMQP_BATCH_MESSAGE_FORMAT
-  id: AMQP_BATCH_MESSAGE_FORMAT
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.AmqpConstants
-  langs:
-  - java
-  name: AMQP_BATCH_MESSAGE_FORMAT
-  nameWithType: AmqpConstants.AMQP_BATCH_MESSAGE_FORMAT
-  fullName: com.azure.core.amqp.implementation.AmqpConstants.AMQP_BATCH_MESSAGE_FORMAT
-  type: Field
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: static final int AMQP_BATCH_MESSAGE_FORMAT
-    return:
-      type: int
 - uid: com.azure.core.amqp.implementation.AmqpConstants.APACHE
   id: APACHE
   artifact: com.azure:azure-core-amqp:1.0.1
@@ -171,11 +155,6 @@ references:
   - uid: org.apache.qpid.proton.amqp.Symbol
     name: Symbol
     fullName: org.apache.qpid.proton.amqp.Symbol
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
 - uid: java.lang.Object.notify()
   name: Object.notify()
   nameWithType: Object.notify()

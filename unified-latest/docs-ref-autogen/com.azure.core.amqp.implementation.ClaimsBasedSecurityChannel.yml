@@ -6,9 +6,6 @@ items:
   parent: com.azure.core.amqp.implementation
   children:
   - com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.ClaimsBasedSecurityChannel(reactor.core.publisher.Mono<com.azure.core.amqp.implementation.RequestResponseChannel>,com.azure.core.credential.TokenCredential,com.azure.core.amqp.implementation.CbsAuthorizationType,com.azure.core.amqp.AmqpRetryOptions)
-  - com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_AUDIENCE
-  - com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_EXPIRY
-  - com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_TYPE
   - com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.authorize(java.lang.String,java.lang.String)
   - com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.close()
   langs:
@@ -59,51 +56,6 @@ items:
       type: com.azure.core.amqp.implementation.CbsAuthorizationType
     - id: retryOptions
       type: com.azure.core.amqp.AmqpRetryOptions
-- uid: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_AUDIENCE
-  id: PUT_TOKEN_AUDIENCE
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel
-  langs:
-  - java
-  name: PUT_TOKEN_AUDIENCE
-  nameWithType: ClaimsBasedSecurityChannel.PUT_TOKEN_AUDIENCE
-  fullName: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_AUDIENCE
-  type: Field
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: static final String PUT_TOKEN_AUDIENCE
-    return:
-      type: java.lang.String
-- uid: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_EXPIRY
-  id: PUT_TOKEN_EXPIRY
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel
-  langs:
-  - java
-  name: PUT_TOKEN_EXPIRY
-  nameWithType: ClaimsBasedSecurityChannel.PUT_TOKEN_EXPIRY
-  fullName: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_EXPIRY
-  type: Field
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: static final String PUT_TOKEN_EXPIRY
-    return:
-      type: java.lang.String
-- uid: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_TYPE
-  id: PUT_TOKEN_TYPE
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel
-  langs:
-  - java
-  name: PUT_TOKEN_TYPE
-  nameWithType: ClaimsBasedSecurityChannel.PUT_TOKEN_TYPE
-  fullName: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.PUT_TOKEN_TYPE
-  type: Field
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: static final String PUT_TOKEN_TYPE
-    return:
-      type: java.lang.String
 - uid: com.azure.core.amqp.implementation.ClaimsBasedSecurityChannel.authorize(java.lang.String,java.lang.String)
   id: authorize(java.lang.String,java.lang.String)
   artifact: com.azure:azure-core-amqp:1.0.1

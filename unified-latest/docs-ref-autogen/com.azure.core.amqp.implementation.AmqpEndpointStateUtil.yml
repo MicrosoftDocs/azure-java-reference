@@ -4,9 +4,6 @@ items:
   id: AmqpEndpointStateUtil
   artifact: com.azure:azure-core-amqp:1.0.1
   parent: com.azure.core.amqp.implementation
-  children:
-  - com.azure.core.amqp.implementation.AmqpEndpointStateUtil.AmqpEndpointStateUtil()
-  - com.azure.core.amqp.implementation.AmqpEndpointStateUtil.getConnectionState(org.apache.qpid.proton.engine.EndpointState)
   langs:
   - java
   name: AmqpEndpointStateUtil
@@ -45,47 +42,11 @@ items:
   package: com.azure.core.amqp.implementation
   syntax:
     content: " AmqpEndpointStateUtil()"
-- uid: com.azure.core.amqp.implementation.AmqpEndpointStateUtil.getConnectionState(org.apache.qpid.proton.engine.EndpointState)
-  id: getConnectionState(org.apache.qpid.proton.engine.EndpointState)
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.AmqpEndpointStateUtil
-  langs:
-  - java
-  name: getConnectionState(EndpointState state)
-  nameWithType: AmqpEndpointStateUtil.getConnectionState(EndpointState state)
-  fullName: com.azure.core.amqp.implementation.AmqpEndpointStateUtil.getConnectionState(EndpointState state)
-  overload: com.azure.core.amqp.implementation.AmqpEndpointStateUtil.getConnectionState*
-  type: Method
-  package: com.azure.core.amqp.implementation
-  summary: Translates proton-j endpoint states into an AMQP endpoint state.
-  syntax:
-    content: static AmqpEndpointState getConnectionState(EndpointState state)
-    parameters:
-    - id: state
-      type: org.apache.qpid.proton.engine.EndpointState
-      description: proton-j endpoint state.
-    return:
-      type: com.azure.core.amqp.AmqpEndpointState
-      description: The corresponding <xref uid="com.azure.core.amqp.AmqpEndpointState" data-throw-if-not-resolved="false">AmqpEndpointState</xref>.
 references:
 - uid: com.azure.core.amqp.implementation.AmqpEndpointStateUtil.AmqpEndpointStateUtil*
   name: AmqpEndpointStateUtil
   nameWithType: AmqpEndpointStateUtil.AmqpEndpointStateUtil
   fullName: com.azure.core.amqp.implementation.AmqpEndpointStateUtil.AmqpEndpointStateUtil
-  package: com.azure.core.amqp.implementation
-- uid: org.apache.qpid.proton.engine.EndpointState
-  spec.java:
-  - uid: org.apache.qpid.proton.engine.EndpointState
-    name: EndpointState
-    fullName: org.apache.qpid.proton.engine.EndpointState
-- uid: com.azure.core.amqp.AmqpEndpointState
-  name: AmqpEndpointState
-  nameWithType: AmqpEndpointState
-  fullName: com.azure.core.amqp.AmqpEndpointState
-- uid: com.azure.core.amqp.implementation.AmqpEndpointStateUtil.getConnectionState*
-  name: getConnectionState
-  nameWithType: AmqpEndpointStateUtil.getConnectionState
-  fullName: com.azure.core.amqp.implementation.AmqpEndpointStateUtil.getConnectionState
   package: com.azure.core.amqp.implementation
 - uid: java.lang.Object.notify()
   name: Object.notify()

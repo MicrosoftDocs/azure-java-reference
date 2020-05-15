@@ -6,11 +6,8 @@ items:
   parent: com.azure.core.amqp.implementation
   children:
   - com.azure.core.amqp.implementation.ClientConstants.FRAMEWORK_INFO
-  - com.azure.core.amqp.implementation.ClientConstants.MAX_AMQP_HEADER_SIZE_BYTES
-  - com.azure.core.amqp.implementation.ClientConstants.MAX_MESSAGE_LENGTH_BYTES
   - com.azure.core.amqp.implementation.ClientConstants.NOT_APPLICABLE
   - com.azure.core.amqp.implementation.ClientConstants.PLATFORM_INFO
-  - com.azure.core.amqp.implementation.ClientConstants.SERVER_BUSY_BASE_SLEEP_TIME_IN_SECS
   - com.azure.core.amqp.implementation.ClientConstants.USER_AGENT_TEMPLATE
   langs:
   - java
@@ -64,37 +61,6 @@ items:
     content: public static final String FRAMEWORK_INFO
     return:
       type: java.lang.String
-- uid: com.azure.core.amqp.implementation.ClientConstants.MAX_AMQP_HEADER_SIZE_BYTES
-  id: MAX_AMQP_HEADER_SIZE_BYTES
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ClientConstants
-  langs:
-  - java
-  name: MAX_AMQP_HEADER_SIZE_BYTES
-  nameWithType: ClientConstants.MAX_AMQP_HEADER_SIZE_BYTES
-  fullName: com.azure.core.amqp.implementation.ClientConstants.MAX_AMQP_HEADER_SIZE_BYTES
-  type: Field
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: static final int MAX_AMQP_HEADER_SIZE_BYTES
-    return:
-      type: int
-- uid: com.azure.core.amqp.implementation.ClientConstants.MAX_MESSAGE_LENGTH_BYTES
-  id: MAX_MESSAGE_LENGTH_BYTES
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ClientConstants
-  langs:
-  - java
-  name: MAX_MESSAGE_LENGTH_BYTES
-  nameWithType: ClientConstants.MAX_MESSAGE_LENGTH_BYTES
-  fullName: com.azure.core.amqp.implementation.ClientConstants.MAX_MESSAGE_LENGTH_BYTES
-  type: Field
-  package: com.azure.core.amqp.implementation
-  summary: The default maximum allowable size, in bytes, for a batch to be sent.
-  syntax:
-    content: static final int MAX_MESSAGE_LENGTH_BYTES
-    return:
-      type: int
 - uid: com.azure.core.amqp.implementation.ClientConstants.NOT_APPLICABLE
   id: NOT_APPLICABLE
   artifact: com.azure:azure-core-amqp:1.0.1
@@ -125,21 +91,6 @@ items:
     content: public static final String PLATFORM_INFO
     return:
       type: java.lang.String
-- uid: com.azure.core.amqp.implementation.ClientConstants.SERVER_BUSY_BASE_SLEEP_TIME_IN_SECS
-  id: SERVER_BUSY_BASE_SLEEP_TIME_IN_SECS
-  artifact: com.azure:azure-core-amqp:1.0.1
-  parent: com.azure.core.amqp.implementation.ClientConstants
-  langs:
-  - java
-  name: SERVER_BUSY_BASE_SLEEP_TIME_IN_SECS
-  nameWithType: ClientConstants.SERVER_BUSY_BASE_SLEEP_TIME_IN_SECS
-  fullName: com.azure.core.amqp.implementation.ClientConstants.SERVER_BUSY_BASE_SLEEP_TIME_IN_SECS
-  type: Field
-  package: com.azure.core.amqp.implementation
-  syntax:
-    content: static final int SERVER_BUSY_BASE_SLEEP_TIME_IN_SECS
-    return:
-      type: int
 - uid: com.azure.core.amqp.implementation.ClientConstants.USER_AGENT_TEMPLATE
   id: USER_AGENT_TEMPLATE
   artifact: com.azure:azure-core-amqp:1.0.1
@@ -167,11 +118,6 @@ references:
   - uid: java.lang.String
     name: String
     fullName: java.lang.String
-- uid: int
-  spec.java:
-  - uid: int
-    name: int
-    fullName: int
 - uid: java.lang.Object.notify()
   name: Object.notify()
   nameWithType: Object.notify()
