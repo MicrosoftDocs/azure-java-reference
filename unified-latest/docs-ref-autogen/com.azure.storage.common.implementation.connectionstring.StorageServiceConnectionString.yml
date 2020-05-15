@@ -4,9 +4,6 @@ items:
   id: StorageServiceConnectionString
   artifact: com.azure:azure-storage-common:12.5.0
   parent: com.azure.storage.common.implementation.connectionstring
-  children:
-  - com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.StorageServiceConnectionString()
-  - com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.tryCreate(com.azure.storage.common.implementation.connectionstring.ConnectionSettings,com.azure.core.util.logging.ClientLogger)
   langs:
   - java
   name: StorageServiceConnectionString
@@ -45,54 +42,11 @@ items:
   package: com.azure.storage.common.implementation.connectionstring
   syntax:
     content: " StorageServiceConnectionString()"
-- uid: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.tryCreate(com.azure.storage.common.implementation.connectionstring.ConnectionSettings,com.azure.core.util.logging.ClientLogger)
-  id: tryCreate(com.azure.storage.common.implementation.connectionstring.ConnectionSettings,com.azure.core.util.logging.ClientLogger)
-  artifact: com.azure:azure-storage-common:12.5.0
-  parent: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString
-  langs:
-  - java
-  name: tryCreate(ConnectionSettings settings, ClientLogger logger)
-  nameWithType: StorageServiceConnectionString.tryCreate(ConnectionSettings settings, ClientLogger logger)
-  fullName: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.tryCreate(ConnectionSettings settings, ClientLogger logger)
-  overload: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.tryCreate*
-  type: Method
-  package: com.azure.storage.common.implementation.connectionstring
-  summary: Try parsing the connection string and create <xref uid="com.azure.storage.common.implementation.connectionstring.StorageConnectionString" data-throw-if-not-resolved="false">StorageConnectionString</xref> from it.
-  syntax:
-    content: static StorageConnectionString tryCreate(ConnectionSettings settings, ClientLogger logger)
-    parameters:
-    - id: settings
-      type: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
-      description: the connection settings
-    - id: logger
-      type: com.azure.core.util.logging.ClientLogger
-      description: the logger
-    return:
-      type: com.azure.storage.common.implementation.connectionstring.StorageConnectionString
-      description: the StorageConnectionString for emulator
 references:
 - uid: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.StorageServiceConnectionString*
   name: StorageServiceConnectionString
   nameWithType: StorageServiceConnectionString.StorageServiceConnectionString
   fullName: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.StorageServiceConnectionString
-  package: com.azure.storage.common.implementation.connectionstring
-- uid: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
-  name: ConnectionSettings
-  nameWithType: ConnectionSettings
-  fullName: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
-- uid: com.azure.core.util.logging.ClientLogger
-  spec.java:
-  - uid: com.azure.core.util.logging.ClientLogger
-    name: ClientLogger
-    fullName: com.azure.core.util.logging.ClientLogger
-- uid: com.azure.storage.common.implementation.connectionstring.StorageConnectionString
-  name: StorageConnectionString
-  nameWithType: StorageConnectionString
-  fullName: com.azure.storage.common.implementation.connectionstring.StorageConnectionString
-- uid: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.tryCreate*
-  name: tryCreate
-  nameWithType: StorageServiceConnectionString.tryCreate
-  fullName: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString.tryCreate
   package: com.azure.storage.common.implementation.connectionstring
 - uid: java.lang.Object.notify()
   name: Object.notify()

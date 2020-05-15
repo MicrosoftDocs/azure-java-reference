@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-storage-blob:12.5.0
   parent: com.azure.storage.blob.specialized
   children:
-  - com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.commit()
   - com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.dispatchWrite(byte[],int,long)
   langs:
   - java
@@ -22,11 +21,8 @@ items:
   - com.azure.storage.common.StorageOutputStream
   - com.azure.storage.blob.specialized.BlobOutputStream
   inheritedMembers:
-  - com.azure.storage.blob.specialized.BlobOutputStream.appendBlobOutputStream(com.azure.storage.blob.specialized.AppendBlobAsyncClient,com.azure.storage.blob.models.AppendBlobRequestConditions)
   - com.azure.storage.blob.specialized.BlobOutputStream.blockBlobOutputStream(com.azure.storage.blob.BlobAsyncClient,com.azure.storage.blob.models.ParallelTransferOptions,com.azure.storage.blob.models.BlobHttpHeaders,java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.blob.models.AccessTier,com.azure.storage.blob.models.BlobRequestConditions)
   - com.azure.storage.blob.specialized.BlobOutputStream.close()
-  - com.azure.storage.blob.specialized.BlobOutputStream.commit()
-  - com.azure.storage.blob.specialized.BlobOutputStream.pageBlobOutputStream(com.azure.storage.blob.specialized.PageBlobAsyncClient,com.azure.storage.blob.models.PageRange,com.azure.storage.blob.models.BlobRequestConditions)
   - com.azure.storage.common.StorageOutputStream.checkStreamState()
   - com.azure.storage.common.StorageOutputStream.dispatchWrite(byte[],int,long)
   - com.azure.storage.common.StorageOutputStream.flush()
@@ -67,20 +63,6 @@ items:
       type: com.azure.storage.blob.models.PageRange
     - id: blobRequestConditions
       type: com.azure.storage.blob.models.BlobRequestConditions
-- uid: com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.commit()
-  id: commit()
-  artifact: com.azure:azure-storage-blob:12.5.0
-  parent: com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream
-  langs:
-  - java
-  name: commit()
-  nameWithType: BlobOutputStream.PageBlobOutputStream.commit()
-  fullName: com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.commit()
-  overload: com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.commit*
-  type: Method
-  package: com.azure.storage.blob.specialized
-  syntax:
-    content: " void commit()"
 - uid: com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.dispatchWrite(byte[],int,long)
   id: dispatchWrite(byte[],int,long)
   artifact: com.azure:azure-storage-blob:12.5.0
@@ -156,11 +138,6 @@ references:
   nameWithType: BlobOutputStream.PageBlobOutputStream.dispatchWrite
   fullName: com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.dispatchWrite
   package: com.azure.storage.blob.specialized
-- uid: com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.commit*
-  name: commit
-  nameWithType: BlobOutputStream.PageBlobOutputStream.commit
-  fullName: com.azure.storage.blob.specialized.BlobOutputStream.PageBlobOutputStream.commit
-  package: com.azure.storage.blob.specialized
 - uid: com.azure.storage.blob.specialized.BlobOutputStream
   name: BlobOutputStream
   nameWithType: BlobOutputStream
@@ -189,18 +166,10 @@ references:
   name: Object.clone()
   nameWithType: Object.clone()
   fullName: java.lang.Object.clone()
-- uid: com.azure.storage.blob.specialized.BlobOutputStream.pageBlobOutputStream(com.azure.storage.blob.specialized.PageBlobAsyncClient,com.azure.storage.blob.models.PageRange,com.azure.storage.blob.models.BlobRequestConditions)
-  name: BlobOutputStream.pageBlobOutputStream(PageBlobAsyncClient,PageRange,BlobRequestConditions)
-  nameWithType: BlobOutputStream.pageBlobOutputStream(PageBlobAsyncClient,PageRange,BlobRequestConditions)
-  fullName: com.azure.storage.blob.specialized.BlobOutputStream.pageBlobOutputStream(com.azure.storage.blob.specialized.PageBlobAsyncClient,com.azure.storage.blob.models.PageRange,com.azure.storage.blob.models.BlobRequestConditions)
 - uid: java.lang.Object.equals(java.lang.Object)
   name: Object.equals(Object)
   nameWithType: Object.equals(Object)
   fullName: java.lang.Object.equals(java.lang.Object)
-- uid: com.azure.storage.blob.specialized.BlobOutputStream.appendBlobOutputStream(com.azure.storage.blob.specialized.AppendBlobAsyncClient,com.azure.storage.blob.models.AppendBlobRequestConditions)
-  name: BlobOutputStream.appendBlobOutputStream(AppendBlobAsyncClient,AppendBlobRequestConditions)
-  nameWithType: BlobOutputStream.appendBlobOutputStream(AppendBlobAsyncClient,AppendBlobRequestConditions)
-  fullName: com.azure.storage.blob.specialized.BlobOutputStream.appendBlobOutputStream(com.azure.storage.blob.specialized.AppendBlobAsyncClient,com.azure.storage.blob.models.AppendBlobRequestConditions)
 - uid: com.azure.storage.common.StorageOutputStream.dispatchWrite(byte[],int,long)
   name: StorageOutputStream.dispatchWrite(byte[],int,long)
   nameWithType: StorageOutputStream.dispatchWrite(byte[],int,long)
@@ -221,10 +190,6 @@ references:
   name: StorageOutputStream.write(byte[])
   nameWithType: StorageOutputStream.write(byte[])
   fullName: com.azure.storage.common.StorageOutputStream.write(byte[])
-- uid: com.azure.storage.blob.specialized.BlobOutputStream.commit()
-  name: BlobOutputStream.commit()
-  nameWithType: BlobOutputStream.commit()
-  fullName: com.azure.storage.blob.specialized.BlobOutputStream.commit()
 - uid: com.azure.storage.common.StorageOutputStream.writeInternal(byte[],int,int)
   name: StorageOutputStream.writeInternal(byte[],int,int)
   nameWithType: StorageOutputStream.writeInternal(byte[],int,int)

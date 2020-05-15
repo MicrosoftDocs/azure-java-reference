@@ -5,9 +5,6 @@ items:
   artifact: com.azure:azure-storage-blob:12.5.0
   parent: com.azure.storage.blob
   children:
-  - com.azure.storage.blob.UploadBufferPool.UploadBufferPool(int,int)
-  - com.azure.storage.blob.UploadBufferPool.flush()
-  - com.azure.storage.blob.UploadBufferPool.returnBuffer(java.nio.ByteBuffer)
   - com.azure.storage.blob.UploadBufferPool.write(java.nio.ByteBuffer)
   langs:
   - java
@@ -55,43 +52,6 @@ items:
     - id: buffSize
       type: int
       description: The size of the buffers
-- uid: com.azure.storage.blob.UploadBufferPool.flush()
-  id: flush()
-  artifact: com.azure:azure-storage-blob:12.5.0
-  parent: com.azure.storage.blob.UploadBufferPool
-  langs:
-  - java
-  name: flush()
-  nameWithType: UploadBufferPool.flush()
-  fullName: com.azure.storage.blob.UploadBufferPool.flush()
-  overload: com.azure.storage.blob.UploadBufferPool.flush*
-  type: Method
-  package: com.azure.storage.blob
-  summary: Flushes the current buffer
-  syntax:
-    content: " Flux<ByteBuffer> flush()"
-    return:
-      type: reactor.core.publisher.Flux<java.nio.ByteBuffer>
-      description: the flushed buffer
-- uid: com.azure.storage.blob.UploadBufferPool.returnBuffer(java.nio.ByteBuffer)
-  id: returnBuffer(java.nio.ByteBuffer)
-  artifact: com.azure:azure-storage-blob:12.5.0
-  parent: com.azure.storage.blob.UploadBufferPool
-  langs:
-  - java
-  name: returnBuffer(ByteBuffer b)
-  nameWithType: UploadBufferPool.returnBuffer(ByteBuffer b)
-  fullName: com.azure.storage.blob.UploadBufferPool.returnBuffer(ByteBuffer b)
-  overload: com.azure.storage.blob.UploadBufferPool.returnBuffer*
-  type: Method
-  package: com.azure.storage.blob
-  summary: Returns the ByteBuffer
-  syntax:
-    content: " void returnBuffer(ByteBuffer b)"
-    parameters:
-    - id: b
-      type: java.nio.ByteBuffer
-      description: The ByteBuffer to reset and return
 - uid: com.azure.storage.blob.UploadBufferPool.write(java.nio.ByteBuffer)
   id: write(java.nio.ByteBuffer)
   artifact: com.azure:azure-storage-blob:12.5.0
@@ -146,16 +106,6 @@ references:
   name: write
   nameWithType: UploadBufferPool.write
   fullName: com.azure.storage.blob.UploadBufferPool.write
-  package: com.azure.storage.blob
-- uid: com.azure.storage.blob.UploadBufferPool.flush*
-  name: flush
-  nameWithType: UploadBufferPool.flush
-  fullName: com.azure.storage.blob.UploadBufferPool.flush
-  package: com.azure.storage.blob
-- uid: com.azure.storage.blob.UploadBufferPool.returnBuffer*
-  name: returnBuffer
-  nameWithType: UploadBufferPool.returnBuffer
-  fullName: com.azure.storage.blob.UploadBufferPool.returnBuffer
   package: com.azure.storage.blob
 - uid: java.lang.Object.notify()
   name: Object.notify()

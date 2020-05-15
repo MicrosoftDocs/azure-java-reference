@@ -8,7 +8,6 @@ items:
   - com.azure.search.models.SuggestResult.SuggestResult()
   - com.azure.search.models.SuggestResult.getDocument()
   - com.azure.search.models.SuggestResult.getText()
-  - com.azure.search.models.SuggestResult.setDocument(com.azure.search.SearchDocument)
   langs:
   - java
   name: SuggestResult
@@ -83,28 +82,6 @@ items:
     return:
       type: java.lang.String
       description: the text value.
-- uid: com.azure.search.models.SuggestResult.setDocument(com.azure.search.SearchDocument)
-  id: setDocument(com.azure.search.SearchDocument)
-  artifact: com.azure:azure-search:11.0.0-beta.1
-  parent: com.azure.search.models.SuggestResult
-  langs:
-  - java
-  name: setDocument(SearchDocument additionalProperties)
-  nameWithType: SuggestResult.setDocument(SearchDocument additionalProperties)
-  fullName: com.azure.search.models.SuggestResult.setDocument(SearchDocument additionalProperties)
-  overload: com.azure.search.models.SuggestResult.setDocument*
-  type: Method
-  package: com.azure.search.models
-  summary: 'Set the additionalProperties property: Unmatched properties from the message are deserialized this collection.'
-  syntax:
-    content: " SuggestResult setDocument(SearchDocument additionalProperties)"
-    parameters:
-    - id: additionalProperties
-      type: com.azure.search.SearchDocument
-      description: the additionalProperties value to set.
-    return:
-      type: com.azure.search.models.SuggestResult
-      description: the SuggestResult object itself.
 references:
 - uid: com.azure.search.models.SuggestResult.SuggestResult*
   name: SuggestResult
@@ -119,11 +96,6 @@ references:
   name: getDocument
   nameWithType: SuggestResult.getDocument
   fullName: com.azure.search.models.SuggestResult.getDocument
-  package: com.azure.search.models
-- uid: com.azure.search.models.SuggestResult.setDocument*
-  name: setDocument
-  nameWithType: SuggestResult.setDocument
-  fullName: com.azure.search.models.SuggestResult.setDocument
   package: com.azure.search.models
 - uid: java.lang.String
   spec.java:

@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-storage-blob:12.5.0
   parent: com.azure.storage.blob.implementation.models
   children:
-  - com.azure.storage.blob.implementation.models.CustomHierarchicalListingDeserializer.CustomHierarchicalListingDeserializer()
   - com.azure.storage.blob.implementation.models.CustomHierarchicalListingDeserializer.deserialize(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.databind.DeserializationContext)
   langs:
   - java

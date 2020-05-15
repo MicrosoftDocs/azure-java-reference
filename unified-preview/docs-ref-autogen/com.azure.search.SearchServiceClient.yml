@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-search:11.0.0-beta.1
   parent: com.azure.search
   children:
-  - com.azure.search.SearchServiceClient.SearchServiceClient(com.azure.search.SearchServiceAsyncClient)
   - com.azure.search.SearchServiceClient.analyzeText(java.lang.String,com.azure.search.models.AnalyzeRequest)
   - com.azure.search.SearchServiceClient.analyzeText(java.lang.String,com.azure.search.models.AnalyzeRequest,com.azure.search.models.RequestOptions,com.azure.core.util.Context)
   - com.azure.search.SearchServiceClient.createDataSource(com.azure.search.models.DataSource)
@@ -41,7 +40,6 @@ items:
   - com.azure.search.SearchServiceClient.getDataSource(java.lang.String)
   - com.azure.search.SearchServiceClient.getDataSourceWithResponse(java.lang.String,com.azure.search.models.RequestOptions,com.azure.core.util.Context)
   - com.azure.search.SearchServiceClient.getEndpoint()
-  - com.azure.search.SearchServiceClient.getHttpPipeline()
   - com.azure.search.SearchServiceClient.getIndex(java.lang.String)
   - com.azure.search.SearchServiceClient.getIndexClient(java.lang.String)
   - com.azure.search.SearchServiceClient.getIndexStatistics(java.lang.String)
@@ -1063,24 +1061,6 @@ items:
     return:
       type: java.lang.String
       description: the endpoint value.
-- uid: com.azure.search.SearchServiceClient.getHttpPipeline()
-  id: getHttpPipeline()
-  artifact: com.azure:azure-search:11.0.0-beta.1
-  parent: com.azure.search.SearchServiceClient
-  langs:
-  - java
-  name: getHttpPipeline()
-  nameWithType: SearchServiceClient.getHttpPipeline()
-  fullName: com.azure.search.SearchServiceClient.getHttpPipeline()
-  overload: com.azure.search.SearchServiceClient.getHttpPipeline*
-  type: Method
-  package: com.azure.search
-  summary: Gets the <xref uid="" data-throw-if-not-resolved="false">HttpPipeline</xref> powering this client.
-  syntax:
-    content: " HttpPipeline getHttpPipeline()"
-    return:
-      type: com.azure.core.http.HttpPipeline
-      description: the pipeline.
 - uid: com.azure.search.SearchServiceClient.getIndex(java.lang.String)
   id: getIndex(java.lang.String)
   artifact: com.azure:azure-search:11.0.0-beta.1
@@ -1833,16 +1813,6 @@ references:
   name: SearchServiceClient
   nameWithType: SearchServiceClient.SearchServiceClient
   fullName: com.azure.search.SearchServiceClient.SearchServiceClient
-  package: com.azure.search
-- uid: com.azure.core.http.HttpPipeline
-  spec.java:
-  - uid: com.azure.core.http.HttpPipeline
-    name: HttpPipeline
-    fullName: com.azure.core.http.HttpPipeline
-- uid: com.azure.search.SearchServiceClient.getHttpPipeline*
-  name: getHttpPipeline
-  nameWithType: SearchServiceClient.getHttpPipeline
-  fullName: com.azure.search.SearchServiceClient.getHttpPipeline
   package: com.azure.search
 - uid: java.lang.String
   spec.java:

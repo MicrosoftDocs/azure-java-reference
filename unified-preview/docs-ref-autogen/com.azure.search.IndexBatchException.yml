@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-search:11.0.0-beta.1
   parent: com.azure.search
   children:
-  - com.azure.search.IndexBatchException.IndexBatchException(com.azure.search.models.IndexDocumentsResult)
   - com.azure.search.IndexBatchException.getIndexingResults()
   langs:
   - java

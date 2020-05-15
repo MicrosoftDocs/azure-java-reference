@@ -9,7 +9,6 @@ items:
   - com.azure.search.models.SearchResult.getDocument()
   - com.azure.search.models.SearchResult.getHighlights()
   - com.azure.search.models.SearchResult.getScore()
-  - com.azure.search.models.SearchResult.setDocument(com.azure.search.SearchDocument)
   langs:
   - java
   name: SearchResult
@@ -102,28 +101,6 @@ items:
     return:
       type: double
       description: the score value.
-- uid: com.azure.search.models.SearchResult.setDocument(com.azure.search.SearchDocument)
-  id: setDocument(com.azure.search.SearchDocument)
-  artifact: com.azure:azure-search:11.0.0-beta.1
-  parent: com.azure.search.models.SearchResult
-  langs:
-  - java
-  name: setDocument(SearchDocument additionalProperties)
-  nameWithType: SearchResult.setDocument(SearchDocument additionalProperties)
-  fullName: com.azure.search.models.SearchResult.setDocument(SearchDocument additionalProperties)
-  overload: com.azure.search.models.SearchResult.setDocument*
-  type: Method
-  package: com.azure.search.models
-  summary: 'Set the additionalProperties property: Unmatched properties from the message are deserialized this collection.'
-  syntax:
-    content: " SearchResult setDocument(SearchDocument additionalProperties)"
-    parameters:
-    - id: additionalProperties
-      type: com.azure.search.SearchDocument
-      description: the additionalProperties value to set.
-    return:
-      type: com.azure.search.models.SearchResult
-      description: the SearchResult object itself.
 references:
 - uid: com.azure.search.models.SearchResult.SearchResult*
   name: SearchResult
@@ -138,11 +115,6 @@ references:
   name: getDocument
   nameWithType: SearchResult.getDocument
   fullName: com.azure.search.models.SearchResult.getDocument
-  package: com.azure.search.models
-- uid: com.azure.search.models.SearchResult.setDocument*
-  name: setDocument
-  nameWithType: SearchResult.setDocument
-  fullName: com.azure.search.models.SearchResult.setDocument
   package: com.azure.search.models
 - uid: double
   spec.java:
