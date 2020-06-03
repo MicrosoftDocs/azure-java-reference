@@ -174,6 +174,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.cancelScheduledMessage*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Cancels the enqueuing of an already sent scheduled message, if it was not already enqueued. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `cancelScheduledMessageAsync(sequenceNumber).get()`. For better performance, use async methods.
   syntax:
     content: public void cancelScheduledMessage(long sequenceNumber)
     parameters:
@@ -194,6 +195,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.cancelScheduledMessageAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Cancels the enqueuing of an already sent scheduled message, if it was not already enqueued. This is an asynchronous method returning a CompletableFuture which completes when the message is cancelled.
   syntax:
     content: public CompletableFuture<Void> cancelScheduledMessageAsync(long sequenceNumber)
     parameters:
@@ -213,6 +215,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.getEntityPath*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the path of the entity this client is sending messages to or receiving messages from.
   syntax:
     content: public String getEntityPath()
     return:
@@ -229,6 +232,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.getTopicName*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Get the name of the topic
   syntax:
     content: public String getTopicName()
     return:
@@ -261,6 +265,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.peek*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: reads next the active message without changing the state of the receiver or the message source. The first call to <xref uid="com.microsoft.azure.servicebus.IMessageBrowser.peek()" data-throw-if-not-resolved="false">IMessageBrowser#peek()</xref> fetches the first active message for this receiver. Each subsequent call fetches the subsequent message in the entity.
   syntax:
     content: public IMessage peek()
     return:
@@ -280,6 +285,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.peek*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Reads next the active message without changing the state of the receiver or the message source.
   syntax:
     content: public IMessage peek(long fromSequenceNumber)
     parameters:
@@ -302,6 +308,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.peekAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously reads the active messages without changing the state of the receiver or the message source.
   syntax:
     content: public CompletableFuture<IMessage> peekAsync()
     return:
@@ -318,6 +325,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.peekAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously reads next the active message without changing the state of the receiver or the message source.
   syntax:
     content: public CompletableFuture<IMessage> peekAsync(long fromSequenceNumber)
     parameters:
@@ -337,6 +345,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.peekBatch*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Reads next batch of the active messages without changing the state of the receiver or the message source.
   syntax:
     content: public Collection<IMessage> peekBatch(int messageCount)
     parameters:
@@ -359,6 +368,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.peekBatch*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Reads next batch of the active messages without changing the state of the receiver or the message source.
   syntax:
     content: public Collection<IMessage> peekBatch(long fromSequenceNumber, int messageCount)
     parameters:
@@ -383,6 +393,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.peekBatchAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.
   syntax:
     content: public CompletableFuture<Collection<IMessage>> peekBatchAsync(int messageCount)
     parameters:
@@ -402,6 +413,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.peekBatchAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously reads the next batch of active messages without changing the state of the receiver or the message source.
   syntax:
     content: public CompletableFuture<Collection<IMessage>> peekBatchAsync(long fromSequenceNumber, int messageCount)
     parameters:
@@ -423,6 +435,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.scheduleMessage*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a scheduled message to the Azure Service Bus entity this sender is connected to. A scheduled message is enqueued and made available to receivers only at the scheduled enqueue time. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `scheduleMessageAsync(message, scheduledEnqueueTimeUtc).get()`. For better performance, use async methods.
   syntax:
     content: public long scheduleMessage(IMessage message, Instant scheduledEnqueueTimeUtc)
     parameters:
@@ -447,6 +460,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.scheduleMessage*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a scheduled message to the Azure Service Bus entity this sender is connected to. A scheduled message is enqueued and made available to receivers only at the scheduled enqueue time. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `scheduleMessageAsync(message, scheduledEnqueueTimeUtc).get()`. For better performance, use async methods.
   syntax:
     content: public long scheduleMessage(IMessage message, Instant scheduledEnqueueTimeUtc, TransactionContext transaction)
     parameters:
@@ -473,6 +487,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.scheduleMessageAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a scheduled message to the Azure Service Bus entity this sender is connected to. A scheduled message is enqueued and made available to receivers only at the scheduled enqueue time. This is an asynchronous method returning a CompletableFuture which completes when the message is sent to the entity. The CompletableFuture, on completion, returns the sequence number of the scheduled message which can be used to cancel the scheduling of the message.
   syntax:
     content: public CompletableFuture<Long> scheduleMessageAsync(IMessage message, Instant scheduledEnqueueTimeUtc)
     parameters:
@@ -494,6 +509,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.scheduleMessageAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a scheduled message to the Azure Service Bus entity this sender is connected to. A scheduled message is enqueued and made available to receivers only at the scheduled enqueue time. This is an asynchronous method returning a CompletableFuture which completes when the message is sent to the entity. The CompletableFuture, on completion, returns the sequence number of the scheduled message which can be used to cancel the scheduling of the message.
   syntax:
     content: public CompletableFuture<Long> scheduleMessageAsync(IMessage message, Instant scheduledEnqueueTimeUtc, TransactionContext transaction)
     parameters:
@@ -517,6 +533,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.send*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a message to the Azure Service Bus entity this sender is connected to. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `sendAsync(message).get()`. For better performance, use async methods.
   syntax:
     content: public void send(IMessage message)
     parameters:
@@ -537,6 +554,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.send*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a message to the Azure Service Bus entity this sender is connected to. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `sendAsync(message).get()`. For better performance, use async methods.
   syntax:
     content: public void send(IMessage message, TransactionContext transaction)
     parameters:
@@ -559,6 +577,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.sendAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a message to the Azure Service Bus entity this sender is connected to. This is an asynchronous method returning a CompletableFuture which completes when the message is sent to the entity.
   syntax:
     content: public CompletableFuture<Void> sendAsync(IMessage message)
     parameters:
@@ -578,6 +597,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.sendAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a message to the Azure Service Bus entity this sender is connected to. This is an asynchronous method returning a CompletableFuture which completes when the message is sent to the entity.
   syntax:
     content: public CompletableFuture<Void> sendAsync(IMessage message, TransactionContext transaction)
     parameters:
@@ -599,6 +619,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.sendBatch*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a batch of messages to the Azure Service Bus entity this sender is connected to. This method blocks until the batch is sent to the entity. Calling this method is equivalent to calling `sendBatchAsync(messages).get()`. For better performance, use async methods.
   syntax:
     content: public void sendBatch(Collection<? extends IMessage> messages)
     parameters:
@@ -619,6 +640,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.sendBatch*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a batch of messages to the Azure Service Bus entity this sender is connected to. This method blocks until the batch is sent to the entity. Calling this method is equivalent to calling `sendBatchAsync(messages).get()`. For better performance, use async methods.
   syntax:
     content: public void sendBatch(Collection<? extends IMessage> messages, TransactionContext transaction)
     parameters:
@@ -641,6 +663,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.sendBatchAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a batch of messages to the Azure Service Bus entity this sender is connected to. This is an asynchronous method returning a CompletableFuture which completes when the batch is sent to the entity.
   syntax:
     content: public CompletableFuture<Void> sendBatchAsync(Collection<? extends IMessage> messages)
     parameters:
@@ -660,6 +683,7 @@ items:
   overload: com.microsoft.azure.servicebus.TopicClient.sendBatchAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a batch of messages to the Azure Service Bus entity this sender is connected to. This is an asynchronous method returning a CompletableFuture which completes when the batch is sent to the entity.
   syntax:
     content: public CompletableFuture<Void> sendBatchAsync(Collection<? extends IMessage> messages, TransactionContext transaction)
     parameters:

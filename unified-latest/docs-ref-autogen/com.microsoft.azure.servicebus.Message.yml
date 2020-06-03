@@ -307,6 +307,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.createCopy*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Creates a shallow copy of this message.
   syntax:
     content: public IMessage createCopy()
     return:
@@ -323,6 +324,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getBody*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the body of this message as a byte array. It is up to client applications to decode the bytes.
   syntax:
     content: public byte[] getBody()
     return:
@@ -339,6 +341,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getContentType*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the content type of this message. Optionally describes the payload of the message, with a descriptor following the format of RFC2045, Section 5, for example "application/json". Note that content type is not same as message body type.
   syntax:
     content: public String getContentType()
     return:
@@ -355,6 +358,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getCorrelationId*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets a correlation identifier. Allows an application to specify a context for the message for the purposes of correlation, for example reflecting the MessageId of a message that is being replied to.
   syntax:
     content: public String getCorrelationId()
     return:
@@ -371,6 +375,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getDeadLetterSource*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the name of the queue or subscription that this message was enqueued on, before it was deadlettered. This value is only set in messages that have been dead-lettered and subsequently auto-forwarded from the dead-letter queue to another entity. Indicates the entity in which the message was dead-lettered. This property is read-only.
   syntax:
     content: public String getDeadLetterSource()
     return:
@@ -387,6 +392,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getDeliveryCount*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the number of the times this message was delivered to clients. The count is incremented when a message lock expires, or the message is explicitly abandoned by the receiver. This property is read-only.
   syntax:
     content: public long getDeliveryCount()
     return:
@@ -403,6 +409,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the instant at which this message was enqueued in Azure Service Bus. The UTC instant at which the message has been accepted and stored in the entity. For scheduled messages, this reflects the time when the message was activated. This value can be used as an authoritative and neutral arrival time indicator when the receiver does not want to trust the sender's clock. This property is read-only.
   syntax:
     content: public Instant getEnqueuedTimeUtc()
     return:
@@ -419,6 +426,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getExpiresAtUtc*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the instant at which this message will expire. The value is the UTC instant for when the message is scheduled for removal and will no longer available for retrieval from the entity due to expiration. Expiry is controlled by the <xref uid="com.microsoft.azure.servicebus.Message.getTimeToLive()" data-throw-if-not-resolved="false">TimeToLive</xref> property. This property is computed from <xref uid="com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc()" data-throw-if-not-resolved="false">EnqueuedTimeUtc</xref>\+<xref uid="com.microsoft.azure.servicebus.Message.getTimeToLive()" data-throw-if-not-resolved="false">TimeToLive</xref>.
   syntax:
     content: public Instant getExpiresAtUtc()
     return:
@@ -435,6 +443,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getLabel*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the application specific message label. This property enables the application to indicate the purpose of the message to the receiver in a standardized fashion, similar to an email subject line. The mapped AMQP property is "subject".
   syntax:
     content: public String getLabel()
     return:
@@ -451,6 +460,14 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getLockToken*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: >-
+    Gets the lock token for the current message. The lock token is a reference to the lock that is being held by the broker in PEEKLOCK mode. Locks are used to explicitly settle messages as explained in the [product documentation in more detail][]. The token can also be used to pin the lock permanently through the [Deferral API][] and, with that, take the message out of the regular delivery state flow. This property is read-only.
+
+
+
+    [product documentation in more detail]: https://docs.microsoft.com/azure/service-bus-messaging/message-transfers-locks-settlement
+
+    [Deferral API]: https://docs.microsoft.com/azure/service-bus-messaging/message-deferral
   syntax:
     content: public UUID getLockToken()
     return:
@@ -467,6 +484,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getLockedUntilUtc*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the instant at which the lock of this message expires. For messages retrieved under a lock (peek-lock receive mode, not pre-settled) this property reflects the UTC instant until which the message is held locked in the queue/subscription. When the lock expires, the <xref uid="com.microsoft.azure.servicebus.Message.getDeliveryCount()" data-throw-if-not-resolved="false">DeliveryCount</xref> is incremented and the message is again available for retrieval. This property is read-only.
   syntax:
     content: public Instant getLockedUntilUtc()
     return:
@@ -483,6 +501,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getMessageBody*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the body of this message. Client applications should extract message content based on body type.
   syntax:
     content: public MessageBody getMessageBody()
     return:
@@ -499,6 +518,12 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getMessageId*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: >-
+    Gets the Id of this message. The message identifier is an application-defined value that uniquely identifies the message and its payload. The identifier is a free-form string and can reflect a GUID or an identifier derived from the application context. If enabled, the [duplicate detection][] feature identifies and removes second and further submissions of messages with the same MessageId.
+
+
+
+    [duplicate detection]: https://docs.microsoft.com/azure/service-bus-messaging/duplicate-detection
   syntax:
     content: public String getMessageId()
     return:
@@ -515,6 +540,12 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getPartitionKey*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: >-
+    Gets the partition key for sending a message to a partitioned entity. For [partitioned entities][], setting this value enables assigning related messages to the same internal partition, so that submission sequence order is correctly recorded. The partition is chosen by a hash function over this value and cannot be chosen directly. For session-aware entities, the <xref uid="com.microsoft.azure.servicebus.Message.getSessionId()" data-throw-if-not-resolved="false">SessionId </xref> property overrides this value.
+
+
+
+    [partitioned entities]: https://docs.microsoft.com/azure/service-bus-messaging/service-bus-partitioning
   syntax:
     content: public String getPartitionKey()
     return:
@@ -531,6 +562,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getProperties*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the map of user application properties of this message. Client applications can set user properties (headers) on the message using this map.
   syntax:
     content: public Map<String,Object> getProperties()
     return:
@@ -547,6 +579,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getReplyTo*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the address of an entity to send replies to. This optional and application-defined value is a standard way to express a reply path to the receiver of the message. When a sender expects a reply, it sets the value to the absolute or relative path of the queue or topic it expects the reply to be sent to.
   syntax:
     content: public String getReplyTo()
     return:
@@ -563,6 +596,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getReplyToSessionId*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets or sets a session identifier augmenting the <xref uid="com.microsoft.azure.servicebus.Message.getReplyTo()" data-throw-if-not-resolved="false">ReplyTo</xref> address. This value augments the ReplyTo information and specifies which SessionId should be set for the reply when sent to the reply entity.
   syntax:
     content: public String getReplyToSessionId()
     return:
@@ -579,6 +613,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the scheduled enqueue time of this message. This value is used for delayed message availability. The message is safely added to the queue, but is not considered active and therefore not retrievable until the scheduled enqueue time. Mind that the message may not be activated (enqueued) at the exact given instant; the actual activation time depends on the queue's workload and its state.
   syntax:
     content: public Instant getScheduledEnqueueTimeUtc()
     return:
@@ -595,6 +630,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the scheduled enqueue time of this message. This value is used for delayed message availability. The message is safely added to the queue, but is not considered active and therefore not retrievable until the scheduled enqueue time. Mind that the message may not be activated (enqueued) at the exact given instant; the actual activation time depends on the queue's workload and its state.
   syntax:
     content: public Instant getScheduledEnqueuedTimeUtc()
     return:
@@ -611,6 +647,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getSequenceNumber*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the unique number assigned to a message by Service Bus. The sequence number is a unique 64-bit integer assigned to a message as it is accepted and stored by the broker and functions as its true identifier. For partitioned entities, the topmost 16 bits reflect the partition identifier. Sequence numbers monotonically increase and are gapless. They roll over to 0 when the 48-64 bit range is exhausted. This property is read-only.
   syntax:
     content: public long getSequenceNumber()
     return:
@@ -627,6 +664,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getSessionId*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the session identifier for a session-aware entity. For session-aware entities, this application-defined value specifies the session affiliation of the message. Messages with the same session identifier are subject to summary locking and enable exact in-order processing and demultiplexing. For session-unaware entities, this value is ignored.
   syntax:
     content: public String getSessionId()
     return:
@@ -643,6 +681,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getTimeToLive*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the duration before this message expires. This value is the relative duration after which the message expires, starting from the instant the message has been accepted and stored by the broker, as captured in <xref uid="com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc()" data-throw-if-not-resolved="false">getEnqueuedTimeUtc</xref>. When not set explicitly, the assumed value is the DefaultTimeToLive set for the respective queue or topic. A message-level TimeToLive value cannot be longer than the entity's DefaultTimeToLive setting and it is silently adjusted if it does.
   syntax:
     content: public Duration getTimeToLive()
     return:
@@ -659,6 +698,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getTo*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the "to" address.
   syntax:
     content: public String getTo()
     return:
@@ -675,6 +715,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.getViaPartitionKey*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: 'Gets the partition key for sending a message to a entity via another partitioned transfer entity. If a message is sent via a transfer queue in the scope of a transaction, this value selects the transfer queue partition: This is functionally equivalent to <xref uid="com.microsoft.azure.servicebus.Message.getPartitionKey()" data-throw-if-not-resolved="false">#getPartitionKey()</xref> and ensures that messages are kept together and in order as they are transferred.'
   syntax:
     content: public String getViaPartitionKey()
     return:
@@ -691,6 +732,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setBody*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the body of this message as a byte array.
   syntax:
     content: public void setBody(byte[] body)
     parameters:
@@ -708,6 +750,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setContentType*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the content type of this message.
   syntax:
     content: public void setContentType(String contentType)
     parameters:
@@ -725,6 +768,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setCorrelationId*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets a correlation identifier.
   syntax:
     content: public void setCorrelationId(String correlationId)
     parameters:
@@ -742,6 +786,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setLabel*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets an application specific message label.
   syntax:
     content: public void setLabel(String label)
     parameters:
@@ -776,6 +821,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setMessageBody*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the body of this message.
   syntax:
     content: public void setMessageBody(MessageBody body)
     parameters:
@@ -793,6 +839,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setMessageId*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the Id of this message.
   syntax:
     content: public void setMessageId(String messageId)
     parameters:
@@ -810,6 +857,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setPartitionKey*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets a partition key for sending a message to a partitioned entity
   syntax:
     content: public void setPartitionKey(String partitionKey)
     parameters:
@@ -827,6 +875,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setProperties*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the map of user application properties of this message. Client applications can set user properties on the message using this map.
   syntax:
     content: public void setProperties(Map<String,Object> properties)
     parameters:
@@ -844,6 +893,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setReplyTo*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the address of an entity to send replies to.
   syntax:
     content: public void setReplyTo(String replyTo)
     parameters:
@@ -861,6 +911,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setReplyToSessionId*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets or sets a session identifier augmenting the <xref uid="com.microsoft.azure.servicebus.Message.getReplyTo()" data-throw-if-not-resolved="false">ReplyTo</xref> address.
   syntax:
     content: public void setReplyToSessionId(String replyToSessionId)
     parameters:
@@ -878,6 +929,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the scheduled enqueue time of this message.
   syntax:
     content: public void setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)
     parameters:
@@ -895,6 +947,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the scheduled enqueue time of this message.
   syntax:
     content: public void setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)
     parameters:
@@ -912,6 +965,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setSessionId*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the session identifier for a session-aware entity.
   syntax:
     content: public void setSessionId(String sessionId)
     parameters:
@@ -929,6 +983,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setTimeToLive*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets the duration of time before this message expires.
   syntax:
     content: public void setTimeToLive(Duration timeToLive)
     parameters:
@@ -946,6 +1001,12 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setTo*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: >-
+    Sets the "to" address. This property is reserved for future use in routing scenarios and presently ignored by the broker itself. Applications can use this value in rule-driven [auto-forward chaining][] scenarios to indicate the intended logical destination of the message.
+
+
+
+    [auto-forward chaining]: https://docs.microsoft.com/azure/service-bus-messaging/service-bus-auto-forwarding
   syntax:
     content: public void setTo(String to)
     parameters:
@@ -963,6 +1024,7 @@ items:
   overload: com.microsoft.azure.servicebus.Message.setViaPartitionKey*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sets a via-partition key for sending a message to a destination entity via another partitioned entity
   syntax:
     content: public void setViaPartitionKey(String partitionKey)
     parameters:

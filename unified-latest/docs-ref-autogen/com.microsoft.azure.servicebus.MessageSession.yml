@@ -235,6 +235,7 @@ items:
   overload: com.microsoft.azure.servicebus.MessageSession.getState*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the session state.
   syntax:
     content: public byte[] getState()
     return:
@@ -254,6 +255,7 @@ items:
   overload: com.microsoft.azure.servicebus.MessageSession.getStateAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously gets the session state.
   syntax:
     content: public CompletableFuture<byte[]> getStateAsync()
     return:
@@ -302,6 +304,14 @@ items:
   overload: com.microsoft.azure.servicebus.MessageSession.renewSessionLock*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: >-
+    Renews the lock on the session specified by the <xref uid="com.microsoft.azure.servicebus.IMessageSession.getSessionId()" data-throw-if-not-resolved="false">IMessageSession#getSessionId()</xref>. The lock will be renewed based on the setting specified on the entity.
+
+
+    When you accept a session, the session is locked for this client instance by the service for a duration as specified during the Queue/Subscription creation. If processing of the session requires longer than this duration, the session-lock needs to be renewed. For each renewal, the session-lock is renewed by the entity's LockDuration.
+
+
+    Renewal of session renews all the messages in the session as well. Each individual message need not be renewed.
   syntax:
     content: public void renewSessionLock()
   exceptions:
@@ -319,6 +329,7 @@ items:
   overload: com.microsoft.azure.servicebus.MessageSession.renewSessionLockAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Renews the lock on the session specified by the <xref uid="com.microsoft.azure.servicebus.IMessageSession.getSessionId()" data-throw-if-not-resolved="false">IMessageSession#getSessionId()</xref>. The lock will be renewed based on the setting specified on the entity.
   syntax:
     content: public CompletableFuture<Void> renewSessionLockAsync()
     return:
@@ -335,6 +346,7 @@ items:
   overload: com.microsoft.azure.servicebus.MessageSession.setState*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Set a custom state on the session which can be later retrieved using <xref uid="com.microsoft.azure.servicebus.IMessageSession.getState()" data-throw-if-not-resolved="false">IMessageSession#getState()</xref>.
   syntax:
     content: public void setState(byte[] sessionState)
     parameters:
@@ -355,6 +367,7 @@ items:
   overload: com.microsoft.azure.servicebus.MessageSession.setStateAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously set a custom state on the session which can be later retrieved using <xref uid="com.microsoft.azure.servicebus.IMessageSession.getState()" data-throw-if-not-resolved="false">IMessageSession#getState()</xref>.
   syntax:
     content: public CompletableFuture<Void> setStateAsync(byte[] sessionState)
     parameters:

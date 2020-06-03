@@ -217,6 +217,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.abandon*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message
   syntax:
     content: public void abandon(UUID lockToken)
     parameters:
@@ -237,6 +238,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.abandon*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message
   syntax:
     content: public void abandon(UUID lockToken, TransactionContext transaction)
     parameters:
@@ -259,6 +261,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.abandon*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token and updated message property. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message
   syntax:
     content: public void abandon(UUID lockToken, Map<String,Object> propertiesToModify)
     parameters:
@@ -281,6 +284,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.abandon*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token and updated message property. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message
   syntax:
     content: public void abandon(UUID lockToken, Map<String,Object> propertiesToModify, TransactionContext transaction)
     parameters:
@@ -305,6 +309,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.abandonAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message.
   syntax:
     content: public CompletableFuture<Void> abandonAsync(UUID lockToken)
     parameters:
@@ -324,6 +329,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.abandonAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message.
   syntax:
     content: public CompletableFuture<Void> abandonAsync(UUID lockToken, TransactionContext transaction)
     parameters:
@@ -345,6 +351,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.abandonAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token and updated message property. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message.
   syntax:
     content: public CompletableFuture<Void> abandonAsync(UUID lockToken, Map<String,Object> propertiesToModify)
     parameters:
@@ -366,6 +373,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.abandonAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token and updated message property. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message.
   syntax:
     content: public CompletableFuture<Void> abandonAsync(UUID lockToken, Map<String,Object> propertiesToModify, TransactionContext transaction)
     parameters:
@@ -389,6 +397,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.cancelScheduledMessage*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Cancels the enqueuing of an already sent scheduled message, if it was not already enqueued. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `cancelScheduledMessageAsync(sequenceNumber).get()`. For better performance, use async methods.
   syntax:
     content: public void cancelScheduledMessage(long sequenceNumber)
     parameters:
@@ -409,6 +418,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.cancelScheduledMessageAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Cancels the enqueuing of an already sent scheduled message, if it was not already enqueued. This is an asynchronous method returning a CompletableFuture which completes when the message is cancelled.
   syntax:
     content: public CompletableFuture<Void> cancelScheduledMessageAsync(long sequenceNumber)
     parameters:
@@ -428,6 +438,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.complete*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Completes a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> using its lock token. This will delete the message from the service.
   syntax:
     content: public void complete(UUID lockToken)
     parameters:
@@ -448,6 +459,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.complete*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Completes a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> using its lock token. This will delete the message from the service.
   syntax:
     content: public void complete(UUID lockToken, TransactionContext transaction)
     parameters:
@@ -470,6 +482,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.completeAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously completes a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> using its lock token. This will delete the message from the service.
   syntax:
     content: public CompletableFuture<Void> completeAsync(UUID lockToken)
     parameters:
@@ -489,6 +502,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.completeAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously completes a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> using its lock token. This will delete the message from the service.
   syntax:
     content: public CompletableFuture<Void> completeAsync(UUID lockToken, TransactionContext transaction)
     parameters:
@@ -510,6 +524,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetter*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue.
   syntax:
     content: public void deadLetter(UUID lockToken)
     parameters:
@@ -530,6 +545,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetter*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue.
   syntax:
     content: public void deadLetter(UUID lockToken, TransactionContext transaction)
     parameters:
@@ -552,6 +568,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetter*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description.
   syntax:
     content: public void deadLetter(UUID lockToken, String deadLetterReason, String deadLetterErrorDescription)
     parameters:
@@ -576,6 +593,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetter*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description.
   syntax:
     content: public void deadLetter(UUID lockToken, String deadLetterReason, String deadLetterErrorDescription, TransactionContext transaction)
     parameters:
@@ -602,6 +620,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetter*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description and modified properties.
   syntax:
     content: public void deadLetter(UUID lockToken, String deadLetterReason, String deadLetterErrorDescription, Map<String,Object> propertiesToModify)
     parameters:
@@ -628,6 +647,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetter*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description and modified properties.
   syntax:
     content: public void deadLetter(UUID lockToken, String deadLetterReason, String deadLetterErrorDescription, Map<String,Object> propertiesToModify, TransactionContext transaction)
     parameters:
@@ -656,6 +676,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetter*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with modified message properties.
   syntax:
     content: public void deadLetter(UUID lockToken, Map<String,Object> propertiesToModify)
     parameters:
@@ -678,6 +699,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetter*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with modified message properties.
   syntax:
     content: public void deadLetter(UUID lockToken, Map<String,Object> propertiesToModify, TransactionContext transaction)
     parameters:
@@ -702,6 +724,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetterAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter.
   syntax:
     content: public CompletableFuture<Void> deadLetterAsync(UUID lockToken)
     parameters:
@@ -721,6 +744,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetterAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter.
   syntax:
     content: public CompletableFuture<Void> deadLetterAsync(UUID lockToken, TransactionContext transaction)
     parameters:
@@ -742,6 +766,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetterAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description.
   syntax:
     content: public CompletableFuture<Void> deadLetterAsync(UUID lockToken, String deadLetterReason, String deadLetterErrorDescription)
     parameters:
@@ -765,6 +790,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetterAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description.
   syntax:
     content: public CompletableFuture<Void> deadLetterAsync(UUID lockToken, String deadLetterReason, String deadLetterErrorDescription, TransactionContext transaction)
     parameters:
@@ -790,6 +816,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetterAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description and modified properties.
   syntax:
     content: public CompletableFuture<Void> deadLetterAsync(UUID lockToken, String deadLetterReason, String deadLetterErrorDescription, Map<String,Object> propertiesToModify)
     parameters:
@@ -815,6 +842,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetterAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description and modified properties.
   syntax:
     content: public CompletableFuture<Void> deadLetterAsync(UUID lockToken, String deadLetterReason, String deadLetterErrorDescription, Map<String,Object> propertiesToModify, TransactionContext transaction)
     parameters:
@@ -842,6 +870,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetterAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with modified properties.
   syntax:
     content: public CompletableFuture<Void> deadLetterAsync(UUID lockToken, Map<String,Object> propertiesToModify)
     parameters:
@@ -863,6 +892,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.deadLetterAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Asynchronously moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with modified properties.
   syntax:
     content: public CompletableFuture<Void> deadLetterAsync(UUID lockToken, Map<String,Object> propertiesToModify, TransactionContext transaction)
     parameters:
@@ -886,6 +916,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.getEntityPath*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the path of the entity this client is sending messages to or receiving messages from.
   syntax:
     content: public String getEntityPath()
     return:
@@ -902,6 +933,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.getPrefetchCount*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Get the prefetch value set.
   syntax:
     content: public int getPrefetchCount()
     return:
@@ -918,6 +950,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.getQueueName*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the name of the queue.
   syntax:
     content: public String getQueueName()
     return:
@@ -934,6 +967,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.getReceiveMode*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Gets the <xref uid="com.microsoft.azure.servicebus.ReceiveMode" data-throw-if-not-resolved="false">ReceiveMode</xref> of the current receiver
   syntax:
     content: public ReceiveMode getReceiveMode()
     return:
@@ -966,6 +1000,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.registerMessageHandler*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Receive messages continuously from the entity. Registers a message handler and begins a new thread to receive messages. IMessageHandler methods are executed on java.util.concurrent.commonPool()
   syntax:
     content: public void registerMessageHandler(IMessageHandler handler)
     parameters:
@@ -986,6 +1021,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.registerMessageHandler*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Receive messages continuously from the entity. Registers a message handler and begins a new thread to receive messages. IMessageHandler methods are executed on java.util.concurrent.commonPool()
   syntax:
     content: public void registerMessageHandler(IMessageHandler handler, MessageHandlerOptions handlerOptions)
     parameters:
@@ -1008,6 +1044,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.registerMessageHandler*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Receive messages continuously from the entity. Registers a message handler and begins a new thread to receive messages. IMessageHandler methods are executed on the passed executor service.
   syntax:
     content: public void registerMessageHandler(IMessageHandler handler, MessageHandlerOptions handlerOptions, ExecutorService executorService)
     parameters:
@@ -1032,6 +1069,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.registerMessageHandler*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Receive messages continuously from the entity. Registers a message handler and begins a new thread to receive messages. IMessageHandler methods are executed on the passed executor service.
   syntax:
     content: public void registerMessageHandler(IMessageHandler handler, ExecutorService executorService)
     parameters:
@@ -1054,6 +1092,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.registerSessionHandler*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Receive session messages continuously from the queue. Registers a message handler and begins a new thread to receive session-messages. ISessionHandler methods are executed on java.util.concurrent.commonPool()
   syntax:
     content: public void registerSessionHandler(ISessionHandler handler)
     parameters:
@@ -1074,6 +1113,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.registerSessionHandler*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Receive session messages continuously from the queue. Registers a message handler and begins a new thread to receive session-messages. ISessionHandler methods are executed on java.util.concurrent.commonPool()
   syntax:
     content: public void registerSessionHandler(ISessionHandler handler, SessionHandlerOptions handlerOptions)
     parameters:
@@ -1096,6 +1136,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.registerSessionHandler*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Receive session messages continuously from the queue. Registers a message handler and begins a new thread to receive session-messages. ISessionHandler methods are executed on the passed executor service.
   syntax:
     content: public void registerSessionHandler(ISessionHandler handler, SessionHandlerOptions handlerOptions, ExecutorService executorService)
     parameters:
@@ -1120,6 +1161,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.registerSessionHandler*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Receive session messages continuously from the queue. Registers a message handler and begins a new thread to receive session-messages. ISessionHandler methods are executed on the passed executor service.
   syntax:
     content: public void registerSessionHandler(ISessionHandler handler, ExecutorService executorService)
     parameters:
@@ -1142,6 +1184,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.scheduleMessage*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a scheduled message to the Azure Service Bus entity this sender is connected to. A scheduled message is enqueued and made available to receivers only at the scheduled enqueue time. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `scheduleMessageAsync(message, scheduledEnqueueTimeUtc).get()`. For better performance, use async methods.
   syntax:
     content: public long scheduleMessage(IMessage message, Instant scheduledEnqueueTimeUtc)
     parameters:
@@ -1166,6 +1209,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.scheduleMessage*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a scheduled message to the Azure Service Bus entity this sender is connected to. A scheduled message is enqueued and made available to receivers only at the scheduled enqueue time. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `scheduleMessageAsync(message, scheduledEnqueueTimeUtc).get()`. For better performance, use async methods.
   syntax:
     content: public long scheduleMessage(IMessage message, Instant scheduledEnqueueTimeUtc, TransactionContext transaction)
     parameters:
@@ -1192,6 +1236,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.scheduleMessageAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a scheduled message to the Azure Service Bus entity this sender is connected to. A scheduled message is enqueued and made available to receivers only at the scheduled enqueue time. This is an asynchronous method returning a CompletableFuture which completes when the message is sent to the entity. The CompletableFuture, on completion, returns the sequence number of the scheduled message which can be used to cancel the scheduling of the message.
   syntax:
     content: public CompletableFuture<Long> scheduleMessageAsync(IMessage message, Instant scheduledEnqueueTimeUtc)
     parameters:
@@ -1213,6 +1258,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.scheduleMessageAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a scheduled message to the Azure Service Bus entity this sender is connected to. A scheduled message is enqueued and made available to receivers only at the scheduled enqueue time. This is an asynchronous method returning a CompletableFuture which completes when the message is sent to the entity. The CompletableFuture, on completion, returns the sequence number of the scheduled message which can be used to cancel the scheduling of the message.
   syntax:
     content: public CompletableFuture<Long> scheduleMessageAsync(IMessage message, Instant scheduledEnqueueTimeUtc, TransactionContext transaction)
     parameters:
@@ -1236,6 +1282,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.send*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a message to the Azure Service Bus entity this sender is connected to. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `sendAsync(message).get()`. For better performance, use async methods.
   syntax:
     content: public void send(IMessage message)
     parameters:
@@ -1256,6 +1303,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.send*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a message to the Azure Service Bus entity this sender is connected to. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling `sendAsync(message).get()`. For better performance, use async methods.
   syntax:
     content: public void send(IMessage message, TransactionContext transaction)
     parameters:
@@ -1278,6 +1326,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.sendAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a message to the Azure Service Bus entity this sender is connected to. This is an asynchronous method returning a CompletableFuture which completes when the message is sent to the entity.
   syntax:
     content: public CompletableFuture<Void> sendAsync(IMessage message)
     parameters:
@@ -1297,6 +1346,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.sendAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a message to the Azure Service Bus entity this sender is connected to. This is an asynchronous method returning a CompletableFuture which completes when the message is sent to the entity.
   syntax:
     content: public CompletableFuture<Void> sendAsync(IMessage message, TransactionContext transaction)
     parameters:
@@ -1318,6 +1368,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.sendBatch*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a batch of messages to the Azure Service Bus entity this sender is connected to. This method blocks until the batch is sent to the entity. Calling this method is equivalent to calling `sendBatchAsync(messages).get()`. For better performance, use async methods.
   syntax:
     content: public void sendBatch(Collection<? extends IMessage> messages)
     parameters:
@@ -1338,6 +1389,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.sendBatch*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a batch of messages to the Azure Service Bus entity this sender is connected to. This method blocks until the batch is sent to the entity. Calling this method is equivalent to calling `sendBatchAsync(messages).get()`. For better performance, use async methods.
   syntax:
     content: public void sendBatch(Collection<? extends IMessage> messages, TransactionContext transaction)
     parameters:
@@ -1360,6 +1412,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.sendBatchAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a batch of messages to the Azure Service Bus entity this sender is connected to. This is an asynchronous method returning a CompletableFuture which completes when the batch is sent to the entity.
   syntax:
     content: public CompletableFuture<Void> sendBatchAsync(Collection<? extends IMessage> messages)
     parameters:
@@ -1379,6 +1432,7 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.sendBatchAsync*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: Sends a batch of messages to the Azure Service Bus entity this sender is connected to. This is an asynchronous method returning a CompletableFuture which completes when the batch is sent to the entity.
   syntax:
     content: public CompletableFuture<Void> sendBatchAsync(Collection<? extends IMessage> messages, TransactionContext transaction)
     parameters:
@@ -1400,6 +1454,11 @@ items:
   overload: com.microsoft.azure.servicebus.QueueClient.setPrefetchCount*
   type: Method
   package: com.microsoft.azure.servicebus
+  summary: >-
+    Set the prefetch count of the receiver. Prefetch speeds up the message flow by aiming to have a message readily available for local retrieval when and before the application asks for one using Receive. Setting a non-zero value prefetches PrefetchCount number of messages. Setting the value to zero turns prefetch off. For RECEIVEANDDELETE mode, the default value is 0. For PEEKLOCK mode, the default value is 100.
+
+
+    The value cannot be set until the receiver is created.
   syntax:
     content: public void setPrefetchCount(int prefetchCount)
     parameters:

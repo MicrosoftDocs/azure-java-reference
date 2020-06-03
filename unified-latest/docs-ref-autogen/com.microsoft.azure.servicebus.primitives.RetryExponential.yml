@@ -75,6 +75,7 @@ items:
   overload: com.microsoft.azure.servicebus.primitives.RetryExponential.onGetNextRetryInterval*
   type: Method
   package: com.microsoft.azure.servicebus.primitives
+  summary: Adjusts the interval after which nextRetry should be attempted, based on the last exception encountered, the remaining time before the operation times out and the minimum wait time before retry. Clients can override this method to specify a wait time based on the exception encountered.
   syntax:
     content: protected Duration onGetNextRetryInterval(String clientId, Exception lastException, Duration remainingTime, int baseWaitTimeSecs)
     parameters:
