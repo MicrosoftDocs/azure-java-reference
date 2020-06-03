@@ -1,88 +1,91 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.azure.servicebus.IQueueClient"
-  id: "IQueueClient"
-  parent: "com.microsoft.azure.servicebus"
+- uid: com.microsoft.azure.servicebus.IQueueClient
+  id: IQueueClient
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus
   children:
-  - "com.microsoft.azure.servicebus.IQueueClient.getQueueName()"
-  - "com.microsoft.azure.servicebus.IQueueClient.getReceiveMode()"
+  - com.microsoft.azure.servicebus.IQueueClient.getQueueName()
+  - com.microsoft.azure.servicebus.IQueueClient.getReceiveMode()
   langs:
-  - "java"
-  name: "IQueueClient"
-  nameWithType: "IQueueClient"
-  fullName: "com.microsoft.azure.servicebus.IQueueClient"
-  type: "Interface"
-  package: "com.microsoft.azure.servicebus"
-  summary: "QueueClient can be used for all basic interactions with a Service Bus Queue."
+  - java
+  name: IQueueClient
+  nameWithType: IQueueClient
+  fullName: com.microsoft.azure.servicebus.IQueueClient
+  type: Interface
+  package: com.microsoft.azure.servicebus
+  summary: QueueClient can be used for all basic interactions with a Service Bus Queue.
   syntax:
-    content: "public interface IQueueClient extends IMessageSender, IMessageAndSessionPump, IMessageEntityClient"
+    content: public interface IQueueClient extends IMessageSender, IMessageAndSessionPump, IMessageEntityClient
   implements:
-  - "com.microsoft.azure.servicebus.IMessageSender"
-  - "com.microsoft.azure.servicebus.IMessageAndSessionPump"
-  - "com.microsoft.azure.servicebus.IMessageEntityClient"
-- uid: "com.microsoft.azure.servicebus.IQueueClient.getQueueName()"
-  id: "getQueueName()"
-  parent: "com.microsoft.azure.servicebus.IQueueClient"
+  - com.microsoft.azure.servicebus.IMessageSender
+  - com.microsoft.azure.servicebus.IMessageAndSessionPump
+  - com.microsoft.azure.servicebus.IMessageEntityClient
+- uid: com.microsoft.azure.servicebus.IQueueClient.getQueueName()
+  id: getQueueName()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.IQueueClient
   langs:
-  - "java"
-  name: "getQueueName()"
-  nameWithType: "IQueueClient.getQueueName()"
-  fullName: "com.microsoft.azure.servicebus.IQueueClient.getQueueName()"
-  overload: "com.microsoft.azure.servicebus.IQueueClient.getQueueName*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Gets the name of the queue."
+  - java
+  name: getQueueName()
+  nameWithType: IQueueClient.getQueueName()
+  fullName: com.microsoft.azure.servicebus.IQueueClient.getQueueName()
+  overload: com.microsoft.azure.servicebus.IQueueClient.getQueueName*
+  type: Method
+  package: com.microsoft.azure.servicebus
+  summary: Gets the name of the queue.
   syntax:
-    content: "public abstract String getQueueName()"
+    content: public abstract String getQueueName()
     return:
-      type: "java.lang.String"
-      description: "The name of the queue."
-- uid: "com.microsoft.azure.servicebus.IQueueClient.getReceiveMode()"
-  id: "getReceiveMode()"
-  parent: "com.microsoft.azure.servicebus.IQueueClient"
+      type: java.lang.String
+      description: The name of the queue.
+- uid: com.microsoft.azure.servicebus.IQueueClient.getReceiveMode()
+  id: getReceiveMode()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.IQueueClient
   langs:
-  - "java"
-  name: "getReceiveMode()"
-  nameWithType: "IQueueClient.getReceiveMode()"
-  fullName: "com.microsoft.azure.servicebus.IQueueClient.getReceiveMode()"
-  overload: "com.microsoft.azure.servicebus.IQueueClient.getReceiveMode*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Gets the <xref uid=\"com.microsoft.azure.servicebus.ReceiveMode\" data-throw-if-not-resolved=\"false\">ReceiveMode</xref> of the current receiver"
+  - java
+  name: getReceiveMode()
+  nameWithType: IQueueClient.getReceiveMode()
+  fullName: com.microsoft.azure.servicebus.IQueueClient.getReceiveMode()
+  overload: com.microsoft.azure.servicebus.IQueueClient.getReceiveMode*
+  type: Method
+  package: com.microsoft.azure.servicebus
+  summary: Gets the <xref uid="com.microsoft.azure.servicebus.ReceiveMode" data-throw-if-not-resolved="false">ReceiveMode</xref> of the current receiver
   syntax:
-    content: "public abstract ReceiveMode getReceiveMode()"
+    content: public abstract ReceiveMode getReceiveMode()
     return:
-      type: "com.microsoft.azure.servicebus.ReceiveMode"
-      description: "The receive mode."
+      type: com.microsoft.azure.servicebus.ReceiveMode
+      description: The receive mode.
 references:
-- uid: "com.microsoft.azure.servicebus.ReceiveMode"
-  name: "ReceiveMode"
-  nameWithType: "ReceiveMode"
-  fullName: "com.microsoft.azure.servicebus.ReceiveMode"
-- uid: "com.microsoft.azure.servicebus.IQueueClient.getReceiveMode*"
-  name: "getReceiveMode"
-  nameWithType: "IQueueClient.getReceiveMode"
-  fullName: "com.microsoft.azure.servicebus.IQueueClient.getReceiveMode"
-  package: "com.microsoft.azure.servicebus"
-- uid: "java.lang.String"
+- uid: com.microsoft.azure.servicebus.ReceiveMode
+  name: ReceiveMode
+  nameWithType: ReceiveMode
+  fullName: com.microsoft.azure.servicebus.ReceiveMode
+- uid: com.microsoft.azure.servicebus.IQueueClient.getReceiveMode*
+  name: getReceiveMode
+  nameWithType: IQueueClient.getReceiveMode
+  fullName: com.microsoft.azure.servicebus.IQueueClient.getReceiveMode
+  package: com.microsoft.azure.servicebus
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.IQueueClient.getQueueName*"
-  name: "getQueueName"
-  nameWithType: "IQueueClient.getQueueName"
-  fullName: "com.microsoft.azure.servicebus.IQueueClient.getQueueName"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.IMessageAndSessionPump"
-  name: "IMessageAndSessionPump"
-  nameWithType: "IMessageAndSessionPump"
-  fullName: "com.microsoft.azure.servicebus.IMessageAndSessionPump"
-- uid: "com.microsoft.azure.servicebus.IMessageEntityClient"
-  name: "IMessageEntityClient"
-  nameWithType: "IMessageEntityClient"
-  fullName: "com.microsoft.azure.servicebus.IMessageEntityClient"
-- uid: "com.microsoft.azure.servicebus.IMessageSender"
-  name: "IMessageSender"
-  nameWithType: "IMessageSender"
-  fullName: "com.microsoft.azure.servicebus.IMessageSender"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.azure.servicebus.IQueueClient.getQueueName*
+  name: getQueueName
+  nameWithType: IQueueClient.getQueueName
+  fullName: com.microsoft.azure.servicebus.IQueueClient.getQueueName
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.IMessageAndSessionPump
+  name: IMessageAndSessionPump
+  nameWithType: IMessageAndSessionPump
+  fullName: com.microsoft.azure.servicebus.IMessageAndSessionPump
+- uid: com.microsoft.azure.servicebus.IMessageEntityClient
+  name: IMessageEntityClient
+  nameWithType: IMessageEntityClient
+  fullName: com.microsoft.azure.servicebus.IMessageEntityClient
+- uid: com.microsoft.azure.servicebus.IMessageSender
+  name: IMessageSender
+  nameWithType: IMessageSender
+  fullName: com.microsoft.azure.servicebus.IMessageSender

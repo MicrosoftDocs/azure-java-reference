@@ -1,321 +1,225 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
-  id: "EntityRuntimeInfo"
-  parent: "com.microsoft.azure.servicebus.management"
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo
+  id: EntityRuntimeInfo
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management
   children:
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo()"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt()"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt()"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails()"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath()"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt()"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.path"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setAccessedAt(java.time.Instant)"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setCreatedAt(java.time.Instant)"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setMessageCountDetails(com.microsoft.azure.servicebus.management.MessageCountDetails)"
-  - "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setUpdatedAt(java.time.Instant)"
+  - com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo()
+  - com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt()
+  - com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt()
+  - com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails()
+  - com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath()
+  - com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt()
   langs:
-  - "java"
-  name: "EntityRuntimeInfo"
-  nameWithType: "EntityRuntimeInfo"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
-  type: "Class"
-  package: "com.microsoft.azure.servicebus.management"
-  summary: "Base class for runtime information for entities"
+  - java
+  name: EntityRuntimeInfo
+  nameWithType: EntityRuntimeInfo
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo
+  type: Class
+  package: com.microsoft.azure.servicebus.management
+  summary: Base class for runtime information for entities
   syntax:
-    content: "public abstract class EntityRuntimeInfo"
+    content: public abstract class EntityRuntimeInfo
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo()"
-  id: "EntityRuntimeInfo()"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo()
+  id: EntityRuntimeInfo()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management.EntityRuntimeInfo
   langs:
-  - "java"
-  name: "EntityRuntimeInfo()"
-  nameWithType: "EntityRuntimeInfo.EntityRuntimeInfo()"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo()"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus.management"
+  - java
+  name: EntityRuntimeInfo()
+  nameWithType: EntityRuntimeInfo.EntityRuntimeInfo()
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo()
+  overload: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo*
+  type: Constructor
+  package: com.microsoft.azure.servicebus.management
   syntax:
-    content: "public EntityRuntimeInfo()"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt()"
-  id: "getAccessedAt()"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
+    content: public EntityRuntimeInfo()
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt()
+  id: getAccessedAt()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management.EntityRuntimeInfo
   langs:
-  - "java"
-  name: "getAccessedAt()"
-  nameWithType: "EntityRuntimeInfo.getAccessedAt()"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt()"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
+  - java
+  name: getAccessedAt()
+  nameWithType: EntityRuntimeInfo.getAccessedAt()
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt()
+  overload: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt*
+  type: Method
+  package: com.microsoft.azure.servicebus.management
   syntax:
-    content: "public Instant getAccessedAt()"
+    content: public Instant getAccessedAt()
     return:
-      type: "java.time.Instant"
-      description: "The date-time when the entity was last accessed."
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt()"
-  id: "getCreatedAt()"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
+      type: java.time.Instant
+      description: The date-time when the entity was last accessed.
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt()
+  id: getCreatedAt()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management.EntityRuntimeInfo
   langs:
-  - "java"
-  name: "getCreatedAt()"
-  nameWithType: "EntityRuntimeInfo.getCreatedAt()"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt()"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
+  - java
+  name: getCreatedAt()
+  nameWithType: EntityRuntimeInfo.getCreatedAt()
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt()
+  overload: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt*
+  type: Method
+  package: com.microsoft.azure.servicebus.management
   syntax:
-    content: "public Instant getCreatedAt()"
+    content: public Instant getCreatedAt()
     return:
-      type: "java.time.Instant"
-      description: "The date-time when entity was created."
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails()"
-  id: "getMessageCountDetails()"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
+      type: java.time.Instant
+      description: The date-time when entity was created.
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails()
+  id: getMessageCountDetails()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management.EntityRuntimeInfo
   langs:
-  - "java"
-  name: "getMessageCountDetails()"
-  nameWithType: "EntityRuntimeInfo.getMessageCountDetails()"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails()"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
+  - java
+  name: getMessageCountDetails()
+  nameWithType: EntityRuntimeInfo.getMessageCountDetails()
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails()
+  overload: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails*
+  type: Method
+  package: com.microsoft.azure.servicebus.management
   syntax:
-    content: "public MessageCountDetails getMessageCountDetails()"
+    content: public MessageCountDetails getMessageCountDetails()
     return:
-      type: "com.microsoft.azure.servicebus.management.MessageCountDetails"
-      description: "Message count details of the sub-queues of the entity."
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath()"
-  id: "getPath()"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
+      type: com.microsoft.azure.servicebus.management.MessageCountDetails
+      description: Message count details of the sub-queues of the entity.
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath()
+  id: getPath()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management.EntityRuntimeInfo
   langs:
-  - "java"
-  name: "getPath()"
-  nameWithType: "EntityRuntimeInfo.getPath()"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath()"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
+  - java
+  name: getPath()
+  nameWithType: EntityRuntimeInfo.getPath()
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath()
+  overload: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath*
+  type: Method
+  package: com.microsoft.azure.servicebus.management
   syntax:
-    content: "public String getPath()"
+    content: public String getPath()
     return:
-      type: "java.lang.String"
-      description: "The path of the entity."
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt()"
-  id: "getUpdatedAt()"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
+      type: java.lang.String
+      description: The path of the entity.
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt()
+  id: getUpdatedAt()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management.EntityRuntimeInfo
   langs:
-  - "java"
-  name: "getUpdatedAt()"
-  nameWithType: "EntityRuntimeInfo.getUpdatedAt()"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt()"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
+  - java
+  name: getUpdatedAt()
+  nameWithType: EntityRuntimeInfo.getUpdatedAt()
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt()
+  overload: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt*
+  type: Method
+  package: com.microsoft.azure.servicebus.management
   syntax:
-    content: "public Instant getUpdatedAt()"
+    content: public Instant getUpdatedAt()
     return:
-      type: "java.time.Instant"
-      description: "The date-time when the entity was updated"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.path"
-  id: "path"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
-  langs:
-  - "java"
-  name: "path"
-  nameWithType: "EntityRuntimeInfo.path"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.path"
-  type: "Field"
-  package: "com.microsoft.azure.servicebus.management"
-  syntax:
-    content: " String path"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setAccessedAt(java.time.Instant)"
-  id: "setAccessedAt(java.time.Instant)"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
-  langs:
-  - "java"
-  name: "setAccessedAt(Instant accessedAt)"
-  nameWithType: "EntityRuntimeInfo.setAccessedAt(Instant accessedAt)"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setAccessedAt(Instant accessedAt)"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setAccessedAt*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
-  syntax:
-    content: " void setAccessedAt(Instant accessedAt)"
-    parameters:
-    - id: "accessedAt"
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setCreatedAt(java.time.Instant)"
-  id: "setCreatedAt(java.time.Instant)"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
-  langs:
-  - "java"
-  name: "setCreatedAt(Instant createdAt)"
-  nameWithType: "EntityRuntimeInfo.setCreatedAt(Instant createdAt)"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setCreatedAt(Instant createdAt)"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setCreatedAt*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
-  syntax:
-    content: " void setCreatedAt(Instant createdAt)"
-    parameters:
-    - id: "createdAt"
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setMessageCountDetails(com.microsoft.azure.servicebus.management.MessageCountDetails)"
-  id: "setMessageCountDetails(com.microsoft.azure.servicebus.management.MessageCountDetails)"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
-  langs:
-  - "java"
-  name: "setMessageCountDetails(MessageCountDetails messageCountDetails)"
-  nameWithType: "EntityRuntimeInfo.setMessageCountDetails(MessageCountDetails messageCountDetails)"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setMessageCountDetails(MessageCountDetails messageCountDetails)"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setMessageCountDetails*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
-  syntax:
-    content: " void setMessageCountDetails(MessageCountDetails messageCountDetails)"
-    parameters:
-    - id: "messageCountDetails"
-      type: "com.microsoft.azure.servicebus.management.MessageCountDetails"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setUpdatedAt(java.time.Instant)"
-  id: "setUpdatedAt(java.time.Instant)"
-  parent: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo"
-  langs:
-  - "java"
-  name: "setUpdatedAt(Instant updatedAt)"
-  nameWithType: "EntityRuntimeInfo.setUpdatedAt(Instant updatedAt)"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setUpdatedAt(Instant updatedAt)"
-  overload: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setUpdatedAt*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
-  syntax:
-    content: " void setUpdatedAt(Instant updatedAt)"
-    parameters:
-    - id: "updatedAt"
-      type: "java.time.Instant"
+      type: java.time.Instant
+      description: The date-time when the entity was updated
 references:
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo*"
-  name: "EntityRuntimeInfo"
-  nameWithType: "EntityRuntimeInfo.EntityRuntimeInfo"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "java.lang.String"
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo*
+  name: EntityRuntimeInfo
+  nameWithType: EntityRuntimeInfo.EntityRuntimeInfo
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.EntityRuntimeInfo
+  package: com.microsoft.azure.servicebus.management
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath*"
-  name: "getPath"
-  nameWithType: "EntityRuntimeInfo.getPath"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "com.microsoft.azure.servicebus.management.MessageCountDetails"
-  name: "MessageCountDetails"
-  nameWithType: "MessageCountDetails"
-  fullName: "com.microsoft.azure.servicebus.management.MessageCountDetails"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails*"
-  name: "getMessageCountDetails"
-  nameWithType: "EntityRuntimeInfo.getMessageCountDetails"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setMessageCountDetails*"
-  name: "setMessageCountDetails"
-  nameWithType: "EntityRuntimeInfo.setMessageCountDetails"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setMessageCountDetails"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "java.time.Instant"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath*
+  name: getPath
+  nameWithType: EntityRuntimeInfo.getPath
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getPath
+  package: com.microsoft.azure.servicebus.management
+- uid: com.microsoft.azure.servicebus.management.MessageCountDetails
+  name: MessageCountDetails
+  nameWithType: MessageCountDetails
+  fullName: com.microsoft.azure.servicebus.management.MessageCountDetails
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails*
+  name: getMessageCountDetails
+  nameWithType: EntityRuntimeInfo.getMessageCountDetails
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getMessageCountDetails
+  package: com.microsoft.azure.servicebus.management
+- uid: java.time.Instant
   spec.java:
-  - uid: "java.time.Instant"
-    name: "Instant"
-    fullName: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt*"
-  name: "getCreatedAt"
-  nameWithType: "EntityRuntimeInfo.getCreatedAt"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setCreatedAt*"
-  name: "setCreatedAt"
-  nameWithType: "EntityRuntimeInfo.setCreatedAt"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setCreatedAt"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt*"
-  name: "getUpdatedAt"
-  nameWithType: "EntityRuntimeInfo.getUpdatedAt"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setUpdatedAt*"
-  name: "setUpdatedAt"
-  nameWithType: "EntityRuntimeInfo.setUpdatedAt"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setUpdatedAt"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt*"
-  name: "getAccessedAt"
-  nameWithType: "EntityRuntimeInfo.getAccessedAt"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setAccessedAt*"
-  name: "setAccessedAt"
-  nameWithType: "EntityRuntimeInfo.setAccessedAt"
-  fullName: "com.microsoft.azure.servicebus.management.EntityRuntimeInfo.setAccessedAt"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
+  - uid: java.time.Instant
+    name: Instant
+    fullName: java.time.Instant
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt*
+  name: getCreatedAt
+  nameWithType: EntityRuntimeInfo.getCreatedAt
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getCreatedAt
+  package: com.microsoft.azure.servicebus.management
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt*
+  name: getUpdatedAt
+  nameWithType: EntityRuntimeInfo.getUpdatedAt
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getUpdatedAt
+  package: com.microsoft.azure.servicebus.management
+- uid: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt*
+  name: getAccessedAt
+  nameWithType: EntityRuntimeInfo.getAccessedAt
+  fullName: com.microsoft.azure.servicebus.management.EntityRuntimeInfo.getAccessedAt
+  package: com.microsoft.azure.servicebus.management
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()

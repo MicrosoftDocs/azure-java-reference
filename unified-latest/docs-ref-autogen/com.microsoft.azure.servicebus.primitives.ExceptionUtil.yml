@@ -1,294 +1,125 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
-  id: "ExceptionUtil"
-  parent: "com.microsoft.azure.servicebus.primitives"
+- uid: com.microsoft.azure.servicebus.primitives.ExceptionUtil
+  id: ExceptionUtil
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.primitives
   children:
-  - "com.microsoft.azure.servicebus.primitives.ExceptionUtil.<T>completeExceptionally(java.util.concurrent.CompletableFuture<T>,java.lang.Throwable,com.microsoft.azure.servicebus.primitives.IErrorContextProvider,boolean)"
-  - "com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil()"
-  - "com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause(java.lang.Throwable)"
-  - "com.microsoft.azure.servicebus.primitives.ExceptionUtil.getTrackingIDAndTimeToLog()"
-  - "com.microsoft.azure.servicebus.primitives.ExceptionUtil.isGeneralError(org.apache.qpid.proton.amqp.Symbol)"
-  - "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(org.apache.qpid.proton.amqp.transport.ErrorCondition)"
-  - "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toStackTraceString(java.lang.Throwable,java.lang.String)"
+  - com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil()
+  - com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause(java.lang.Throwable)
   langs:
-  - "java"
-  name: "ExceptionUtil"
-  nameWithType: "ExceptionUtil"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
-  type: "Class"
-  package: "com.microsoft.azure.servicebus.primitives"
+  - java
+  name: ExceptionUtil
+  nameWithType: ExceptionUtil
+  fullName: com.microsoft.azure.servicebus.primitives.ExceptionUtil
+  type: Class
+  package: com.microsoft.azure.servicebus.primitives
   syntax:
-    content: "public final class ExceptionUtil"
+    content: public final class ExceptionUtil
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.<T>completeExceptionally(java.util.concurrent.CompletableFuture<T>,java.lang.Throwable,com.microsoft.azure.servicebus.primitives.IErrorContextProvider,boolean)"
-  id: "<T>completeExceptionally(java.util.concurrent.CompletableFuture<T>,java.lang.Throwable,com.microsoft.azure.servicebus.primitives.IErrorContextProvider,boolean)"
-  parent: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil()
+  id: ExceptionUtil()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.primitives.ExceptionUtil
   langs:
-  - "java"
-  name: "<T>completeExceptionally(CompletableFuture<T> future, Throwable exception, IErrorContextProvider contextProvider, boolean completeAsynchronously)"
-  nameWithType: "ExceptionUtil.<T>completeExceptionally(CompletableFuture<T> future, Throwable exception, IErrorContextProvider contextProvider, boolean completeAsynchronously)"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.<T>completeExceptionally(CompletableFuture<T> future, Throwable exception, IErrorContextProvider contextProvider, boolean completeAsynchronously)"
-  overload: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.completeExceptionally*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.primitives"
+  - java
+  name: ExceptionUtil()
+  nameWithType: ExceptionUtil.ExceptionUtil()
+  fullName: com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil()
+  overload: com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil*
+  type: Constructor
+  package: com.microsoft.azure.servicebus.primitives
   syntax:
-    content: "static void <T>completeExceptionally(CompletableFuture<T> future, Throwable exception, IErrorContextProvider contextProvider, boolean completeAsynchronously)"
+    content: public ExceptionUtil()
+- uid: com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause(java.lang.Throwable)
+  id: extractAsyncCompletionCause(java.lang.Throwable)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.primitives.ExceptionUtil
+  langs:
+  - java
+  name: extractAsyncCompletionCause(Throwable completionEx)
+  nameWithType: ExceptionUtil.extractAsyncCompletionCause(Throwable completionEx)
+  fullName: com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause(Throwable completionEx)
+  overload: com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause*
+  type: Method
+  package: com.microsoft.azure.servicebus.primitives
+  syntax:
+    content: public static Throwable extractAsyncCompletionCause(Throwable completionEx)
     parameters:
-    - id: "future"
-      type: "java.util.concurrent.CompletableFuture<T>"
-    - id: "exception"
-      type: "java.lang.Throwable"
-    - id: "contextProvider"
-      type: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider"
-    - id: "completeAsynchronously"
-      type: "boolean"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil()"
-  id: "ExceptionUtil()"
-  parent: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
-  langs:
-  - "java"
-  name: "ExceptionUtil()"
-  nameWithType: "ExceptionUtil.ExceptionUtil()"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil()"
-  overload: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus.primitives"
-  syntax:
-    content: "public ExceptionUtil()"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause(java.lang.Throwable)"
-  id: "extractAsyncCompletionCause(java.lang.Throwable)"
-  parent: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
-  langs:
-  - "java"
-  name: "extractAsyncCompletionCause(Throwable completionEx)"
-  nameWithType: "ExceptionUtil.extractAsyncCompletionCause(Throwable completionEx)"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause(Throwable completionEx)"
-  overload: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.primitives"
-  syntax:
-    content: "public static Throwable extractAsyncCompletionCause(Throwable completionEx)"
-    parameters:
-    - id: "completionEx"
-      type: "java.lang.Throwable"
+    - id: completionEx
+      type: java.lang.Throwable
     return:
-      type: "java.lang.Throwable"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.getTrackingIDAndTimeToLog()"
-  id: "getTrackingIDAndTimeToLog()"
-  parent: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
-  langs:
-  - "java"
-  name: "getTrackingIDAndTimeToLog()"
-  nameWithType: "ExceptionUtil.getTrackingIDAndTimeToLog()"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.getTrackingIDAndTimeToLog()"
-  overload: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.getTrackingIDAndTimeToLog*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.primitives"
-  syntax:
-    content: "static String getTrackingIDAndTimeToLog()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.isGeneralError(org.apache.qpid.proton.amqp.Symbol)"
-  id: "isGeneralError(org.apache.qpid.proton.amqp.Symbol)"
-  parent: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
-  langs:
-  - "java"
-  name: "isGeneralError(Symbol amqpError)"
-  nameWithType: "ExceptionUtil.isGeneralError(Symbol amqpError)"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.isGeneralError(Symbol amqpError)"
-  overload: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.isGeneralError*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.primitives"
-  syntax:
-    content: "static boolean isGeneralError(Symbol amqpError)"
-    parameters:
-    - id: "amqpError"
-      type: "org.apache.qpid.proton.amqp.Symbol"
-    return:
-      type: "boolean"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(org.apache.qpid.proton.amqp.transport.ErrorCondition)"
-  id: "toException(org.apache.qpid.proton.amqp.transport.ErrorCondition)"
-  parent: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
-  langs:
-  - "java"
-  name: "toException(ErrorCondition errorCondition)"
-  nameWithType: "ExceptionUtil.toException(ErrorCondition errorCondition)"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ErrorCondition errorCondition)"
-  overload: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.primitives"
-  syntax:
-    content: "static Exception toException(ErrorCondition errorCondition)"
-    parameters:
-    - id: "errorCondition"
-      type: "org.apache.qpid.proton.amqp.transport.ErrorCondition"
-    return:
-      type: "java.lang.Exception"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toStackTraceString(java.lang.Throwable,java.lang.String)"
-  id: "toStackTraceString(java.lang.Throwable,java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.primitives.ExceptionUtil"
-  langs:
-  - "java"
-  name: "toStackTraceString(Throwable exception, String customErrorMessage)"
-  nameWithType: "ExceptionUtil.toStackTraceString(Throwable exception, String customErrorMessage)"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toStackTraceString(Throwable exception, String customErrorMessage)"
-  overload: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toStackTraceString*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.primitives"
-  syntax:
-    content: "static String toStackTraceString(Throwable exception, String customErrorMessage)"
-    parameters:
-    - id: "exception"
-      type: "java.lang.Throwable"
-    - id: "customErrorMessage"
-      type: "java.lang.String"
-    return:
-      type: "java.lang.String"
+      type: java.lang.Throwable
 references:
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil*"
-  name: "ExceptionUtil"
-  nameWithType: "ExceptionUtil.ExceptionUtil"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil"
-  package: "com.microsoft.azure.servicebus.primitives"
-- uid: "org.apache.qpid.proton.amqp.transport.ErrorCondition"
+- uid: com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil*
+  name: ExceptionUtil
+  nameWithType: ExceptionUtil.ExceptionUtil
+  fullName: com.microsoft.azure.servicebus.primitives.ExceptionUtil.ExceptionUtil
+  package: com.microsoft.azure.servicebus.primitives
+- uid: java.lang.Throwable
   spec.java:
-  - uid: "org.apache.qpid.proton.amqp.transport.ErrorCondition"
-    name: "ErrorCondition"
-    fullName: "org.apache.qpid.proton.amqp.transport.ErrorCondition"
-- uid: "java.lang.Exception"
-  spec.java:
-  - uid: "java.lang.Exception"
-    name: "Exception"
-    fullName: "java.lang.Exception"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException*"
-  name: "toException"
-  nameWithType: "ExceptionUtil.toException"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException"
-  package: "com.microsoft.azure.servicebus.primitives"
-- uid: "java.util.concurrent.CompletableFuture<T>"
-  spec.java:
-  - uid: "java.util.concurrent.CompletableFuture"
-    name: "CompletableFuture"
-    fullName: "java.util.concurrent.CompletableFuture"
-  - name: "<"
-    fullName: "<"
-  - uid: "T"
-    name: "T"
-    fullName: "T"
-  - name: ">"
-    fullName: ">"
-- uid: "java.lang.Throwable"
-  spec.java:
-  - uid: "java.lang.Throwable"
-    name: "Throwable"
-    fullName: "java.lang.Throwable"
-- uid: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider"
-  name: "IErrorContextProvider"
-  nameWithType: "IErrorContextProvider"
-  fullName: "com.microsoft.azure.servicebus.primitives.IErrorContextProvider"
-- uid: "boolean"
-  spec.java:
-  - uid: "boolean"
-    name: "boolean"
-    fullName: "boolean"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.completeExceptionally*"
-  name: "<T>completeExceptionally"
-  nameWithType: "ExceptionUtil.<T>completeExceptionally"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.<T>completeExceptionally"
-  package: "com.microsoft.azure.servicebus.primitives"
-- uid: "org.apache.qpid.proton.amqp.Symbol"
-  spec.java:
-  - uid: "org.apache.qpid.proton.amqp.Symbol"
-    name: "Symbol"
-    fullName: "org.apache.qpid.proton.amqp.Symbol"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.isGeneralError*"
-  name: "isGeneralError"
-  nameWithType: "ExceptionUtil.isGeneralError"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.isGeneralError"
-  package: "com.microsoft.azure.servicebus.primitives"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.getTrackingIDAndTimeToLog*"
-  name: "getTrackingIDAndTimeToLog"
-  nameWithType: "ExceptionUtil.getTrackingIDAndTimeToLog"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.getTrackingIDAndTimeToLog"
-  package: "com.microsoft.azure.servicebus.primitives"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toStackTraceString*"
-  name: "toStackTraceString"
-  nameWithType: "ExceptionUtil.toStackTraceString"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.toStackTraceString"
-  package: "com.microsoft.azure.servicebus.primitives"
-- uid: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause*"
-  name: "extractAsyncCompletionCause"
-  nameWithType: "ExceptionUtil.extractAsyncCompletionCause"
-  fullName: "com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause"
-  package: "com.microsoft.azure.servicebus.primitives"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "T"
-  name: "T"
-  nameWithType: "T"
-  fullName: "T"
-- uid: "java.util.concurrent.CompletableFuture"
-  name: "CompletableFuture"
-  nameWithType: "CompletableFuture"
-  fullName: "java.util.concurrent.CompletableFuture"
+  - uid: java.lang.Throwable
+    name: Throwable
+    fullName: java.lang.Throwable
+- uid: com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause*
+  name: extractAsyncCompletionCause
+  nameWithType: ExceptionUtil.extractAsyncCompletionCause
+  fullName: com.microsoft.azure.servicebus.primitives.ExceptionUtil.extractAsyncCompletionCause
+  package: com.microsoft.azure.servicebus.primitives
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()

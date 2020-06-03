@@ -1,1395 +1,1294 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.azure.servicebus.Message"
-  id: "Message"
-  parent: "com.microsoft.azure.servicebus"
+- uid: com.microsoft.azure.servicebus.Message
+  id: Message
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus
   children:
-  - "com.microsoft.azure.servicebus.Message.Message()"
-  - "com.microsoft.azure.servicebus.Message.Message(byte[])"
-  - "com.microsoft.azure.servicebus.Message.Message(byte[],java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.Message(com.microsoft.azure.servicebus.MessageBody)"
-  - "com.microsoft.azure.servicebus.Message.Message(com.microsoft.azure.servicebus.MessageBody,java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.Message(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.Message(java.lang.String,byte[],java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.Message(java.lang.String,com.microsoft.azure.servicebus.MessageBody,java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.Message(java.lang.String,java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.Message(java.lang.String,java.lang.String,java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.createCopy()"
-  - "com.microsoft.azure.servicebus.Message.getBody()"
-  - "com.microsoft.azure.servicebus.Message.getContentType()"
-  - "com.microsoft.azure.servicebus.Message.getCorrelationId()"
-  - "com.microsoft.azure.servicebus.Message.getDeadLetterSource()"
-  - "com.microsoft.azure.servicebus.Message.getDeliveryCount()"
-  - "com.microsoft.azure.servicebus.Message.getDeliveryTag()"
-  - "com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc()"
-  - "com.microsoft.azure.servicebus.Message.getExpiresAtUtc()"
-  - "com.microsoft.azure.servicebus.Message.getLabel()"
-  - "com.microsoft.azure.servicebus.Message.getLockToken()"
-  - "com.microsoft.azure.servicebus.Message.getLockedUntilUtc()"
-  - "com.microsoft.azure.servicebus.Message.getMessageBody()"
-  - "com.microsoft.azure.servicebus.Message.getMessageId()"
-  - "com.microsoft.azure.servicebus.Message.getPartitionKey()"
-  - "com.microsoft.azure.servicebus.Message.getProperties()"
-  - "com.microsoft.azure.servicebus.Message.getReplyTo()"
-  - "com.microsoft.azure.servicebus.Message.getReplyToSessionId()"
-  - "com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc()"
-  - "com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc()"
-  - "com.microsoft.azure.servicebus.Message.getSequenceNumber()"
-  - "com.microsoft.azure.servicebus.Message.getSessionId()"
-  - "com.microsoft.azure.servicebus.Message.getTimeToLive()"
-  - "com.microsoft.azure.servicebus.Message.getTo()"
-  - "com.microsoft.azure.servicebus.Message.getViaPartitionKey()"
-  - "com.microsoft.azure.servicebus.Message.setBody(byte[])"
-  - "com.microsoft.azure.servicebus.Message.setContentType(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setCorrelationId(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setDeadLetterSource(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setDeliveryCount(long)"
-  - "com.microsoft.azure.servicebus.Message.setDeliveryTag(byte[])"
-  - "com.microsoft.azure.servicebus.Message.setEnqueuedTimeUtc(java.time.Instant)"
-  - "com.microsoft.azure.servicebus.Message.setLabel(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setLockToken(java.util.UUID)"
-  - "com.microsoft.azure.servicebus.Message.setLockedUntilUtc(java.time.Instant)"
-  - "com.microsoft.azure.servicebus.Message.setMessageBody(com.microsoft.azure.servicebus.MessageBody)"
-  - "com.microsoft.azure.servicebus.Message.setMessageId(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setPartitionKey(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setProperties(java.util.Map<java.lang.String,java.lang.Object>)"
-  - "com.microsoft.azure.servicebus.Message.setReplyTo(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setReplyToSessionId(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc(java.time.Instant)"
-  - "com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc(java.time.Instant)"
-  - "com.microsoft.azure.servicebus.Message.setSequenceNumber(long)"
-  - "com.microsoft.azure.servicebus.Message.setSessionId(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setTimeToLive(java.time.Duration)"
-  - "com.microsoft.azure.servicebus.Message.setTo(java.lang.String)"
-  - "com.microsoft.azure.servicebus.Message.setViaPartitionKey(java.lang.String)"
+  - com.microsoft.azure.servicebus.Message.Message()
+  - com.microsoft.azure.servicebus.Message.Message(byte[])
+  - com.microsoft.azure.servicebus.Message.Message(byte[],java.lang.String)
+  - com.microsoft.azure.servicebus.Message.Message(com.microsoft.azure.servicebus.MessageBody)
+  - com.microsoft.azure.servicebus.Message.Message(com.microsoft.azure.servicebus.MessageBody,java.lang.String)
+  - com.microsoft.azure.servicebus.Message.Message(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.Message(java.lang.String,byte[],java.lang.String)
+  - com.microsoft.azure.servicebus.Message.Message(java.lang.String,com.microsoft.azure.servicebus.MessageBody,java.lang.String)
+  - com.microsoft.azure.servicebus.Message.Message(java.lang.String,java.lang.String)
+  - com.microsoft.azure.servicebus.Message.Message(java.lang.String,java.lang.String,java.lang.String)
+  - com.microsoft.azure.servicebus.Message.createCopy()
+  - com.microsoft.azure.servicebus.Message.getBody()
+  - com.microsoft.azure.servicebus.Message.getContentType()
+  - com.microsoft.azure.servicebus.Message.getCorrelationId()
+  - com.microsoft.azure.servicebus.Message.getDeadLetterSource()
+  - com.microsoft.azure.servicebus.Message.getDeliveryCount()
+  - com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc()
+  - com.microsoft.azure.servicebus.Message.getExpiresAtUtc()
+  - com.microsoft.azure.servicebus.Message.getLabel()
+  - com.microsoft.azure.servicebus.Message.getLockToken()
+  - com.microsoft.azure.servicebus.Message.getLockedUntilUtc()
+  - com.microsoft.azure.servicebus.Message.getMessageBody()
+  - com.microsoft.azure.servicebus.Message.getMessageId()
+  - com.microsoft.azure.servicebus.Message.getPartitionKey()
+  - com.microsoft.azure.servicebus.Message.getProperties()
+  - com.microsoft.azure.servicebus.Message.getReplyTo()
+  - com.microsoft.azure.servicebus.Message.getReplyToSessionId()
+  - com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc()
+  - com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc()
+  - com.microsoft.azure.servicebus.Message.getSequenceNumber()
+  - com.microsoft.azure.servicebus.Message.getSessionId()
+  - com.microsoft.azure.servicebus.Message.getTimeToLive()
+  - com.microsoft.azure.servicebus.Message.getTo()
+  - com.microsoft.azure.servicebus.Message.getViaPartitionKey()
+  - com.microsoft.azure.servicebus.Message.setBody(byte[])
+  - com.microsoft.azure.servicebus.Message.setContentType(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setCorrelationId(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setLabel(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setLockedUntilUtc(java.time.Instant)
+  - com.microsoft.azure.servicebus.Message.setMessageBody(com.microsoft.azure.servicebus.MessageBody)
+  - com.microsoft.azure.servicebus.Message.setMessageId(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setPartitionKey(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setProperties(java.util.Map<java.lang.String,java.lang.Object>)
+  - com.microsoft.azure.servicebus.Message.setReplyTo(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setReplyToSessionId(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc(java.time.Instant)
+  - com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc(java.time.Instant)
+  - com.microsoft.azure.servicebus.Message.setSessionId(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setTimeToLive(java.time.Duration)
+  - com.microsoft.azure.servicebus.Message.setTo(java.lang.String)
+  - com.microsoft.azure.servicebus.Message.setViaPartitionKey(java.lang.String)
   langs:
-  - "java"
-  name: "Message"
-  nameWithType: "Message"
-  fullName: "com.microsoft.azure.servicebus.Message"
-  type: "Class"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: Message
+  nameWithType: Message
+  fullName: com.microsoft.azure.servicebus.Message
+  type: Class
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public final class Message implements Serializable, IMessage"
+    content: public final class Message implements Serializable, IMessage
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   implements:
-  - "java.io.Serializable"
-  - "com.microsoft.azure.servicebus.IMessage"
+  - java.io.Serializable
+  - com.microsoft.azure.servicebus.IMessage
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.azure.servicebus.Message.Message()"
-  id: "Message()"
-  parent: "com.microsoft.azure.servicebus.Message"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.azure.servicebus.Message.Message()
+  id: Message()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message()"
-  nameWithType: "Message.Message()"
-  fullName: "com.microsoft.azure.servicebus.Message.Message()"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates an empty message with an empty byte array as body."
+  - java
+  name: Message()
+  nameWithType: Message.Message()
+  fullName: com.microsoft.azure.servicebus.Message.Message()
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates an empty message with an empty byte array as body.
   syntax:
-    content: "public Message()"
-- uid: "com.microsoft.azure.servicebus.Message.Message(byte[])"
-  id: "Message(byte[])"
-  parent: "com.microsoft.azure.servicebus.Message"
+    content: public Message()
+- uid: com.microsoft.azure.servicebus.Message.Message(byte[])
+  id: Message(byte[])
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(byte[] content)"
-  nameWithType: "Message.Message(byte[] content)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(byte[] content)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from a byte array. Message body type is set to binary."
+  - java
+  name: Message(byte[] content)
+  nameWithType: Message.Message(byte[] content)
+  fullName: com.microsoft.azure.servicebus.Message.Message(byte[] content)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from a byte array. Message body type is set to binary.
   syntax:
-    content: "public Message(byte[] content)"
+    content: public Message(byte[] content)
     parameters:
-    - id: "content"
-      type: "byte[]"
-      description: "content of the message"
-- uid: "com.microsoft.azure.servicebus.Message.Message(byte[],java.lang.String)"
-  id: "Message(byte[],java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: content
+      type: byte[]
+      description: content of the message
+- uid: com.microsoft.azure.servicebus.Message.Message(byte[],java.lang.String)
+  id: Message(byte[],java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(byte[] content, String contentType)"
-  nameWithType: "Message.Message(byte[] content, String contentType)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(byte[] content, String contentType)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from a byte array. Message body type is set to binary."
+  - java
+  name: Message(byte[] content, String contentType)
+  nameWithType: Message.Message(byte[] content, String contentType)
+  fullName: com.microsoft.azure.servicebus.Message.Message(byte[] content, String contentType)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from a byte array. Message body type is set to binary.
   syntax:
-    content: "public Message(byte[] content, String contentType)"
+    content: public Message(byte[] content, String contentType)
     parameters:
-    - id: "content"
-      type: "byte[]"
-      description: "content of the message"
-    - id: "contentType"
-      type: "java.lang.String"
-      description: "content type of the message"
-- uid: "com.microsoft.azure.servicebus.Message.Message(com.microsoft.azure.servicebus.MessageBody)"
-  id: "Message(com.microsoft.azure.servicebus.MessageBody)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: content
+      type: byte[]
+      description: content of the message
+    - id: contentType
+      type: java.lang.String
+      description: content type of the message
+- uid: com.microsoft.azure.servicebus.Message.Message(com.microsoft.azure.servicebus.MessageBody)
+  id: Message(com.microsoft.azure.servicebus.MessageBody)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(MessageBody body)"
-  nameWithType: "Message.Message(MessageBody body)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(MessageBody body)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from message body."
+  - java
+  name: Message(MessageBody body)
+  nameWithType: Message.Message(MessageBody body)
+  fullName: com.microsoft.azure.servicebus.Message.Message(MessageBody body)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from message body.
   syntax:
-    content: "public Message(MessageBody body)"
+    content: public Message(MessageBody body)
     parameters:
-    - id: "body"
-      type: "com.microsoft.azure.servicebus.MessageBody"
-      description: "message body"
-- uid: "com.microsoft.azure.servicebus.Message.Message(com.microsoft.azure.servicebus.MessageBody,java.lang.String)"
-  id: "Message(com.microsoft.azure.servicebus.MessageBody,java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: body
+      type: com.microsoft.azure.servicebus.MessageBody
+      description: message body
+- uid: com.microsoft.azure.servicebus.Message.Message(com.microsoft.azure.servicebus.MessageBody,java.lang.String)
+  id: Message(com.microsoft.azure.servicebus.MessageBody,java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(MessageBody body, String contentType)"
-  nameWithType: "Message.Message(MessageBody body, String contentType)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(MessageBody body, String contentType)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from message body."
+  - java
+  name: Message(MessageBody body, String contentType)
+  nameWithType: Message.Message(MessageBody body, String contentType)
+  fullName: com.microsoft.azure.servicebus.Message.Message(MessageBody body, String contentType)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from message body.
   syntax:
-    content: "public Message(MessageBody body, String contentType)"
+    content: public Message(MessageBody body, String contentType)
     parameters:
-    - id: "body"
-      type: "com.microsoft.azure.servicebus.MessageBody"
-      description: "message body"
-    - id: "contentType"
-      type: "java.lang.String"
-      description: "content type of the message"
-- uid: "com.microsoft.azure.servicebus.Message.Message(java.lang.String)"
-  id: "Message(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: body
+      type: com.microsoft.azure.servicebus.MessageBody
+      description: message body
+    - id: contentType
+      type: java.lang.String
+      description: content type of the message
+- uid: com.microsoft.azure.servicebus.Message.Message(java.lang.String)
+  id: Message(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(String content)"
-  nameWithType: "Message.Message(String content)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(String content)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from a string. For backward compatibility reasons, the string is converted to a byte array and message body type is set to binary."
+  - java
+  name: Message(String content)
+  nameWithType: Message.Message(String content)
+  fullName: com.microsoft.azure.servicebus.Message.Message(String content)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from a string. For backward compatibility reasons, the string is converted to a byte array and message body type is set to binary.
   syntax:
-    content: "public Message(String content)"
+    content: public Message(String content)
     parameters:
-    - id: "content"
-      type: "java.lang.String"
-      description: "content of the message."
-- uid: "com.microsoft.azure.servicebus.Message.Message(java.lang.String,byte[],java.lang.String)"
-  id: "Message(java.lang.String,byte[],java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: content
+      type: java.lang.String
+      description: content of the message.
+- uid: com.microsoft.azure.servicebus.Message.Message(java.lang.String,byte[],java.lang.String)
+  id: Message(java.lang.String,byte[],java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(String messageId, byte[] content, String contentType)"
-  nameWithType: "Message.Message(String messageId, byte[] content, String contentType)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(String messageId, byte[] content, String contentType)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from a byte array. Message body type is set to binary."
+  - java
+  name: Message(String messageId, byte[] content, String contentType)
+  nameWithType: Message.Message(String messageId, byte[] content, String contentType)
+  fullName: com.microsoft.azure.servicebus.Message.Message(String messageId, byte[] content, String contentType)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from a byte array. Message body type is set to binary.
   syntax:
-    content: "public Message(String messageId, byte[] content, String contentType)"
+    content: public Message(String messageId, byte[] content, String contentType)
     parameters:
-    - id: "messageId"
-      type: "java.lang.String"
-      description: "id of the message"
-    - id: "content"
-      type: "byte[]"
-      description: "content of the message"
-    - id: "contentType"
-      type: "java.lang.String"
-      description: "content type of the message"
-- uid: "com.microsoft.azure.servicebus.Message.Message(java.lang.String,com.microsoft.azure.servicebus.MessageBody,java.lang.String)"
-  id: "Message(java.lang.String,com.microsoft.azure.servicebus.MessageBody,java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: messageId
+      type: java.lang.String
+      description: id of the message
+    - id: content
+      type: byte[]
+      description: content of the message
+    - id: contentType
+      type: java.lang.String
+      description: content type of the message
+- uid: com.microsoft.azure.servicebus.Message.Message(java.lang.String,com.microsoft.azure.servicebus.MessageBody,java.lang.String)
+  id: Message(java.lang.String,com.microsoft.azure.servicebus.MessageBody,java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(String messageId, MessageBody body, String contentType)"
-  nameWithType: "Message.Message(String messageId, MessageBody body, String contentType)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(String messageId, MessageBody body, String contentType)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from message body."
+  - java
+  name: Message(String messageId, MessageBody body, String contentType)
+  nameWithType: Message.Message(String messageId, MessageBody body, String contentType)
+  fullName: com.microsoft.azure.servicebus.Message.Message(String messageId, MessageBody body, String contentType)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from message body.
   syntax:
-    content: "public Message(String messageId, MessageBody body, String contentType)"
+    content: public Message(String messageId, MessageBody body, String contentType)
     parameters:
-    - id: "messageId"
-      type: "java.lang.String"
-      description: "id of the message"
-    - id: "body"
-      type: "com.microsoft.azure.servicebus.MessageBody"
-      description: "message body"
-    - id: "contentType"
-      type: "java.lang.String"
-      description: "content type of the message"
-- uid: "com.microsoft.azure.servicebus.Message.Message(java.lang.String,java.lang.String)"
-  id: "Message(java.lang.String,java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: messageId
+      type: java.lang.String
+      description: id of the message
+    - id: body
+      type: com.microsoft.azure.servicebus.MessageBody
+      description: message body
+    - id: contentType
+      type: java.lang.String
+      description: content type of the message
+- uid: com.microsoft.azure.servicebus.Message.Message(java.lang.String,java.lang.String)
+  id: Message(java.lang.String,java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(String content, String contentType)"
-  nameWithType: "Message.Message(String content, String contentType)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(String content, String contentType)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from a string. For backward compatibility reasons, the string is converted to a byte array and message body type is set to binary."
+  - java
+  name: Message(String content, String contentType)
+  nameWithType: Message.Message(String content, String contentType)
+  fullName: com.microsoft.azure.servicebus.Message.Message(String content, String contentType)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from a string. For backward compatibility reasons, the string is converted to a byte array and message body type is set to binary.
   syntax:
-    content: "public Message(String content, String contentType)"
+    content: public Message(String content, String contentType)
     parameters:
-    - id: "content"
-      type: "java.lang.String"
-      description: "content of the message"
-    - id: "contentType"
-      type: "java.lang.String"
-      description: "content type of the message"
-- uid: "com.microsoft.azure.servicebus.Message.Message(java.lang.String,java.lang.String,java.lang.String)"
-  id: "Message(java.lang.String,java.lang.String,java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: content
+      type: java.lang.String
+      description: content of the message
+    - id: contentType
+      type: java.lang.String
+      description: content type of the message
+- uid: com.microsoft.azure.servicebus.Message.Message(java.lang.String,java.lang.String,java.lang.String)
+  id: Message(java.lang.String,java.lang.String,java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "Message(String messageId, String content, String contentType)"
-  nameWithType: "Message.Message(String messageId, String content, String contentType)"
-  fullName: "com.microsoft.azure.servicebus.Message.Message(String messageId, String content, String contentType)"
-  overload: "com.microsoft.azure.servicebus.Message.Message*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus"
-  summary: "Creates a message from a string. For backward compatibility reasons, the string is converted to a byte array and message body type is set to binary."
+  - java
+  name: Message(String messageId, String content, String contentType)
+  nameWithType: Message.Message(String messageId, String content, String contentType)
+  fullName: com.microsoft.azure.servicebus.Message.Message(String messageId, String content, String contentType)
+  overload: com.microsoft.azure.servicebus.Message.Message*
+  type: Constructor
+  package: com.microsoft.azure.servicebus
+  summary: Creates a message from a string. For backward compatibility reasons, the string is converted to a byte array and message body type is set to binary.
   syntax:
-    content: "public Message(String messageId, String content, String contentType)"
+    content: public Message(String messageId, String content, String contentType)
     parameters:
-    - id: "messageId"
-      type: "java.lang.String"
-      description: "id of the message"
-    - id: "content"
-      type: "java.lang.String"
-      description: "content of the message"
-    - id: "contentType"
-      type: "java.lang.String"
-      description: "content type of the message"
-- uid: "com.microsoft.azure.servicebus.Message.createCopy()"
-  id: "createCopy()"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: messageId
+      type: java.lang.String
+      description: id of the message
+    - id: content
+      type: java.lang.String
+      description: content of the message
+    - id: contentType
+      type: java.lang.String
+      description: content type of the message
+- uid: com.microsoft.azure.servicebus.Message.createCopy()
+  id: createCopy()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "createCopy()"
-  nameWithType: "Message.createCopy()"
-  fullName: "com.microsoft.azure.servicebus.Message.createCopy()"
-  overload: "com.microsoft.azure.servicebus.Message.createCopy*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: createCopy()
+  nameWithType: Message.createCopy()
+  fullName: com.microsoft.azure.servicebus.Message.createCopy()
+  overload: com.microsoft.azure.servicebus.Message.createCopy*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public IMessage createCopy()"
+    content: public IMessage createCopy()
     return:
-      type: "com.microsoft.azure.servicebus.IMessage"
-- uid: "com.microsoft.azure.servicebus.Message.getBody()"
-  id: "getBody()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: com.microsoft.azure.servicebus.IMessage
+- uid: com.microsoft.azure.servicebus.Message.getBody()
+  id: getBody()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getBody()"
-  nameWithType: "Message.getBody()"
-  fullName: "com.microsoft.azure.servicebus.Message.getBody()"
-  overload: "com.microsoft.azure.servicebus.Message.getBody*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getBody()
+  nameWithType: Message.getBody()
+  fullName: com.microsoft.azure.servicebus.Message.getBody()
+  overload: com.microsoft.azure.servicebus.Message.getBody*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public byte[] getBody()"
+    content: public byte[] getBody()
     return:
-      type: "byte[]"
-- uid: "com.microsoft.azure.servicebus.Message.getContentType()"
-  id: "getContentType()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: byte[]
+- uid: com.microsoft.azure.servicebus.Message.getContentType()
+  id: getContentType()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getContentType()"
-  nameWithType: "Message.getContentType()"
-  fullName: "com.microsoft.azure.servicebus.Message.getContentType()"
-  overload: "com.microsoft.azure.servicebus.Message.getContentType*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getContentType()
+  nameWithType: Message.getContentType()
+  fullName: com.microsoft.azure.servicebus.Message.getContentType()
+  overload: com.microsoft.azure.servicebus.Message.getContentType*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getContentType()"
+    content: public String getContentType()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getCorrelationId()"
-  id: "getCorrelationId()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getCorrelationId()
+  id: getCorrelationId()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getCorrelationId()"
-  nameWithType: "Message.getCorrelationId()"
-  fullName: "com.microsoft.azure.servicebus.Message.getCorrelationId()"
-  overload: "com.microsoft.azure.servicebus.Message.getCorrelationId*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getCorrelationId()
+  nameWithType: Message.getCorrelationId()
+  fullName: com.microsoft.azure.servicebus.Message.getCorrelationId()
+  overload: com.microsoft.azure.servicebus.Message.getCorrelationId*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getCorrelationId()"
+    content: public String getCorrelationId()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getDeadLetterSource()"
-  id: "getDeadLetterSource()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getDeadLetterSource()
+  id: getDeadLetterSource()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getDeadLetterSource()"
-  nameWithType: "Message.getDeadLetterSource()"
-  fullName: "com.microsoft.azure.servicebus.Message.getDeadLetterSource()"
-  overload: "com.microsoft.azure.servicebus.Message.getDeadLetterSource*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getDeadLetterSource()
+  nameWithType: Message.getDeadLetterSource()
+  fullName: com.microsoft.azure.servicebus.Message.getDeadLetterSource()
+  overload: com.microsoft.azure.servicebus.Message.getDeadLetterSource*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getDeadLetterSource()"
+    content: public String getDeadLetterSource()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getDeliveryCount()"
-  id: "getDeliveryCount()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getDeliveryCount()
+  id: getDeliveryCount()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getDeliveryCount()"
-  nameWithType: "Message.getDeliveryCount()"
-  fullName: "com.microsoft.azure.servicebus.Message.getDeliveryCount()"
-  overload: "com.microsoft.azure.servicebus.Message.getDeliveryCount*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getDeliveryCount()
+  nameWithType: Message.getDeliveryCount()
+  fullName: com.microsoft.azure.servicebus.Message.getDeliveryCount()
+  overload: com.microsoft.azure.servicebus.Message.getDeliveryCount*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public long getDeliveryCount()"
+    content: public long getDeliveryCount()
     return:
-      type: "long"
-- uid: "com.microsoft.azure.servicebus.Message.getDeliveryTag()"
-  id: "getDeliveryTag()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: long
+- uid: com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc()
+  id: getEnqueuedTimeUtc()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getDeliveryTag()"
-  nameWithType: "Message.getDeliveryTag()"
-  fullName: "com.microsoft.azure.servicebus.Message.getDeliveryTag()"
-  overload: "com.microsoft.azure.servicebus.Message.getDeliveryTag*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getEnqueuedTimeUtc()
+  nameWithType: Message.getEnqueuedTimeUtc()
+  fullName: com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc()
+  overload: com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: " byte[] getDeliveryTag()"
+    content: public Instant getEnqueuedTimeUtc()
     return:
-      type: "byte[]"
-- uid: "com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc()"
-  id: "getEnqueuedTimeUtc()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.getExpiresAtUtc()
+  id: getExpiresAtUtc()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getEnqueuedTimeUtc()"
-  nameWithType: "Message.getEnqueuedTimeUtc()"
-  fullName: "com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc()"
-  overload: "com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getExpiresAtUtc()
+  nameWithType: Message.getExpiresAtUtc()
+  fullName: com.microsoft.azure.servicebus.Message.getExpiresAtUtc()
+  overload: com.microsoft.azure.servicebus.Message.getExpiresAtUtc*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public Instant getEnqueuedTimeUtc()"
+    content: public Instant getExpiresAtUtc()
     return:
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.getExpiresAtUtc()"
-  id: "getExpiresAtUtc()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.getLabel()
+  id: getLabel()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getExpiresAtUtc()"
-  nameWithType: "Message.getExpiresAtUtc()"
-  fullName: "com.microsoft.azure.servicebus.Message.getExpiresAtUtc()"
-  overload: "com.microsoft.azure.servicebus.Message.getExpiresAtUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getLabel()
+  nameWithType: Message.getLabel()
+  fullName: com.microsoft.azure.servicebus.Message.getLabel()
+  overload: com.microsoft.azure.servicebus.Message.getLabel*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public Instant getExpiresAtUtc()"
+    content: public String getLabel()
     return:
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.getLabel()"
-  id: "getLabel()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getLockToken()
+  id: getLockToken()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getLabel()"
-  nameWithType: "Message.getLabel()"
-  fullName: "com.microsoft.azure.servicebus.Message.getLabel()"
-  overload: "com.microsoft.azure.servicebus.Message.getLabel*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getLockToken()
+  nameWithType: Message.getLockToken()
+  fullName: com.microsoft.azure.servicebus.Message.getLockToken()
+  overload: com.microsoft.azure.servicebus.Message.getLockToken*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getLabel()"
+    content: public UUID getLockToken()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getLockToken()"
-  id: "getLockToken()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.util.UUID
+- uid: com.microsoft.azure.servicebus.Message.getLockedUntilUtc()
+  id: getLockedUntilUtc()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getLockToken()"
-  nameWithType: "Message.getLockToken()"
-  fullName: "com.microsoft.azure.servicebus.Message.getLockToken()"
-  overload: "com.microsoft.azure.servicebus.Message.getLockToken*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getLockedUntilUtc()
+  nameWithType: Message.getLockedUntilUtc()
+  fullName: com.microsoft.azure.servicebus.Message.getLockedUntilUtc()
+  overload: com.microsoft.azure.servicebus.Message.getLockedUntilUtc*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public UUID getLockToken()"
+    content: public Instant getLockedUntilUtc()
     return:
-      type: "java.util.UUID"
-- uid: "com.microsoft.azure.servicebus.Message.getLockedUntilUtc()"
-  id: "getLockedUntilUtc()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.getMessageBody()
+  id: getMessageBody()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getLockedUntilUtc()"
-  nameWithType: "Message.getLockedUntilUtc()"
-  fullName: "com.microsoft.azure.servicebus.Message.getLockedUntilUtc()"
-  overload: "com.microsoft.azure.servicebus.Message.getLockedUntilUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getMessageBody()
+  nameWithType: Message.getMessageBody()
+  fullName: com.microsoft.azure.servicebus.Message.getMessageBody()
+  overload: com.microsoft.azure.servicebus.Message.getMessageBody*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public Instant getLockedUntilUtc()"
+    content: public MessageBody getMessageBody()
     return:
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.getMessageBody()"
-  id: "getMessageBody()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: com.microsoft.azure.servicebus.MessageBody
+- uid: com.microsoft.azure.servicebus.Message.getMessageId()
+  id: getMessageId()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getMessageBody()"
-  nameWithType: "Message.getMessageBody()"
-  fullName: "com.microsoft.azure.servicebus.Message.getMessageBody()"
-  overload: "com.microsoft.azure.servicebus.Message.getMessageBody*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getMessageId()
+  nameWithType: Message.getMessageId()
+  fullName: com.microsoft.azure.servicebus.Message.getMessageId()
+  overload: com.microsoft.azure.servicebus.Message.getMessageId*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public MessageBody getMessageBody()"
+    content: public String getMessageId()
     return:
-      type: "com.microsoft.azure.servicebus.MessageBody"
-- uid: "com.microsoft.azure.servicebus.Message.getMessageId()"
-  id: "getMessageId()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getPartitionKey()
+  id: getPartitionKey()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getMessageId()"
-  nameWithType: "Message.getMessageId()"
-  fullName: "com.microsoft.azure.servicebus.Message.getMessageId()"
-  overload: "com.microsoft.azure.servicebus.Message.getMessageId*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getPartitionKey()
+  nameWithType: Message.getPartitionKey()
+  fullName: com.microsoft.azure.servicebus.Message.getPartitionKey()
+  overload: com.microsoft.azure.servicebus.Message.getPartitionKey*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getMessageId()"
+    content: public String getPartitionKey()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getPartitionKey()"
-  id: "getPartitionKey()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getProperties()
+  id: getProperties()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getPartitionKey()"
-  nameWithType: "Message.getPartitionKey()"
-  fullName: "com.microsoft.azure.servicebus.Message.getPartitionKey()"
-  overload: "com.microsoft.azure.servicebus.Message.getPartitionKey*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getProperties()
+  nameWithType: Message.getProperties()
+  fullName: com.microsoft.azure.servicebus.Message.getProperties()
+  overload: com.microsoft.azure.servicebus.Message.getProperties*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getPartitionKey()"
+    content: public Map<String,Object> getProperties()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getProperties()"
-  id: "getProperties()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.util.Map<java.lang.String,java.lang.Object>
+- uid: com.microsoft.azure.servicebus.Message.getReplyTo()
+  id: getReplyTo()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getProperties()"
-  nameWithType: "Message.getProperties()"
-  fullName: "com.microsoft.azure.servicebus.Message.getProperties()"
-  overload: "com.microsoft.azure.servicebus.Message.getProperties*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getReplyTo()
+  nameWithType: Message.getReplyTo()
+  fullName: com.microsoft.azure.servicebus.Message.getReplyTo()
+  overload: com.microsoft.azure.servicebus.Message.getReplyTo*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public Map<String,Object> getProperties()"
+    content: public String getReplyTo()
     return:
-      type: "java.util.Map<java.lang.String,java.lang.Object>"
-- uid: "com.microsoft.azure.servicebus.Message.getReplyTo()"
-  id: "getReplyTo()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getReplyToSessionId()
+  id: getReplyToSessionId()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getReplyTo()"
-  nameWithType: "Message.getReplyTo()"
-  fullName: "com.microsoft.azure.servicebus.Message.getReplyTo()"
-  overload: "com.microsoft.azure.servicebus.Message.getReplyTo*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getReplyToSessionId()
+  nameWithType: Message.getReplyToSessionId()
+  fullName: com.microsoft.azure.servicebus.Message.getReplyToSessionId()
+  overload: com.microsoft.azure.servicebus.Message.getReplyToSessionId*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getReplyTo()"
+    content: public String getReplyToSessionId()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getReplyToSessionId()"
-  id: "getReplyToSessionId()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc()
+  id: getScheduledEnqueueTimeUtc()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getReplyToSessionId()"
-  nameWithType: "Message.getReplyToSessionId()"
-  fullName: "com.microsoft.azure.servicebus.Message.getReplyToSessionId()"
-  overload: "com.microsoft.azure.servicebus.Message.getReplyToSessionId*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getScheduledEnqueueTimeUtc()
+  nameWithType: Message.getScheduledEnqueueTimeUtc()
+  fullName: com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc()
+  overload: com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getReplyToSessionId()"
+    content: public Instant getScheduledEnqueueTimeUtc()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc()"
-  id: "getScheduledEnqueueTimeUtc()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc()
+  id: getScheduledEnqueuedTimeUtc()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getScheduledEnqueueTimeUtc()"
-  nameWithType: "Message.getScheduledEnqueueTimeUtc()"
-  fullName: "com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc()"
-  overload: "com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getScheduledEnqueuedTimeUtc()
+  nameWithType: Message.getScheduledEnqueuedTimeUtc()
+  fullName: com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc()
+  overload: com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public Instant getScheduledEnqueueTimeUtc()"
+    content: public Instant getScheduledEnqueuedTimeUtc()
     return:
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc()"
-  id: "getScheduledEnqueuedTimeUtc()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.getSequenceNumber()
+  id: getSequenceNumber()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getScheduledEnqueuedTimeUtc()"
-  nameWithType: "Message.getScheduledEnqueuedTimeUtc()"
-  fullName: "com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc()"
-  overload: "com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getSequenceNumber()
+  nameWithType: Message.getSequenceNumber()
+  fullName: com.microsoft.azure.servicebus.Message.getSequenceNumber()
+  overload: com.microsoft.azure.servicebus.Message.getSequenceNumber*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public Instant getScheduledEnqueuedTimeUtc()"
+    content: public long getSequenceNumber()
     return:
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.getSequenceNumber()"
-  id: "getSequenceNumber()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: long
+- uid: com.microsoft.azure.servicebus.Message.getSessionId()
+  id: getSessionId()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getSequenceNumber()"
-  nameWithType: "Message.getSequenceNumber()"
-  fullName: "com.microsoft.azure.servicebus.Message.getSequenceNumber()"
-  overload: "com.microsoft.azure.servicebus.Message.getSequenceNumber*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getSessionId()
+  nameWithType: Message.getSessionId()
+  fullName: com.microsoft.azure.servicebus.Message.getSessionId()
+  overload: com.microsoft.azure.servicebus.Message.getSessionId*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public long getSequenceNumber()"
+    content: public String getSessionId()
     return:
-      type: "long"
-- uid: "com.microsoft.azure.servicebus.Message.getSessionId()"
-  id: "getSessionId()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getTimeToLive()
+  id: getTimeToLive()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getSessionId()"
-  nameWithType: "Message.getSessionId()"
-  fullName: "com.microsoft.azure.servicebus.Message.getSessionId()"
-  overload: "com.microsoft.azure.servicebus.Message.getSessionId*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getTimeToLive()
+  nameWithType: Message.getTimeToLive()
+  fullName: com.microsoft.azure.servicebus.Message.getTimeToLive()
+  overload: com.microsoft.azure.servicebus.Message.getTimeToLive*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getSessionId()"
+    content: public Duration getTimeToLive()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getTimeToLive()"
-  id: "getTimeToLive()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.time.Duration
+- uid: com.microsoft.azure.servicebus.Message.getTo()
+  id: getTo()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getTimeToLive()"
-  nameWithType: "Message.getTimeToLive()"
-  fullName: "com.microsoft.azure.servicebus.Message.getTimeToLive()"
-  overload: "com.microsoft.azure.servicebus.Message.getTimeToLive*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getTo()
+  nameWithType: Message.getTo()
+  fullName: com.microsoft.azure.servicebus.Message.getTo()
+  overload: com.microsoft.azure.servicebus.Message.getTo*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public Duration getTimeToLive()"
+    content: public String getTo()
     return:
-      type: "java.time.Duration"
-- uid: "com.microsoft.azure.servicebus.Message.getTo()"
-  id: "getTo()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.getViaPartitionKey()
+  id: getViaPartitionKey()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getTo()"
-  nameWithType: "Message.getTo()"
-  fullName: "com.microsoft.azure.servicebus.Message.getTo()"
-  overload: "com.microsoft.azure.servicebus.Message.getTo*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: getViaPartitionKey()
+  nameWithType: Message.getViaPartitionKey()
+  fullName: com.microsoft.azure.servicebus.Message.getViaPartitionKey()
+  overload: com.microsoft.azure.servicebus.Message.getViaPartitionKey*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getTo()"
+    content: public String getViaPartitionKey()
     return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.getViaPartitionKey()"
-  id: "getViaPartitionKey()"
-  parent: "com.microsoft.azure.servicebus.Message"
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setBody(byte[])
+  id: setBody(byte[])
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "getViaPartitionKey()"
-  nameWithType: "Message.getViaPartitionKey()"
-  fullName: "com.microsoft.azure.servicebus.Message.getViaPartitionKey()"
-  overload: "com.microsoft.azure.servicebus.Message.getViaPartitionKey*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setBody(byte[] body)
+  nameWithType: Message.setBody(byte[] body)
+  fullName: com.microsoft.azure.servicebus.Message.setBody(byte[] body)
+  overload: com.microsoft.azure.servicebus.Message.setBody*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public String getViaPartitionKey()"
-    return:
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setBody(byte[])"
-  id: "setBody(byte[])"
-  parent: "com.microsoft.azure.servicebus.Message"
-  langs:
-  - "java"
-  name: "setBody(byte[] body)"
-  nameWithType: "Message.setBody(byte[] body)"
-  fullName: "com.microsoft.azure.servicebus.Message.setBody(byte[] body)"
-  overload: "com.microsoft.azure.servicebus.Message.setBody*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  syntax:
-    content: "public void setBody(byte[] body)"
+    content: public void setBody(byte[] body)
     parameters:
-    - id: "body"
-      type: "byte[]"
-- uid: "com.microsoft.azure.servicebus.Message.setContentType(java.lang.String)"
-  id: "setContentType(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: body
+      type: byte[]
+- uid: com.microsoft.azure.servicebus.Message.setContentType(java.lang.String)
+  id: setContentType(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setContentType(String contentType)"
-  nameWithType: "Message.setContentType(String contentType)"
-  fullName: "com.microsoft.azure.servicebus.Message.setContentType(String contentType)"
-  overload: "com.microsoft.azure.servicebus.Message.setContentType*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setContentType(String contentType)
+  nameWithType: Message.setContentType(String contentType)
+  fullName: com.microsoft.azure.servicebus.Message.setContentType(String contentType)
+  overload: com.microsoft.azure.servicebus.Message.setContentType*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setContentType(String contentType)"
+    content: public void setContentType(String contentType)
     parameters:
-    - id: "contentType"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setCorrelationId(java.lang.String)"
-  id: "setCorrelationId(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: contentType
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setCorrelationId(java.lang.String)
+  id: setCorrelationId(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setCorrelationId(String correlationId)"
-  nameWithType: "Message.setCorrelationId(String correlationId)"
-  fullName: "com.microsoft.azure.servicebus.Message.setCorrelationId(String correlationId)"
-  overload: "com.microsoft.azure.servicebus.Message.setCorrelationId*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setCorrelationId(String correlationId)
+  nameWithType: Message.setCorrelationId(String correlationId)
+  fullName: com.microsoft.azure.servicebus.Message.setCorrelationId(String correlationId)
+  overload: com.microsoft.azure.servicebus.Message.setCorrelationId*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setCorrelationId(String correlationId)"
+    content: public void setCorrelationId(String correlationId)
     parameters:
-    - id: "correlationId"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setDeadLetterSource(java.lang.String)"
-  id: "setDeadLetterSource(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: correlationId
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setLabel(java.lang.String)
+  id: setLabel(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setDeadLetterSource(String deadLetterSource)"
-  nameWithType: "Message.setDeadLetterSource(String deadLetterSource)"
-  fullName: "com.microsoft.azure.servicebus.Message.setDeadLetterSource(String deadLetterSource)"
-  overload: "com.microsoft.azure.servicebus.Message.setDeadLetterSource*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setLabel(String label)
+  nameWithType: Message.setLabel(String label)
+  fullName: com.microsoft.azure.servicebus.Message.setLabel(String label)
+  overload: com.microsoft.azure.servicebus.Message.setLabel*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: " void setDeadLetterSource(String deadLetterSource)"
+    content: public void setLabel(String label)
     parameters:
-    - id: "deadLetterSource"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setDeliveryCount(long)"
-  id: "setDeliveryCount(long)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: label
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setLockedUntilUtc(java.time.Instant)
+  id: setLockedUntilUtc(java.time.Instant)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setDeliveryCount(long deliveryCount)"
-  nameWithType: "Message.setDeliveryCount(long deliveryCount)"
-  fullName: "com.microsoft.azure.servicebus.Message.setDeliveryCount(long deliveryCount)"
-  overload: "com.microsoft.azure.servicebus.Message.setDeliveryCount*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setLockedUntilUtc(Instant lockedUntilUtc)
+  nameWithType: Message.setLockedUntilUtc(Instant lockedUntilUtc)
+  fullName: com.microsoft.azure.servicebus.Message.setLockedUntilUtc(Instant lockedUntilUtc)
+  overload: com.microsoft.azure.servicebus.Message.setLockedUntilUtc*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: " void setDeliveryCount(long deliveryCount)"
+    content: public void setLockedUntilUtc(Instant lockedUntilUtc)
     parameters:
-    - id: "deliveryCount"
-      type: "long"
-- uid: "com.microsoft.azure.servicebus.Message.setDeliveryTag(byte[])"
-  id: "setDeliveryTag(byte[])"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: lockedUntilUtc
+      type: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.setMessageBody(com.microsoft.azure.servicebus.MessageBody)
+  id: setMessageBody(com.microsoft.azure.servicebus.MessageBody)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setDeliveryTag(byte[] deliveryTag)"
-  nameWithType: "Message.setDeliveryTag(byte[] deliveryTag)"
-  fullName: "com.microsoft.azure.servicebus.Message.setDeliveryTag(byte[] deliveryTag)"
-  overload: "com.microsoft.azure.servicebus.Message.setDeliveryTag*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setMessageBody(MessageBody body)
+  nameWithType: Message.setMessageBody(MessageBody body)
+  fullName: com.microsoft.azure.servicebus.Message.setMessageBody(MessageBody body)
+  overload: com.microsoft.azure.servicebus.Message.setMessageBody*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: " void setDeliveryTag(byte[] deliveryTag)"
+    content: public void setMessageBody(MessageBody body)
     parameters:
-    - id: "deliveryTag"
-      type: "byte[]"
-- uid: "com.microsoft.azure.servicebus.Message.setEnqueuedTimeUtc(java.time.Instant)"
-  id: "setEnqueuedTimeUtc(java.time.Instant)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: body
+      type: com.microsoft.azure.servicebus.MessageBody
+- uid: com.microsoft.azure.servicebus.Message.setMessageId(java.lang.String)
+  id: setMessageId(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setEnqueuedTimeUtc(Instant enqueuedTimeUtc)"
-  nameWithType: "Message.setEnqueuedTimeUtc(Instant enqueuedTimeUtc)"
-  fullName: "com.microsoft.azure.servicebus.Message.setEnqueuedTimeUtc(Instant enqueuedTimeUtc)"
-  overload: "com.microsoft.azure.servicebus.Message.setEnqueuedTimeUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setMessageId(String messageId)
+  nameWithType: Message.setMessageId(String messageId)
+  fullName: com.microsoft.azure.servicebus.Message.setMessageId(String messageId)
+  overload: com.microsoft.azure.servicebus.Message.setMessageId*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: " void setEnqueuedTimeUtc(Instant enqueuedTimeUtc)"
+    content: public void setMessageId(String messageId)
     parameters:
-    - id: "enqueuedTimeUtc"
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.setLabel(java.lang.String)"
-  id: "setLabel(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: messageId
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setPartitionKey(java.lang.String)
+  id: setPartitionKey(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setLabel(String label)"
-  nameWithType: "Message.setLabel(String label)"
-  fullName: "com.microsoft.azure.servicebus.Message.setLabel(String label)"
-  overload: "com.microsoft.azure.servicebus.Message.setLabel*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setPartitionKey(String partitionKey)
+  nameWithType: Message.setPartitionKey(String partitionKey)
+  fullName: com.microsoft.azure.servicebus.Message.setPartitionKey(String partitionKey)
+  overload: com.microsoft.azure.servicebus.Message.setPartitionKey*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setLabel(String label)"
+    content: public void setPartitionKey(String partitionKey)
     parameters:
-    - id: "label"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setLockToken(java.util.UUID)"
-  id: "setLockToken(java.util.UUID)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: partitionKey
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setProperties(java.util.Map<java.lang.String,java.lang.Object>)
+  id: setProperties(java.util.Map<java.lang.String,java.lang.Object>)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setLockToken(UUID lockToken)"
-  nameWithType: "Message.setLockToken(UUID lockToken)"
-  fullName: "com.microsoft.azure.servicebus.Message.setLockToken(UUID lockToken)"
-  overload: "com.microsoft.azure.servicebus.Message.setLockToken*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setProperties(Map<String,Object> properties)
+  nameWithType: Message.setProperties(Map<String,Object> properties)
+  fullName: com.microsoft.azure.servicebus.Message.setProperties(Map<String,Object> properties)
+  overload: com.microsoft.azure.servicebus.Message.setProperties*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: " void setLockToken(UUID lockToken)"
+    content: public void setProperties(Map<String,Object> properties)
     parameters:
-    - id: "lockToken"
-      type: "java.util.UUID"
-- uid: "com.microsoft.azure.servicebus.Message.setLockedUntilUtc(java.time.Instant)"
-  id: "setLockedUntilUtc(java.time.Instant)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: properties
+      type: java.util.Map<java.lang.String,java.lang.Object>
+- uid: com.microsoft.azure.servicebus.Message.setReplyTo(java.lang.String)
+  id: setReplyTo(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setLockedUntilUtc(Instant lockedUntilUtc)"
-  nameWithType: "Message.setLockedUntilUtc(Instant lockedUntilUtc)"
-  fullName: "com.microsoft.azure.servicebus.Message.setLockedUntilUtc(Instant lockedUntilUtc)"
-  overload: "com.microsoft.azure.servicebus.Message.setLockedUntilUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setReplyTo(String replyTo)
+  nameWithType: Message.setReplyTo(String replyTo)
+  fullName: com.microsoft.azure.servicebus.Message.setReplyTo(String replyTo)
+  overload: com.microsoft.azure.servicebus.Message.setReplyTo*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setLockedUntilUtc(Instant lockedUntilUtc)"
+    content: public void setReplyTo(String replyTo)
     parameters:
-    - id: "lockedUntilUtc"
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.setMessageBody(com.microsoft.azure.servicebus.MessageBody)"
-  id: "setMessageBody(com.microsoft.azure.servicebus.MessageBody)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: replyTo
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setReplyToSessionId(java.lang.String)
+  id: setReplyToSessionId(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setMessageBody(MessageBody body)"
-  nameWithType: "Message.setMessageBody(MessageBody body)"
-  fullName: "com.microsoft.azure.servicebus.Message.setMessageBody(MessageBody body)"
-  overload: "com.microsoft.azure.servicebus.Message.setMessageBody*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setReplyToSessionId(String replyToSessionId)
+  nameWithType: Message.setReplyToSessionId(String replyToSessionId)
+  fullName: com.microsoft.azure.servicebus.Message.setReplyToSessionId(String replyToSessionId)
+  overload: com.microsoft.azure.servicebus.Message.setReplyToSessionId*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setMessageBody(MessageBody body)"
+    content: public void setReplyToSessionId(String replyToSessionId)
     parameters:
-    - id: "body"
-      type: "com.microsoft.azure.servicebus.MessageBody"
-- uid: "com.microsoft.azure.servicebus.Message.setMessageId(java.lang.String)"
-  id: "setMessageId(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: replyToSessionId
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc(java.time.Instant)
+  id: setScheduledEnqueueTimeUtc(java.time.Instant)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setMessageId(String messageId)"
-  nameWithType: "Message.setMessageId(String messageId)"
-  fullName: "com.microsoft.azure.servicebus.Message.setMessageId(String messageId)"
-  overload: "com.microsoft.azure.servicebus.Message.setMessageId*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)
+  nameWithType: Message.setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)
+  fullName: com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)
+  overload: com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setMessageId(String messageId)"
+    content: public void setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)
     parameters:
-    - id: "messageId"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setPartitionKey(java.lang.String)"
-  id: "setPartitionKey(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: scheduledEnqueueTimeUtc
+      type: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc(java.time.Instant)
+  id: setScheduledEnqueuedTimeUtc(java.time.Instant)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setPartitionKey(String partitionKey)"
-  nameWithType: "Message.setPartitionKey(String partitionKey)"
-  fullName: "com.microsoft.azure.servicebus.Message.setPartitionKey(String partitionKey)"
-  overload: "com.microsoft.azure.servicebus.Message.setPartitionKey*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)
+  nameWithType: Message.setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)
+  fullName: com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)
+  overload: com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setPartitionKey(String partitionKey)"
+    content: public void setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)
     parameters:
-    - id: "partitionKey"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setProperties(java.util.Map<java.lang.String,java.lang.Object>)"
-  id: "setProperties(java.util.Map<java.lang.String,java.lang.Object>)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: scheduledEnqueueTimeUtc
+      type: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.setSessionId(java.lang.String)
+  id: setSessionId(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setProperties(Map<String,Object> properties)"
-  nameWithType: "Message.setProperties(Map<String,Object> properties)"
-  fullName: "com.microsoft.azure.servicebus.Message.setProperties(Map<String,Object> properties)"
-  overload: "com.microsoft.azure.servicebus.Message.setProperties*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setSessionId(String sessionId)
+  nameWithType: Message.setSessionId(String sessionId)
+  fullName: com.microsoft.azure.servicebus.Message.setSessionId(String sessionId)
+  overload: com.microsoft.azure.servicebus.Message.setSessionId*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setProperties(Map<String,Object> properties)"
+    content: public void setSessionId(String sessionId)
     parameters:
-    - id: "properties"
-      type: "java.util.Map<java.lang.String,java.lang.Object>"
-- uid: "com.microsoft.azure.servicebus.Message.setReplyTo(java.lang.String)"
-  id: "setReplyTo(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: sessionId
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setTimeToLive(java.time.Duration)
+  id: setTimeToLive(java.time.Duration)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setReplyTo(String replyTo)"
-  nameWithType: "Message.setReplyTo(String replyTo)"
-  fullName: "com.microsoft.azure.servicebus.Message.setReplyTo(String replyTo)"
-  overload: "com.microsoft.azure.servicebus.Message.setReplyTo*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setTimeToLive(Duration timeToLive)
+  nameWithType: Message.setTimeToLive(Duration timeToLive)
+  fullName: com.microsoft.azure.servicebus.Message.setTimeToLive(Duration timeToLive)
+  overload: com.microsoft.azure.servicebus.Message.setTimeToLive*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setReplyTo(String replyTo)"
+    content: public void setTimeToLive(Duration timeToLive)
     parameters:
-    - id: "replyTo"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setReplyToSessionId(java.lang.String)"
-  id: "setReplyToSessionId(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: timeToLive
+      type: java.time.Duration
+- uid: com.microsoft.azure.servicebus.Message.setTo(java.lang.String)
+  id: setTo(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setReplyToSessionId(String replyToSessionId)"
-  nameWithType: "Message.setReplyToSessionId(String replyToSessionId)"
-  fullName: "com.microsoft.azure.servicebus.Message.setReplyToSessionId(String replyToSessionId)"
-  overload: "com.microsoft.azure.servicebus.Message.setReplyToSessionId*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setTo(String to)
+  nameWithType: Message.setTo(String to)
+  fullName: com.microsoft.azure.servicebus.Message.setTo(String to)
+  overload: com.microsoft.azure.servicebus.Message.setTo*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setReplyToSessionId(String replyToSessionId)"
+    content: public void setTo(String to)
     parameters:
-    - id: "replyToSessionId"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc(java.time.Instant)"
-  id: "setScheduledEnqueueTimeUtc(java.time.Instant)"
-  parent: "com.microsoft.azure.servicebus.Message"
+    - id: to
+      type: java.lang.String
+- uid: com.microsoft.azure.servicebus.Message.setViaPartitionKey(java.lang.String)
+  id: setViaPartitionKey(java.lang.String)
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.Message
   langs:
-  - "java"
-  name: "setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)"
-  nameWithType: "Message.setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)"
-  fullName: "com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)"
-  overload: "com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
+  - java
+  name: setViaPartitionKey(String partitionKey)
+  nameWithType: Message.setViaPartitionKey(String partitionKey)
+  fullName: com.microsoft.azure.servicebus.Message.setViaPartitionKey(String partitionKey)
+  overload: com.microsoft.azure.servicebus.Message.setViaPartitionKey*
+  type: Method
+  package: com.microsoft.azure.servicebus
   syntax:
-    content: "public void setScheduledEnqueueTimeUtc(Instant scheduledEnqueueTimeUtc)"
+    content: public void setViaPartitionKey(String partitionKey)
     parameters:
-    - id: "scheduledEnqueueTimeUtc"
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc(java.time.Instant)"
-  id: "setScheduledEnqueuedTimeUtc(java.time.Instant)"
-  parent: "com.microsoft.azure.servicebus.Message"
-  langs:
-  - "java"
-  name: "setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)"
-  nameWithType: "Message.setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)"
-  fullName: "com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)"
-  overload: "com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  syntax:
-    content: "public void setScheduledEnqueuedTimeUtc(Instant scheduledEnqueueTimeUtc)"
-    parameters:
-    - id: "scheduledEnqueueTimeUtc"
-      type: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.setSequenceNumber(long)"
-  id: "setSequenceNumber(long)"
-  parent: "com.microsoft.azure.servicebus.Message"
-  langs:
-  - "java"
-  name: "setSequenceNumber(long sequenceNumber)"
-  nameWithType: "Message.setSequenceNumber(long sequenceNumber)"
-  fullName: "com.microsoft.azure.servicebus.Message.setSequenceNumber(long sequenceNumber)"
-  overload: "com.microsoft.azure.servicebus.Message.setSequenceNumber*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  syntax:
-    content: " void setSequenceNumber(long sequenceNumber)"
-    parameters:
-    - id: "sequenceNumber"
-      type: "long"
-- uid: "com.microsoft.azure.servicebus.Message.setSessionId(java.lang.String)"
-  id: "setSessionId(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
-  langs:
-  - "java"
-  name: "setSessionId(String sessionId)"
-  nameWithType: "Message.setSessionId(String sessionId)"
-  fullName: "com.microsoft.azure.servicebus.Message.setSessionId(String sessionId)"
-  overload: "com.microsoft.azure.servicebus.Message.setSessionId*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  syntax:
-    content: "public void setSessionId(String sessionId)"
-    parameters:
-    - id: "sessionId"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setTimeToLive(java.time.Duration)"
-  id: "setTimeToLive(java.time.Duration)"
-  parent: "com.microsoft.azure.servicebus.Message"
-  langs:
-  - "java"
-  name: "setTimeToLive(Duration timeToLive)"
-  nameWithType: "Message.setTimeToLive(Duration timeToLive)"
-  fullName: "com.microsoft.azure.servicebus.Message.setTimeToLive(Duration timeToLive)"
-  overload: "com.microsoft.azure.servicebus.Message.setTimeToLive*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  syntax:
-    content: "public void setTimeToLive(Duration timeToLive)"
-    parameters:
-    - id: "timeToLive"
-      type: "java.time.Duration"
-- uid: "com.microsoft.azure.servicebus.Message.setTo(java.lang.String)"
-  id: "setTo(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
-  langs:
-  - "java"
-  name: "setTo(String to)"
-  nameWithType: "Message.setTo(String to)"
-  fullName: "com.microsoft.azure.servicebus.Message.setTo(String to)"
-  overload: "com.microsoft.azure.servicebus.Message.setTo*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  syntax:
-    content: "public void setTo(String to)"
-    parameters:
-    - id: "to"
-      type: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.Message.setViaPartitionKey(java.lang.String)"
-  id: "setViaPartitionKey(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.Message"
-  langs:
-  - "java"
-  name: "setViaPartitionKey(String partitionKey)"
-  nameWithType: "Message.setViaPartitionKey(String partitionKey)"
-  fullName: "com.microsoft.azure.servicebus.Message.setViaPartitionKey(String partitionKey)"
-  overload: "com.microsoft.azure.servicebus.Message.setViaPartitionKey*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus"
-  syntax:
-    content: "public void setViaPartitionKey(String partitionKey)"
-    parameters:
-    - id: "partitionKey"
-      type: "java.lang.String"
+    - id: partitionKey
+      type: java.lang.String
 references:
-- uid: "com.microsoft.azure.servicebus.Message.Message*"
-  name: "Message"
-  nameWithType: "Message.Message"
-  fullName: "com.microsoft.azure.servicebus.Message.Message"
-  package: "com.microsoft.azure.servicebus"
-- uid: "java.lang.String"
+- uid: com.microsoft.azure.servicebus.Message.Message*
+  name: Message
+  nameWithType: Message.Message
+  fullName: com.microsoft.azure.servicebus.Message.Message
+  package: com.microsoft.azure.servicebus
+- uid: java.lang.String
   spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "byte[]"
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+- uid: byte[]
   spec.java:
-  - uid: "byte"
-    name: "byte"
-    fullName: "byte"
-  - name: "[]"
-    fullName: "[]"
-- uid: "com.microsoft.azure.servicebus.MessageBody"
-  name: "MessageBody"
-  nameWithType: "MessageBody"
-  fullName: "com.microsoft.azure.servicebus.MessageBody"
-- uid: "long"
+  - uid: byte
+    name: byte
+    fullName: byte
+  - name: '[]'
+    fullName: '[]'
+- uid: com.microsoft.azure.servicebus.MessageBody
+  name: MessageBody
+  nameWithType: MessageBody
+  fullName: com.microsoft.azure.servicebus.MessageBody
+- uid: long
   spec.java:
-  - uid: "long"
-    name: "long"
-    fullName: "long"
-- uid: "com.microsoft.azure.servicebus.Message.getDeliveryCount*"
-  name: "getDeliveryCount"
-  nameWithType: "Message.getDeliveryCount"
-  fullName: "com.microsoft.azure.servicebus.Message.getDeliveryCount"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setDeliveryCount*"
-  name: "setDeliveryCount"
-  nameWithType: "Message.setDeliveryCount"
-  fullName: "com.microsoft.azure.servicebus.Message.setDeliveryCount"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getMessageId*"
-  name: "getMessageId"
-  nameWithType: "Message.getMessageId"
-  fullName: "com.microsoft.azure.servicebus.Message.getMessageId"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setMessageId*"
-  name: "setMessageId"
-  nameWithType: "Message.setMessageId"
-  fullName: "com.microsoft.azure.servicebus.Message.setMessageId"
-  package: "com.microsoft.azure.servicebus"
-- uid: "java.time.Duration"
+  - uid: long
+    name: long
+    fullName: long
+- uid: com.microsoft.azure.servicebus.Message.getDeliveryCount*
+  name: getDeliveryCount
+  nameWithType: Message.getDeliveryCount
+  fullName: com.microsoft.azure.servicebus.Message.getDeliveryCount
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getMessageId*
+  name: getMessageId
+  nameWithType: Message.getMessageId
+  fullName: com.microsoft.azure.servicebus.Message.getMessageId
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setMessageId*
+  name: setMessageId
+  nameWithType: Message.setMessageId
+  fullName: com.microsoft.azure.servicebus.Message.setMessageId
+  package: com.microsoft.azure.servicebus
+- uid: java.time.Duration
   spec.java:
-  - uid: "java.time.Duration"
-    name: "Duration"
-    fullName: "java.time.Duration"
-- uid: "com.microsoft.azure.servicebus.Message.getTimeToLive*"
-  name: "getTimeToLive"
-  nameWithType: "Message.getTimeToLive"
-  fullName: "com.microsoft.azure.servicebus.Message.getTimeToLive"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setTimeToLive*"
-  name: "setTimeToLive"
-  nameWithType: "Message.setTimeToLive"
-  fullName: "com.microsoft.azure.servicebus.Message.setTimeToLive"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getContentType*"
-  name: "getContentType"
-  nameWithType: "Message.getContentType"
-  fullName: "com.microsoft.azure.servicebus.Message.getContentType"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setContentType*"
-  name: "setContentType"
-  nameWithType: "Message.setContentType"
-  fullName: "com.microsoft.azure.servicebus.Message.setContentType"
-  package: "com.microsoft.azure.servicebus"
-- uid: "java.time.Instant"
+  - uid: java.time.Duration
+    name: Duration
+    fullName: java.time.Duration
+- uid: com.microsoft.azure.servicebus.Message.getTimeToLive*
+  name: getTimeToLive
+  nameWithType: Message.getTimeToLive
+  fullName: com.microsoft.azure.servicebus.Message.getTimeToLive
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setTimeToLive*
+  name: setTimeToLive
+  nameWithType: Message.setTimeToLive
+  fullName: com.microsoft.azure.servicebus.Message.setTimeToLive
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getContentType*
+  name: getContentType
+  nameWithType: Message.getContentType
+  fullName: com.microsoft.azure.servicebus.Message.getContentType
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setContentType*
+  name: setContentType
+  nameWithType: Message.setContentType
+  fullName: com.microsoft.azure.servicebus.Message.setContentType
+  package: com.microsoft.azure.servicebus
+- uid: java.time.Instant
   spec.java:
-  - uid: "java.time.Instant"
-    name: "Instant"
-    fullName: "java.time.Instant"
-- uid: "com.microsoft.azure.servicebus.Message.getExpiresAtUtc*"
-  name: "getExpiresAtUtc"
-  nameWithType: "Message.getExpiresAtUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.getExpiresAtUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getLockedUntilUtc*"
-  name: "getLockedUntilUtc"
-  nameWithType: "Message.getLockedUntilUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.getLockedUntilUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setLockedUntilUtc*"
-  name: "setLockedUntilUtc"
-  nameWithType: "Message.setLockedUntilUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.setLockedUntilUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc*"
-  name: "getEnqueuedTimeUtc"
-  nameWithType: "Message.getEnqueuedTimeUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setEnqueuedTimeUtc*"
-  name: "setEnqueuedTimeUtc"
-  nameWithType: "Message.setEnqueuedTimeUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.setEnqueuedTimeUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getSequenceNumber*"
-  name: "getSequenceNumber"
-  nameWithType: "Message.getSequenceNumber"
-  fullName: "com.microsoft.azure.servicebus.Message.getSequenceNumber"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setSequenceNumber*"
-  name: "setSequenceNumber"
-  nameWithType: "Message.setSequenceNumber"
-  fullName: "com.microsoft.azure.servicebus.Message.setSequenceNumber"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getSessionId*"
-  name: "getSessionId"
-  nameWithType: "Message.getSessionId"
-  fullName: "com.microsoft.azure.servicebus.Message.getSessionId"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setSessionId*"
-  name: "setSessionId"
-  nameWithType: "Message.setSessionId"
-  fullName: "com.microsoft.azure.servicebus.Message.setSessionId"
-  package: "com.microsoft.azure.servicebus"
-- uid: "java.util.Map<java.lang.String,java.lang.Object>"
+  - uid: java.time.Instant
+    name: Instant
+    fullName: java.time.Instant
+- uid: com.microsoft.azure.servicebus.Message.getExpiresAtUtc*
+  name: getExpiresAtUtc
+  nameWithType: Message.getExpiresAtUtc
+  fullName: com.microsoft.azure.servicebus.Message.getExpiresAtUtc
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getLockedUntilUtc*
+  name: getLockedUntilUtc
+  nameWithType: Message.getLockedUntilUtc
+  fullName: com.microsoft.azure.servicebus.Message.getLockedUntilUtc
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setLockedUntilUtc*
+  name: setLockedUntilUtc
+  nameWithType: Message.setLockedUntilUtc
+  fullName: com.microsoft.azure.servicebus.Message.setLockedUntilUtc
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc*
+  name: getEnqueuedTimeUtc
+  nameWithType: Message.getEnqueuedTimeUtc
+  fullName: com.microsoft.azure.servicebus.Message.getEnqueuedTimeUtc
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getSequenceNumber*
+  name: getSequenceNumber
+  nameWithType: Message.getSequenceNumber
+  fullName: com.microsoft.azure.servicebus.Message.getSequenceNumber
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getSessionId*
+  name: getSessionId
+  nameWithType: Message.getSessionId
+  fullName: com.microsoft.azure.servicebus.Message.getSessionId
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setSessionId*
+  name: setSessionId
+  nameWithType: Message.setSessionId
+  fullName: com.microsoft.azure.servicebus.Message.setSessionId
+  package: com.microsoft.azure.servicebus
+- uid: java.util.Map<java.lang.String,java.lang.Object>
   spec.java:
-  - uid: "java.util.Map"
-    name: "Map"
-    fullName: "java.util.Map"
-  - name: "<"
-    fullName: "<"
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-  - name: ","
-    fullName: ","
-  - uid: "java.lang.Object"
-    name: "Object"
-    fullName: "java.lang.Object"
-  - name: ">"
-    fullName: ">"
-- uid: "com.microsoft.azure.servicebus.Message.getProperties*"
-  name: "getProperties"
-  nameWithType: "Message.getProperties"
-  fullName: "com.microsoft.azure.servicebus.Message.getProperties"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setProperties*"
-  name: "setProperties"
-  nameWithType: "Message.setProperties"
-  fullName: "com.microsoft.azure.servicebus.Message.setProperties"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getCorrelationId*"
-  name: "getCorrelationId"
-  nameWithType: "Message.getCorrelationId"
-  fullName: "com.microsoft.azure.servicebus.Message.getCorrelationId"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setCorrelationId*"
-  name: "setCorrelationId"
-  nameWithType: "Message.setCorrelationId"
-  fullName: "com.microsoft.azure.servicebus.Message.setCorrelationId"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getTo*"
-  name: "getTo"
-  nameWithType: "Message.getTo"
-  fullName: "com.microsoft.azure.servicebus.Message.getTo"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setTo*"
-  name: "setTo"
-  nameWithType: "Message.setTo"
-  fullName: "com.microsoft.azure.servicebus.Message.setTo"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getReplyTo*"
-  name: "getReplyTo"
-  nameWithType: "Message.getReplyTo"
-  fullName: "com.microsoft.azure.servicebus.Message.getReplyTo"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setReplyTo*"
-  name: "setReplyTo"
-  nameWithType: "Message.setReplyTo"
-  fullName: "com.microsoft.azure.servicebus.Message.setReplyTo"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getLabel*"
-  name: "getLabel"
-  nameWithType: "Message.getLabel"
-  fullName: "com.microsoft.azure.servicebus.Message.getLabel"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setLabel*"
-  name: "setLabel"
-  nameWithType: "Message.setLabel"
-  fullName: "com.microsoft.azure.servicebus.Message.setLabel"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getReplyToSessionId*"
-  name: "getReplyToSessionId"
-  nameWithType: "Message.getReplyToSessionId"
-  fullName: "com.microsoft.azure.servicebus.Message.getReplyToSessionId"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setReplyToSessionId*"
-  name: "setReplyToSessionId"
-  nameWithType: "Message.setReplyToSessionId"
-  fullName: "com.microsoft.azure.servicebus.Message.setReplyToSessionId"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc*"
-  name: "getScheduledEnqueuedTimeUtc"
-  nameWithType: "Message.getScheduledEnqueuedTimeUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc*"
-  name: "setScheduledEnqueuedTimeUtc"
-  nameWithType: "Message.setScheduledEnqueuedTimeUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc*"
-  name: "getScheduledEnqueueTimeUtc"
-  nameWithType: "Message.getScheduledEnqueueTimeUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc*"
-  name: "setScheduledEnqueueTimeUtc"
-  nameWithType: "Message.setScheduledEnqueueTimeUtc"
-  fullName: "com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getPartitionKey*"
-  name: "getPartitionKey"
-  nameWithType: "Message.getPartitionKey"
-  fullName: "com.microsoft.azure.servicebus.Message.getPartitionKey"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setPartitionKey*"
-  name: "setPartitionKey"
-  nameWithType: "Message.setPartitionKey"
-  fullName: "com.microsoft.azure.servicebus.Message.setPartitionKey"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getViaPartitionKey*"
-  name: "getViaPartitionKey"
-  nameWithType: "Message.getViaPartitionKey"
-  fullName: "com.microsoft.azure.servicebus.Message.getViaPartitionKey"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setViaPartitionKey*"
-  name: "setViaPartitionKey"
-  nameWithType: "Message.setViaPartitionKey"
-  fullName: "com.microsoft.azure.servicebus.Message.setViaPartitionKey"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getDeadLetterSource*"
-  name: "getDeadLetterSource"
-  nameWithType: "Message.getDeadLetterSource"
-  fullName: "com.microsoft.azure.servicebus.Message.getDeadLetterSource"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setDeadLetterSource*"
-  name: "setDeadLetterSource"
-  nameWithType: "Message.setDeadLetterSource"
-  fullName: "com.microsoft.azure.servicebus.Message.setDeadLetterSource"
-  package: "com.microsoft.azure.servicebus"
-- uid: "java.util.UUID"
+  - uid: java.util.Map
+    name: Map
+    fullName: java.util.Map
+  - name: <
+    fullName: <
+  - uid: java.lang.String
+    name: String
+    fullName: java.lang.String
+  - name: ','
+    fullName: ','
+  - uid: java.lang.Object
+    name: Object
+    fullName: java.lang.Object
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.servicebus.Message.getProperties*
+  name: getProperties
+  nameWithType: Message.getProperties
+  fullName: com.microsoft.azure.servicebus.Message.getProperties
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setProperties*
+  name: setProperties
+  nameWithType: Message.setProperties
+  fullName: com.microsoft.azure.servicebus.Message.setProperties
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getCorrelationId*
+  name: getCorrelationId
+  nameWithType: Message.getCorrelationId
+  fullName: com.microsoft.azure.servicebus.Message.getCorrelationId
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setCorrelationId*
+  name: setCorrelationId
+  nameWithType: Message.setCorrelationId
+  fullName: com.microsoft.azure.servicebus.Message.setCorrelationId
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getTo*
+  name: getTo
+  nameWithType: Message.getTo
+  fullName: com.microsoft.azure.servicebus.Message.getTo
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setTo*
+  name: setTo
+  nameWithType: Message.setTo
+  fullName: com.microsoft.azure.servicebus.Message.setTo
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getReplyTo*
+  name: getReplyTo
+  nameWithType: Message.getReplyTo
+  fullName: com.microsoft.azure.servicebus.Message.getReplyTo
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setReplyTo*
+  name: setReplyTo
+  nameWithType: Message.setReplyTo
+  fullName: com.microsoft.azure.servicebus.Message.setReplyTo
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getLabel*
+  name: getLabel
+  nameWithType: Message.getLabel
+  fullName: com.microsoft.azure.servicebus.Message.getLabel
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setLabel*
+  name: setLabel
+  nameWithType: Message.setLabel
+  fullName: com.microsoft.azure.servicebus.Message.setLabel
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getReplyToSessionId*
+  name: getReplyToSessionId
+  nameWithType: Message.getReplyToSessionId
+  fullName: com.microsoft.azure.servicebus.Message.getReplyToSessionId
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setReplyToSessionId*
+  name: setReplyToSessionId
+  nameWithType: Message.setReplyToSessionId
+  fullName: com.microsoft.azure.servicebus.Message.setReplyToSessionId
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc*
+  name: getScheduledEnqueuedTimeUtc
+  nameWithType: Message.getScheduledEnqueuedTimeUtc
+  fullName: com.microsoft.azure.servicebus.Message.getScheduledEnqueuedTimeUtc
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc*
+  name: setScheduledEnqueuedTimeUtc
+  nameWithType: Message.setScheduledEnqueuedTimeUtc
+  fullName: com.microsoft.azure.servicebus.Message.setScheduledEnqueuedTimeUtc
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc*
+  name: getScheduledEnqueueTimeUtc
+  nameWithType: Message.getScheduledEnqueueTimeUtc
+  fullName: com.microsoft.azure.servicebus.Message.getScheduledEnqueueTimeUtc
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc*
+  name: setScheduledEnqueueTimeUtc
+  nameWithType: Message.setScheduledEnqueueTimeUtc
+  fullName: com.microsoft.azure.servicebus.Message.setScheduledEnqueueTimeUtc
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getPartitionKey*
+  name: getPartitionKey
+  nameWithType: Message.getPartitionKey
+  fullName: com.microsoft.azure.servicebus.Message.getPartitionKey
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setPartitionKey*
+  name: setPartitionKey
+  nameWithType: Message.setPartitionKey
+  fullName: com.microsoft.azure.servicebus.Message.setPartitionKey
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getViaPartitionKey*
+  name: getViaPartitionKey
+  nameWithType: Message.getViaPartitionKey
+  fullName: com.microsoft.azure.servicebus.Message.getViaPartitionKey
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setViaPartitionKey*
+  name: setViaPartitionKey
+  nameWithType: Message.setViaPartitionKey
+  fullName: com.microsoft.azure.servicebus.Message.setViaPartitionKey
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getDeadLetterSource*
+  name: getDeadLetterSource
+  nameWithType: Message.getDeadLetterSource
+  fullName: com.microsoft.azure.servicebus.Message.getDeadLetterSource
+  package: com.microsoft.azure.servicebus
+- uid: java.util.UUID
   spec.java:
-  - uid: "java.util.UUID"
-    name: "UUID"
-    fullName: "java.util.UUID"
-- uid: "com.microsoft.azure.servicebus.Message.getLockToken*"
-  name: "getLockToken"
-  nameWithType: "Message.getLockToken"
-  fullName: "com.microsoft.azure.servicebus.Message.getLockToken"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setLockToken*"
-  name: "setLockToken"
-  nameWithType: "Message.setLockToken"
-  fullName: "com.microsoft.azure.servicebus.Message.setLockToken"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getDeliveryTag*"
-  name: "getDeliveryTag"
-  nameWithType: "Message.getDeliveryTag"
-  fullName: "com.microsoft.azure.servicebus.Message.getDeliveryTag"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setDeliveryTag*"
-  name: "setDeliveryTag"
-  nameWithType: "Message.setDeliveryTag"
-  fullName: "com.microsoft.azure.servicebus.Message.setDeliveryTag"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getBody*"
-  name: "getBody"
-  nameWithType: "Message.getBody"
-  fullName: "com.microsoft.azure.servicebus.Message.getBody"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setBody*"
-  name: "setBody"
-  nameWithType: "Message.setBody"
-  fullName: "com.microsoft.azure.servicebus.Message.setBody"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.getMessageBody*"
-  name: "getMessageBody"
-  nameWithType: "Message.getMessageBody"
-  fullName: "com.microsoft.azure.servicebus.Message.getMessageBody"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.Message.setMessageBody*"
-  name: "setMessageBody"
-  nameWithType: "Message.setMessageBody"
-  fullName: "com.microsoft.azure.servicebus.Message.setMessageBody"
-  package: "com.microsoft.azure.servicebus"
-- uid: "com.microsoft.azure.servicebus.IMessage"
-  name: "IMessage"
-  nameWithType: "IMessage"
-  fullName: "com.microsoft.azure.servicebus.IMessage"
-- uid: "com.microsoft.azure.servicebus.Message.createCopy*"
-  name: "createCopy"
-  nameWithType: "Message.createCopy"
-  fullName: "com.microsoft.azure.servicebus.Message.createCopy"
-  package: "com.microsoft.azure.servicebus"
-- uid: "java.io.Serializable"
-  name: "Serializable"
-  nameWithType: "Serializable"
-  fullName: "java.io.Serializable"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
-- uid: "java.lang.String,java.lang.Object"
-  name: "String,Object"
-  nameWithType: "String,Object"
-  fullName: "java.lang.String,java.lang.Object"
-- uid: "java.util.Map"
-  name: "Map"
-  nameWithType: "Map"
-  fullName: "java.util.Map"
+  - uid: java.util.UUID
+    name: UUID
+    fullName: java.util.UUID
+- uid: com.microsoft.azure.servicebus.Message.getLockToken*
+  name: getLockToken
+  nameWithType: Message.getLockToken
+  fullName: com.microsoft.azure.servicebus.Message.getLockToken
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getBody*
+  name: getBody
+  nameWithType: Message.getBody
+  fullName: com.microsoft.azure.servicebus.Message.getBody
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setBody*
+  name: setBody
+  nameWithType: Message.setBody
+  fullName: com.microsoft.azure.servicebus.Message.setBody
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.getMessageBody*
+  name: getMessageBody
+  nameWithType: Message.getMessageBody
+  fullName: com.microsoft.azure.servicebus.Message.getMessageBody
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.Message.setMessageBody*
+  name: setMessageBody
+  nameWithType: Message.setMessageBody
+  fullName: com.microsoft.azure.servicebus.Message.setMessageBody
+  package: com.microsoft.azure.servicebus
+- uid: com.microsoft.azure.servicebus.IMessage
+  name: IMessage
+  nameWithType: IMessage
+  fullName: com.microsoft.azure.servicebus.IMessage
+- uid: com.microsoft.azure.servicebus.Message.createCopy*
+  name: createCopy
+  nameWithType: Message.createCopy
+  fullName: com.microsoft.azure.servicebus.Message.createCopy
+  package: com.microsoft.azure.servicebus
+- uid: java.io.Serializable
+  name: Serializable
+  nameWithType: Serializable
+  fullName: java.io.Serializable
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
+- uid: java.lang.String,java.lang.Object
+  name: String,Object
+  nameWithType: String,Object
+  fullName: java.lang.String,java.lang.Object
+- uid: java.util.Map
+  name: Map
+  nameWithType: Map
+  fullName: java.util.Map

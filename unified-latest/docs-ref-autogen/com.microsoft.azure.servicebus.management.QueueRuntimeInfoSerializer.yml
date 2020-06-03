@@ -1,132 +1,95 @@
 ### YamlMime:ManagedReference
 items:
-- uid: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer"
-  id: "QueueRuntimeInfoSerializer"
-  parent: "com.microsoft.azure.servicebus.management"
+- uid: com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer
+  id: QueueRuntimeInfoSerializer
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management
   children:
-  - "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer()"
-  - "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.parseFromContent(java.lang.String)"
+  - com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer()
   langs:
-  - "java"
-  name: "QueueRuntimeInfoSerializer"
-  nameWithType: "QueueRuntimeInfoSerializer"
-  fullName: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer"
-  type: "Class"
-  package: "com.microsoft.azure.servicebus.management"
+  - java
+  name: QueueRuntimeInfoSerializer
+  nameWithType: QueueRuntimeInfoSerializer
+  fullName: com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer
+  type: Class
+  package: com.microsoft.azure.servicebus.management
   syntax:
-    content: "public class QueueRuntimeInfoSerializer"
+    content: public class QueueRuntimeInfoSerializer
   inheritance:
-  - "java.lang.Object"
+  - java.lang.Object
   inheritedMembers:
-  - "java.lang.Object.clone()"
-  - "java.lang.Object.equals(java.lang.Object)"
-  - "java.lang.Object.finalize()"
-  - "java.lang.Object.getClass()"
-  - "java.lang.Object.hashCode()"
-  - "java.lang.Object.notify()"
-  - "java.lang.Object.notifyAll()"
-  - "java.lang.Object.toString()"
-  - "java.lang.Object.wait()"
-  - "java.lang.Object.wait(long)"
-  - "java.lang.Object.wait(long,int)"
-- uid: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer()"
-  id: "QueueRuntimeInfoSerializer()"
-  parent: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer"
+  - java.lang.Object.clone()
+  - java.lang.Object.equals(java.lang.Object)
+  - java.lang.Object.finalize()
+  - java.lang.Object.getClass()
+  - java.lang.Object.hashCode()
+  - java.lang.Object.notify()
+  - java.lang.Object.notifyAll()
+  - java.lang.Object.toString()
+  - java.lang.Object.wait()
+  - java.lang.Object.wait(long)
+  - java.lang.Object.wait(long,int)
+- uid: com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer()
+  id: QueueRuntimeInfoSerializer()
+  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  parent: com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer
   langs:
-  - "java"
-  name: "QueueRuntimeInfoSerializer()"
-  nameWithType: "QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer()"
-  fullName: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer()"
-  overload: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer*"
-  type: "Constructor"
-  package: "com.microsoft.azure.servicebus.management"
+  - java
+  name: QueueRuntimeInfoSerializer()
+  nameWithType: QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer()
+  fullName: com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer()
+  overload: com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer*
+  type: Constructor
+  package: com.microsoft.azure.servicebus.management
   syntax:
-    content: "public QueueRuntimeInfoSerializer()"
-- uid: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.parseFromContent(java.lang.String)"
-  id: "parseFromContent(java.lang.String)"
-  parent: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer"
-  langs:
-  - "java"
-  name: "parseFromContent(String xml)"
-  nameWithType: "QueueRuntimeInfoSerializer.parseFromContent(String xml)"
-  fullName: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.parseFromContent(String xml)"
-  overload: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.parseFromContent*"
-  type: "Method"
-  package: "com.microsoft.azure.servicebus.management"
-  syntax:
-    content: "static QueueRuntimeInfo parseFromContent(String xml)"
-    parameters:
-    - id: "xml"
-      type: "java.lang.String"
-    return:
-      type: "com.microsoft.azure.servicebus.management.QueueRuntimeInfo"
-  exceptions:
-  - type: "com.microsoft.azure.servicebus.primitives.MessagingEntityNotFoundException"
+    content: public QueueRuntimeInfoSerializer()
 references:
-- uid: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer*"
-  name: "QueueRuntimeInfoSerializer"
-  nameWithType: "QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer"
-  fullName: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "com.microsoft.azure.servicebus.primitives.MessagingEntityNotFoundException"
-  name: "MessagingEntityNotFoundException"
-  nameWithType: "MessagingEntityNotFoundException"
-  fullName: "com.microsoft.azure.servicebus.primitives.MessagingEntityNotFoundException"
-- uid: "java.lang.String"
-  spec.java:
-  - uid: "java.lang.String"
-    name: "String"
-    fullName: "java.lang.String"
-- uid: "com.microsoft.azure.servicebus.management.QueueRuntimeInfo"
-  name: "QueueRuntimeInfo"
-  nameWithType: "QueueRuntimeInfo"
-  fullName: "com.microsoft.azure.servicebus.management.QueueRuntimeInfo"
-- uid: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.parseFromContent*"
-  name: "parseFromContent"
-  nameWithType: "QueueRuntimeInfoSerializer.parseFromContent"
-  fullName: "com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.parseFromContent"
-  package: "com.microsoft.azure.servicebus.management"
-- uid: "java.lang.Object.notify()"
-  name: "Object.notify()"
-  nameWithType: "Object.notify()"
-  fullName: "java.lang.Object.notify()"
-- uid: "java.lang.Object.wait()"
-  name: "Object.wait()"
-  nameWithType: "Object.wait()"
-  fullName: "java.lang.Object.wait()"
-- uid: "java.lang.Object.finalize()"
-  name: "Object.finalize()"
-  nameWithType: "Object.finalize()"
-  fullName: "java.lang.Object.finalize()"
-- uid: "java.lang.Object.clone()"
-  name: "Object.clone()"
-  nameWithType: "Object.clone()"
-  fullName: "java.lang.Object.clone()"
-- uid: "java.lang.Object.notifyAll()"
-  name: "Object.notifyAll()"
-  nameWithType: "Object.notifyAll()"
-  fullName: "java.lang.Object.notifyAll()"
-- uid: "java.lang.Object.equals(java.lang.Object)"
-  name: "Object.equals(Object)"
-  nameWithType: "Object.equals(Object)"
-  fullName: "java.lang.Object.equals(java.lang.Object)"
-- uid: "java.lang.Object.getClass()"
-  name: "Object.getClass()"
-  nameWithType: "Object.getClass()"
-  fullName: "java.lang.Object.getClass()"
-- uid: "java.lang.Object.wait(long)"
-  name: "Object.wait(long)"
-  nameWithType: "Object.wait(long)"
-  fullName: "java.lang.Object.wait(long)"
-- uid: "java.lang.Object.hashCode()"
-  name: "Object.hashCode()"
-  nameWithType: "Object.hashCode()"
-  fullName: "java.lang.Object.hashCode()"
-- uid: "java.lang.Object.wait(long,int)"
-  name: "Object.wait(long,int)"
-  nameWithType: "Object.wait(long,int)"
-  fullName: "java.lang.Object.wait(long,int)"
-- uid: "java.lang.Object.toString()"
-  name: "Object.toString()"
-  nameWithType: "Object.toString()"
-  fullName: "java.lang.Object.toString()"
+- uid: com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer*
+  name: QueueRuntimeInfoSerializer
+  nameWithType: QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer
+  fullName: com.microsoft.azure.servicebus.management.QueueRuntimeInfoSerializer.QueueRuntimeInfoSerializer
+  package: com.microsoft.azure.servicebus.management
+- uid: java.lang.Object.notify()
+  name: Object.notify()
+  nameWithType: Object.notify()
+  fullName: java.lang.Object.notify()
+- uid: java.lang.Object.wait()
+  name: Object.wait()
+  nameWithType: Object.wait()
+  fullName: java.lang.Object.wait()
+- uid: java.lang.Object.finalize()
+  name: Object.finalize()
+  nameWithType: Object.finalize()
+  fullName: java.lang.Object.finalize()
+- uid: java.lang.Object.clone()
+  name: Object.clone()
+  nameWithType: Object.clone()
+  fullName: java.lang.Object.clone()
+- uid: java.lang.Object.notifyAll()
+  name: Object.notifyAll()
+  nameWithType: Object.notifyAll()
+  fullName: java.lang.Object.notifyAll()
+- uid: java.lang.Object.equals(java.lang.Object)
+  name: Object.equals(Object)
+  nameWithType: Object.equals(Object)
+  fullName: java.lang.Object.equals(java.lang.Object)
+- uid: java.lang.Object.getClass()
+  name: Object.getClass()
+  nameWithType: Object.getClass()
+  fullName: java.lang.Object.getClass()
+- uid: java.lang.Object.wait(long)
+  name: Object.wait(long)
+  nameWithType: Object.wait(long)
+  fullName: java.lang.Object.wait(long)
+- uid: java.lang.Object.hashCode()
+  name: Object.hashCode()
+  nameWithType: Object.hashCode()
+  fullName: java.lang.Object.hashCode()
+- uid: java.lang.Object.wait(long,int)
+  name: Object.wait(long,int)
+  nameWithType: Object.wait(long,int)
+  fullName: java.lang.Object.wait(long,int)
+- uid: java.lang.Object.toString()
+  name: Object.toString()
+  nameWithType: Object.toString()
+  fullName: java.lang.Object.toString()
