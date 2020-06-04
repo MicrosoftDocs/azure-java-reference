@@ -2,7 +2,7 @@
 items:
 - uid: com.microsoft.azure.servicebus.primitives
   id: primitives
-  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  artifact: com.microsoft.azure:azure-servicebus:3.3.0
   children:
   - com.microsoft.azure.servicebus.primitives.AuthorizationFailedException
   - com.microsoft.azure.servicebus.primitives.ClientConstants

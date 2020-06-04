@@ -2,7 +2,7 @@
 items:
 - uid: com.microsoft.azure.servicebus.IMessageSessionEntity
   id: IMessageSessionEntity
-  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  artifact: com.microsoft.azure:azure-servicebus:3.3.0
   parent: com.microsoft.azure.servicebus
   children:
   - com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessions()
@@ -21,7 +21,7 @@ items:
     content: public interface IMessageSessionEntity
 - uid: com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessions()
   id: getMessageSessions()
-  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  artifact: com.microsoft.azure:azure-servicebus:3.3.0
   parent: com.microsoft.azure.servicebus.IMessageSessionEntity
   langs:
   - java
@@ -31,7 +31,7 @@ items:
   overload: com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessions*
   type: Method
   package: com.microsoft.azure.servicebus
-  summary: Gets the message sessions, enabling you to browse sessions on queues.
+  summary: Gets the message sessions, enabling you to browse sessions on queues. Only sessions with active messages in the queue are returned. The sessions on the deadletter queue or sessions having a SessionState as 'active' and no messages are not returned with this call.
   syntax:
     content: public abstract Collection<IMessageSession> getMessageSessions()
     return:
@@ -44,7 +44,7 @@ items:
     description: if the current thread was interrupted while waiting.
 - uid: com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessions(java.time.Instant)
   id: getMessageSessions(java.time.Instant)
-  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  artifact: com.microsoft.azure:azure-servicebus:3.3.0
   parent: com.microsoft.azure.servicebus.IMessageSessionEntity
   langs:
   - java
@@ -54,7 +54,7 @@ items:
   overload: com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessions*
   type: Method
   package: com.microsoft.azure.servicebus
-  summary: Retrieves all message sessions whose session state was updated since lastUpdatedTime.
+  summary: Retrieves all message sessions whose session state was updated since lastUpdatedTime. Only sessions with active messages in the queue are returned. The sessions on the deadletter queue or sessions having a SessionState as 'active' and no messages are not returned with this call.
   syntax:
     content: public abstract Collection<IMessageSession> getMessageSessions(Instant lastUpdatedTime)
     parameters:
@@ -71,7 +71,7 @@ items:
     description: if the current thread was interrupted while waiting.
 - uid: com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessionsAsync()
   id: getMessageSessionsAsync()
-  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  artifact: com.microsoft.azure:azure-servicebus:3.3.0
   parent: com.microsoft.azure.servicebus.IMessageSessionEntity
   langs:
   - java
@@ -81,7 +81,7 @@ items:
   overload: com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessionsAsync*
   type: Method
   package: com.microsoft.azure.servicebus
-  summary: Asynchronously gets the message sessions, enabling you to browse sessions on queues.
+  summary: Asynchronously gets the message sessions, enabling you to browse sessions on queues. Only sessions with active messages in the queue are returned. The sessions on the deadletter queue or sessions having a SessionState as 'active' and no messages are not returned with this call.
   syntax:
     content: public abstract CompletableFuture<Collection<IMessageSession>> getMessageSessionsAsync()
     return:
@@ -89,7 +89,7 @@ items:
       description: a CompletableFuture representing the pending operation to get sessions.
 - uid: com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessionsAsync(java.time.Instant)
   id: getMessageSessionsAsync(java.time.Instant)
-  artifact: com.microsoft.azure:azure-servicebus:3.2.0
+  artifact: com.microsoft.azure:azure-servicebus:3.3.0
   parent: com.microsoft.azure.servicebus.IMessageSessionEntity
   langs:
   - java
@@ -99,7 +99,7 @@ items:
   overload: com.microsoft.azure.servicebus.IMessageSessionEntity.getMessageSessionsAsync*
   type: Method
   package: com.microsoft.azure.servicebus
-  summary: Asynchronously retrieves all message sessions whose session state was updated since lastUpdatedTime.
+  summary: Asynchronously retrieves all message sessions whose session state was updated since lastUpdatedTime. Only sessions with active messages in the queue are returned. The sessions on the deadletter queue or sessions having a SessionState as 'active' and no messages are not returned with this call.
   syntax:
     content: public abstract CompletableFuture<Collection<IMessageSession>> getMessageSessionsAsync(Instant lastUpdatedTime)
     parameters:
