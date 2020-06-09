@@ -5,7 +5,6 @@ items:
   artifact: com.azure:azure-storage-file-share:12.2.0
   children:
   - com.azure.storage.file.share.implementation.models.CopyFileSmbInfo
-  - com.azure.storage.file.share.implementation.models.CustomFileAndDirectoryListingDeserializer
   - com.azure.storage.file.share.implementation.models.DeleteSnapshotsOptionType
   - com.azure.storage.file.share.implementation.models.DirectoryCreateHeaders
   - com.azure.storage.file.share.implementation.models.DirectoryDeleteHeaders
@@ -66,10 +65,8 @@ items:
   - com.azure.storage.file.share.implementation.models.LeaseStatusType
   - com.azure.storage.file.share.implementation.models.ListFilesAndDirectoriesSegmentResponse
   - com.azure.storage.file.share.implementation.models.ListHandlesResponse
-  - com.azure.storage.file.share.implementation.models.ListHandlesResponse.EntriesWrapper
   - com.azure.storage.file.share.implementation.models.ListSharesIncludeType
   - com.azure.storage.file.share.implementation.models.ListSharesResponse
-  - com.azure.storage.file.share.implementation.models.ListSharesResponse.SharesWrapper
   - com.azure.storage.file.share.implementation.models.ServiceGetPropertiesHeaders
   - com.azure.storage.file.share.implementation.models.ServiceListSharesSegmentHeaders
   - com.azure.storage.file.share.implementation.models.ServiceSetPropertiesHeaders
@@ -117,10 +114,6 @@ references:
   name: CopyFileSmbInfo
   nameWithType: CopyFileSmbInfo
   fullName: com.azure.storage.file.share.implementation.models.CopyFileSmbInfo
-- uid: com.azure.storage.file.share.implementation.models.CustomFileAndDirectoryListingDeserializer
-  name: CustomFileAndDirectoryListingDeserializer
-  nameWithType: CustomFileAndDirectoryListingDeserializer
-  fullName: com.azure.storage.file.share.implementation.models.CustomFileAndDirectoryListingDeserializer
 - uid: com.azure.storage.file.share.implementation.models.DeleteSnapshotsOptionType
   name: DeleteSnapshotsOptionType
   nameWithType: DeleteSnapshotsOptionType
@@ -361,10 +354,6 @@ references:
   name: ListHandlesResponse
   nameWithType: ListHandlesResponse
   fullName: com.azure.storage.file.share.implementation.models.ListHandlesResponse
-- uid: com.azure.storage.file.share.implementation.models.ListHandlesResponse.EntriesWrapper
-  name: ListHandlesResponse.EntriesWrapper
-  nameWithType: ListHandlesResponse.EntriesWrapper
-  fullName: com.azure.storage.file.share.implementation.models.ListHandlesResponse.EntriesWrapper
 - uid: com.azure.storage.file.share.implementation.models.ListSharesIncludeType
   name: ListSharesIncludeType
   nameWithType: ListSharesIncludeType
@@ -373,10 +362,6 @@ references:
   name: ListSharesResponse
   nameWithType: ListSharesResponse
   fullName: com.azure.storage.file.share.implementation.models.ListSharesResponse
-- uid: com.azure.storage.file.share.implementation.models.ListSharesResponse.SharesWrapper
-  name: ListSharesResponse.SharesWrapper
-  nameWithType: ListSharesResponse.SharesWrapper
-  fullName: com.azure.storage.file.share.implementation.models.ListSharesResponse.SharesWrapper
 - uid: com.azure.storage.file.share.implementation.models.ServiceGetPropertiesHeaders
   name: ServiceGetPropertiesHeaders
   nameWithType: ServiceGetPropertiesHeaders

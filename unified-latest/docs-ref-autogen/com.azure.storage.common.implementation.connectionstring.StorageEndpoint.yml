@@ -184,9 +184,10 @@ references:
   fullName: com.azure.storage.common.implementation.connectionstring.StorageEndpoint.getSecondaryUri
   package: com.azure.storage.common.implementation.connectionstring
 - uid: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
-  name: ConnectionSettings
-  nameWithType: ConnectionSettings
-  fullName: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
+  spec.java:
+  - uid: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
+    name: ConnectionSettings
+    fullName: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
 - uid: java.lang.Boolean
   spec.java:
   - uid: java.lang.Boolean

@@ -6,7 +6,6 @@ items:
   children:
   - com.azure.storage.queue.implementation.models.ListQueuesIncludeType
   - com.azure.storage.queue.implementation.models.ListQueuesSegmentResponse
-  - com.azure.storage.queue.implementation.models.ListQueuesSegmentResponse.QueuesWrapper
   - com.azure.storage.queue.implementation.models.MessageIdDeleteHeaders
   - com.azure.storage.queue.implementation.models.MessageIdUpdateHeaders
   - com.azure.storage.queue.implementation.models.MessageIdsDeleteResponse
@@ -60,10 +59,6 @@ references:
   name: ListQueuesSegmentResponse
   nameWithType: ListQueuesSegmentResponse
   fullName: com.azure.storage.queue.implementation.models.ListQueuesSegmentResponse
-- uid: com.azure.storage.queue.implementation.models.ListQueuesSegmentResponse.QueuesWrapper
-  name: ListQueuesSegmentResponse.QueuesWrapper
-  nameWithType: ListQueuesSegmentResponse.QueuesWrapper
-  fullName: com.azure.storage.queue.implementation.models.ListQueuesSegmentResponse.QueuesWrapper
 - uid: com.azure.storage.queue.implementation.models.MessageIdDeleteHeaders
   name: MessageIdDeleteHeaders
   nameWithType: MessageIdDeleteHeaders

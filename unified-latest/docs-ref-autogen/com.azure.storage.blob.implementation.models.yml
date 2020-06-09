@@ -15,7 +15,6 @@ items:
   - com.azure.storage.blob.implementation.models.BlobBreakLeaseHeaders
   - com.azure.storage.blob.implementation.models.BlobChangeLeaseHeaders
   - com.azure.storage.blob.implementation.models.BlobContainersSegment
-  - com.azure.storage.blob.implementation.models.BlobContainersSegment.ContainersWrapper
   - com.azure.storage.blob.implementation.models.BlobCopyFromURLHeaders
   - com.azure.storage.blob.implementation.models.BlobCreateSnapshotHeaders
   - com.azure.storage.blob.implementation.models.BlobDeleteHeaders
@@ -91,7 +90,6 @@ items:
   - com.azure.storage.blob.implementation.models.ContainersRenewLeaseResponse
   - com.azure.storage.blob.implementation.models.ContainersSetAccessPolicyResponse
   - com.azure.storage.blob.implementation.models.ContainersSetMetadataResponse
-  - com.azure.storage.blob.implementation.models.CustomHierarchicalListingDeserializer
   - com.azure.storage.blob.implementation.models.DataLakeStorageError
   - com.azure.storage.blob.implementation.models.DataLakeStorageErrorError
   - com.azure.storage.blob.implementation.models.DataLakeStorageErrorException
@@ -198,10 +196,6 @@ references:
   name: BlobContainersSegment
   nameWithType: BlobContainersSegment
   fullName: com.azure.storage.blob.implementation.models.BlobContainersSegment
-- uid: com.azure.storage.blob.implementation.models.BlobContainersSegment.ContainersWrapper
-  name: BlobContainersSegment.ContainersWrapper
-  nameWithType: BlobContainersSegment.ContainersWrapper
-  fullName: com.azure.storage.blob.implementation.models.BlobContainersSegment.ContainersWrapper
 - uid: com.azure.storage.blob.implementation.models.BlobCopyFromURLHeaders
   name: BlobCopyFromURLHeaders
   nameWithType: BlobCopyFromURLHeaders
@@ -502,10 +496,6 @@ references:
   name: ContainersSetMetadataResponse
   nameWithType: ContainersSetMetadataResponse
   fullName: com.azure.storage.blob.implementation.models.ContainersSetMetadataResponse
-- uid: com.azure.storage.blob.implementation.models.CustomHierarchicalListingDeserializer
-  name: CustomHierarchicalListingDeserializer
-  nameWithType: CustomHierarchicalListingDeserializer
-  fullName: com.azure.storage.blob.implementation.models.CustomHierarchicalListingDeserializer
 - uid: com.azure.storage.blob.implementation.models.DataLakeStorageError
   name: DataLakeStorageError
   nameWithType: DataLakeStorageError

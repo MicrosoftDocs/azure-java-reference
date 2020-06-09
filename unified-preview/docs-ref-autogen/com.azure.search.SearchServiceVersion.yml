@@ -104,7 +104,6 @@ items:
   overload: com.azure.search.SearchServiceVersion.getVersion*
   type: Method
   package: com.azure.search
-  summary: '\{@inheritDoc\}'
   syntax:
     content: public String getVersion()
     return:

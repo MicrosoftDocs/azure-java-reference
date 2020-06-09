@@ -428,10 +428,6 @@ references:
   name: Object.toString()
   nameWithType: Object.toString()
   fullName: java.lang.Object.toString()
-- uid: com.azure.storage.queue.implementation.models.ListQueuesSegmentResponse.QueuesWrapper
-  name: ListQueuesSegmentResponse.QueuesWrapper
-  nameWithType: ListQueuesSegmentResponse.QueuesWrapper
-  fullName: com.azure.storage.queue.implementation.models.ListQueuesSegmentResponse.QueuesWrapper
 - uid: java.util.List
   name: List
   nameWithType: List

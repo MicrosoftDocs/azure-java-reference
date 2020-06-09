@@ -23,11 +23,11 @@ references:
   name: DomainTopic.DefinitionStages.Blank
   nameWithType: DomainTopic.DefinitionStages.Blank
   fullName: com.microsoft.azure.management.eventgrid.v2019_06_01.DomainTopic.DefinitionStages.Blank
-- uid: com.microsoft.azure.management.eventgrid.v2019_06_01.DomainTopic.DefinitionStages.WithDomain
-  name: DomainTopic.DefinitionStages.WithDomain
-  nameWithType: DomainTopic.DefinitionStages.WithDomain
-  fullName: com.microsoft.azure.management.eventgrid.v2019_06_01.DomainTopic.DefinitionStages.WithDomain
 - uid: com.microsoft.azure.management.eventgrid.v2019_06_01.DomainTopic.DefinitionStages.WithCreate
   name: DomainTopic.DefinitionStages.WithCreate
   nameWithType: DomainTopic.DefinitionStages.WithCreate
   fullName: com.microsoft.azure.management.eventgrid.v2019_06_01.DomainTopic.DefinitionStages.WithCreate
+- uid: com.microsoft.azure.management.eventgrid.v2019_06_01.DomainTopic.DefinitionStages.WithDomain
+  name: DomainTopic.DefinitionStages.WithDomain
+  nameWithType: DomainTopic.DefinitionStages.WithDomain
+  fullName: com.microsoft.azure.management.eventgrid.v2019_06_01.DomainTopic.DefinitionStages.WithDomain

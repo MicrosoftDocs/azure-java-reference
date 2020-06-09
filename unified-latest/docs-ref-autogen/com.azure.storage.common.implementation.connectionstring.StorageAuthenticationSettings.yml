@@ -214,9 +214,10 @@ references:
   fullName: com.azure.storage.common.implementation.connectionstring.StorageAuthenticationSettings.getAccount
   package: com.azure.storage.common.implementation.connectionstring
 - uid: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
-  name: ConnectionSettings
-  nameWithType: ConnectionSettings
-  fullName: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
+  spec.java:
+  - uid: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
+    name: ConnectionSettings
+    fullName: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
 - uid: com.azure.storage.common.implementation.connectionstring.StorageAuthenticationSettings.fromConnectionSettings*
   name: fromConnectionSettings
   nameWithType: StorageAuthenticationSettings.fromConnectionSettings

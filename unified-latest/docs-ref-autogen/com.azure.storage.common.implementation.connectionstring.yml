@@ -4,15 +4,11 @@ items:
   id: connectionstring
   artifact: com.azure:azure-storage-common:12.5.0
   children:
-  - com.azure.storage.common.implementation.connectionstring.ConnectionSettings
-  - com.azure.storage.common.implementation.connectionstring.ConnectionSettingsFilter
   - com.azure.storage.common.implementation.connectionstring.StorageAuthenticationSettings
   - com.azure.storage.common.implementation.connectionstring.StorageAuthenticationSettings.Account
   - com.azure.storage.common.implementation.connectionstring.StorageAuthenticationSettings.Type
   - com.azure.storage.common.implementation.connectionstring.StorageConnectionString
-  - com.azure.storage.common.implementation.connectionstring.StorageEmulatorConnectionString
   - com.azure.storage.common.implementation.connectionstring.StorageEndpoint
-  - com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString
   langs:
   - java
   name: com.azure.storage.common.implementation.connectionstring
@@ -22,14 +18,6 @@ items:
   syntax:
     content: package com.azure.storage.common.implementation.connectionstring
 references:
-- uid: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
-  name: ConnectionSettings
-  nameWithType: ConnectionSettings
-  fullName: com.azure.storage.common.implementation.connectionstring.ConnectionSettings
-- uid: com.azure.storage.common.implementation.connectionstring.ConnectionSettingsFilter
-  name: ConnectionSettingsFilter
-  nameWithType: ConnectionSettingsFilter
-  fullName: com.azure.storage.common.implementation.connectionstring.ConnectionSettingsFilter
 - uid: com.azure.storage.common.implementation.connectionstring.StorageAuthenticationSettings
   name: StorageAuthenticationSettings
   nameWithType: StorageAuthenticationSettings
@@ -46,15 +34,7 @@ references:
   name: StorageConnectionString
   nameWithType: StorageConnectionString
   fullName: com.azure.storage.common.implementation.connectionstring.StorageConnectionString
-- uid: com.azure.storage.common.implementation.connectionstring.StorageEmulatorConnectionString
-  name: StorageEmulatorConnectionString
-  nameWithType: StorageEmulatorConnectionString
-  fullName: com.azure.storage.common.implementation.connectionstring.StorageEmulatorConnectionString
 - uid: com.azure.storage.common.implementation.connectionstring.StorageEndpoint
   name: StorageEndpoint
   nameWithType: StorageEndpoint
   fullName: com.azure.storage.common.implementation.connectionstring.StorageEndpoint
-- uid: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString
-  name: StorageServiceConnectionString
-  nameWithType: StorageServiceConnectionString
-  fullName: com.azure.storage.common.implementation.connectionstring.StorageServiceConnectionString

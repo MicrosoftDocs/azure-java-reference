@@ -428,10 +428,6 @@ references:
   name: Object.toString()
   nameWithType: Object.toString()
   fullName: java.lang.Object.toString()
-- uid: com.azure.storage.blob.implementation.models.BlobContainersSegment.ContainersWrapper
-  name: BlobContainersSegment.ContainersWrapper
-  nameWithType: BlobContainersSegment.ContainersWrapper
-  fullName: com.azure.storage.blob.implementation.models.BlobContainersSegment.ContainersWrapper
 - uid: java.util.List
   name: List
   nameWithType: List
