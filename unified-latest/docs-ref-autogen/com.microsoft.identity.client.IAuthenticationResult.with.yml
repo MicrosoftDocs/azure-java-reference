@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+type: method
+artifact: com.microsoft.store:partnercenter:1.15.3
+fullName: com.microsoft.identity.client.IAuthenticationResult.with
+members:
+- fullName: com.microsoft.identity.client.IAuthenticationResult.with()
+  name: with(IRequestContext context)
+  nameWithType: IAuthenticationResult.with()
+  summary: For testing xref resolve. Returns a partner operations object which uses the provided context when executing operations.
+  syntax: public IPartner with(IRequestContext context)
+  uid: com.microsoft.identity.client.IAuthenticationResult.with()
+metadata: {}
+name: with
+nameWithType: IAuthenticationResult.with
+package: com.microsoft.store.partnercenter
+uid: com.microsoft.identity.client.IAuthenticationResult.with*

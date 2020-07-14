@@ -633,8 +633,3 @@
       landingPageType: Service
       children:
       - com.microsoft.azure.management.compute*
-  - name: Other
-    uid: azure.java.sdk.landingPage.services.other
-    landingPageType: Service
-    children:
-    - '*'
