@@ -1,17 +1,20 @@
+### YamlMime:TableOfContent
 items:
-- uid: com.microsoft.store.partnercenter.landingpage.reference
-  name: Reference
-  items: []
-  landingPageType: Root
-  expanded: true
-- uid: com.microsoft.store.partnercenter.AggregatePartnerOperations.with*
-  name: with
-  type: Method
-- uid: com.microsoft.store.partnercenter.AggregatePartnerOperations.ADD_APPLICATION_CREDENTIAL
-  name: ADD_APPLICATION_CREDENTIAL
-  type: field
-- uid: com.microsoft.store.partnercenter.AggregatePartnerOperations.AggregatePartnerOperations*
+- uid: com.microsoft.store.partnercenter.AggregatePartnerOperations
   name: AggregatePartnerOperations
-  type: constructor
-metadata:
-  universal_conceptual_toc: /java-sandbox/java-sandbox/toc.json
+  items: 
+  - uid: com.microsoft.store.partnercenter.AggregatePartnerOperations.with*
+    name: with
+    type: Method
+  - uid: com.microsoft.store.partnercenter.AggregatePartnerOperations.ADD_APPLICATION_CREDENTIAL
+    name: ADD_APPLICATION_CREDENTIAL
+    type: field
+  - uid: com.microsoft.store.partnercenter.AggregatePartnerOperations.AggregatePartnerOperations*
+    name: AggregatePartnerOperations
+    type: constructor
+- uid: com.microsoft.store.partnercenter.IPartnerComponent
+  name: IPartnerComponent
+  items:
+  - uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext*
+    name: getContext
+    type: Method
