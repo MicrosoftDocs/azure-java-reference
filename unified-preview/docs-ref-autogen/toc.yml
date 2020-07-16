@@ -18,3 +18,5 @@ items:
   - uid: com.microsoft.store.partnercenter.IPartnerComponent.getContext*
     name: getContext
     type: Method
+- uid: com.microsoft.store.partnercenter.FieldFilterOperation
+  name: FieldFilterOperation
