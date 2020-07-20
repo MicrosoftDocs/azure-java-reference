@@ -17,7 +17,8 @@
         "LandingData": "Content",
         "JavaMember": "Content",
         "JavaType": "Content",
-        "JavaEnum": "Content"
+        "JavaEnum": "Content",
+        "JavaPackage": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
@@ -43,7 +44,7 @@
       {
         "path_to_root": "_themes",
         "url": "https://github.com/Microsoft/templates.docs.msft",
-        "branch": "pr-29185",
+        "branch": "pr-29428",
         "branch_mapping": {}
       }
     ],
