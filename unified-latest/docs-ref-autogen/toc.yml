@@ -6199,8 +6199,16 @@
 - uid: com.microsoft.azure.management.resources
   name: com.microsoft.azure.management.resources
   items:
+  - uid: com.microsoft.azure.management.resources.Alias
+    name: Alias
+  - uid: com.microsoft.azure.management.resources.AliasPath
+    name: AliasPath
   - uid: com.microsoft.azure.management.resources.AliasPathType
     name: AliasPathType
+  - uid: com.microsoft.azure.management.resources.AliasPattern
+    name: AliasPattern
+  - uid: com.microsoft.azure.management.resources.AliasPatternType
+    name: AliasPatternType
   - uid: com.microsoft.azure.management.resources.AliasType
     name: AliasType
   - uid: com.microsoft.azure.management.resources.BasicDependency
@@ -6285,8 +6293,12 @@
     name: DeploymentWhatIfSettings
   - uid: com.microsoft.azure.management.resources.Deployments
     name: Deployments
+  - uid: com.microsoft.azure.management.resources.DeploymentsWhatIfAtManagementGroupScopeHeaders
+    name: DeploymentsWhatIfAtManagementGroupScopeHeaders
   - uid: com.microsoft.azure.management.resources.DeploymentsWhatIfAtSubscriptionScopeHeaders
     name: DeploymentsWhatIfAtSubscriptionScopeHeaders
+  - uid: com.microsoft.azure.management.resources.DeploymentsWhatIfAtTenantScopeHeaders
+    name: DeploymentsWhatIfAtTenantScopeHeaders
   - uid: com.microsoft.azure.management.resources.DeploymentsWhatIfHeaders
     name: DeploymentsWhatIfHeaders
   - uid: com.microsoft.azure.management.resources.ErrorAdditionalInfo
@@ -6349,6 +6361,8 @@
     name: IdentityUserAssignedIdentitiesValue
   - uid: com.microsoft.azure.management.resources.Location
     name: Location
+  - uid: com.microsoft.azure.management.resources.ManagedByTenant
+    name: ManagedByTenant
   - uid: com.microsoft.azure.management.resources.OnErrorDeployment
     name: OnErrorDeployment
   - uid: com.microsoft.azure.management.resources.OnErrorDeploymentExtended
@@ -6427,6 +6441,10 @@
     name: ProviderResourceType
   - uid: com.microsoft.azure.management.resources.Providers
     name: Providers
+  - uid: com.microsoft.azure.management.resources.ProvisioningOperation
+    name: ProvisioningOperation
+  - uid: com.microsoft.azure.management.resources.ProvisioningState
+    name: ProvisioningState
   - uid: com.microsoft.azure.management.resources.ResourceConnector
     name: ResourceConnector
   - uid: com.microsoft.azure.management.resources.ResourceConnector.Builder
@@ -6463,14 +6481,26 @@
     name: ResourceIdentityType
   - uid: com.microsoft.azure.management.resources.ResourceManagementErrorWithDetails
     name: ResourceManagementErrorWithDetails
+  - uid: com.microsoft.azure.management.resources.ResourceName
+    name: ResourceName
+  - uid: com.microsoft.azure.management.resources.ResourceNameStatus
+    name: ResourceNameStatus
   - uid: com.microsoft.azure.management.resources.ResourceProviderOperationDisplayProperties
     name: ResourceProviderOperationDisplayProperties
+  - uid: com.microsoft.azure.management.resources.ResourceReference
+    name: ResourceReference
   - uid: com.microsoft.azure.management.resources.ResourcesMoveInfo
     name: ResourcesMoveInfo
+  - uid: com.microsoft.azure.management.resources.ScopedDeployment
+    name: ScopedDeployment
+  - uid: com.microsoft.azure.management.resources.ScopedDeploymentWhatIf
+    name: ScopedDeploymentWhatIf
   - uid: com.microsoft.azure.management.resources.Sku
     name: Sku
   - uid: com.microsoft.azure.management.resources.SpendingLimit
     name: SpendingLimit
+  - uid: com.microsoft.azure.management.resources.StatusMessage
+    name: StatusMessage
   - uid: com.microsoft.azure.management.resources.Subscription
     name: Subscription
   - uid: com.microsoft.azure.management.resources.SubscriptionPolicies
@@ -6481,6 +6511,12 @@
     name: Subscriptions
   - uid: com.microsoft.azure.management.resources.TagCount
     name: TagCount
+  - uid: com.microsoft.azure.management.resources.TagOperation
+    name: TagOperation
+  - uid: com.microsoft.azure.management.resources.Tags
+    name: Tags
+  - uid: com.microsoft.azure.management.resources.TagsPatchResource
+    name: TagsPatchResource
   - uid: com.microsoft.azure.management.resources.TargetResource
     name: TargetResource
   - uid: com.microsoft.azure.management.resources.TemplateLink
