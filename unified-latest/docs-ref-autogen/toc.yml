@@ -6556,6 +6556,10 @@
     name: ResourceNamer
   - uid: com.microsoft.azure.management.resources.fluentcore.utils.ResourceNamerFactory
     name: ResourceNamerFactory
+  - uid: com.microsoft.azure.management.resources.fluentcore.utils.ReturnRequestIdHeaderInterceptor
+    name: ReturnRequestIdHeaderInterceptor
+  - uid: com.microsoft.azure.management.resources.fluentcore.utils.ReturnRequestIdHeaderInterceptor.Option
+    name: ReturnRequestIdHeaderInterceptor.Option
   - uid: com.microsoft.azure.management.resources.fluentcore.utils.SdkContext
     name: SdkContext
   - uid: com.microsoft.azure.management.resources.fluentcore.utils.Utils
